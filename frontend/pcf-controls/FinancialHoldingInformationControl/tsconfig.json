@@ -1,0 +1,6 @@
+{
+    "extends": "../tsconfig.base.pcf.json",
+    "compilerOptions": {
+        "typeRoots": ["node_modules/@types", "../pcf-common/internals/ts/es6/**/*.d.ts", "../pcf-common/internals/*.d.ts"]
+    }
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginAssemblyId="5df2c9b1-2503-45d8-a921-15a3ca60d6dd" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/MicrosoftCloudForFSIFSIRetailBankingCoreComponentsPlugins-5DF2C9B1-2503-45D8-A921-15A3CA60D6DD/MicrosoftCloudForFSIFSIRetailBankingCoreComponentsPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.CustomWorkflow.CI.Integration.CalculatedFieldsActivity, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="bb1d3038-d8d2-48e7-8df4-d5c699388b75" Name="Microsoft.CloudForFSI.CustomWorkflow.CI.Integration.CalculatedFieldsActivity">
+      <FriendlyName>afcd1688-a786-4170-a6a0-4b5418f0960e</FriendlyName>
+      <WorkflowActivityGroupName>Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins.Observations.RetrieveSupportedArtifactsPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="64e731bf-db4e-4b6c-9831-5337445ab0a1" Name="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins.Observations.RetrieveSupportedArtifactsPlugin">
+      <FriendlyName>83f41642-3174-40f8-8e17-3ee2b4d05a2b</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="a1a0fa53-1c25-4169-8942-df6aa84c5362" Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin">
+      <FriendlyName>fe9761a9-d141-423f-836e-83c413ffe489</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildGroupFHEntityCollectionPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="9057be16-7824-4bc6-b3a8-886478f46c17" Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildGroupFHEntityCollectionPlugin">
+      <FriendlyName>b580112a-0469-4a94-abf4-ed02eec9bc66</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.AddGroupPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="bece01b4-4d5d-458d-9054-89002f01be22" Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.AddGroupPlugin">
+      <FriendlyName>af035dd9-6e16-4634-bd44-4774e4a82c92</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.DeleteGroupPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="39316d99-3d8d-444c-8d47-73c6c7901c34" Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.DeleteGroupPlugin">
+      <FriendlyName>9bcc98a5-b79f-4c0d-9d3f-408ae072ea64</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.UpdateGroupPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="0340c098-22ca-4e56-b310-95bc61aeb144" Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.UpdateGroupPlugin">
+      <FriendlyName>db58ddd5-c023-4141-b9ea-fe6b29e3721d</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

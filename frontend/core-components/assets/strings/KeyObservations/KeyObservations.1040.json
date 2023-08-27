@@ -1,0 +1,12 @@
+{
+    "KEY_SEGMENTS": "Segmenti cliente",
+    "KEY_SEGMENTS_EMPTY": "Nessun segmento da mostrare",
+    "INVALID_CONFIGURATION": "Si è verificato un problema di configurazione",
+    "KEY_PREDICTION": "Rischio di abbandono",
+    "KEY_PREDICTION_EMPTY": "Nessuna previsione disponibile",
+    "PREDICTION_UNDEFINED_MESSAGE": "Il modello di intelligenza artificiale non dispone di informazioni adeguate per creare una previsione al momento.",
+    "INDICATORS_HEADER": "Indicatori cliente",
+    "TRY_REFRESH_CONTACT_ADMIN": "Prova ad aggiornare il browser o contatta l'amministratore IT",
+    "NO_INDICATORS_TO_SHOW_YET": "Nessun indicatore da mostrare",
+    "CUSTOMER_INDICATOR_EMPTY_STATE_TITLE": "Nessun indicatore definito"
+}

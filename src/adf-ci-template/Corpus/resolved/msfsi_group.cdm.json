@@ -1,0 +1,62 @@
+{
+  "jsonSchemaSemanticVersion": "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "msfsi_group",
+      "attributeContext": {
+        "type": "entity",
+        "name": "msfsi_group",
+        "definition": "resolvedFrom/msfsi_group"
+      },
+      "hasAttributes": [
+        {
+          "name": "statecode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "statuscode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_type",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_primarymember",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_primarymember_entitytype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_groupid",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_primarymembername",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_primarymemberidtype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_primarymemberyominame",
+          "dataFormat": "String"
+        }
+      ],
+      "version": "1.0.0.0"
+    }
+  ]
+}

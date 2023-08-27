@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "Customer snapshot",
+    "ENTITY_ID": "Main entity",
+    "ENTITY_ID_DESC": "The Id of the entity customer snapshot component will use to fetch data",
+    "FORM_ID": "Form Id",
+    "FORM_ID_DESC": "The Id of the form (Quick View Form) used to determine the data fields and layout of the customer snapshot",
+    "LINK_ENTITY_FIELD": "Main entity linking field",
+    "LINK_ENTITY_FIELD_DESC": "The logical name of the field that holds the main entity id (defaults to entityname + id)",
+    "TITLE_VISIBILITY": "Title visibility",
+    "TITLE_VISIBILITY_DESC": "Show or hide the title section for the component",
+    "PREFERRED": "Preferred",
+    "NO_DATA_TO_SHOW_YET": "No data to show yet",
+    "TRY_REFRESH_CONTACT_ADMIN": "Try refreshing your browser, or contact your IT admin",
+    "INVALID_CONFIGURATION": "There's a configuration problem",
+    "PREFERRED_COMM_EMAIL": "Customer prefers communicating by email",
+    "PREFERRED_COMM_MAIL": "Customer prefers communicating by mail",
+    "PREFERRED_COMM_PHONE": "Customer prefers communicating by phone"
+}

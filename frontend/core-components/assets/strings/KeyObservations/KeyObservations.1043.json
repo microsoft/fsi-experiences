@@ -1,0 +1,12 @@
+{
+    "KEY_SEGMENTS": "Klantsegmenten",
+    "KEY_SEGMENTS_EMPTY": "Geen segmenten om weer te geven",
+    "INVALID_CONFIGURATION": "Er is een configuratieprobleem",
+    "KEY_PREDICTION": "Risico op verloop",
+    "KEY_PREDICTION_EMPTY": "Geen voorspelling beschikbaar",
+    "PREDICTION_UNDEFINED_MESSAGE": "Het AI-model heeft geen adequate informatie om nu een voorspelling te doen.",
+    "INDICATORS_HEADER": "Klantindicators",
+    "TRY_REFRESH_CONTACT_ADMIN": "Probeer uw browser te vernieuwen of neem contact op met uw IT-beheerder",
+    "NO_INDICATORS_TO_SHOW_YET": "Geen indicators om weer te geven",
+    "CUSTOMER_INDICATOR_EMPTY_STATE_TITLE": "Er is geen indicator gedefinieerd"
+}

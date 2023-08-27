@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.Activate.Hide" Location="Mscrm.Form.msfsi_financialholding.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.Deactivate.Hide" Location="Mscrm.Form.msfsi_financialholding.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.Delete.Hide" Location="Mscrm.Form.msfsi_financialholding.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_financialholding.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_financialholding.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.NewRecord.Hide" Location="Mscrm.Form.msfsi_financialholding.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_financialholding.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.Save.Hide" Location="Mscrm.Form.msfsi_financialholding.Save" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.SaveAndClose.Hide" Location="Mscrm.Form.msfsi_financialholding.SaveAndClose" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_financialholding.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholding.WordTemplate.Hide" Location="Mscrm.Form.msfsi_financialholding.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

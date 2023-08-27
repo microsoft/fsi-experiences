@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="ReadArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  
+  <PropertyGroup>
+    <AnchorSolutionXML Condition="('$(AnchorSolutionName)' != '')">$(ModulePath)\$(AnchorSolutionName)\Other\Solution.xml</AnchorSolutionXML>
+    <QueriedAnchorSolutionVersion>None</QueriedAnchorSolutionVersion>
+    <InputXML>$(MSBuildProjectDirectory)\PackageExtra\input.xml</InputXML>
+    <AppendVersionToPackage Condition="('$(AppendVersionToPackage)' != '')">false</AppendVersionToPackage>
+  </PropertyGroup>
+
+    <Target Name="ResolvePDAndAppSourceNameWithVersion" BeforeTargets="CreatePDPackageZip"  Condition="'$(AppendVersionToPackage)' == 'True'">
+    <!-- resolve properties before versioning operation -->
+      <!-- read solution and version information; only executes when no context version -->
+      <Message Text="Querying anchor solution version to resolve PD and PVS package name.." Importance="high"/>
+      <ReadArtifactVersion Type="SolutionXml" Path="$(AnchorSolutionXML)" Condition="'$(AnchorSolutionName)' != '' AND Exists('$(AnchorSolutionXML)')">
+        <Output TaskParameter="Version" PropertyName="QueriedAnchorSolutionVersion" />
+      </ReadArtifactVersion>
+      <Message Text="Anchor solution version..$(QueriedAnchorSolutionVersion)" />
+      
+      <PropertyGroup>
+        <PDPackageName Condition="'$(QueriedAnchorSolutionVersion)' != 'None' ">$(ModuleName)-PackageDeployer-$(QueriedAnchorSolutionVersion)</PDPackageName>
+        <PVSPackageName Condition="'$(QueriedAnchorSolutionVersion)' != 'None' ">$(ModuleName)-AppSource-$(QueriedAnchorSolutionVersion)</PVSPackageName>
+      </PropertyGroup>
+      <Message Text="easyFindMe $(WSRoot)\build\scripts\UpdatePackageFileName.ps1 $(InputXML) $(PDPackageName).zip" Importance="high" />
+      <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\UpdatePackageFileName.ps1 $(InputXML) $(PDPackageName).zip}&quot;" />
+    </Target>
+
+</Project>

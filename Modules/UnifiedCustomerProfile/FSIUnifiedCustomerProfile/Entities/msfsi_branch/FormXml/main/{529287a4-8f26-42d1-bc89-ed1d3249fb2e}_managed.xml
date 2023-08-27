@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{529287a4-8f26-42d1-bc89-ed1d3249fb2e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{ea677239-89d0-4bc4-a0dc-b143e64de5cf}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{edd1f0d3-f035-4810-985d-fe30f7a8e1ac}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{dc31e3e9-61cd-4f3c-8e3d-22309d0848a5}" showlabel="true" locklevel="0" visible="false" availableforphone="false" ordinalvalue="10011" solutionaction="Modified">
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" uniqueid="{be622452-d567-9342-379d-280958e034b4}" disabled="true" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06d88b2f-5e99-4ffc-951e-f52807e99a87}" showlabel="true" locklevel="1" ordinalvalue="10012" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{22769392-2ac6-a0ba-c02e-328500440151}" disabled="true" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2dc96c5c-eab6-17a4-aea1-89558a312e69}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Branch code" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branchcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_branchcode" disabled="true" uniqueid="{5d1c4271-59cd-407b-8c6e-92794221c188}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e17990a0-696d-2da0-e5de-b6b2295517dc}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Branch name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="true" uniqueid="{94007484-0a55-e1ac-6814-464c168e7b31}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b7037a8-c349-662e-c5b2-27a741ac4981}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Bank" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_bank" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_bank" disabled="true" uniqueid="{9285688a-1361-dd72-de43-188d587de153}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{C62C7B51-586F-471A-A398-E8C83B8D09ED}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{49eb8cda-3263-b16b-ccb5-4bd06b942e7e}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Branch manager" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branchmanager" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_branchmanager" disabled="true" uniqueid="{be99a6ad-882d-ad4c-5b7b-458c945101c2}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a1e4b17-5707-98ca-749c-902c9b5b5491}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Address line 1" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_addressline1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_addressline1" disabled="true" uniqueid="{72d9105c-de9a-1976-86e0-c08c34b0c391}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a4503135-ac26-dd79-79c1-e352c9d30344}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Address line 2" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_addressline2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_addressline2" disabled="true" uniqueid="{47c98ced-351a-6ed7-7a3c-869c24b39a43}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9dc34dcb-eaa4-00c5-6656-3517c5b369c3}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Address line 3" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_addressline3" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_addressline3" disabled="true" uniqueid="{74283002-06e6-6104-3a12-5305a0b25e1a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bce3e60e-adb0-2323-2272-71d79a147a5d}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="State/Province" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_stateorprovince" disabled="true" uniqueid="{7176904c-a888-48e6-5579-59ab43728ec5}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4e8d1dd3-7c2d-8cb7-b237-c8cc29a6a3be}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="Country/Region" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_country" disabled="true" uniqueid="{1a983cbc-ceb8-c676-2b0a-0dd4b0704ee9}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd37d2a6-122c-7edc-d719-658b2144d79e}" showlabel="true" locklevel="0" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="ZIP/Postal code" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_postalcode" disabled="true" uniqueid="{1aa4eb01-b577-83c0-e3b5-069bb37eca98}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69e3516b-1a48-8d62-81e8-52ed116c2bc1}" showlabel="true" locklevel="0" ordinalvalue="10010" solutionaction="Added">
+                        <labels>
+                          <label description="Telephone no." languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_telephone1" disabled="true" uniqueid="{0781ed75-da48-cdb5-587a-a5803176b71e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

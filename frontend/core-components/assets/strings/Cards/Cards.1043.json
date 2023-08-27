@@ -1,0 +1,9 @@
+{
+    "CARDS": "Kaarten {{cardNumbers}}",
+    "NO_OWNED_CARDS": "Geen kaarten in eigendom",
+    "EXPIRES": "VERLOOPT OP",
+    "EXPIRES_SOON": "VERLOOPT BINNENKORT",
+    "EXPIRED": "VERLOPEN",
+    "BANKING_CARD_DETAILS": "Details van {{index}} voor bankpas",
+    "CUSTOMER_INFORMATION_RESTRICTED": "Deze klantinformatie is verborgen"
+}

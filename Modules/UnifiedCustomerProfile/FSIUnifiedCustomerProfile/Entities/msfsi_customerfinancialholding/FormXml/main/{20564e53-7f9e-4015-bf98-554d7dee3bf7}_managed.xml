@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{20564e53-7f9e-4015-bf98-554d7dee3bf7}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{2f9cd5c7-f3bf-4d83-bf0d-8ab036145687}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{47deb9ae-f02f-45bb-9178-891633a007eb}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{be203cc6-1e8f-4836-8c1e-81a08a9949ac}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Modified">
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" uniqueid="{9b1053ae-1bc4-d2d0-7653-6a41255cbd7b}" disabled="true" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{babec06d-9a51-46e2-975f-5d8f5f037584}" showlabel="true" locklevel="1" ordinalvalue="10004" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{15bb425c-dbec-c4b7-9d4e-2bc91d461ecd}" disabled="true" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{beecc130-d588-ec7d-200b-bec5161a7c44}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Customer id" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_customerid" disabled="true" uniqueid="{36764167-c0b2-143c-a178-ab2328b68369}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6600a0c5-e8c7-69a9-176e-89841284accc}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Financial holding ID" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdingid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_financialholdingid" disabled="true" uniqueid="{a5d67e40-e4d0-3333-2575-22464005e191}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e09976e4-912a-cbb1-1ac1-eeeb231bc83d}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Financial holding role" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdingrole" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialholdingrole" disabled="true" uniqueid="{e1ccb6d7-7733-60d0-5352-ed5d1c6495a9}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+      <header id="{f6808203-3056-4138-8294-1319bba5d1c5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </header>
+      <footer id="{6862b46d-cc84-450a-91c6-fc9cf13e33b1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

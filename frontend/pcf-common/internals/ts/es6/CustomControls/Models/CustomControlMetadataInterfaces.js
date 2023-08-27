@@ -1,0 +1,54 @@
+var AttributeType;
+(function (AttributeType) {
+    AttributeType["Boolean"] = "boolean";
+    AttributeType["Unknown"] = "unknown";
+    AttributeType["Customer"] = "customer";
+    AttributeType["Date"] = "date";
+    AttributeType["DateTime"] = "datetime";
+    AttributeType["Decimal"] = "decimal";
+    AttributeType["Double"] = "double";
+    AttributeType["Image"] = "image";
+    AttributeType["Integer"] = "integer";
+    AttributeType["Lookup"] = "lookup";
+    AttributeType["ManagedProperty"] = "managedproperty";
+    AttributeType["Memo"] = "memo";
+    AttributeType["Money"] = "money";
+    AttributeType["Owner"] = "owner";
+    AttributeType["PartyList"] = "partylist";
+    AttributeType["PickList"] = "picklist";
+    AttributeType["State"] = "state";
+    AttributeType["Status"] = "status";
+    AttributeType["String"] = "string";
+    AttributeType["UniqueIdentifier"] = "uniqueidentifier";
+    AttributeType["CalendarRules"] = "calendarrules";
+    AttributeType["Virtual"] = "virtual";
+    AttributeType["BigInt"] = "bigint";
+    AttributeType["EntityName"] = "entityname";
+    AttributeType["EntityImage"] = "entityimage";
+    AttributeType["AliasedValue"] = "aliasedvalue";
+    AttributeType["Regarding"] = "regarding";
+    AttributeType["MultiSelectPickList"] = "multiselectpicklist";
+    AttributeType["File"] = "file";
+    AttributeType["NavigationProperty"] = "navigationproperty";
+    AttributeType["RichText"] = "RichText";
+})(AttributeType || (AttributeType = {}));
+var StringMetadataFormat;
+(function (StringMetadataFormat) {
+    StringMetadataFormat["emailDescriptionFormat"] = "0";
+    StringMetadataFormat["emailBodyFormat"] = "1";
+    StringMetadataFormat["richTextFormat"] = "9";
+})(StringMetadataFormat || (StringMetadataFormat = {}));
+var DateTimeFieldBehavior;
+(function (DateTimeFieldBehavior) {
+    DateTimeFieldBehavior[DateTimeFieldBehavior["None"] = 0] = "None";
+    DateTimeFieldBehavior[DateTimeFieldBehavior["UserLocal"] = 1] = "UserLocal";
+    DateTimeFieldBehavior[DateTimeFieldBehavior["DateOnly"] = 2] = "DateOnly";
+    DateTimeFieldBehavior[DateTimeFieldBehavior["TimeZoneIndependent"] = 3] = "TimeZoneIndependent";
+})(DateTimeFieldBehavior || (DateTimeFieldBehavior = {}));
+var MoneyPrecisionSource;
+(function (MoneyPrecisionSource) {
+    MoneyPrecisionSource[MoneyPrecisionSource["attribute"] = 0] = "attribute";
+    MoneyPrecisionSource[MoneyPrecisionSource["organization"] = 1] = "organization";
+    MoneyPrecisionSource[MoneyPrecisionSource["currency"] = 2] = "currency";
+})(MoneyPrecisionSource || (MoneyPrecisionSource = {}));
+export { MoneyPrecisionSource, DateTimeFieldBehavior, AttributeType, StringMetadataFormat, };

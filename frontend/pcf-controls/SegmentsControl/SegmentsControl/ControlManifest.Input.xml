@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="SegmentsControl" version="1.4.0" display-name-key="SegmentsControl" description-key="SegmentsControl description" control-type="standard">
+    <type-group name="Contact">
+      <type>SingleLine.Text</type>
+      <type>Lookup.Customer</type>
+      <type>Lookup.Simple</type>
+    </type-group>
+    <property name="dummy" display-name-key="Dummy_Key" description-key="Dummy_Desc_Key" of-type-group="Contact" usage="bound" required="true" />
+    <property name="contactId" display-name-key="CONTACT" description-key="CONTACT_DESC" of-type-group="Contact" usage="input" required="true" />
+    <property hidden="true" name="useFieldLabel" display-name-key="USE_FIELD_LABEL" description-key="USE_FIELD_LABEL_DESC" of-type="Enum" usage="input" default-value="false">
+      <value name="true" display-name-key="TRUE" description-key="USE_FIELD_LABEL_TRUE_DESC">1</value>
+      <value name="false" display-name-key="FALSE" description-key="USE_FIELD_LABEL_TRUE_DESC">0</value>
+    </property>
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="./SegmentsControl.css" order="1" />
+      <resx path="strings/SegmentsControl.3082.resx" version="1.0.0" />
+      <resx path="strings/SegmentsControl.1040.resx" version="1.0.0" />
+      <resx path="strings/SegmentsControl.1031.resx" version="1.0.0" />
+      <resx path="strings/SegmentsControl.1043.resx" version="1.0.0" />
+      <resx path="strings/SegmentsControl.1036.resx" version="1.0.0" />
+      <resx path="strings/SegmentsControl.1033.resx" version="1.0.0" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error48.png" />
+      <resx path="strings/SegmentsControl.1046.resx" version="1.0.0" />
+      <resx path="strings/SegmentsControl.1028.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

@@ -1,0 +1,23 @@
+{
+    "EMPTY_STATE_PARTY_ASSETS": "No se han declarado activos ni pasivos",
+    "COMBINED_ASSETS": "Activos combinados",
+    "ALL_PARTIES": "todas las partes",
+    "APPLICANT_TOTAL_ASSETS": "Activos totales de {{applicant}}",
+    "APPLICANT_TOTAL_LIABILITIES": "Pasivos totales de {{applicant}}",
+    "COMBINED_LIABILITIES": "Pasivos combinados",
+    "PARTIES_TOOLTIP": "Partes: cualquier persona asociada con un préstamo; puede ser un cofirmante, garante, prestatario y coprestatario",
+    "ADD_NEW_ITEM": "Agregar nuevo",
+    "SR_ADD_NEW_ASSET_OR_LIABILITY_ITEM": "Agregar nuevo elemento de activo o pasivo",
+    "NEW_ASSET": "Activo declarado",
+    "NEW_LIABILITY": "Pasivo declarado",
+    "EDIT_ASSET": "Editar activo",
+    "EDIT_LIABILITY": "Editar pasivo",
+    "REMOVE_ASSET": "Quitar activo",
+    "REMOVE_LIABILITY": "Quitar pasivo",
+    "EDIT_ASSET_ARIA_LABEL": "Editar activo {{itemName}}",
+    "EDIT_LIABILITY_ARIA_LABEL": "Editar pasivo {{itemName}}",
+    "REMOVE_ASSET_ARIA_LABEL": "Quitar activo {{itemName}}",
+    "REMOVE_LIABILITY_ARIA_LABEL": "Quitar pasivo {{itemName}}",
+    "SR_MORE_ACTIONS_ASSET_ARIA_LABEL": "Más acciones, activo {{itemName}}",
+    "SR_MORE_ACTIONS_LIABILITY_ARIA_LABEL": "Más acciones, pasivo {{itemName}}"
+}

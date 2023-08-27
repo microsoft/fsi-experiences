@@ -1,0 +1,21 @@
+{
+    "QUEUE_CARD_WORKED_BY_TEXT": "Worked by {{name}}",
+    "QUEUE_CARD_WORKED_BY_TEXT_SR_POSTFIX": "info message",
+    "QUEUE_CARD_WORKED_BY_ARIA_LABEL_TEXT": "Worked by info, for {{itemName}}",
+    "QUEUE_CARD_QUEUE_ITEM_ARIA_LABEL_TEXT": "Queue item {{itemName}}",
+    "QUEUE_LIST_ROW_SR_CURRENT_ITEM_TEXT": "current",
+    "EMPTY_STATE_NO_QUEUE_ITEMS": "You have no applications in your queue",
+    "QUEUE_SEARCH_WRAPPER_ARIA_LABEL_TEXT": "Queue search",
+    "QUEUE_SEARCH_PLACEHOLDER": "Search work items",
+    "QUEUE_SEARCH_RESULTS_SR_TEXT_X_ITEMS_FOUND": "Queue search results; {{amount}} items found",
+    "QUEUE_SEARCH_RESULTS_SR_TEXT_1_ITEM_FOUND": "Queue search results; 1 item found",
+    "QUEUE_SEARCH_RESULTS_SR_TEXT_NO_ITEMS_FOUND": "Queue search results; No items found",
+    "ARCHIVE_APPLICATION_POPUP_TEXT": "Application #{{itemName}} has been archived",
+    "ARCHIVE_APPLICATION_DIALOG_ERROR_TITLE": "We’re having trouble archiving the application",
+    "ARCHIVE_APPLICATION_DIALOG_ERROR_TEXT": "We can’t move application #{{itemName}} to the archive right now. Please try again in a few moments, or contact your system admin for help.",
+    "ARCHIVE_APPLICATION_DIALOG_MOVE_TO_ARCHIVE_BUTTON": "Move to archive",
+    "ARCHIVE_APPLICATION_DIALOG_TITLE": "Select a reason for archiving this application",
+    "ARCHIVE_APPLICATION_DIALOG_TEXT": "Archiving the application removes it from the list of active applications, but won't delete it.\nSelect a reason for archiving this application",
+    "ARCHIVE_APPLICATION_DIALOG_ADD_COMMENT_LABEL": "Add comment",
+    "DATA_LIST_LOADING": "Connecting to data"
+}

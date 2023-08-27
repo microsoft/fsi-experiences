@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.Activate.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.Deactivate.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.Delete.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.NewRecord.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.Save.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.Save" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.SaveAndClose.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.SaveAndClose" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_standingorder.WordTemplate.Hide" Location="Mscrm.Form.msfsi_fi_standingorder.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

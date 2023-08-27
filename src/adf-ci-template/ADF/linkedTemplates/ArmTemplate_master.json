@@ -1,0 +1,70 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "type": "string",
+            "metadata": "Data Factory name",
+            "defaultValue": "CITemplateFullADF"
+        },
+        "lnkFSICDM_accountKey": {
+            "type": "secureString",
+            "metadata": "Secure string for 'accountKey' of 'lnkFSICDM'"
+        },
+        "lnkCICDM_accountKey": {
+            "type": "secureString",
+            "metadata": "Secure string for 'accountKey' of 'lnkCICDM'"
+        },
+        "lnkFSICDM_properties_typeProperties_url": {
+            "type": "string",
+            "defaultValue": "https://cifornewmodelstore.dfs.core.windows.net"
+        },
+        "lnkCICDM_properties_typeProperties_url": {
+            "type": "string",
+            "defaultValue": "https://cifornewmodelstore.dfs.core.windows.net"
+        },
+        "containerUri": {
+            "type": "string",
+            "metadata": "URI to storage account containing linked ARM templates"
+        },
+        "containerSasToken": {
+            "type": "string",
+            "metadata": "Sas token to storage account containing linked ARM templates"
+        }
+    },
+    "variables": {
+        "factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+    },
+    "resources": [
+        {
+            "name": "CITemplateFullADF_ArmTemplate_0",
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2018-02-01",
+            "properties": {
+                "mode": "incremental",
+                "templateLink": {
+                    "uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+                    "contentVersion": "1.0.0.0"
+                },
+                "parameters": {
+                    "factoryName": {
+                        "value": "[parameters('factoryName')]"
+                    },
+                    "lnkFSICDM_accountKey": {
+                        "value": "[parameters('lnkFSICDM_accountKey')]"
+                    },
+                    "lnkCICDM_accountKey": {
+                        "value": "[parameters('lnkCICDM_accountKey')]"
+                    },
+                    "lnkFSICDM_properties_typeProperties_url": {
+                        "value": "[parameters('lnkFSICDM_properties_typeProperties_url')]"
+                    },
+                    "lnkCICDM_properties_typeProperties_url": {
+                        "value": "[parameters('lnkCICDM_properties_typeProperties_url')]"
+                    }
+                }
+            },
+            "dependsOn": []
+        }
+    ]
+}

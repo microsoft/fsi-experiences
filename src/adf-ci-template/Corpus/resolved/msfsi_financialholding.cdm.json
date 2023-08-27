@@ -1,0 +1,302 @@
+{
+  "jsonSchemaSemanticVersion": "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "msfsi_financialholding",
+      "attributeContext": {
+        "type": "entity",
+        "name": "msfsi_financialholding",
+        "definition": "resolvedFrom/msfsi_financialholding"
+      },
+      "hasAttributes": [
+        {
+          "name": "statecode",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "statuscode",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_accountingclassification",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_interesttype",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_financialholdingcategory",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_financialholdingtype",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_delinquencystatus",
+          "dataFormat": "Boolean"
+        },
+        {
+          "name": "transactioncurrencyid",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_balancedisplayvalue",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "transactioncurrencyidname",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_unclearedbalance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_numberoftransactions",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_availablebalance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_averagebalance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_dateoflasttransaction",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_blockedamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_integrationkey",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_balance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_balanceexchangerate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_balancedefaultdisplayvalue",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_interestrate",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_laststatementbalance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_monthlypaymentpercentage",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_nextstatementdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_laststatementdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_nextpaymentdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_lastpaymentduedate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_minimumpaymentdue",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_creditlimit",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_investmentrisk",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_investmenttimeframe",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_investmentobjectives",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_performanceytd",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_cashbalance",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_gainloss",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_performance3y",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_openeddate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_performance1y",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_portfolioname",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_modeofpayment",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_collectionrisk",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_dayspastdue",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_numberofdeferralsmade",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_interestreviewperiod",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_totalarrear",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_feearrears",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_numberofinstallmentspaid",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_capitalarrears",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_nextinterestreviewdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_principalamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_disbursedamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_interestarrears",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_loanstartdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_totalinterestpaid",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_disbursementdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_maturitydate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_lastpaymentdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_installmentamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_repaymentaccount",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_nextpaymentamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_overduedate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_lastpaymentamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_accruedinterest",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_initialsource",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_balanceatmaturity",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_maturityinstructionsdetails",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_projectedinterestamount",
+          "dataFormat": "Decimal"
+        },
+        {
+          "name": "msfsi_term",
+          "dataFormat": "Int64"
+        },
+        {
+          "name": "msfsi_financialholdingid",
+          "dataFormat": "String"
+        }
+      ],
+      "version": "1.0.0.0"
+    }
+  ]
+}

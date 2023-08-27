@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21111.149" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>LoanOnboardingDataModel</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Loan Onboarding Data Model" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_applicationdocument" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_bank" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_collateral" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_creditcheck" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_customdocument" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_employment" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationexpense" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationincome" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_kyc" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplication" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationcollateral" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationcollateralvaluation" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationcontact" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationcontactasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationcontactliability" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_loanapplicationliability" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_expensetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_gender" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_holdingrole" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_timefrequency" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_incometype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_prefix" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_presentaddressownershipstatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_verificationstatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_reasonforarchive" behavior="0" />
+      <RootComponent type="430" schemaName="contact" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_applicationdocument" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_bank" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_collateral" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_creditcheck" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_customdocument" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_employment" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_kyc" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplication" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationasset" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationcollateral" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationcollateralvaluation" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationcontact" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationcontactasset" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationcontactliability" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationliability" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationexpense" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_loanapplicationincome" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationdocument" displayName="Application document" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_applicationdocument" displayName="Application document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_bank" displayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_LoanApplicationAsset_Bank_msfsi_bank" displayName="msfsi_LoanApplicationAsset_Bank_msfsi_bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_LoanApplicationLiability_Bank_msfsi" displayName="msfsi_LoanApplicationLiability_Bank_msfsi" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_customdocument" displayName="Custom document" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_customdocument" displayName="Custom document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_customdocument" displayName="Custom document" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_customdocument" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_bankid" displayName="Bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_LoanApplicationAsset_Bank_msfsi_bank" displayName="msfsi_LoanApplicationAsset_Bank_msfsi_bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_bankid" displayName="Bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_LoanApplicationLiability_Bank_msfsi" displayName="msfsi_LoanApplicationLiability_Bank_msfsi" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_LoanApplicationAsset_Bank_msfsi_bank" displayName="msfsi_LoanApplicationAsset_Bank_msfsi_bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_LoanApplicationLiability_Bank_msfsi" displayName="msfsi_LoanApplicationLiability_Bank_msfsi" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="contact" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_applicationdocument" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_applicationdocument" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_customdocument" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_customdocument" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,12 @@
+{
+    "KEY_SEGMENTS": "Customer segments",
+    "KEY_SEGMENTS_EMPTY": "No segments to show",
+    "INVALID_CONFIGURATION": "There's a configuration problem",
+    "KEY_PREDICTION": "Churn risk",
+    "KEY_PREDICTION_EMPTY": "No prediction available",
+    "PREDICTION_UNDEFINED_MESSAGE": "The AI model doesn’t have adequate information to make a prediction right now.",
+    "INDICATORS_HEADER": "Customer indicators",
+    "TRY_REFRESH_CONTACT_ADMIN": "Try refreshing your browser, or contact your IT admin",
+    "NO_INDICATORS_TO_SHOW_YET": "No indicators to show",
+    "CUSTOMER_INDICATOR_EMPTY_STATE_TITLE": "There is no indicator defined"
+}

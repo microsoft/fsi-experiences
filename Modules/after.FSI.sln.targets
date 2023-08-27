@@ -1,0 +1,33 @@
+<Project>
+ <Target Name="CopyContentOnlyModules" AfterTargets="Build">
+   <Message Importance="High" Text="Post Solution Build Steps" />
+   <PropertyGroup>
+     <Platform Condition="'$(Platform)' == 'Any CPU'">AnyCPU</Platform>
+     <PowerBIReportSourceDirectory>$(MSBuildThisFileDirectory)\PowerBI</PowerBIReportSourceDirectory>
+     <PowerBIReportTargetDirectory>$(MSBuildThisFileDirectory)\..\Drop\$(Configuration)\$(Platform)\PowerBI</PowerBIReportTargetDirectory>
+     <CustomerInsightsSourceDirectory>$(MSBuildThisFileDirectory)\CustomerInsights</CustomerInsightsSourceDirectory>
+     <CustomerInsightsTargetDirectory>$(MSBuildThisFileDirectory)\..\Drop\$(Configuration)\$(Platform)\CustomerInsights</CustomerInsightsTargetDirectory>
+   </PropertyGroup>
+   
+   <ItemGroup>
+	  <PowerBIReports Include="$(PowerBIReportSourceDirectory)\**\*.*" />
+	  <CustomerInsightsConfigs Include="$(CustomerInsightsSourceDirectory)\**\*.*" />
+   </ItemGroup>
+   
+   <Message Importance="High" Text="Copy PowerBI Reports from $(PowerBIReportSourceDirectory) to $(PowerBIReportTargetDirectory)" />
+   <Copy
+      SourceFiles="@(PowerBIReports)"
+      DestinationFiles="@(PowerBIReports->'$(PowerBIReportTargetDirectory)\%(RecursiveDir)%(Filename)%(Extension)')"
+   />
+   
+   <Message Importance="High" Text="Copy CustomerInsights Config from $(CustomerInsightsSourceDirectory) to $(CustomerInsightsTargetDirectory)" />
+   <Copy
+      SourceFiles="@(CustomerInsightsConfigs)"
+      DestinationFiles="@(CustomerInsightsConfigs->'$(CustomerInsightsTargetDirectory)\%(RecursiveDir)%(Filename)%(Extension)')"
+    />
+ </Target>
+ <Target Name="CleanOutputDirs" AfterTargets="Clean">
+    <RemoveDir Directories="$(WSRoot)\drop" />
+    <RemoveDir Directories="$(WSRoot)\target" />
+  </Target>
+</Project>

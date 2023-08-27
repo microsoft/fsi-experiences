@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Branch" OriginalName="Branch">msfsi_branch</Name>
+  <EntityInfo>
+    <entity Name="msfsi_branch">
+      <attributes />
+      <CanCreateAttributes>1</CanCreateAttributes>
+      <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+    </entity>
+  </EntityInfo>
+  <RibbonDiffXml />
+</Entity>

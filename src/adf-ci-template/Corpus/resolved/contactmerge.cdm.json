@@ -1,0 +1,26 @@
+{
+  "jsonSchemaSemanticVersion": "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "contactmerge",
+      "attributeContext": {
+        "type": "entity",
+        "name": "contactmerge",
+        "definition": "resolvedFrom/contactmerge"
+      },
+      "hasAttributes": [
+        {
+          "name": "contactid",
+          "dataFormat": "String"
+        }
+      ],
+      "version": "1.0.0.0"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- There are 2 types of data.xml for FSI, sample data.xml only generates data.json, samplePortal data.xml generates data.json and data.html -->
+  <!-- Run this task to process '1033\data.xml' before Build in order to generate
+    1. '1033\data.json' and 1033\data.html (if applicable) file based on '1033\data.xml' and 'LocalizableFieldMappings.xml' that defines the localizable entities and fields
+    2. '[lcid]\data.xml' files based on '1033\data.xml', '[lcid]\data.json' and '[lcid]\data.html'(if applicable) files that includes the translated strings for the localizable entities and fields
+        if '$(EnableLocalization)'=='true',('\ConfigData\%(LCID_LLCCs.LCIDs)\data.json')and %(LCID_LLCCs.LCIDs)\data.html (if applicable) exists
+  -->
+  <PropertyGroup>
+    <EnableLocalization>true</EnableLocalization>
+    <LanguageListFilePath>$(WSRoot)\localize\FSI_language.txt</LanguageListFilePath>
+    <DataXml2JsonScriptPath>$(WSRoot)\localize\LocalizeDataXml.ps1</DataXml2JsonScriptPath>
+    <DataXmlRootPath>$(TemplateDirectory)\ConfigData</DataXmlRootPath>
+    <SourceDataxmlPath>$(TemplateDirectory)\ConfigData\1033\data.xml</SourceDataxmlPath>
+    <SourceDataJsonPath>$(TemplateDirectory)\ConfigData\1033\data.json</SourceDataJsonPath>
+    <SourcePortalHtmlPath>$(TemplateDirectory)\ConfigData\1033\data.html</SourcePortalHtmlPath>
+    <LocFieldMappingFilePath>$(TemplateDirectory)\ConfigData\LocalizableFieldsMapping.xml</LocFieldMappingFilePath>
+  </PropertyGroup>
+
+  <!-- Generate '1033\data.json','1033\data.html' based on '1033\data.xml' and 'LocalizableFieldMappings.xml' that defines the localizable entities and fields -->
+  <Target Name="GenerateDataJsonFile" BeforeTargets="BeforeBuild">
+    <!-- Generate '1033\data.json'for sampledata files -->
+    <Exec Condition="Exists('$(SourceDataxmlPath)')"
+      Command="powershell -executionpolicy UnRestricted -File $(DataXml2JsonScriptPath) -mode generate -sourceDataxmlPath $(SourceDataxmlPath) -referenceFilePath $(LocFieldMappingFilePath) -jsonFilePath $(SourceDataJsonPath) -htmlFilePath $(SourcePortalHtmlPath)"
+    />
+  </Target>
+
+  <!-- Generate the localized '[lcid]\data.xml' files based on '1033\data.xml' and a language specific '[lcid]\data.json' that includes the translated strings for the localizable entities and fields
+       execute if '$(EnableLocalization)'=='true' and '1031\data.json' exists since the localized data.json file may not exist when new '1033\data.json' added.
+       note: This will propagage any updates on the non-localizable entities and fields to the localized 'data.xml'
+  -->
+  <Target Name="GenerateLocalizedDataXmlFiles" AfterTargets="GenerateDataJsonFile"
+          Condition="('$(EnableLocalization)'=='true')">
+    <ReadLinesFromFile File="$(LanguageListFilePath)">
+      <Output TaskParameter="Lines" ItemName="LinesFromFile" />
+    </ReadLinesFromFile>
+    <ItemGroup>
+      <LCID_LLCCs Include="@(LinesFromFile)">
+        <LCIDs>$([System.String]::Copy('%(LinesFromFile.Identity)').Split(' ')[0])</LCIDs>
+        <LLCCs>$([System.String]::Copy('%(LinesFromFile.Identity)').Split(' ')[1])</LLCCs>
+      </LCID_LLCCs>
+    </ItemGroup>
+    <!-- Import the lang data.json file into lang data.xml-->
+    <Exec Condition="Exists('$(SourceDataxmlPath)') AND Exists('$(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.json') AND !Exists('$(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.html')"
+      Command="PowerShell -executionpolicy UnRestricted -File $(DataXml2JsonScriptPath) -mode import -sourceDataxmlPath $(SourceDataxmlPath) -referenceFilePath $(LocFieldMappingFilePath) -jsonFilePath $(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.json -outputDataXmlPath $(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.xml"
+    />
+    <!-- Import the lang data.json and lang data.html file into lang samplePortal data.xml-->
+    <Exec Condition="Exists('$(SourceDataxmlPath)') AND Exists('$(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.json') AND Exists('$(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.html')"
+      Command="powershell -executionpolicy UnRestricted -File $(DataXml2JsonScriptPath) -mode import -sourceDataxmlPath $(SourceDataxmlPath) -referenceFilePath $(LocFieldMappingFilePath) -jsonFilePath $(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.json -htmlFilePath $(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.html -outputDataXmlPath $(DataXmlRootPath)\%(LCID_LLCCs.LCIDs)\data.xml"
+    />
+  </Target>
+</Project>

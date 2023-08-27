@@ -1,0 +1,12 @@
+<customapirequestparameter uniquename="InternalArtifactName">
+  <description default="Internal artifact name">
+    <label description="Internal artifact name" languagecode="1033" />
+  </description>
+  <displayname default="Internal artifact name">
+    <label description="Internal artifact name" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>1</isoptional>
+  <name>Internal artifact name</name>
+  <type>9</type>
+</customapirequestparameter>

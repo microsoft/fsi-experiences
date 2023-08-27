@@ -1,0 +1,8 @@
+<Project>
+   <PropertyGroup>
+    <OutputPath>$(WSRoot)\..\target\$(BuildConfiguration)\$(BuildPlatform)\$(MSBuildProjectName)</OutputPath>
+    <IntermediateOutputPath>obj\$(BuildConfiguration)</IntermediateOutputPath>
+	<PDPackagesDropPath>$(WSRoot)\drop\$(BuildConfiguration)\$(BuildPlatform)\PDPackages</PDPackagesDropPath>
+  </PropertyGroup> 
+  
+</Project>

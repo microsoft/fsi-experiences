@@ -1,0 +1,112 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="ReadArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="ReadArtifactName" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="ResolveArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="SetArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+
+  <PropertyGroup>
+    <SolutionXML Condition="('$(SolutionXML)' == '' OR !Exists('$(SolutionXML)')) AND '$(SolutionFolder)' != ''">$(SolutionFolder)\Other\Solution.xml</SolutionXML>
+    <SolutionXML Condition="'$(SolutionXML)' == '' OR !Exists('$(SolutionXML)')">$(MSBuildProjectDirectory)\Other\Solution.xml</SolutionXML>
+    <SolutionVersion Condition="'$(SolutionVersion)' == ''"></SolutionVersion>
+    <UsePackageVersion Condition="'$(UsePackageVersion)' == ''">False</UsePackageVersion>
+    <PackageNuspec Condition="'$(PackageNuspec)' == ''">$(WSRoot)\build\config\package.nuspec</PackageNuspec>
+
+    <SkipArtifactVersioning Condition="'$(SkipArtifactVersioning)' == ''">False</SkipArtifactVersioning>
+    <ContextSolutionVersion>None</ContextSolutionVersion>
+    <QueriedSolutionVersion>None</QueriedSolutionVersion>
+    <QueriedPackageVersion>None</QueriedPackageVersion>
+    <DynamicSolutionVersion>None</DynamicSolutionVersion>
+  </PropertyGroup>
+
+  <Target Name="ResolveSolutionVersion">
+    <!-- resolve properties before versioning operation -->
+    <PropertyGroup>
+      <ArtifactBaseVersion Condition="'$(ArtifactBaseVersion)' == ''">$(SolutionVersion)</ArtifactBaseVersion>
+
+      <ReturnNextVersion Condition="'$(ReturnNextVersion)' == ''">True</ReturnNextVersion>
+
+      <UseBaseVersion Condition="'$(UseBaseVersion)' == ''">False</UseBaseVersion>
+      <UseBaseVersion Condition="'$(DynamicSolutionVersion)' != 'None' AND '$(DynamicSolutionVersion)' != ''">True</UseBaseVersion>
+
+      <Artifact>$(SolutionIdentity)</Artifact>
+      <TF_BUILD Condition="'$(TF_BUILD)' == ''">False</TF_BUILD>
+    </PropertyGroup>
+    
+    <!-- display known information before versioning -->
+    <Message Text="Start solution artifact versioning.." />
+    <Message Text="Provided build version is: $(SolutionVersion)" />
+    <Message Text="UseBaseVersion value is: $(UseBaseVersion)" Importance="High" />
+    <Message Text="ReturnNextVersion value is: $(ReturnNextVersion)" Importance="High" />
+    <Message Text="Solution xml is: $(SolutionXML)" />
+    <Message Text="Solution xml unique name is: $(SolutionIdentity)" />
+    <Message Text="Solution xml version is: $(SolutionVersion)" />
+    
+    <Message Text="Artifact is: $(Artifact)" />
+    <Message Text="Artifact base version will be: $(ArtifactBaseVersion)" />
+    <Message Text="ArtifactVersioning tool will be skipped: $(SkipArtifactVersioning)" />
+    <Message Text="Triggered from build pipeline: $(TF_BUILD)" />   
+
+    <!-- resolve version using ArtifactVersioning tool -->
+    <ResolveArtifactVersion Condition="'$(TF_BUILD)' == 'True' AND '$(Artifact)' != '' AND '$(SkipArtifactVersioning)' != 'True'"
+      Artifact="$(Artifact)" BaseVersion="$(ArtifactBaseVersion)" ReturnNextVersion="$(ReturnNextVersion)" UseBaseVersion="$(UseBaseVersion)"
+      AutoVersionURL="$(AutoVersionURL)" AutoVersionUserName="$(AutoVersionUserName)" AutoVersionUserPassword="$(AutoVersionPassword)">
+      <Output TaskParameter="ResolvedVersion" PropertyName="ResolvedArtifactVersion" />
+    </ResolveArtifactVersion>
+
+    <PropertyGroup>
+      <ResolvedArtifactVersion Condition="'$(ResolvedArtifactVersion)' == ''">$(ArtifactBaseVersion)</ResolvedArtifactVersion>
+    </PropertyGroup>
+
+    <Message Text="Artifact resolved version will be: $(ResolvedArtifactVersion)" Importance="High" />
+    
+    <!-- update solution metadata xml when version changed -->
+    <SetArtifactVersion Type="SolutionXml" Path="$(SolutionXML)" Version="$(ResolvedArtifactVersion)" Condition="'$(TF_BUILD)' == 'True' AND Exists('$(SolutionXML)')" />
+    <Message Text="Completed solution artifact versioning." />
+    
+  </Target>
+
+  <Target Name="PropertyInitialization" BeforeTargets="ResolveSolutionVersion">
+    <!-- display solution metadata context version -->
+    <PropertyGroup>
+      <ContextSolutionVersion Condition="'$(SolutionVersion)' != ''">$(SolutionVersion)</ContextSolutionVersion>
+    </PropertyGroup>
+
+    <!-- read solution and version information; only executes when no context version -->
+    <Message Text="Querying solution version.." Importance="High" Condition="'$(SolutionVersion)' == ''" />
+    <ReadArtifactVersion Type="SolutionXml" Path="$(SolutionXML)" Condition="'$(SolutionVersion)' == '' AND Exists('$(SolutionXML)')">
+      <Output TaskParameter="Version" PropertyName="QueriedSolutionVersion" />
+    </ReadArtifactVersion>
+
+    <ReadArtifactName Type="SolutionXml" Path="$(SolutionXML)" Condition="Exists('$(SolutionXML)')">
+      <Output TaskParameter="Name" PropertyName="QueriedSolutionUniqueName" />
+    </ReadArtifactName>
+    
+    <!-- read package and version information when UsePackageVersion is True; only executes when no context version -->
+    <Message Text="Querying package version.." Importance="High" Condition="'$(UsePackageVersion)' == 'True' AND '$(SolutionVersion)' == ''" />
+    <ReadArtifactVersion Type="Nuspec" Path="$(PackageNuspec)" Condition="'$(UsePackageVersion)' == 'True' AND '$(SolutionVersion)' == '' AND Exists('$(PackageNuspec)')">
+      <Output TaskParameter="Version" PropertyName="QueriedPackageVersion" />
+    </ReadArtifactVersion>
+
+    <PropertyGroup>
+      <SolutionVersion Condition="'$(QueriedSolutionVersion)' != 'None' AND '$(SolutionVersion)' == ''">$(QueriedSolutionVersion)</SolutionVersion>
+      <SolutionVersion Condition="'$(QueriedPackageVersion)' != 'None' AND '$(UsePackageVersion)' == 'True'">$(QueriedPackageVersion)</SolutionVersion>
+      <SolutionIdentity>$(QueriedSolutionUniqueName)</SolutionIdentity>
+    </PropertyGroup>
+    
+    <!-- retrieve provided solution metadata version from dynamic properties; overrides context and queried versions -->
+    <ItemGroup>
+      <_Artifact Include="$(SolutionIdentity.Replace(&quot;.&quot;, &quot;&quot;))" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+      <DynamicSolutionVersion Condition="'$(%(_Artifact.Identity))' != ''">$(%(_Artifact.Identity))</DynamicSolutionVersion>
+      <SolutionVersion Condition="'$(DynamicSolutionVersion)' != 'None' AND '$(DynamicSolutionVersion)' != ''">$(DynamicSolutionVersion)</SolutionVersion>
+    </PropertyGroup>
+
+    <Message Text="Context solution version is: $(ContextSolutionVersion)" />
+    <Message Text="Queried solution version is: $(QueriedSolutionVersion)" />
+    <Message Text="Queried package version is: $(QueriedPackageVersion)" />
+    <Message Text="Dynamic solution version is: $(DynamicSolutionVersion)" />
+    <Message Text="Version to use is: $(SolutionVersion)" />
+  </Target>
+</Project>

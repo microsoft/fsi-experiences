@@ -1,0 +1,13 @@
+{
+  "tool": "Credential Scanner",
+  "suppressions": [
+    {
+      "hash": "xa92GQ229WtFsG83R/Dpo8LwLUqXb/dU20vAKUb83WY=",
+      "_justification": "CredScanner identified the attribute 'PrimaryKey' as a password and it is not."
+    },
+    {
+      "hash": "URmuiAX/VbB1pvC7IoH3Tui3YT/1qslrml3Vbq5DPIs=",
+      "_justification": "CredScanner identified `input type='password'` as a password and it is not."
+    }
+  ]
+}

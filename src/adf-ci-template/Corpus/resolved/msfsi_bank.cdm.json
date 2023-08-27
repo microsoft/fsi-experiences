@@ -1,0 +1,78 @@
+{
+  "jsonSchemaSemanticVersion": "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "msfsi_bank",
+      "attributeContext": {
+        "type": "entity",
+        "name": "msfsi_bank",
+        "definition": "resolvedFrom/msfsi_bank"
+      },
+      "hasAttributes": [
+        {
+          "name": "statecode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "statuscode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_postalcode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_addressline3",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_bankid",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_addressline1",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_city",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_addressline2",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_telephone1",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_integrationkey",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_bankcode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_stateorprovince",
+          "dataFormat": "String"
+        }
+      ],
+      "version": "1.0.0.0"
+    }
+  ]
+}

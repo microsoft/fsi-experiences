@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="FinancialHoldingInformationControl" version="1.4.0" display-name-key="FinancialHoldingInformationControl" description-key="FinancialHoldingInformationControl description" control-type="standard">
+    <type-group name="Entity">
+      <type>SingleLine.Text</type>
+      <type>Lookup.Customer</type>
+      <type>Lookup.Simple</type>
+    </type-group>
+    <property name="dummy" display-name-key="Dummy_Key" description-key="Dummy_Desc_Key" of-type-group="Entity" usage="bound" required="true" />
+    <property name="financialHoldingId" display-name-key="Entity_Key" description-key="Entity_Desc_Key" of-type="SingleLine.Text" usage="input" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="FinancialHoldingInformationControl.css" order="1" />
+      <resx path="strings/FinancialHoldingInformationControl.1046.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.1028.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.3082.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.1040.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.1031.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.1043.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.1036.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingInformationControl.1033.resx" version="1.0.0" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error.png" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

@@ -3,12 +3,22 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Solution Modules specific ignores
+drop/
+target/
+packages/
+Modules/**/*.dll
+exports/solutions/*/*.*
+exports/data/*.zip
+**/dist
+**/junit.xml
+**/coverage/
+
 # User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-target/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -329,8 +339,12 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/solutions/PackageGenerator/PackageGenerator/app.config
+/Tests/CombinedOutput
 
-# Code coverage report data files
-coveragetool
-reports/
-*.cobertura.xml
+# VS Code
+.vscode/
+
+# Controls
+Modules/**/**/Controls/ 
+Modules/**/WebResources/*.js

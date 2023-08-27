@@ -1,0 +1,102 @@
+{
+  "jsonSchemaSemanticVersion": "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "msfsi_branch",
+      "attributeContext": {
+        "type": "entity",
+        "name": "msfsi_branch",
+        "definition": "resolvedFrom/msfsi_branch"
+      },
+      "hasAttributes": [
+        {
+          "name": "statecode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "statuscode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_bank",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_bank_entitytype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_branchmanager",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_branchmanager_entitytype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_country",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_branchmanageryominame",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_branchmanagername",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_stateorprovince",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_postalcode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_branchid",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_addressline2",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_bankname",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_integrationkey",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_telephone1",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_addressline1",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_branchcode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_addressline3",
+          "dataFormat": "String"
+        }
+      ],
+      "version": "1.0.0.0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "react": [
+        {
+            "minVersion": "16.8",
+            "maxVersion": "16.8.6",
+            "platformVersion": "16.8.6",
+            "libAlias": "React",
+            "order": 100
+        }
+    ],
+    "fluent": [
+        {
+            "minVersion": "8.0",
+            "maxVersion": "8.29.0",
+            "platformVersion": "8.29.0",
+            "libAlias": "FluentUIReactv8290",
+            "order": 100
+        }
+    ]
+}

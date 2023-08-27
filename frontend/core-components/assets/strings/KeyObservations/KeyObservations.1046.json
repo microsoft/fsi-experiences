@@ -1,0 +1,12 @@
+{
+    "KEY_SEGMENTS": "Segmentos de cliente",
+    "KEY_SEGMENTS_EMPTY": "Não há segmentos para mostrar",
+    "INVALID_CONFIGURATION": "Há um problema de configuração",
+    "KEY_PREDICTION": "Risco de rotatividade",
+    "KEY_PREDICTION_EMPTY": "Nenhuma previsão disponível",
+    "PREDICTION_UNDEFINED_MESSAGE": "O modelo de IA não tem informações adequadas para fazer uma previsão no momento.",
+    "INDICATORS_HEADER": "Indicadores do cliente",
+    "TRY_REFRESH_CONTACT_ADMIN": "Tente atualizar seu navegador ou contate o administrador de TI",
+    "NO_INDICATORS_TO_SHOW_YET": "Não há indicadores para mostrar",
+    "CUSTOMER_INDICATOR_EMPTY_STATE_TITLE": "Não há indicador definido"
+}

@@ -1,0 +1,74 @@
+{
+  "jsonSchemaSemanticVersion": "1.1.0",
+  "imports": [
+    {
+      "corpusPath": "cdm:/foundations.cdm.json",
+      "moniker": "resolvedFrom"
+    }
+  ],
+  "definitions": [
+    {
+      "entityName": "msfsi_lifemoment",
+      "attributeContext": {
+        "type": "entity",
+        "name": "msfsi_lifemoment",
+        "definition": "resolvedFrom/msfsi_lifemoment"
+      },
+      "hasAttributes": [
+        {
+          "name": "statecode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "statuscode",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_lifemomentcategory",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_lifemomenttype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_contact",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_contact_entitytype",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_lifemomentdate",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_contactyominame",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_modifiedon",
+          "dataFormat": "DateTime"
+        },
+        {
+          "name": "msfsi_contactname",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_lifemomentid",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_name",
+          "dataFormat": "String"
+        },
+        {
+          "name": "msfsi_lifemomenttitle",
+          "dataFormat": "String"
+        }
+      ],
+      "version": "1.0.0.0"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+export const FINANCIAL_HOLDINGS_FLAGS = {
+    SHOW_FINANCIAL_INSIGHTS: 'showFinancialInsights',
+};
+
+export const FINANCIAL_HOLDINGS_HIDE_LIST_CONFIGURATIONS = 'hideFinancialHoldingCategories';
+
+export const FINANCIAL_HOLDINGS_FLAGS_DEFAULTS = {
+    [FINANCIAL_HOLDINGS_FLAGS.SHOW_FINANCIAL_INSIGHTS]: true,
+};

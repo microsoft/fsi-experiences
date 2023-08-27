@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Geselecteerde financiële bezitting",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "Het kenmerk voor de onderliggende opzoekactie voor een financiële bezitting",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Categorie voor financiële bezetting selecteren",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Financiële bezittingen met geselecteerde categorie weergeven",
+    "SELECT_LINES_OF_CREDIT": "Doorlopende kredieten",
+    "SELECT_LINES_OF_CREDIT_DESC": "Categorie doorlopende kredieten",
+    "SELECT_LOANS": "Leningen",
+    "SELECT_LOANS_DESC": "Leningscategorie",
+    "SELECT_INVESTMENTS": "Beleggingen",
+    "SELECT_INVESTMENTS_DESC": "Beleggingscategorie",
+    "SELECT_LONG_TERM_SAVINGS": "Langlopende spaarrekening",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Categorie voor langlopende spaarrekeningen",
+    "SELECT_ACCOUNTS": "Rekeningen",
+    "SELECT_ACCOUNTS_DESC": "Rekeningcategorie",
+    "NO_FINANCIAL_HOLDINGS": "Geen financiële bezittingen",
+    "FORM_ID": "Formulier-id",
+    "FORM_ID_DESC": "De id van het formulier voor de details van het geselecteerde financiële bezit"
+}

@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "Snapshot del cliente",
+    "ENTITY_ID": "Entità principale",
+    "ENTITY_ID_DESC": "ID del componente snapshot del cliente dell'entità utilizzato per recuperare i dati",
+    "FORM_ID": "ID modulo",
+    "FORM_ID_DESC": "ID del modulo (modulo di visualizzazione rapida) utilizzato per determinare i campi dati e il layout dello snapshot del cliente",
+    "LINK_ENTITY_FIELD": "Campo collegamento entità principale",
+    "LINK_ENTITY_FIELD_DESC": "Nome logico del campo che contiene l'ID entità principale (per impostazione predefinita, nome entità + ID)",
+    "TITLE_VISIBILITY": "Visibilità titolo",
+    "TITLE_VISIBILITY_DESC": "Mostra o nascondi la sezione del titolo del componente",
+    "PREFERRED": "Preferito",
+    "NO_DATA_TO_SHOW_YET": "Nessun dato da mostrare ancora",
+    "TRY_REFRESH_CONTACT_ADMIN": "Prova ad aggiornare il browser o contatta l'amministratore IT",
+    "INVALID_CONFIGURATION": "Si è verificato un problema di configurazione",
+    "PREFERRED_COMM_EMAIL": "Il cliente preferisce comunicare tramite e-mail",
+    "PREFERRED_COMM_MAIL": "Il cliente preferisce comunicare tramite posta",
+    "PREFERRED_COMM_PHONE": "Il cliente preferisce comunicare tramite telefono"
+}

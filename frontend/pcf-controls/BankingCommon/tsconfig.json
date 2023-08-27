@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "alwaysStrict": true,
+        "strict": true,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": false,
+        "paths": {
+            "CommonComponents/*": ["./node_modules/@types/pcf-internal/ts/es6/CommonComponents/*"],
+            "CustomControls/*": ["./node_modules/@types/pcf-internal/ts/es6/CustomControls/*"],
+            "PerformanceAutomation/*": ["./node_modules/@types/pcf-internal/ts/es6/PerformanceAutomation/*"],
+            "PerformanceEvents/*": ["./node_modules/@types/pcf-internal/ts/es6/PerformanceEvents/*"],
+            "PerformanceInterface/*": ["./node_modules/@types/pcf-internal/ts/es6/PerformanceInterface/*"]
+        },
+        "typeRoots": ["node_modules/@types"]
+    },
+    "exclude": ["node_modules", "./dist"]
+}

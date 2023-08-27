@@ -1,0 +1,17 @@
+{
+    "INITIAL_AMOUNT": "Valor inicial",
+    "OUTSTANDING_BALANCE": "Saldo pendente",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "Valor principal pendente",
+    "CURRENT_BALANCE": "Saldo atual",
+    "BOOK_BALANCE": "Saldo reserva",
+    "FH_CUSTOMER_HOLDING": "Holdings de clientes",
+    "FH_ASSOCIATED_HOLDING": "Holdings associadas",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "Holdings Financeiras Detalhadas",
+    "FH_ID_ACCOUNT": "ID da Conta",
+    "FH_ID_LOAN": "ID do Empréstimo",
+    "FH_ID_INVESTMENT": "ID do Investimento",
+    "FH_ID_SAVING": "ID de poupança de longo prazo",
+    "FH_ID_CREDIT": "ID da linha de crédito",
+    "PORTFOLIO_ALLOCATION": "Alocação do portfólio",
+    "NO_ASSETS_YET": "Nenhum ativo ainda"
+}

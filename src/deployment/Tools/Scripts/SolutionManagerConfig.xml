@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SolutionManagerConfig>
+<SolutionConfig>
+  <SolutionsToExport description = "solutiontype= managed/unmanaged/both">
+    <Solution>
+     <SolutionVersion>2_0_0_0</SolutionVersion>
+     <SolutionName>MicrosoftDynamics365IATI</SolutionName>
+     <Solutiontype>unmanaged</Solutiontype>     
+     </Solution>
+  </SolutionsToExport>  
+  <SolutionExportFileZipPath>C:\Users\jpena\Source\Repos\ISV.Accelerator.Nonprofit2\Internal\github.releases\v3.0.0.0</SolutionExportFileZipPath>
+</SolutionConfig>
+<InstanceConfig>
+  <InstanceRegion>Don't Know</InstanceRegion>
+  <InstanceOrganization>orgd348435c</InstanceOrganization>
+</InstanceConfig>
+<SolutionPackageConfig>  
+  <PackageDirectory>C:\Users\jpena\Source\Repos\ISV.Accelerator.Nonprofit2\Internal\github.releases\v3.0.0.0</PackageDirectory>
+  <ExtractDirectory>C:\Users\jpena\Source\Repos\ISV.Accelerator.Nonprofit2\CDS.solutions\IATI\Extracts\Base</ExtractDirectory>
+  <SolutionPackagerPath>C:\Users\jpena\Source\Repos\ISV.Accelerator.Nonprofit2\Internal\build\Tools\Dynamics365\SolutionPackager</SolutionPackagerPath>
+</SolutionPackageConfig>
+</SolutionManagerConfig>

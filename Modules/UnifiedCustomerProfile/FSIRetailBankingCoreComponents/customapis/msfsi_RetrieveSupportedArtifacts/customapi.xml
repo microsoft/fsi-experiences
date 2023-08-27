@@ -1,0 +1,18 @@
+<customapi uniquename="msfsi_RetrieveSupportedArtifacts">
+  <allowedcustomprocessingsteptype>2</allowedcustomprocessingsteptype>
+  <bindingtype>0</bindingtype>
+  <description default="Retrieves artifacts of supported observations">
+    <label description="Retrieves artifacts of supported observations" languagecode="1033" />
+  </description>
+  <displayname default="Retrieve supported artifacts">
+    <label description="Retrieve supported artifacts" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>1</isprivate>
+  <name>Retrieve supported artifacts</name>
+  <plugintypeid>
+    <plugintypeid>64e731bf-db4e-4b6c-9831-5337445ab0a1</plugintypeid>
+  </plugintypeid>
+  <workflowsdkstepenabled>0</workflowsdkstepenabled>
+</customapi>

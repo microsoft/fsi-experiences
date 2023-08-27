@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{db3406a9-6ce0-403d-b676-08e75112352f}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{258843a7-5d51-4777-a774-b1ffae90a522}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{48fcfbfd-40ce-4e32-98a4-288d4b4a64be}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f5ee39ea-7cb1-4239-b99b-d168e8914336}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2a5239ce-ba89-4f7c-bf99-2bb1d66f219c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32934d53-3ea3-4a8d-a869-10dd8b136ccc}" locklevel="0">
+                        <labels>
+                          <label description="Contact from" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_contactfrom" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_contactfrom" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6863b1b9-ca0a-4b60-9b2f-702e04658f38}" locklevel="0">
+                        <labels>
+                          <label description="Contact to" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_contactto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_contactto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e90cfb36-82b9-48e2-8343-9b881149ee8a}" locklevel="0">
+                        <labels>
+                          <label description="Relationship type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_relationshiptype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_relationshiptype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{320413ce-3d13-434b-83e8-47c2f6150285}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cd5c0f53-eb02-4522-87d9-11a247b9b16c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d2691e14-19f4-4fc3-b15a-0c07a2afd74f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2d63cb5d-d783-4542-9847-58bb85e6ab9c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b60c1e31-e5fb-4bb5-84fd-89edbb3f52c3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9037526c-494a-4b69-9378-5894f75477bc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e09d6e74-32be-4f0f-8f4a-f632a86e55f5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{54d9e679-a09c-4a25-aed5-ea89739cc594}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

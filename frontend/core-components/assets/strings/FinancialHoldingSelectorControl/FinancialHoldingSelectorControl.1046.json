@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Holding financeira selecionada",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "O atributo da pesquisa subjacente de uma holding financeira",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Selecionar categoria da holding financeira",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Exibir holdings financeiras com a categoria selecionada",
+    "SELECT_LINES_OF_CREDIT": "Linhas de crédito",
+    "SELECT_LINES_OF_CREDIT_DESC": "Categoria das linhas de crédito",
+    "SELECT_LOANS": "Empréstimos",
+    "SELECT_LOANS_DESC": "Categoria dos empréstimos",
+    "SELECT_INVESTMENTS": "Investimentos",
+    "SELECT_INVESTMENTS_DESC": "Categoria de investimentos",
+    "SELECT_LONG_TERM_SAVINGS": "Poupança de longo prazo",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Categoria da poupança de longo prazo",
+    "SELECT_ACCOUNTS": "Contas",
+    "SELECT_ACCOUNTS_DESC": "Categoria das contas",
+    "NO_FINANCIAL_HOLDINGS": "Nenhuma holding financeira",
+    "FORM_ID": "Id do formulário",
+    "FORM_ID_DESC": "A ID do formulário usado para mostrar os detalhes de holding financeira selecionados"
+}

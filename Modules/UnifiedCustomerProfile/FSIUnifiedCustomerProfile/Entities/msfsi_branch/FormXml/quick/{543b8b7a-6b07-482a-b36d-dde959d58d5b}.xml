@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{543b8b7a-6b07-482a-b36d-dde959d58d5b}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{2a5532f4-ea7e-43d0-b988-649265e0b788}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4dd1d76c-0cab-4ac5-90b0-0293137836c0}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{6d1093b8-405b-4c35-8eab-1e7ba2a435b6}" ordinalvalue="10011" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{a949350e-f126-4e00-b3a1-208e5e0c8565}" ordinalvalue="10012" solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell id="{ba1192c0-e756-8c17-e1a6-1c0ca8356dca}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Added">
+                        <labels>
+                          <label description="Branch code" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branchcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_branchcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84084c31-c26a-93e6-eacb-1ee531a7484e}" showlabel="true" locklevel="0" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Branch name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8904aaeb-36c2-db83-84c5-3a447d099960}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Bank" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_bank" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_bank" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{372d809e-4aa0-46cb-3db3-4222d730cde0}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Branch manager" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branchmanager" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_branchmanager" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e48a3959-9e19-0003-8c77-60335e86b077}" showlabel="true" locklevel="0" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Address line 1" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_addressline1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_addressline1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c77c88b-730b-4c19-6340-7a1de5d55d00}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="Address line 2" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_addressline2" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_addressline2" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16175463-80d6-e53c-e7dd-c887aa60e4d6}" showlabel="true" locklevel="0" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Address line 3" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_addressline3" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_addressline3" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a09a333-c734-07b4-9980-5963546753a1}" showlabel="true" locklevel="0" ordinalvalue="10007" solutionaction="Added">
+                        <labels>
+                          <label description="State/Province" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_stateorprovince" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_stateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d43a1e17-b63b-28d1-ac6b-b7d725ee4bcc}" showlabel="true" locklevel="0" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="Country/Region" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_country" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_country" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0cca0226-3ccb-3ccb-303c-0474a347a7a5}" showlabel="true" locklevel="0" ordinalvalue="10009" solutionaction="Added">
+                        <labels>
+                          <label description="ZIP/Postal code" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_postalcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1e754e45-c1a3-967a-c055-dcd133d6c467}" showlabel="true" locklevel="0" ordinalvalue="10010" solutionaction="Added">
+                        <labels>
+                          <label description="Telephone no." languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_telephone1" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Produit financier sélectionné",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "Attribut de la recherche sous-jacente d’un produit financier",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Sélectionner une catégorie de produit financier",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Afficher les produits financiers avec la catégorie sélectionnée",
+    "SELECT_LINES_OF_CREDIT": "Lignes de crédit",
+    "SELECT_LINES_OF_CREDIT_DESC": "Catégorie de lignes de crédit",
+    "SELECT_LOANS": "Prêts",
+    "SELECT_LOANS_DESC": "Catégorie de prêts",
+    "SELECT_INVESTMENTS": "Investissements",
+    "SELECT_INVESTMENTS_DESC": "Catégorie d’investissements",
+    "SELECT_LONG_TERM_SAVINGS": "Épargne à long terme",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Catégorie de l’épargne à long terme",
+    "SELECT_ACCOUNTS": "Comptes",
+    "SELECT_ACCOUNTS_DESC": "Catégorie de comptes",
+    "NO_FINANCIAL_HOLDINGS": "Mes produits financiers",
+    "FORM_ID": "ID formulaire",
+    "FORM_ID_DESC": "ID du formulaire utilisé pour afficher les détails du produit financier sélectionné"
+}

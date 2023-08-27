@@ -1,0 +1,7 @@
+export const ENTITY_SNAPSHOT_FLAGS = {
+    TITLE_VISIBILITY: 'titleVisibility',
+};
+
+export const ENTITY_SNAPSHOT_FLAGS_DEFAULTS = {
+    [ENTITY_SNAPSHOT_FLAGS.TITLE_VISIBILITY]: true,
+};

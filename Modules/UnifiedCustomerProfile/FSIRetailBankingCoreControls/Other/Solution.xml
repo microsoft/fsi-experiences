@@ -82,8 +82,6 @@
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.GroupsControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.CustomerSummaryControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.CustomerSnapshotControl" behavior="0" />
-      <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.SegmentsControl" behavior="0" />
-      <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.PredictionControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.InvestmentsPortfoliosControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.FinancialHoldingSelectorControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.FinancialHoldingInformationControl" behavior="0" />

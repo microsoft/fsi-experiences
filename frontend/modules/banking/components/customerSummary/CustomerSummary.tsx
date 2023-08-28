@@ -15,16 +15,13 @@ import { CustomerSummaryProps } from './CustomerSummary.interface';
 import ResponsiveContainer from '@fsi/core-components/dist/components/atoms/ResponsiveContainer/ResponsiveContainer';
 import { baseCardStyles } from '@fsi/core-components/dist/styles/Common.style';
 import CustomerSnapshot from '@fsi/core-components/dist/widgets/customerSnapshot/CustomerSnapshot';
-import SegmentsWrapper from '@fsi/core-components/dist/widgets/keyObservations/Segments/SegmentsWrapper';
-import PredictionWrapper from '@fsi/core-components/dist/widgets/keyObservations/Prediction/PredictionWrapper/PredictionWrapper';
 import FHSummary from '../summaryFH/FHSummary';
 import GroupsSummaryViewComponent from '../summaryGroup/GroupsSummaryViewComponent';
 import BankingCards from '../bankingCards/BankingCards';
 import LifeEvents from '@fsi/milestones/LifeEvents';
 
 const CustomerSummary: React.FC<CustomerSummaryProps> = props => {
-    const { customerSnapshotFetcher, contactId, lifeEventsFetcher, fhFetcher, fhCardsFetcher, pcfGroupsFetcher, keyObservationsFetcher, formId } =
-        props;
+    const { customerSnapshotFetcher, contactId, lifeEventsFetcher, fhFetcher, fhCardsFetcher, pcfGroupsFetcher, formId } = props;
 
     return (
         <ResponsiveContainer classPrefix={SUMMARY_RESPONSIVE_CONTAINER}>
@@ -33,8 +30,6 @@ const CustomerSummary: React.FC<CustomerSummaryProps> = props => {
                     <Stack styles={baseCardStyles}>
                         <CustomerSnapshot entityId={contactId} formId={formId} fetcher={customerSnapshotFetcher} />
                     </Stack>
-                    <SegmentsWrapper fetcher={keyObservationsFetcher} contactId={contactId}></SegmentsWrapper>
-                    <PredictionWrapper fetcher={keyObservationsFetcher} contactId={contactId}></PredictionWrapper>
                 </Stack>
                 <Stack styles={rightBoxStyles}>
                     <Stack styles={lifeEventsBoxStyle}>

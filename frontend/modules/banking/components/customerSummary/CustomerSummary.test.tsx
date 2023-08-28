@@ -31,14 +31,6 @@ jest.mock('../../components/summaryGroup/GroupsSummaryViewComponent', () => () =
     return <div data-testid="mocked-group-summary">MOCKED GROUP SUMMARY</div>;
 });
 
-jest.mock('@fsi/core-components/dist/widgets/keyObservations/Segments/SegmentsWrapper', () => () => {
-    return <div data-testid="mocked-segments-wrapper">MOCKED SEGEMENTS WRAPPER</div>;
-});
-
-jest.mock('@fsi/core-components/dist/widgets/keyObservations/Prediction/PredictionWrapper/PredictionWrapper', () => () => {
-    return <div data-testid="mocked-prediction-wrapper">MOCKED SEGEMENTS WRAPPER</div>;
-});
-
 describe('CustomerSummary', () => {
     const props: CustomerSummaryProps = {
         contactId: 'test',
@@ -57,11 +49,6 @@ describe('CustomerSummary', () => {
             fetchSnapshotData: () => Promise.reject(),
             fetchSnapshotLayout: () => Promise.reject(),
             fetchSnapshotMetadata: () => Promise.reject(),
-        },
-        keyObservationsFetcher: {
-            getSegments: () => Promise.resolve([]),
-            getPrediction: () => Promise.resolve(undefined),
-            getSupportedArtifacts: () => Promise.resolve([]),
         },
     };
 

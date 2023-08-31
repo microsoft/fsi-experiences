@@ -13,8 +13,6 @@ import { extractContextualFlags, mergeConfigs } from '@fsi/pcf-common/utilities/
 import { extractLifeEventsConfig } from './LifeEventsContainer';
 import { extractFinancialHoldingsFlags } from '@fsi-pcf/banking-common/financial-holding/financialHoldings';
 import * as MockCustomerSnapshotFetcher from '@fsi/core-components/dist/dataLayerInterface/service/mocks/MockCustomerSnapshotFetcher';
-import { MockKeyObservationsFetcher } from '@fsi/core-components/dist/dataLayerInterface/service/mocks/MockKeyObservationsFetcher';
-import { KeyObservationsFetcher } from '@fsi/pcf-common/data-layer/keyObservations/KeyObservationsFetcher';
 import { KEY_OBSERVATIONS_FLAGS, KEY_OBSERVATIONS_FLAGS_DEFAULTS } from '@fsi/core-components/dist/constants/features';
 import { useFHFetcher } from '@fsi-pcf/banking-common/financial-holding/fetchers/useFHFetcher';
 
@@ -42,10 +40,6 @@ export const CustomerSummaryContainer: React.FC<CustomerSummaryProps> = (props: 
             : new CustomerSnapshotFetcher(context, 'contactid');
     }, [context]);
 
-    const keyObservationsFetcher = useMemo(() => {
-        return contextService.isTestMode() ? new MockKeyObservationsFetcher() : new KeyObservationsFetcher(context);
-    }, [context]);
-
     const fhFetcher = useFHFetcher(context);
 
     const fhCardsFetcher = useMemo(() => {
@@ -59,7 +53,6 @@ export const CustomerSummaryContainer: React.FC<CustomerSummaryProps> = (props: 
         <PCFContainer context={props.context} config={config}>
             <CustomerSummary
                 customerSnapshotFetcher={customerSnapshotFetcher}
-                keyObservationsFetcher={keyObservationsFetcher}
                 formId={context.parameters?.formId?.raw || defaultSnapshotFormID}
                 contactId={contactId}
                 lifeEventsFetcher={lifeEventsFetcher}

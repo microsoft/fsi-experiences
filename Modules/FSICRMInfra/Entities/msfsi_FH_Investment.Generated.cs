@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// 
+	/// A holding representing a portfolio of securities or other investible assets.
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_fh_investment")]
@@ -242,7 +242,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance in base currency.
+		/// Value of the balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balance_Base
@@ -255,7 +255,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The balance in the default currency of the system (provided by the financial services institution).
+		/// Balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDefault
@@ -271,19 +271,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_BalanceDefault");
 				this.SetAttributeValue("msfsi_balancedefault", value);
 				this.OnPropertyChanged("msfsi_BalanceDefault");
-			}
-		}
-		
-		/// <summary>
-		/// Value of the Balance (Default) in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefault_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefault_base");
 			}
 		}
 		
@@ -308,20 +295,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance (Default) Display Value in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefaultdisplayvalue_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefaultdisplayvalue_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefaultdisplayvalue_base");
-			}
-		}
-		
-		/// <summary>
-		/// 
+		/// Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDisplayValue
@@ -341,7 +315,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance Display Value in base currency.
+		/// Value of the balance display value in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balancedisplayvalue_Base
@@ -374,7 +348,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Balance of cash (not invested free cash) held on the account.
+		/// Amount of cash available in the investment account (not invested free cash).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_cashbalance")]
 		public Microsoft.Xrm.Sdk.Money msfsi_Cashbalance
@@ -394,7 +368,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Cash balance in base currency.
+		/// Value of the cash balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_cashbalance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_cashbalance_Base
@@ -407,7 +381,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Balance of cash (not invested free cash) held on the account. Value should be converted to base currency.
+		/// Cash balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_cashbalance_default")]
 		public System.Nullable<decimal> msfsi_Cashbalance_default
@@ -427,7 +401,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for entity instances
+		/// Unique identifier for entity instances.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fh_investmentid")]
 		public System.Nullable<System.Guid> msfsi_FH_InvestmentId
@@ -490,7 +464,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Subtypes under Financial Category.
+		/// Financial account subtypes under Financial Category, such as brokerage account, custodial account, etc.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_financialholdingtype")]
 		public virtual msfsi_FH_Investment_msfsi_FinancialHoldingType? msfsi_FinancialHoldingType
@@ -563,7 +537,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Used by the system integrator to uniquely define the data record .
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_integrationkey")]
 		public string msfsi_IntegrationKey
@@ -583,7 +557,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Objectives of the investment portfolio(Multi-select picklist).
+		/// Objectives of the investment portfolio (Multi-select picklist).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_investmentobjectives")]
 		public virtual msfsi_FH_Investment_msfsi_InvestmentObjectives? msfsi_InvestmentObjectives
@@ -623,7 +597,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The time frame for the investment (long, medium, short).
+		/// The time frame for the investment plan (long, medium, short).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_investmenttimeframe")]
 		public virtual msfsi_FH_Investment_msfsi_InvestmentTimeFrame? msfsi_InvestmentTimeFrame
@@ -643,7 +617,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Required name field
+		/// Required name field.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_name")]
 		public string msfsi_Name
@@ -663,7 +637,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Date the portfolio was opened.
+		/// Date the investment portfolio was opened.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_openeddate")]
 		public System.Nullable<System.DateTime> msfsi_Openeddate
@@ -679,6 +653,26 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_Openeddate");
 				this.SetAttributeValue("msfsi_openeddate", value);
 				this.OnPropertyChanged("msfsi_Openeddate");
+			}
+		}
+		
+		/// <summary>
+		/// Performance of a portfolio since its creation.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_performance")]
+		public System.Nullable<decimal> msfsi_performance
+		{
+			[System.Diagnostics.DebuggerNonUserCode()]
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<decimal>>("msfsi_performance");
+			}
+			[System.Diagnostics.DebuggerNonUserCode()]
+			set
+			{
+				this.OnPropertyChanging("msfsi_performance");
+				this.SetAttributeValue("msfsi_performance", value);
+				this.OnPropertyChanged("msfsi_performance");
 			}
 		}
 		
@@ -723,7 +717,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Performance of investments in the last year from 1st of January.
+		/// Performance of investments in the current year from 1st of January.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_performanceytd")]
 		public System.Nullable<double> msfsi_PerformanceYTD
@@ -783,7 +777,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -803,7 +797,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -842,7 +836,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the FH Investment
+		/// Status of the FH Investment.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_FH_InvestmentState> StateCode
@@ -877,7 +871,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the FH Investment
+		/// Reason for the status of the FH Investment.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_FH_Investment_StatusCode? StatusCode

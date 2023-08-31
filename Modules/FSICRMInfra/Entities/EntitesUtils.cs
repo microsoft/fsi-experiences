@@ -1,4 +1,4 @@
-﻿namespace Microsoft.CloudForFSI.Tables
+namespace Microsoft.CloudForFSI.Tables
 {
     using Microsoft.Xrm.Sdk;
     using System;
@@ -6,13 +6,13 @@
     using System.Linq;
     using System.Reflection;
 
-    public static class EntitiesUtill
+    public static class EntitiesUtil
     {
         public static string GetAttributeLogicalName<T>(this string propertyName) where T : Entity
         {
             var property = typeof(T).GetProperty(propertyName);
             var logicalNameAttribute = property.GetAttribute<AttributeLogicalNameAttribute>();
-            return logicalNameAttribute?.LogicalName;            
+            return logicalNameAttribute?.LogicalName;
         }
 
         public static string GetRelationshipSchemaName<T>(this string propertyName) where T : Entity
@@ -41,7 +41,7 @@
         {
             if (value == null)
                 return null;
-            var expando = new Entity();            
+            var expando = new Entity();
             expando["Value"] = Convert.ToInt32(value);
             expando["Label"] = value.ToString().GetOptionSetMetadataAttribute<T>();
             return expando;
@@ -50,7 +50,7 @@
         private static string DefaultEntityNameForEmptyCollectionResult = Contact.EntityLogicalName;
 
         public static EntityCollection ToCollectionWithDefaultEntityWhenEmpty(this EntityCollection entityCollection)
-        {            
+        {
             //There is a bug in dynamics where you can't return an empty entity collection without stating the entity name.
             //Hence, we use this wrapper to return a collection for the Contact entity (which is always in the system),
             //if an API response param of type EntityCollection is empty.
@@ -68,7 +68,7 @@
 
         public static EntityCollection ToEntityCollection(this IList<Entity> entityList)
         {
-            var outputParamCollection = new EntityCollection(entityList);            
+            var outputParamCollection = new EntityCollection(entityList);
             return outputParamCollection.ToCollectionWithDefaultEntityWhenEmpty();
         }
     }

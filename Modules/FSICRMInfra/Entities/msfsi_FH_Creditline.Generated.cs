@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// 
+	/// A preset borrowing limit associated with a credit or charge card.
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_fh_creditline")]
@@ -202,7 +202,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Indicates whether the financial holding is an asset or a liability.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_accountingclassification")]
 		public virtual msfsi_AccountingClassification? msfsi_AccountingClassification
@@ -242,7 +242,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance in base currency.
+		/// Value of the balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balance_Base
@@ -255,7 +255,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The balance in the default currency of the system (provided by the financial services institution).
+		/// Balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDefault
@@ -271,19 +271,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_BalanceDefault");
 				this.SetAttributeValue("msfsi_balancedefault", value);
 				this.OnPropertyChanged("msfsi_BalanceDefault");
-			}
-		}
-		
-		/// <summary>
-		/// Value of the Balance (Default) in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefault_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefault_base");
 			}
 		}
 		
@@ -308,20 +295,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance (Default) Display Value in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefaultdisplayvalue_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefaultdisplayvalue_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefaultdisplayvalue_base");
-			}
-		}
-		
-		/// <summary>
-		/// 
+		/// Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDisplayValue
@@ -341,7 +315,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance Display Value in base currency.
+		/// Value of the balance display value in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balancedisplayvalue_Base
@@ -374,7 +348,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The total credit limit provided to the customer on the card.
+		/// The total credit limit available to the customer on the credit card.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_creditlimit")]
 		public Microsoft.Xrm.Sdk.Money msfsi_CreditLimit
@@ -394,7 +368,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Credit Limit in base currency.
+		/// Value of the credit limit in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_creditlimit_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_creditlimit_Base
@@ -407,7 +381,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The total credit limit provided to the customer on the card. Value should be converted to base currency.
+		/// Credit limit converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_creditlimit_default")]
 		public System.Nullable<decimal> msfsi_CreditLimit_default
@@ -447,7 +421,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for entity instances
+		/// Unique identifier for entity instances.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fh_creditlineid")]
 		public System.Nullable<System.Guid> msfsi_FH_CreditlineId
@@ -530,7 +504,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Used by the system integrator to uniquely define the data record .
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_integrationkey")]
 		public string msfsi_IntegrationKey
@@ -550,7 +524,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The rate of interest applied to the financial holding, based on which interest will be earned during the defined period/term. This can be applied towards an account, credit, loan, saving or investment
+		/// The rate of interest associated with the line of credit, to be charged to the customer during a defined period/term. 
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interestrate")]
 		public System.Nullable<decimal> msfsi_Interestrate
@@ -570,7 +544,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The date on which the last statement balance was due.
+		/// The date on which the last payment was due on the credit balance.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_lastpaymentduedate")]
 		public System.Nullable<System.DateTime> msfsi_LastPaymentDueDate
@@ -610,7 +584,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Last Statement Balance in base currency.
+		/// Value of the last statement balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_laststatementbalance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_laststatementbalance_Base
@@ -623,7 +597,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The total amount due on the card per the last statement. Value should be converted to base currency.
+		/// Last statement balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_laststatementbalance_default")]
 		public System.Nullable<decimal> msfsi_LastStatementBalance_default
@@ -683,7 +657,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Minimum Payment Due in base currency.
+		/// Value of the minimum payment due in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_minimumpaymentdue_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_minimumpaymentdue_Base
@@ -696,7 +670,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The minimum amount that is required for payment towards the card based on the monthly payment percentage of the outstanding balance. Value should be converted to base currency.
+		/// Minimum payment due converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_minimumpaymentdue_default")]
 		public System.Nullable<decimal> msfsi_MinimumPaymentDue_default
@@ -716,7 +690,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The percentage of the outstanding balance that must be paid by the customer as the ‘minimum payment’ on the next payment date.
+		/// The percentage of the outstanding balance that must be paid by the customer as the ‘minimum payment’ by the next payment date.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_monthlypaymentpercentage")]
 		public System.Nullable<decimal> msfsi_MonthlyPaymentPercentage
@@ -736,7 +710,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Required name field
+		/// Required name field.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_name")]
 		public string msfsi_Name
@@ -756,7 +730,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The date on which the next payment towards the financial holding is due. This can be applied to credits and loans.
+		/// The date on which the next payment towards the financial holding is due. This can be applied to lines of credit and loans.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_nextpaymentdate")]
 		public System.Nullable<System.DateTime> msfsi_NextPaymentDate
@@ -816,7 +790,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -836,7 +810,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -875,7 +849,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the FH Creditline
+		/// Status of the FH Creditline.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_FH_CreditlineState> StateCode
@@ -910,7 +884,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the FH Creditline
+		/// Reason for the status of the FH Creditline.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_FH_Creditline_StatusCode? StatusCode

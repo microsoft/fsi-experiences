@@ -27,19 +27,6 @@ namespace Microsoft.CloudForFSI.Tables
 				base(service)
 		{
 		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="Account"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<Account> AccountSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<Account>();
-			}
-		}
-		
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="Contact"/> entities.
 		/// </summary>
@@ -52,29 +39,6 @@ namespace Microsoft.CloudForFSI.Tables
 			}
 		}
 		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_bank"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_bank> msfsi_bankSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_bank>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_branch"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_branch> msfsi_branchSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_branch>();
-			}
-		}
 		
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_customerfinancialholding"/> entities.
@@ -97,18 +61,6 @@ namespace Microsoft.CloudForFSI.Tables
 			get
 			{
 				return this.CreateQuery<msfsi_financialholding>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_financialholdinginstrument"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_financialholdinginstrument> msfsi_financialholdinginstrumentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_financialholdinginstrument>();
 			}
 		}
 		
@@ -145,18 +97,6 @@ namespace Microsoft.CloudForFSI.Tables
 			get
 			{
 				return this.CreateQuery<msfsi_GroupMember>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_lifemoment"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_lifemoment> msfsi_lifemomentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_lifemoment>();
 			}
 		}
 
@@ -220,53 +160,6 @@ namespace Microsoft.CloudForFSI.Tables
 			}
 		}
 		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_fi_Card"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_fi_Card> msfsi_fi_CardSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_fi_Card>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_fi_DirectDebit"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_fi_DirectDebit> msfsi_fi_DirectDebitSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_fi_DirectDebit>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_fi_Overdraft"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_fi_Overdraft> msfsi_fi_OverdraftSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_fi_Overdraft>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_fi_StandingOrder"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_fi_StandingOrder> msfsi_fi_StandingOrderSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_fi_StandingOrder>();
-			}
-		}
 
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_cimeasure"/> entities.
@@ -328,257 +221,6 @@ namespace Microsoft.CloudForFSI.Tables
 			}
 		}
 
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_ApplicationDocument"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_ApplicationDocument> msfsi_ApplicationDocumentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_ApplicationDocument>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_Collateral"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_Collateral> msfsi_CollateralSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_Collateral>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_CreditCheck"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_CreditCheck> msfsi_CreditCheckSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_CreditCheck>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_CustomDocument"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_CustomDocument> msfsi_CustomDocumentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_CustomDocument>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_employment"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_employment> msfsi_employmentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_employment>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_kyc"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_kyc> msfsi_kycSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_kyc>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplication"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplication> msfsi_LoanApplicationSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplication>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationAsset"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationAsset> msfsi_LoanApplicationAssetSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationAsset>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationCollateral"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationCollateral> msfsi_LoanApplicationCollateralSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationCollateral>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationCollateralValuation"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationCollateralValuation> msfsi_LoanApplicationCollateralValuationSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationCollateralValuation>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationContact"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationContact> msfsi_LoanApplicationContactSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationContact>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationContactAsset"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationContactAsset> msfsi_LoanApplicationContactAssetSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationContactAsset>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationContactLiability"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationContactLiability> msfsi_LoanApplicationContactLiabilitySet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationContactLiability>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_LoanApplicationLiability"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_LoanApplicationLiability> msfsi_LoanApplicationLiabilitySet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_LoanApplicationLiability>();
-			}
-		}
-
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="Annotation"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<Annotation> AnnotationSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<Annotation>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_document"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_document> msfsi_documentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_document>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_documentrequest"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_documentrequest> msfsi_documentrequestSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_documentrequest>();
-			}
-		}
-
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_documentdefinition"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_documentdefinition> msfsi_documentdefinitionSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_documentdefinition>();
-			}
-		}
-
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="Organization"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<Organization> OrganizationSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<Organization>();
-			}
-		}
-
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_taskdefinition"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_taskdefinition> msfsi_taskdefinitionSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_taskdefinition>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_tasknavigation"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_tasknavigation> msfsi_tasknavigationSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_tasknavigation>();
-			}
-		}
 	}
 	
 	internal sealed class EntityOptionSetEnum

@@ -272,7 +272,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The role of the customer regarding this holding.
+		/// The role of the customer with respect to the financial holding such as owner, beneficiary, etc.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_financialholdingrole")]
 		public virtual msfsi_customerfinancialholding_msfsi_FinancialHoldingRole? msfsi_FinancialHoldingRole
@@ -332,7 +332,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -352,7 +352,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -391,7 +391,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the Customer Financial Holding
+		/// Status of the Customer Financial Holding.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_customerfinancialholdingState> StateCode
@@ -426,7 +426,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the Customer Financial Holding
+		/// Reason for the status of the Customer Financial Holding.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_customerfinancialholding_StatusCode? StatusCode
@@ -495,48 +495,6 @@ namespace Microsoft.CloudForFSI.Tables
 			get
 			{
 				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
-			}
-		}
-		
-		/// <summary>
-		/// N:1 msfsi_account_msfsi_customerfinancialholding_CustomerID
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_customerid")]
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_account_msfsi_customerfinancialholding_CustomerID")]
-		public Account msfsi_account_msfsi_customerfinancialholding_CustomerID
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntity<Account>("msfsi_account_msfsi_customerfinancialholding_CustomerID", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_account_msfsi_customerfinancialholding_CustomerID");
-				this.SetRelatedEntity<Account>("msfsi_account_msfsi_customerfinancialholding_CustomerID", null, value);
-				this.OnPropertyChanged("msfsi_account_msfsi_customerfinancialholding_CustomerID");
-			}
-		}
-		
-		/// <summary>
-		/// N:1 msfsi_contact_msfsi_customerfinancialholding_CustomerID
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_customerid")]
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_contact_msfsi_customerfinancialholding_CustomerID")]
-		public Contact msfsi_contact_msfsi_customerfinancialholding_CustomerID
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntity<Contact>("msfsi_contact_msfsi_customerfinancialholding_CustomerID", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_contact_msfsi_customerfinancialholding_CustomerID");
-				this.SetRelatedEntity<Contact>("msfsi_contact_msfsi_customerfinancialholding_CustomerID", null, value);
-				this.OnPropertyChanged("msfsi_contact_msfsi_customerfinancialholding_CustomerID");
 			}
 		}
 		

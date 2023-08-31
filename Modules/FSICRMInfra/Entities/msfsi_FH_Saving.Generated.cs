@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// 
+	/// Savings accounts held by the customer at the financial institution.
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_fh_saving")]
@@ -202,7 +202,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Indicates whether the financial holding is an asset or a liability.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_accountingclassification")]
 		public virtual msfsi_AccountingClassification? msfsi_AccountingClassification
@@ -242,7 +242,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Accrued interest amount in base currency.
+		/// Value of the accrued interest amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_accruedinterest_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_accruedinterest_Base
@@ -255,7 +255,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Interest amount accrued to date on the deposit. Value should be converted to base currency.
+		/// Accrued interest amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_accruedinterest_default")]
 		public System.Nullable<decimal> msfsi_AccruedInterest_default
@@ -295,7 +295,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance in base currency.
+		/// Value of the balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balance_Base
@@ -328,7 +328,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance at Maturity in base currency.
+		/// Value of the balance at maturity in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balanceatmaturity_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balanceatmaturity_Base
@@ -341,7 +341,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The total amount that will be available in the account at the time of deposit maturity, which would include the principal deposit amount and the interest earned. Value should be converted to base currency.
+		/// Balance at maturity converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balanceatmaturity_default")]
 		public System.Nullable<decimal> msfsi_BalanceatMaturity_default
@@ -361,7 +361,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The balance in the default currency of the system (provided by the financial services institution).
+		/// Balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDefault
@@ -377,19 +377,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_BalanceDefault");
 				this.SetAttributeValue("msfsi_balancedefault", value);
 				this.OnPropertyChanged("msfsi_BalanceDefault");
-			}
-		}
-		
-		/// <summary>
-		/// Value of the Balance (Default) in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefault_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefault_base");
 			}
 		}
 		
@@ -414,20 +401,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance (Default) Display Value in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefaultdisplayvalue_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefaultdisplayvalue_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefaultdisplayvalue_base");
-			}
-		}
-		
-		/// <summary>
-		/// 
+		/// Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDisplayValue
@@ -447,7 +421,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance Display Value in base currency.
+		/// Value of the balance display value in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balancedisplayvalue_Base
@@ -500,7 +474,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Blocked Amount in base currency.
+		/// Value of the blocked amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_blockedamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_blockedamount_Base
@@ -533,7 +507,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for entity instances
+		/// Unique identifier for entity instances.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fh_savingid")]
 		public System.Nullable<System.Guid> msfsi_FH_SavingId
@@ -636,7 +610,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Used by the system integrator to uniquely define the data record .
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_integrationkey")]
 		public string msfsi_IntegrationKey
@@ -656,7 +630,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The rate of interest applied to the financial holding, based on which interest will be earned during the defined period/term. This can be applied towards an account, credit, loan, saving or investment
+		/// The rate of interest applied to the financial holding, to be earned during a defined period/term. 
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interestrate")]
 		public System.Nullable<decimal> msfsi_Interestrate
@@ -676,7 +650,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The date on which the final payment is due on a financial holding. This can be a repayment towards an investment, a loan, or a saving.
+		/// The target date on which an interest-bearing savings financial holding is terminated, and full interst is paid.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_maturitydate")]
 		public System.Nullable<System.DateTime> msfsi_Maturitydate
@@ -696,7 +670,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The instructions given by the customer to be taken on the account upon maturity such as transfer of interest to another account, or transfer of principal and interest amount to another account.
+		/// The instructions given by the customer about handling an account upon maturity, such as transfer of interest to another account, or transfer of principal and interest amount to another account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_maturityinstructionsdetails")]
 		public string msfsi_MaturityInstructionsDetails
@@ -716,7 +690,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Required name field
+		/// Required name field.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_name")]
 		public string msfsi_Name
@@ -756,7 +730,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Projected Interest Amount in base currency.
+		/// Value of the projected interest amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_projectedinterestamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_projectedinterestamount_Base
@@ -769,7 +743,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount of interested expected to be earned on the account based on the interest rate. Value should be converted to base currency.
+		/// Projected interest amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_projectedinterestamount_default")]
 		public System.Nullable<decimal> msfsi_ProjectedInterestAmount_default
@@ -829,7 +803,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -849,7 +823,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -888,7 +862,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the FH Saving
+		/// Status of the FH Saving.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_FH_SavingState> StateCode
@@ -923,7 +897,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the FH Saving
+		/// Reason for the status of the FH Saving.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_FH_Saving_StatusCode? StatusCode

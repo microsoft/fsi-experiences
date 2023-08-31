@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// Financial holding shows accounts, loans, investment, credit lines and savings.
+	/// Accounts, loans, investments, credit lines and savings accounts held by a customer.
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_financialholding")]
@@ -229,7 +229,7 @@ namespace Microsoft.CloudForFSI.Tables
         }
 
         /// <summary>
-        /// Details
+		/// Lookup to detailed table for financial holding.
         /// </summary>
         [Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_details")]
 		public Microsoft.Xrm.Sdk.EntityReference msfsi_details
@@ -269,7 +269,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// The bank's code for the financial holding.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_financialholdingcode")]
 		public string msfsi_FinancialHoldingCode
@@ -332,7 +332,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Used by the system integrator to uniquely define the data record .
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_integrationkey")]
 		public string msfsi_IntegrationKey
@@ -372,7 +372,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Date the financial holding is valid from.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_validfrom")]
 		public System.Nullable<System.DateTime> msfsi_ValidFrom
@@ -412,7 +412,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -432,7 +432,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -471,7 +471,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the Financial Holding
+		/// Status of the Financial Holding.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_financialholdingState> StateCode
@@ -506,7 +506,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the Financial Holding
+		/// Reason for the status of the Financial Holding.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_financialholding_StatusCode? StatusCode
@@ -579,6 +579,26 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
+		/// 1:N msfsi_contact_fhlookupplaceholder_msfsi_financi
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_contact_fhlookupplaceholder_msfsi_financi")]
+		public System.Collections.Generic.IEnumerable<Contact> msfsi_contact_fhlookupplaceholder_msfsi_financi
+		{
+			[System.Diagnostics.DebuggerNonUserCode()]
+			get
+			{
+				return this.GetRelatedEntities<Contact>("msfsi_contact_fhlookupplaceholder_msfsi_financi", null);
+			}
+			[System.Diagnostics.DebuggerNonUserCode()]
+			set
+			{
+				this.OnPropertyChanging("msfsi_contact_fhlookupplaceholder_msfsi_financi");
+				this.SetRelatedEntities<Contact>("msfsi_contact_fhlookupplaceholder_msfsi_financi", null, value);
+				this.OnPropertyChanged("msfsi_contact_fhlookupplaceholder_msfsi_financi");
+			}
+		}
+		
+		/// <summary>
 		/// 1:N msfsi_GroupFinancialHolding_FinancialHolding_ms
 		/// </summary>
 		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_GroupFinancialHolding_FinancialHolding_ms")]
@@ -615,26 +635,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_msfsi_financialholding_msfsi_customerfinancialholding_FinancialHoldingID");
 				this.SetRelatedEntities<msfsi_customerfinancialholding>("msfsi_msfsi_financialholding_msfsi_customerfinancialholding_FinancialHoldingID", null, value);
 				this.OnPropertyChanged("msfsi_msfsi_financialholding_msfsi_customerfinancialholding_FinancialHoldingID");
-			}
-		}
-		
-		/// <summary>
-		/// 1:N msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding
-		/// </summary>
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding")]
-		public System.Collections.Generic.IEnumerable<msfsi_financialholdinginstrument> msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntities<msfsi_financialholdinginstrument>("msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding");
-				this.SetRelatedEntities<msfsi_financialholdinginstrument>("msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding", null, value);
-				this.OnPropertyChanged("msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding");
 			}
 		}
 		

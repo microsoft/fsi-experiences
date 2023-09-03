@@ -33,18 +33,11 @@
     
     <Message text="Solution files extraction started.." Importance="High" />
 
-    <CallTarget Targets="UpdateManagedProperties" />
-
     <Exec Command='&quot;$(SolutionPackager)&quot; /action:extract /packagetype:both $(SolutionMapFileArgument) /f:&quot;$(MSBuildProjectDirectory)&quot; /c /zipfile:&quot;$(ZipSourceExtractFileName)&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
     <Exec Command="type $(PackagerLog)" Condition="Exists('$(PackagerLog)')" />
     
     <Exec Command='&quot;$(SolutionPackager)&quot; /action:extract /packagetype:both /f:&quot;$(MSBuildProjectDirectory)\obj\$(Configuration)\$(MSBuildProjectName)&quot; /c /zipfile:&quot;$(ZipSourceExtractFileName)&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
     <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\MergeSolutionExtracts.ps1 &quot;$(MSBuildProjectDirectory)&quot; &quot;$(MSBuildProjectDirectory)\obj\$(Configuration)\$(MSBuildProjectName)&quot;}&quot;" />
-  </Target>
-
-  <Target Name="UpdateManagedProperties" Condition="'$(DynamicsProjectType)' == 'Solution' and '$(EnableExportMerge)' == 'True' and Exists('$(WSRoot)\exports\solutions\$(MSBuildProjectName)')">
-    <Message text="Updating managed properties.." Importance="High" />
-    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\UpdateManagedProperties.ps1 -path &quot;$(WSRoot)\exports\solutions\$(MSBuildProjectName)&quot; &gt;&gt; c:\$(MSBuildProjectName).txt }&quot;" />
   </Target>
   
   <Target Name="GenerateSolutionFiles" Condition="'$(MSBuildProjectExtension)' == '$(LegacyProjectFile)'">
@@ -55,15 +48,8 @@
       <IncludeLicense Condition="'$(LicenseRequired)' == 'true' and Exists('$(MSBuildProjectDirectory)\..\License') and !$(MSBuildProjectName.ToUpper().EndsWith('ANCHOR'))">true</IncludeLicense>
     </PropertyGroup>
 
-    <Message text="Licensing enabled. Packing solution with licensing." Importance="High" Condition="'$(IncludeLicense)' == 'true'"/>
-    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\UpdateLicensing.ps1 $(MSBuildProjectName) $(MSBuildProjectDirectory) -Action Inject}&quot;" Condition="'$(IncludeLicense)' == 'true'"/>
-
     <!-- Pack Solution -->
     <Exec Command='&quot;$(SolutionPackager)&quot; /action:pack /packagetype:both $(SolutionMapFileArgument) $(FolderArgument) /zipfile:&quot;$(UnmanagedSolutionName).zip&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
-
-    <!-- Remove licensing afer pack if LicenseRequired flag is set to true -->
-    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\UpdateLicensing.ps1 -MSBuildProjectDirectory $(MSBuildProjectDirectory) -Action Remove}&quot;" Condition="'$(IncludeLicense)' == 'true'"/>
-    <Exec Command="type $(PackagerLog)" Condition="Exists('$(PackagerLog)')" />
 
     <!-- re-package controls to include custom controls (workaround until SolutionPackager will support custom controls) -->
     <Exec Command="$(ControlPackager) $(CustomControlsPath) $(ManagedSolutionName).zip ." Condition="'$(CustomControlsPath)' != ''" />

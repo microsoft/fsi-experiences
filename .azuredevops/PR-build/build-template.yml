@@ -205,8 +205,6 @@ steps:
       SourceFolder: '$(system.defaultworkingdirectory)\build\scripts'
       Contents: |
         validatedataimport.ps1
-        RemovePackageFromEnvironment.ps1
-        PrepareWorksiteForPackage.ps1
       TargetFolder: "$(build.artifactstagingdirectory)"
     condition: succeededOrFailed()
 

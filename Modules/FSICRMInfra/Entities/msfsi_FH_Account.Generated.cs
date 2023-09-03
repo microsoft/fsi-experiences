@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// 
+	/// A deposit account holding that allows the holder to make deposits and withdrawals through financial holding instruments. An account can be interest bearing
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_fh_account")]
@@ -202,7 +202,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Indicates whether the financial holding is an asset or a liability.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_accountingclassification")]
 		public virtual msfsi_AccountingClassification? msfsi_AccountingClassification
@@ -242,7 +242,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Available Balance in base currency.
+		/// Value of the available balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_availablebalance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_availablebalance_Base
@@ -255,7 +255,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Available balance on the account. Value should be converted to base currency.
+		/// Available balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_availablebalance_default")]
 		public System.Nullable<decimal> msfsi_AvailableBalance_default
@@ -295,7 +295,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Average Balance in base currency.
+		/// Value of the average balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_averagebalance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_averagebalance_Base
@@ -308,7 +308,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The average balance in the account calculated over a chosen period of time by the bank. Value should be converted to base currency.
+		/// Average balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_averagebalance_default")]
 		public System.Nullable<decimal> msfsi_AverageBalance_default
@@ -348,7 +348,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance in base currency.
+		/// Value of the balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balance_Base
@@ -361,7 +361,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The balance in the default currency of the system (provided by the financial services institution).
+		/// Balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDefault
@@ -377,19 +377,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_BalanceDefault");
 				this.SetAttributeValue("msfsi_balancedefault", value);
 				this.OnPropertyChanged("msfsi_BalanceDefault");
-			}
-		}
-		
-		/// <summary>
-		/// Value of the Balance (Default) in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefault_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefault_base");
 			}
 		}
 		
@@ -414,20 +401,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance Display Value in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefaultdisplayvalue_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefaultdisplayvalue_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefaultdisplayvalue_base");
-			}
-		}
-		
-		/// <summary>
-		/// 
+		/// Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDisplayValue
@@ -447,7 +421,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance Display Value in base currency.
+		/// Value of the balance display value in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balancedisplayvalue_Base
@@ -480,7 +454,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long-term savings and account
+		/// The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or as a security measure.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_blockedamount")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BlockedAmount
@@ -500,7 +474,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Blocked Amount in base currency.
+		/// Value of the blocked amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_blockedamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_blockedamount_Base
@@ -513,7 +487,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long-term savings and account Value should be converted to base currency.
+		/// Blocked amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_blockedamount_default")]
 		public System.Nullable<decimal> msfsi_BlockedAmount_default
@@ -533,7 +507,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The date in which the last transaction on the account was made.
+		/// The date on which the last transaction on the account was made.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_dateoflasttransaction")]
 		public System.Nullable<System.DateTime> msfsi_Dateoflasttransaction
@@ -553,7 +527,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Indication of whether the customer’s loan is delinquent or not (i.e. whether any payments are overdue or not).
+		/// Indication of whether the customer’s loan is delinquent or not (that is, whether any payments are overdue).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_delinquencystatus")]
 		public System.Nullable<bool> msfsi_DelinquencyStatus
@@ -573,7 +547,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for entity instances
+		/// Unique identifier for entity instances.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fh_accountid")]
 		public System.Nullable<System.Guid> msfsi_FH_AccountId
@@ -636,7 +610,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Subtypes under Financial Category.
+		/// Type of financial account (checking, savings, other).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_financialholdingtype")]
 		public virtual msfsi_FH_Account_msfsi_FinancialHoldingType? msfsi_FinancialHoldingType
@@ -656,7 +630,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Used by the system integrator to uniquely define the data record .
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_integrationkey")]
 		public string msfsi_IntegrationKey
@@ -676,7 +650,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The rate of interest applied to the financial holding, based on which interest will be earned during the defined period/term. This can be applied towards an account, credit, loan, saving or investment
+		/// The rate of interest applied to the financial holding, to be earned during a defined period/term. 
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interestrate")]
 		public System.Nullable<decimal> msfsi_Interestrate
@@ -716,7 +690,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Required name field
+		/// Required name field.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_name")]
 		public string msfsi_Name
@@ -756,7 +730,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount of funds yet to be credited to the account, pending clearance (such as cheques favouring the account).
+		/// The amount of money in pending transactions which have not yet been credited to the account, such as deposited checks that have not yet cleared.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_unclearedbalance")]
 		public Microsoft.Xrm.Sdk.Money msfsi_UnclearedBalance
@@ -776,7 +750,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Uncleared Balance in base currency.
+		/// Value of the uncleared balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_unclearedbalance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_unclearedbalance_Base
@@ -789,7 +763,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount of funds yet to be credited to the account, pending clearance (such as cheques favouring the account). Value should be converted to base currency.
+		/// Uncleared balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_unclearedbalance_default")]
 		public System.Nullable<decimal> msfsi_UnclearedBalance_default
@@ -829,7 +803,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -849,7 +823,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -888,7 +862,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the FH Account
+		/// Status of the FH Account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_FH_AccountState> StateCode
@@ -923,7 +897,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the FH Account
+		/// Reason for the status of the FH Account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_FH_Account_StatusCode? StatusCode

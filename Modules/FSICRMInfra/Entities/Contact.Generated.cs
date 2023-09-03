@@ -18,32 +18,34 @@ namespace Microsoft.CloudForFSI.Tables
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("contact")]
 	public partial class Contact : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
 	{
-		
+
 		/// <summary>
 		/// Default Constructor.
 		/// </summary>
 		[System.Diagnostics.DebuggerNonUserCode()]
-		public Contact() : 
+		public Contact() :
 				base(EntityLogicalName)
 		{
 		}
 		
+		public const string AlternateKeys = "msfsi_integrationkey";
+
 		public const string EntityLogicalName = "contact";
-		
+
 		public const string EntitySchemaName = "Contact";
-		
+
 		public const string PrimaryIdAttribute = "contactid";
-		
+
 		public const string PrimaryNameAttribute = "fullname";
-		
+
 		public const string EntityLogicalCollectionName = "contacts";
-		
+
 		public const string EntitySetName = "contacts";
-		
+
 		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-		
+
 		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
-		
+
 		[System.Diagnostics.DebuggerNonUserCode()]
 		private void OnPropertyChanged(string propertyName)
 		{
@@ -52,7 +54,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
 			}
 		}
-		
+
 		[System.Diagnostics.DebuggerNonUserCode()]
 		private void OnPropertyChanging(string propertyName)
 		{
@@ -61,7 +63,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the account with which the contact is associated.
 		/// </summary>
@@ -74,7 +76,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("accountid");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the contact's role within the company or sales process, such as decision maker, employee, or influencer.
 		/// </summary>
@@ -94,7 +96,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("AccountRoleCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier for address 1.
 		/// </summary>
@@ -114,7 +116,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_AddressId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the primary address type.
 		/// </summary>
@@ -134,7 +136,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_AddressTypeCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the city for the primary address.
 		/// </summary>
@@ -154,7 +156,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_City");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the complete primary address.
 		/// </summary>
@@ -167,7 +169,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("address1_composite");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the country or region for the primary address.
 		/// </summary>
@@ -187,7 +189,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Country");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the county for the primary address.
 		/// </summary>
@@ -207,7 +209,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_County");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the fax number associated with the primary address.
 		/// </summary>
@@ -227,7 +229,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Fax");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the freight terms for the primary address to make sure shipping orders are processed correctly.
 		/// </summary>
@@ -247,7 +249,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_FreightTermsCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the latitude value for the primary address for use in mapping and other applications.
 		/// </summary>
@@ -267,7 +269,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Latitude");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the first line of the primary address.
 		/// </summary>
@@ -287,7 +289,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Line1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the second line of the primary address.
 		/// </summary>
@@ -307,7 +309,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Line2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the third line of the primary address.
 		/// </summary>
@@ -327,7 +329,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Line3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the longitude value for the primary address for use in mapping and other applications.
 		/// </summary>
@@ -347,7 +349,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Longitude");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a descriptive name for the primary address, such as Corporate Headquarters.
 		/// </summary>
@@ -367,7 +369,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Name");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the ZIP Code or postal code for the primary address.
 		/// </summary>
@@ -387,7 +389,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_PostalCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the post office box number of the primary address.
 		/// </summary>
@@ -407,7 +409,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_PostOfficeBox");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the name of the main contact at the account's primary address.
 		/// </summary>
@@ -427,7 +429,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_PrimaryContactName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select a shipping method for deliveries sent to this address.
 		/// </summary>
@@ -447,7 +449,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_ShippingMethodCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the state or province of the primary address.
 		/// </summary>
@@ -467,7 +469,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_StateOrProvince");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the main phone number associated with the primary address.
 		/// </summary>
@@ -487,7 +489,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Telephone1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a second phone number associated with the primary address.
 		/// </summary>
@@ -507,7 +509,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Telephone2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a third phone number associated with the primary address.
 		/// </summary>
@@ -527,7 +529,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_Telephone3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.
 		/// </summary>
@@ -547,7 +549,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_UPSZone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.
 		/// </summary>
@@ -567,7 +569,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address1_UTCOffset");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier for address 2.
 		/// </summary>
@@ -587,7 +589,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_AddressId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the secondary address type.
 		/// </summary>
@@ -607,7 +609,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_AddressTypeCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the city for the secondary address.
 		/// </summary>
@@ -627,7 +629,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_City");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the complete secondary address.
 		/// </summary>
@@ -640,7 +642,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("address2_composite");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the country or region for the secondary address.
 		/// </summary>
@@ -660,7 +662,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Country");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the county for the secondary address.
 		/// </summary>
@@ -680,7 +682,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_County");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the fax number associated with the secondary address.
 		/// </summary>
@@ -700,7 +702,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Fax");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the freight terms for the secondary address to make sure shipping orders are processed correctly.
 		/// </summary>
@@ -720,7 +722,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_FreightTermsCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the latitude value for the secondary address for use in mapping and other applications.
 		/// </summary>
@@ -740,7 +742,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Latitude");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the first line of the secondary address.
 		/// </summary>
@@ -760,7 +762,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Line1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the second line of the secondary address.
 		/// </summary>
@@ -780,7 +782,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Line2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the third line of the secondary address.
 		/// </summary>
@@ -800,7 +802,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Line3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the longitude value for the secondary address for use in mapping and other applications.
 		/// </summary>
@@ -820,7 +822,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Longitude");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a descriptive name for the secondary address, such as Corporate Headquarters.
 		/// </summary>
@@ -840,7 +842,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Name");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the ZIP Code or postal code for the secondary address.
 		/// </summary>
@@ -860,7 +862,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_PostalCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the post office box number of the secondary address.
 		/// </summary>
@@ -880,7 +882,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_PostOfficeBox");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the name of the main contact at the account's secondary address.
 		/// </summary>
@@ -900,7 +902,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_PrimaryContactName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select a shipping method for deliveries sent to this address.
 		/// </summary>
@@ -920,7 +922,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_ShippingMethodCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the state or province of the secondary address.
 		/// </summary>
@@ -940,7 +942,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_StateOrProvince");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the main phone number associated with the secondary address.
 		/// </summary>
@@ -960,7 +962,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Telephone1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a second phone number associated with the secondary address.
 		/// </summary>
@@ -980,7 +982,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Telephone2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a third phone number associated with the secondary address.
 		/// </summary>
@@ -1000,7 +1002,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_Telephone3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.
 		/// </summary>
@@ -1020,7 +1022,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_UPSZone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.
 		/// </summary>
@@ -1040,7 +1042,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address2_UTCOffset");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier for address 3.
 		/// </summary>
@@ -1060,7 +1062,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_AddressId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the third address type.
 		/// </summary>
@@ -1080,7 +1082,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_AddressTypeCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the city for the 3rd address.
 		/// </summary>
@@ -1100,7 +1102,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_City");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the complete third address.
 		/// </summary>
@@ -1113,7 +1115,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("address3_composite");
 			}
 		}
-		
+
 		/// <summary>
 		/// the country or region for the 3rd address.
 		/// </summary>
@@ -1133,7 +1135,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Country");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the county for the third address.
 		/// </summary>
@@ -1153,7 +1155,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_County");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the fax number associated with the third address.
 		/// </summary>
@@ -1173,7 +1175,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Fax");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the freight terms for the third address to make sure shipping orders are processed correctly.
 		/// </summary>
@@ -1193,7 +1195,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_FreightTermsCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the latitude value for the third address for use in mapping and other applications.
 		/// </summary>
@@ -1213,7 +1215,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Latitude");
 			}
 		}
-		
+
 		/// <summary>
 		/// the first line of the 3rd address.
 		/// </summary>
@@ -1233,7 +1235,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Line1");
 			}
 		}
-		
+
 		/// <summary>
 		/// the second line of the 3rd address.
 		/// </summary>
@@ -1253,7 +1255,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Line2");
 			}
 		}
-		
+
 		/// <summary>
 		/// the third line of the 3rd address.
 		/// </summary>
@@ -1273,7 +1275,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Line3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the longitude value for the third address for use in mapping and other applications.
 		/// </summary>
@@ -1293,7 +1295,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Longitude");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a descriptive name for the third address, such as Corporate Headquarters.
 		/// </summary>
@@ -1313,7 +1315,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Name");
 			}
 		}
-		
+
 		/// <summary>
 		/// the ZIP Code or postal code for the 3rd address.
 		/// </summary>
@@ -1333,7 +1335,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_PostalCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// the post office box number of the 3rd address.
 		/// </summary>
@@ -1353,7 +1355,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_PostOfficeBox");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the name of the main contact at the account's third address.
 		/// </summary>
@@ -1373,7 +1375,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_PrimaryContactName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select a shipping method for deliveries sent to this address.
 		/// </summary>
@@ -1393,7 +1395,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_ShippingMethodCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// the state or province of the third address.
 		/// </summary>
@@ -1413,7 +1415,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_StateOrProvince");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the main phone number associated with the third address.
 		/// </summary>
@@ -1433,7 +1435,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Telephone1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a second phone number associated with the third address.
 		/// </summary>
@@ -1453,7 +1455,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Telephone2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a third phone number associated with the primary address.
 		/// </summary>
@@ -1473,7 +1475,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_Telephone3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the UPS zone of the third address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.
 		/// </summary>
@@ -1493,7 +1495,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_UPSZone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.
 		/// </summary>
@@ -1513,7 +1515,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Address3_UTCOffset");
 			}
 		}
-		
+
 		/// <summary>
 		/// For system use only.
 		/// </summary>
@@ -1526,7 +1528,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("aging30");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the Aging 30 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.
 		/// </summary>
@@ -1539,7 +1541,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("aging30_base");
 			}
 		}
-		
+
 		/// <summary>
 		/// For system use only.
 		/// </summary>
@@ -1552,7 +1554,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("aging60");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the Aging 60 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.
 		/// </summary>
@@ -1565,7 +1567,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("aging60_base");
 			}
 		}
-		
+
 		/// <summary>
 		/// For system use only.
 		/// </summary>
@@ -1578,7 +1580,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("aging90");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the Aging 90 field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.
 		/// </summary>
@@ -1591,7 +1593,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("aging90_base");
 			}
 		}
-		
+
 		/// <summary>
 		/// Enter the date of the contact's wedding or service anniversary for use in customer gift programs or other communications.
 		/// </summary>
@@ -1611,7 +1613,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Anniversary");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the contact's annual income for use in profiling and financial analysis.
 		/// </summary>
@@ -1631,7 +1633,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("AnnualIncome");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the Annual Income field converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.
 		/// </summary>
@@ -1644,7 +1646,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("annualincome_base");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the name of the contact's assistant.
 		/// </summary>
@@ -1664,7 +1666,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("AssistantName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the phone number for the contact's assistant.
 		/// </summary>
@@ -1684,7 +1686,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("AssistantPhone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Enter the contact's birthday for use in customer gift programs or other communications.
 		/// </summary>
@@ -1704,7 +1706,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("BirthDate");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a second business phone number for this contact.
 		/// </summary>
@@ -1724,7 +1726,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Business2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Stores Image of the Business Card
 		/// </summary>
@@ -1744,7 +1746,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("BusinessCard");
 			}
 		}
-		
+
 		/// <summary>
 		/// Stores Business Card Control Properties.
 		/// </summary>
@@ -1764,7 +1766,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("BusinessCardAttributes");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a callback phone number for this contact.
 		/// </summary>
@@ -1784,7 +1786,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Callback");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the names of the contact's children for reference in communications and client programs.
 		/// </summary>
@@ -1804,7 +1806,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ChildrensNames");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the company phone of the contact.
 		/// </summary>
@@ -1824,7 +1826,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Company");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the contact.
 		/// </summary>
@@ -1852,7 +1854,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ContactId");
 			}
 		}
-		
+
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("contactid")]
 		public override System.Guid Id
 		{
@@ -1867,7 +1869,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.ContactId = value;
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows who created the record.
 		/// </summary>
@@ -1880,7 +1882,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the external party who created the record.
 		/// </summary>
@@ -1893,7 +1895,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdbyexternalparty");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.
 		/// </summary>
@@ -1906,7 +1908,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows who created the record on behalf of another user.
 		/// </summary>
@@ -1926,7 +1928,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("CreatedOnBehalfBy");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the credit limit of the contact for reference when you address invoice and accounting issues with the customer.
 		/// </summary>
@@ -1946,7 +1948,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("CreditLimit");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the Credit Limit field converted to the system's default base currency for reporting purposes. The calculations use the exchange rate specified in the Currencies area.
 		/// </summary>
@@ -1959,7 +1961,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("creditlimit_base");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact is on a credit hold, for reference when addressing invoice and accounting issues.
 		/// </summary>
@@ -1979,7 +1981,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("CreditOnHold");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the size of the contact's company for segmentation and reporting purposes.
 		/// </summary>
@@ -1999,7 +2001,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("CustomerSizeCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the category that best describes the relationship between the contact and your organization.
 		/// </summary>
@@ -2019,7 +2021,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("CustomerTypeCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Choose the default price list associated with the contact to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.
 		/// </summary>
@@ -2039,7 +2041,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DefaultPriceLevelId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the department or business unit where the contact works in the parent company or business.
 		/// </summary>
@@ -2059,7 +2061,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Department");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type additional information to describe the contact, such as an excerpt from the company's website.
 		/// </summary>
@@ -2079,7 +2081,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Description");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the email.
 		/// </summary>
@@ -2099,7 +2101,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotBulkEMail");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the contact can be added to marketing lists, but will be excluded from the letters.
 		/// </summary>
@@ -2119,7 +2121,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotBulkPostalMail");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact allows direct email sent from Microsoft Dynamics 365. If Do Not Allow is selected, Microsoft Dynamics 365 will not send the email.
 		/// </summary>
@@ -2139,7 +2141,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotEMail");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact allows faxes. If Do Not Allow is selected, the contact will be excluded from any fax activities distributed in marketing campaigns.
 		/// </summary>
@@ -2159,7 +2161,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotFax");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact accepts phone calls. If Do Not Allow is selected, the contact will be excluded from any phone call activities distributed in marketing campaigns.
 		/// </summary>
@@ -2179,7 +2181,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotPhone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact allows direct mail. If Do Not Allow is selected, the contact will be excluded from letter activities distributed in marketing campaigns.
 		/// </summary>
@@ -2199,7 +2201,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotPostalMail");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact accepts marketing materials, such as brochures or catalogs. Contacts that opt out can be excluded from marketing initiatives.
 		/// </summary>
@@ -2219,7 +2221,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("DoNotSendMM");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the contact's highest level of education for use in segmentation and analysis.
 		/// </summary>
@@ -2239,7 +2241,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("EducationCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the primary email address for the contact.
 		/// </summary>
@@ -2259,7 +2261,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("EMailAddress1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the secondary email address for the contact.
 		/// </summary>
@@ -2279,7 +2281,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("EMailAddress2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type an alternate email address for the contact.
 		/// </summary>
@@ -2299,7 +2301,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("EMailAddress3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the employee ID or number for the contact for reference in orders, service cases, or other communications with the contact's organization.
 		/// </summary>
@@ -2319,7 +2321,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("EmployeeId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the default image for the record.
 		/// </summary>
@@ -2339,7 +2341,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("EntityImage");
 			}
 		}
-		
+
 		/// <summary>
 		/// 
 		/// </summary>
@@ -2352,7 +2354,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<long>>("entityimage_timestamp");
 			}
 		}
-		
+
 		/// <summary>
 		/// 
 		/// </summary>
@@ -2365,7 +2367,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("entityimage_url");
 			}
 		}
-		
+
 		/// <summary>
 		/// For internal use only.
 		/// </summary>
@@ -2378,7 +2380,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<System.Guid>>("entityimageid");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.
 		/// </summary>
@@ -2391,7 +2393,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<decimal>>("exchangerate");
 			}
 		}
-		
+
 		/// <summary>
 		/// Identifier for an external user.
 		/// </summary>
@@ -2411,7 +2413,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ExternalUserIdentifier");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the marital status of the contact for reference in follow-up phone calls and other communications.
 		/// </summary>
@@ -2431,7 +2433,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("FamilyStatusCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the fax number for the contact.
 		/// </summary>
@@ -2451,7 +2453,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Fax");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the contact's first name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.
 		/// </summary>
@@ -2471,7 +2473,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("FirstName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the contact.
 		/// </summary>
@@ -2491,7 +2493,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("FollowEmail");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the URL for the contact's FTP site to enable users to access data and share documents.
 		/// </summary>
@@ -2511,7 +2513,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("FtpSiteUrl");
 			}
 		}
-		
+
 		/// <summary>
 		/// Combines and shows the contact's first and last names so that the full name can be displayed in views and reports.
 		/// </summary>
@@ -2524,7 +2526,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("fullname");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the contact's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.
 		/// </summary>
@@ -2544,7 +2546,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("GenderCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the passport number or other government ID for the contact for use in documents or reports.
 		/// </summary>
@@ -2564,7 +2566,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("GovernmentId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact has any children for reference in follow-up phone calls and other communications.
 		/// </summary>
@@ -2584,7 +2586,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("HasChildrenCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a second home phone number for this contact.
 		/// </summary>
@@ -2604,7 +2606,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Home2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the data import or data migration that created this record.
 		/// </summary>
@@ -2624,7 +2626,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ImportSequenceNumber");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select whether the contact exists in a separate accounting or other system, such as Microsoft Dynamics GP or another ERP database, for use in integration processes.
 		/// </summary>
@@ -2644,7 +2646,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("IsBackofficeCustomer");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the job title of the contact to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.
 		/// </summary>
@@ -2664,7 +2666,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("JobTitle");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the contact's last name to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.
 		/// </summary>
@@ -2684,7 +2686,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("LastName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Contains the date and time stamp of the last on hold time.
 		/// </summary>
@@ -2704,7 +2706,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("LastOnHoldTime");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the date when the contact was last included in a marketing campaign or quick campaign.
 		/// </summary>
@@ -2724,7 +2726,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("LastUsedInCampaign");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the primary marketing source that directed the contact to your organization.
 		/// </summary>
@@ -2744,7 +2746,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("LeadSourceCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the name of the contact's manager for use in escalating issues or other follow-up communications with the contact.
 		/// </summary>
@@ -2764,7 +2766,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ManagerName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the phone number for the contact's manager.
 		/// </summary>
@@ -2784,7 +2786,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ManagerPhone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Whether is only for marketing
 		/// </summary>
@@ -2804,7 +2806,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("MarketingOnly");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the master contact for merge.
 		/// </summary>
@@ -2817,7 +2819,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("masterid");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows whether the account has been merged with a master contact.
 		/// </summary>
@@ -2830,7 +2832,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<bool>>("merged");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the contact's middle name or initial to make sure the contact is addressed correctly.
 		/// </summary>
@@ -2850,7 +2852,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("MiddleName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the mobile phone number for the contact.
 		/// </summary>
@@ -2870,7 +2872,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("MobilePhone");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows who last updated the record.
 		/// </summary>
@@ -2883,7 +2885,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the external party who modified the record.
 		/// </summary>
@@ -2896,7 +2898,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedbyexternalparty");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.
 		/// </summary>
@@ -2909,7 +2911,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows who last updated the record on behalf of another user.
 		/// </summary>
@@ -2931,6 +2933,26 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
+		/// Maps to contact KPI records
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_contactkpiid")]
+		public Microsoft.Xrm.Sdk.EntityReference msdyn_contactkpiid
+		{
+			[System.Diagnostics.DebuggerNonUserCode()]
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("msdyn_contactkpiid");
+			}
+			[System.Diagnostics.DebuggerNonUserCode()]
+			set
+			{
+				this.OnPropertyChanging("msdyn_contactkpiid");
+				this.SetAttributeValue("msdyn_contactkpiid", value);
+				this.OnPropertyChanged("msdyn_contactkpiid");
+			}
+		}
+
+		/// <summary>
 		/// Describes whether contact is opted out or not
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msdyn_gdproptout")]
@@ -2949,7 +2971,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msdyn_gdproptout");
 			}
 		}
-		
+
 		/// <summary>
 		/// Whether or not the contact belongs to the associated account
 		/// </summary>
@@ -2969,7 +2991,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msdyn_orgchangestatus");
 			}
 		}
-		
+
 		/// <summary>
 		/// Reference to credit check entity.
 		/// </summary>
@@ -2989,7 +3011,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_CreditCheck");
 			}
 		}
-		
+
 		/// <summary>
 		/// The primary branch of the bank associated with the contact.
 		/// </summary>
@@ -3009,9 +3031,9 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_Branch");
 			}
 		}
-		
+
 		/// <summary>
-		/// Indicates whether the record is managed and tracked by the banking system
+		/// Indicates whether the record is managed and tracked by the banking system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_ismanagedbybanksystem")]
 		public System.Nullable<bool> msfsi_IsManagedByBankSystem
@@ -3029,27 +3051,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_IsManagedByBankSystem");
 			}
 		}
-		
-		/// <summary>
-		/// Reference to KYC entity.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_kyc")]
-		public Microsoft.Xrm.Sdk.EntityReference msfsi_KYC
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("msfsi_kyc");
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_KYC");
-				this.SetAttributeValue("msfsi_kyc", value);
-				this.OnPropertyChanged("msfsi_KYC");
-			}
-		}
-		
+
 		/// <summary>
 		/// 
 		/// </summary>
@@ -3069,7 +3071,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_placeholder");
 			}
 		}
-		
+
 		/// <summary>
 		/// The date the contact joined the bank.
 		/// </summary>
@@ -3089,7 +3091,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_Joindate");
 			}
 		}
-		
+
 		/// <summary>
 		/// Number of years the contact has held accounts at the bank.
 		/// </summary>
@@ -3109,7 +3111,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_Tenureyears");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the contact's nickname.
 		/// </summary>
@@ -3129,7 +3131,27 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("NickName");
 			}
 		}
-		
+
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fhlookupplaceholder")]
+		public Microsoft.Xrm.Sdk.EntityReference msfsi_fhlookupplaceholder
+		{
+			[System.Diagnostics.DebuggerNonUserCode()]
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("msfsi_fhlookupplaceholder");
+			}
+			[System.Diagnostics.DebuggerNonUserCode()]
+			set
+			{
+				this.OnPropertyChanging("msfsi_fhlookupplaceholder");
+				this.SetAttributeValue("msfsi_fhlookupplaceholder", value);
+				this.OnPropertyChanged("msfsi_fhlookupplaceholder");
+			}
+		}
+
 		/// <summary>
 		/// Type the number of children the contact has for reference in follow-up phone calls and other communications.
 		/// </summary>
@@ -3149,7 +3171,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("NumberOfChildren");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows how long, in minutes, that the record was on hold.
 		/// </summary>
@@ -3162,7 +3184,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<int>>("onholdtime");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the lead that the contact was created if the contact was created by converting a lead in Microsoft Dynamics 365. This is used to relate the contact to the data on the originating lead for use in reporting and analytics.
 		/// </summary>
@@ -3182,7 +3204,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("OriginatingLeadId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Date and time that the record was migrated.
 		/// </summary>
@@ -3202,7 +3224,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("OverriddenCreatedOn");
 			}
 		}
-		
+
 		/// <summary>
 		/// Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user.
 		/// </summary>
@@ -3222,7 +3244,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("OwnerId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the business unit that owns the contact.
 		/// </summary>
@@ -3235,7 +3257,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningbusinessunit");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the team who owns the contact.
 		/// </summary>
@@ -3248,7 +3270,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owningteam");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the user who owns the contact.
 		/// </summary>
@@ -3261,7 +3283,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("owninguser");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the pager number for the contact.
 		/// </summary>
@@ -3281,7 +3303,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Pager");
 			}
 		}
-		
+
 		/// <summary>
 		/// Unique identifier of the parent contact.
 		/// </summary>
@@ -3294,7 +3316,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("parentcontactid");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities.
 		/// </summary>
@@ -3314,7 +3336,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ParentCustomerId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows whether the contact participates in workflow rules.
 		/// </summary>
@@ -3334,7 +3356,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ParticipatesInWorkflow");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the payment terms to indicate when the customer needs to pay the total amount.
 		/// </summary>
@@ -3354,7 +3376,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PaymentTermsCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the preferred day of the week for service appointments.
 		/// </summary>
@@ -3374,7 +3396,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PreferredAppointmentDayCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the preferred time of day for service appointments.
 		/// </summary>
@@ -3394,7 +3416,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PreferredAppointmentTimeCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the preferred method of contact.
 		/// </summary>
@@ -3414,7 +3436,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PreferredContactMethodCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Choose the contact's preferred service facility or equipment to make sure services are scheduled correctly for the customer.
 		/// </summary>
@@ -3434,7 +3456,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PreferredEquipmentId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Choose the contact's preferred service to make sure services are scheduled correctly for the customer.
 		/// </summary>
@@ -3454,7 +3476,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PreferredServiceId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Choose the regular or preferred customer service representative for reference when scheduling service activities for the contact.
 		/// </summary>
@@ -3474,7 +3496,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("PreferredSystemUserId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the ID of the process.
 		/// </summary>
@@ -3494,7 +3516,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ProcessId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the salutation of the contact to make sure the contact is addressed correctly in sales calls, email messages, and marketing campaigns.
 		/// </summary>
@@ -3514,7 +3536,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Salutation");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select a shipping method for deliveries sent to this address.
 		/// </summary>
@@ -3534,7 +3556,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("ShippingMethodCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Choose the service level agreement (SLA) that you want to apply to the Contact record.
 		/// </summary>
@@ -3554,7 +3576,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("SLAId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Last SLA that was applied to this case. This field is for internal use only.
 		/// </summary>
@@ -3567,7 +3589,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("slainvokedid");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the name of the contact's spouse or partner for reference during calls, events, or other communications with the contact.
 		/// </summary>
@@ -3587,7 +3609,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("SpousesName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the ID of the stage.
 		/// </summary>
@@ -3607,7 +3629,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("StageId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows whether the contact is active or inactive. Inactive contacts are read-only and can't be edited unless they are reactivated.
 		/// </summary>
@@ -3642,7 +3664,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("StateCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select the contact's status.
 		/// </summary>
@@ -3662,7 +3684,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("StatusCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// For internal use only.
 		/// </summary>
@@ -3682,7 +3704,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("SubscriptionId");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the suffix used in the contact's name, such as Jr. or Sr. to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.
 		/// </summary>
@@ -3702,7 +3724,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Suffix");
 			}
 		}
-		
+
 		/// <summary>
 		/// Number of users or conversations followed the record
 		/// </summary>
@@ -3722,7 +3744,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("TeamsFollowed");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the main phone number for this contact.
 		/// </summary>
@@ -3742,7 +3764,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Telephone1");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a second phone number for this contact.
 		/// </summary>
@@ -3762,7 +3784,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Telephone2");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type a third phone number for this contact.
 		/// </summary>
@@ -3782,7 +3804,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Telephone3");
 			}
 		}
-		
+
 		/// <summary>
 		/// Select a region or territory for the contact for use in segmentation and analysis.
 		/// </summary>
@@ -3802,7 +3824,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("TerritoryCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Total time spent for emails (read and write) and meetings by me in relation to the contact record.
 		/// </summary>
@@ -3815,7 +3837,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("timespentbymeonemailandmeetings");
 			}
 		}
-		
+
 		/// <summary>
 		/// For internal use only.
 		/// </summary>
@@ -3835,7 +3857,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("TimeZoneRuleVersionNumber");
 			}
 		}
-		
+
 		/// <summary>
 		/// Choose the local currency for the record to make sure budgets are reported in the correct currency.
 		/// </summary>
@@ -3855,7 +3877,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("TransactionCurrencyId");
 			}
 		}
-		
+
 		/// <summary>
 		/// For internal use only.
 		/// </summary>
@@ -3875,7 +3897,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("TraversedPath");
 			}
 		}
-		
+
 		/// <summary>
 		/// Time zone code that was in use when the record was created.
 		/// </summary>
@@ -3895,7 +3917,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("UTCConversionTimeZoneCode");
 			}
 		}
-		
+
 		/// <summary>
 		/// Version number of the contact.
 		/// </summary>
@@ -3908,7 +3930,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the contact's professional or personal website or blog URL.
 		/// </summary>
@@ -3928,7 +3950,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("WebSiteUrl");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the phonetic spelling of the contact's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.
 		/// </summary>
@@ -3948,7 +3970,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("YomiFirstName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Shows the combined Yomi first and last names of the contact so that the full phonetic name can be displayed in views and reports.
 		/// </summary>
@@ -3961,7 +3983,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetAttributeValue<string>("yomifullname");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the phonetic spelling of the contact's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.
 		/// </summary>
@@ -3981,7 +4003,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("YomiLastName");
 			}
 		}
-		
+
 		/// <summary>
 		/// Type the phonetic spelling of the contact's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the contact.
 		/// </summary>
@@ -4001,67 +4023,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("YomiMiddleName");
 			}
 		}
-		
-		/// <summary>
-		/// 1:N account_primary_contact
-		/// </summary>
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("account_primary_contact")]
-		public System.Collections.Generic.IEnumerable<Account> account_primary_contact
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntities<Account>("account_primary_contact", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("account_primary_contact");
-				this.SetRelatedEntities<Account>("account_primary_contact", null, value);
-				this.OnPropertyChanged("account_primary_contact");
-			}
-		}
 
-		/// <summary>
-		/// 1:N Contact_Appointments
-		/// </summary>
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("Contact_Appointments")]
-		public System.Collections.Generic.IEnumerable<Appointment> Contact_Appointments
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntities<Appointment>("Contact_Appointments", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("Contact_Appointments");
-				this.SetRelatedEntities<Appointment>("Contact_Appointments", null, value);
-				this.OnPropertyChanged("Contact_Appointments");
-			}
-		}
-		
-		/// <summary>
-		/// 1:N contact_bookableresource_ContactId
-		/// </summary>
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_bookableresource_ContactId")]
-		public System.Collections.Generic.IEnumerable<BookableResource> contact_bookableresource_ContactId
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntities<BookableResource>("contact_bookableresource_ContactId", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("contact_bookableresource_ContactId");
-				this.SetRelatedEntities<BookableResource>("contact_bookableresource_ContactId", null, value);
-				this.OnPropertyChanged("contact_bookableresource_ContactId");
-			}
-		}
-		
 		/// <summary>
 		/// 1:N contact_customer_contacts
 		/// </summary>
@@ -4081,7 +4043,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Referencedcontact_customer_contacts");
 			}
 		}
-		
+
 		/// <summary>
 		/// 1:N contact_master_contact
 		/// </summary>
@@ -4101,7 +4063,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Referencedcontact_master_contact");
 			}
 		}
-		
+
 		/// <summary>
 		/// 1:N msfsi_contact_msfsi_customerfinancialholding_CustomerID
 		/// </summary>
@@ -4121,27 +4083,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_contact_msfsi_customerfinancialholding_CustomerID");
 			}
 		}
-		
-		/// <summary>
-		/// 1:N msfsi_contact_msfsi_lifemoment_Contact
-		/// </summary>
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_contact_msfsi_lifemoment_Contact")]
-		public System.Collections.Generic.IEnumerable<msfsi_lifemoment> msfsi_contact_msfsi_lifemoment_Contact
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntities<msfsi_lifemoment>("msfsi_contact_msfsi_lifemoment_Contact", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_contact_msfsi_lifemoment_Contact");
-				this.SetRelatedEntities<msfsi_lifemoment>("msfsi_contact_msfsi_lifemoment_Contact", null, value);
-				this.OnPropertyChanged("msfsi_contact_msfsi_lifemoment_Contact");
-			}
-		}
-		
+
 		/// <summary>
 		/// 1:N msfsi_Group_PrimaryMember_Contact
 		/// </summary>
@@ -4161,7 +4103,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_Group_PrimaryMember_Contact");
 			}
 		}
-		
+
 		/// <summary>
 		/// 1:N msfsi_groupmember_member_contact
 		/// </summary>
@@ -4181,47 +4123,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("msfsi_groupmember_member_contact");
 			}
 		}
-		
-		/// <summary>
-		/// N:1 contact_customer_accounts
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("parentcustomerid")]
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("contact_customer_accounts")]
-		public Account contact_customer_accounts
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntity<Account>("contact_customer_accounts", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("contact_customer_accounts");
-				this.SetRelatedEntity<Account>("contact_customer_accounts", null, value);
-				this.OnPropertyChanged("contact_customer_accounts");
-			}
-		}
-		/// <summary>
-		/// 1:N msfsi_contactresource_contact
-		/// </summary>
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_contactresource_contact")]
-		public System.Collections.Generic.IEnumerable<msfsi_contactresource> msfsi_contactresource_contact
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntities<msfsi_contactresource>("msfsi_contactresource_contact", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_contactresource_contact");
-				this.SetRelatedEntities<msfsi_contactresource>("msfsi_contactresource_contact", null, value);
-				this.OnPropertyChanged("msfsi_contactresource_contact");
-			}
-		}
-		
+
 		/// <summary>
 		/// N:1 contact_customer_contacts
 		/// </summary>
@@ -4242,7 +4144,7 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanged("Referencingcontact_customer_contacts");
 			}
 		}
-		
+
 		/// <summary>
 		/// N:1 contact_master_contact
 		/// </summary>
@@ -4256,68 +4158,68 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.GetRelatedEntity<Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 		}
-		
+
 		/// <summary>
-		/// N:1 msfsi_branch_msfsi_branch_Contact
+		/// N:1 msfsi_contact_fhlookupplaceholder_msfsi_financi
 		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_branch")]
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_branch_msfsi_branch_Contact")]
-		public msfsi_branch msfsi_branch_msfsi_branch_Contact
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fhlookupplaceholder")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_contact_fhlookupplaceholder_msfsi_financi")]
+		public msfsi_financialholding msfsi_contact_fhlookupplaceholder_msfsi_financi
 		{
 			[System.Diagnostics.DebuggerNonUserCode()]
 			get
 			{
-				return this.GetRelatedEntity<msfsi_branch>("msfsi_branch_msfsi_branch_Contact", null);
+				return this.GetRelatedEntity<msfsi_financialholding>("msfsi_contact_fhlookupplaceholder_msfsi_financi", null);
 			}
 			[System.Diagnostics.DebuggerNonUserCode()]
 			set
 			{
-				this.OnPropertyChanging("msfsi_branch_msfsi_branch_Contact");
-				this.SetRelatedEntity<msfsi_branch>("msfsi_branch_msfsi_branch_Contact", null, value);
-				this.OnPropertyChanged("msfsi_branch_msfsi_branch_Contact");
+				this.OnPropertyChanging("msfsi_contact_fhlookupplaceholder_msfsi_financi");
+				this.SetRelatedEntity<msfsi_financialholding>("msfsi_contact_fhlookupplaceholder_msfsi_financi", null, value);
+				this.OnPropertyChanged("msfsi_contact_fhlookupplaceholder_msfsi_financi");
 			}
 		}
-		
+
 		/// <summary>
 		/// Constructor for populating via LINQ queries given a LINQ anonymous type
 		/// <param name="anonymousType">LINQ anonymous type.</param>
 		/// </summary>
 		[System.Diagnostics.DebuggerNonUserCode()]
-		public Contact(object anonymousType) : 
+		public Contact(object anonymousType) :
 				this()
 		{
-            foreach (var p in anonymousType.GetType().GetProperties())
-            {
-                var value = p.GetValue(anonymousType, null);
-                var name = p.Name.ToLower();
-            
-                if (name.EndsWith("enum") && value.GetType().BaseType == typeof(System.Enum))
-                {
+			foreach (var p in anonymousType.GetType().GetProperties())
+			{
+				var value = p.GetValue(anonymousType, null);
+				var name = p.Name.ToLower();
+
+				if (name.EndsWith("enum") && value.GetType().BaseType == typeof(System.Enum))
+				{
                     value = new Microsoft.Xrm.Sdk.OptionSetValue((int) value);
-                    name = name.Remove(name.Length - "enum".Length);
-                }
-            
-                switch (name)
-                {
-                    case "id":
-                        base.Id = (System.Guid)value;
-                        Attributes["contactid"] = base.Id;
-                        break;
-                    case "contactid":
+					name = name.Remove(name.Length - "enum".Length);
+				}
+
+				switch (name)
+				{
+					case "id":
+						base.Id = (System.Guid)value;
+						Attributes["contactid"] = base.Id;
+						break;
+					case "contactid":
                         var id = (System.Nullable<System.Guid>) value;
                         if(id == null){ continue; }
-                        base.Id = id.Value;
-                        Attributes[name] = base.Id;
-                        break;
-                    case "formattedvalues":
-                        // Add Support for FormattedValues
-                        FormattedValues.AddRange((Microsoft.Xrm.Sdk.FormattedValueCollection)value);
-                        break;
-                    default:
-                        Attributes[name] = value;
-                        break;
-                }
-            }
+						base.Id = id.Value;
+						Attributes[name] = base.Id;
+						break;
+					case "formattedvalues":
+						// Add Support for FormattedValues
+						FormattedValues.AddRange((Microsoft.Xrm.Sdk.FormattedValueCollection)value);
+						break;
+					default:
+						Attributes[name] = value;
+						break;
+				}
+			}
 		}
 	}
 }

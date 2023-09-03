@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// 
+	/// An association of several customers allowing e.g. the representation of households
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_group")]
@@ -187,7 +187,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for entity instances
+		/// Unique identifier for entity instances.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_groupid")]
 		public System.Nullable<System.Guid> msfsi_GroupId
@@ -230,7 +230,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Required name field
+		/// The name that identifies this group.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_name")]
 		public string msfsi_Name
@@ -250,7 +250,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Primary Member
+		/// Primary member of the group.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_primarymember")]
 		public Microsoft.Xrm.Sdk.EntityReference msfsi_primarymember
@@ -270,7 +270,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// The type of the group (Household, customer group).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_type")]
 		public virtual msfsi_GroupType? msfsi_Type
@@ -310,7 +310,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -330,7 +330,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -369,7 +369,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the Group
+		/// Status of the Group.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
 		public System.Nullable<msfsi_GroupState> StateCode
@@ -404,7 +404,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the Group
+		/// Reason for the status of the Group.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_Group_StatusCode? StatusCode
@@ -513,48 +513,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_GroupMember_Group_msfsi_Group");
 				this.SetRelatedEntities<msfsi_GroupMember>("msfsi_GroupMember_Group_msfsi_Group", null, value);
 				this.OnPropertyChanged("msfsi_GroupMember_Group_msfsi_Group");
-			}
-		}
-		
-		/// <summary>
-		/// N:1 msfsi_Group_PrimaryMember_Account
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_primarymember")]
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_Group_PrimaryMember_Account")]
-		public Account msfsi_Group_PrimaryMember_Account
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntity<Account>("msfsi_Group_PrimaryMember_Account", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_Group_PrimaryMember_Account");
-				this.SetRelatedEntity<Account>("msfsi_Group_PrimaryMember_Account", null, value);
-				this.OnPropertyChanged("msfsi_Group_PrimaryMember_Account");
-			}
-		}
-		
-		/// <summary>
-		/// N:1 msfsi_Group_PrimaryMember_Contact
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_primarymember")]
-		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("msfsi_Group_PrimaryMember_Contact")]
-		public Contact msfsi_Group_PrimaryMember_Contact
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetRelatedEntity<Contact>("msfsi_Group_PrimaryMember_Contact", null);
-			}
-			[System.Diagnostics.DebuggerNonUserCode()]
-			set
-			{
-				this.OnPropertyChanging("msfsi_Group_PrimaryMember_Contact");
-				this.SetRelatedEntity<Contact>("msfsi_Group_PrimaryMember_Contact", null, value);
-				this.OnPropertyChanged("msfsi_Group_PrimaryMember_Contact");
 			}
 		}
 		

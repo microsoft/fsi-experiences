@@ -24,7 +24,7 @@ namespace Microsoft.CloudForFSI.Tables
 	}
 	
 	/// <summary>
-	/// 
+	/// Loans held by the customer with the financial institution.
 	/// </summary>
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("msfsi_fh_loan")]
@@ -222,7 +222,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The balance or value of the financial holding in the original currency of the financial holding.
+		/// The balance owed by borrower on the loan, in the original currency of the financial holding.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balance")]
 		public Microsoft.Xrm.Sdk.Money msfsi_Balance
@@ -242,7 +242,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance in base currency.
+		/// Value of the balance in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balance_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balance_Base
@@ -255,7 +255,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The balance in the default currency of the system (provided by the financial services institution).
+		/// Balance converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDefault
@@ -271,19 +271,6 @@ namespace Microsoft.CloudForFSI.Tables
 				this.OnPropertyChanging("msfsi_BalanceDefault");
 				this.SetAttributeValue("msfsi_balancedefault", value);
 				this.OnPropertyChanged("msfsi_BalanceDefault");
-			}
-		}
-		
-		/// <summary>
-		/// Value of the Balance (Default) in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefault_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefault_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefault_base");
 			}
 		}
 		
@@ -308,20 +295,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance (Default) Display Value in base currency.
-		/// </summary>
-		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedefaultdisplayvalue_base")]
-		public Microsoft.Xrm.Sdk.Money msfsi_balancedefaultdisplayvalue_Base
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.GetAttributeValue<Microsoft.Xrm.Sdk.Money>("msfsi_balancedefaultdisplayvalue_base");
-			}
-		}
-		
-		/// <summary>
-		/// 
+		/// Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue")]
 		public Microsoft.Xrm.Sdk.Money msfsi_BalanceDisplayValue
@@ -341,7 +315,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Balance Display Value in base currency.
+		/// Value of the balance display value in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_balancedisplayvalue_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_balancedisplayvalue_Base
@@ -374,7 +348,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Total overdue principal amount on the loan.
+		/// Capitalized arrears is the total overdue principal, interest, or other amounts which have been added to capital balance of the loan.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_capitalarrears")]
 		public Microsoft.Xrm.Sdk.Money msfsi_CapitalArrears
@@ -394,7 +368,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Capital Arrears in base currency.
+		/// Value of the capitalized arrears in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_capitalarrears_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_capitalarrears_Base
@@ -407,7 +381,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Total overdue principal amount on the loan. Value should be converted to base currency.
+		/// Capitalized arrears converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_capitalarrears_default")]
 		public System.Nullable<decimal> msfsi_CapitalArrears_default
@@ -427,7 +401,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The level of risk associated with collecting the payment.
+		/// The level of risk that a borrower may not be able to repay a loan.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_collectionrisk")]
 		public virtual msfsi_FH_Loan_msfsi_CollectionRisk? msfsi_CollectionRisk
@@ -450,7 +424,7 @@ namespace Microsoft.CloudForFSI.Tables
 		/// The number of days that the customer has been in overdue status for this loan account.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_dayspastdue")]
-		public System.Nullable<int> msfsi_DaysPastDue
+		public System.Nullable<int> msfsi_Dayspastdue
 		{
 			[System.Diagnostics.DebuggerNonUserCode()]
 			get
@@ -467,7 +441,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Indication of whether the customer’s loan is delinquent or not (i.e. whether any payments are overdue or not).
+		/// Indication of whether the customer’s loan is delinquent or not (that is, whether any payments are overdue or not).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_delinquencystatus")]
 		public System.Nullable<bool> msfsi_DelinquencyStatus
@@ -507,7 +481,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Disbursed Amount in base currency.
+		/// Value of the disbursed amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_disbursedamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_disbursedamount_Base
@@ -520,7 +494,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount of loan that has been disbursed to the customer so far. Value should be converted to base currency.
+		/// Disbursed amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_disbursedamount_default")]
 		public System.Nullable<decimal> msfsi_DisbursedAmount_default
@@ -540,7 +514,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// the date on which the loan is disbursed to the customer.
+		/// The last date on which the disbursement payment was disbursed to the borrower.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_disbursementdate")]
 		public System.Nullable<System.DateTime> msfsi_DisbursementDate
@@ -560,7 +534,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Total overdue fee amount on the loan.
+		/// Total amount of fees for overdue payments on the loan.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_feearrears")]
 		public Microsoft.Xrm.Sdk.Money msfsi_FeeArrears
@@ -580,7 +554,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Fee Arrears in base currency.
+		/// Value of the arrears fee in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_feearrears_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_feearrears_Base
@@ -593,7 +567,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Total overdue fee amount on the loan. Value should be converted to base currency.
+		/// Arrears fee converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_feearrears_default")]
 		public System.Nullable<decimal> msfsi_FeeArrears_default
@@ -613,7 +587,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for entity instances
+		/// Unique identifier for entity instances.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_fh_loanid")]
 		public System.Nullable<System.Guid> msfsi_FH_LoanId
@@ -696,7 +670,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The equal installment amounts that the customer pays back to the bank towards the loan on a monthly basis (EMI).
+		/// The equal monthly installment payments a customer makes to the bank toward repayment of the loan (EMI).
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_installmentamount")]
 		public Microsoft.Xrm.Sdk.Money msfsi_InstallmentAmount
@@ -716,7 +690,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Installment Amount in base currency.
+		/// Value of the installment amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_installmentamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_installmentamount_Base
@@ -729,7 +703,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The equal installment amounts that the customer pays back to the bank towards the loan on a monthly basis (EMI). Value should be converted to base currency.
+		/// Installment amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_installmentamount_default")]
 		public System.Nullable<decimal> msfsi_InstallmentAmount_default
@@ -749,7 +723,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// 
+		/// Used by the system integrator to uniquely define the data record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_integrationkey")]
 		public string msfsi_IntegrationKey
@@ -789,7 +763,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Interest Arrears in base currency.
+		/// Value of the interest arrears in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interestarrears_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_interestarrears_Base
@@ -802,7 +776,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Total overdue interest amount on the loan. Value should be converted to base currency.
+		/// Interest arrears converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interestarrears_default")]
 		public System.Nullable<decimal> msfsi_InterestArrears_default
@@ -822,7 +796,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The rate of interest applied to the financial holding, based on which interest will be earned during the defined period/term. This can be applied towards an account, credit, loan, saving or investment
+		/// The rate of interest charged to the loan borrower during a defined period or term during the course of a loan.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interestrate")]
 		public System.Nullable<decimal> msfsi_Interestrate
@@ -862,7 +836,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The type of interest applied to the loan: fixed, periodical, floating, etc.
+		/// The type of interest charged on the loan: fixed, periodical, floating, etc.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_interesttype")]
 		public virtual msfsi_FH_Loan_msfsi_InterestType? msfsi_InterestType
@@ -882,7 +856,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount that was paid by the customer towards the loan in the last repayment.
+		/// The amount that was paid by the customer towards the loan in the last loan payment.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_lastpaymentamount")]
 		public Microsoft.Xrm.Sdk.Money msfsi_LastPaymentAmount
@@ -902,7 +876,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Last Payment Amount in base currency.
+		/// Value of the last payment amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_lastpaymentamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_lastpaymentamount_Base
@@ -915,7 +889,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount that was paid by the customer towards the loan in the last repayment. Value should be converted to base currency.
+		/// Last payment amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_lastpaymentamount_default")]
 		public System.Nullable<decimal> msfsi_LastPaymentAmount_default
@@ -1015,7 +989,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Required name field
+		/// Required name field.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_name")]
 		public string msfsi_Name
@@ -1075,7 +1049,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Next Payment Amount in base currency.
+		/// Value of the next payment amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_nextpaymentamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_nextpaymentamount_Base
@@ -1088,7 +1062,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The amount that needs to be paid by the customer towards the loan in the next installment. Value should be converted to base currency.
+		/// Next payment amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_nextpaymentamount_default")]
 		public System.Nullable<decimal> msfsi_NextPaymentAmount_default
@@ -1168,7 +1142,27 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The principal amount of the financial holding.
+		/// The date on which the repayment was missed and the loan became overdue.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_overduedate")]
+		public System.Nullable<System.DateTime> msfsi_OverdueDate
+		{
+			[System.Diagnostics.DebuggerNonUserCode()]
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("msfsi_overduedate");
+			}
+			[System.Diagnostics.DebuggerNonUserCode()]
+			set
+			{
+				this.OnPropertyChanging("msfsi_OverdueDate");
+				this.SetAttributeValue("msfsi_overduedate", value);
+				this.OnPropertyChanged("msfsi_OverdueDate");
+			}
+		}
+		
+		/// <summary>
+		/// The principal amount of the financial holding paid to-date.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_principalamount")]
 		public Microsoft.Xrm.Sdk.Money msfsi_PrincipalAmount
@@ -1188,7 +1182,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Principal Amount in base currency.
+		/// Value of the principal amount in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_principalamount_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_principalamount_Base
@@ -1201,7 +1195,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The principal amount of the financial holding. Value should be converted to base currency.
+		/// Principal amount converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_principalamount_default")]
 		public System.Nullable<decimal> msfsi_PrincipalAmount_default
@@ -1261,7 +1255,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Total Arrear in base currency.
+		/// Value of the total arrears in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_totalarrear_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_totalarrear_Base
@@ -1274,7 +1268,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// The total amount of repayments towards the loan which have been missed by the customer and are overdue. Value should be converted to base currency.
+		/// Total arrears converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_totalarrear_default")]
 		public System.Nullable<decimal> msfsi_TotalArrear_default
@@ -1314,7 +1308,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Value of the Total Interest Paid in base currency.
+		/// Value of the total interest paid in base currency.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_totalinterestpaid_base")]
 		public Microsoft.Xrm.Sdk.Money msfsi_totalinterestpaid_Base
@@ -1327,7 +1321,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Total amount of payments made towards interest of the loan to date. Value should be converted to base currency.
+		/// Total interest paid converted to default currency of the system.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("msfsi_totalinterestpaid_default")]
 		public System.Nullable<decimal> msfsi_TotalInterestPaid_default
@@ -1367,7 +1361,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Owner Id
+		/// Owner Id.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ownerid")]
 		public Microsoft.Xrm.Sdk.EntityReference OwnerId
@@ -1387,7 +1381,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Unique identifier for the business unit that owns the record
+		/// Unique identifier for the business unit that owns the record.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningbusinessunit")]
 		public Microsoft.Xrm.Sdk.EntityReference OwningBusinessUnit
@@ -1426,10 +1420,10 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Status of the FH Loan
+		/// Status of the FH Loan.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statecode")]
-		public System.Nullable<msfsi_FH_LoanState> StateCode
+		public System.Nullable<Microsoft.CloudForFSI.Tables.msfsi_FH_LoanState> StateCode
 		{
 			[System.Diagnostics.DebuggerNonUserCode()]
 			get
@@ -1461,7 +1455,7 @@ namespace Microsoft.CloudForFSI.Tables
 		}
 		
 		/// <summary>
-		/// Reason for the status of the FH Loan
+		/// Reason for the status of the FH Loan.
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("statuscode")]
 		public virtual msfsi_FH_Loan_StatusCode? StatusCode

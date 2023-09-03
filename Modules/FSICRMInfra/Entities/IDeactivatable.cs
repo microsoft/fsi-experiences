@@ -1,4 +1,4 @@
-﻿namespace Microsoft.CloudForFSI.Tables
+namespace Microsoft.CloudForFSI.Tables
 {
     public interface IDeactivatable
     {

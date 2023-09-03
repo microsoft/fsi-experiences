@@ -1,0 +1,105 @@
+---
+  parameters:
+  - name: ExtractedPackagePath
+    type: string
+
+  - name: PackagesPath
+    type: string
+
+  - name: TargetEnvironmentUrl
+    type: string
+
+  - name: AdoPipelineDeploymentUser
+    type: string
+
+  - name: AdoPipelineDeploymentUserPassword
+    type: string
+
+  - name: SolutionFolderName
+    type: string
+
+  - name: DllName
+    type: string
+
+  - name: ZipFileLocation
+    type: string
+    default: ' '
+
+  - name: ShouldDeployCustomizationData
+    type: boolean
+    default: false
+
+  steps:
+  - task: CmdLine@2
+    displayName: 'Create Solution Baseline folders for package extraction and logs'
+    inputs:
+      script: |
+        echo Create extracted packages parent folder ${{ parameters.ExtractedPackagePath }}
+        IF exist ${{ parameters.ExtractedPackagePath }} ( echo ${{ parameters.ExtractedPackagePath }} exists ) ELSE ( mkdir ${{ parameters.ExtractedPackagePath }} && echo ${{ parameters.ExtractedPackagePath }} created)
+        echo Create Solution logs folder ${{ parameters.ExtractedPackagePath }}\Logs\${{ parameters.SolutionFolderName }}
+        mkdir ${{ parameters.ExtractedPackagePath }}\Logs\${{ parameters.SolutionFolderName }}
+      failOnStderr: true
+
+  - task: PowerShell@2
+    displayName: 'Get full package file name'
+    inputs:
+      targetType: 'inline'
+      script: |
+        Write-Host "Getting packaged zip for '${{ parameters.SolutionFolderName }}' from the drop path '${{ parameters.PackagesPath }}'"
+        
+        $packageFilesSearchPattern = "${{ parameters.SolutionFolderName }}" + "-PackageDeployer*.zip"
+        
+        Write-Host "Searching for package matching search pattern '$packageFilesSearchPattern' in '${{ parameters.PackagesPath }}'"
+        $packageFile = @(Get-ChildItem -Path ${{ parameters.PackagesPath }} -Filter $packageFilesSearchPattern)
+        $numberOfMatchingFiles = $packageFile.Length
+        if ($numberOfMatchingFiles -ne 1){
+            if ($numberOfMatchingFiles -eq 0){
+                Write-Error "No packages matching search pattern '$packageFilesSearchPattern' found in '${{ parameters.PackagesPath }}'"
+            }
+            else{
+                Write-Error "$numberOfMatchingFiles packages matching search pattern '$packageFilesSearchPattern' found in '${{ parameters.PackagesPath }}' - this is an indication of either a bad build drop or too generic package name"
+            }
+        }
+        
+        $packageFile = $packageFile | Select-Object -First 1
+        Write-Host pacakge full path is $packageFile
+        Write-Host echo "##vso[task.setvariable variable=packageFullName]$packageFile"
+
+  - task: ExtractFiles@1
+    displayName: 'Extract the solution package to ${{ parameters.ExtractedPackagePath }}\${{ parameters.SolutionFolderName }}'
+    inputs:
+      archiveFilePatterns: '${{ parameters.PackagesPath }}\$(packageFullName)'
+      destinationFolder: '${{ parameters.ExtractedPackagePath }}\${{ parameters.SolutionFolderName }}'
+      cleanDestinationFolder: true
+      overwriteExistingFiles: false
+
+  # The validation of the packages and data is happening in two stages - first we use the package deployer tool which allows us to validate the correctness of our packages. Since the package deployer ignores import errors for data (e.g. when a field exists in the data but not in the schema) we later deploy
+  # The data again using the Power Tools customization import and validate the results
+
+  - task: microsoft-IsvExpTools.PowerPlatform-BuildTools.deploy-package.PowerPlatformDeployPackage@2
+    displayName: 'Deploy ${{ parameters.SolutionFolderName }} To the Dataverse Environment'
+    inputs:
+      authenticationType: 'PowerPlatformEnvironment'
+      PowerPlatformEnvironment: 'dyn_bas_fsi_daily_dev_environment'
+      PackageFile: '${{ parameters.ExtractedPackagePath }}\${{ parameters.SolutionFolderName }}\${{ parameters.DllName }}'
+      MaxAsyncWaitTime: 120
+      Environment: ${{ parameters.TargetEnvironmentUrl }}
+
+  - task: MSCRMImportCMData@12
+    displayName: 'Import the customizations'
+    enabled: '${{ parameters.ShouldDeployCustomizationData }}'
+    inputs:
+      crmConnectionString: 'AuthType=OAuth;Username=${{ parameters.AdoPipelineDeploymentUser }};Password=${{ parameters.AdoPipelineDeploymentUserPassword }};Url=${{ parameters.TargetEnvironmentUrl }};ClientId=51f81489-12ee-4a9e-aaae-a2591f45987d;RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97'
+      dataFile: '${{ parameters.ExtractedPackagePath }}\${{ parameters.SolutionFolderName }}\${{ parameters.ZipFileLocation}}'
+      enabledBatchMode: true
+      crmConnectionTimeout: '120'
+      logsDirectory: '${{ parameters.ExtractedPackagePath }}\Logs\${{ parameters.SolutionFolderName }}'
+
+  - task: PowerShell@2
+    displayName: 'Validate that the configuration was successfully deployed by examining the logs'
+    enabled: '${{ parameters.ShouldDeployCustomizationData }}'
+    inputs:
+      filePath: '$(Pipeline.Workspace)\FSI\validatedataimport.ps1'
+      arguments: '-logsFolder ${{ parameters.ExtractedPackagePath }}\Logs\${{ parameters.SolutionFolderName }}'
+      failOnStderr: true
+      showWarnings: true

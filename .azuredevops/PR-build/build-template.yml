@@ -7,6 +7,8 @@ parameters:
     default: " "
 
 steps:
+  - task: NuGetAuthenticate@1
+
   - task: NuGetToolInstaller@1
     displayName: "Use NuGet 6.5.0"
     inputs:
@@ -182,6 +184,53 @@ steps:
       projects: |
         Modules\**\*.Package.csproj
       arguments: "--no-restore -p:AutoVersionPassword=$(AutoVersionPassword)"
+
+  #Now we Sign Packages
+  - task: EsrpCodeSigning@2
+    displayName: "Sign Package Assemblies"
+    inputs:
+      ConnectedServiceName: "ESRPCodeSigningConnection-Solutions"
+      FolderPath: '$(system.defaultworkingdirectory)\target\$(BuildConfiguration)\$(BuildPlatform)'
+      Pattern: "*.Package.dll"
+      signConfigType: inlineSignParams
+      inlineOperation: |
+        [
+          {
+            "KeyCode": "CP-233863-SN",
+            "OperationCode": "StrongNameSign",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-233863-SN",
+            "OperationCode": "StrongNameVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolSign",
+            "Parameters": {
+                "OpusName": "Microsoft",
+                "OpusInfo": "http://www.microsoft.com",
+                "FileDigest": "/fd \"SHA256\"",
+                "PageHash": "/NPH",
+                "TimeStamp": "/tr \"http://rfc3161.gtm.corp.microsoft.com/TSS/HttpTspServer\" /td sha256"
+            },
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          }
+        ]
+      SessionTimeout: 120
 
   #Now we create final package zips
   - task: DotNetCoreCLI@2

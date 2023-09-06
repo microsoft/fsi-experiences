@@ -409,21 +409,6 @@
               <Title LCID="1033" Text="Feedback" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msind_contact_msind_industrysegment" Sequence="10000" Area="Info" Id="nav_msind_contact_msind_industrysegment" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="Industry segments" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msind_contact_msind_industryunifiedactivity_contactid" Sequence="10000" Area="Info" Id="nav_msind_contact_msind_industryunifiedactivity_contactid" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="Industry unified activities" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_cisegment_Contact" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_cisegment_Contact" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="Segments" />
-            </Titles>
-          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="Contact_ActivityPointers" Id="navActivities" Show="true" Sequence="10000" Area="Info">
             <Titles>
               <Title LCID="1033" Text="Activities" />
@@ -457,26 +442,6 @@
           <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_relationship_Contactto" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_relationship_Contactto" Show="false">
             <Titles>
               <Title LCID="1033" Text="Relationships" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msind_contact_msind_industrymeasure" Sequence="10000" Area="Info" Id="nav_msind_contact_msind_industrymeasure" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="Industry measures" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msind_contact_msind_industryprediction" Sequence="10000" Area="Info" Id="nav_msind_contact_msind_industryprediction" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="Industry predictions" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_cimeasure" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_cimeasure" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="CI measures" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_ciprediction" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_ciprediction" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="CI predictions" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_customerfinancialholding_CustomerID" Sequence="10001" Area="Info" Id="nav_msfsi_contact_msfsi_customerfinancialholding_CustomerID">

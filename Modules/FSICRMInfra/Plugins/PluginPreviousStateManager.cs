@@ -1,6 +1,5 @@
 ﻿namespace Microsoft.CloudForFSI.Infra.Plugins
 {
-    using CustomWorkflow;
     using ErrorManagers;
     using ErrorMessages.Localization;
     using Xrm.Sdk;

@@ -130,7 +130,6 @@
     <RootComponents>
       <RootComponent type="1" schemaName="contact" behavior="2" />
       <RootComponent type="1" schemaName="msfsi_categorytypesrelations" behavior="0" />
-      <RootComponent type="1" schemaName="msfsi_churnlevelsconfig" behavior="0" />
       <RootComponent type="1" schemaName="msfsi_lifemomentcategoryconfig" behavior="0" />
       <RootComponent type="1" schemaName="msfsi_lifemomentsconfigurations" behavior="0" />
       <RootComponent type="1" schemaName="msfsi_lifemomenttypeconfig" behavior="0" />

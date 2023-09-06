@@ -4,7 +4,6 @@
     using System.Collections.Generic;
     using System.Linq;
     using Crm.Sdk.Messages;
-    using CustomWorkflow;
     using Microsoft.CloudForFSI.ErrorMessages.Localization;
     using Microsoft.CloudForFSI.Infra.ErrorManagers;
     using Microsoft.CloudForFSI.Infra.Logger;

@@ -1,6 +1,5 @@
 ﻿namespace Microsoft.CloudForFSI.Infra.Localization
 {
-    using CustomWorkflow;
     using ErrorManagers;
     using Logger;
     using Microsoft.Xrm.Sdk;

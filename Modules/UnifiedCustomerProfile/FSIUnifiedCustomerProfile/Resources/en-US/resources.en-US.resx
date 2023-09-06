@@ -2424,18 +2424,6 @@
     <value>Application documents</value>
     <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_ApplicationDocument_Origin'</comment>
   </data>
-  <data name="1:Title,Contactnav_msfsi_contact_msfsi_cimeasure{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>CI measures</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_cimeasure'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msfsi_contact_msfsi_ciprediction{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>CI predictions</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_ciprediction'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msfsi_contact_msfsi_cisegment_Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Segments</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_cisegment_Contact'</comment>
-  </data>
   <data name="1:Title,Contactnav_msfsi_contact_msfsi_customerfinancialholding_CustomerID{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
     <value>Customer financial holdings</value>
     <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_customerfinancialholding_CustomerID'</comment>
@@ -2487,22 +2475,6 @@
   <data name="1:Title,Contactnav_msfsi_Group_PrimaryMember_Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
     <value>Groups</value>
     <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_Group_PrimaryMember_Contact'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msind_contact_msind_industrymeasure{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Industry measures</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industrymeasure'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msind_contact_msind_industryprediction{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Industry predictions</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industryprediction'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msind_contact_msind_industrysegment{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Industry segments</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industrysegment'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msind_contact_msind_industryunifiedactivity_contactid{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Industry unified activities</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industryunifiedactivity_contactid'</comment>
   </data>
   <data name="1:Title,ContactProcessCenter{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
     <value>Process sessions</value>

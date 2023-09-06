@@ -1,7 +1,6 @@
 ﻿namespace Microsoft.CloudForFSI.Infra.Localization
 {
     using ErrorManagers;
-    using CustomWorkflow;
     using Microsoft.Xrm.Sdk;
     using Microsoft.Xrm.Sdk.Query;
     using System;
@@ -192,9 +191,9 @@
             var webResources = this.organizationService.RetrieveMultiple(query);
             if (webResources == null || webResources.Entities.Count == 0)
             {
-                #pragma warning disable CA1303 // Do not pass literals as localized parameters
+#pragma warning disable CA1303 // Do not pass literals as localized parameters
                 throw new NullReferenceException("Localization code found no valid resx files in webresources. Will default to english");
-                #pragma warning restore CA1303 // Do not pass literals as localized parameters
+#pragma warning restore CA1303 // Do not pass literals as localized parameters
             }
 
             var webResource = webResources.Entities[0];

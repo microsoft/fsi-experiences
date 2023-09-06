@@ -364,27 +364,4 @@
     </records>
     <m2mrelationships />
   </entity>
-  <entity name="msfsi_churnlevelsconfig" displayname="Churn Levels Config">
-    <records>
-      <record id="6ae1db4f-296a-eb11-a812-000d3a4d8f3c">
-        <field name="msfsi_churnlevelsconfigid" value="6ae1db4f-296a-eb11-a812-000d3a4d8f3c" />
-        <field name="msfsi_value" value="0" />
-        <field name="msfsi_name" value="Low Risk - Low Value" />
-        <field name="msfsi_thresholdlevel" value="104800000" />
-      </record>
-      <record id="4b564b0d-2a6a-eb11-a812-000d3a4d8f3c">
-        <field name="msfsi_churnlevelsconfigid" value="4b564b0d-2a6a-eb11-a812-000d3a4d8f3c" />
-        <field name="msfsi_value" value="40" />
-        <field name="msfsi_name" value="Medium Risk - Low Value" />
-        <field name="msfsi_thresholdlevel" value="104800001" />
-      </record>
-      <record id="fe885b13-2a6a-eb11-a812-000d3a4d8f3c">
-        <field name="msfsi_churnlevelsconfigid" value="fe885b13-2a6a-eb11-a812-000d3a4d8f3c" />
-        <field name="msfsi_value" value="80" />
-        <field name="msfsi_name" value="High Risk - Low Value" />
-        <field name="msfsi_thresholdlevel" value="104800002" />
-      </record>
-    </records>
-    <m2mrelationships />
-  </entity>
 </entities>

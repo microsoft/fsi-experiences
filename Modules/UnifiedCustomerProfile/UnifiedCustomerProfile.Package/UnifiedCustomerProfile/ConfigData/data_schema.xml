@@ -37,12 +37,4 @@
       <field displayname="Name" name="msfsi_name" type="string" customfield="true" />
     </fields>
   </entity>
-  <entity name="msfsi_churnlevelsconfig" displayname="Churn Levels Config" etc="10096" primaryidfield="msfsi_churnlevelsconfigid" primarynamefield="msfsi_name" disableplugins="false">
-    <fields>
-      <field displayname="Churn Levels Config" name="msfsi_churnlevelsconfigid" type="guid" primaryKey="true" />
-      <field displayname="Value %" name="msfsi_value" type="float" customfield="true" />
-      <field displayname="Name" name="msfsi_name" type="string" customfield="true" />
-      <field displayname="Threshold Level" name="msfsi_thresholdlevel" type="optionsetvalue" customfield="true" />
-    </fields>
-  </entity>
 </entities>

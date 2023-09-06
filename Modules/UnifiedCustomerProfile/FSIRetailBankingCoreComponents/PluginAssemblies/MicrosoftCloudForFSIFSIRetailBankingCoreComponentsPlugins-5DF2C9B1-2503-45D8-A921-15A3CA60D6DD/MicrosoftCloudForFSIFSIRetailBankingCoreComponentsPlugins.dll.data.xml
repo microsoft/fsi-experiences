@@ -5,13 +5,6 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <FileName>/PluginAssemblies/MicrosoftCloudForFSIFSIRetailBankingCoreComponentsPlugins-5DF2C9B1-2503-45D8-A921-15A3CA60D6DD/MicrosoftCloudForFSIFSIRetailBankingCoreComponentsPlugins.dll</FileName>
   <PluginTypes>
-    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.CustomWorkflow.CI.Integration.CalculatedFieldsActivity, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="bb1d3038-d8d2-48e7-8df4-d5c699388b75" Name="Microsoft.CloudForFSI.CustomWorkflow.CI.Integration.CalculatedFieldsActivity">
-      <FriendlyName>afcd1688-a786-4170-a6a0-4b5418f0960e</FriendlyName>
-      <WorkflowActivityGroupName>Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins (1.0.0.0)</WorkflowActivityGroupName>
-    </PluginType>
-    <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins.Observations.RetrieveSupportedArtifactsPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="64e731bf-db4e-4b6c-9831-5337445ab0a1" Name="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins.Observations.RetrieveSupportedArtifactsPlugin">
-      <FriendlyName>83f41642-3174-40f8-8e17-3ee2b4d05a2b</FriendlyName>
-    </PluginType>
     <PluginType AssemblyQualifiedName="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" PluginTypeId="a1a0fa53-1c25-4169-8942-df6aa84c5362" Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin">
       <FriendlyName>fe9761a9-d141-423f-836e-83c413ffe489</FriendlyName>
     </PluginType>

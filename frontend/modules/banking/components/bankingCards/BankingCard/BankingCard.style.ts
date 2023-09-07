@@ -1,11 +1,8 @@
 import { FontSizes, FontWeights } from '@fluentui/theme/lib/fonts/FluentFonts';
-import { NeutralColors } from '@fluentui/theme/lib/colors';
 import { COLORS } from '@fsi/core-components/dist/constants/Colors';
 import { CARD_WIDTH } from '../BankingCards.style';
 import { IBankingCardStyleProps, IBankingCardStyles } from './BankingCard.interface';
 import { classNamesFunction } from '@fluentui/react/lib/Utilities';
-import { IStackStyles } from '@fluentui/react/lib/components/Stack/Stack.types';
-import { mergeStyleSets } from '@fluentui/react/lib/Styling';
 import { IButtonStyles } from '@fluentui/react/lib/components/Button/Button.types';
 
 export const cardStackTokens = {

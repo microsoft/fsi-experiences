@@ -2,7 +2,7 @@ import React, { FC, useMemo } from 'react';
 import { Stack } from '@fluentui/react/lib/Stack';
 import { ICardFooterProps } from './BankingCardFooter.interface';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
-import { BANKING_CARDS_STATUS, BANKING_CARDS_TYPE } from '../../../constants/FHValueMaps';
+import { BANKING_CARDS_STATUS } from '../../../constants/FHValueMaps';
 import DateTime from '@fsi/core-components/dist/components/atoms/DateTime/DateTime';
 import { DateTimePredefinedFormat } from '@fsi/core-components/dist/components/atoms/DateTime/DateTime.interface';
 import { daysDueCondition, isDateExpired } from '@fsi/core-components/dist/utilities/TimeUtils';
@@ -15,14 +15,10 @@ export const CardFooter: FC<ICardFooterProps> = ({ isActive, equalStatus, cardSt
 
     const status = useMemo(() => {
         if (isStatusActive && isDateExpired(cardExpiry)) {
-            // eslint-disable-next-line no-console
-            console.log('IsExpired');
             return translate('EXPIRED');
         }
 
         if (isStatusActive && isExpiringSoon) {
-            // eslint-disable-next-line no-console
-            console.log('EXPIRES_SOON');
             return translate('EXPIRES_SOON');
         }
 

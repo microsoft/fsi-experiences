@@ -20,7 +20,7 @@ import Indicator from '@fsi/core-components/dist/components/atoms/Indicator/Indi
 import { COLORS } from '@fsi/core-components/dist/constants/Colors';
 import { DirectionalHint } from '@fluentui/react/lib/components/ContextualMenu/ContextualMenu.types';
 import BankingCardTooltip from '../../../components/bankingCards/BankingCardTooltip/BankingCardTooltip';
-import { CardFooter } from '../BankingCardFooter/BankingCardFooter';
+import { CardFooter } from '../BankingCardFooter';
 
 const isCardStatusActive = (status: number) => status === BANKING_CARDS_STATUS.Active;
 const isCardStatusExpiresSoon = (status: number) => status === BANKING_CARDS_STATUS.ExpiresSoon;

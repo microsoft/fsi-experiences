@@ -23,7 +23,7 @@ export const CardFooter: FC<ICardFooterProps> = ({ isActive, equalStatus, cardSt
         }
 
         return cardStatus;
-    }, [isStatusActive, cardExpiry, isExpiringSoon, cardStatus, translate]);
+    }, [isStatusActive, cardExpiry, isExpiringSoon]);
 
     return (
         <Stack data-testid="card-wrapper-footer">

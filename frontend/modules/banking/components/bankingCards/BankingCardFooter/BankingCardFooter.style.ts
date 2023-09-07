@@ -61,3 +61,5 @@ export const redDot = {
     boxSizing: 'border-box',
     margin: '2px 0px 0px 0px',
 };
+
+export const cardFooterHorizontalTokens = { childrenGap: 4 };

@@ -21,6 +21,7 @@ import { COLORS } from '@fsi/core-components/dist/constants/Colors';
 import { DirectionalHint } from '@fluentui/react/lib/components/ContextualMenu/ContextualMenu.types';
 import BankingCardTooltip from '../../../components/bankingCards/BankingCardTooltip/BankingCardTooltip';
 import { CardFooter } from '../BankingCardFooter/BankingCardFooter';
+
 const isCardStatusActive = (status: number) => status === BANKING_CARDS_STATUS.Active;
 const isCardStatusExpiresSoon = (status: number) => status === BANKING_CARDS_STATUS.ExpiresSoon;
 const isCardActive = (status: number, expiryDate: Date | undefined) =>
@@ -72,7 +73,7 @@ const BankingCardBase: React.FunctionComponent<IBankingCardProps> = props => {
             ),
             directionalHint: DirectionalHint.topCenter,
         };
-    }, [currencyId, fhiEmbossingName, fhiPurchasingLimit, fhiWithdrawalLimit, metadata]);
+    }, [fhiEmbossingName, metadata]);
 
     return (
         <div data-testid={`card-wrapper-${fhiCardType}`} className={`${classNames.root} ${`banking-card-${isActive ? 'active' : 'inactive'}`}`}>

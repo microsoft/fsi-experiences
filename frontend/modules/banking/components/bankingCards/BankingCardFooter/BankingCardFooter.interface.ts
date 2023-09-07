@@ -1,4 +1,4 @@
-export interface ICardFooter {
+export interface ICardFooterProps {
     cardStatus: string;
     isActive: boolean;
     equalStatus: (number) => boolean;

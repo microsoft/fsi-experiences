@@ -1,16 +1,14 @@
 import React, { FC, useMemo } from 'react';
 import { Stack } from '@fluentui/react/lib/Stack';
-import { ICardFooter } from './BankingCardFooter.interface';
+import { ICardFooterProps } from './BankingCardFooter.interface';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
 import { BANKING_CARDS_STATUS, BANKING_CARDS_TYPE } from '../../../constants/FHValueMaps';
 import DateTime from '@fsi/core-components/dist/components/atoms/DateTime/DateTime';
 import { DateTimePredefinedFormat } from '@fsi/core-components/dist/components/atoms/DateTime/DateTime.interface';
 import { daysDueCondition, isDateExpired } from '@fsi/core-components/dist/utilities/TimeUtils';
-import { cardsGrey12Text, cards10LeftText, cards10RightText, redDot } from './BankingCardFooter.style';
+import { cardsGrey12Text, cards10LeftText, cards10RightText, redDot, cardFooterHorizontalTokens } from './BankingCardFooter.style';
 
-const cardFooterHorizontalTokens = { childrenGap: 4 };
-
-export const CardFooter: FC<ICardFooter> = ({ isActive, equalStatus, cardStatus, embossingName, cardExpiry }) => {
+export const CardFooter: FC<ICardFooterProps> = ({ isActive, equalStatus, cardStatus, embossingName, cardExpiry }) => {
     const translate = useTranslation(namespaces.CARDS);
     const isStatusActive = equalStatus(BANKING_CARDS_STATUS.Active);
     const isExpiringSoon = (isStatusActive && daysDueCondition(cardExpiry)) || equalStatus(BANKING_CARDS_STATUS.ExpiresSoon);

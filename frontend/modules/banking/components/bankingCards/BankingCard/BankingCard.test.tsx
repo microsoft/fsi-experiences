@@ -44,13 +44,13 @@ const defaultProps: IBankingCardProps = {
     metadata: FHMetadataMock,
 };
 
-const getTestProps = (cardInfo): IBankingCardProps => {
+const getTestProps = (defaultProps): IBankingCardProps => {
     return {
         ...defaultProps,
-        cardInfo: {
-            ...defaultProps.cardInfo,
-            ...cardInfo,
-        },
+        // cardInfo: {
+        //     ...defaultProps.cardInfo,
+        //     ...cardInfo,
+        // },
     };
 };
 
@@ -80,6 +80,9 @@ describe('BankingCard', () => {
             fhiStatus: BANKING_CARDS_STATUS.Active,
             fhiExpiryDate: addDays(Date.now(), 1),
         });
+        // eslint-disable-next-line no-console
+        console.log('---->', testProps);
+
         const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
 
         expect(getByTestId('card-wrapper-footer')).toBeVisible();

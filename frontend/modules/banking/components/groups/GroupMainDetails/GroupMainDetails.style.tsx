@@ -129,3 +129,5 @@ export const groupMainDetailsHeaderStyles = {
 export const iconStyle = { fontSize: FontSizes.size16 };
 
 export const messageBarStyles: IMessageBarStyles = { root: { whiteSpace: 'normal' }, content: { alignItems: 'center' } };
+
+export const childrenGap = { childrenGap: '4px' };

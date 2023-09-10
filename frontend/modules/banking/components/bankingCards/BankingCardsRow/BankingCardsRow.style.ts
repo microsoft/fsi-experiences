@@ -10,3 +10,9 @@ export const cardLine: IStackStyles = {
         paddingBottom: '18px',
     },
 };
+
+export const cardStyle = {
+    root: {
+        padding: '0px 15px 0px 0px',
+    },
+};

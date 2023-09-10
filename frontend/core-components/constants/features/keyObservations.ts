@@ -1,9 +1,0 @@
-export const KEY_OBSERVATIONS_FLAGS = {
-    SHOW_SEGMENTS: 'showSegments',
-    SHOW_CHURN_SCORE: 'showChurnScore',
-};
-
-export const KEY_OBSERVATIONS_FLAGS_DEFAULTS = {
-    [KEY_OBSERVATIONS_FLAGS.SHOW_SEGMENTS]: true,
-    [KEY_OBSERVATIONS_FLAGS.SHOW_CHURN_SCORE]: true,
-};

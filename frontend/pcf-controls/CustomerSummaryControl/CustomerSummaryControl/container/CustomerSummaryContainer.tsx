@@ -13,15 +13,11 @@ import { extractContextualFlags, mergeConfigs } from '@fsi/pcf-common/utilities/
 import { extractLifeEventsConfig } from './LifeEventsContainer';
 import { extractFinancialHoldingsFlags } from '@fsi-pcf/banking-common/financial-holding/financialHoldings';
 import * as MockCustomerSnapshotFetcher from '@fsi/core-components/dist/dataLayerInterface/service/mocks/MockCustomerSnapshotFetcher';
-import { KEY_OBSERVATIONS_FLAGS, KEY_OBSERVATIONS_FLAGS_DEFAULTS } from '@fsi/core-components/dist/constants/features';
 import { useFHFetcher } from '@fsi-pcf/banking-common/financial-holding/fetchers/useFHFetcher';
 
 export interface CustomerSummaryProps extends PCFContainerProps {}
 
 const defaultSnapshotFormID = '75c78db3-068f-ec11-b400-0022480988ea';
-export const extractCustomerSnapshotConfig = context => ({
-    flags: extractContextualFlags(context, Object.values(KEY_OBSERVATIONS_FLAGS), KEY_OBSERVATIONS_FLAGS_DEFAULTS),
-});
 
 export const CustomerSummaryContainer: React.FC<CustomerSummaryProps> = (props: CustomerSummaryProps) => {
     const { context } = props;
@@ -47,7 +43,7 @@ export const CustomerSummaryContainer: React.FC<CustomerSummaryProps> = (props: 
     }, [context]);
 
     const contactId = extractEntityId(context.parameters?.contactId);
-    const config = mergeConfigs([extractCustomerSnapshotConfig(context), extractLifeEventsConfig(context), extractFinancialHoldingsFlags(context)]);
+    const config = mergeConfigs([extractLifeEventsConfig(context), extractFinancialHoldingsFlags(context)]);
 
     return context && contactId ? (
         <PCFContainer context={props.context} config={config}>

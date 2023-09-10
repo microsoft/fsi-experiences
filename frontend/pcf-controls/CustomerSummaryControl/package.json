@@ -7,7 +7,7 @@
         "clean": "pcf-scripts clean",
         "rebuild": "pcf-scripts rebuild",
         "start": "set NODE_OPTIONS=--openssl-legacy-provider &&  npm run build-translations --isDev && pcf-scripts start watch",
-        "build-translations": "node ../../core-components/scripts/translateHelper.js LifeEventBar CustomerSnapshotControl KeyObservations Cards MainHousehold FinancialHoldings AIChurnExplainability",
+        "build-translations": "node ../../core-components/scripts/translateHelper.js LifeEventBar CustomerSnapshotControl Cards MainHousehold FinancialHoldings",
         "build-libs": "npm run build-frontend && npm run build-common-pcf",
         "go": "npm run build-libs && npm i && pcf-scripts start watch"
     },

@@ -10,6 +10,4 @@ frontend\pcf-controls\LoanApplicationFilesControl\LoanApplicationFilesControl\Co
 frontend\pcf-controls\LoanCustomerLookupControl\LoanCustomerLookupControl\ControlManifest.Input.xml
 frontend\pcf-controls\LoanOnboardingControl\LoanOnboardingControl\ControlManifest.Input.xml
 frontend\pcf-controls\LoanSnapshotControl\LoanSnapshotControl\ControlManifest.Input.xml
-frontend\pcf-controls\PredictionControl\PredictionControl\ControlManifest.Input.xml
-frontend\pcf-controls\SegmentsControl\SegmentsControl\ControlManifest.Input.xml
 frontend\pcf-controls\VerificationStatusControl\VerificationStatusControl\ControlManifest.Input.xml

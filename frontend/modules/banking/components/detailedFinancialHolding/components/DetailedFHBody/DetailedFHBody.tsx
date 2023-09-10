@@ -4,8 +4,8 @@ import { Pivot } from '@fluentui/react/lib/Pivot';
 import { PivotItem } from '@fluentui/react/lib/Pivot';
 import { DetailedFHTable } from '../DetailedFHTable/DetailedFHTable';
 import { fhOwnerRoles } from '../../../../constants/FHValueMaps';
-import { DetailedMembersGroupHoldingsWrapper, FhPickListsProps } from '../../../groups/DetailedMembersGroupHoldings';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from '../../../groups/DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.contant';
+import { DetailedMembersGroupHoldingsWrapper, IFhPickListsProps } from '../../../groups/DetailedMembersGroupHoldings';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from '../../../groups/DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.const';
 import { detailedFHBodyPivotItemStyles, detailedFHBodyPivotStyles, detailedFHBodyPivotWrapperStyles } from './DetailedFHBody.style';
 import { DetailedFHBodyProps } from './DetailedFHBody.interface';
 import { toPickListMap } from '../../../../utilities/EntityMetadata';
@@ -38,7 +38,7 @@ export const DetailedFHBody: FC<DetailedFHBodyProps> = props => {
         return owners;
     }, [fhItems]);
 
-    const fhPickLists: FhPickListsProps | undefined = useMemo(() => {
+    const fhPickLists: IFhPickListsProps | undefined = useMemo(() => {
         if (!metadata) {
             return {
                 fhCategoryTypes: new Map(),

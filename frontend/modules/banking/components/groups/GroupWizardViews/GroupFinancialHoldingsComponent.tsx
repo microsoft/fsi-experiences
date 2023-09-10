@@ -7,7 +7,7 @@ import { FontSizes, FontWeights } from '@fluentui/theme/lib/fonts/FluentFonts';
 import { Pivot, PivotItem } from '@fluentui/react/lib/Pivot';
 import { IGroupMember, IGroupFinancialHolding } from '../../../interfaces/Groups';
 import { GroupsContext } from '../contexts/GroupsContext';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.contant';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.const';
 import differenceWith from 'lodash/differenceWith';
 import LoadingComponent from '../LoadingComponent';
 import { DetailedMembersGroupHoldingsWrapper } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldingsWrapper';

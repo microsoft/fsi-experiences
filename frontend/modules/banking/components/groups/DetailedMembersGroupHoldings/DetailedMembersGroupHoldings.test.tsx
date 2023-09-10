@@ -4,8 +4,9 @@ import { getFullMock } from '../../../interfaces/Groups/mocks/IGroup.mock';
 import { fhRolesValues, FH_OVERVIEW_ICON_TEXT_MAP } from '../../../constants/FHValueMaps';
 import { GroupsContext, initialFHPickLists } from '../contexts/GroupsContext';
 import getGroupContextMock from '../MockGroupContext';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from './DetailedMembersGroupHoldings.contant';
-import { DetailedMembersGroupHoldings, IDetailedMembersGroupHoldingsProps } from './DetailedMembersGroupHoldings';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from './DetailedMembersGroupHoldings.const';
+import { DetailedMembersGroupHoldings } from './DetailedMembersGroupHoldings';
+import { IDetailedMembersGroupHoldingsProps } from './DetailedMembersGroupHoldings.interface';
 
 let checkboxParams = {};
 let detailedListParams;

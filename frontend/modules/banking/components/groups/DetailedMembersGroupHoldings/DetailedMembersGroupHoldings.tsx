@@ -2,19 +2,15 @@ import React, { FC, useEffect, useState, useMemo, useCallback } from 'react';
 import { SelectionMode } from '@fluentui/utilities/lib/selection/Selection.types';
 import { Checkbox } from '@fluentui/react/lib/Checkbox';
 import { DetailsList, IColumn, ColumnActionsMode } from '@fluentui/react/lib/DetailsList';
-import { IGroup } from '@fluentui/react/lib/GroupedList';
 import { Stack } from '@fluentui/react/lib/Stack';
-import { IGroupFinancialHolding } from '../../../interfaces/Groups';
 import { VISITOR_NAMES } from '@fsi/core-components/dist/dataLayerInterface/entity/constants';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from './DetailedMembersGroupHoldings.contant';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from './DetailedMembersGroupHoldings.const';
 import { detailedGroupHoldingStyles, selectAllCheckboxStyles, detailedMembersGroupHoldingsStyles } from './DetailedMembersGroupHoldings.style';
-import { FhPickListsProps } from './DetailedMembersGroupHoldingsWrapper';
 import {
     fhBalanceColumn,
     fhCurrencyColumn,
     indicatorColumn,
 } from '../../../components/detailedFinancialHolding/components/FinancialHoldingGroupedList/FinancialHoldingGroupedList.const';
-import { FHMetadata } from '../../../interfaces/FHEntity';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
 import {
     renderAdd,
@@ -31,18 +27,8 @@ import {
     renderItemColumn,
     renderDetailsHeader,
 } from './renderers';
+import { IDetailedMembersGroupHoldingsProps } from './DetailedMembersGroupHoldings.interface';
 
-export interface IDetailedMembersGroupHoldingsProps {
-    financialHoldings: IGroupFinancialHolding[];
-    responsiveColumns?: number;
-    items: IGroupFinancialHolding[];
-    groups: IGroup[];
-    viewKey: string;
-    fhPickLists: FhPickListsProps;
-    onFHSelected?: (groupHoldings: IGroupFinancialHolding[], isChecked?: boolean) => void;
-    contactId?: string;
-    metadata?: FHMetadata;
-}
 const belowSevenResponsiveColumnsModeHiddenColumns = new Set(['role']);
 const belowSixResponsiveColumnsModeHiddenColumns = new Set(['typ', 'indicator', 'currency', 'role']);
 const belowFourResponsiveColumnsModeHiddenColumns = new Set(['typ', 'indicator', 'currency', 'bal']);

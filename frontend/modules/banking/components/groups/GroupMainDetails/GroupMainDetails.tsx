@@ -8,7 +8,7 @@ import { GroupsContext } from '../contexts/GroupsContext';
 import { IGroup } from '../../../interfaces/Groups';
 import Tag from '@fsi/core-components/dist/components/atoms/Tag/Tag';
 import { GroupsTypes } from '@fsi/core-components/dist/dataLayerInterface/entity/constants';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.contant';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.const';
 import { DetailedMembersGroupHoldingsWrapper } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldingsWrapper';
 import FinancialDataSummaryWrapper from '../FinancialDataSummary/FinancialDataSummaryWrapper';
 import {

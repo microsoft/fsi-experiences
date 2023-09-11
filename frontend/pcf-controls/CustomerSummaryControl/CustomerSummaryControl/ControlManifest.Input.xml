@@ -26,14 +26,6 @@
       <value name="MainHousehold" display-name-key="SELECT_MAIN_HOUSEHOLD" description-key="SELECT_MAIN_HOUSEHOLD_DESC">5</value>
     </property>
     <property name="formId" display-name-key="FORM_ID" description-key="FORM_ID_DESC" of-type="SingleLine.Text" usage="input" default-value="75c78db3-068f-ec11-b400-0022480988ea" />
-    <property name="showChurnScore" display-name-key="CHURN_SCORE_FEATURE" description-key="CHURN_SCORE_FEATURE_DESC" of-type="Enum" usage="input" default-value="1">
-      <value name="show" display-name-key="SHOW" description-key="CHURN_SCORE_FEATURE_SHOW_DESC">1</value>
-      <value name="hide" display-name-key="HIDE" description-key="CHURN_SCORE_FEATURE_HIDE_DESC">0</value>
-    </property>
-    <property name="showSegments" display-name-key="SEGMENTS_FEATURE" description-key="SEGMENTS_FEATURE_DESC" of-type="Enum" usage="input" default-value="1">
-      <value name="show" display-name-key="SHOW" description-key="SEGMENTS_FEATURE_SHOW_DESC">1</value>
-      <value name="hide" display-name-key="HIDE" description-key="SEGMENTS_FEATURE_HIDE_DESC">0</value>
-    </property>
     <property name="showFinancialInsights" display-name-key="FINANCIAL_INSIGHTS_FEATURE_CUSTOMER_SUMMARY" description-key="FINANCIAL_INSIGHTS_FEATURE_CUSTOMER_SUMMARY_DESC" of-type="Enum" usage="input" default-value="1">
       <value name="show" display-name-key="SHOW" description-key="FINANCIAL_INSIGHTS_FEATURE_CUSTOMER_SUMMARY_SHOW_DESC">1</value>
       <value name="hide" display-name-key="HIDE" description-key="FINANCIAL_INSIGHTS_FEATURE_CUSTOMER_SUMMARY_HIDE_DESC">0</value>

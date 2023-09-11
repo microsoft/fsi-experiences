@@ -10,8 +10,6 @@ export * from './VerticalGraphLine';
 export * from './DataBox';
 export * from './Indicator';
 export * from './Performance';
-export * from './AIFactor';
-export * from './AIScore';
 export * from './InfoCallout';
 export * from './OverflowText';
 export * from './Divider';

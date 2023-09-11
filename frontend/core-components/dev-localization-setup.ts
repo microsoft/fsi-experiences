@@ -13,10 +13,8 @@ import loanOnboardingControl from './assets/strings/LoanOnboardingControl/LoanOn
 import loanSnapshotControl from './assets/strings/LoanSnapshotControl/LoanSnapshotControl.1033.json';
 import partyAssetsAndLiabilities from './assets/strings/PartyAssetsAndLiabilities/PartyAssetsAndLiabilities.1033.json';
 import verificationStatusControl from './assets/strings/VerificationStatusControl/VerificationStatusControl.1033.json';
-import aiChurnExplainability from './assets/strings/AIChurnExplainability/AIChurnExplainability.1033.json';
 import { ITranslations, translations } from './context/localization/TranslationFunction';
 import financialCategoriesFormFields from './assets/strings/FinancialCategoriesFormFields/FinancialCategoriesFormFields.1033.json';
-import keyObservations from './assets/strings/KeyObservations/KeyObservations.1033.json';
 import financialHoldingSelectorControl from './assets/strings/FinancialHoldingSelectorControl/FinancialHoldingSelectorControl.1033.json';
 
 import { namespaces } from './constants/namespaces';
@@ -42,9 +40,7 @@ export const setup = (additionalFiles: ITranslationFile[] = []): ITranslations =
         LOAN_SNAPSHOT_CONTROL,
         PARTY_ASSETS_AND_LIABILITIES,
         VERIFICATION_STATUS_CONTROL,
-        AI_CHURN_EXPLAINABILITY,
         FINANCIAL_CATEGORIES_FORM_FIELDS,
-        KEY_OBSERVATIONS,
         FINANCIAL_HOLDING_SELECTOR_CONTROL,
     } = namespaces;
 
@@ -64,9 +60,7 @@ export const setup = (additionalFiles: ITranslationFile[] = []): ITranslations =
         [LOAN_SNAPSHOT_CONTROL]: loanSnapshotControl,
         [PARTY_ASSETS_AND_LIABILITIES]: partyAssetsAndLiabilities,
         [VERIFICATION_STATUS_CONTROL]: verificationStatusControl,
-        [AI_CHURN_EXPLAINABILITY]: aiChurnExplainability,
         [FINANCIAL_CATEGORIES_FORM_FIELDS]: financialCategoriesFormFields,
-        [KEY_OBSERVATIONS]: keyObservations,
         [FINANCIAL_HOLDING_SELECTOR_CONTROL]: financialHoldingSelectorControl,
     };
 

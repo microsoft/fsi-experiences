@@ -3,29 +3,14 @@ import { IGroup } from '@fluentui/react/lib/GroupedList';
 import { IGroupFinancialHolding } from '../../../interfaces/Groups';
 import { DetailedMembersGroupHoldings } from './DetailedMembersGroupHoldings';
 import { FH_CATEGORY_ORDER } from '../../../constants/FHValueMaps';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from './DetailedMembersGroupHoldings.contant';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from './DetailedMembersGroupHoldings.const';
 import useResponsiveContainer from '@fsi/core-components/dist/context/hooks/useResponsiveContainer';
 import { IMAGE_SRC } from '@fsi/core-components/dist/constants/ImageSrc';
 import { FHMetadata, ICustomerFH } from '../../../interfaces/FHEntity';
 import { EmptyState } from '@fsi/core-components/dist/components/atoms/EmptyState/EmptyState';
 import orderBy from 'lodash/orderBy';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
-
-export interface FhPickListsProps {
-    fhCategoryTypes: Map<number, string>;
-    fhTypeTypes: Map<number, string>;
-    roles: Map<number, string>;
-}
-export interface IDetailedMembersGroupHoldingsWrapperProps {
-    selectedFinancialHoldings?: IGroupFinancialHolding[];
-    allFinancialHoldings: IGroupFinancialHolding[];
-    selectedKey: string;
-    fhPickLists: FhPickListsProps;
-    onFHChanged?: (financialHoldings: IGroupFinancialHolding[]) => void;
-    contactId?: string;
-    metadata?: FHMetadata;
-    emptyStateMessage?: string;
-}
+import { IDetailedMembersGroupHoldingsWrapperProps } from './DetailedMembersGroupHoldings.interface';
 
 export const DetailedMembersGroupHoldingsWrapper: FC<IDetailedMembersGroupHoldingsWrapperProps> = ({
     selectedFinancialHoldings,

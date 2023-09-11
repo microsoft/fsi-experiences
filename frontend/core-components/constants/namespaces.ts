@@ -14,9 +14,7 @@ export const namespaces = {
     LOAN_ONBOARDING_CONTROL: 'loanOnboardingControl',
     PARTY_ASSETS_AND_LIABILITIES: 'partyAssetsAndLiabilities',
     VERIFICATION_STATUS_CONTROL: 'verificationStatusControl',
-    AI_CHURN_EXPLAINABILITY: 'aiChurnExplainability',
     FINANCIAL_CATEGORIES_FORM_FIELDS: 'financialCategoriesFormFields',
-    KEY_OBSERVATIONS: 'keyObservations',
     INVESTMENTS_PORTFOLIOS: 'investmentsPortfolios',
     FINANCIAL_HOLDING_SELECTOR_CONTROL: 'financialHoldingSelectorControl',
 };

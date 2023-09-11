@@ -7,7 +7,7 @@ import { BANKING_CARDS_STATUS, CARD_STATUS_ORDER } from '../../../constants/FHVa
 import BankingCardsEmptyState from '../BankingCardsEmptyState/BankingCardsEmptyState';
 import { BankingCardsRowProps } from './BankingCardsRow.interface';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
-import { cardLine } from './BankingCardsRow.style';
+import { cardLine, cardStyle } from './BankingCardsRow.style';
 
 const cardLineElements = {
     childrenGap: PADDING_BETWEEN_CARDS,
@@ -51,10 +51,10 @@ const BankingCardsRow: FC<BankingCardsRowProps> = props => {
         const instrumentsSorted = instruments.sort((a, b) => calcSortValues(a) - calcSortValues(b));
 
         const rowMap: ReactElement[] = instrumentsSorted.map(([fh, instrument], index) => {
-            const cardStyle = index === instruments.length - 1 ? { root: { padding: '0px 15px 0px 0px' } } : {};
+            const cardStyles = index === instruments.length - 1 ? cardStyle : {};
 
             return (
-                <Stack.Item role="listitem" key={index} styles={cardStyle} data-testid="cardRow-item">
+                <Stack.Item role="listitem" key={index} styles={cardStyles} data-testid="cardRow-item">
                     <BankingCard cardInfo={instrument} fhRole={fh.role} metadata={metadata} index={index} currencyId={fh.currencyId} />
                 </Stack.Item>
             );

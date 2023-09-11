@@ -6,7 +6,7 @@ import { NeutralColors } from '@fluentui/theme/lib/colors/FluentColors';
 import React from 'react';
 import { FH_OVERVIEW_ICON_TEXT_MAP } from '../../../../../constants/FHValueMaps';
 import { IGroupDividerProps } from '@fluentui/react/lib/GroupedList';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from '../../DetailedMembersGroupHoldings.contant';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from '../../DetailedMembersGroupHoldings.const';
 import { IGroupFinancialHolding } from '../../../../../interfaces/Groups/IGroupFinancialHolding';
 import { Text } from '@fluentui/react/lib/Text';
 import {

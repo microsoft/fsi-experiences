@@ -2428,14 +2428,6 @@
     <value>Mesures CI</value>
     <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_cimeasure'</comment>
   </data>
-  <data name="1:Title,Contactnav_msfsi_contact_msfsi_ciprediction{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Prédictions CI</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_ciprediction'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msfsi_contact_msfsi_cisegment_Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Segments</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_cisegment_Contact'</comment>
-  </data>
   <data name="1:Title,Contactnav_msfsi_contact_msfsi_customerfinancialholding_CustomerID{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
     <value>Produits financiers client</value>
     <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_customerfinancialholding_CustomerID'</comment>
@@ -2491,14 +2483,6 @@
   <data name="1:Title,Contactnav_msind_contact_msind_industrymeasure{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
     <value>Mesures de l’industrie</value>
     <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industrymeasure'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msind_contact_msind_industryprediction{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Prédictions de l’industrie</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industryprediction'</comment>
-  </data>
-  <data name="1:Title,Contactnav_msind_contact_msind_industrysegment{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
-    <value>Segments de l’industrie</value>
-    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msind_contact_msind_industrysegment'</comment>
   </data>
   <data name="1:Title,Contactnav_msind_contact_msind_industryunifiedactivity_contactid{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
     <value>Activités unifiées de l’industrie</value>

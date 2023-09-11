@@ -8,7 +8,7 @@ import { GroupsContext } from '../contexts/GroupsContext';
 import { IGroup } from '../../../interfaces/Groups';
 import Tag from '@fsi/core-components/dist/components/atoms/Tag/Tag';
 import { GroupsTypes } from '@fsi/core-components/dist/dataLayerInterface/entity/constants';
-import { GROUPS_HOLDINGS_VIEW_KEYS } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.contant';
+import { GROUPS_HOLDINGS_VIEW_KEYS } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldings.const';
 import { DetailedMembersGroupHoldingsWrapper } from '../DetailedMembersGroupHoldings/DetailedMembersGroupHoldingsWrapper';
 import FinancialDataSummaryWrapper from '../FinancialDataSummary/FinancialDataSummaryWrapper';
 import {
@@ -32,6 +32,7 @@ import {
     groupPivotHeaderStyles,
     pivotStyles,
     messageBarStyles,
+    childrenGap,
 } from './GroupMainDetails.style';
 import ErrorState from '@fsi/core-components/dist/components/containers/ErrorState/ErrorState';
 import HighlightMessageBar from '@fsi/core-components/dist/components/atoms/HighlightMessageBar/HighlightMessageBar';
@@ -80,7 +81,7 @@ const GroupMainDetails: FC<IGroupMainDetailsProps> = ({ readonly, group, isPrima
         const groupPrimaryMember = group.members.find(m => m.id === group.primaryMember);
         const addressText = groupPrimaryMember?.customer.address || 'Not available';
         return (
-            <Stack styles={inlineStack} horizontal tokens={{ childrenGap: '4px' }}>
+            <Stack styles={inlineStack} horizontal tokens={childrenGap}>
                 <Text styles={groupMainDetailsTextBold}>{translate('ADDRESS')}:</Text>
                 <Text styles={groupMainDetailsText} data-testid="group-main-details-address-text">
                     {addressText}
@@ -91,25 +92,25 @@ const GroupMainDetails: FC<IGroupMainDetailsProps> = ({ readonly, group, isPrima
 
     const getGroupDetailsText = () => {
         const members = (
-            <Stack styles={inlineStack} horizontal tokens={{ childrenGap: '4px' }}>
+            <Stack styles={inlineStack} horizontal tokens={childrenGap}>
                 <Text styles={groupMainDetailsTextBold}>{group.members.length}</Text>
                 <Text styles={groupMainDetailsText}>{translate('MEMBERS')}</Text>
             </Stack>
         );
         const fhs = (
-            <Stack styles={inlineStack} horizontal tokens={{ childrenGap: '4px' }}>
+            <Stack styles={inlineStack} horizontal tokens={childrenGap}>
                 <Text styles={groupMainDetailsTextBold}>{group.financialHoldings?.length || 0}</Text>
                 <Text styles={groupMainDetailsText}>{translate('FINANCIAL_HOLDINGS')}</Text>
             </Stack>
         );
         const type = (
-            <Stack styles={inlineStack} horizontal tokens={{ childrenGap: '4px' }}>
+            <Stack styles={inlineStack} horizontal tokens={childrenGap}>
                 <Text styles={groupMainDetailsTextBold}>{groupsContext.pickLists.groupTypes.get(group.type)}</Text>
                 <Text styles={groupMainDetailsText}>{translate('GROUP')}</Text>
             </Stack>
         );
         return (
-            <Stack styles={inlineStack} horizontal tokens={{ childrenGap: '4px' }}>
+            <Stack styles={inlineStack} horizontal tokens={childrenGap}>
                 {type}
                 <Text styles={groupMainDetailsTextBold}>•</Text>
                 {members}

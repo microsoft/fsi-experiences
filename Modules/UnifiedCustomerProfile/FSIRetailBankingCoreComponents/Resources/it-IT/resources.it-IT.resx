@@ -109,10 +109,6 @@
     <value>Identificatore univoco della Business Unit a cui appartiene il record</value>
     <comment>msfsi_categorytypesrelations Description for EntityRelationship 'business_unit_msfsi_categorytypesrelations'</comment>
   </data>
-  <data name="10:Description,business_unit_msfsi_churnlevelsconfig" xml:space="preserve">
-    <value>Identificatore univoco della Business Unit a cui appartiene il record</value>
-    <comment>msfsi_churnlevelsconfig Description for EntityRelationship 'business_unit_msfsi_churnlevelsconfig'</comment>
-  </data>
   <data name="10:Description,business_unit_msfsi_lifemomentcategoryconfig" xml:space="preserve">
     <value>Identificatore univoco della Business Unit a cui appartiene il record</value>
     <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'business_unit_msfsi_lifemomentcategoryconfig'</comment>
@@ -132,14 +128,6 @@
   <data name="10:Description,lk_msfsi_categorytypesrelations_modifiedby" xml:space="preserve">
     <value>Identificatore univoco dell'utente che ha modificato il record.</value>
     <comment>msfsi_categorytypesrelations Description for EntityRelationship 'lk_msfsi_categorytypesrelations_modifiedby'</comment>
-  </data>
-  <data name="10:Description,lk_msfsi_churnlevelsconfig_createdby" xml:space="preserve">
-    <value>Identificatore univoco dell'utente che ha creato il record.</value>
-    <comment>msfsi_churnlevelsconfig Description for EntityRelationship 'lk_msfsi_churnlevelsconfig_createdby'</comment>
-  </data>
-  <data name="10:Description,lk_msfsi_churnlevelsconfig_modifiedby" xml:space="preserve">
-    <value>Identificatore univoco dell'utente che ha modificato il record.</value>
-    <comment>msfsi_churnlevelsconfig Description for EntityRelationship 'lk_msfsi_churnlevelsconfig_modifiedby'</comment>
   </data>
   <data name="10:Description,lk_msfsi_lifemomentcategoryconfig_createdby" xml:space="preserve">
     <value>Identificatore univoco dell'utente che ha creato il record.</value>
@@ -181,10 +169,6 @@
     <value>ID proprietario</value>
     <comment>msfsi_categorytypesrelations Description for EntityRelationship 'owner_msfsi_categorytypesrelations'</comment>
   </data>
-  <data name="10:Description,owner_msfsi_churnlevelsconfig" xml:space="preserve">
-    <value>ID proprietario</value>
-    <comment>msfsi_churnlevelsconfig Description for EntityRelationship 'owner_msfsi_churnlevelsconfig'</comment>
-  </data>
   <data name="10:Description,owner_msfsi_lifemomentcategoryconfig" xml:space="preserve">
     <value>ID proprietario</value>
     <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'owner_msfsi_lifemomentcategoryconfig'</comment>
@@ -201,10 +185,6 @@
     <value>Identificatore univoco del team proprietario del record.</value>
     <comment>msfsi_categorytypesrelations Description for EntityRelationship 'team_msfsi_categorytypesrelations'</comment>
   </data>
-  <data name="10:Description,team_msfsi_churnlevelsconfig" xml:space="preserve">
-    <value>Identificatore univoco del team proprietario del record.</value>
-    <comment>msfsi_churnlevelsconfig Description for EntityRelationship 'team_msfsi_churnlevelsconfig'</comment>
-  </data>
   <data name="10:Description,team_msfsi_lifemomentcategoryconfig" xml:space="preserve">
     <value>Identificatore univoco del team proprietario del record.</value>
     <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'team_msfsi_lifemomentcategoryconfig'</comment>
@@ -220,10 +200,6 @@
   <data name="10:Description,user_msfsi_categorytypesrelations" xml:space="preserve">
     <value>Identificatore univoco dell'utente proprietario del record.</value>
     <comment>msfsi_categorytypesrelations Description for EntityRelationship 'user_msfsi_categorytypesrelations'</comment>
-  </data>
-  <data name="10:Description,user_msfsi_churnlevelsconfig" xml:space="preserve">
-    <value>Identificatore univoco dell'utente proprietario del record.</value>
-    <comment>msfsi_churnlevelsconfig Description for EntityRelationship 'user_msfsi_churnlevelsconfig'</comment>
   </data>
   <data name="10:Description,user_msfsi_lifemomentcategoryconfig" xml:space="preserve">
     <value>Identificatore univoco dell'utente proprietario del record.</value>
@@ -260,18 +236,6 @@
   <data name="1:Description,Category types relations{c9be7f99-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
     <value>Relazioni tipo di categoria attive di mia proprietà</value>
     <comment>'Category types relations' : Description for SavedQuery on Entity QueryId: '{c9be7f99-7a48-eb11-a813-000d3a1041e5}'</comment>
-  </data>
-  <data name="1:Description,Churn levels config{6e332496-242a-42fb-9a3c-b02d8e9bbc50}" xml:space="preserve">
-    <value>Modulo scheda per questa entità.</value>
-    <comment>'Churn levels config' : Description for systemform in Entity FormXml ID: '{6e332496-242a-42fb-9a3c-b02d8e9bbc50}'</comment>
-  </data>
-  <data name="1:Description,Churn levels config{9358af2c-9969-eb11-a812-000d3a4d8524}" xml:space="preserve">
-    <value>Configurazioni livelli di abbandono attive di mia proprietà</value>
-    <comment>'Churn levels config' : Description for SavedQuery on Entity QueryId: '{9358af2c-9969-eb11-a812-000d3a4d8524}'</comment>
-  </data>
-  <data name="1:Description,Churn levels config{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Modulo per questa entità.</value>
-    <comment>'Churn levels config' : Description for systemform in Entity FormXml ID: '{e1951dd2-9964-4ee3-9a82-57aca6d32978}'</comment>
   </data>
   <data name="1:Description,Contactmsfsi_fhlookupplaceholder" xml:space="preserve">
     <value />
@@ -408,102 +372,6 @@
   <data name="1:Description,msfsi_categorytypesrelationsUTCConversionTimeZoneCode" xml:space="preserve">
     <value>Codice del fuso orario utilizzato al momento della creazione del record.</value>
     <comment>'msfsi_categorytypesrelations' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigCreatedBy" xml:space="preserve">
-    <value>Identificatore univoco dell'utente che ha creato il record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'CreatedBy' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigCreatedOn" xml:space="preserve">
-    <value>Data e ora di creazione del record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'CreatedOn' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigCreatedOnBehalfBy" xml:space="preserve">
-    <value>Identificatore univoco dell'utente delegato che ha creato il record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigentitymsfsi_churnlevelsconfig" xml:space="preserve">
-    <value>Questa entità imposta i livelli di rischi per la conversione dei risultati del modello di abbandono</value>
-    <comment> 'msfsi_churnlevelsconfig' : Description for Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigImportSequenceNumber" xml:space="preserve">
-    <value>Numero di sequenza dell'importazione che ha creato il record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigModifiedBy" xml:space="preserve">
-    <value>Identificatore univoco dell'utente che ha modificato il record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'ModifiedBy' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigModifiedOn" xml:space="preserve">
-    <value>Data e ora di modifica del record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'ModifiedOn' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigModifiedOnBehalfBy" xml:space="preserve">
-    <value>Identificatore univoco dell'utente delegato che ha modificato il record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_churnlevelsconfigId" xml:space="preserve">
-    <value>Identificatore univoco delle istanze di entità</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'msfsi_churnlevelsconfigId' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_msfsi_thresholdlevel" xml:space="preserve">
-    <value>Livello della soglia per il punteggio di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for OptionSet 'msfsi_churnlevelsconfig_msfsi_thresholdlevel' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statecode" xml:space="preserve">
-    <value>Stato della configurazione dei livelli di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for OptionSet 'msfsi_churnlevelsconfig_statecode' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statuscode" xml:space="preserve">
-    <value>Motivo dello stato della configurazione dei livelli di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for OptionSet 'msfsi_churnlevelsconfig_statuscode' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_Name" xml:space="preserve">
-    <value>Campo nome obbligatorio</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'msfsi_Name' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_ThresholdLevel" xml:space="preserve">
-    <value>Livello della soglia per il punteggio di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'msfsi_ThresholdLevel' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigmsfsi_value" xml:space="preserve">
-    <value>Valore della soglia per il punteggio di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'msfsi_value' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigOverriddenCreatedOn" xml:space="preserve">
-    <value>Data e ora di migrazione del record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigOwnerId" xml:space="preserve">
-    <value>ID proprietario</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'OwnerId' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigOwningBusinessUnit" xml:space="preserve">
-    <value>Identificatore univoco della Business Unit a cui appartiene il record</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigOwningTeam" xml:space="preserve">
-    <value>Identificatore univoco del team proprietario del record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'OwningTeam' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigOwningUser" xml:space="preserve">
-    <value>Identificatore univoco dell'utente proprietario del record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'OwningUser' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigstatecode" xml:space="preserve">
-    <value>Stato della configurazione dei livelli di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'statecode' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigstatuscode" xml:space="preserve">
-    <value>Motivo dello stato della configurazione dei livelli di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'statuscode' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigTimeZoneRuleVersionNumber" xml:space="preserve">
-    <value>Solo per uso interno.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
-  </data>
-  <data name="1:Description,msfsi_churnlevelsconfigUTCConversionTimeZoneCode" xml:space="preserve">
-    <value>Codice del fuso orario utilizzato al momento della creazione del record.</value>
-    <comment>'msfsi_churnlevelsconfig' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
   </data>
   <data name="1:Description,msfsi_lifemomentcategoryconfigCreatedBy" xml:space="preserve">
     <value>Identificatore univoco dell'utente che ha creato il record.</value>
@@ -901,98 +769,6 @@
     <value>Codice fuso orario conversione UTC</value>
     <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
   </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigCreatedBy" xml:space="preserve">
-    <value>Autore</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'CreatedBy' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigCreatedOn" xml:space="preserve">
-    <value>Data di creazione</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'CreatedOn' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigCreatedOnBehalfBy" xml:space="preserve">
-    <value>Autore (delegato)</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigImportSequenceNumber" xml:space="preserve">
-    <value>Numero sequenza importazione</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigModifiedBy" xml:space="preserve">
-    <value>Autore modifica</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'ModifiedBy' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigModifiedOn" xml:space="preserve">
-    <value>Data di modifica</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'ModifiedOn' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigModifiedOnBehalfBy" xml:space="preserve">
-    <value>Autore modifica (delegato)</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_churnlevelsconfigId" xml:space="preserve">
-    <value>Configurazione livelli di abbandono</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'msfsi_churnlevelsconfigId' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_msfsi_thresholdlevel" xml:space="preserve">
-    <value>Livello soglia</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for OptionSet 'msfsi_churnlevelsconfig_msfsi_thresholdlevel' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statecode" xml:space="preserve">
-    <value>Stato</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for OptionSet 'msfsi_churnlevelsconfig_statecode' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statuscode" xml:space="preserve">
-    <value>Motivo stato</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for OptionSet 'msfsi_churnlevelsconfig_statuscode' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_Name" xml:space="preserve">
-    <value>Nome</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'msfsi_Name' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_ThresholdLevel" xml:space="preserve">
-    <value>Livello soglia</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'msfsi_ThresholdLevel' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigmsfsi_value" xml:space="preserve">
-    <value>Valore %</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'msfsi_value' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigOverriddenCreatedOn" xml:space="preserve">
-    <value>Data di creazione record</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigOwnerId" xml:space="preserve">
-    <value>Proprietario</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'OwnerId' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigOwningBusinessUnit" xml:space="preserve">
-    <value>Business Unit proprietaria</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigOwningTeam" xml:space="preserve">
-    <value>Team proprietario</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'OwningTeam' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigOwningUser" xml:space="preserve">
-    <value>Utente proprietario</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'OwningUser' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigstatecode" xml:space="preserve">
-    <value>Stato</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'statecode' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigstatuscode" xml:space="preserve">
-    <value>Motivo stato</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'statuscode' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigTimeZoneRuleVersionNumber" xml:space="preserve">
-    <value>Numero di versione della regola per il fuso orario</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
-  </data>
-  <data name="1:displayname,msfsi_churnlevelsconfigUTCConversionTimeZoneCode" xml:space="preserve">
-    <value>Codice fuso orario conversione UTC</value>
-    <comment>'msfsi_churnlevelsconfig' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
-  </data>
   <data name="1:displayname,msfsi_lifemomentcategoryconfigCreatedBy" xml:space="preserve">
     <value>Autore</value>
     <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'CreatedBy' on Entity</comment>
@@ -1372,134 +1148,6 @@
   <data name="1:label,Category types relations{f956d465-b0f2-4c0c-a41a-986747b8162a}" xml:space="preserve">
     <value>Dettagli</value>
     <comment>'Category types relations' : label for section in Entity FormXml ID: '{f956d465-b0f2-4c0c-a41a-986747b8162a}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{00f82e71-f70a-4fdd-8056-ba6a994338e3}" xml:space="preserve">
-    <value>Intestazione</value>
-    <comment>'Churn levels config' : label for section in Entity FormXml ID: '{00f82e71-f70a-4fdd-8056-ba6a994338e3}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{0a98e8c0-9402-4692-885b-f88b464c87b8}" xml:space="preserve">
-    <value>Proprietario</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{0a98e8c0-9402-4692-885b-f88b464c87b8}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{0c266ce5-c16c-47f8-afa0-d218443f4bae}" xml:space="preserve">
-    <value>Proprietario</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{0c266ce5-c16c-47f8-afa0-d218443f4bae}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{117d4fd5-7a30-4f5b-8bd7-898f14c52718}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for tab in Entity FormXml ID: '{117d4fd5-7a30-4f5b-8bd7-898f14c52718}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{1813af3c-2903-4aa7-9d96-0f0142e3266e}" xml:space="preserve">
-    <value>Nome</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{1813af3c-2903-4aa7-9d96-0f0142e3266e}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{1add095e-0735-4216-8539-0ac9c083e82e}" xml:space="preserve">
-    <value>Data di creazione</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{1add095e-0735-4216-8539-0ac9c083e82e}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{1cb27775-9d34-4c26-8e3c-ca5cdb7617e1}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{1cb27775-9d34-4c26-8e3c-ca5cdb7617e1}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{228c0582-be68-4e82-babc-709b1b35ae62}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{228c0582-be68-4e82-babc-709b1b35ae62}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{258824ae-b8f5-44ee-8e05-6d1141f4b9f2}" xml:space="preserve">
-    <value>Striscia colori</value>
-    <comment>'Churn levels config' : label for section in Entity FormXml ID: '{258824ae-b8f5-44ee-8e05-6d1141f4b9f2}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{2af738d0-d492-4105-8dfd-8fbe2c25f2ae}" xml:space="preserve">
-    <value>Piè di pagina</value>
-    <comment>'Churn levels config' : label for section in Entity FormXml ID: '{2af738d0-d492-4105-8dfd-8fbe2c25f2ae}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{3bcc1a77-3bd2-95a6-953c-ca8b0799b145}" xml:space="preserve">
-    <value>Livello soglia</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{3bcc1a77-3bd2-95a6-953c-ca8b0799b145}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{41a40dd3-e741-08a2-aedb-1ec784277878}" xml:space="preserve">
-    <value>Valore %</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{41a40dd3-e741-08a2-aedb-1ec784277878}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{4e9ccc78-8e87-4e9b-a0d4-df8f523992d9}" xml:space="preserve">
-    <value>Livello soglia</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{4e9ccc78-8e87-4e9b-a0d4-df8f523992d9}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{5e2f5d3b-4890-4bf7-b434-d93715d26e57}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{5e2f5d3b-4890-4bf7-b434-d93715d26e57}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{5e6d40c5-9636-4217-b877-815d69b4610a}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{5e6d40c5-9636-4217-b877-815d69b4610a}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{77d24e70-3e49-44f8-9500-e7b5388cfaf0}" xml:space="preserve">
-    <value>Nome</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{77d24e70-3e49-44f8-9500-e7b5388cfaf0}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{79dd4c71-b6c3-4449-98bc-d420819ffc3d}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{79dd4c71-b6c3-4449-98bc-d420819ffc3d}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{8b2ccb2b-6062-e6e3-4a36-4c22a1918d3d}" xml:space="preserve">
-    <value>Valore %</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{8b2ccb2b-6062-e6e3-4a36-4c22a1918d3d}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{9b3583cf-15ba-413a-94dd-287e4f49c440}" xml:space="preserve">
-    <value>Nome</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{9b3583cf-15ba-413a-94dd-287e4f49c440}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{a7539673-56db-4ac0-9135-1c85b9d3bd59}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{a7539673-56db-4ac0-9135-1c85b9d3bd59}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{b4ebd0aa-f0b2-45d2-9f03-872fd458932e}" xml:space="preserve">
-    <value>Dettagli</value>
-    <comment>'Churn levels config' : label for section in Entity FormXml ID: '{b4ebd0aa-f0b2-45d2-9f03-872fd458932e}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{b9e8548e-b326-4ab1-b822-46d714a0a52a}" xml:space="preserve">
-    <value>Generale</value>
-    <comment>'Churn levels config' : label for section in Entity FormXml ID: '{b9e8548e-b326-4ab1-b822-46d714a0a52a}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{bbe02833-c485-4e7c-ac66-812539094eca}" xml:space="preserve">
-    <value>Generale</value>
-    <comment>'Churn levels config' : label for tab in Entity FormXml ID: '{bbe02833-c485-4e7c-ac66-812539094eca}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{d5059307-4e76-4c2f-8b62-ba0cddde3e1a}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for tab in Entity FormXml ID: '{d5059307-4e76-4c2f-8b62-ba0cddde3e1a}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{e066167c-ff7d-4d5c-9dd0-2b7d7ebe9a13}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{e066167c-ff7d-4d5c-9dd0-2b7d7ebe9a13}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{e3c48bdf-35f0-4cff-affe-03d9a2fe38d9}" xml:space="preserve">
-    <value>Proprietario</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{e3c48bdf-35f0-4cff-affe-03d9a2fe38d9}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{e4224640-0f8b-46c7-b06a-187fa4eab6a5}" xml:space="preserve">
-    <value>Valore %</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{e4224640-0f8b-46c7-b06a-187fa4eab6a5}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{e5521a75-3978-1671-8d5e-525e43bd7702}" xml:space="preserve">
-    <value>Livello soglia</value>
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{e5521a75-3978-1671-8d5e-525e43bd7702}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{e6ed93e3-c826-48ad-9262-122b5619a0aa}" xml:space="preserve">
-    <value>Generale</value>
-    <comment>'Churn levels config' : label for section in Entity FormXml ID: '{e6ed93e3-c826-48ad-9262-122b5619a0aa}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{f1970c07-ee68-4b92-9f1b-4657b0f8b389}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{f1970c07-ee68-4b92-9f1b-4657b0f8b389}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{f5ada7f0-c5d8-4d8c-b7db-2a25b844d5dd}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{f5ada7f0-c5d8-4d8c-b7db-2a25b844d5dd}'</comment>
-  </data>
-  <data name="1:label,Churn levels config{fa46509a-6dac-4478-8ace-cce25a6f0bc7}" xml:space="preserve">
-    <value />
-    <comment>'Churn levels config' : label for cell in Entity FormXml ID: '{fa46509a-6dac-4478-8ace-cce25a6f0bc7}'</comment>
   </data>
   <data name="1:label,Contact11411783-b016-49ab-b107-40bee38bb092" xml:space="preserve">
     <value>Sezione 2</value>
@@ -1937,34 +1585,6 @@
     <value>Inattivo</value>
     <comment>'msfsi_categorytypesrelations' : label for status '2' on Entity</comment>
   </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_msfsi_thresholdlevel104800000" xml:space="preserve">
-    <value>Rischio di abbandono basso</value>
-    <comment>'msfsi_churnlevelsconfig' : label for option '104800000' on Entity</comment>
-  </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_msfsi_thresholdlevel104800001" xml:space="preserve">
-    <value>Rischio di abbandono medio</value>
-    <comment>'msfsi_churnlevelsconfig' : label for option '104800001' on Entity</comment>
-  </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_msfsi_thresholdlevel104800002" xml:space="preserve">
-    <value>Rischio di abbandono elevato</value>
-    <comment>'msfsi_churnlevelsconfig' : label for option '104800002' on Entity</comment>
-  </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statecode0" xml:space="preserve">
-    <value>Attivo</value>
-    <comment>'msfsi_churnlevelsconfig' : label for state '0' on Entity</comment>
-  </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statecode1" xml:space="preserve">
-    <value>Inattivo</value>
-    <comment>'msfsi_churnlevelsconfig' : label for state '1' on Entity</comment>
-  </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statuscode1" xml:space="preserve">
-    <value>Attivo</value>
-    <comment>'msfsi_churnlevelsconfig' : label for status '1' on Entity</comment>
-  </data>
-  <data name="1:label,msfsi_churnlevelsconfigmsfsi_churnlevelsconfig_statuscode2" xml:space="preserve">
-    <value>Inattivo</value>
-    <comment>'msfsi_churnlevelsconfig' : label for status '2' on Entity</comment>
-  </data>
   <data name="1:label,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statecode0" xml:space="preserve">
     <value>Attivo</value>
     <comment>'msfsi_lifemomentcategoryconfig' : label for state '0' on Entity</comment>
@@ -2017,10 +1637,6 @@
     <value>Relazioni tipi di categoria</value>
     <comment> 'msfsi_categorytypesrelations' : LocalizedCollectionName for Entity</comment>
   </data>
-  <data name="1:LocalizedCollectionName,msfsi_churnlevelsconfigentitymsfsi_churnlevelsconfig" xml:space="preserve">
-    <value>Configurazioni livelli di abbandono</value>
-    <comment> 'msfsi_churnlevelsconfig' : LocalizedCollectionName for Entity</comment>
-  </data>
   <data name="1:LocalizedCollectionName,msfsi_lifemomentcategoryconfigentitymsfsi_lifemomentcategoryconfig" xml:space="preserve">
     <value>Configurazioni categoria evento di vita</value>
     <comment> 'msfsi_lifemomentcategoryconfig' : LocalizedCollectionName for Entity</comment>
@@ -2072,46 +1688,6 @@
   <data name="1:LocalizedName,Category types relations{ffc4f11f-3d87-4749-86eb-ae5dfc491439}" xml:space="preserve">
     <value>Informazioni</value>
     <comment>'Category types relations' : LocalizedName for systemform in Entity FormXml ID: '{ffc4f11f-3d87-4749-86eb-ae5dfc491439}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{0de3a486-06de-4c7f-852f-830fbf2a7968}" xml:space="preserve">
-    <value>Informazioni</value>
-    <comment>'Churn levels config' : LocalizedName for systemform in Entity FormXml ID: '{0de3a486-06de-4c7f-852f-830fbf2a7968}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{4a680da5-4598-4353-8c04-13b2cc0506c8}" xml:space="preserve">
-    <value>Visualizzazione associata configurazioni livelli di abbandono</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{4a680da5-4598-4353-8c04-13b2cc0506c8}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{684144c4-fc70-4e09-b69b-824ec99d7a4d}" xml:space="preserve">
-    <value>Visualizzazione ricerca configurazioni livelli di abbandono</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{684144c4-fc70-4e09-b69b-824ec99d7a4d}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{6e332496-242a-42fb-9a3c-b02d8e9bbc50}" xml:space="preserve">
-    <value>Informazioni</value>
-    <comment>'Churn levels config' : LocalizedName for systemform in Entity FormXml ID: '{6e332496-242a-42fb-9a3c-b02d8e9bbc50}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{7521ec71-5259-4186-b644-f56437c472e1}" xml:space="preserve">
-    <value>Configurazioni livelli di abbandono attive</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{7521ec71-5259-4186-b644-f56437c472e1}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{8c6c5782-84ce-40ad-a53e-ca903f14686f}" xml:space="preserve">
-    <value>Configurazioni livelli di abbandono inattive</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{8c6c5782-84ce-40ad-a53e-ca903f14686f}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{8cba1872-4a46-464f-ae97-142d61bde896}" xml:space="preserve">
-    <value>Ricerca rapida configurazioni livelli di abbandono attive</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{8cba1872-4a46-464f-ae97-142d61bde896}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{9358af2c-9969-eb11-a812-000d3a4d8524}" xml:space="preserve">
-    <value>Configurazioni livelli di abbandono personali</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{9358af2c-9969-eb11-a812-000d3a4d8524}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{b297399e-5dc1-4d31-be92-f1499484ac4a}" xml:space="preserve">
-    <value>Visualizzazione ricerca avanzata configurazioni livelli di abbandono</value>
-    <comment>'Churn levels config' : LocalizedName for SavedQuery on Entity QueryId: '{b297399e-5dc1-4d31-be92-f1499484ac4a}'</comment>
-  </data>
-  <data name="1:LocalizedName,Churn levels config{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Informazioni</value>
-    <comment>'Churn levels config' : LocalizedName for systemform in Entity FormXml ID: '{e1951dd2-9964-4ee3-9a82-57aca6d32978}'</comment>
   </data>
   <data name="1:LocalizedName,Contact{75c78db3-068f-ec11-b400-0022480988ea}" xml:space="preserve">
     <value>Snapshot del cliente della banca</value>
@@ -2241,10 +1817,6 @@
     <value>Relazioni tipi di categoria</value>
     <comment> 'msfsi_categorytypesrelations' : LocalizedName for Entity</comment>
   </data>
-  <data name="1:LocalizedName,msfsi_churnlevelsconfigentitymsfsi_churnlevelsconfig" xml:space="preserve">
-    <value>Configurazione livelli di abbandono</value>
-    <comment> 'msfsi_churnlevelsconfig' : LocalizedName for Entity</comment>
-  </data>
   <data name="1:LocalizedName,msfsi_lifemomentcategoryconfigentitymsfsi_lifemomentcategoryconfig" xml:space="preserve">
     <value>Configurazione categoria evento di vita</value>
     <comment> 'msfsi_lifemomentcategoryconfig' : LocalizedName for Entity</comment>
@@ -2276,26 +1848,6 @@
   <data name="1:Title,Category types relationsService{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
     <value>Servizio</value>
     <comment>'Category types relations' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
-  </data>
-  <data name="1:Title,Churn levels configInfo{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Comune</value>
-    <comment>'Churn levels config' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
-  </data>
-  <data name="1:Title,Churn levels configMarketing{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Marketing</value>
-    <comment>'Churn levels config' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
-  </data>
-  <data name="1:Title,Churn levels configProcessCenter{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Sessioni di processo</value>
-    <comment>'Churn levels config' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
-  </data>
-  <data name="1:Title,Churn levels configSales{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Vendite</value>
-    <comment>'Churn levels config' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
-  </data>
-  <data name="1:Title,Churn levels configService{e1951dd2-9964-4ee3-9a82-57aca6d32978}" xml:space="preserve">
-    <value>Servizio</value>
-    <comment>'Churn levels config' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
   </data>
   <data name="1:Title,Life event category configInfo{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
     <value>Comune</value>

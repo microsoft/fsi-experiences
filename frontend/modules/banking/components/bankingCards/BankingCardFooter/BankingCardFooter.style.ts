@@ -2,7 +2,7 @@ import { FontSizes, FontWeights } from '@fluentui/theme/lib/fonts/FluentFonts';
 import { NeutralColors } from '@fluentui/theme/lib/colors';
 import { COLORS } from '@fsi/core-components/dist/constants/Colors';
 import { IStackStyles } from '@fluentui/react/lib/components/Stack/Stack.types';
-import { mergeStyleSets } from '@fluentui/react/lib/Styling';
+import { mergeStyleSets, mergeStyles } from '@fluentui/react/lib/Styling';
 
 export const cardsGrey12Text = {
     root: {
@@ -52,14 +52,15 @@ export const cards10LeftText = {
     },
 };
 
-export const redDot = {
-    height: '11px',
-    width: '11px',
-    background: COLORS.red,
-    border: `2px solid ${NeutralColors.gray10}`,
-    borderRadius: '50%',
-    boxSizing: 'border-box',
-    margin: '2px 0px 0px 0px',
-};
+export const getRedDotClass = () =>
+    mergeStyles({
+        height: '11px',
+        width: '11px',
+        background: COLORS.red,
+        border: `2px solid ${NeutralColors.gray10}`,
+        borderRadius: '50%',
+        boxSizing: 'border-box',
+        margin: '2px 0px 0px 0px',
+    });
 
 export const cardFooterHorizontalTokens = { childrenGap: 4 };

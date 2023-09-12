@@ -1,6 +1,5 @@
 ﻿namespace Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins
 {
-    using ErrorMessages.Localization;
     using System;
     using System.Linq;
     using Infra;

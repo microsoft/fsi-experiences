@@ -27,10 +27,6 @@
             public static readonly string GroupFinancialHoldingsNull = "GroupFinancialHoldingsNull";
             public static readonly string GroupPrimaryMemberMissing = "GroupPrimaryMemberMissing";
             public static readonly string GroupFinancialHoldingsEmpty = "GroupFinancialHoldingsEmpty";
-            public static readonly string FHPermissionError = "FHPermissionError";
-            public static readonly string ErrorRetrievingPermissions = "ErrorRetrievingPermissions";
-            public static readonly string PermissionsNullParameters = "PermissionsNullParameters";
-            public static readonly string PermissionNotAllowed = "PermissionNotAllowed";
             public static readonly string FHFetchError = "FHFetchError";
         }
     }

@@ -1,6 +1,5 @@
 ﻿namespace Microsoft.CloudForFSI.Infra.ErrorManagers
 {
-    using ErrorMessages.Localization;
     using Microsoft.CloudForFSI.Infra.Logger;
     using Plugins;
     using Xrm.Sdk;

@@ -14,13 +14,13 @@
     using Xrm.Sdk.Messages;
     using Xrm.Sdk.Query;
     using Newtonsoft.Json;
-    using Xrm.Sdk.PluginTelemetry;
     using GroupConstants = Infra.GroupConstants;
     using FSIErrorCodes = Infra.FSIErrorCodes;
 
     public abstract class GroupBasePlugin<T> : BasePlugin
     {
         protected override string OperationName() => Constants.PluginTypeToMessageNames[this.GetType()];
+
         protected new string ErrorFileName => PluginErrorMessagesIds.RetailBankingComponents.ResourceFileName;
 
         protected abstract void ExecuteAction(PluginParameters pluginParameters, T request);
@@ -65,11 +65,15 @@
             }
         }
 
-        protected override void ValidateInputParams(PluginParameters pluginParameters) 
+        protected override void ValidateInputParams(PluginParameters pluginParameters)
         {
-            if (pluginParameters.ExecutionContext.InputParameters == null ||
-                !pluginParameters.ExecutionContext.InputParameters.Contains(Constants.InputParameterName) ||
-                pluginParameters.ExecutionContext.InputParameters[Constants.InputParameterName] == null)
+            var inputParameters = pluginParameters.ExecutionContext.InputParameters;
+
+            bool inputParameterMissing = inputParameters == null ||
+                !inputParameters.Contains(Constants.InputParameterName) ||
+                inputParameters[Constants.InputParameterName] == null;
+
+            if (inputParameterMissing)
             {
                 ErrorManager.TraceAndThrow(pluginParameters,
                     PluginErrorMessagesIds.RetailBankingComponents.InvalidInputParameter,
@@ -132,8 +136,8 @@
         }
 
         protected UpdateRequest GetCustomerPrimaryGroupUpdateRequest(
-            Guid contactId, 
-            GroupType type, 
+            Guid contactId,
+            GroupType type,
             PluginParameters pluginParameters)
         {
             var results = msfsi_GroupMember.GetContactGroupMembers(contactId.ToString(), Convert.ToInt32(type), isPrimary: false, pluginParameters);
@@ -230,14 +234,14 @@
         }
 
         protected void ValidateGroupVersion(
-            Guid groupId, 
-            long currentGroupVersion, 
+            Guid groupId,
+            long currentGroupVersion,
             PluginParameters pluginParameters)
         {
             try
             {
                 var entity = pluginParameters.OrganizationService.Retrieve(msfsi_Group.EntityLogicalName, groupId, new ColumnSet("versionnumber"));
-        
+
                 if (currentGroupVersion.ToString() != entity.RowVersion)
                 {
                     ErrorManager.TraceAndThrow(pluginParameters,
@@ -307,9 +311,9 @@
         }
 
         protected IEnumerable<msfsi_GroupMember> GetNewGroupMembersEntities(
-            string groupName, 
-            Guid groupId, 
-            GroupType groupType, 
+            string groupName,
+            Guid groupId,
+            GroupType groupType,
             IEnumerable<GroupMemberRequest> members,
             PluginParameters pluginParameters,
             bool isNewGroup = true)

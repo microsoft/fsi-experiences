@@ -9,8 +9,7 @@
 //------------------------------------------------------------------------------
 
 namespace Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups {
-    using System;
-    
+
     
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.

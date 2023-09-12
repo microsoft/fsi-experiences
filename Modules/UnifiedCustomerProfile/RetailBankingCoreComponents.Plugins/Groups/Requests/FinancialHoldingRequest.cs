@@ -1,8 +1,6 @@
 ﻿namespace Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Requests
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using Newtonsoft.Json;
 
     public class FinancialHoldingRequest : BaseEntityRequest
@@ -23,7 +21,7 @@
         public double Balance { get; set; }
 
         public override int GetHashCode() => base.GetHashCode() + this.GroupHoldingId.GetHashCode() + this.Name.GetHashCode() + this.Balance.GetHashCode();
-
+        
         public override bool Equals(object obj)
         {
             var fh = obj as FinancialHoldingRequest;

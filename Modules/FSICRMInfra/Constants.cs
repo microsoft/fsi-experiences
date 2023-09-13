@@ -28,7 +28,6 @@
             public const string RetailBankingComponents = "RetailBankingComponentsLabels";
             public const string LoanOnboardingCore = "LoanOnboardingCoreLabels";
             public const string BankingCustomerIntelligence = "BankingCustIntelLabels";
-            public const string IntelligenceScheduling = "IntelligenceSchedulingLabels";
             public const string IndustryCi = "IndustryCILabels";
             public const string OnboardingEssentialsTasks = "OnboardingEssentialsTasksLabels";
             public const string OnboardingEssentialsBase = "OnboardingEssentialsBaseLabels";

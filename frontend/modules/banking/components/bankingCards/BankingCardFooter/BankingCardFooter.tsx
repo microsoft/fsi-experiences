@@ -1,4 +1,4 @@
-import React, { FC, useMemo } from 'react';
+import React, { FC } from 'react';
 import { Stack } from '@fluentui/react/lib/Stack';
 import { ICardFooterProps } from './BankingCardFooter.interface';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
@@ -12,9 +12,6 @@ export const CardFooter: FC<ICardFooterProps> = ({ isActive, equalStatus, cardSt
     const translate = useTranslation(namespaces.CARDS);
     const isStatusActive = equalStatus(BANKING_CARDS_STATUS.Active);
     const isExpiringSoon = (isStatusActive && daysDueCondition(cardExpiry)) || equalStatus(BANKING_CARDS_STATUS.ExpiresSoon);
-
-    const isCardExpiringSoon = isStatusActive && isExpiringSoon;
-    const isCardExpired = isStatusActive && isDateExpired(cardExpiry);
 
     const status = () => {
         if (isStatusActive && isDateExpired(cardExpiry)) {

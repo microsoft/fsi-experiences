@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { ICardFooterProps, ICardFooter } from './BankingCardFooter.interface';
+import { ICardFooterProps } from './BankingCardFooter.interface';
 import { BANKING_CARDS_STATUS } from '../../../constants/FHValueMaps';
 import { CardFooter } from './BankingCardFooter';
 import React from 'react';

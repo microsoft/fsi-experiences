@@ -1,20 +1,21 @@
 import { render } from '@testing-library/react';
-import { ICardFooterProps } from './BankingCardFooter.interface';
+import { ICardFooterProps, ICardFooter } from './BankingCardFooter.interface';
 import { BANKING_CARDS_STATUS } from '../../../constants/FHValueMaps';
 import { CardFooter } from './BankingCardFooter';
 import React from 'react';
 import addDays from 'date-fns/addDays';
 import { addYears, startOfToday, subDays } from 'date-fns';
+import { FHMetadataMock } from '../../../interfaces/FHEntity/mocks/FHMetadata.mock';
+import { getOptionSetText } from '../../../utilities/EntityMetadata';
 
 const defaultProps: ICardFooterProps = {
-    cardStatus: 'Not activated',
+    cardStatus: getOptionSetText(BANKING_CARDS_STATUS.NotActive, FHMetadataMock?.fhiStatus),
     isActive: false,
     equalStatus: (status: number) => status === BANKING_CARDS_STATUS.NotActive,
     role: 'owner',
     cardExpiry: new Date('2024-01-23T22:00:00Z'),
     embossingName: 'Andre Lawson',
 };
-
 describe('BankingCardFooter', () => {
     const getTestProps = (footerInfo): ICardFooterProps => {
         return {

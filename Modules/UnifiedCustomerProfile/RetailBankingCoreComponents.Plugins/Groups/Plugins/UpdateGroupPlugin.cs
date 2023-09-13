@@ -11,6 +11,7 @@
     using Xrm.Sdk;
     using Xrm.Sdk.Messages;
     using Xrm.Sdk.Query;
+    using System.Collections.Generic;
 
     public class UpdateGroupPlugin : GroupBasePlugin<UpdateGroupRequest>, IPlugin
     {
@@ -47,19 +48,30 @@
                 RowVersion = updatedGroup.Version.ToString(),
                 msfsi_Name = updatedGroup.Name
             };
-            
+
             requestWithResults.Requests.Add(new UpdateRequest
             {
                 Target = entityUpdate,
                 ConcurrencyBehavior = ConcurrencyBehavior.IfRowVersionMatches
             });
 
+            groupMembersUpdate(oldGroup, updatedGroup, otherMembers, requestWithResults, pluginParameters);
+            groupFinancialHoldingsUpdate(oldGroup, updatedGroup, requestWithResults, pluginParameters);
+            finalizeGroupUpdate(updatedGroup, requestWithResults, pluginParameters);
+        }
+
+        protected void groupMembersUpdate(GroupRequest oldGroup, GroupRequest updatedGroup, ICollection<GroupMemberRequest> otherMembers, ExecuteTransactionRequest requestWithResults, PluginParameters pluginParameters)
+        {
             var membersDiff = new CollectionDifference<GroupMemberRequest>(oldGroup.Members, updatedGroup.Members, new IdComparer());
 
             foreach (var gm in membersDiff.Deleted)
             {
                 var entityToDelete = new msfsi_GroupMember { Id = gm.Id };
-                requestWithResults.Requests.Add(new DeleteRequest { Target = entityToDelete.ToEntityReference() });
+                requestWithResults.Requests.Add(new DeleteRequest
+                {
+                    Target = entityToDelete.ToEntityReference()
+                });
+
                 if (gm.IsPrimaryGroup)
                 {
                     var updateRequest = this.GetCustomerPrimaryGroupUpdateRequest(gm.Customer.Id, updatedGroup.Type, pluginParameters);
@@ -72,7 +84,7 @@
 
             var newMembers = this.GetNewGroupMembersEntities(updatedGroup.Name, updatedGroup.Id, updatedGroup.Type, membersDiff.Added, pluginParameters, isNewGroup: false);
             requestWithResults.Requests.AddRange(newMembers.Select(newGroupMember => new CreateRequest { Target = newGroupMember }));
-            
+
             requestWithResults.Requests.AddRange(otherMembers.Select(gm =>
                 new UpdateRequest
                 {
@@ -85,8 +97,8 @@
             ));
 
             requestWithResults.Requests.AddRange(membersDiff.Updated.Select(gm =>
-                new UpdateRequest 
-                { 
+                new UpdateRequest
+                {
                     Target = new msfsi_GroupMember
                     {
                         Id = gm.Id,
@@ -96,7 +108,10 @@
                     }
                 }
             ));
+        }
 
+        protected void groupFinancialHoldingsUpdate(GroupRequest oldGroup, GroupRequest updatedGroup, ExecuteTransactionRequest requestWithResults, PluginParameters pluginParameters)
+        {
             var groupHoldingsDiff = new CollectionDifference<FinancialHoldingRequest>(oldGroup.FinancialHoldings, updatedGroup.FinancialHoldings, new IdComparer());
 
             requestWithResults.Requests.AddRange(groupHoldingsDiff.Deleted.Select(groupHolding =>
@@ -109,8 +124,8 @@
             requestWithResults.Requests.AddRange(newHoldings.Select(newGroupHolding => new CreateRequest { Target = newGroupHolding }));
 
             requestWithResults.Requests.AddRange(groupHoldingsDiff.Updated.Select(groupHolding =>
-                new UpdateRequest 
-                { 
+                new UpdateRequest
+                {
                     Target = new msfsi_GroupFinancialHolding
                     {
                         Id = groupHolding.GroupHoldingId,
@@ -118,9 +133,12 @@
                     }
                 }
             ));
+        }
 
-            requestWithResults.Requests.Add(new UpdateRequest 
-            { 
+        protected void finalizeGroupUpdate(GroupRequest updatedGroup, ExecuteTransactionRequest requestWithResults, PluginParameters pluginParameters)
+        {
+            requestWithResults.Requests.Add(new UpdateRequest
+            {
                 Target = this.GetUpdatedGroupWithPrimaryMember(updatedGroup.Id, updatedGroup.PrimaryMember)
             });
 

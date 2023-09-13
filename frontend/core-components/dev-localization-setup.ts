@@ -7,16 +7,8 @@ import mainHousehold from './assets/strings/MainHousehold/MainHousehold.1033.jso
 import customerSnapshotControl from './assets/strings/CustomerSnapshotControl/CustomerSnapshotControl.1033.json';
 import cards from './assets/strings/Cards/Cards.1033.json';
 import financialHoldings from './assets/strings/FinancialHoldings/FinancialHoldings.1033.json';
-import loanCustomerLookupControl from './assets/strings/LoanCustomerLookupControl/LoanCustomerLookupControl.1033.json';
-import loanApplicationFilesControl from './assets/strings/LoanApplicationFilesControl/LoanApplicationFilesControl.1033.json';
-import loanOnboardingControl from './assets/strings/LoanOnboardingControl/LoanOnboardingControl.1033.json';
-import loanSnapshotControl from './assets/strings/LoanSnapshotControl/LoanSnapshotControl.1033.json';
-import partyAssetsAndLiabilities from './assets/strings/PartyAssetsAndLiabilities/PartyAssetsAndLiabilities.1033.json';
-import verificationStatusControl from './assets/strings/VerificationStatusControl/VerificationStatusControl.1033.json';
 import { ITranslations, translations } from './context/localization/TranslationFunction';
-import financialCategoriesFormFields from './assets/strings/FinancialCategoriesFormFields/FinancialCategoriesFormFields.1033.json';
 import financialHoldingSelectorControl from './assets/strings/FinancialHoldingSelectorControl/FinancialHoldingSelectorControl.1033.json';
-
 import { namespaces } from './constants/namespaces';
 
 export interface ITranslationFile {
@@ -34,13 +26,6 @@ export const setup = (additionalFiles: ITranslationFile[] = []): ITranslations =
         FINANCIAL_HOLDINGS,
         DETAILED_FH_CONTROL,
         RELATIONSHIP,
-        LOAN_CUSTOMER_LOOKUP,
-        LOAN_APPLICATION_FILES_CONTROL,
-        LOAN_ONBOARDING_CONTROL,
-        LOAN_SNAPSHOT_CONTROL,
-        PARTY_ASSETS_AND_LIABILITIES,
-        VERIFICATION_STATUS_CONTROL,
-        FINANCIAL_CATEGORIES_FORM_FIELDS,
         FINANCIAL_HOLDING_SELECTOR_CONTROL,
     } = namespaces;
 
@@ -53,14 +38,7 @@ export const setup = (additionalFiles: ITranslationFile[] = []): ITranslations =
         [MAIN_HOUSEHOLD]: mainHousehold,
         [FINANCIAL_HOLDINGS]: financialHoldings,
         [DETAILED_FH_CONTROL]: detailedFHControl,
-        [LOAN_CUSTOMER_LOOKUP]: loanCustomerLookupControl,
         [RELATIONSHIP]: relationship,
-        [LOAN_APPLICATION_FILES_CONTROL]: loanApplicationFilesControl,
-        [LOAN_ONBOARDING_CONTROL]: loanOnboardingControl,
-        [LOAN_SNAPSHOT_CONTROL]: loanSnapshotControl,
-        [PARTY_ASSETS_AND_LIABILITIES]: partyAssetsAndLiabilities,
-        [VERIFICATION_STATUS_CONTROL]: verificationStatusControl,
-        [FINANCIAL_CATEGORIES_FORM_FIELDS]: financialCategoriesFormFields,
         [FINANCIAL_HOLDING_SELECTOR_CONTROL]: financialHoldingSelectorControl,
     };
 

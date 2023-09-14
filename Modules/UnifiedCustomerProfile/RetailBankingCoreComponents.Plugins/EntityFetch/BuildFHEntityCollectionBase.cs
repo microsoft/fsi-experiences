@@ -12,11 +12,8 @@
     using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
-    using System.IdentityModel.Metadata;
     using System.Linq;
     using System.Net;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public abstract class BuildFHEntityCollectionBase<T> : BuildEntityCollectionBasePlugin<T>
     {

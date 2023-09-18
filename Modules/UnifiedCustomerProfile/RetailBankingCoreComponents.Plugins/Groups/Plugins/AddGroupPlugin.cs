@@ -12,6 +12,7 @@
     using Xrm.Sdk.Messages;
     using Xrm.Sdk.Query;
     using Microsoft.CloudForFSI.Infra.ErrorManagers;
+    using System.Collections.Generic;
 
     public class AddGroupPlugin : GroupBasePlugin<AddGroupRequest>, IPlugin
     {
@@ -36,9 +37,15 @@
                 ReturnResponses = true
             };
 
+            createGroup(group, otherMembers, requestWithResults, pluginParameters);
+            finalizeGroupCreation(group, requestWithResults, pluginParameters);
+        }
+
+        protected void createGroup(GroupRequest group, ICollection<GroupMemberRequest> otherMembers, ExecuteTransactionRequest requestWithResults, PluginParameters pluginParameters)
+        {
             requestWithResults.Requests.AddRange(otherMembers.Select(gm =>
-                new UpdateRequest 
-                { 
+                new UpdateRequest
+                {
                     Target = new msfsi_GroupMember
                     {
                         Id = gm.Id,
@@ -47,8 +54,8 @@
                 }
             ));
 
-            requestWithResults.Requests.Add(new CreateRequest 
-            { 
+            requestWithResults.Requests.Add(new CreateRequest
+            {
                 Target = new msfsi_Group
                 {
                     Id = group.Id,
@@ -59,8 +66,8 @@
                 }
             });
 
-            requestWithResults.Requests.Add(new UpdateRequest 
-            { 
+            requestWithResults.Requests.Add(new UpdateRequest
+            {
                 Target = this.GetUpdatedGroupWithPrimaryMember(group.Id, group.PrimaryMember)
             });
 
@@ -69,7 +76,10 @@
                 ColumnSet = new ColumnSet("versionnumber", "createdon"),
                 Target = new EntityReference(msfsi_Group.EntityLogicalName, group.Id)
             });
+        }
 
+        protected void finalizeGroupCreation(GroupRequest group, ExecuteTransactionRequest requestWithResults, PluginParameters pluginParameters)
+        {
             this.CheckGroupFieldsBeforeSentToOperation(group, pluginParameters);
 
             var groupRetrieved = this.InvokeTransactionRequest(requestWithResults, pluginParameters);
@@ -80,7 +90,7 @@
                     Infra.FSIErrorCodes.FSIErrorCode_RetrieveBadModelOutput,
                     this.ErrorFileName,
                     new object[] { group.Id });
-                return; //never gets here
+                return;
             }
 
             group.CreationDate = creationDate.ToString();

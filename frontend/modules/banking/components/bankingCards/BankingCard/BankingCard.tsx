@@ -52,7 +52,6 @@ const BankingCardBase: React.FunctionComponent<IBankingCardProps> = props => {
     const status = getOptionSetText(fhiStatus, metadata?.fhiStatus);
     const role = getOptionSetText(fhRole, metadata?.role);
     const isActive = isCardActive(fhiStatus, fhiExpiryDate);
-    const equalStatus = (status: number) => status === fhiStatus;
 
     const classNames = getBankingCardClassNames(styles, {
         active: isActive,
@@ -102,7 +101,7 @@ const BankingCardBase: React.FunctionComponent<IBankingCardProps> = props => {
                 <CardFooter
                     embossingName={fhiEmbossingName}
                     isActive={isActive}
-                    equalStatus={equalStatus}
+                    fhiStatus={fhiStatus}
                     cardStatus={status}
                     role={role}
                     cardExpiry={fhiExpiryDate}

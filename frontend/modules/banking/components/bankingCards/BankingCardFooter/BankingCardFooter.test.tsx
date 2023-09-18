@@ -11,7 +11,7 @@ import { getOptionSetText } from '../../../utilities/EntityMetadata';
 const defaultProps: ICardFooterProps = {
     cardStatus: getOptionSetText(BANKING_CARDS_STATUS.NotActive, FHMetadataMock?.fhiStatus),
     isActive: false,
-    equalStatus: (status: number) => status === BANKING_CARDS_STATUS.NotActive,
+    fhiStatus: BANKING_CARDS_STATUS.NotActive,
     role: 'owner',
     cardExpiry: new Date('2024-01-23T22:00:00Z'),
     embossingName: 'Andre Lawson',

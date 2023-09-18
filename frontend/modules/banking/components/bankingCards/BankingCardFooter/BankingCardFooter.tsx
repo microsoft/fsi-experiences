@@ -8,7 +8,8 @@ import { DateTimePredefinedFormat } from '@fsi/core-components/dist/components/a
 import { daysDueCondition, isDateExpired } from '@fsi/core-components/dist/utilities/TimeUtils';
 import { cardsGrey12Text, cards10LeftText, cards10RightText, cardFooterHorizontalTokens, getRedDotClass } from './BankingCardFooter.style';
 
-export const CardFooter: FC<ICardFooterProps> = ({ isActive, equalStatus, cardStatus, embossingName, cardExpiry }) => {
+export const CardFooter: FC<ICardFooterProps> = ({ isActive, cardStatus, fhiStatus, embossingName, cardExpiry }) => {
+    const equalStatus = (status: number) => status === fhiStatus;
     const translate = useTranslation(namespaces.CARDS);
     const isStatusActive = equalStatus(BANKING_CARDS_STATUS.Active);
     const isExpiringSoon = (isStatusActive && daysDueCondition(cardExpiry)) || equalStatus(BANKING_CARDS_STATUS.ExpiresSoon);

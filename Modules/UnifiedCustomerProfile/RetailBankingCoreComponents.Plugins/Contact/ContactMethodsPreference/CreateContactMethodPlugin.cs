@@ -6,9 +6,9 @@
     {
         protected override int? GetPreferredContactMethod(Entity entity, EntityImageCollection preEntity)
         {
-            if (entity.Attributes.ContainsKey("preferredcontactmethodcode"))
+            if (entity.Attributes.ContainsKey(ContactPreferencesConstants.preferredConstactMethodCode))
             {
-                var preferred = entity.Attributes["preferredcontactmethodcode"] as OptionSetValue;
+                var preferred = entity.Attributes[ContactPreferencesConstants.preferredConstactMethodCode] as OptionSetValue;
                 return preferred?.Value;
             }
             return null;

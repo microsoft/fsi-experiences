@@ -6,10 +6,10 @@
     {
         public static void ValidateContactMethods(ContactPreferences contactPreferences)
         {
-            if (contactPreferences.ContactMethodCode == 2 && contactPreferences.DoNotEmail ||
-                contactPreferences.ContactMethodCode == 3 && contactPreferences.DoNotPhone ||
-                contactPreferences.ContactMethodCode == 4 && contactPreferences.DoNotFax ||
-                contactPreferences.ContactMethodCode == 5 && contactPreferences.DoNotPostalMail)
+            if (contactPreferences.ContactMethodCode == ContactPreferencesConstants.Email && contactPreferences.DoNotEmail ||
+                contactPreferences.ContactMethodCode == ContactPreferencesConstants.Phone && contactPreferences.DoNotPhone ||
+                contactPreferences.ContactMethodCode == ContactPreferencesConstants.Fax && contactPreferences.DoNotFax ||
+                contactPreferences.ContactMethodCode == ContactPreferencesConstants.PostalMail && contactPreferences.DoNotPostalMail)
             {
                 throw new InvalidPluginExecutionException("Preferred Contact Method must be set to an allowed channel");
             }

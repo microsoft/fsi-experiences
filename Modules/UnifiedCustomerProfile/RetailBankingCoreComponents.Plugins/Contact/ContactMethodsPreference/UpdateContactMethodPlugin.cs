@@ -4,16 +4,17 @@
 
     public class UpdateContactMethodPlugin : ContactMethodPlugin
     {
+      
         protected override int? GetPreferredContactMethod(Entity entity, EntityImageCollection preEntity)
         {
             OptionSetValue preferred;
-            if (entity.Attributes.ContainsKey("preferredcontactmethodcode"))
+            if (entity.Attributes.ContainsKey(ContactPreferencesConstants.preferredConstactMethodCode))
             {
-                preferred = entity.Attributes["preferredcontactmethodcode"] as OptionSetValue;
+                preferred = entity.Attributes[ContactPreferencesConstants.preferredConstactMethodCode] as OptionSetValue;
             }
             else
             {
-                preferred = preEntity["contact"]["preferredcontactmethodcode"] as OptionSetValue;
+                preferred = preEntity["contact"][ContactPreferencesConstants.preferredConstactMethodCode] as OptionSetValue;
             }
             return preferred?.Value;
         }

@@ -1,23 +1,10 @@
 ﻿namespace Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch
 {
-    using Microsoft.CloudForFSI.ErrorMessages.Localization;
-    using Microsoft.CloudForFSI.Infra;
-    using Microsoft.CloudForFSI.Infra.ErrorManagers;
     using Microsoft.CloudForFSI.Infra.Plugins;
-    using Microsoft.CloudForFSI.OptionSets;
     using Microsoft.CloudForFSI.Tables;
     using Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.Requests;
     using Microsoft.Xrm.Sdk;
-    using Microsoft.Xrm.Sdk.Messages;
-    using Microsoft.Xrm.Sdk.Metadata;
-    using Microsoft.Xrm.Sdk.Query;
-    using Newtonsoft.Json;
-    using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Net;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class BuildFHEntityCollectionPlugin : BuildFHEntityCollectionBase<BuildFHRequest>, IPlugin
     {

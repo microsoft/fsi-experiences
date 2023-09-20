@@ -2,10 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
-    using Infra;
     using Microsoft.CloudForFSI.Tables;
     using Microsoft.CloudForFSI.OptionSets;
-    using Plugins;
     using Newtonsoft.Json;
     using System.Net;
 

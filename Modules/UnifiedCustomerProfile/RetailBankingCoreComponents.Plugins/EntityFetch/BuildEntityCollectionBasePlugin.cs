@@ -4,7 +4,6 @@
     using Microsoft.CloudForFSI.Infra;
     using Microsoft.CloudForFSI.Infra.ErrorManagers;
     using Microsoft.CloudForFSI.Infra.Plugins;
-    using Microsoft.Crm.Sdk.Messages;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
     using System;

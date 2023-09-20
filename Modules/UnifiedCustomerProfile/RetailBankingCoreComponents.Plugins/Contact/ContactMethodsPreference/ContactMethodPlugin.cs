@@ -3,6 +3,8 @@
     using System;
     using System.ServiceModel;
     using Xrm.Sdk;
+    using ContactMethodsPreferenceConstants;
+
 
     public abstract class ContactMethodPlugin : IPlugin
     {
@@ -25,10 +27,10 @@
                 try
                 {
                     var preferredContactMethodCode = GetPreferredContactMethod(entity, preEntity);
-                    var doNotPhone = GetDoNotValue(entity, preEntity, "donotphone");
-                    var doNotEmail = GetDoNotValue(entity, preEntity, "donotemail");
-                    var doNotFax = GetDoNotValue(entity, preEntity, "donotfax");
-                    var doNotPostalMail = GetDoNotValue(entity, preEntity, "donotpostalmail");
+                    var doNotAllowPhone = GetNotAllowedValue(entity, preEntity, ContactPreferencesConstants.DoNotAllowPhone);
+                    var doNotAllowEmail = GetNotAllowedValue(entity, preEntity, ContactPreferencesConstants.DoNotAllowEmail);
+                    var doNotAllowFax = GetNotAllowedValue(entity, preEntity, ContactPreferencesConstants.DoNotAllowFax);
+                    var doNotAllowPostalMail = GetNotAllowedValue(entity, preEntity, ContactPreferencesConstants.DoNotAllowPostalMail);
 
                     var preferences = new ContactPreferences(preferredContactMethodCode, doNotPhone, doNotEmail, doNotFax, doNotPostalMail);
 
@@ -50,6 +52,6 @@
         }
         protected abstract int? GetPreferredContactMethod(Entity entity, EntityImageCollection preEntity);
 
-        protected abstract bool GetDoNotValue(Entity entity, EntityImageCollection preEntity, string fieldName);
+        protected abstract bool GetNotAllowedValue(Entity entity, EntityImageCollection preEntity, string fieldName);
     }
 }

@@ -14,14 +14,7 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "noImplicitAny": false,
-        "paths": {
-            "CommonComponents/*": ["./internals/ts/es6/CommonComponents/*"],
-            "CustomControls/*": ["./internals/ts/es6/CustomControls/*"],
-            "PerformanceAutomation/*": ["./internals/ts/es6/PerformanceAutomation/*"],
-            "PerformanceEvents/*": ["./internals/ts/es6/PerformanceEvents/*"],
-            "PerformanceInterface/*": ["./internals/ts/es6/PerformanceInterface/*"]
-        },
-        "typeRoots": ["node_modules/@types"]
+        "typeRoots": ["node_modules/@types"],
     },
     "exclude": ["node_modules", "./dist"]
 }

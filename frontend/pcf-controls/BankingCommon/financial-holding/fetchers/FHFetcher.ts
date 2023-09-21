@@ -37,14 +37,14 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
     private async executeFHQueries(contactId: string, fetchFI?: boolean, hideShowEntities: {} = {}): Promise<FHData> {
         try {
             const action = this.createAction({ contactid: contactId, hideShowEntities }, 'msfsi_FHfetch', 'data');
-            const promises: [Promise<any>, Promise<WebApi.RetrieveMultipleResponse>, Promise<ICurrenciesDetails | undefined>] = [
+            const promises: [Promise<any>, Promise<any>, Promise<ICurrenciesDetails | undefined>] = [
                 this.execute(action),
                 fetchFI
                     ? this.context.webAPI.retrieveMultipleRecords(
                           'msfsi_customerfinancialholding',
                           '?fetchXml=' + encodeURIComponent(getInstrumentsMainQueryXML([contactId]))
                       )
-                    : Promise.resolve({ entities: [] } as unknown as WebApi.RetrieveMultipleResponse),
+                    : Promise.resolve({ entities: [] }),
                 currencyService.getCurrencies(this.context),
             ];
 
@@ -57,8 +57,8 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
                 () => Promise.all(promises)
             );
 
-            const fhRecords: Map<string, WebApi.Entity[]> = JSON.parse(fhResponse.result);
-            const fhEntities: WebApi.Entity[] = JSON.parse(fhRecords['entities']);
+            const fhRecords: Map<string, any> = JSON.parse(fhResponse.result);
+            const fhEntities = JSON.parse(fhRecords['entities']);
             return {
                 data: createFinancialHoldingMap(fhEntities, fiRecords.entities, true),
                 requestMetadata: JSON.parse(fhRecords['metadata']),
@@ -92,7 +92,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
         const relatedCustomers: ICustomerFH[] = [];
 
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 FHFetcher.name,
                 'buildRelatedCustomerArray',
                 'Fetching related customers.',
@@ -133,7 +133,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
     public async buildFHOtherCustomersOwn(entityName: string, fetchXml: string): Promise<Map<string, ICustomerFH[]>> {
         const fhOtherCustomersOwn: Map<string, ICustomerFH[]> = new Map();
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 FHFetcher.name,
                 'buildFHOtherCustomersOwn',
                 'Fetching other customers.',
@@ -217,7 +217,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
 
     public async fetchFHMetadata(): Promise<FHMetadata> {
         try {
-            const metadataList = await this.ExecuteAndLog(
+            const metadataList: any = await this.ExecuteAndLog(
                 FHFetcher.name,
                 'fetchFHMetadata',
                 'Fetching FH metadata.',
@@ -245,11 +245,16 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
     }
 
     public async fetchFHById(fhId: string): Promise<IndictableFH> {
-        const fhResponse = await this.ExecuteAndLog(FHFetcher.name, 'executeFHById', 'Fetching FH.', 'Successfully fetched FH by ID', undefined, () =>
-            this.context.webAPI.retrieveMultipleRecords('msfsi_financialholding', '?fetchXml=' + encodeURIComponent(fetchFHByIdQuery({ fhId })))
+        const fhResponse: any = await this.ExecuteAndLog(
+            FHFetcher.name,
+            'executeFHById',
+            'Fetching FH.',
+            'Successfully fetched FH by ID',
+            undefined,
+            () => this.context.webAPI.retrieveMultipleRecords('msfsi_financialholding', '?fetchXml=' + encodeURIComponent(fetchFHByIdQuery({ fhId })))
         );
         const mappedFHWithoutLink = createFinancialHolding(fhResponse.entities[0]);
-        const fhResponseWithLinked = await this.ExecuteAndLog(
+        const fhResponseWithLinked: any = await this.ExecuteAndLog(
             FHFetcher.name,
             'executeFHById with linked category',
             'Fetching FH with linked category.',
@@ -269,7 +274,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
     }
 
     public async fetchFinancialProducts(fhId: string): Promise<IFinancialProduct[]> {
-        const response = await this.ExecuteAndLog(
+        const response: any = await this.ExecuteAndLog(
             FHFetcher.name,
             'executeFinancialProductsById',
             'Fetching Financial Products.',

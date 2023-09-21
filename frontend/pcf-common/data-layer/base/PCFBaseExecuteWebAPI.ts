@@ -12,13 +12,13 @@ export class PCFBaseExecuteWebAPI extends PCFBaseFetcher {
 
     public async execute(params: IExecuteRequest, returnKey?: string): Promise<any> {
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PCFBaseExecuteWebAPI.name,
                 'execute',
                 'Executing request.',
                 'Successfully executed params.',
                 { params },
-                () => this.context.webAPI.execute(params as WebApi.ODataContract)
+                () => this.context.webAPI.execute(params)
             );
 
             if (result.ok) {

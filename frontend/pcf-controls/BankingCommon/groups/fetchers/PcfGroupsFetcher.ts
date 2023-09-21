@@ -30,7 +30,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
             return Promise.reject();
         }
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PcfGroupsFetcher.name,
                 'getMainCustomerDetails',
                 'Started retrieval of contact entity.',
@@ -163,7 +163,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
         ].join('');
         const encodedFetchXml = encodeURIComponent(fetchXml);
         try {
-            const contacts = await this.ExecuteAndLog(
+            const contacts: any = await this.ExecuteAndLog(
                 PcfGroupsFetcher.name,
                 'getRelevantContacts',
                 'Started fetching relevant contacts.',
@@ -204,7 +204,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
 
         const encodedFetchXml = encodeURIComponent(fetchXml);
         try {
-            const fhs = await this.ExecuteAndLog(
+            const fhs: any = await this.ExecuteAndLog(
                 PcfGroupsFetcher.name,
                 'getMemberOwnerFinancialHoldings',
                 'Started fetching members FH.',
@@ -349,7 +349,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
     }
 
     private async getGroupMembers(groupId: string): Promise<IGroupMember[]> {
-        const result = await this.ExecuteAndLog(
+        const result: any = await this.ExecuteAndLog(
             PcfGroupsFetcher.name,
             'getGroupMembers',
             'Started fetching group members.',
@@ -378,8 +378,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
     private async getGroupFinancialHoldings(groupId: string): Promise<IGroupFinancialHoldingData> {
         const hideShowEntities = buildHiddenFinancialHoldings(this.context);
         const action = this.createAction({ groupId: groupId, hideShowEntities }, 'msfsi_GFHfetch', 'data');
-
-        const promises: [Promise<any>, Promise<WebApi.RetrieveMultipleResponse>] = [
+        const promises = [
             this.execute(action),
             this.context.webAPI.retrieveMultipleRecords('msfsi_groupfinancialholding', `?fetchXml=${geFetchInstrumentByGroupXml(groupId)}`),
         ];
@@ -394,8 +393,8 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
             () => Promise.all(promises)
         );
 
-        const fhRecords: Map<string, WebApi.Entity[]> = JSON.parse(fhResponse.result);
-        const fhEntities: WebApi.Entity[] = JSON.parse(fhRecords['entities']);
+        const fhRecords: Map<string, any> = JSON.parse(fhResponse.result);
+        const fhEntities = JSON.parse(fhRecords['entities']);
         const fhMap = createFinancialHoldingMap(fhEntities, fiRecords.entities, true);
 
         return {

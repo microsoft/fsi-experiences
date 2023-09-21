@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /*global ComponentFramework*/
 import { IInputs, IOutputs } from './generated/ManifestTypes';
-import { IPropBag, StandardControl } from 'CustomControls/Models/CustomControlExposedInterfaces';
-import { Dictionary } from 'CustomControls/Utilities/Dictionary';
 import { FinancialHoldingInformationContainer } from './container/FinancialHoldingInformationContainer';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/life-cycle';
 
+// @ts-ignore
 export class FinancialHoldingInformationControl implements StandardControl<IInputs, IOutputs> {
     // Power Apps component framework delegate which will be assigned to this object which would be called whenever any update happens.
     private _container: HTMLDivElement;
@@ -19,7 +19,7 @@ export class FinancialHoldingInformationControl implements StandardControl<IInpu
      * @param state A piece of data that persists in one session for a single user. Can be set at any point in a controls life cycle by calling 'setControlState' in the Mode interface.
      * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.
      */
-    public init(context: IPropBag<IInputs>, notifyOutputChanged: () => void, state: Dictionary, container: HTMLDivElement) {
+    public init(context, notifyOutputChanged: () => void, state, container: HTMLDivElement) {
         this._container = container;
         init(context, 'MicrosoftPCF.FinancialHoldingInformationControl');
         loadImages(context, ['emptyState48', 'error']);
@@ -29,7 +29,7 @@ export class FinancialHoldingInformationControl implements StandardControl<IInpu
      * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
      * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to names defined in the manifest, as well as utility functions
      */
-    public updateView(context: IPropBag<IInputs>) {
+    public updateView(context) {
         updateView(this._container, FinancialHoldingInformationContainer, { context: context });
     }
 

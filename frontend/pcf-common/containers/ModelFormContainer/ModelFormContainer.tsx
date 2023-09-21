@@ -1,10 +1,9 @@
-import { VirtualComponent } from 'CustomControls/Components/VirtualComponent';
 import React, { useEffect, useRef } from 'react';
 import { CommonPCFContext } from '../../common-props';
 import { createModelFromControl } from '../../factories';
 
 export interface IFrameContainerProps extends React.HTMLAttributes<HTMLDivElement> {
-    context: CommonPCFContext;
+    context;
     objectId?: string;
     formId?: string;
     entityName?: string;
@@ -46,7 +45,7 @@ export const ModelFormContainer: React.FC<IFrameContainerProps> = ({ context, ob
                     displayHeader: true,
                     displayTabs: true,
                 },
-            }) as VirtualComponent;
+            });
             context.factory.bindDOMComponent(control, divRef.current);
             return () => {
                 context.factory.unbindDOMComponent(control.getComponentId());

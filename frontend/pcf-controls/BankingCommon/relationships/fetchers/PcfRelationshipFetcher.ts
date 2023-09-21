@@ -6,7 +6,7 @@ import loggerService from '@fsi/pcf-common/services/LoggerService';
 import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
 
 export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelationshipFetcher {
-    constructor(context: any) {
+    constructor(context) {
         super(context);
     }
 
@@ -36,7 +36,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
 
         try {
             const encodedFetchXml = encodeURIComponent(fetchXml);
-            const relationships = await this.ExecuteAndLog(
+            const relationships: any = await this.ExecuteAndLog(
                 PcfRelationshipFetcher.name,
                 'getCustomerRelationships',
                 'Started fetching customer relationships.',
@@ -76,7 +76,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
 
     async fetchRelationshipById(relationshipId: string): Promise<IRelationship> {
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PcfRelationshipFetcher.name,
                 'fetchRelationshipById',
                 'Started fetching relationship.',
@@ -128,7 +128,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
         };
 
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PcfRelationshipFetcher.name,
                 'addRelationship',
                 'Started adding relationship.',
@@ -258,7 +258,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
         ].join('');
         const encodedFetchXml = encodeURIComponent(fetchXml);
         try {
-            const contacts = await this.ExecuteAndLog(
+            const contacts: any = await this.ExecuteAndLog(
                 PcfRelationshipFetcher.name,
                 'getRelevantContacts',
                 'Started fetching relevant contacts.',

@@ -1,5 +1,4 @@
 import { FSIErrorTypes, TelemetryAdditionalData } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
-import { IUtility } from 'CustomControls/Models/CustomControlExposedInterfaces';
 import { CommonPCFContext } from '../../common-props';
 import { getContactQuery } from './PCFBaseQuery';
 import { AttributeChoicesMap } from './PCFBaseTypes';
@@ -12,8 +11,8 @@ const contactEntity = 'contact';
 type EntityMetadata = { [key: string]: any };
 
 export class PCFBaseFetcher {
-    protected webAPI: ControlAndClientApiInterfaces.WebApi;
-    protected utils: IUtility;
+    protected webAPI;
+    protected utils;
     protected userId: string;
     protected _context: CommonPCFContext;
 
@@ -21,7 +20,6 @@ export class PCFBaseFetcher {
         this.webAPI = context.webAPI;
         this.userId = context.userSettings?.userId?.replace(/[\])}[{(]/g, '');
         this._context = context;
-        // new PCF internal types is missing getEntityMetadata
         this.utils = context.utils;
     }
 
@@ -93,7 +91,7 @@ export class PCFBaseFetcher {
 
     public async getEntityMetadata(entityName: string, attributes?: string[]): Promise<EntityMetadata> {
         try {
-            const res = await this.ExecuteAndLog(
+            const res: any = await this.ExecuteAndLog(
                 PCFBaseFetcher.name,
                 'getEntityMetadata',
                 'Fetching metadata from entity.',
@@ -117,7 +115,7 @@ export class PCFBaseFetcher {
 
     public async getContact(contactId: string, fields: string[]) {
         try {
-            const response = await this.ExecuteAndLog(
+            const response: any = await this.ExecuteAndLog(
                 PCFBaseFetcher.name,
                 'getContact',
                 'Fetching contact.',

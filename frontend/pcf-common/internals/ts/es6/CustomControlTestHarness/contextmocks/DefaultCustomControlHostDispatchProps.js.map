@@ -1,1 +1,0 @@
-{"version":3,"file":"DefaultCustomControlHostDispatchProps.js","sourceRoot":"","sources":["../../contextmocks/DefaultCustomControlHostDispatchProps.ts"],"names":[],"mappings":"AAAA;;GAEG;AAGH,OAAO,EAAE,wBAAwB,EAAE,MAAM,4BAA4B,CAAC;AAEtE,MAAM,CAAC,IAAM,qCAAqC,GAAoC;IACrF,cAAc,EAAE,wBAAwB,CAAC,cAAc;IACvD,OAAO,EAAE,wBAAwB,CAAC,OAAO;CACzC,CAAC"}

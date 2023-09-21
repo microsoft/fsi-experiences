@@ -15,7 +15,6 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@types/pcf-internal": "1.0.0",
         "@types/node": "^10.17.49",
         "@types/powerapps-component-framework": "^1.2.0",
         "typescript": "^4.1.5"

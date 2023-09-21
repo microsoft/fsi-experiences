@@ -1,10 +1,10 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { IInputs, IOutputs } from './generated/ManifestTypes';
-import { IPropBag, StandardControl } from 'CustomControls/Models/CustomControlExposedInterfaces';
-import { Dictionary } from 'CustomControls/Utilities/Dictionary';
 import { GroupsContainer } from '../GroupsControl/container/GroupsContainer';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/life-cycle';
 import { MicrosoftCloudforFinancialServices as FSIControls } from '@industry-solutions/pcf-telemetry-infra/BaseConstants';
 
+// @ts-ignore
 export class GroupsControl implements StandardControl<IInputs, IOutputs> {
     private _container: HTMLDivElement;
 
@@ -18,7 +18,7 @@ export class GroupsControl implements StandardControl<IInputs, IOutputs> {
      * @param state A piece of data that persists in one session for a single user. Can be set at any point in a controls life cycle by calling 'setControlState' in the Mode interface.
      * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.
      */
-    public init(context: IPropBag<IInputs>, notifyOutputChanged: () => void, state: Dictionary, container: HTMLDivElement) {
+    public init(context, notifyOutputChanged: () => void, state, container: HTMLDivElement) {
         this._container = container;
         init(context, FSIControls.GroupsControl);
         loadImages(context, ['create', 'error48', 'error', 'connect_error', 'emptyState48']);
@@ -28,7 +28,7 @@ export class GroupsControl implements StandardControl<IInputs, IOutputs> {
      * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
      * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to names defined in the manifest, as well as utility functions
      */
-    public updateView(context: IPropBag<IInputs>): void {
+    public updateView(context): void {
         updateView(this._container, GroupsContainer, { context });
     }
 

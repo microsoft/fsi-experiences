@@ -59,7 +59,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
         const lifeEventCategories: { [categoryCode: string]: LifeEvent[] } = {};
 
         try {
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PCFLifeEventsFetcher.name,
                 'fetchLifeEventsForContactId',
                 'Started fetching life events for contact.',
@@ -183,7 +183,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
                 msfsi_name: lifeEvent.title,
                 'msfsi_Contact@odata.bind': '/contacts(' + contactId + ')',
             };
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PCFLifeEventsFetcher.name,
                 'addLifeEvent',
                 'Started adding life event.',

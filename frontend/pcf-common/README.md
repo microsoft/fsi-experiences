@@ -4,7 +4,6 @@
 
 1. Common PCF container (implementation of FSI Context) and utils.
 2. PCFs containers and fetchers implementations.
-3. PCF internals types.
 
 ## Installing
 

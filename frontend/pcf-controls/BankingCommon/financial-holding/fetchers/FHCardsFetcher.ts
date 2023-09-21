@@ -28,7 +28,7 @@ export class FHCardsFetcher extends PCFBaseFetcher implements IFHCardsFetcher {
         try {
             let result;
             if (this.modelLabel !== 'TestLabel') {
-                const promises: [Promise<WebApi.RetrieveMultipleResponse>, Promise<ICurrenciesDetails | undefined>] = [
+                const promises: [Promise<any>, Promise<ICurrenciesDetails | undefined>] = [
                     this.webAPI.retrieveMultipleRecords(entityName, fetchXml),
                     currencyService.getCurrencies(this.context),
                 ];

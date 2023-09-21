@@ -20,7 +20,6 @@
         "react-dom": "^17.0.1"
     },
     "devDependencies": {
-        "@types/pcf-internal": "1.0.0",
         "@types/powerapps-component-framework": "^1.2.0",
         "@types/node": "^10.17.49",
         "pcf-scripts": "^1",

@@ -1,4 +1,3 @@
-import { PrimitiveControls } from 'CustomControls/Models/CustomControlExposedInterfaces';
 import { CommonPCFContext } from '../common-props';
 
 interface IModelFormParams {
@@ -23,8 +22,8 @@ export const createModelFromControl = ({
     formId: string;
     objectId?: string;
     params?: IModelFormParams;
-}): CustomControlInterfaces.IVirtualComponent =>
-    context.factory.createComponent('MscrmControls.ModelForm.ModelFormControl' as PrimitiveControls, instanceId, {
+}) =>
+    context.factory.createComponent('MscrmControls.ModelForm.ModelFormControl', instanceId, {
         id: instanceId,
         key: instanceId,
         descriptor: {

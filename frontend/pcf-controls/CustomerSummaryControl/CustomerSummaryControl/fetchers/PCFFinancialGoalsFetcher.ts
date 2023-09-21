@@ -31,7 +31,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
                 'msfsi_lifeevent@odata.bind': '/msfsi_lifemoments(' + financialGoal.lifeEventId + ')',
             };
 
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PCFLifeEventsFetcher.name,
                 'addFinancialGoalToLifeEvent',
                 'Started adding financial goal.',
@@ -126,7 +126,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
     private async fetchLifeEventsOFFinancialGoalsForContactId(contactId: string): Promise<LifeEventByCategory> {
         try {
             const lifeEventCategories: { [categoryCode: string]: LifeEvent[] } = {};
-            const result = await this.ExecuteAndLog(
+            const result: any = await this.ExecuteAndLog(
                 PCFFinancialGoalsFetcher.name,
                 'fetchFinancialGoalsForContactId',
                 'Started fetching events and financial goals for contact.',

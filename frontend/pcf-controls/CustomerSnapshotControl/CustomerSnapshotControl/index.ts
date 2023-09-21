@@ -1,8 +1,8 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/dist/life-cycle';
-import { IPropBag, StandardControl } from 'CustomControls/Models/CustomControlExposedInterfaces';
 import { CustomerSnapshotContainer } from '@fsi/pcf-common/dist/containers/CustomerSnapshot/CustomerSnapshotContainer';
-
+// @ts-ignore
 export class CustomerSnapshotControl implements StandardControl<IInputs, IOutputs> {
     // Power Apps component framework delegate which will be assigned to this object which would be called whenever any update happens.
     private _notifyOutputChanged: () => void;
@@ -22,7 +22,7 @@ export class CustomerSnapshotControl implements StandardControl<IInputs, IOutput
      * @param state A piece of data that persists in one session for a single user. Can be set at any point in a controls life cycle by calling 'setControlState' in the Mode interface.
      * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.
      */
-    public async init(context: IPropBag<IInputs>, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container: HTMLDivElement) {
+    public async init(context, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container: HTMLDivElement) {
         init(context, 'MicrosoftPCF.CustomerSnapshotControl');
         loadImages(context, ['emptyState48', 'emptyState100', 'emptyState', 'error', 'error48', 'error100']);
         this._notifyOutputChanged = notifyOutputChanged;
@@ -33,7 +33,7 @@ export class CustomerSnapshotControl implements StandardControl<IInputs, IOutput
      * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
      * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to names defined in the manifest, as well as utility functions
      */
-    public updateView(context: IPropBag<IInputs>): void {
+    public updateView(context): void {
         updateView(this._container, CustomerSnapshotContainer, { context, linkToEntityField: context.parameters.linkToEntityField?.raw });
     }
 

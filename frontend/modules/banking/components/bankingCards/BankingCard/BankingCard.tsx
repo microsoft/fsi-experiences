@@ -1,16 +1,13 @@
-import React, { FC, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { Stack } from '@fluentui/react/lib/Stack';
 import { BANKING_CARDS_STATUS, BANKING_CARDS_TYPE } from '../../../constants/FHValueMaps';
 import { creditCardMask } from '@fsi/core-components/dist/utilities/CalcUtils';
-import { daysDueCondition, isDateExpired } from '@fsi/core-components/dist/utilities/TimeUtils';
+import { isDateExpired } from '@fsi/core-components/dist/utilities/TimeUtils';
 import {
     cards14Text,
     cardsHeader,
     cardStackTokens,
     cardsGrey12Text,
-    cards10LeftText,
-    cards10RightText,
-    redDot,
     getBankingCardClassNames,
     bankingCardStyles,
     cardIndicatorButtonStyles,
@@ -18,62 +15,17 @@ import {
 import { IBankingCardProps, IBankingCardStyleProps, IBankingCardStyles } from './BankingCard.interface';
 import { styled } from '@fluentui/react/lib/Utilities';
 import { namespaces, useTranslation } from '@fsi/core-components/dist/context/hooks/useTranslation';
-import DateTime from '@fsi/core-components/dist/components/atoms/DateTime/DateTime';
 import { getOptionSetText } from '../../../utilities/EntityMetadata';
-import { DateTimePredefinedFormat } from '@fsi/core-components/dist/components/atoms/DateTime/DateTime.interface';
 import Indicator from '@fsi/core-components/dist/components/atoms/Indicator/Indicator';
 import { COLORS } from '@fsi/core-components/dist/constants/Colors';
 import { DirectionalHint } from '@fluentui/react/lib/components/ContextualMenu/ContextualMenu.types';
 import BankingCardTooltip from '../../../components/bankingCards/BankingCardTooltip/BankingCardTooltip';
+import { CardFooter } from '../BankingCardFooter';
 
 const isCardStatusActive = (status: number) => status === BANKING_CARDS_STATUS.Active;
 const isCardStatusExpiresSoon = (status: number) => status === BANKING_CARDS_STATUS.ExpiresSoon;
 const isCardActive = (status: number, expiryDate: Date | undefined) =>
     (isCardStatusActive(status) && !isDateExpired(expiryDate)) || isCardStatusExpiresSoon(status);
-
-interface ICardFooter {
-    cardStatus: string;
-    isActive: boolean;
-    equalStatus: (number) => boolean;
-    role: string;
-    cardExpiry: Date | undefined;
-    embossingName?: string;
-}
-
-const cardFooterHorizontalTokens = { childrenGap: 4 };
-
-const CardFooter: FC<ICardFooter> = ({ isActive, equalStatus, cardStatus, embossingName, cardExpiry }) => {
-    const translate = useTranslation(namespaces.CARDS);
-    const isStatusActive = equalStatus(BANKING_CARDS_STATUS.Active);
-    const isExpiringSoon = (isStatusActive && daysDueCondition(cardExpiry)) || equalStatus(BANKING_CARDS_STATUS.ExpiresSoon);
-
-    const status = useMemo(() => {
-        if (isStatusActive && isDateExpired(cardExpiry)) {
-            return translate('EXPIRED');
-        }
-
-        if (isStatusActive && isExpiringSoon) {
-            return translate('EXPIRES_SOON');
-        }
-
-        return cardStatus;
-    }, [isStatusActive, isExpiringSoon, cardExpiry]);
-
-    return (
-        <Stack data-testid="card-wrapper-footer">
-            <Stack.Item styles={cards10LeftText} data-testid="card-wrapper-footer-status">
-                <Stack horizontal tokens={cardFooterHorizontalTokens} verticalAlign="center">
-                    {(!isActive || isExpiringSoon) && <span style={redDot as React.CSSProperties}></span>}
-                    <Stack.Item styles={cards10LeftText}>{status}</Stack.Item>
-                    <DateTime quickFormat={DateTimePredefinedFormat.ShortMonthYear} date={cardExpiry} styles={cards10RightText} />
-                </Stack>
-            </Stack.Item>
-            <Stack.Item data-testid="banking-card-embossing-name" align="start" styles={cardsGrey12Text}>
-                {embossingName}
-            </Stack.Item>
-        </Stack>
-    );
-};
 
 const BankingCardBase: React.FunctionComponent<IBankingCardProps> = props => {
     const translate = useTranslation(namespaces.CARDS);
@@ -100,7 +52,6 @@ const BankingCardBase: React.FunctionComponent<IBankingCardProps> = props => {
     const status = getOptionSetText(fhiStatus, metadata?.fhiStatus);
     const role = getOptionSetText(fhRole, metadata?.role);
     const isActive = isCardActive(fhiStatus, fhiExpiryDate);
-    const equalStatus = (status: number) => status === fhiStatus;
 
     const classNames = getBankingCardClassNames(styles, {
         active: isActive,
@@ -150,7 +101,7 @@ const BankingCardBase: React.FunctionComponent<IBankingCardProps> = props => {
                 <CardFooter
                     embossingName={fhiEmbossingName}
                     isActive={isActive}
-                    equalStatus={equalStatus}
+                    fhiStatus={fhiStatus}
                     cardStatus={status}
                     role={role}
                     cardExpiry={fhiExpiryDate}

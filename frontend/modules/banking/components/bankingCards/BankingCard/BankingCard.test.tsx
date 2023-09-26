@@ -6,10 +6,6 @@ import { IBankingCardProps } from './BankingCard.interface';
 import { BANKING_CARDS_STATUS, BANKING_CARDS_TYPE, fhRolesValues } from '../../../constants/FHValueMaps';
 import cardsStrings from '@fsi/core-components/dist/assets/strings/Cards/Cards.1033.json';
 import { interpolateString } from '@fsi/core-components/dist/context/localization/TranslationFunction';
-import startOfToday from 'date-fns/startOfToday';
-import addDays from 'date-fns/addDays';
-import subDays from 'date-fns/subDays';
-import addYears from 'date-fns/addYears';
 import { FHMetadataMock } from '../../../interfaces/FHEntity/mocks/FHMetadata.mock';
 
 let creditCardMaskVal;
@@ -73,108 +69,6 @@ describe('BankingCard', () => {
         expect(getByText('Not activated')).toBeVisible();
         expect(getByText('01/24')).toBeVisible();
         expect(getByText('Andre Lawson')).toBeVisible();
-    });
-
-    it('Should render card with footer with close expiry date', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.Active,
-            fhiExpiryDate: addDays(Date.now(), 1),
-        });
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('EXPIRES SOON')).toBeVisible();
-        expect(getByText('Andre Lawson')).toBeVisible();
-    });
-
-    it('Should render card with footer expiring today', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.Active,
-            fhiExpiryDate: new Date(startOfToday()),
-        });
-
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('EXPIRES SOON')).toBeVisible();
-        expect(getByTestId('card-wrapper-header')).toHaveStyle({ color: COLORS.white });
-        expect(getByText('Andre Lawson')).toBeVisible();
-    });
-
-    it('Should render card with footer with expiring soon status', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.Active,
-            fhiExpiryDate: new Date(),
-        });
-
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('EXPIRES SOON')).toBeVisible();
-        expect(getByTestId('card-wrapper-header')).toHaveStyle({ color: COLORS.white });
-    });
-
-    it('Should render card with footer with far expiry date', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.Active,
-            fhiExpiryDate: addYears(Date.now(), 1),
-        });
-
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('Active')).toBeVisible();
-    });
-
-    it('Should render card with footer with expired date when status is active', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.Active,
-            fhiExpiryDate: subDays(Date.now(), 1),
-        });
-
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('EXPIRED')).toBeVisible();
-        expect(getByTestId('card-wrapper-header')).toHaveStyle({ color: cardDarkHeaderColor });
-    });
-
-    it('Should render card with footer with expired date when status is expired', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.Expired,
-            fhiExpiryDate: new Date(),
-        });
-
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('EXPIRED', { exact: false })).toBeVisible();
-        expect(getByTestId('card-wrapper-footer-status')).toHaveStyle({ textTransform: 'uppercase' });
-        expect(getByTestId('card-wrapper-header')).toHaveStyle({ color: cardDarkHeaderColor });
-    });
-
-    it('Should render card with footer with a not activated status', async () => {
-        const testProps = getTestProps({
-            fhiStatus: BANKING_CARDS_STATUS.NotActive,
-            fhiExpiryDate: new Date(),
-        });
-
-        const { getByText, getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-footer')).toBeVisible();
-        expect(getByText('Not activated')).toBeVisible();
-        expect(getByTestId('card-wrapper-header')).toHaveStyle({ color: cardDarkHeaderColor });
-    });
-
-    it('Should render card without status', async () => {
-        const testProps = getTestProps({
-            ...defaultProps.cardInfo,
-            fhiStatus: undefined,
-        });
-
-        const { getByTestId } = render(<BankingCard {...testProps} />);
-
-        expect(getByTestId('card-wrapper-header')).toHaveStyle({ color: cardDarkHeaderColor });
     });
 
     it('Should render card without card type and product', async () => {

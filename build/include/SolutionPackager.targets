@@ -49,11 +49,7 @@
 
     <!-- Pack Solution -->
     <Exec Command='&quot;$(SolutionPackager)&quot; /action:pack /packagetype:both $(SolutionMapFileArgument) $(FolderArgument) /zipfile:&quot;$(UnmanagedSolutionName).zip&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
-
-    <!-- re-package controls to include custom controls (workaround until SolutionPackager will support custom controls) -->
-    <Exec Command="$(ControlPackager) $(CustomControlsPath) $(ManagedSolutionName).zip ." Condition="'$(CustomControlsPath)' != ''" />
-    <Exec Command="$(ControlPackager) $(CustomControlsPath) $(UnManagedSolutionName).zip ." Condition="'$(CustomControlsPath)' != ''" />
-
+    
     <Message text="Solution files generation completed." Importance="High" />
   </Target>
 

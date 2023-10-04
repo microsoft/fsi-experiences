@@ -61,7 +61,6 @@
 		<UsePackageVersion>true</UsePackageVersion>
 		<!-- <EnableLocalization>false</EnableLocalization> -->
 		<PackageNuspec>$(WSRoot)\build\config\package.nuspec</PackageNuspec>
-		<PKG_XRMAPP_TOOLS>$(PkgMicrosoft_Dynamics_XrmSolutions_Tools)</PKG_XRMAPP_TOOLS>
 	</PropertyGroup>
 
 	<Import Project="$(MSBuildThisFileDirectory)\build\include\SolutionPackager.targets" Condition="'$(DynamicsProjectType)' == 'Solution'" />
@@ -72,7 +71,6 @@
 
 	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Package' OR '$(DynamicsProjectType)' == 'Solution'">
 		<PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
-		<PackageReference Include="Microsoft.Dynamics.XrmSolutions.Tools" Version="$(XrmSolutions_Tools_PackageVersion)" GeneratePathProperty="true" />
 		<PackageReference Include="Microsoft.CrmSdk.CoreTools" Version="$(CrmSdk_CoreTools_PackageVersion)" GeneratePathProperty="true" />
 		<PackageReference Include="Microsoft.CrmSdk.Deployment" Version="$(CrmSdk_Deployment_PackageVersion)" GeneratePathProperty="true" />
 		<PackageReference Include="Microsoft.CrmSdk.Workflow" Version="$(CrmSdk_Workflow_PackageVersion)" GeneratePathProperty="true" />
@@ -90,22 +88,16 @@
 
 	<ItemGroup Condition="'$(DynamicsProjectType)' == 'PCFControl'">
 		<PackageReference Include="Microsoft.PowerApps.MSBuild.Pcf" Version="$(Microsoft_PowerApps_MSBuild_Pcf)" GeneratePathProperty="true" />
-		<PackageReference Include="Microsoft.Dynamics.XrmSolutions.Tools" Version="$(XrmSolutions_Tools_PackageVersion)" GeneratePathProperty="true" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Plugin' And '$(ModuleName)' != 'FSICRMInfra'">
 		<PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
 		<PackageReference Include="Microsoft.CrmSdk.Workflow" Version="$(CrmSdk_Workflow_PackageVersion)" GeneratePathProperty="true" />
 		<PackageReference Include="Newtonsoft.Json" Version="$(Newtonsoft_Json_PackageVersion)" GeneratePathProperty="true" />
-		<PackageReference Include="Crm.ILMerge" Version="$(CRM_ILMerge_PackageVersion)" GeneratePathProperty="true" />
 		<Parent Include="$(MSBuildThisFileDirectory)Modules\\FSICRMInfra\**\*.cs" Exclude="$(MSBuildThisFileDirectory)\Modules\\FSICRMInfra\obj\**;$(MSBuildThisFileDirectory)Modules\\FSICRMInfra\PackageDeployer\**"/>
 		<Compile Include="@(Parent)">
 			<Link>Infra\%(RecursiveDir)\%(Filename)%(Extension)</Link>
 		</Compile>
-	</ItemGroup>
-	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Plugin' And '$(ModuleName)' != 'FSICRMInfra' And '$(BuildScope)' == 'pipeline'">
-		<ILMergeAssembly Include="$(OutputPath)$(AssemblyName).dll" />
-		<ILMergeAssembly Include="$(OutputPath)Newtonsoft.Json.dll" />
 	</ItemGroup>
 	
 	<!-- Merge Config Data from export-->
@@ -131,10 +123,6 @@
 		<Message Text="Creating PVS Package" Importance="high" />
 		<Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\CreatePVSPackage.ps1 $(MSBuildProjectName) $(ModuleName) $(PDPackageName) $(PVSPackageName) $(DllName) $(DropFolder) $(WSRoot) $(PackageExtraFolder) }&quot;" />
 		<Message Text="Finished Creating PVS Package" Importance="high" />
-	</Target>
-
-	<Target Name="ILMergePluginAssemblies" AfterTargets="CopyFilesToOutputDirectory" Condition="'$(DynamicsProjectType)' == 'Plugin' and @(ILMergeAssembly->Count()) &gt; 1">
-		<Exec command="$(PkgCrm_ILMerge)\ILMerge.exe /out:$(OutputPath)$(AssemblyName).dll @(ILMergeAssembly, ' ') /ndebug /keyfile:$(WSRoot)\build\config\mssharedlibsn1024.snk /delaysign" />
 	</Target>
 
 	<Target Name="AfterBuild" Condition="'$(DynamicsProjectType)' == 'Plugin'">

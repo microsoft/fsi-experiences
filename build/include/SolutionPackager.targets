@@ -2,7 +2,6 @@
   <PropertyGroup>
     <LegacyProjectFile>.csproj</LegacyProjectFile>
     <SolutionPackager Condition="'$(SolutionPackager)' == ''">$(PkgMicrosoft_CrmSdk_CoreTools)\content\bin\coretools\SolutionPackager.exe</SolutionPackager>
-    <ControlPackager>$(PkgMicrosoft_Dynamics_XrmSolutions_Tools)\tools\XrmControlPackager\Microsoft.Dynamics.Solution.Deployment.XrmControlPackager.exe</ControlPackager>
     <UpdateSolutionVersionEnabled Condition="'$(UpdateSolutionVersionEnabled)' == ''">true</UpdateSolutionVersionEnabled>
     <LocalizeArgument Condition="'$(EnableLocalization)' == 'true'">/src /loc</LocalizeArgument>
     <SolutionMapFileArgument Condition="('$(SolutionMapFile)' != '')">/map:$(SolutionMapFile)</SolutionMapFileArgument>

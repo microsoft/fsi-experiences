@@ -144,7 +144,7 @@
       <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.fr-FR.resx" behavior="0" />
       <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.it-IT.resx" behavior="0" />
       <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.nl-NL.resx" behavior="0" />
-      <RootComponent type="91" id="{5df2c9b1-2503-45d8-a921-15a3ca60d6dd}" schemaName="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{5df2c9b1-2503-45d8-a921-15a3ca60d6dd}" schemaName="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
       <RootComponent type="92" id="{1e08c88a-fe74-eb11-a812-000d3a37da6b}" behavior="0" />
       <RootComponent type="92" id="{7f18d47d-fe74-eb11-a812-000d3a37da6b}" behavior="0" />
       <RootComponent type="92" id="{96e9ae84-fe74-eb11-a812-000d3a37da6b}" behavior="0" />

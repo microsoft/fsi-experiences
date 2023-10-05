@@ -197,24 +197,8 @@
     <value>Veld Financiële bezittingen ontbreekt voor groep {0}.</value>
     <comment>Group {placeholder="{0}"} is missing financial holdings field.</comment>
   </data>
-  <data name="ErrorRetrievingPermissions" xml:space="preserve">
-    <value>Kan bevoegdheid niet ophalen voor entiteit {0}, machtiging {1}</value>
-    <comment>Could not retrieve priveledge for entity {placeholder="{0}"}, permission {placeholder="{1}"}</comment>
-  </data>
-  <data name="FHPermissionError" xml:space="preserve">
-    <value>Er is geen machtiging voor de entiteit financiële bezitting of financiële bezitting van klant.</value>
-    <comment>There is no permission for financial holding or customer financial holding entity.</comment>
-  </data>
-  <data name="PermissionsNullParameters" xml:space="preserve">
-    <value>Entiteitsnaam of machtiging is null of leeg.</value>
-    <comment>Entity name or permission is null or empty.</comment>
-  </data>
   <data name="FHFetchError" xml:space="preserve">
     <value>Er was een probleem bij het bouwen van de verzameling financiële bezittingen.</value>
     <comment>There was a problem building financial holdings collection.</comment>
-  </data>
-  <data name="PermissionNotAllowed" xml:space="preserve">
-    <value>Machtiging is niet Lezen, Schrijven, Maken of Verwijderen.</value>
-    <comment>Permission is not Read, Write, Create or Delete.</comment>
   </data>
 </root>

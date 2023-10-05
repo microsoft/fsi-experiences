@@ -197,24 +197,8 @@
     <value>群組 {0} 缺少金融資產欄位。</value>
     <comment>Group {placeholder="{0}"} is missing financial holdings field.</comment>
   </data>
-  <data name="ErrorRetrievingPermissions" xml:space="preserve">
-    <value>無法擷取實體 {0} 權限 (Permission) {1} 的權限 (Priviledge)</value>
-    <comment>Could not retrieve priveledge for entity {placeholder="{0}"}, permission {placeholder="{1}"}</comment>
-  </data>
-  <data name="FHPermissionError" xml:space="preserve">
-    <value>沒有金融資產或客戶金融資產實體的權限。</value>
-    <comment>There is no permission for financial holding or customer financial holding entity.</comment>
-  </data>
-  <data name="PermissionsNullParameters" xml:space="preserve">
-    <value>實體名稱或權限為 null 或空白。</value>
-    <comment>Entity name or permission is null or empty.</comment>
-  </data>
   <data name="FHFetchError" xml:space="preserve">
     <value>建置金融資產集合時發生問題。</value>
     <comment>There was a problem building financial holdings collection.</comment>
-  </data>
-  <data name="PermissionNotAllowed" xml:space="preserve">
-    <value>權限不是讀取、寫入、建立或刪除。</value>
-    <comment>Permission is not Read, Write, Create or Delete.</comment>
   </data>
 </root>

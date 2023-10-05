@@ -197,24 +197,8 @@
     <value>Al grupo {0} le falta el campo de posiciones financieras.</value>
     <comment>Group {placeholder="{0}"} is missing financial holdings field.</comment>
   </data>
-  <data name="ErrorRetrievingPermissions" xml:space="preserve">
-    <value>No se pudo recuperar el privilegio para la entidad {0} y el permiso {1}</value>
-    <comment>Could not retrieve priveledge for entity {placeholder="{0}"}, permission {placeholder="{1}"}</comment>
-  </data>
-  <data name="FHPermissionError" xml:space="preserve">
-    <value>No hay ningún permiso para la entidad de posición financiera o posición financiera del cliente.</value>
-    <comment>There is no permission for financial holding or customer financial holding entity.</comment>
-  </data>
-  <data name="PermissionsNullParameters" xml:space="preserve">
-    <value>El nombre o el permiso de la entidad es nulo o está vacío.</value>
-    <comment>Entity name or permission is null or empty.</comment>
-  </data>
   <data name="FHFetchError" xml:space="preserve">
     <value>Se produjo un problema al crear la colección de posiciones financieras.</value>
     <comment>There was a problem building financial holdings collection.</comment>
-  </data>
-  <data name="PermissionNotAllowed" xml:space="preserve">
-    <value>El permiso no es de lectura, escritura, creación o eliminación.</value>
-    <comment>Permission is not Read, Write, Create or Delete.</comment>
   </data>
 </root>

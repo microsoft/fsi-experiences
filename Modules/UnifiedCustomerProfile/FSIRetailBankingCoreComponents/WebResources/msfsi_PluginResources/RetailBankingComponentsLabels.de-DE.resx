@@ -197,24 +197,8 @@
     <value>Für die Gruppe {0} fehlt das Feld „Finanzanlage“.</value>
     <comment>Group {placeholder="{0}"} is missing financial holdings field.</comment>
   </data>
-  <data name="ErrorRetrievingPermissions" xml:space="preserve">
-    <value>Privileg für Entität {0}, Berechtigung {1} konnte nicht abgerufen werden</value>
-    <comment>Could not retrieve priveledge for entity {placeholder="{0}"}, permission {placeholder="{1}"}</comment>
-  </data>
-  <data name="FHPermissionError" xml:space="preserve">
-    <value>Es liegt Berechtigung für eine Finanzanlage- oder Kundenfinanzanlage-Entität vor.</value>
-    <comment>There is no permission for financial holding or customer financial holding entity.</comment>
-  </data>
-  <data name="PermissionsNullParameters" xml:space="preserve">
-    <value>Der Entitätsname oder die Berechtigung ist null oder leer.</value>
-    <comment>Entity name or permission is null or empty.</comment>
-  </data>
   <data name="FHFetchError" xml:space="preserve">
     <value>Die Finanzanlagesammlung konnte nicht erstellt werden.</value>
     <comment>There was a problem building financial holdings collection.</comment>
-  </data>
-  <data name="PermissionNotAllowed" xml:space="preserve">
-    <value>Die Berechtigung lautet nicht „Lesen“, „Schreiben“, „Erstellen“ oder „Löschen“.</value>
-    <comment>Permission is not Read, Write, Create or Delete.</comment>
   </data>
 </root>

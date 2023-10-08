@@ -2,7 +2,6 @@
   <PropertyGroup>
     <LegacyProjectFile>.pcfproj</LegacyProjectFile>
     <SolutionPackager Condition="'$(SolutionPackager)' == ''">$(PkgMicrosoft_CrmSdk_CoreTools)\content\bin\coretools\SolutionPackager.exe</SolutionPackager>
-    <ControlPackager>$(PkgMicrosoft_Dynamics_XrmSolutions_Tools)\tools\XrmControlPackager\Microsoft.Dynamics.Solution.Deployment.XrmControlPackager.exe</ControlPackager>
     <LocalizeArgument Condition="'$(EnableLocalization)' == 'true'">/src /loc</LocalizeArgument>
     <TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
     <BuildMode Condition="'$(Configuration)' == 'release'">-- --buildMode production</BuildMode>

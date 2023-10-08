@@ -37,6 +37,8 @@ export class PCFBaseFetcher {
             read: GrantedAccessRights.includes('ReadAccess'),
             delete: GrantedAccessRights.includes('DeleteAccess'),
             create: GrantedAccessRights.includes('CreateAccess'),
+            append: GrantedAccessRights.includes('AppendAccess'),
+            appendTo: GrantedAccessRights.includes('AppendToAccess'),
         };
     }
 

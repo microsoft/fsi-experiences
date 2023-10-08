@@ -177,7 +177,7 @@ const LifeEventContextProvider: FC<ILifeEventContextProviderProps> = ({ fetcher,
                 errorDialog,
                 setErrorDialog,
                 hideModifyButtons,
-                readonly: !access?.write,
+                readonly: !access?.write && !access?.append && !access?.appendTo,
             }}
         >
             {children}

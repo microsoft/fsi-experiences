@@ -27,7 +27,7 @@ export class MockLifeEventsFetcher implements ILifeEventsFetcher {
         return lifeEventsConfigurations;
     }
     async getAccessInfo(entityId: string): Promise<IAccess> {
-        return { write: true, read: true, delete: true, create: true };
+        return { write: true, read: true, delete: true, create: true, append: true, appendTo: true };
     }
 }
 

@@ -35,7 +35,7 @@ import useResponsiveContainer from '@fsi/core-components/dist/context/hooks/useR
 import { usePrevious } from '@fsi/core-components/dist/hooks/usePrevious/usePrevious';
 import { IconButton } from '@fluentui/react/lib/components/Button/IconButton/IconButton';
 import { useLoggerService } from '@fsi/core-components/dist/context/hooks/useLoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry';
 import { duplicateRelationshipCode } from './GroupAndRelationshipsMainApp.const';
 import { FHHiddenMessageBar } from '../../FHHiddenMessageBar/FHHiddenMessageBar';
 

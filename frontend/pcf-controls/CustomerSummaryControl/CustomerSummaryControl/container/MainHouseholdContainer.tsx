@@ -5,14 +5,16 @@ import { MockGroupsFetcher } from '@fsi-pcf/banking-common/groups/fetchers/MockG
 import { PcfGroupsFetcher } from '@fsi-pcf/banking-common/groups/fetchers/PcfGroupsFetcher';
 import { GroupsSummaryViewComponent } from '@fsi/banking/components/summaryGroup/GroupsSummaryViewComponent';
 import { extractEntityId } from '@fsi/pcf-common/utilities/extractEntityId';
+import { usePCFLoggerService } from '@fsi/pcf-common/hooks/usePCFLoggerService';
 
 export interface MainHouseholdContainerProps extends PCFContainerProps {}
 
 export const MainHouseholdContainer: React.FC<MainHouseholdContainerProps> = (props: MainHouseholdContainerProps) => {
     const { context } = props;
+    const loggerService = usePCFLoggerService();
 
     const fetcher = useMemo(() => {
-        return contextService.isTestMode() ? new MockGroupsFetcher() : new PcfGroupsFetcher(context);
+        return contextService.isTestMode() ? new MockGroupsFetcher() : new PcfGroupsFetcher(context, loggerService);
     }, [context]);
 
     const contactId = extractEntityId(context.parameters?.contactId);

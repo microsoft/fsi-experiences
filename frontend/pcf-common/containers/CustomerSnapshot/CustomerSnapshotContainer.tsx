@@ -7,6 +7,7 @@ import CustomerSnapshot from '@fsi/core-components/dist/widgets/customerSnapshot
 import { ENTITY_SNAPSHOT_FLAGS, ENTITY_SNAPSHOT_FLAGS_DEFAULTS } from '@fsi/core-components/dist/constants/features/entitySnapshot';
 import { CustomerSnapshotFetcher } from '../../data-layer/customerSnapshot/CustomerSnapshotFetcher';
 import { extractContextualFlags } from '../../utilities/extractContextualConfig';
+import { usePCFLoggerService } from '../../hooks/usePCFLoggerService';
 
 export const extractEntitySnapshotConfig = context => ({
     flags: extractContextualFlags(context, Object.values(ENTITY_SNAPSHOT_FLAGS), ENTITY_SNAPSHOT_FLAGS_DEFAULTS),
@@ -17,9 +18,11 @@ export interface CustomerSnapshotContainerProps extends PCFContainerProps {
 
 export const CustomerSnapshotContainer: React.FC<CustomerSnapshotContainerProps> = (props: CustomerSnapshotContainerProps) => {
     const { context, linkToEntityField } = props;
-
+    const loggerService = usePCFLoggerService();
+    
+    // need to inject the logger 
     const fetcher = useMemo(() => {
-        return contextService.isTestMode() ? new MockCustomerSnapshotFetcher() : new CustomerSnapshotFetcher(context, linkToEntityField || '');
+        return contextService.isTestMode() ? new MockCustomerSnapshotFetcher() : new CustomerSnapshotFetcher(context, linkToEntityField || '', loggerService);
     }, [context, linkToEntityField]);
 
     const entityId = extractEntityId(context.parameters?.entityId || context.parameters?.contactId);

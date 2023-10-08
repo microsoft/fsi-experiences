@@ -3,6 +3,7 @@
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { FinancialHoldingInformationContainer } from './container/FinancialHoldingInformationContainer';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/life-cycle';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
 
 // @ts-ignore
 export class FinancialHoldingInformationControl implements StandardControl<IInputs, IOutputs> {
@@ -21,7 +22,7 @@ export class FinancialHoldingInformationControl implements StandardControl<IInpu
      */
     public init(context, notifyOutputChanged: () => void, state, container: HTMLDivElement) {
         this._container = container;
-        init(context, 'MicrosoftPCF.FinancialHoldingInformationControl');
+        init(context, FSIControls.FinancialHoldingInformationControl);
         loadImages(context, ['emptyState48', 'error']);
     }
 

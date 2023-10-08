@@ -1,12 +1,13 @@
 import { PCFBaseFetcher } from '../base/PCFBaseFetcher';
 import { CommonPCFContext } from '../../common-props';
-import loggerService from '../../services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry';
 import { CrmFormJson } from './FormJson';
+import { ILoggerService } from '@fsi/core-components/context/telemetry';
 
 export class FormFetcher extends PCFBaseFetcher {
-    public constructor(context: CommonPCFContext) {
-        super(context);
+
+    public constructor(context: CommonPCFContext, loggerService: ILoggerService) {
+        super(context, loggerService);
     }
 
     async fetchXmlFormLayout(formId: string): Promise<{ type: number; entityName: string; xml: string }> {
@@ -32,7 +33,7 @@ export class FormFetcher extends PCFBaseFetcher {
                 type,
             };
         } catch (e) {
-            loggerService.logError(FormFetcher.name, 'fetchForm', `Failed to fetch form. (formId: ${formId})`, FSIErrorTypes.ServerError, e);
+            this.loggerService.logError(FormFetcher.name, 'fetchForm', `Failed to fetch form. (formId: ${formId})`, FSIErrorTypes.ServerError, e);
             throw e;
         }
     }
@@ -55,7 +56,7 @@ export class FormFetcher extends PCFBaseFetcher {
                 form: JSON.parse(formjson) as CrmFormJson,
             };
         } catch (e) {
-            loggerService.logError(FormFetcher.name, 'fetchForm', `Failed to fetch form. (formId: ${formId})`, FSIErrorTypes.ServerError, e);
+            this.loggerService.logError(FormFetcher.name, 'fetchForm', `Failed to fetch form. (formId: ${formId})`, FSIErrorTypes.ServerError, e);
             throw e;
         }
     }

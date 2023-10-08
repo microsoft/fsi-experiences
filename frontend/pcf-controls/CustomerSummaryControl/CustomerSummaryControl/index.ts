@@ -4,10 +4,10 @@ import { updateView, destroy, loadImages, init } from '@fsi/pcf-common/life-cycl
 import CustomerSummaryContainer from './container/CustomerSummaryContainer';
 import { CustomerSnapshotContainer } from '@fsi/pcf-common/containers/CustomerSnapshot/CustomerSnapshotContainer';
 import { LifeEventsContainer } from './container/LifeEventsContainer';
-import { MicrosoftCloudforFinancialServices as FSIControls } from '@industry-solutions/pcf-telemetry-infra/BaseConstants';
 import { BankingCardsContainer } from './container/BankingCardsContainer';
 import { MainHouseholdContainer } from './container/MainHouseholdContainer';
 import { FHSummaryContainer } from './container/FHSummaryContainer';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
 
 const componentEnumToComponent = {
     '0': CustomerSummaryContainer,

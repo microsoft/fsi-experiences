@@ -12,7 +12,6 @@
     },
     "dependencies": {
         "@fsi/banking": "1.0.0",
-        "@industry-solutions/pcf-telemetry-infra": "^1",
         "@fsi/pcf-common": "1.0.0",
         "@fsi-pcf/banking-common": "1.0.0",
         "react": "^17.0.1",

@@ -23,11 +23,6 @@ steps:
       feedsToUse: config
       nugetConfigPath: nuget.config
 
-  - task: npmAuthenticate@0
-    displayName: "Authenticate PCF telemetry packages"
-    inputs:
-      workingFile: 'frontend\.npmrc'
-
   - script: |
       corepack enable
       corepack prepare pnpm@8.6.2 --activate
@@ -49,11 +44,6 @@ steps:
         pnpm build-libs
 
   - ${{if ne(parameters.packagesVersion, ' ')}}:
-      - task: npmAuthenticate@0
-        displayName: "Authenticate PCF telemetry packages"
-        inputs:
-          workingFile: "$(system.defaultworkingdirectory)/tools/BuildTools/.npmrc"
-
       - task: CmdLine@2
         inputs:
           workingDirectory: $(system.defaultworkingdirectory)/tools/BuildTools

@@ -2,7 +2,7 @@
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { GroupsContainer } from '../GroupsControl/container/GroupsContainer';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/life-cycle';
-import { MicrosoftCloudforFinancialServices as FSIControls } from '@industry-solutions/pcf-telemetry-infra/BaseConstants';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
 
 // @ts-ignore
 export class GroupsControl implements StandardControl<IInputs, IOutputs> {

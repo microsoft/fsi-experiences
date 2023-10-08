@@ -1,6 +1,5 @@
 import { CommonPCFContext } from '../../common-props';
-import loggerService from '../../services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 import {
     ICustomerSnapshotMetadata,
     ICustomerSnapshotLayout,
@@ -42,8 +41,8 @@ const maxFieldsInSection = 10;
 
 const shouldFetchPreferredContactMethod = entityName => entityName === ContactEntity || entityName === AccountEntity;
 export class CustomerSnapshotFetcher extends FormFetcher implements ICustomerSnapshotFetcher {
-    public constructor(context: CommonPCFContext, private linkToEntityField) {
-        super(context);
+    public constructor(context: CommonPCFContext, private linkToEntityField, loggerService: ILoggerService) {
+        super(context, loggerService);
     }
 
     private formXmlToSnapshotLayout(fromXml: string, formId: string): ICustomerSnapshotLayout {
@@ -73,7 +72,7 @@ export class CustomerSnapshotFetcher extends FormFetcher implements ICustomerSna
 
             return layout;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 CustomerSnapshotFetcher.name,
                 'processFormError',
                 `Failed to to process form XML (form: ${formId})`,
@@ -89,7 +88,7 @@ export class CustomerSnapshotFetcher extends FormFetcher implements ICustomerSna
             const { xml, entityName, type } = await this.fetchXmlFormLayout(formId);
             if (type !== CrmFormType.QuickViewForm) {
                 const e = new CustomerSnapshotConfigError('Form type must be QuickViewForm(6)', SnapshotErrorCode.InvalidConfiguration);
-                loggerService.logError(CustomerSnapshotFetcher.name, 'fetchSnapshotLayout', e.message, FSIErrorTypes.InvalidParam, e);
+                this.loggerService.logError(CustomerSnapshotFetcher.name, 'fetchSnapshotLayout', e.message, FSIErrorTypes.InvalidParam, e);
                 throw e;
             }
             return {
@@ -177,7 +176,7 @@ export class CustomerSnapshotFetcher extends FormFetcher implements ICustomerSna
             });
             return metadata;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 CustomerSnapshotFetcher.name,
                 'fetchForm',
                 `Failed to fetch entity metadata. (entity: ${entityName})`,

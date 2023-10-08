@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import { ErrorBoundary } from './ErrorBoundary';
-import { FSIErrorTypes } from '../../../context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '../../../context/telemetry';
 
 const ErrorComponent = () => {
     throw new Error('test error');
@@ -10,6 +10,7 @@ const ErrorComponent = () => {
 const Component = () => <div data-testid="valid-component"></div>;
 
 const logger = {
+    setPcfName: jest.fn(),
     logError: jest.fn(),
     logInfo: jest.fn(),
     logStartPerfTime: jest.fn(),

@@ -2,6 +2,7 @@
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/life-cycle';
 import { InvestmentsPortfoliosContainer } from './container/InvestmentsPortfoliosContainer';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
 
 // @ts-ignore
 export class InvestmentsPortfoliosControl implements StandardControl<IInputs, IOutputs> {
@@ -24,7 +25,7 @@ export class InvestmentsPortfoliosControl implements StandardControl<IInputs, IO
      * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.
      */
     public async init(context, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container: HTMLDivElement) {
-        init(context, 'MicrosoftPCF.InvestmentsPortfoliosControl');
+        init(context, FSIControls.InvestmentsPortfoliosControl);
         loadImages(context, ['error100', 'emptyState48', 'no_access100']);
         this._notifyOutputChanged = notifyOutputChanged;
         this._container = container;

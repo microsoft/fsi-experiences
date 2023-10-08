@@ -1,8 +1,7 @@
-import { FSIErrorTypes, TelemetryAdditionalData } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService, TelemetryAdditionalData } from '@fsi/core-components/dist/context/telemetry';
 import { CommonPCFContext } from '../../common-props';
 import { getContactQuery } from './PCFBaseQuery';
 import { AttributeChoicesMap } from './PCFBaseTypes';
-import loggerService from '../../services/LoggerService';
 import { IAccess } from '@fsi/core-components/dist/dataLayerInterface/entity/IAccess';
 import { PrivilegeType } from '@fsi/core-components/dist/enums/PrivilegeType';
 
@@ -15,12 +14,14 @@ export class PCFBaseFetcher {
     protected utils;
     protected userId: string;
     protected _context: CommonPCFContext;
+    protected _loggerService: ILoggerService;
 
-    public constructor(protected context: CommonPCFContext) {
+    public constructor(protected context: CommonPCFContext, protected loggerService: ILoggerService) {
         this.webAPI = context.webAPI;
         this.userId = context.userSettings?.userId?.replace(/[\])}[{(]/g, '');
         this._context = context;
         this.utils = context.utils;
+        this._loggerService = loggerService;
     }
 
     public async getAccessInfo(entityId: string): Promise<IAccess> {
@@ -83,7 +84,7 @@ export class PCFBaseFetcher {
 
             return choicesByAttribute;
         } catch (e) {
-            loggerService.logError(PCFBaseFetcher.name, 'getEntityChoices', 'Failed to fetch attributes from entity.', FSIErrorTypes.ServerError, e, {
+            this._loggerService.logError(PCFBaseFetcher.name, 'getEntityChoices', 'Failed to fetch attributes from entity.', FSIErrorTypes.ServerError, e, {
                 entityName,
                 choicesAttributeNames,
             });
@@ -107,7 +108,7 @@ export class PCFBaseFetcher {
 
             return res;
         } catch (e) {
-            loggerService.logError(PCFBaseFetcher.name, 'getEntityMetadata', 'Failed to fetch metadata.', FSIErrorTypes.ServerError, e, {
+            this._loggerService.logError(PCFBaseFetcher.name, 'getEntityMetadata', 'Failed to fetch metadata.', FSIErrorTypes.ServerError, e, {
                 entityName,
                 attributes,
             });
@@ -130,7 +131,7 @@ export class PCFBaseFetcher {
 
             return response.entities[0];
         } catch (e) {
-            loggerService.logError(PCFBaseFetcher.name, 'getContact', 'Failed to fetch contact.', FSIErrorTypes.ServerError, e, {
+            this._loggerService.logError(PCFBaseFetcher.name, 'getContact', 'Failed to fetch contact.', FSIErrorTypes.ServerError, e, {
                 contactId,
                 fields,
             });
@@ -159,7 +160,7 @@ export class PCFBaseFetcher {
             });
             return map;
         } catch (e) {
-            loggerService.logError(PCFBaseFetcher.name, 'getPicklistMap', 'Failed to get picklist.', FSIErrorTypes.ServerError, e, {
+            this._loggerService.logError(PCFBaseFetcher.name, 'getPicklistMap', 'Failed to get picklist.', FSIErrorTypes.ServerError, e, {
                 entityName,
                 pickListAttributeName,
             });
@@ -172,14 +173,14 @@ export class PCFBaseFetcher {
         functionName: string,
         initialMessage: string,
         successMessage: string,
-        telemetryExtraData: TelemetryAdditionalData | undefined,
+        extraData: TelemetryAdditionalData | undefined,
         fetchFunction: () => Promise<T>
     ): Promise<T> {
-        loggerService.logInfo(componentName, functionName, initialMessage, telemetryExtraData);
-        const perfStopTimerFunc = loggerService.logStartPerfTime(componentName, functionName);
+        this._loggerService.logInfo(componentName, functionName, initialMessage, extraData);
+        const perfStopTimerFunc = this.loggerService.logStartPerfTime(componentName, functionName);
         const result = await fetchFunction();
         perfStopTimerFunc();
-        loggerService.logInfo(componentName, functionName, successMessage, telemetryExtraData);
+        this._loggerService.logInfo(componentName, functionName, successMessage, extraData);
         return result;
     }
 }

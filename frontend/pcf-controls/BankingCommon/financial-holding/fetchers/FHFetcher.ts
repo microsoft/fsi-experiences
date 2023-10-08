@@ -22,16 +22,15 @@ import {
     createFinancialHolding,
     createFinancialHoldingMap,
 } from '../FHDataMappers';
-import loggerService from '@fsi/pcf-common/services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
 import { IFinancialProduct } from '@fsi/banking/interfaces/FHEntity/IFinancialProduct';
 import { createFinancialProduct } from '@fsi/banking/constants/financialProduct/FHDataMappers';
 import { IndictableFH } from '@fsi/banking/interfaces/FHEntity/IndictableFH';
 import { FHData, FHMetadata } from '@fsi/banking/interfaces/FHEntity';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 
 export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
-    constructor(context: CommonPCFContext) {
-        super(context);
+    constructor(context: CommonPCFContext, protected loggerService: ILoggerService) {
+        super(context, loggerService);
     }
 
     private async executeFHQueries(contactId: string, fetchFI?: boolean, hideShowEntities: {} = {}): Promise<FHData> {
@@ -64,7 +63,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
                 requestMetadata: JSON.parse(fhRecords['metadata']),
             };
         } catch (e) {
-            loggerService.logError(FHFetcher.name, 'executeFHQueries', 'Failed to fetch FH and FHI records.', FSIErrorTypes.ServerError, e);
+            this.loggerService.logError(FHFetcher.name, 'executeFHQueries', 'Failed to fetch FH and FHI records.', FSIErrorTypes.ServerError, e);
             throw e;
         }
     }
@@ -78,7 +77,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
             contactImgUrl: entity['Customer.entityimage_url'],
         };
 
-        loggerService.logInfo(FHFetcher.name, 'extractFHCustomer', 'Extracting FH customer data.', {
+        this.loggerService.logInfo(FHFetcher.name, 'extractFHCustomer', 'Extracting FH customer data.', {
             contactId: contactId,
             role: contactRole,
         });
@@ -111,12 +110,12 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
                 }
             });
 
-            loggerService.logInfo(FHFetcher.name, 'buildRelatedCustomerArray', 'Built related customer array.', {
+            this.loggerService.logInfo(FHFetcher.name, 'buildRelatedCustomerArray', 'Built related customer array.', {
                 'array length': relatedCustomers.length,
             });
             return relatedCustomers;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 FHFetcher.name,
                 'buildRelatedCustomerArray',
                 'Failed to build related customers array.',
@@ -152,12 +151,12 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
                 fhOtherCustomersOwn.set(id, populatedEntity);
             });
 
-            loggerService.logInfo(FHFetcher.name, 'buildFHOtherCustomersOwn', 'Built other customer array.', {
+            this.loggerService.logInfo(FHFetcher.name, 'buildFHOtherCustomersOwn', 'Built other customer array.', {
                 'array length': fhOtherCustomersOwn.size,
             });
             return fhOtherCustomersOwn;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 FHFetcher.name,
                 'buildFHOtherCustomersOwn',
                 'Failed to build other customers array.',
@@ -176,7 +175,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
             const hideShowEntities = categoryId ? buildHiddenFHByCategory(categoryId) : buildHiddenFinancialHoldings(this.context);
             return this.executeFHQueries(contactId, fetchFI, hideShowEntities);
         } catch (err) {
-            loggerService.logError(FHFetcher.name, 'fetchFHData', 'Failed fetch FH data.', FSIErrorTypes.ServerError, err, {
+            this.loggerService.logError(FHFetcher.name, 'fetchFHData', 'Failed fetch FH data.', FSIErrorTypes.ServerError, err, {
                 contactId,
             });
             throw err;
@@ -189,7 +188,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
         try {
             return await this.buildRelatedCustomerArray('msfsi_financialholding', '?fetchXml=' + encodeURIComponent(fetchRelatedCustomerQuery));
         } catch (err) {
-            loggerService.logError(
+            this.loggerService.logError(
                 FHFetcher.name,
                 'fetchFHRelatedCustomers',
                 'Failed fetch related customers data.',
@@ -208,7 +207,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
         try {
             return await this.buildFHOtherCustomersOwn('msfsi_customerfinancialholding', '?fetchXml=' + encodeURIComponent(fetchFHOtherCustomersOwn));
         } catch (err) {
-            loggerService.logError(FHFetcher.name, 'fetchFHOtherCustomersOwn', 'Failed fetch other customers data.', FSIErrorTypes.ServerError, err, {
+            this.loggerService.logError(FHFetcher.name, 'fetchFHOtherCustomersOwn', 'Failed fetch other customers data.', FSIErrorTypes.ServerError, err, {
                 contactId,
             });
             throw err;
@@ -239,7 +238,7 @@ export class FHFetcher extends PCFBaseExecuteWebAPI implements IFHFetcher {
                 };
             }, {} as Partial<FHMetadata>) as FHMetadata;
         } catch (err) {
-            loggerService.logError(FHFetcher.name, 'fetchFHMetadata', 'Failed fetch FH metadata.', FSIErrorTypes.ServerError, err);
+            this.loggerService.logError(FHFetcher.name, 'fetchFHMetadata', 'Failed fetch FH metadata.', FSIErrorTypes.ServerError, err);
             throw err;
         }
     }

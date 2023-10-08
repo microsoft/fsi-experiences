@@ -2,12 +2,11 @@ import { PCFBaseFetcher } from '@fsi/pcf-common/data-layer/base/PCFBaseFetcher';
 import { IRelationshipFetcher } from '@fsi/banking/interfaces/Relationships/IRelationshipFetcher';
 import { IRelationship } from '@fsi/banking/interfaces/Relationships/IRelationship';
 import { IAbbreviatedContact } from '@fsi/core-components/dist/dataLayerInterface/entity/contact/AbbreviatedContact';
-import loggerService from '@fsi/pcf-common/services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 
 export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelationshipFetcher {
-    constructor(context) {
-        super(context);
+    constructor(context: any, protected loggerService: ILoggerService) {
+        super(context, loggerService);
     }
 
     async getCustomerRelationships(): Promise<IRelationship[]> {
@@ -62,7 +61,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
 
             return relationshipsToReturn;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfRelationshipFetcher.name,
                 'getCustomerRelationships',
                 'Failed to fetch customer relationships.',
@@ -101,7 +100,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
                 relationshipType,
             };
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfRelationshipFetcher.name,
                 'fetchRelationshipById',
                 'Failed to fetch relationship.',
@@ -117,7 +116,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
         const contactId = this.context.parameters?.contactId?.raw;
 
         if (!contactId) {
-            loggerService.logError(PcfRelationshipFetcher.name, 'addRelationship', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
+            this.loggerService.logError(PcfRelationshipFetcher.name, 'addRelationship', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
             return '';
         }
 
@@ -141,7 +140,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
 
             return result.id as string;
         } catch (e) {
-            loggerService.logError(PcfRelationshipFetcher.name, 'addRelationship', 'Failed to add relationship.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PcfRelationshipFetcher.name, 'addRelationship', 'Failed to add relationship.', FSIErrorTypes.ServerError, e, {
                 relationship,
             });
             throw e;
@@ -161,7 +160,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
                 () => this.context.webAPI.deleteRecord('msfsi_relationship', id)
             );
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfRelationshipFetcher.name,
                 'deleteRelationship',
                 'Failed to delete relationship.',
@@ -192,7 +191,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
                 () => this.context.webAPI.updateRecord('msfsi_relationship', relationship.id, relationshipMappingToEntity)
             );
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfRelationshipFetcher.name,
                 'updateRelationship',
                 'Failed to update relationship.',
@@ -209,7 +208,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
     async getMainCustomerDetails(): Promise<IAbbreviatedContact> {
         const contactId = this.context.parameters?.contactId?.raw;
         if (!contactId) {
-            loggerService.logError(PcfRelationshipFetcher.name, 'getMainCustomerDetails', 'Contact id is null or empty.', FSIErrorTypes.ServerError);
+            this.loggerService.logError(PcfRelationshipFetcher.name, 'getMainCustomerDetails', 'Contact id is null or empty.', FSIErrorTypes.ServerError);
             return Promise.reject();
         }
         try {
@@ -228,7 +227,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
                 fullName: result.fullname,
             };
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfRelationshipFetcher.name,
                 'getMainCustomerDetails',
                 'Failed to fetch main customer.',
@@ -275,7 +274,7 @@ export class PcfRelationshipFetcher extends PCFBaseFetcher implements IRelations
             });
             return contactsToReturn;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfRelationshipFetcher.name,
                 'getRelevantContacts',
                 'Failed to fetch relevant contacts.',

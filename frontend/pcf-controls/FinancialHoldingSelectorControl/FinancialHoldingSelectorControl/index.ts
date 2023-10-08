@@ -3,6 +3,7 @@
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { FinancialHoldingSelectorContainer } from './container/FinancialHoldingSelectorContainer';
 import { destroy, init, updateView, loadImages } from '@fsi/pcf-common/life-cycle';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
 
 // @ts-ignore
 export class FinancialHoldingSelectorControl implements StandardControl<IInputs, IOutputs> {
@@ -33,7 +34,7 @@ export class FinancialHoldingSelectorControl implements StandardControl<IInputs,
             };
             notifyOutputChanged();
         };
-        init(context, 'MicrosoftPCF.FinancialHoldingSelector');
+        init(context, FSIControls.FinancialHoldingSelector);
         loadImages(context, ['emptyState48', 'emptyState100', 'emptyState', 'error', 'error48', 'error100', 'no_access100']);
     }
 

@@ -2,6 +2,8 @@
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { destroy, init, loadImages, updateView } from '@fsi/pcf-common/dist/life-cycle';
 import { CustomerSnapshotContainer } from '@fsi/pcf-common/dist/containers/CustomerSnapshot/CustomerSnapshotContainer';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
+
 // @ts-ignore
 export class CustomerSnapshotControl implements StandardControl<IInputs, IOutputs> {
     // Power Apps component framework delegate which will be assigned to this object which would be called whenever any update happens.
@@ -23,7 +25,7 @@ export class CustomerSnapshotControl implements StandardControl<IInputs, IOutput
      * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.
      */
     public async init(context, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container: HTMLDivElement) {
-        init(context, 'MicrosoftPCF.CustomerSnapshotControl');
+        init(context, FSIControls.CustomerSnapshotControl);
         loadImages(context, ['emptyState48', 'emptyState100', 'emptyState', 'error', 'error48', 'error100']);
         this._notifyOutputChanged = notifyOutputChanged;
         this._container = container;

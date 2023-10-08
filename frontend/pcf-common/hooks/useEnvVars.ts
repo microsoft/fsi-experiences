@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react';
 import { IEnvVars } from '@fsi/core-components/dist/context/FSIContext';
 import contextService from '../services/ContextService';
 import { CommonPCFContext } from '../common-props';
-import loggerService from '../services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry';
+import { usePCFLoggerService } from './usePCFLoggerService';
+import { ILoggerService } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
 
 const fetchXML = `
     <fetch>
@@ -61,7 +62,7 @@ const retrieveAndUpdatedEnvVars = async (context: CommonPCFContext) => {
     return env;
 };
 
-const getDynamicEnvVars = async () => {
+const getDynamicEnvVars = async (loggerService: ILoggerService) => {
     const context = contextService.geContext();
     if (!context) {
         return undefined;
@@ -83,13 +84,14 @@ const getDynamicEnvVars = async () => {
 
 const useEnvVars = (enabled?: boolean): IEnvVars | undefined => {
     const [dynamicEnvVars, setDynamicEnvVars] = useState<IEnvVars>();
+    const loggerService = usePCFLoggerService();
 
     useEffect(() => {
         if (!enabled) {
             return;
         }
 
-        getDynamicEnvVars()
+        getDynamicEnvVars(loggerService)
             .then(setDynamicEnvVars)
             .catch(e => {
                 setDynamicEnvVars({});

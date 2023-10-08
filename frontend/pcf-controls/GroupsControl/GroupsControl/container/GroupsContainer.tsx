@@ -10,6 +10,7 @@ import PcfRelationshipFetcher from '@fsi-pcf/banking-common/relationships/fetche
 import { extractEntityId } from '@fsi/pcf-common/utilities/extractEntityId';
 import { mergeConfigs } from '@fsi/pcf-common/utilities/extractContextualConfig';
 import { extractFinancialHoldingsFlags } from '@fsi-pcf/banking-common/financial-holding/financialHoldings';
+import { usePCFLoggerService } from '@fsi/pcf-common/hooks/usePCFLoggerService';
 
 export interface GroupsContainerProps extends PCFContainerProps {
     isSummaryViewContainer?: boolean;
@@ -17,12 +18,13 @@ export interface GroupsContainerProps extends PCFContainerProps {
 
 export const GroupsContainer: React.FC<GroupsContainerProps> = (props: GroupsContainerProps) => {
     const { context } = props;
+    const loggerService = usePCFLoggerService();
 
     const groupsFetcher = useMemo(() => {
-        return contextService.isTestMode() ? new MockGroupsFetcher() : new PcfGroupsFetcher(context);
+        return contextService.isTestMode() ? new MockGroupsFetcher() : new PcfGroupsFetcher(context, loggerService);
     }, [context]);
-    const relationshipsFetcher = useMemo(() => {
-        return contextService.isTestMode() ? new MockRelationshipsFetcher() : new PcfRelationshipFetcher(context);
+    const relationshipsFetcher = useMemo(() => {loggerService
+        return contextService.isTestMode() ? new MockRelationshipsFetcher() : new PcfRelationshipFetcher(context, loggerService);
     }, [context]);
 
     const contactId = extractEntityId(context.parameters?.contactId);

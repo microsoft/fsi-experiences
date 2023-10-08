@@ -12,8 +12,8 @@ import { createTheme } from '@fluentui/theme/lib/createTheme';
 import { ICurrenciesDetails } from './currency/ICurrenciesDetails';
 import { MockCurrenciesDetails } from './currency/ICurrenciesDetails.mock';
 import { DayOfWeek } from '@fluentui/react/lib/DateTimeUtilities';
-import { FSIErrorTypes, ILoggerService } from './telemetry/ILoggerService';
-import loggerServiceMock, { LoggerServiceMock } from './telemetry/ILoggerService.mock';
+import { FSIErrorTypes, ILoggerService } from './telemetry';
+import loggerServiceMock from './telemetry/ILoggerService.mock';
 import { ErrorBoundary } from '../components/containers/ErrorBoundary/ErrorBoundary';
 import { IConfig } from './config/IConfig';
 

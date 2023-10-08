@@ -2,7 +2,7 @@
 import { IInputs, IOutputs } from './generated/ManifestTypes';
 import { destroy, loadImages, updateView, init } from '@fsi/pcf-common/life-cycle';
 import { FHDetailsContainer } from './container/FHDetailsContainer';
-import { MicrosoftCloudforFinancialServices as FSIControls } from '@industry-solutions/pcf-telemetry-infra/BaseConstants';
+import { FSIControls } from '@fsi/pcf-common/constants/FSIControls.const';
 
 // @ts-ignore
 export class DetailedFHControl implements StandardControl<IInputs, IOutputs> {

@@ -10,8 +10,7 @@ import { fhOwnerRoles } from '@fsi/banking/constants/FHValueMaps';
 import currencyService from '@fsi/pcf-common/services/CurrencyService';
 import { getContactFHMainQueryXML } from '@fsi/banking/constants/FHQuery';
 import { geFetchInstrumentByGroupXml, getFetchGroupMemberXml } from '../GroupsQuery';
-import loggerService from '@fsi/pcf-common/services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 import { PCFBaseExecuteWebAPI } from '@fsi/pcf-common/data-layer/base/PCFBaseExecuteWebAPI';
 import { HttpStatusCode } from '@fsi/core-components/dist/dataLayerInterface/entity/Metadata/EntityMetadata';
 import { buildHiddenFinancialHoldings, createFinancialHoldingMap } from '../../financial-holding/FHDataMappers';
@@ -19,14 +18,14 @@ import { buildHiddenFinancialHoldings, createFinancialHoldingMap } from '../../f
 export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetcher {
     private fhFetcher: FHFetcher;
 
-    constructor(context: any) {
-        super(context);
-        this.fhFetcher = new FHFetcher(context);
+    constructor(context: any, protected loggerService: ILoggerService) {
+        super(context, loggerService);
+        this.fhFetcher = new FHFetcher(context, loggerService);
     }
 
     async getMainCustomerDetails(contactId: string): Promise<IGroupContact> {
         if (!contactId) {
-            loggerService.logError(PcfGroupsFetcher.name, 'getMainCustomerDetails', 'Contact id is null.', FSIErrorTypes.NullReference);
+            this.loggerService.logError(PcfGroupsFetcher.name, 'getMainCustomerDetails', 'Contact id is null.', FSIErrorTypes.NullReference);
             return Promise.reject();
         }
         try {
@@ -46,7 +45,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
                 income: result.annualincome || 0,
             };
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfGroupsFetcher.name,
                 'getMainCustomerDetails',
                 'An error occured retrieving contact record.',
@@ -91,7 +90,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
             result.fhRequestMetadata = financialHoldings.requestMetadata;
             return result;
         } catch (e: any) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfGroupsFetcher.name,
                 'handleGroupAction',
                 'An error occured executing group action.',
@@ -118,7 +117,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
             );
             return result;
         } catch (e: any) {
-            loggerService.logError(PcfGroupsFetcher.name, 'deleteGroup', 'An error occured deleting group.', FSIErrorTypes.ServerError, e);
+            this.loggerService.logError(PcfGroupsFetcher.name, 'deleteGroup', 'An error occured deleting group.', FSIErrorTypes.ServerError, e);
             throw new GroupsError(e.message, GroupErrorEnum.GROUPS_DELETE);
         }
     }
@@ -182,7 +181,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
             });
             return contactsToReturn;
         } catch (e) {
-            loggerService.logError(PcfGroupsFetcher.name, 'getRelevantContacts', 'An error occured fetching contacts.', FSIErrorTypes.ServerError, e);
+            this.loggerService.logError(PcfGroupsFetcher.name, 'getRelevantContacts', 'An error occured fetching contacts.', FSIErrorTypes.ServerError, e);
             throw e;
         }
     }
@@ -228,7 +227,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
                 'msfsi_financialholdingrole'
             );
         } catch (err) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfGroupsFetcher.name,
                 'getMemberOwnerFinancialHoldings',
                 'An error occured fetching members FH.',
@@ -324,7 +323,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
                     () => Promise.all(promises)
                 );
             } catch (ex) {
-                loggerService.logError(
+                this.loggerService.logError(
                     PcfGroupsFetcher.name,
                     'getContactGroups',
                     'An error occured executing FH and members promises.',
@@ -335,7 +334,7 @@ export class PcfGroupsFetcher extends PCFBaseExecuteWebAPI implements IGroupFetc
                 throw { groups: Array.from(groupsMap.values()), error: GroupErrorEnum.GROUPS_GET };
             }
         } catch (ex) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PcfGroupsFetcher.name,
                 'getContactGroups',
                 'An error occured getting contact groups.',

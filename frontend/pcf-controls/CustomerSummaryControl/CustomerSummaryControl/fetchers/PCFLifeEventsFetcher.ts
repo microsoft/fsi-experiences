@@ -17,17 +17,16 @@ import {
 import { JoinedCategoryConfigTypes, parseLifeEventJoinedConfigEntity, parseLifeEventEntity, parseLifeEventConfigEntity } from './PCFLifeEventsParser';
 import { getCategoryConfigQuery, getLifeEventsQuery } from './PCFLifeEventsQuery';
 import { ILifeEventsFetcher } from '@fsi/milestones/interfaces/ILifeEventsFetcher';
-import loggerService from '@fsi/pcf-common/services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 
 export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsFetcher {
-    public constructor(context: CommonPCFContext) {
-        super(context);
+    public constructor(context: CommonPCFContext, protected loggerService :ILoggerService) {
+        super(context, loggerService);
     }
 
     public async fetchLifeEvents(contactId: string, configuration: ILifeEventConfigurations): Promise<LifeEventByCategory> {
         if (!contactId) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'fetchLifeEvents', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'fetchLifeEvents', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
             return {};
         }
 
@@ -47,7 +46,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
             this.attachExternalLifeEvents(contactLifeEvents, configuration, lifeEvents);
             return lifeEvents;
         } catch (e) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'fetchLifeEvents', 'Failed to fetch life events.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'fetchLifeEvents', 'Failed to fetch life events.', FSIErrorTypes.ServerError, e, {
                 contactId,
                 configuration,
             });
@@ -80,7 +79,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
 
             return lifeEventCategories;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFLifeEventsFetcher.name,
                 'fetchLifeEventsForContactId',
                 'Failed to fetch life events for contact.',
@@ -107,7 +106,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
             // todo get string
             education = result && +result['educationcode'];
         } catch (error) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFLifeEventsFetcher.name,
                 'fetchContactDetails',
                 'Failed to fetch contact details.',
@@ -161,7 +160,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
 
             return parseLifeEventEntity(result);
         } catch (e) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'fetchLifeEventById', 'Failed to fetch life event.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'fetchLifeEventById', 'Failed to fetch life event.', FSIErrorTypes.ServerError, e, {
                 'LifeEvent id': id,
             });
             throw e;
@@ -170,7 +169,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
 
     async addLifeEvent(contactId: string, lifeEvent: LifeEvent): Promise<string> {
         if (!contactId) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'addLifeEvent', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'addLifeEvent', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
             return '';
         }
         try {
@@ -197,7 +196,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
             // TODO check typing
             return result.id as unknown as string;
         } catch (e) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'addLifeEvent', 'Failed to add life event.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'addLifeEvent', 'Failed to add life event.', FSIErrorTypes.ServerError, e, {
                 contactId,
                 lifeEvent,
             });
@@ -227,7 +226,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
                 () => this.webAPI.updateRecord(LIFE_EVENT_TABLE_NAME, lifeEvent.id, lifeEventMappingToEntity)
             );
         } catch (e) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'editLifeEvent', 'Failed to edit life event.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'editLifeEvent', 'Failed to edit life event.', FSIErrorTypes.ServerError, e, {
                 lifeEvent,
             });
             throw e;
@@ -247,7 +246,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
                 () => this.webAPI.deleteRecord(LIFE_EVENT_TABLE_NAME, id)
             );
         } catch (e) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'deleteLifeEvent', 'Failed to delete life event.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'deleteLifeEvent', 'Failed to delete life event.', FSIErrorTypes.ServerError, e, {
                 'LifeEvent id': id,
             });
             throw e;
@@ -275,7 +274,7 @@ export class PCFLifeEventsFetcher extends PCFBaseFetcher implements ILifeEventsF
 
             return result;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFLifeEventsFetcher.name,
                 'fetchConfigurations',
                 'Failed to fetch life event configurations.',

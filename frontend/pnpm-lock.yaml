@@ -290,9 +290,6 @@ importers:
       '@fsi/core-components':
         specifier: 1.0.0
         version: link:../core-components
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
     devDependencies:
       '@types/node':
         specifier: ^14.14.22
@@ -343,9 +340,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       '@types/node':
         specifier: ^10.17.49
         version: 10.17.60
@@ -380,9 +374,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       react:
         specifier: ^17.0.1
         version: 17.0.2
@@ -417,9 +408,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       react:
         specifier: ^17.0.1
         version: 17.0.2
@@ -454,9 +442,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       react:
         specifier: ^17.0.1
         version: 17.0.2
@@ -491,9 +476,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       react:
         specifier: ^17.0.1
         version: 17.0.2
@@ -528,9 +510,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       react:
         specifier: ^17.0.1
         version: 17.0.2
@@ -565,9 +544,6 @@ importers:
       '@fsi/pcf-common':
         specifier: 1.0.0
         version: link:../../pcf-common
-      '@industry-solutions/pcf-telemetry-infra':
-        specifier: ^1
-        version: 1.0.0(react-dom@17.0.2)(react@17.0.2)
       react:
         specifier: ^17.0.1
         version: 17.0.2
@@ -2143,17 +2119,6 @@ packages:
   /@humanwhocodes/object-schema@1.2.0:
     resolution: {integrity: sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==}
     dev: true
-
-  /@industry-solutions/pcf-telemetry-infra@1.0.0(react-dom@17.0.2)(react@17.0.2):
-    resolution: {integrity: sha1-Ybu+PAJHG0RHPjOlqm8lm7ELJfo=}
-    peerDependencies:
-      react: '>=16.8.0'
-      react-dom: '>=16.8.0'
-    dependencies:
-      '@aria/webjs-sdk': 1.8.9
-      react: 17.0.2
-      react-dom: 17.0.2(react@17.0.2)
-    dev: false
 
   /@istanbuljs/load-nyc-config@1.1.0:
     resolution: {integrity: sha1-/T2x1Z7PfPEh6AZQu4ZxL5tV7O0=}

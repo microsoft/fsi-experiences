@@ -8,14 +8,14 @@ import { CommonPCFContext } from '@fsi/pcf-common/common-props';
 import { fhCardInstrumentQuery } from '@fsi/banking/constants/FHQuery';
 import { ActiveStateCode, createOrUpdateFHFields, extractFromAllFHTables, extractStateFromFH } from '../FHDataMappers';
 import currencyService, { ICurrenciesDetails } from '@fsi/pcf-common/services/CurrencyService';
-import loggerService, { FSIErrorTypes } from '@fsi/pcf-common/services/LoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 
 export class FHCardsFetcher extends PCFBaseFetcher implements IFHCardsFetcher {
     private modelLabel;
     private fhFetcher: FHFetcher;
-    constructor(context: CommonPCFContext) {
-        super(context);
-        this.fhFetcher = new FHFetcher(context);
+    constructor(context: CommonPCFContext, protected loggerService: ILoggerService) {
+        super(context, loggerService);
+        this.fhFetcher = new FHFetcher(context, this.loggerService);
         this.modelLabel = context.mode.label;
     }
 
@@ -61,11 +61,11 @@ export class FHCardsFetcher extends PCFBaseFetcher implements IFHCardsFetcher {
             }
 
             if (result === false) {
-                loggerService.logInfo(FHCardsFetcher.name, 'getResult', 'The user does not have access to financial holdings cards entities.');
+                this.loggerService.logInfo(FHCardsFetcher.name, 'getResult', 'The user does not have access to financial holdings cards entities.');
                 return { financialHoldings: new Map(), hasAccess: false };
             }
 
-            loggerService.logInfo(FHCardsFetcher.name, 'getResult', 'Creating FH map after data fetch.', {
+            this.loggerService.logInfo(FHCardsFetcher.name, 'getResult', 'Creating FH map after data fetch.', {
                 'number of FH': result[0].entities.length || 0,
             });
             result[0].entities.forEach(entity => {
@@ -77,7 +77,7 @@ export class FHCardsFetcher extends PCFBaseFetcher implements IFHCardsFetcher {
             });
             return { financialHoldings: fhMap, hasAccess: true };
         } catch (e) {
-            loggerService.logError(FHCardsFetcher.name, 'getResult', 'Failed to fetch or extract cards data.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(FHCardsFetcher.name, 'getResult', 'Failed to fetch or extract cards data.', FSIErrorTypes.ServerError, e, {
                 entityName,
             });
             throw e;
@@ -98,7 +98,7 @@ export class FHCardsFetcher extends PCFBaseFetcher implements IFHCardsFetcher {
                 () => this.getResult('msfsi_customerfinancialholding', '?fetchXml=' + encodeURIComponent(fetchCreditQuery))
             );
         } catch (e) {
-            loggerService.logError(FHCardsFetcher.name, 'fetchFHCardsData', 'Failed to fetch cards data.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(FHCardsFetcher.name, 'fetchFHCardsData', 'Failed to fetch cards data.', FSIErrorTypes.ServerError, e, {
                 contactId,
             });
             throw e;

@@ -1,10 +1,13 @@
 /* istanbul ignore file */
-import { FSIErrorTypes, ILoggerService, TelemetryEventType } from './ILoggerService';
+import { ILoggerService } from './ILoggerService';
+import { TelemetryEventType, FSIErrorTypes } from './Logger.const';
 
 export class LoggerServiceMock implements ILoggerService {
     private _logsArray: string[] = [];
 
     constructor() {}
+    setPcfName(pcfName: string, featureName?: string): void {
+    }
 
     public logInteractionOrAction({ uniqueName, eventType }: { uniqueName: string; eventType?: TelemetryEventType }): void {
         this._logsArray.push(eventType + '_' + uniqueName);
@@ -14,7 +17,7 @@ export class LoggerServiceMock implements ILoggerService {
         this._logsArray.push(componentName);
     }
 
-    setGlobalData(globalData: Object) {}
+    setGlobalData(globalData: Object) { }
 
     public logInfo(componentName: string, functionName: string, traceMessage: string, additionalData?: any) {
         this._logsArray.push(traceMessage);
@@ -25,7 +28,7 @@ export class LoggerServiceMock implements ILoggerService {
     }
 
     public logStartPerfTime(componentName: string, functionName: string) {
-        return () => {};
+        return () => { };
     }
 
     public dumpTraces(): string[] {

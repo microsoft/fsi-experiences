@@ -1,12 +1,11 @@
+import { EmptyState } from '@fsi/core-components/dist/components/atoms/EmptyState';
+import { IMAGE_SRC } from '@fsi/core-components/dist/constants/ImageSrc';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { PCFContainerProps } from './containers/PCFContainer';
-import { IMAGE_SRC } from '@fsi/core-components/dist/constants/ImageSrc';
 import { CommonPCFContext } from './common-props';
+import { PCFContainerProps } from './containers/PCFContainer';
 import contextService from './services/ContextService';
-import loggerService from './services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
-import { EmptyState } from '@fsi/core-components/dist/components/atoms/EmptyState';
+import { default as loggerService } from '@fsi/core-components/dist/context/telemetry/ILoggerService.mock'
 
 export const setImage = (fileType: string, fileContent: string, imgName: string): void => {
     if (!fileContent) {
@@ -43,7 +42,6 @@ export const updateView = <T extends PCFContainerProps>(container: HTMLDivElemen
     try {
         ReactDOM.render(React.createElement(component, props), container);
     } catch (e: any) {
-        loggerService.logError('PCF', 'updateView', e.message, FSIErrorTypes.GenericError, e);
         ReactDOM.render(
             <EmptyState
                 title={props.context.resources.getString('SOMETHING_WENT_WRONG')}
@@ -60,7 +58,6 @@ export const getReactElement = <T extends PCFContainerProps>(component: React.FC
     try {
         return React.createElement(component, props);
     } catch (e: any) {
-        loggerService.logError('PCF', 'updateView', e.message, FSIErrorTypes.GenericError, e);
         return (
             <EmptyState
                 title={props.context.resources.getString('SOMETHING_WENT_WRONG')}

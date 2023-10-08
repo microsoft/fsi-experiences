@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react';
 import { FSIThemeColors, IEnvVars } from '@fsi/core-components/dist/context/FSIContext';
 import contextService from '../services/ContextService';
 import { CommonPCFContext } from '../common-props';
-import loggerService from '../services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry';
+import { usePCFLoggerService } from './usePCFLoggerService';
+import { ILoggerService } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
 
 const fetchXML = `
     <fetch>
@@ -42,7 +43,7 @@ export const retrieveAndUpdatedTheme = (context: CommonPCFContext) => {
     });
 };
 
-export const getDynamicTheme = async () => {
+export const getDynamicTheme = async (loggerService: ILoggerService) => {
     const context = contextService.geContext();
     if (!context) {
         return undefined;
@@ -82,13 +83,14 @@ export const dynamicThemesToMap = (res): FSIThemeColorsMap =>
 
 export const useDynamicTheme = (enabled: boolean, env?: IEnvVars) => {
     const [dynamicTheme, setDynamicTheme] = useState<FSIThemeColors>();
+    const loggerService = usePCFLoggerService();
 
     useEffect(() => {
         if (!enabled || !env) {
             return;
         }
 
-        getDynamicTheme()
+        getDynamicTheme(loggerService)
             .then(res => {
                 const allThemes = dynamicThemesToMap(res);
                 const envTheme = env?.theme && (allThemes[env.theme.value] || allThemes[env.theme.defaultvalue]);

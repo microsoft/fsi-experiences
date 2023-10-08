@@ -1,24 +1,11 @@
 /* istanbul ignore file */
 
-export type TelemetryAdditionalData = { [key: string]: any };
-
-export enum FSIErrorTypes {
-    NullReference = 1,
-    ServerError = 2,
-    InvalidParam = 3,
-    GenericError = 4,
-    TimeOut = 5,
-    AsyncError = 6,
-}
-
-export enum TelemetryEventType {
-    Action,
-    Interaction,
-}
+import { TelemetryAdditionalData, TelemetryEventType, FSIErrorTypes } from './Logger.const';
 
 export const createMethodName = (componentName: string, functionName: string): string => componentName + ' - ' + functionName;
 
 export interface ILoggerService {
+    setPcfName(pcfName: string, featureName?: string): void;
     setGlobalData(globalData: Object): void;
     logInfo(componentName: string, functionName: string, traceMessage: string, additionalData?: TelemetryAdditionalData): void;
     logError(

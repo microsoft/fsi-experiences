@@ -1,13 +1,11 @@
-/* eslint-disable no-useless-catch */
-import loggerService from '../../services/LoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 import { CommonPCFContext } from '../../common-props';
 import { IExecuteRequest } from './PCFBaseExecuteTypes';
 import { PCFBaseFetcher } from './PCFBaseFetcher';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
 
 export class PCFBaseExecuteWebAPI extends PCFBaseFetcher {
-    constructor(protected context: CommonPCFContext) {
-        super(context);
+    constructor(protected context: CommonPCFContext, protected loggerService: ILoggerService) {
+        super(context, loggerService);
     }
 
     public async execute(params: IExecuteRequest, returnKey?: string): Promise<any> {
@@ -29,7 +27,7 @@ export class PCFBaseExecuteWebAPI extends PCFBaseFetcher {
 
             return result;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFBaseExecuteWebAPI.name,
                 'execute',
                 `Failed to execute request: ${params.getMetadata().operationName}`,

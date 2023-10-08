@@ -10,7 +10,7 @@ import { useIsFeatureEnabled } from '@fsi/core-components/dist/context/hooks/use
 import { LIFE_EVENTS_FLAGS } from './constants/lifeEvents';
 import useContactAccessInfo from '@fsi/core-components/dist/hooks/useContactAccessInfo';
 import { useLoggerService } from '@fsi/core-components/dist/context/hooks/useLoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry';
 import { LIFE_EVENT_HIDE_LIST_CONFIGURATIONS, MAX_CRUD_OPERATION_RETRIES } from './constants/LifeEvent.consts';
 
 import {

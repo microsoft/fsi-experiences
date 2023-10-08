@@ -4,7 +4,7 @@ import { LifeEventReducer, LifeEventsActions } from '../reducers/LifeEventReduce
 import { LifeEvent } from '../interfaces/LifeEvent';
 import { IFinancialGoalsFetcher } from '../interfaces/ILifeEventsFetcher';
 import { useLoggerService } from '@fsi/core-components/dist/context/hooks/useLoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry';
 import { MAX_CRUD_OPERATION_RETRIES } from '../constants/LifeEvent.consts';
 import { IFinancialGoal } from './interfaces/FinancialGoal.interface';
 import { CURDOperationType, DialogConfig, ILifeEventContextProviderProps, OperationDataProps } from '../interfaces/LifeEvents.interface';

@@ -3,21 +3,20 @@ import { LifeEvent, LifeEventByCategory } from '@fsi/milestones/interfaces/LifeE
 import { FINANCIAL_GOAL_TABLE_NAME, LIFE_EVENT_TABLE_NAME } from './PCFLifeEventConstants';
 import { parseEventFinancialGoalEntity } from './PCFLifeEventsParser';
 import { getLifeEventsFinancialGoalsQuery, getLifeEventsFinancialGoalsQueryByLifeEventId } from './PCFLifeEventsQuery';
-import loggerService from '@fsi/pcf-common/services/LoggerService';
-import { FSIErrorTypes } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService } from '@fsi/core-components/dist/context/telemetry';
 import { PCFLifeEventsFetcher } from './PCFLifeEventsFetcher';
 import { IFinancialGoalsFetcher } from '@fsi/milestones/interfaces/ILifeEventsFetcher';
 import { CommonPCFContext } from '@fsi/pcf-common/common-props';
 import { IFinancialGoal } from '@fsi/milestones/goals/interfaces/FinancialGoal.interface';
 
 export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IFinancialGoalsFetcher {
-    public constructor(context: CommonPCFContext) {
-        super(context);
+    public constructor(context: CommonPCFContext, protected loggerService : ILoggerService) {
+        super(context, loggerService);
     }
 
     public async addFinancialGoal(contactId: string, financialGoal: IFinancialGoal): Promise<string> {
         if (!contactId) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'addFinancialGoal', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'addFinancialGoal', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
             return '';
         }
         try {
@@ -44,7 +43,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
 
             return result.id as unknown as string;
         } catch (e) {
-            loggerService.logError(PCFLifeEventsFetcher.name, 'addFinancialGoal', 'Failed to add financial goal.', FSIErrorTypes.ServerError, e, {
+            this.loggerService.logError(PCFLifeEventsFetcher.name, 'addFinancialGoal', 'Failed to add financial goal.', FSIErrorTypes.ServerError, e, {
                 contactId,
                 financialGoal,
             });
@@ -73,7 +72,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
                 () => this.webAPI.updateRecord(FINANCIAL_GOAL_TABLE_NAME, financialGoal.id, financialGoalMappingToEntity)
             );
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFLifeEventsFetcher.name,
                 'editFinancialGoalOfEvent',
                 'Failed to edit financial goal.',
@@ -89,7 +88,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
 
     public async fetchLifeEvents(contactId: string, configuration: ILifeEventConfigurations): Promise<LifeEventByCategory> {
         if (!contactId) {
-            loggerService.logError(PCFFinancialGoalsFetcher.name, 'fetchFinancialGoals', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
+            this.loggerService.logError(PCFFinancialGoalsFetcher.name, 'fetchFinancialGoals', 'Contact id is null or empty.', FSIErrorTypes.InvalidParam);
             return {};
         }
         try {
@@ -108,7 +107,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
             this.attachExternalLifeEvents(contactLifeEvents, configuration, lifeEvents);
             return lifeEvents;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFFinancialGoalsFetcher.name,
                 'fetchFinancialGoals',
                 'Failed to fetch events and financial goals.',
@@ -146,7 +145,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
             });
             return lifeEventCategories;
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFFinancialGoalsFetcher.name,
                 'fetchFinancialGoalsForContactId',
                 'Failed to fetch events and financial goals for contact.',
@@ -173,7 +172,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
                 () => this.webAPI.deleteRecord(FINANCIAL_GOAL_TABLE_NAME, id)
             );
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFLifeEventsFetcher.name,
                 'deleteFinancialGoal',
                 'Failed to delete financial goal.',
@@ -202,7 +201,7 @@ export class PCFFinancialGoalsFetcher extends PCFLifeEventsFetcher implements IF
 
             return parseEventFinancialGoalEntity(result);
         } catch (e) {
-            loggerService.logError(
+            this.loggerService.logError(
                 PCFLifeEventsFetcher.name,
                 'fetchFinancialGoalByLifeEventId',
                 'Failed to fetch financial goal by life event id.',

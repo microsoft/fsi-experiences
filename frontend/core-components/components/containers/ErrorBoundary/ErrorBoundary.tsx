@@ -1,6 +1,6 @@
 import React from 'react';
 import { IMAGE_SRC } from '../../../constants/ImageSrc';
-import { FSIErrorTypes, ILoggerService } from '../../../context/telemetry/ILoggerService';
+import { FSIErrorTypes, ILoggerService } from '../../../context/telemetry';
 import { EmptyState } from '../../atoms/EmptyState/EmptyState';
 
 export interface IErrorBoundaryProps {

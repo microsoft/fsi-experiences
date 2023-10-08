@@ -12,24 +12,28 @@ import { IFeatureFlags } from '@fsi/core-components/dist/context/config/IConfig'
 import { CommonPCFContext } from '@fsi/pcf-common/common-props';
 import { ILifeEventsFetcher } from '@fsi/milestones/interfaces/ILifeEventsFetcher';
 import { LIFE_EVENT_HIDE_LIST_CONFIGURATIONS } from '@fsi/milestones/constants/LifeEvent.consts';
+import { usePCFLoggerService } from '@fsi/pcf-common/hooks/usePCFLoggerService';
+import { ILoggerService } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
 
 export interface LifeEventsContainerProps extends PCFContainerProps {}
 interface IFetcherPickerProps {
     context: CommonPCFContext;
     settings?: IFeatureFlags;
+    loggerService: ILoggerService;
 }
+
 
 const extractLifeEventsConfigSets = context => ({
     configSets: extractContextualSets(context, [LIFE_EVENT_HIDE_LIST_CONFIGURATIONS]),
 });
 
-const fetcherPicker = ({ context, settings }: IFetcherPickerProps): ILifeEventsFetcher => {
+const fetcherPicker = ({ context, settings, loggerService }: IFetcherPickerProps): ILifeEventsFetcher => {
     const [isTestMode, isFinancialGoalsFeatureOn] = [contextService.isTestMode(), settings?.enableFinancialGoals];
 
     if (isFinancialGoalsFeatureOn) {
-        return isTestMode ? new MockFinancialGoalFetcher() : new PCFFinancialGoalsFetcher(context);
+        return isTestMode ? new MockFinancialGoalFetcher() : new PCFFinancialGoalsFetcher(context, loggerService);
     } else {
-        return isTestMode ? new MockLifeEventsFetcher() : new PCFLifeEventsFetcher(context);
+        return isTestMode ? new MockLifeEventsFetcher() : new PCFLifeEventsFetcher(context, loggerService);
     }
 };
 
@@ -39,9 +43,10 @@ export const LifeEventsContainer: React.FC<LifeEventsContainerProps> = (props: L
     const { context } = props;
     const contactId = extractEntityId(context.parameters?.contactId);
     const config = extractLifeEventsConfig(context);
+    const loggerService = usePCFLoggerService();
 
     const fetcher = useMemo(() => {
-        return fetcherPicker({ context: context, settings: config.flags });
+        return fetcherPicker({ context: context, settings: config.flags, loggerService: loggerService });
     }, [config.flags, context]);
 
     return context ? (

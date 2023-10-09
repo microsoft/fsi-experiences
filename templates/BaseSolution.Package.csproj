@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Package</DynamicsProjectType>
+	  <ModuleName>BaseSolution</ModuleName>
+    <AnchorSolutionName>FSIBaseSolutionAnchor</AnchorSolutionName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PackageExtra\**\*.*">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="$(ModuleName)\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIBaseSolution_managed.zip">
+      <Link>$(ModuleName)\FSIBaseSolution_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIBaseSolutionAnchor_managed.zip">
+      <Link>$(ModuleName)\FSIBaseSolutionAnchor_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\FSIBaseSolution\FSIBaseSolution.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIBaseSolutionAnchor\FSIBaseSolutionAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+
+</Project>

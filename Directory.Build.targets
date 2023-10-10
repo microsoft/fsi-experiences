@@ -43,19 +43,6 @@
 		<TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
 	</PropertyGroup>
 
-	<!--leaving this part in comment since we might will need it for local development, in case there is a need for a sign key that is self signed-->
-	<!-- <PropertyGroup Condition="'$(DynamicsProjectType)' == 'Plugin'">
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)\build\config\key.snk</AssemblyOriginatorKeyFile>
-    <DelaySign>false</DelaySign>
-  </PropertyGroup> -->
-
-	<PropertyGroup>
-		<SignAssembly>true</SignAssembly>
-		<AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)\build\config\mssharedlibsn1024.snk</AssemblyOriginatorKeyFile>
-		<DelaySign>true</DelaySign>
-	</PropertyGroup>
-
 	<PropertyGroup>
 		<UseBaseVersion>true</UseBaseVersion>
 		<UsePackageVersion>true</UsePackageVersion>

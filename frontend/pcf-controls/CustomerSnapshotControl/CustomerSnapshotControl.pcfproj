@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PowerAppsTargetsPath>$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\PowerApps</PowerAppsTargetsPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DynamicsProjectType>PCFControl</DynamicsProjectType>
+    <TargetModuleLocation>$(WSRoot)Modules\UCP-Retail-Banking\FSIRetailBankingCoreControls</TargetModuleLocation>
+    <ControlManifest>CustomerSnapshotControl\ControlManifest.Input.xml</ControlManifest>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Name>CustomerSnapshotControl</Name>
+    <ProjectGuid>d623a12e-896f-4b9d-8eb7-f6e39806f087</ProjectGuid>
+    <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\.gitignore"/>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\bin\**"/>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\obj\**"/>
+    <ExcludeDirectories Include="$(OutputPath)\**"/>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\*.pcfproj"/>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\*.pcfproj.user"/>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\*.sln"/>
+    <ExcludeDirectories Include="$(MSBuildThisFileDirectory)\node_modules\**"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)\**" Exclude="@(ExcludeDirectories)"/>
+  </ItemGroup>
+
+  <Import Project="$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Pcf.targets" Condition="Exists('$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Pcf.targets')"/>
+
+</Project>

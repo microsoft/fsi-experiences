@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d23ee546-4dcf-4902-82a9-d6cf4099dace}" IsUserDefined="1" labelid="{5abf20ac-aa56-4c33-b1c0-e4f8fcce60d0}" name="Financial holding investments details" contenttype="cardSections">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e625a6dc-f3f4-42ec-8642-60a836b1970c}" labelid="{7e199273-d7b8-47c4-95d9-a2c28417fc8f}" name="Financial holding investments details">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{89ca22a8-7b0d-4ad7-8331-0d923e849e26}" labelid="{8c901e16-18f1-4aa8-8fb4-883030c1f41b}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Financial holding investments details" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_name" uniqueid="{9cdae0ba-013e-ec60-5d81-4d1b828099dd}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14427f23-e5fd-409c-9b65-dcb4bd2e4838}" visible="false" labelid="{5d1dc999-1316-416e-af5e-a26b45e07e25}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="PORTFOLIO_ASSETS_SECTION" id="a767ce7c-477d-4a0d-a66c-0b853aba5b28" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Portfolio assets" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{681bdd1b-d3c8-4276-8b43-ff8a98d760b9}" rowspan="4" colspan="1" auto="true" showlabel="true">
+                        <labels>
+                          <label description="Portfolio assets" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="PORTFOLIO_ASSETS_SUNBGRID" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>msfsi_financialholdinginstrument</TargetEntityType>
+                            <ViewId>{6457ECD7-15EA-EC11-BB3D-0022480694E4}</ViewId>
+                            <ViewIds>{B23ED29B-0D36-48BD-BBD1-6ECB0108E29D},{6457ECD7-15EA-EC11-BB3D-0022480694E4}</ViewIds>
+                            <RelationshipName>msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6375590c-6fd9-4930-b627-6d60552c522d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f745f359-6c20-4700-887a-2bd2f13584a1}" showlabel="false" labelid="{b93453fa-90f0-4b81-96eb-0b891c190089}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{40845a8a-043e-4807-88c3-9a462b605141}" showlabel="false" labelid="{1c44e9c8-8004-493c-ba68-31fad3d04bc4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{22f83621-89ea-41aa-bc38-449ed719bed9}" showlabel="false" labelid="{21b81cb9-5a57-4a1b-8314-3ff590fa126a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{49a8e8d6-afd5-4da9-a6cc-9ad040d4cc02}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fb9ed15c-3641-46d8-b453-453e5c3d0a7b}" showlabel="false" labelid="{688609ba-2531-4b59-8bca-2db8994f4d3a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f10af651-591d-49c1-bb8d-57ad26c38e7a}" showlabel="false" labelid="{8977b4dc-6f25-401f-86df-79d2cc8227b9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f0dd7001-0a2a-45c8-8d7b-e62cbc0e623a}" showlabel="false" labelid="{0694a568-a023-43ca-8e5c-2cbefa3e833f}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{9cdae0ba-013e-ec60-5d81-4d1b828099dd}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_name</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.FinancialHoldingInformationControl">
+            <parameters>
+              <dummy>msfsi_name</dummy>
+              <financialHoldingId type="SingleLine.Text">msfsi_financialholdingid</financialHoldingId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.FinancialHoldingInformationControl">
+            <parameters>
+              <dummy>msfsi_name</dummy>
+              <financialHoldingId type="SingleLine.Text">msfsi_financialholdingid</financialHoldingId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.FinancialHoldingInformationControl">
+            <parameters>
+              <dummy>msfsi_name</dummy>
+              <financialHoldingId type="SingleLine.Text">msfsi_financialholdingid</financialHoldingId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{BBCDF624-6E99-EC11-B400-00224832DB88}" />
+        <Role Id="{D517896C-A002-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{C47254DA-AF02-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{F723A10D-9F02-ED11-82E4-000D3A5CA22E}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Financial holding investments details" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

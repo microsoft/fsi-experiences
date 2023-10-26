@@ -1,0 +1,9 @@
+{
+    "CARDS": "{{cardNumbers}} cartões",
+    "NO_OWNED_CARDS": "Nenhum cartão de propriedade",
+    "EXPIRES": "EXPIRA",
+    "EXPIRES_SOON": "EXPIRA EM BREVE",
+    "EXPIRED": "EXPIRADO",
+    "BANKING_CARD_DETAILS": "Detalhes do cartão bancário {{index}}",
+    "CUSTOMER_INFORMATION_RESTRICTED": "Estas informações do cliente estão ocultas"
+}

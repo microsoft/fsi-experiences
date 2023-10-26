@@ -1,0 +1,18 @@
+{
+    "INITIAL_AMOUNT": "Initial amount",
+    "OUTSTANDING_BALANCE": "Outstanding balance",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "Outstanding principal amount",
+    "PAID_PRINCIPAL_AMOUNT": "Paid principal amount",
+    "CURRENT_BALANCE": "Current balance",
+    "BOOK_BALANCE": "Book balance",
+    "FH_CUSTOMER_HOLDING": "Customer holdings",
+    "FH_ASSOCIATED_HOLDING": "Associated holdings",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "Detailed Financial Holdings",
+    "FH_ID_ACCOUNT": "Account ID",
+    "FH_ID_LOAN": "Loan ID",
+    "FH_ID_INVESTMENT": "Investment ID",
+    "FH_ID_SAVING": "Long-term savings ID",
+    "FH_ID_CREDIT": "Credit line ID",
+    "PORTFOLIO_ALLOCATION": "Portfolio allocation",
+    "NO_ASSETS_YET": "No assets yet"
+}

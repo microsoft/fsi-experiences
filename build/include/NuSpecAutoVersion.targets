@@ -1,0 +1,100 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="ReadArtifactVersion" AssemblyFile="$(BuildFolderRoot)\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="ReadArtifactName" AssemblyFile="$(BuildFolderRoot)\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="ResolveArtifactVersion" AssemblyFile="$(BuildFolderRoot)\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="SetArtifactVersion" AssemblyFile="$(BuildFolderRoot)\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  
+  <PropertyGroup>
+    <PackageNuspec Condition="'$(PackageNuspec)' == '' OR !Exists('$(PackageNuspec)')">$(BuildFolderRoot)\config\package.nuspec</PackageNuspec>
+    <PackageVersion Condition="'$(PackageVersion)' == ''"></PackageVersion>
+    <SkipArtifactVersioning Condition="'$(SkipArtifactVersioning)' == ''">False</SkipArtifactVersioning>
+    <TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
+    <ContextPackageVersion>None</ContextPackageVersion>
+    <QueriedPackageVersion>None</QueriedPackageVersion>
+    <DynamicPackageVersion>None</DynamicPackageVersion>
+  </PropertyGroup>
+
+	<Target Name="ResolvePackageVersion">
+    <!-- resolve properties before versioning operation -->
+    <PropertyGroup>
+      <ArtifactBaseVersion Condition="'$(ArtifactBaseVersion)' == ''">$(PackageVersion)</ArtifactBaseVersion>
+      <ReturnNextVersion Condition="'$(ReturnNextVersion)' == ''">True</ReturnNextVersion>
+      <UseBaseVersion Condition="'$(UseBaseVersion)' == ''">False</UseBaseVersion>
+      <UseBaseVersion Condition="'$(DynamicPackageVersion)' != 'None' AND '$(DynamicPackageVersion)' != ''">True</UseBaseVersion>
+      <Artifact>$(PackageIdentity)</Artifact>
+      <TF_BUILD Condition="'$(TF_BUILD)' == ''">False</TF_BUILD>
+    </PropertyGroup>
+
+    <!-- display known information before versioning -->
+    <Message Text="Start package artifact versioning.." />
+    <Message Text="UseBaseVersion value is: $(UseBaseVersion)" Importance="High" />
+    <Message Text="ReturnNextVersion value is: $(ReturnNextVersion)" Importance="High" />
+    <Message Text="Package nuspec is: $(PackageNuspec)" />
+    <Message Text="Package unique name is: $(PackageIdentity)" />
+    <Message Text="Package version: $(PackageVersion)" />
+
+    <Message Text="Artifact is: $(Artifact)" />
+    <Message Text="Artifact base version will be: $(ArtifactBaseVersion)" Importance="High"/>
+    <Message Text="ArtifactVersioning tool will be skipped: $(SkipArtifactVersioning)" />
+    <Message Text="Triggered from build pipeline: $(TF_BUILD)" />
+
+    <!-- resolve version using ArtifactVersioning tool -->
+    <ResolveArtifactVersion Condition="'$(TF_BUILD)' == 'True' AND '$(Artifact)' != '' AND '$(SkipArtifactVersioning)' != 'True'"
+      Artifact="$(Artifact)" BaseVersion="$(ArtifactBaseVersion)" ReturnNextVersion="$(ReturnNextVersion)" UseBaseVersion="$(UseBaseVersion)"
+      AutoVersionURL="$(AutoVersionURL)" AutoVersionUserName="$(AutoVersionUserName)" AutoVersionUserPassword="$(AutoVersionPassword)">
+      <Output TaskParameter="ResolvedVersion" PropertyName="ResolvedArtifactVersion" />
+    </ResolveArtifactVersion>
+
+    <PropertyGroup>
+      <ResolvedArtifactVersion Condition="'$(ResolvedArtifactVersion)' == ''">$(ArtifactBaseVersion)</ResolvedArtifactVersion>
+    </PropertyGroup>
+    
+    <Message Text="NuSpec Artifact $(Artifact) resolved version will be: $(ResolvedArtifactVersion)" Importance="High" />
+
+    <!-- update package nuspec xml when version changed -->
+    <SetArtifactVersion Type="Nuspec" Path="$(PackageNuspec)" Version="$(ResolvedArtifactVersion)" Condition="'$(TF_BUILD)' == 'True' AND Exists('$(PackageNuspec)')" />
+    <Message Text="Completed package artifact versioning." />
+  
+     <!-- set artifact version as build pipeline version -->
+    <Message Condition="'$(UseAsPipelineBuildVersion)' == 'True'" Text="Reflecting as pipeline build version.." />
+    <Exec Condition="'$(TF_BUILD)' == 'True' AND '$(UseAsPipelineBuildVersion)' == 'True'"
+      Command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(SetBuildPipelineNumberScriptPath) -buildNumber $(ResolvedArtifactVersion) }&quot;"></Exec>
+  
+  </Target>
+
+  <Target Name="PropertyInitialization" BeforeTargets="ResolvePackageVersion">
+    <!-- display package context version -->
+    <PropertyGroup>
+      <ContextPackageVersion Condition="'$(PackageVersion)' != ''">$(PackageVersion)</ContextPackageVersion>
+    </PropertyGroup>
+
+    <!-- read package metadata and version information when not specified; only executes when no context version -->
+    <ReadArtifactVersion Type="Nuspec" Path="$(PackageNuspec)" Condition="'$(PackageVersion)' == '' AND Exists('$(PackageNuspec)')">
+      <Output TaskParameter="Version" PropertyName="QueriedPackageVersion" />
+    </ReadArtifactVersion>
+
+    <ReadArtifactName Type="Nuspec" Path="$(PackageNuspec)" Condition="Exists('$(PackageNuspec)')">
+      <Output TaskParameter="Name" PropertyName="QueriedPackageUniqueName" />
+    </ReadArtifactName>
+
+    <PropertyGroup>
+      <PackageVersion Condition="'$(QueriedPackageVersion)' != 'None' AND '$(PackageVersion)' == ''">$(QueriedPackageVersion)</PackageVersion>
+      <PackageIdentity>$(QueriedPackageUniqueName)</PackageIdentity>
+    </PropertyGroup>
+
+    <!-- retrieve provided assembly version from dynamic properties; overrides context and queried versions -->
+    <ItemGroup>
+      <_Artifact Include="$(PackageIdentity.Replace(&quot;.&quot;, &quot;&quot;))" />
+    </ItemGroup>
+
+    <PropertyGroup>
+      <DynamicPackageVersion Condition="'$(%(_Artifact.Identity))' != ''">$(%(_Artifact.Identity))</DynamicPackageVersion>
+      <PackageVersion Condition="'$(DynamicPackageVersion)' != 'None' AND '$(DynamicPackageVersion)' != ''">$(DynamicPackageVersion)</PackageVersion>
+    </PropertyGroup>
+
+    <Message Text="Context package version is: $(ContextPackageVersion)" />
+    <Message Text="Queried package version is: $(QueriedPackageVersion)" />
+    <Message Text="Dynamic package version is: $(DynamicPackageVersion)" />
+    <Message Text="Version to use is: $(PackageVersion)" />
+  </Target>
+</Project>

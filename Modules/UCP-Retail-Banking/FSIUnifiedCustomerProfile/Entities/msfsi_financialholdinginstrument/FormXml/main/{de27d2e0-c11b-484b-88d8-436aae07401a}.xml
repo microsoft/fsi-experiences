@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{de27d2e0-c11b-484b-88d8-436aae07401a}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{ffcf9fbb-2f8c-4a52-869c-f28c49c67466}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{36638bb4-e708-48c6-95de-58375b367fbe}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{9a3f3b4b-2df4-4a8b-b7af-9efe7a4d0794}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" uniqueid="{08c11651-32de-10c9-b3d5-a0a141a9116e}" disabled="true" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{190ab53f-61a1-4eae-b2c1-37485642dacf}" showlabel="true" locklevel="1" ordinalvalue="10001" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{0a733493-b072-2169-3588-a4644204cbe9}" disabled="true" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13e7c251-64a2-aed9-0920-5c10256c2345}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Financial holding" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_financialholding" disabled="true" uniqueid="{26ba6c79-bdea-15dd-ce59-eadb83a872e6}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58a21077-5c4b-9d29-bdbd-81ca3a44cc1e}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Financial instrument type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdinginstrumenttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialholdinginstrumenttype" disabled="true" uniqueid="{0d3dbc45-9571-17b1-3566-b1632b53801e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{885771fd-bb03-49d3-9518-79b734226ceb}" auto="false" showlabel="false" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="New QV control 1629201060762" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1629201060762" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="msfsi_details" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_fi_card"&gt;a4bc654e-51ff-eb11-94ef-002248047c4c&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fi_directdebit"&gt;226fb4b7-7ad9-43b8-90fa-26adb379c917&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fi_overdraft"&gt;f00d8453-96ad-4ef3-841f-6d45938cc50e&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fi_standingorder"&gt;129f803b-dbef-45f5-80e3-31939cf2ec35&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+      <header id="{fdf24010-dc01-4e0c-9a2d-6308d05dea90}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </header>
+      <footer id="{97a63c98-2f43-4d2b-84ae-95474d40aae1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

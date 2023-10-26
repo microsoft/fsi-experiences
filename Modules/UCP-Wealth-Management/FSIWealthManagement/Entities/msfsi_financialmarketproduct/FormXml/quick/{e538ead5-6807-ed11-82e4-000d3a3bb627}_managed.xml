@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e538ead5-6807-ed11-82e4-000d3a3bb627}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="portfolio_asset_financial_market_product" showlabel="false" labelid="{b3bc9ec5-f855-49fc-a2fb-5629d5d08c31}">
+          <labels>
+            <label description="Portfolio asset financial market product" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="portfolio_asset_financial_market_product" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{21b71afd-8609-48e2-8f49-d108c03f55e6}">
+                  <labels>
+                    <label description="Portfolio asset financial market product" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{690d0d3c-bf94-43f1-a2c6-26fece0cae32}" locklevel="0" colspan="1" rowspan="1" labelid="{196adcfc-add6-4c93-9e7c-f766b50ba4ab}">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialmarketproducttype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialmarketproducttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{af83b0cc-596f-4cdc-b771-5190bf547e13}" locklevel="0" colspan="1" rowspan="1" labelid="{bcc69bd5-f04f-47e1-b1ee-0bf245bb5883}">
+                        <labels>
+                          <label description="Ticker symbol" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_tickersymbol" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_tickersymbol" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84ab13d3-6bcf-4ace-b834-7492a180c88b}" locklevel="0" colspan="1" rowspan="1" labelid="{f16083fb-8ced-4208-ac2c-121b5a5d377b}">
+                        <labels>
+                          <label description="Current price" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_currentprice" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_currentprice" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8a40ca4d-784b-4d4a-94c7-6832b143d7d1}" locklevel="0" colspan="1" rowspan="1" labelid="{6889c2f5-7bae-44a7-9335-684ee27888e3}">
+                        <labels>
+                          <label description="ISIN code" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_isincode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_isincode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Financial market product portfolio asset" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

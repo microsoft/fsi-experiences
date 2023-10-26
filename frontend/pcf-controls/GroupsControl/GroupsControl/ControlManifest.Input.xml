@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="GroupsControl" version="1.4.0" display-name-key="GroupsControl" description-key="GroupsControl description" control-type="standard">
+    <type-group name="Contact">
+      <type>SingleLine.Text</type>
+      <type>Lookup.Customer</type>
+      <type>Lookup.Simple</type>
+    </type-group>
+    <property name="dummy" display-name-key="Dummy_Key" description-key="Dummy_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="contactId" display-name-key="Contact" description-key="Contact ID/Lookup" of-type-group="Contact" usage="input" required="true" />
+    <property name="showFinancialInsights" display-name-key="FINANCIAL_INSIGHTS_FEATURE" description-key="FINANCIAL_INSIGHTS_FEATURE_DESC" of-type="Enum" usage="input" default-value="1">
+      <value name="show" display-name-key="SHOW" description-key="FINANCIAL_INSIGHTS_FEATURE_SHOW_DESC">1</value>
+      <value name="hide" display-name-key="HIDE" description-key="FINANCIAL_INSIGHTS_FEATURE_HIDE_DESC">0</value>
+    </property>
+    <property name="hideFinancialHoldingCategories" display-name-key="FINANCIAL_HOLDING_HIDE_CATEGORIES" description-key="FINANCIAL_HOLDING_HIDE_CATEGORIES_DESC" of-type="SingleLine.Text" usage="input" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <resx path="strings/GroupsControl.3082.resx" version="1.0.0" />
+      <resx path="strings/GroupsControl.1040.resx" version="1.0.0" />
+      <resx path="strings/GroupsControl.1031.resx" version="1.0.0" />
+      <resx path="strings/GroupsControl.1043.resx" version="1.0.0" />
+      <resx path="strings/GroupsControl.1036.resx" version="1.0.0" />
+      <resx path="strings/GroupsControl.1033.resx" version="1.0.0" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/create.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/connect_error.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState48.png" />
+      <resx path="strings/GroupsControl.1046.resx" version="1.0.0" />
+      <resx path="strings/GroupsControl.1028.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

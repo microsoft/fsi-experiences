@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f8a9e297-7c1f-432a-9758-06a48bef5628}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{d6b57179-2bac-4a38-acd4-04ca9433db53}" IsUserDefined="1" labelid="{0443b4e6-5990-4031-bfee-576c9a6e92c9}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{abe73cc2-5404-48f2-b899-4a716779a624}" labelid="{b24c305c-7f16-4a78-bb1f-93f165627c66}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{954c56fa-2388-4029-96a6-5255aa7bba42}" labelid="{cb25de80-0f96-4cb6-b9a5-934a93d1d4cb}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a6c80bf5-3186-460b-aa6a-f763e570659a}" labelid="{7b175b6a-c550-4714-a269-0ae5d1980cc2}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bcab8be0-e432-8dd2-3123-10a03d515cbd}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Financial instrument type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialinstrumenttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialinstrumenttype" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{979ee81b-c7aa-888c-9519-a57c6a087b7e}" showlabel="true" locklevel="0" labelid="{aae8a7f3-e513-4e20-ab90-7da57a7ab8f5}">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_standingorderamount" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_standingorderamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{742310a4-b4a3-7485-8056-36905055860d}" showlabel="true" locklevel="0" labelid="{63f3ec4c-1fa8-4d08-a534-de3646f48a48}">
+                        <labels>
+                          <label description="Creditor account" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_creditoraccount" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_creditoraccount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b59ea17c-1412-a9bb-6ee2-3a1dedb5c2e1}" showlabel="true" locklevel="0" labelid="{313dc589-cd12-4501-94a7-52d7d2868a87}">
+                        <labels>
+                          <label description="Creditor name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_creditorname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_creditorname" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2139741-1574-b7e0-e1ed-8c73a0c4cc49}" showlabel="true" locklevel="0" labelid="{abaeaba3-5907-4c91-8095-735f154072d0}">
+                        <labels>
+                          <label description="Debtor account" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_debtoraccount" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_debtoraccount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c72c2899-aa21-c398-a513-ed0c1172a5de}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Day of month" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dayofmonth" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_dayofmonth" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0acb9663-d746-706e-8865-d82c68b79be9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Day of week" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dayofweek" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_dayofweek" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b755226d-1a67-a119-d6cc-7c7a714e478a}" showlabel="true" locklevel="0" labelid="{c762d2aa-b0c9-4cc3-a0cf-d1f31087bde6}">
+                        <labels>
+                          <label description="First payment date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_firstpaymentdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_firstpaymentdate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c016dd0-cd56-a280-4ebd-d4cd4210e4c4}" showlabel="true" locklevel="0" labelid="{e7e398bf-8a6f-4a60-a60c-d8d0aee2cc4c}">
+                        <labels>
+                          <label description="Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_frequency" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_frequency" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{62081101-ec25-a24d-8ba1-1ba06787d52d}" showlabel="true" locklevel="0" labelid="{0efca1b5-d0c7-4ca9-ae30-ddc15d120b7f}">
+                        <labels>
+                          <label description="Last item amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastitemamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_lastitemamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60612b98-6cba-2357-3d27-6396a8391dad}" showlabel="true" locklevel="0" labelid="{82504d49-8dd2-4ced-ba6e-94b1dd090242}">
+                        <labels>
+                          <label description="Last item date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastitemdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_lastitemdate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{979c3c1b-354b-351c-7d09-65a7c3399e8c}" showlabel="true" locklevel="0" labelid="{9e7739ee-5068-4d1a-bc9e-aa0b0f120e1d}">
+                        <labels>
+                          <label description="Last item status" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastitemstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_lastitemstatus" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87dd09b7-986a-25da-3058-ed5213ed81bc}" showlabel="true" locklevel="0" labelid="{cd6ba680-7ec9-43d3-85cf-6864f62d5227}">
+                        <labels>
+                          <label description="Last item status reason" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastitemstatusreason" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_lastitemstatusreason" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50431b99-83cd-1e12-2d58-575188ceda44}" showlabel="true" locklevel="0" labelid="{d11c8b9b-7646-418d-9273-b580255ac6f3}">
+                        <labels>
+                          <label description="Next item amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nextitemamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_nextitemamount" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75b210a3-96e7-7cee-1849-cd752d585c8c}" showlabel="true" locklevel="0" labelid="{ba72eae9-0ecd-4b49-9b22-744f7827c5be}">
+                        <labels>
+                          <label description="Next item date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nextitemdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_nextitemdate" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FI standing order main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

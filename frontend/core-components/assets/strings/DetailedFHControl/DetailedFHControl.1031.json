@@ -1,0 +1,17 @@
+{
+    "INITIAL_AMOUNT": "Anfangsbetrag",
+    "OUTSTANDING_BALANCE": "Ausstehender Saldo",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "Ausstehender Kapitalbetrag",
+    "CURRENT_BALANCE": "Aktueller Saldo",
+    "BOOK_BALANCE": "Saldo",
+    "FH_CUSTOMER_HOLDING": "Kundenverträge",
+    "FH_ASSOCIATED_HOLDING": "Beziehung zu Fremdverträgen",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "Detaillierte Finanzanlagen",
+    "FH_ID_ACCOUNT": "Konto-ID",
+    "FH_ID_LOAN": "Darlehens-ID",
+    "FH_ID_INVESTMENT": "Investitions-ID",
+    "FH_ID_SAVING": "ID der langfristigen Sparanlage",
+    "FH_ID_CREDIT": "Kreditlinien-ID",
+    "PORTFOLIO_ALLOCATION": "Portfoliozuteilung",
+    "NO_ASSETS_YET": "Noch keine Anlagen"
+}

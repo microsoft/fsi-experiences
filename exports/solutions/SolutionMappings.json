@@ -1,0 +1,24 @@
+{
+  "SolutionMappings": [
+    {
+      "ProjectName": "FSIUnifiedCustomerProfile",
+      "SolutionName": "UnifiedCustomerProfileApplication"
+    },
+    {
+      "ProjectName": "FSIUnifiedCustomerProfileAnchor",
+      "SolutionName": "UnifiedCustomerProfileAnchor"
+    },
+    {
+      "ProjectName": "FSIRetailBankingCoreControls",
+      "SolutionName": "RetailBankingCoreControls"
+    },
+    {
+      "ProjectName": "FSIRetailBankingCoreComponents",
+      "SolutionName": "RetailBankingCoreComponents"
+    },
+    {
+      "ProjectName": "FSIUnifiedCustomerProfileSecurityRoles",
+      "SolutionName": "UnifiedCustomerProfileSecurityRoles"
+    }
+  ]
+}

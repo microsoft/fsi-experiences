@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSIWealthManagement_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="15062:Description,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,WealthManagement" xml:space="preserve">
+    <value>Wealth Management</value>
+    <comment> 'WealthManagement' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Contact{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Unified client profile</value>
+    <comment>'Contact' : Description for systemform in Entity FormXml ID: '{42e7a30a-0eb0-ec11-9840-002248081bab}'</comment>
+  </data>
+  <data name="1:Description,Financial holding instrument{557b9647-6507-ed11-82e4-000d3a3bb9c1}" xml:space="preserve">
+    <value>A form for this portfolio asset.</value>
+    <comment>'Financial holding instrument' : Description for systemform in Entity FormXml ID: '{557b9647-6507-ed11-82e4-000d3a3bb9c1}'</comment>
+  </data>
+  <data name="1:Description,Financial holding{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Financial holding' : Description for systemform in Entity FormXml ID: '{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}'</comment>
+  </data>
+  <data name="1:Description,msfsi_fi_positionmsfsi_performance" xml:space="preserve">
+    <value>Percent performance of a portfolio since inception</value>
+    <comment>'msfsi_fi_position' : Description for Attribute 'msfsi_performance' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_fi_positionmsfsi_performance" xml:space="preserve">
+    <value>% Performance lifetime</value>
+    <comment>'msfsi_fi_position' : displayname for Attribute 'msfsi_performance' on Entity</comment>
+  </data>
+  <data name="1:label,Contact02241e37-2fa8-48ef-acb0-ba0f8f555602" xml:space="preserve">
+    <value>Financial holdings</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '02241e37-2fa8-48ef-acb0-ba0f8f555602'</comment>
+  </data>
+  <data name="1:label,Contact06770296-3265-452a-adeb-843116f3d096" xml:space="preserve">
+    <value>Life events and goals</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '06770296-3265-452a-adeb-843116f3d096'</comment>
+  </data>
+  <data name="1:label,Contact0c400460-e4e6-4ad1-9a67-6bf101618af3" xml:space="preserve">
+    <value>Connections</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '0c400460-e4e6-4ad1-9a67-6bf101618af3'</comment>
+  </data>
+  <data name="1:label,Contact0f469d1f-b3d3-4c3b-969f-ea35f2b9fbf4" xml:space="preserve">
+    <value>Financial holding investments details</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '0f469d1f-b3d3-4c3b-969f-ea35f2b9fbf4'</comment>
+  </data>
+  <data name="1:label,Contact1376eade-c519-4fd0-8ee9-ca5edfa2e29b" xml:space="preserve">
+    <value>Financial holdings </value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '1376eade-c519-4fd0-8ee9-ca5edfa2e29b'</comment>
+  </data>
+  <data name="1:label,Contact3062ff9c-58b3-4bb3-9f12-c4ca129f0d3e" xml:space="preserve">
+    <value>Main household</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '3062ff9c-58b3-4bb3-9f12-c4ca129f0d3e'</comment>
+  </data>
+  <data name="1:label,Contact334f5591-bbb6-42f5-b413-1c6d632ad197" xml:space="preserve">
+    <value>Customer snapshot</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '334f5591-bbb6-42f5-b413-1c6d632ad197'</comment>
+  </data>
+  <data name="1:label,Contact60f4604c-3824-42af-803d-40d144146fb0" xml:space="preserve">
+    <value>Investments details</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '60f4604c-3824-42af-803d-40d144146fb0'</comment>
+  </data>
+  <data name="1:label,Contactac6bd5d6-4d68-4d01-9830-33e948cd0798" xml:space="preserve">
+    <value>Investments portfolios</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: 'ac6bd5d6-4d68-4d01-9830-33e948cd0798'</comment>
+  </data>
+  <data name="1:label,Contactbf62e1a6-1f1f-4b80-bba5-be9f4923d6ff" xml:space="preserve">
+    <value>Connections</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: 'bf62e1a6-1f1f-4b80-bba5-be9f4923d6ff'</comment>
+  </data>
+  <data name="1:label,Contactd24479e6-9c1d-4f5b-8b28-fb0d991a38cc" xml:space="preserve">
+    <value>Main household</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: 'd24479e6-9c1d-4f5b-8b28-fb0d991a38cc'</comment>
+  </data>
+  <data name="1:label,Contactec4b8af7-674a-45ef-9d69-b491e8ad1717" xml:space="preserve">
+    <value>Financial holding selector</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: 'ec4b8af7-674a-45ef-9d69-b491e8ad1717'</comment>
+  </data>
+  <data name="1:label,Contactf9d234d0-baa6-4815-b222-3bb038ef1c01" xml:space="preserve">
+    <value>Financial holdings</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: 'f9d234d0-baa6-4815-b222-3bb038ef1c01'</comment>
+  </data>
+  <data name="1:label,Contact{1433d1ea-30b3-4238-afa1-91970ad52691}" xml:space="preserve">
+    <value>Financial holdings</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{1433d1ea-30b3-4238-afa1-91970ad52691}'</comment>
+  </data>
+  <data name="1:label,Contact{1b27e792-5e2b-453d-838a-9e4bdd6ea6f3}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{1b27e792-5e2b-453d-838a-9e4bdd6ea6f3}'</comment>
+  </data>
+  <data name="1:label,Contact{24be01cc-16a6-8eea-8916-42d20a1097ae}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{24be01cc-16a6-8eea-8916-42d20a1097ae}'</comment>
+  </data>
+  <data name="1:label,Contact{41666605-3084-4373-8c6c-7fa7277e2cd1}" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{41666605-3084-4373-8c6c-7fa7277e2cd1}'</comment>
+  </data>
+  <data name="1:label,Contact{6dc08c50-7823-91a0-49b8-4d37a60c3b78}" xml:space="preserve">
+    <value>Investments portfolios</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{6dc08c50-7823-91a0-49b8-4d37a60c3b78}'</comment>
+  </data>
+  <data name="1:label,Contact{734fbc71-91b3-442a-b565-bfd8e119d327}" xml:space="preserve">
+    <value>Customer snapshot</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{734fbc71-91b3-442a-b565-bfd8e119d327}'</comment>
+  </data>
+  <data name="1:label,Contact{7cd5a833-b756-4c97-b22b-8f1c9f812688}" xml:space="preserve">
+    <value>Life events and goals</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{7cd5a833-b756-4c97-b22b-8f1c9f812688}'</comment>
+  </data>
+  <data name="1:label,Contact{7efb6d12-7914-4353-b71d-1720b194f9a4}" xml:space="preserve">
+    <value>FH lookup placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{7efb6d12-7914-4353-b71d-1720b194f9a4}'</comment>
+  </data>
+  <data name="1:label,Contact{96783fef-d040-409b-be28-ee4db6c47eca}" xml:space="preserve">
+    <value>Main household</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{96783fef-d040-409b-be28-ee4db6c47eca}'</comment>
+  </data>
+  <data name="1:label,Contact{b1e44ee5-8f00-405c-8f78-093d7a24ab4a}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{b1e44ee5-8f00-405c-8f78-093d7a24ab4a}'</comment>
+  </data>
+  <data name="1:label,Contact{be15137a-b24f-4306-9ad6-18cf5524c916}" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{be15137a-b24f-4306-9ad6-18cf5524c916}'</comment>
+  </data>
+  <data name="1:label,Contact{cad9afb9-1308-4e6f-8c9b-c869ae4ab3a6}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{cad9afb9-1308-4e6f-8c9b-c869ae4ab3a6}'</comment>
+  </data>
+  <data name="1:label,Contact{e9685692-19d7-4a6e-b65d-838904d7d19f}" xml:space="preserve">
+    <value>FH lookup placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{e9685692-19d7-4a6e-b65d-838904d7d19f}'</comment>
+  </data>
+  <data name="1:label,Contact{fe1c5c3b-d556-4552-a444-4781214a6d63}" xml:space="preserve">
+    <value>Summary</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '{fe1c5c3b-d556-4552-a444-4781214a6d63}'</comment>
+  </data>
+  <data name="1:label,FI positionACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>Portfolio asset FI position</value>
+    <comment>'FI position' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,FI positionAD49B5BF-256F-46A8-9C75-947146172EB9" xml:space="preserve">
+    <value>Portfolio asset FI position</value>
+    <comment>'FI position' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
+  </data>
+  <data name="1:label,FI position{19a81d3d-462e-4be9-895f-161fa99e5b37}" xml:space="preserve">
+    <value>Current value</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{19a81d3d-462e-4be9-895f-161fa99e5b37}'</comment>
+  </data>
+  <data name="1:label,FI position{327d80e9-1522-43a1-85bc-80e36d4218a0}" xml:space="preserve">
+    <value>Current value (default)</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{327d80e9-1522-43a1-85bc-80e36d4218a0}'</comment>
+  </data>
+  <data name="1:label,FI position{39b7d044-b0e7-403d-be7c-b06bd6c7d580}" xml:space="preserve">
+    <value>% Performance lifetime</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{39b7d044-b0e7-403d-be7c-b06bd6c7d580}'</comment>
+  </data>
+  <data name="1:label,FI position{694cedb6-7419-4f73-aa05-dab64a306576}" xml:space="preserve">
+    <value>Position type</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{694cedb6-7419-4f73-aa05-dab64a306576}'</comment>
+  </data>
+  <data name="1:label,FI position{81d54b63-878d-49ac-bf8c-eb9403c3bf8f}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{81d54b63-878d-49ac-bf8c-eb9403c3bf8f}'</comment>
+  </data>
+  <data name="1:label,FI position{ab3437e1-b887-4d86-ac69-3dc08e29ba64}" xml:space="preserve">
+    <value>Average security cost</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{ab3437e1-b887-4d86-ac69-3dc08e29ba64}'</comment>
+  </data>
+  <data name="1:label,FI position{ae4f071d-43e7-492b-a202-72f272198ad2}" xml:space="preserve">
+    <value>Position count</value>
+    <comment>'FI position' : label for cell in Entity FormXml ID: '{ae4f071d-43e7-492b-a202-72f272198ad2}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{190ab53f-61a1-4eae-b2c1-37485642dacf}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{190ab53f-61a1-4eae-b2c1-37485642dacf}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{260b3c51-8da9-4424-b405-77ec5885c893}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{260b3c51-8da9-4424-b405-77ec5885c893}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{30342296-701b-4458-a563-484c2fe149c8}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{30342296-701b-4458-a563-484c2fe149c8}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{36638bb4-e708-48c6-95de-58375b367fbe}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Financial holding instrument' : label for section in Entity FormXml ID: '{36638bb4-e708-48c6-95de-58375b367fbe}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{499a0c24-7870-4fc7-ab52-a0e96ff37719}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{499a0c24-7870-4fc7-ab52-a0e96ff37719}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{84a7c605-2d58-4bd7-8a58-339ef5c7583e}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{84a7c605-2d58-4bd7-8a58-339ef5c7583e}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{869ac9ee-b3ae-47ed-b365-bfd1e7a8e4ae}" xml:space="preserve">
+    <value>Financial market product portfolio asset</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{869ac9ee-b3ae-47ed-b365-bfd1e7a8e4ae}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{8d4fbe22-07a1-42a4-9111-28c4ea2acef1}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{8d4fbe22-07a1-42a4-9111-28c4ea2acef1}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{9a3f3b4b-2df4-4a8b-b7af-9efe7a4d0794}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{9a3f3b4b-2df4-4a8b-b7af-9efe7a4d0794}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{b05bde21-bf20-45b1-b9bc-b09f29ef847f}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{b05bde21-bf20-45b1-b9bc-b09f29ef847f}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{be7aa7d0-b562-40ac-ad3b-a4669f1f5e8c}" xml:space="preserve">
+    <value>FI position portfolio asset</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{be7aa7d0-b562-40ac-ad3b-a4669f1f5e8c}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{ffcf9fbb-2f8c-4a52-869c-f28c49c67466}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Financial holding instrument' : label for tab in Entity FormXml ID: '{ffcf9fbb-2f8c-4a52-869c-f28c49c67466}'</comment>
+  </data>
+  <data name="1:label,Financial holdinga767ce7c-477d-4a0d-a66c-0b853aba5b28" xml:space="preserve">
+    <value>Portfolio assets</value>
+    <comment>'Financial holding' : label for section in Entity FormXml ID: 'a767ce7c-477d-4a0d-a66c-0b853aba5b28'</comment>
+  </data>
+  <data name="1:label,Financial holding{14427f23-e5fd-409c-9b65-dcb4bd2e4838}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{14427f23-e5fd-409c-9b65-dcb4bd2e4838}'</comment>
+  </data>
+  <data name="1:label,Financial holding{22f83621-89ea-41aa-bc38-449ed719bed9}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{22f83621-89ea-41aa-bc38-449ed719bed9}'</comment>
+  </data>
+  <data name="1:label,Financial holding{40845a8a-043e-4807-88c3-9a462b605141}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{40845a8a-043e-4807-88c3-9a462b605141}'</comment>
+  </data>
+  <data name="1:label,Financial holding{681bdd1b-d3c8-4276-8b43-ff8a98d760b9}" xml:space="preserve">
+    <value>Portfolio assets</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{681bdd1b-d3c8-4276-8b43-ff8a98d760b9}'</comment>
+  </data>
+  <data name="1:label,Financial holding{89ca22a8-7b0d-4ad7-8331-0d923e849e26}" xml:space="preserve">
+    <value>Financial holding investments details</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{89ca22a8-7b0d-4ad7-8331-0d923e849e26}'</comment>
+  </data>
+  <data name="1:label,Financial holding{d23ee546-4dcf-4902-82a9-d6cf4099dace}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Financial holding' : label for tab in Entity FormXml ID: '{d23ee546-4dcf-4902-82a9-d6cf4099dace}'</comment>
+  </data>
+  <data name="1:label,Financial holding{e625a6dc-f3f4-42ec-8642-60a836b1970c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Financial holding' : label for section in Entity FormXml ID: '{e625a6dc-f3f4-42ec-8642-60a836b1970c}'</comment>
+  </data>
+  <data name="1:label,Financial holding{f0dd7001-0a2a-45c8-8d7b-e62cbc0e623a}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{f0dd7001-0a2a-45c8-8d7b-e62cbc0e623a}'</comment>
+  </data>
+  <data name="1:label,Financial holding{f10af651-591d-49c1-bb8d-57ad26c38e7a}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{f10af651-591d-49c1-bb8d-57ad26c38e7a}'</comment>
+  </data>
+  <data name="1:label,Financial holding{f745f359-6c20-4700-887a-2bd2f13584a1}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{f745f359-6c20-4700-887a-2bd2f13584a1}'</comment>
+  </data>
+  <data name="1:label,Financial holding{fb9ed15c-3641-46d8-b453-453e5c3d0a7b}" xml:space="preserve">
+    <value />
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{fb9ed15c-3641-46d8-b453-453e5c3d0a7b}'</comment>
+  </data>
+  <data name="1:label,Financial market productACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>Portfolio asset financial market product</value>
+    <comment>'Financial market product' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,Financial market productAD49B5BF-256F-46A8-9C75-947146172EB9" xml:space="preserve">
+    <value>Portfolio asset financial market product</value>
+    <comment>'Financial market product' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
+  </data>
+  <data name="1:label,Financial market product{690d0d3c-bf94-43f1-a2c6-26fece0cae32}" xml:space="preserve">
+    <value>Type</value>
+    <comment>'Financial market product' : label for cell in Entity FormXml ID: '{690d0d3c-bf94-43f1-a2c6-26fece0cae32}'</comment>
+  </data>
+  <data name="1:label,Financial market product{84ab13d3-6bcf-4ace-b834-7492a180c88b}" xml:space="preserve">
+    <value>Current price</value>
+    <comment>'Financial market product' : label for cell in Entity FormXml ID: '{84ab13d3-6bcf-4ace-b834-7492a180c88b}'</comment>
+  </data>
+  <data name="1:label,Financial market product{8a40ca4d-784b-4d4a-94c7-6832b143d7d1}" xml:space="preserve">
+    <value>ISIN code</value>
+    <comment>'Financial market product' : label for cell in Entity FormXml ID: '{8a40ca4d-784b-4d4a-94c7-6832b143d7d1}'</comment>
+  </data>
+  <data name="1:label,Financial market product{af83b0cc-596f-4cdc-b771-5190bf547e13}" xml:space="preserve">
+    <value>Ticker symbol</value>
+    <comment>'Financial market product' : label for cell in Entity FormXml ID: '{af83b0cc-596f-4cdc-b771-5190bf547e13}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{1586c39f-4e33-ed11-9db1-0022482b0e6d}" xml:space="preserve">
+    <value>Active Contacts</value>
+    <comment>'Contact' : LocalizedName for SavedQuery on Entity QueryId: '{1586c39f-4e33-ed11-9db1-0022482b0e6d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Unified client profile</value>
+    <comment>'Contact' : LocalizedName for systemform in Entity FormXml ID: '{42e7a30a-0eb0-ec11-9840-002248081bab}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI position{86c8e179-6607-ed11-82e4-000d3a3bb627}" xml:space="preserve">
+    <value>FI position portfolio asset</value>
+    <comment>'FI position' : LocalizedName for systemform in Entity FormXml ID: '{86c8e179-6607-ed11-82e4-000d3a3bb627}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial holding instrument{557b9647-6507-ed11-82e4-000d3a3bb9c1}" xml:space="preserve">
+    <value>Financial holding instrument portfolio asset</value>
+    <comment>'Financial holding instrument' : LocalizedName for systemform in Entity FormXml ID: '{557b9647-6507-ed11-82e4-000d3a3bb9c1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial holding instrument{6457ecd7-15ea-ec11-bb3d-0022480694e4}" xml:space="preserve">
+    <value>Portfolio assets</value>
+    <comment>'Financial holding instrument' : LocalizedName for SavedQuery on Entity QueryId: '{6457ecd7-15ea-ec11-bb3d-0022480694e4}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial holding{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>Financial holding investments details</value>
+    <comment>'Financial holding' : LocalizedName for systemform in Entity FormXml ID: '{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial market product{e538ead5-6807-ed11-82e4-000d3a3bb627}" xml:space="preserve">
+    <value>Financial market product portfolio asset</value>
+    <comment>'Financial market product' : LocalizedName for systemform in Entity FormXml ID: '{e538ead5-6807-ed11-82e4-000d3a3bb627}'</comment>
+  </data>
+  <data name="1:Title,ContactInfo{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,ContactMarketing{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,ContactnavActivities{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Activities</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
+  </data>
+  <data name="1:Title,ContactnavAddresses{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Addresses</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAddresses'</comment>
+  </data>
+  <data name="1:Title,ContactnavAsyncOperations{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Workflows</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAsyncOperations'</comment>
+  </data>
+  <data name="1:Title,ContactnavAudit{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Audit history</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
+  </data>
+  <data name="1:Title,ContactnavConnections{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Connections</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navConnections'</comment>
+  </data>
+  <data name="1:Title,ContactnavFeedback{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navFeedback'</comment>
+  </data>
+  <data name="1:Title,ContactnavProcessSessions{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Dialog sessions</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
+  </data>
+  <data name="1:Title,ContactnavRelationships{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Customerrelationship</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navRelationships'</comment>
+  </data>
+  <data name="1:Title,ContactnavSocialprofile{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Social profiles</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSocialprofile'</comment>
+  </data>
+  <data name="1:Title,ContactnavSubConts{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Contacts</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSubConts'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_customerfinancialholding_CustomerID{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Customer financial holdings</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_customerfinancialholding_CustomerID'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_fi_Card_Cardholder{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>FI cards</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_fi_Card_Cardholder'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_lifemoment_Contact{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Life events</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_lifemoment_Contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_relationship_Contactfrom{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Relationships</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_relationship_Contactfrom'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_relationship_Contactto{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Relationships</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_relationship_Contactto'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_groupmember_member_contact{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Group members</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_groupmember_member_contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_Group_PrimaryMember_Contact{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Groups</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_Group_PrimaryMember_Contact'</comment>
+  </data>
+  <data name="1:Title,ContactProcessCenter{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,ContactSales{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,ContactService{42e7a30a-0eb0-ec11-9840-002248081bab}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Financial holdingInfo{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Financial holdingMarketing{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Financial holdingProcessCenter{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Financial holdingSales{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Financial holdingService{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="80:Description,msfsi_UnifiedClientProfile" xml:space="preserve">
+    <value>Tailor experiences with a 360-degree view of each client to help increase assets under management and loyalty</value>
+    <comment> 'msfsi_UnifiedClientProfile' : Description for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msfsi_UnifiedClientProfile" xml:space="preserve">
+    <value>Unified client profile for wealth management</value>
+    <comment> 'msfsi_UnifiedClientProfile' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,msfsi_UnifiedClientProfile" xml:space="preserve">
+    <value>Unified client profile</value>
+    <comment>'msfsi_UnifiedClientProfile' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,NewArea_2ca26bc4NewArea_2ca26bc4" xml:space="preserve">
+    <value>Area1</value>
+    <comment>Title for Area 'NewArea_2ca26bc4' Area 'NewArea_2ca26bc4'</comment>
+  </data>
+  <data name="81:Title,NewArea_2ca26bc4NewGroup_10dec154" xml:space="preserve">
+    <value>Clients</value>
+    <comment>Title for Area 'NewArea_2ca26bc4' Group 'NewGroup_10dec154'</comment>
+  </data>
+  <data name="81:Title,NewArea_2ca26bc4NewSubarea_0808c3cb" xml:space="preserve">
+    <value>Subarea1</value>
+    <comment>Title for Area 'NewArea_2ca26bc4' SubArea 'NewSubarea_0808c3cb'</comment>
+  </data>
+</root>

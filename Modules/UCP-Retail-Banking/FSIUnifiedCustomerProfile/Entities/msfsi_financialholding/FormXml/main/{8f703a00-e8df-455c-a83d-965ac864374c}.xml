@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8f703a00-e8df-455c-a83d-965ac864374c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab verticallayout="true" id="{d23ee546-4dcf-4902-82a9-d6cf4099dace}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e625a6dc-f3f4-42ec-8642-60a836b1970c}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{89ca22a8-7b0d-4ad7-8331-0d923e849e26}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" uniqueid="{6d365e14-c08d-3e5c-cc9b-37d31d5e1da6}" disabled="true" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14427f23-e5fd-409c-9b65-dcb4bd2e4838}" showlabel="true" locklevel="1" ordinalvalue="10001" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{4a309e49-1739-8795-1331-b99c60a19dd4}" disabled="true" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{322c7912-248d-e8c3-d17c-4a0c305e211b}" showlabel="true" locklevel="0" visible="false" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Financial holding category" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdingcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialholdingcategory" disabled="true" uniqueid="{5bdd9116-3c7d-43c8-bb64-03cd4b59b105}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4146169a-379e-d780-0a9a-72738251e2aa}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Financial holding name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="true" uniqueid="{74c4b405-da65-7328-ca70-a62438026e2d}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{34f19d69-323e-4b4d-9080-6dfdb7129942}" locklevel="0" showlabel="true" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Id" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdingcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_financialholdingcode" disabled="true" uniqueid="{c3399c9c-0052-6e90-b166-7ba08934381a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{e50d97c6-11d9-47cd-a459-7f74e9763a94}" auto="false" showlabel="false" ordinalvalue="10005" solutionaction="Added">
+                        <labels>
+                          <label description="New QV control 1629188605431" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1629188605431" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="msfsi_details" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_fh_account"&gt;aed8dce9-3bff-eb11-94ef-0022480a77ca&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fh_investment"&gt;107653e2-2f8e-4cc2-b586-8348ecc225b1&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fh_creditline"&gt;a4ccb18c-099d-43e8-809d-64a21ef93c9e&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fh_loan"&gt;532e4a58-0d6a-4658-8784-12264b3b295d&lt;/QuickFormId&gt;&lt;QuickFormId entityname="msfsi_fh_saving"&gt;230ec2cc-fdaa-4c5f-aeb3-c0d557d7c680&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Financial_Holding_Instrument_tab" id="{0c963494-15e0-a22a-e633-412aaa6ea637}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="1" solutionaction="Added">
+          <labels>
+            <label description="Financial holding instrument" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{e732868d-b455-c528-87cc-abb172aa1763}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{05d3114e-a3b8-4c61-b5d2-9ea9d2a1028a}" showlabel="false" colspan="1" auto="false" rowspan="6" ordinalvalue="10000">
+                        <labels>
+                          <label description="Financial holding instruments (financial holding)" languagecode="1033" />
+                        </labels>
+                        <control id="FinancialHoldingInstrumentLink" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{bb2611e2-2446-0648-cbd1-0eb09d43a65b}">
+                          <parameters>
+                            <ViewId>{B23ED29B-0D36-48BD-BBD1-6ECB0108E29D}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding</RelationshipName>
+                            <TargetEntityType>msfsi_financialholdinginstrument</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{B23ED29B-0D36-48BD-BBD1-6ECB0108E29D}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation solutionaction="Added">
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Audit history" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions solutionaction="Added" />
+      <header id="{9e2bb62a-f4f5-4a30-9fd5-0af5bd9c70fb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </header>
+      <footer id="{acc07713-eaed-4c3f-a408-9cd243971e07}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows />
+      </footer>
+      <DisplayConditions FallbackForm="true" Order="0" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

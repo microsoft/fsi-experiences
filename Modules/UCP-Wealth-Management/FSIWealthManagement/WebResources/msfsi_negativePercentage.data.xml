@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{8c0e3f8f-2208-ed11-82e4-000d3a592d85}</WebResourceId>
+  <Name>msfsi_negativePercentage</Name>
+  <DisplayName>Negative percentage image</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_negativePercentage8C0E3F8F-2208-ED11-82E4-000D3A592D85</FileName>
+</WebResource>

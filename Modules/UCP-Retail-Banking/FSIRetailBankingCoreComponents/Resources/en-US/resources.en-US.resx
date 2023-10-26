@@ -1,0 +1,1900 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSIRetailBankingCoreComponents_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="10:Description,business_unit_msfsi_categorytypesrelations" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'business_unit_msfsi_categorytypesrelations'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'business_unit_msfsi_lifemomentcategoryconfig'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_lifemomentsconfigurations Description for EntityRelationship 'business_unit_msfsi_lifemomentsconfigurations'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_lifemomenttypeconfig" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_LifeMomentTypeConfig Description for EntityRelationship 'business_unit_msfsi_lifemomenttypeconfig'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_categorytypesrelations_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'lk_msfsi_categorytypesrelations_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_categorytypesrelations_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'lk_msfsi_categorytypesrelations_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_lifemomentcategoryconfig_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'lk_msfsi_lifemomentcategoryconfig_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_lifemomentcategoryconfig_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'lk_msfsi_lifemomentcategoryconfig_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_lifemomentsconfigurations_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_lifemomentsconfigurations Description for EntityRelationship 'lk_msfsi_lifemomentsconfigurations_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_lifemomentsconfigurations_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_lifemomentsconfigurations Description for EntityRelationship 'lk_msfsi_lifemomentsconfigurations_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_lifemomenttypeconfig_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_LifeMomentTypeConfig Description for EntityRelationship 'lk_msfsi_lifemomenttypeconfig_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_lifemomenttypeconfig_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_LifeMomentTypeConfig Description for EntityRelationship 'lk_msfsi_lifemomenttypeconfig_modifiedby'</comment>
+  </data>
+  <data name="10:Description,msfsi_contact_fhlookupplaceholder_msfsi_financi" xml:space="preserve">
+    <value />
+    <comment>Contact Description for EntityRelationship 'msfsi_contact_fhlookupplaceholder_msfsi_financi'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_lifemomentcategoryconfig_msfsi_categorytypesrelations_LifeMomentCategoryConfigurations" xml:space="preserve">
+    <value />
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'msfsi_msfsi_lifemomentcategoryconfig_msfsi_categorytypesrelations_LifeMomentCategoryConfigurations'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_lifemomenttypeconfig_msfsi_categorytypesrelations_LifeMomentTypeConfigurations" xml:space="preserve">
+    <value />
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'msfsi_msfsi_lifemomenttypeconfig_msfsi_categorytypesrelations_LifeMomentTypeConfigurations'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_categorytypesrelations" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'owner_msfsi_categorytypesrelations'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'owner_msfsi_lifemomentcategoryconfig'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_lifemomentsconfigurations Description for EntityRelationship 'owner_msfsi_lifemomentsconfigurations'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_lifemomenttypeconfig" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_LifeMomentTypeConfig Description for EntityRelationship 'owner_msfsi_lifemomenttypeconfig'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_categorytypesrelations" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'team_msfsi_categorytypesrelations'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'team_msfsi_lifemomentcategoryconfig'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_lifemomentsconfigurations Description for EntityRelationship 'team_msfsi_lifemomentsconfigurations'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_lifemomenttypeconfig" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_LifeMomentTypeConfig Description for EntityRelationship 'team_msfsi_lifemomenttypeconfig'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_categorytypesrelations" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_categorytypesrelations Description for EntityRelationship 'user_msfsi_categorytypesrelations'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_lifemomentcategoryconfig Description for EntityRelationship 'user_msfsi_lifemomentcategoryconfig'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_lifemomentsconfigurations Description for EntityRelationship 'user_msfsi_lifemomentsconfigurations'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_lifemomenttypeconfig" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_LifeMomentTypeConfig Description for EntityRelationship 'user_msfsi_lifemomenttypeconfig'</comment>
+  </data>
+  <data name="15062:Description,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,RetailBankingCoreComponents" xml:space="preserve">
+    <value>Banking Core Components</value>
+    <comment> 'RetailBankingCoreComponents' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Category types relations{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Category types relations' : Description for systemform in Entity FormXml ID: '{85a270f3-cb9b-4faf-b626-44b98b26ed8f}'</comment>
+  </data>
+  <data name="1:Description,Category types relations{99230c0e-3dcc-49a3-bd4d-9c22420b81d8}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Category types relations' : Description for systemform in Entity FormXml ID: '{99230c0e-3dcc-49a3-bd4d-9c22420b81d8}'</comment>
+  </data>
+  <data name="1:Description,Category types relations{c9be7f99-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>Active Category Types Relations owned by me</value>
+    <comment>'Category types relations' : Description for SavedQuery on Entity QueryId: '{c9be7f99-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:Description,Contactmsfsi_fhlookupplaceholder" xml:space="preserve">
+    <value />
+    <comment>'Contact' : Description for Attribute 'msfsi_fhlookupplaceholder' on Entity</comment>
+  </data>
+  <data name="1:Description,Contactmsfsi_placeholder" xml:space="preserve">
+    <value />
+    <comment>'Contact' : Description for Attribute 'msfsi_placeholder' on Entity</comment>
+  </data>
+  <data name="1:Description,Life event category config{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Life event category config' : Description for systemform in Entity FormXml ID: '{12e2b569-7de9-4cf5-bb83-55a8bf11196f}'</comment>
+  </data>
+  <data name="1:Description,Life event category config{478f288a-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>Active Life Event Category Configs owned by me</value>
+    <comment>'Life event category config' : Description for SavedQuery on Entity QueryId: '{478f288a-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:Description,Life event category config{5b095df4-154c-4947-86cc-2b754e54a26f}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Life event category config' : Description for systemform in Entity FormXml ID: '{5b095df4-154c-4947-86cc-2b754e54a26f}'</comment>
+  </data>
+  <data name="1:Description,Life event type config{a8ebb0bc-2a52-4f35-8796-beea39658c1f}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Life event type config' : Description for systemform in Entity FormXml ID: '{a8ebb0bc-2a52-4f35-8796-beea39658c1f}'</comment>
+  </data>
+  <data name="1:Description,Life event type config{c42f1c73-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>Active Life Event Type Configs owned by me</value>
+    <comment>'Life event type config' : Description for SavedQuery on Entity QueryId: '{c42f1c73-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:Description,Life event type config{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Life event type config' : Description for systemform in Entity FormXml ID: '{ec521c39-9ded-4410-86e1-5e14566e3db0}'</comment>
+  </data>
+  <data name="1:Description,Life events configurations{0a946f85-38fc-45ea-9353-25c7a0488691}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Life events configurations' : Description for systemform in Entity FormXml ID: '{0a946f85-38fc-45ea-9353-25c7a0488691}'</comment>
+  </data>
+  <data name="1:Description,Life events configurations{62a76ead-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>Active Life Events Configurations owned by me</value>
+    <comment>'Life events configurations' : Description for SavedQuery on Entity QueryId: '{62a76ead-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:Description,Life events configurations{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Life events configurations' : Description for systemform in Entity FormXml ID: '{efb45b0d-f934-4571-9506-a40b246d8650}'</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsentitymsfsi_categorytypesrelations" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_categorytypesrelations' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsmsfsi_categorytypesrelationsId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'msfsi_categorytypesrelationsId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statecode" xml:space="preserve">
+    <value>Status of the Category Types Relations</value>
+    <comment>'msfsi_categorytypesrelations' : Description for OptionSet 'msfsi_categorytypesrelations_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Category Types Relations</value>
+    <comment>'msfsi_categorytypesrelations' : Description for OptionSet 'msfsi_categorytypesrelations_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsmsfsi_LifeMomentCategoryConfigurations" xml:space="preserve">
+    <value />
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'msfsi_LifeMomentCategoryConfigurations' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsmsfsi_LifeMomentTypeConfigurations" xml:space="preserve">
+    <value />
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'msfsi_LifeMomentTypeConfigurations' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsmsfsi_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsstatecode" xml:space="preserve">
+    <value>Status of the Category Types Relations</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Category Types Relations</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_categorytypesrelationsUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_categorytypesrelations' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigentitymsfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_lifemomentcategoryconfig' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_CategoryCode" xml:space="preserve">
+    <value>Category Code should be taken from Life Event/Life Event Category Choices.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'msfsi_CategoryCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_DisplayOrder" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'msfsi_DisplayOrder' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_Icon" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'msfsi_Icon' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfigId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'msfsi_lifemomentcategoryconfigId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statecode" xml:space="preserve">
+    <value>Status of the Life Event Category Config</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for OptionSet 'msfsi_lifemomentcategoryconfig_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Life Event Category Config</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for OptionSet 'msfsi_lifemomentcategoryconfig_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigmsfsi_name" xml:space="preserve">
+    <value>The name of the custom entity. (used as default display name when no correlation with choices)</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigstatecode" xml:space="preserve">
+    <value>Status of the Life Event Category Config</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Life Event Category Config</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentcategoryconfigUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsentitymsfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_lifemomentsconfigurations' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_BirthdayCategoryCode" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_BirthdayCategoryCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_BirthdayTypeCode" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_BirthdayTypeCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_educationcategorycode" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_educationcategorycode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_FocusIndicationPeriodDays" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_FocusIndicationPeriodDays' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurationsId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_lifemomentsconfigurationsId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statecode" xml:space="preserve">
+    <value>Status of the Life Events Configurations</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for OptionSet 'msfsi_lifemomentsconfigurations_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Life Events Configurations</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for OptionSet 'msfsi_lifemomentsconfigurations_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_NewMomentIndicationPeriodDays" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_NewMomentIndicationPeriodDays' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_othercategorycode" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_othercategorycode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsmsfsi_othertypecode" xml:space="preserve">
+    <value />
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'msfsi_othertypecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsstatecode" xml:space="preserve">
+    <value>Status of the Life Events Configurations</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Life Events Configurations</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_lifemomentsconfigurationsUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_lifemomentsconfigurations' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigentitymsfsi_LifeMomentTypeConfig" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_LifeMomentTypeConfig' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigmsfsi_displayorder" xml:space="preserve">
+    <value />
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'msfsi_displayorder' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigmsfsi_LifeMomentTypeConfigId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'msfsi_LifeMomentTypeConfigId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statecode" xml:space="preserve">
+    <value>Status of the Life Event Type Config</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for OptionSet 'msfsi_lifemomenttypeconfig_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Life Event Type Config</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for OptionSet 'msfsi_lifemomenttypeconfig_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigmsfsi_name" xml:space="preserve">
+    <value>The name of the custom entity. (used as default display name when no correlation with choices)</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigmsfsi_TypeCode" xml:space="preserve">
+    <value>Type Code should be taken from Life Event/Life Event Type Choices.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'msfsi_TypeCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigstatecode" xml:space="preserve">
+    <value>Status of the Life Event Type Config</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Life Event Type Config</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_LifeMomentTypeConfigUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,Contactmsfsi_fhlookupplaceholder" xml:space="preserve">
+    <value>FH lookup placeholder</value>
+    <comment>'Contact' : displayname for Attribute 'msfsi_fhlookupplaceholder' on Entity</comment>
+  </data>
+  <data name="1:displayname,Contactmsfsi_placeholder" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : displayname for Attribute 'msfsi_placeholder' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsmsfsi_categorytypesrelationsId" xml:space="preserve">
+    <value>Category types relations</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'msfsi_categorytypesrelationsId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for OptionSet 'msfsi_categorytypesrelations_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statuscode" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for OptionSet 'msfsi_categorytypesrelations_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsmsfsi_LifeMomentCategoryConfigurations" xml:space="preserve">
+    <value>Life event category configurations</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'msfsi_LifeMomentCategoryConfigurations' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsmsfsi_LifeMomentTypeConfigurations" xml:space="preserve">
+    <value>Life event type configurations</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'msfsi_LifeMomentTypeConfigurations' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsmsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_categorytypesrelationsUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_categorytypesrelations' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_CategoryCode" xml:space="preserve">
+    <value>Category code</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'msfsi_CategoryCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_DisplayOrder" xml:space="preserve">
+    <value>Display order</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'msfsi_DisplayOrder' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_Icon" xml:space="preserve">
+    <value>Icon</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'msfsi_Icon' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfigId" xml:space="preserve">
+    <value>Life event category config</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'msfsi_lifemomentcategoryconfigId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for OptionSet 'msfsi_lifemomentcategoryconfig_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statuscode" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for OptionSet 'msfsi_lifemomentcategoryconfig_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigmsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentcategoryconfigUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_BirthdayCategoryCode" xml:space="preserve">
+    <value>Birthday category code</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_BirthdayCategoryCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_BirthdayTypeCode" xml:space="preserve">
+    <value>Birthday type code</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_BirthdayTypeCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_educationcategorycode" xml:space="preserve">
+    <value>Education category code</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_educationcategorycode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_FocusIndicationPeriodDays" xml:space="preserve">
+    <value>Focus indication period days</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_FocusIndicationPeriodDays' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurationsId" xml:space="preserve">
+    <value>Life events configurations</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_lifemomentsconfigurationsId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for OptionSet 'msfsi_lifemomentsconfigurations_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statuscode" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for OptionSet 'msfsi_lifemomentsconfigurations_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_NewMomentIndicationPeriodDays" xml:space="preserve">
+    <value>New event indication period days</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_NewMomentIndicationPeriodDays' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_othercategorycode" xml:space="preserve">
+    <value>Other category code</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_othercategorycode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsmsfsi_othertypecode" xml:space="preserve">
+    <value>Other type code</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'msfsi_othertypecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_lifemomentsconfigurationsUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_lifemomentsconfigurations' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigmsfsi_displayorder" xml:space="preserve">
+    <value>Display order</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'msfsi_displayorder' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigmsfsi_LifeMomentTypeConfigId" xml:space="preserve">
+    <value>Life event type config</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'msfsi_LifeMomentTypeConfigId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for OptionSet 'msfsi_lifemomenttypeconfig_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statuscode" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for OptionSet 'msfsi_lifemomenttypeconfig_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigmsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigmsfsi_TypeCode" xml:space="preserve">
+    <value>Type code</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'msfsi_TypeCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_LifeMomentTypeConfigUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Category types relations{12b823a6-f992-4c83-a5d2-15b20a7feb87}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Category types relations' : label for section in Entity FormXml ID: '{12b823a6-f992-4c83-a5d2-15b20a7feb87}'</comment>
+  </data>
+  <data name="1:label,Category types relations{168a0055-4788-8ab2-84a1-00a274e13945}" xml:space="preserve">
+    <value>Life event type configurations</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{168a0055-4788-8ab2-84a1-00a274e13945}'</comment>
+  </data>
+  <data name="1:label,Category types relations{1fea81d1-f219-4e92-b501-df333fa56d5b}" xml:space="preserve">
+    <value />
+    <comment>'Category types relations' : label for tab in Entity FormXml ID: '{1fea81d1-f219-4e92-b501-df333fa56d5b}'</comment>
+  </data>
+  <data name="1:label,Category types relations{32f282c2-6b63-4f3e-a20e-0347ff28dff9}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Category types relations' : label for section in Entity FormXml ID: '{32f282c2-6b63-4f3e-a20e-0347ff28dff9}'</comment>
+  </data>
+  <data name="1:label,Category types relations{32f67a83-2537-453b-9f0f-79817437bda4}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Category types relations' : label for section in Entity FormXml ID: '{32f67a83-2537-453b-9f0f-79817437bda4}'</comment>
+  </data>
+  <data name="1:label,Category types relations{404f8db6-35c2-4c0f-9dcb-b3b1193e2fd3}" xml:space="preserve">
+    <value />
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{404f8db6-35c2-4c0f-9dcb-b3b1193e2fd3}'</comment>
+  </data>
+  <data name="1:label,Category types relations{46d9a5f5-0340-462d-a9f9-da8b1e95ce43}" xml:space="preserve">
+    <value />
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{46d9a5f5-0340-462d-a9f9-da8b1e95ce43}'</comment>
+  </data>
+  <data name="1:label,Category types relations{4dce6896-dae0-428e-9be0-13f742382c59}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{4dce6896-dae0-428e-9be0-13f742382c59}'</comment>
+  </data>
+  <data name="1:label,Category types relations{523a0760-a83b-40cf-9b5f-df3a6da34c4e}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{523a0760-a83b-40cf-9b5f-df3a6da34c4e}'</comment>
+  </data>
+  <data name="1:label,Category types relations{61711490-8986-457a-9002-e392c0a63dd9}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Category types relations' : label for section in Entity FormXml ID: '{61711490-8986-457a-9002-e392c0a63dd9}'</comment>
+  </data>
+  <data name="1:label,Category types relations{68fcbba7-8ba6-4061-b08b-ba7e125b34e6}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{68fcbba7-8ba6-4061-b08b-ba7e125b34e6}'</comment>
+  </data>
+  <data name="1:label,Category types relations{808a199a-2978-4dc9-878b-a6df2573d812}" xml:space="preserve">
+    <value />
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{808a199a-2978-4dc9-878b-a6df2573d812}'</comment>
+  </data>
+  <data name="1:label,Category types relations{964faa1c-c389-4df9-8351-d733ad438038}" xml:space="preserve">
+    <value />
+    <comment>'Category types relations' : label for tab in Entity FormXml ID: '{964faa1c-c389-4df9-8351-d733ad438038}'</comment>
+  </data>
+  <data name="1:label,Category types relations{98566200-541d-4d91-9cbc-5b7e8ad28250}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{98566200-541d-4d91-9cbc-5b7e8ad28250}'</comment>
+  </data>
+  <data name="1:label,Category types relations{a6292345-6e97-4a4e-b341-5e9e6492dfad}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{a6292345-6e97-4a4e-b341-5e9e6492dfad}'</comment>
+  </data>
+  <data name="1:label,Category types relations{ba3f0033-4840-4392-ba29-113117241266}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Category types relations' : label for section in Entity FormXml ID: '{ba3f0033-4840-4392-ba29-113117241266}'</comment>
+  </data>
+  <data name="1:label,Category types relations{c075ccc0-195f-4f2f-b6be-bf9a625383a4}" xml:space="preserve">
+    <value />
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{c075ccc0-195f-4f2f-b6be-bf9a625383a4}'</comment>
+  </data>
+  <data name="1:label,Category types relations{cc7a4e1d-d2d2-48c0-9ec8-1395c489e658}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{cc7a4e1d-d2d2-48c0-9ec8-1395c489e658}'</comment>
+  </data>
+  <data name="1:label,Category types relations{d1dd4e8b-e63c-4f7c-8461-3e560c1fe0bc}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{d1dd4e8b-e63c-4f7c-8461-3e560c1fe0bc}'</comment>
+  </data>
+  <data name="1:label,Category types relations{d41ea15b-2447-c3d0-426a-60bd1b16ab40}" xml:space="preserve">
+    <value>Lifemomentcategoryconfigurations</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{d41ea15b-2447-c3d0-426a-60bd1b16ab40}'</comment>
+  </data>
+  <data name="1:label,Category types relations{e4f85e97-c7a6-4b76-920d-e907662f8649}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Category types relations' : label for tab in Entity FormXml ID: '{e4f85e97-c7a6-4b76-920d-e907662f8649}'</comment>
+  </data>
+  <data name="1:label,Category types relations{f5428dd1-97a6-4349-bc1a-4ef9991571be}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Category types relations' : label for cell in Entity FormXml ID: '{f5428dd1-97a6-4349-bc1a-4ef9991571be}'</comment>
+  </data>
+  <data name="1:label,Category types relations{f956d465-b0f2-4c0c-a41a-986747b8162a}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Category types relations' : label for section in Entity FormXml ID: '{f956d465-b0f2-4c0c-a41a-986747b8162a}'</comment>
+  </data>
+  <data name="1:label,Contact11411783-b016-49ab-b107-40bee38bb092" xml:space="preserve">
+    <value>Section 2</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '11411783-b016-49ab-b107-40bee38bb092'</comment>
+  </data>
+  <data name="1:label,Contact16647c34-82e0-4579-85f8-f0b52f3b3593" xml:space="preserve">
+    <value>Section1</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '16647c34-82e0-4579-85f8-f0b52f3b3593'</comment>
+  </data>
+  <data name="1:label,Contact40d4562d-d6ee-4dc6-844b-33cc78662999" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '40d4562d-d6ee-4dc6-844b-33cc78662999'</comment>
+  </data>
+  <data name="1:label,ContactACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>Customer snapshot</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,Contact{00a98e6a-5220-4803-83ab-6788f4bd74d1}" xml:space="preserve">
+    <value>Primary branch</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{00a98e6a-5220-4803-83ab-6788f4bd74d1}'</comment>
+  </data>
+  <data name="1:label,Contact{48b2bb65-e3a9-4288-8848-4de0aaada13f}" xml:space="preserve">
+    <value>Occupation</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{48b2bb65-e3a9-4288-8848-4de0aaada13f}'</comment>
+  </data>
+  <data name="1:label,Contact{83f50b74-e448-41f0-8284-c5fca8bd7bdb}" xml:space="preserve">
+    <value>Phone</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{83f50b74-e448-41f0-8284-c5fca8bd7bdb}'</comment>
+  </data>
+  <data name="1:label,Contact{9b0574fc-b301-4e0f-b9d2-0cff40c66ead}" xml:space="preserve">
+    <value>ID</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{9b0574fc-b301-4e0f-b9d2-0cff40c66ead}'</comment>
+  </data>
+  <data name="1:label,Contact{9c7b06bc-9b88-4b65-8b79-83da3fecb801}" xml:space="preserve">
+    <value>Full name</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{9c7b06bc-9b88-4b65-8b79-83da3fecb801}'</comment>
+  </data>
+  <data name="1:label,Contact{b39874b2-4ed4-4ae3-9815-89f318e36e82}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{b39874b2-4ed4-4ae3-9815-89f318e36e82}'</comment>
+  </data>
+  <data name="1:label,Contact{c97828c1-4eca-4a6d-b247-da754e9dac91}" xml:space="preserve">
+    <value>Annual income</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{c97828c1-4eca-4a6d-b247-da754e9dac91}'</comment>
+  </data>
+  <data name="1:label,Contact{deed3c85-e7c8-4e48-8641-2643072b7a02}" xml:space="preserve">
+    <value>Address</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{deed3c85-e7c8-4e48-8641-2643072b7a02}'</comment>
+  </data>
+  <data name="1:label,Life event category config{09a5b23b-17dc-4b0b-b1d3-3ccc519216d9}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{09a5b23b-17dc-4b0b-b1d3-3ccc519216d9}'</comment>
+  </data>
+  <data name="1:label,Life event category config{13108ddf-6708-45c3-b952-d8107480c80d}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{13108ddf-6708-45c3-b952-d8107480c80d}'</comment>
+  </data>
+  <data name="1:label,Life event category config{1e2a54a5-d406-42f5-859a-c9c564d6678e}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{1e2a54a5-d406-42f5-859a-c9c564d6678e}'</comment>
+  </data>
+  <data name="1:label,Life event category config{2c17ecfe-9be6-42f9-bc75-aeec2368dea6}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for tab in Entity FormXml ID: '{2c17ecfe-9be6-42f9-bc75-aeec2368dea6}'</comment>
+  </data>
+  <data name="1:label,Life event category config{4099d700-c781-4e6e-abfe-45772b21fad5}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Life event category config' : label for section in Entity FormXml ID: '{4099d700-c781-4e6e-abfe-45772b21fad5}'</comment>
+  </data>
+  <data name="1:label,Life event category config{44eff876-88e7-453d-bd7f-ed611edccdf6}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{44eff876-88e7-453d-bd7f-ed611edccdf6}'</comment>
+  </data>
+  <data name="1:label,Life event category config{45cbf183-baa8-4c4c-990e-c5ea2dcebe35}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{45cbf183-baa8-4c4c-990e-c5ea2dcebe35}'</comment>
+  </data>
+  <data name="1:label,Life event category config{488ce72b-550e-4d79-a02b-b4b820d42efd}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{488ce72b-550e-4d79-a02b-b4b820d42efd}'</comment>
+  </data>
+  <data name="1:label,Life event category config{792e334f-fc35-414a-b3db-8e0183d4de4b}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{792e334f-fc35-414a-b3db-8e0183d4de4b}'</comment>
+  </data>
+  <data name="1:label,Life event category config{7f0f3431-4232-4562-8486-2b799a0d6000}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life event category config' : label for tab in Entity FormXml ID: '{7f0f3431-4232-4562-8486-2b799a0d6000}'</comment>
+  </data>
+  <data name="1:label,Life event category config{81f5daa1-12da-41ec-ad2e-0dd05f837c2a}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Life event category config' : label for section in Entity FormXml ID: '{81f5daa1-12da-41ec-ad2e-0dd05f837c2a}'</comment>
+  </data>
+  <data name="1:label,Life event category config{8ed10bce-c5f9-46f7-8f6a-3742a980529f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life event category config' : label for section in Entity FormXml ID: '{8ed10bce-c5f9-46f7-8f6a-3742a980529f}'</comment>
+  </data>
+  <data name="1:label,Life event category config{91800403-eb28-1ab5-3de2-40e547c8256a}" xml:space="preserve">
+    <value>Icon</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{91800403-eb28-1ab5-3de2-40e547c8256a}'</comment>
+  </data>
+  <data name="1:label,Life event category config{9a867f4f-ab42-42a5-930a-683c2604ed99}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life event category config' : label for section in Entity FormXml ID: '{9a867f4f-ab42-42a5-930a-683c2604ed99}'</comment>
+  </data>
+  <data name="1:label,Life event category config{a289df4d-d00a-4c97-b35f-508b43d85ddf}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{a289df4d-d00a-4c97-b35f-508b43d85ddf}'</comment>
+  </data>
+  <data name="1:label,Life event category config{a420cc65-d9cd-4d2b-938e-6d77b8c40d9e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{a420cc65-d9cd-4d2b-938e-6d77b8c40d9e}'</comment>
+  </data>
+  <data name="1:label,Life event category config{a49ba0f9-0ab7-4e8a-a5d0-ded6e558972e}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{a49ba0f9-0ab7-4e8a-a5d0-ded6e558972e}'</comment>
+  </data>
+  <data name="1:label,Life event category config{b2596ba2-f57e-47ce-bbfd-f977a77ce3a7}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{b2596ba2-f57e-47ce-bbfd-f977a77ce3a7}'</comment>
+  </data>
+  <data name="1:label,Life event category config{b44f46cb-cbe1-4318-9063-2da5ba376856}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{b44f46cb-cbe1-4318-9063-2da5ba376856}'</comment>
+  </data>
+  <data name="1:label,Life event category config{b8923ce9-24c2-4b72-ac2d-810423d06bfc}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{b8923ce9-24c2-4b72-ac2d-810423d06bfc}'</comment>
+  </data>
+  <data name="1:label,Life event category config{bdcec523-d4d1-4637-b8fa-3e0ba9609fed}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for tab in Entity FormXml ID: '{bdcec523-d4d1-4637-b8fa-3e0ba9609fed}'</comment>
+  </data>
+  <data name="1:label,Life event category config{bec59eac-5ced-a28c-48d2-62da48b8dc1d}" xml:space="preserve">
+    <value>Display order</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{bec59eac-5ced-a28c-48d2-62da48b8dc1d}'</comment>
+  </data>
+  <data name="1:label,Life event category config{cf255150-452c-4e87-b7c8-0f10f7b24a62}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{cf255150-452c-4e87-b7c8-0f10f7b24a62}'</comment>
+  </data>
+  <data name="1:label,Life event category config{cffa4bf1-6b82-4f90-b3ae-9df225c2b444}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{cffa4bf1-6b82-4f90-b3ae-9df225c2b444}'</comment>
+  </data>
+  <data name="1:label,Life event category config{d38cf4a0-8009-4d68-84b3-e966fadd9470}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Life event category config' : label for section in Entity FormXml ID: '{d38cf4a0-8009-4d68-84b3-e966fadd9470}'</comment>
+  </data>
+  <data name="1:label,Life event category config{d8c6ca86-8852-4956-8f88-2df80e3e58a4}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{d8c6ca86-8852-4956-8f88-2df80e3e58a4}'</comment>
+  </data>
+  <data name="1:label,Life event category config{e6567542-ce9a-c939-c758-84c37e5bd3ce}" xml:space="preserve">
+    <value>Category code</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{e6567542-ce9a-c939-c758-84c37e5bd3ce}'</comment>
+  </data>
+  <data name="1:label,Life event category config{e70f3caa-f061-4b3d-af5e-f3be2d2f130f}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Life event category config' : label for section in Entity FormXml ID: '{e70f3caa-f061-4b3d-af5e-f3be2d2f130f}'</comment>
+  </data>
+  <data name="1:label,Life event category config{e9341727-4e77-40dd-997e-4b83164c8d2b}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{e9341727-4e77-40dd-997e-4b83164c8d2b}'</comment>
+  </data>
+  <data name="1:label,Life event category config{eddaa6a8-fc53-4ad1-a9bd-19f39e5df072}" xml:space="preserve">
+    <value />
+    <comment>'Life event category config' : label for cell in Entity FormXml ID: '{eddaa6a8-fc53-4ad1-a9bd-19f39e5df072}'</comment>
+  </data>
+  <data name="1:label,Life event type config{06c815c7-8102-4540-af02-cd5d3d6ec414}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Life event type config' : label for section in Entity FormXml ID: '{06c815c7-8102-4540-af02-cd5d3d6ec414}'</comment>
+  </data>
+  <data name="1:label,Life event type config{08364897-9449-4cee-ae51-d1db531bec23}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{08364897-9449-4cee-ae51-d1db531bec23}'</comment>
+  </data>
+  <data name="1:label,Life event type config{08f50703-4938-416d-af28-8903fbf84464}" xml:space="preserve">
+    <value>Display order</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{08f50703-4938-416d-af28-8903fbf84464}'</comment>
+  </data>
+  <data name="1:label,Life event type config{0aca4798-d880-403b-ba34-2517952f4d92}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{0aca4798-d880-403b-ba34-2517952f4d92}'</comment>
+  </data>
+  <data name="1:label,Life event type config{16e3ec16-fa4f-4c19-a3b5-7c692393184b}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life event type config' : label for section in Entity FormXml ID: '{16e3ec16-fa4f-4c19-a3b5-7c692393184b}'</comment>
+  </data>
+  <data name="1:label,Life event type config{1bd2815c-129f-40da-a18c-3696ab291aa1}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{1bd2815c-129f-40da-a18c-3696ab291aa1}'</comment>
+  </data>
+  <data name="1:label,Life event type config{21213357-fad1-42be-9eeb-54c5de8209c1}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{21213357-fad1-42be-9eeb-54c5de8209c1}'</comment>
+  </data>
+  <data name="1:label,Life event type config{41ece1d3-ceef-4b45-944e-cb0180e698d4}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{41ece1d3-ceef-4b45-944e-cb0180e698d4}'</comment>
+  </data>
+  <data name="1:label,Life event type config{4346ccbb-896a-4a46-8474-3130aa49d9ef}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{4346ccbb-896a-4a46-8474-3130aa49d9ef}'</comment>
+  </data>
+  <data name="1:label,Life event type config{550de42b-009a-dae3-7189-a893a107c851}" xml:space="preserve">
+    <value>Type code</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{550de42b-009a-dae3-7189-a893a107c851}'</comment>
+  </data>
+  <data name="1:label,Life event type config{553aada2-5643-461f-ade3-c0d399562d3f}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{553aada2-5643-461f-ade3-c0d399562d3f}'</comment>
+  </data>
+  <data name="1:label,Life event type config{55c132c3-9328-49b7-b133-b2326d155d60}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{55c132c3-9328-49b7-b133-b2326d155d60}'</comment>
+  </data>
+  <data name="1:label,Life event type config{58d8c823-91c4-406a-aba3-5a4fd06a2f6b}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{58d8c823-91c4-406a-aba3-5a4fd06a2f6b}'</comment>
+  </data>
+  <data name="1:label,Life event type config{5c63d851-ace7-44c2-b9a7-90520ef10e14}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for tab in Entity FormXml ID: '{5c63d851-ace7-44c2-b9a7-90520ef10e14}'</comment>
+  </data>
+  <data name="1:label,Life event type config{604ce97f-64c2-4b83-aa9a-d39392fb5bf7}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{604ce97f-64c2-4b83-aa9a-d39392fb5bf7}'</comment>
+  </data>
+  <data name="1:label,Life event type config{63be4923-ef23-47d2-bcae-fdbbd744c5f1}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{63be4923-ef23-47d2-bcae-fdbbd744c5f1}'</comment>
+  </data>
+  <data name="1:label,Life event type config{67009ba5-8b18-43b4-9d94-c2efe77b95c5}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Life event type config' : label for section in Entity FormXml ID: '{67009ba5-8b18-43b4-9d94-c2efe77b95c5}'</comment>
+  </data>
+  <data name="1:label,Life event type config{77018c96-1855-4b52-bf55-b26596d95e86}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{77018c96-1855-4b52-bf55-b26596d95e86}'</comment>
+  </data>
+  <data name="1:label,Life event type config{888029cd-1fb6-48b3-bdb4-6ec8415a9942}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Life event type config' : label for section in Entity FormXml ID: '{888029cd-1fb6-48b3-bdb4-6ec8415a9942}'</comment>
+  </data>
+  <data name="1:label,Life event type config{9b3b3745-92b6-4d41-a65f-024639d8d574}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life event type config' : label for section in Entity FormXml ID: '{9b3b3745-92b6-4d41-a65f-024639d8d574}'</comment>
+  </data>
+  <data name="1:label,Life event type config{a60483a2-4eda-49e6-bcc1-27f1594254c0}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{a60483a2-4eda-49e6-bcc1-27f1594254c0}'</comment>
+  </data>
+  <data name="1:label,Life event type config{aa214c6f-d38e-41ba-aeb3-7ef2ad5b6b09}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{aa214c6f-d38e-41ba-aeb3-7ef2ad5b6b09}'</comment>
+  </data>
+  <data name="1:label,Life event type config{b7882fba-8ea3-481c-955f-3fa5be86bace}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{b7882fba-8ea3-481c-955f-3fa5be86bace}'</comment>
+  </data>
+  <data name="1:label,Life event type config{bac56ec0-d2dc-41ba-bf6f-991b3c4a31cc}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for tab in Entity FormXml ID: '{bac56ec0-d2dc-41ba-bf6f-991b3c4a31cc}'</comment>
+  </data>
+  <data name="1:label,Life event type config{ccae5ad7-bb32-4ec2-ad30-4ef23fc36ddd}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Life event type config' : label for section in Entity FormXml ID: '{ccae5ad7-bb32-4ec2-ad30-4ef23fc36ddd}'</comment>
+  </data>
+  <data name="1:label,Life event type config{d2c675e5-17fc-4edc-b12a-23e7d1fa87af}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{d2c675e5-17fc-4edc-b12a-23e7d1fa87af}'</comment>
+  </data>
+  <data name="1:label,Life event type config{d3dafcd7-a671-40bb-81b9-b9ad710248e9}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{d3dafcd7-a671-40bb-81b9-b9ad710248e9}'</comment>
+  </data>
+  <data name="1:label,Life event type config{d6703813-bb50-4408-a4d7-5bd847ba7cbb}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life event type config' : label for tab in Entity FormXml ID: '{d6703813-bb50-4408-a4d7-5bd847ba7cbb}'</comment>
+  </data>
+  <data name="1:label,Life event type config{daf8ee40-0bf5-402b-a8e2-431fd7868fe2}" xml:space="preserve">
+    <value />
+    <comment>'Life event type config' : label for cell in Entity FormXml ID: '{daf8ee40-0bf5-402b-a8e2-431fd7868fe2}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{0686401e-ced8-44af-98f8-d9f270fcde2c}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{0686401e-ced8-44af-98f8-d9f270fcde2c}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{08c98e26-9149-4300-acb1-ee51fde7a7f1}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{08c98e26-9149-4300-acb1-ee51fde7a7f1}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{0e72ec40-3237-4143-7acc-c9e892c496a5}" xml:space="preserve">
+    <value>Focus indication period days</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{0e72ec40-3237-4143-7acc-c9e892c496a5}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{12add2ee-7406-7199-3c1c-38708963b935}" xml:space="preserve">
+    <value>Birthday type code</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{12add2ee-7406-7199-3c1c-38708963b935}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{1dbd2b32-b188-4819-a7eb-17f0a7acf049}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{1dbd2b32-b188-4819-a7eb-17f0a7acf049}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{4088f6e2-4740-427e-8695-cee8b44bbc2b}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Life events configurations' : label for section in Entity FormXml ID: '{4088f6e2-4740-427e-8695-cee8b44bbc2b}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{4197bbc0-4953-40f7-884d-b5a33dfcfac3}" xml:space="preserve">
+    <value>Other category code</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{4197bbc0-4953-40f7-884d-b5a33dfcfac3}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{421063da-18f8-414f-81e8-ba468d4068db}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{421063da-18f8-414f-81e8-ba468d4068db}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{4b47a2aa-9bb8-43d9-881d-8c4d76cc22cb}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{4b47a2aa-9bb8-43d9-881d-8c4d76cc22cb}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{502d8756-f795-4fe9-bdfa-698419d3d289}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{502d8756-f795-4fe9-bdfa-698419d3d289}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{584092f2-d480-4bb5-9d14-80953baaa9f5}" xml:space="preserve">
+    <value>Education category code</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{584092f2-d480-4bb5-9d14-80953baaa9f5}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{5a104b51-1204-4dfc-bf53-1c384efbbe37}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{5a104b51-1204-4dfc-bf53-1c384efbbe37}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{62420a90-3c6d-ce07-03ec-ba578905513a}" xml:space="preserve">
+    <value>New event indication period days</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{62420a90-3c6d-ce07-03ec-ba578905513a}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{62798741-1fd7-4d55-aacf-4da42061d74d}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{62798741-1fd7-4d55-aacf-4da42061d74d}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{69c9a77e-3157-442c-b753-8b22459eacf0}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life events configurations' : label for section in Entity FormXml ID: '{69c9a77e-3157-442c-b753-8b22459eacf0}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{6effeea0-79fc-40df-9a4f-5bcdd618c103}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for tab in Entity FormXml ID: '{6effeea0-79fc-40df-9a4f-5bcdd618c103}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{74c8f84c-8017-4c2b-80ed-94a4b21d704c}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for tab in Entity FormXml ID: '{74c8f84c-8017-4c2b-80ed-94a4b21d704c}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{792a47f7-e4b7-4ded-9894-0bb5e9bad621}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{792a47f7-e4b7-4ded-9894-0bb5e9bad621}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{82dc990f-524f-4269-b4f1-7874bb7cd4ea}" xml:space="preserve">
+    <value>Other type code</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{82dc990f-524f-4269-b4f1-7874bb7cd4ea}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{846b00f6-2a2a-408c-9ee9-9f5877e3f5f0}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{846b00f6-2a2a-408c-9ee9-9f5877e3f5f0}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{86646f47-44f2-486e-8cc1-fb6cbc6c898a}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{86646f47-44f2-486e-8cc1-fb6cbc6c898a}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{9dd60912-cd41-4bc2-98fe-ce57194a5e87}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Life events configurations' : label for section in Entity FormXml ID: '{9dd60912-cd41-4bc2-98fe-ce57194a5e87}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{acc3d446-a282-4330-bf82-0c1d4d5171e2}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{acc3d446-a282-4330-bf82-0c1d4d5171e2}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{b4c7d04d-b383-403d-b117-9e5632937893}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{b4c7d04d-b383-403d-b117-9e5632937893}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{b7a47afc-3b2e-48db-8d98-3cedec057b3a}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Life events configurations' : label for section in Entity FormXml ID: '{b7a47afc-3b2e-48db-8d98-3cedec057b3a}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{cabad717-88a6-4e6c-8c34-498947851cbc}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{cabad717-88a6-4e6c-8c34-498947851cbc}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{cdab2905-12c7-1251-e2c9-8e2d9c245168}" xml:space="preserve">
+    <value>Birthday category code</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{cdab2905-12c7-1251-e2c9-8e2d9c245168}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{cfafdd92-d490-4942-9377-b72679ea50a0}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life events configurations' : label for tab in Entity FormXml ID: '{cfafdd92-d490-4942-9377-b72679ea50a0}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{d59bb723-6db7-45d8-9472-397a5765c176}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Life events configurations' : label for section in Entity FormXml ID: '{d59bb723-6db7-45d8-9472-397a5765c176}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{d9495af7-d820-4c71-8b2f-bc1644889fb2}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{d9495af7-d820-4c71-8b2f-bc1644889fb2}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{de7735ac-26ca-4d40-84d0-f9eeb02ae26b}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{de7735ac-26ca-4d40-84d0-f9eeb02ae26b}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{e5b65a02-637c-48da-a9d3-1b51af4a6f24}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life events configurations' : label for section in Entity FormXml ID: '{e5b65a02-637c-48da-a9d3-1b51af4a6f24}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{ec03dbfc-cffb-497e-897e-65439b65a994}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{ec03dbfc-cffb-497e-897e-65439b65a994}'</comment>
+  </data>
+  <data name="1:label,Life events configurations{ed6e4733-8a94-43ad-ada0-2007ef74f1c6}" xml:space="preserve">
+    <value />
+    <comment>'Life events configurations' : label for cell in Entity FormXml ID: '{ed6e4733-8a94-43ad-ada0-2007ef74f1c6}'</comment>
+  </data>
+  <data name="1:label,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_categorytypesrelations' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_categorytypesrelations' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_categorytypesrelations' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_categorytypesrelationsmsfsi_categorytypesrelations_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_categorytypesrelations' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentcategoryconfigmsfsi_lifemomentcategoryconfig_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_lifemomentcategoryconfig' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_lifemomentsconfigurations' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_lifemomentsconfigurations' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_lifemomentsconfigurations' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_lifemomentsconfigurationsmsfsi_lifemomentsconfigurations_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_lifemomentsconfigurations' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_LifeMomentTypeConfigmsfsi_lifemomenttypeconfig_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_LifeMomentTypeConfig' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_categorytypesrelationsentitymsfsi_categorytypesrelations" xml:space="preserve">
+    <value>Category types relations</value>
+    <comment> 'msfsi_categorytypesrelations' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_lifemomentcategoryconfigentitymsfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value>Life event category configs</value>
+    <comment> 'msfsi_lifemomentcategoryconfig' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_lifemomentsconfigurationsentitymsfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value>Life events configurations</value>
+    <comment> 'msfsi_lifemomentsconfigurations' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_LifeMomentTypeConfigentitymsfsi_LifeMomentTypeConfig" xml:space="preserve">
+    <value>Life event type configs</value>
+    <comment> 'msfsi_LifeMomentTypeConfig' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{02e10b84-3db8-4704-ad95-2a96919c3709}" xml:space="preserve">
+    <value>Active Category Types Relations</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{02e10b84-3db8-4704-ad95-2a96919c3709}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{7f0b63bc-69b5-4e1c-8f15-fc60838d49d7}" xml:space="preserve">
+    <value>Quick Find Active Category Types Relations</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{7f0b63bc-69b5-4e1c-8f15-fc60838d49d7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Category types relations' : LocalizedName for systemform in Entity FormXml ID: '{85a270f3-cb9b-4faf-b626-44b98b26ed8f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{99230c0e-3dcc-49a3-bd4d-9c22420b81d8}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Category types relations' : LocalizedName for systemform in Entity FormXml ID: '{99230c0e-3dcc-49a3-bd4d-9c22420b81d8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{b5aa3d1d-df3e-4e8d-a8f8-68184a316e84}" xml:space="preserve">
+    <value>Category Types Relations Associated View</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{b5aa3d1d-df3e-4e8d-a8f8-68184a316e84}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{c9be7f99-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>My Category Types Relations</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{c9be7f99-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{e51eb82f-0fbb-4024-9ecd-aecdba6e0d05}" xml:space="preserve">
+    <value>Category Types Relations Lookup View</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{e51eb82f-0fbb-4024-9ecd-aecdba6e0d05}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{ebf29447-57b6-4e88-a952-925ae3464312}" xml:space="preserve">
+    <value>Category Types Relations Advanced Find View</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{ebf29447-57b6-4e88-a952-925ae3464312}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{f7d2ab9a-a3bd-4a1f-bfc7-045bb81961c1}" xml:space="preserve">
+    <value>Inactive Category Types Relations</value>
+    <comment>'Category types relations' : LocalizedName for SavedQuery on Entity QueryId: '{f7d2ab9a-a3bd-4a1f-bfc7-045bb81961c1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Category types relations{ffc4f11f-3d87-4749-86eb-ae5dfc491439}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Category types relations' : LocalizedName for systemform in Entity FormXml ID: '{ffc4f11f-3d87-4749-86eb-ae5dfc491439}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{75c78db3-068f-ec11-b400-0022480988ea}" xml:space="preserve">
+    <value>Banking customer snapshot</value>
+    <comment>'Contact' : LocalizedName for systemform in Entity FormXml ID: '{75c78db3-068f-ec11-b400-0022480988ea}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{0037d0ab-4317-4af3-9cbc-20cdf9e3b330}" xml:space="preserve">
+    <value>Inactive Life Event Category Configs</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{0037d0ab-4317-4af3-9cbc-20cdf9e3b330}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{02334fa0-3c07-4519-80d6-af028cb0dc7e}" xml:space="preserve">
+    <value>Life Event Category Config Advanced Find View</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{02334fa0-3c07-4519-80d6-af028cb0dc7e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life event category config' : LocalizedName for systemform in Entity FormXml ID: '{12e2b569-7de9-4cf5-bb83-55a8bf11196f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{32d7577a-c85c-40dc-99b1-45d2afee4cee}" xml:space="preserve">
+    <value>Life Event Category Config Lookup View</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{32d7577a-c85c-40dc-99b1-45d2afee4cee}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{478f288a-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>My Life Event Category Configs</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{478f288a-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{554c2861-2e5f-4507-a864-18c624416a2c}" xml:space="preserve">
+    <value>Life Event Category Config Associated View</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{554c2861-2e5f-4507-a864-18c624416a2c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{5b095df4-154c-4947-86cc-2b754e54a26f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life event category config' : LocalizedName for systemform in Entity FormXml ID: '{5b095df4-154c-4947-86cc-2b754e54a26f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{cf500771-cebe-497c-8cca-0047865a01f4}" xml:space="preserve">
+    <value>Active Life Event Category Configs</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{cf500771-cebe-497c-8cca-0047865a01f4}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{ede7fd26-dc64-4110-aa14-a5626471fd4d}" xml:space="preserve">
+    <value>Quick Find Active Life Event Category Configs</value>
+    <comment>'Life event category config' : LocalizedName for SavedQuery on Entity QueryId: '{ede7fd26-dc64-4110-aa14-a5626471fd4d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event category config{f0f43f49-295e-4651-8977-a6e2ccafeb85}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life event category config' : LocalizedName for systemform in Entity FormXml ID: '{f0f43f49-295e-4651-8977-a6e2ccafeb85}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{0677f6c5-9cdf-4dfb-9225-59c0c514faf8}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life event type config' : LocalizedName for systemform in Entity FormXml ID: '{0677f6c5-9cdf-4dfb-9225-59c0c514faf8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{10dd5c81-9947-45de-971e-e776c4efe627}" xml:space="preserve">
+    <value>Life Event Type Config Advanced Find View</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{10dd5c81-9947-45de-971e-e776c4efe627}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{3722a26c-0ea7-4e8d-a683-19a2aea3ba0b}" xml:space="preserve">
+    <value>Life Event Type Config Associated View</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{3722a26c-0ea7-4e8d-a683-19a2aea3ba0b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{a8ebb0bc-2a52-4f35-8796-beea39658c1f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life event type config' : LocalizedName for systemform in Entity FormXml ID: '{a8ebb0bc-2a52-4f35-8796-beea39658c1f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{b37b8d00-cd32-49d2-b185-1bb816291cea}" xml:space="preserve">
+    <value>Life Event Type Config Lookup View</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{b37b8d00-cd32-49d2-b185-1bb816291cea}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{b54db489-ddb0-467a-9e78-ee8e7b3c5c53}" xml:space="preserve">
+    <value>Inactive Life Event Type Configs</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{b54db489-ddb0-467a-9e78-ee8e7b3c5c53}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{c42f1c73-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>My Life Event Type Configs</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{c42f1c73-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{d45ff9ba-bb07-4c19-863c-2e900faae688}" xml:space="preserve">
+    <value>Active Life Event Type Configs</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{d45ff9ba-bb07-4c19-863c-2e900faae688}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{e220773b-947c-43ab-85f7-325700be8e04}" xml:space="preserve">
+    <value>Quick Find Active Life Event Type Configs</value>
+    <comment>'Life event type config' : LocalizedName for SavedQuery on Entity QueryId: '{e220773b-947c-43ab-85f7-325700be8e04}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life event type config{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life event type config' : LocalizedName for systemform in Entity FormXml ID: '{ec521c39-9ded-4410-86e1-5e14566e3db0}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{0a1dcb0f-2aad-42db-9aad-23f169565d91}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life events configurations' : LocalizedName for systemform in Entity FormXml ID: '{0a1dcb0f-2aad-42db-9aad-23f169565d91}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{0a946f85-38fc-45ea-9353-25c7a0488691}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life events configurations' : LocalizedName for systemform in Entity FormXml ID: '{0a946f85-38fc-45ea-9353-25c7a0488691}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{1505aa62-2ecb-41d7-91f5-090d0c2086f8}" xml:space="preserve">
+    <value>Life Events Configurations Lookup View</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{1505aa62-2ecb-41d7-91f5-090d0c2086f8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{3f55b77d-6145-47f4-a0c0-86006a76457c}" xml:space="preserve">
+    <value>Quick Find Active Life Events Configurations</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{3f55b77d-6145-47f4-a0c0-86006a76457c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{40d73fd3-9f63-444c-b94a-5d2906c547ea}" xml:space="preserve">
+    <value>Active Life Events Configurations</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{40d73fd3-9f63-444c-b94a-5d2906c547ea}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{62a76ead-7a48-eb11-a813-000d3a1041e5}" xml:space="preserve">
+    <value>My Life Events Configurations</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{62a76ead-7a48-eb11-a813-000d3a1041e5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{8716de66-2589-424c-98cb-efea846dbea5}" xml:space="preserve">
+    <value>Inactive Life Events Configurations</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{8716de66-2589-424c-98cb-efea846dbea5}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{bda24237-d92f-483a-90f7-031f726a0bbb}" xml:space="preserve">
+    <value>Life Events Configurations Associated View</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{bda24237-d92f-483a-90f7-031f726a0bbb}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{d89692cc-ca7b-4a19-a757-f849e7750084}" xml:space="preserve">
+    <value>Life Events Configurations Advanced Find View</value>
+    <comment>'Life events configurations' : LocalizedName for SavedQuery on Entity QueryId: '{d89692cc-ca7b-4a19-a757-f849e7750084}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life events configurations{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Life events configurations' : LocalizedName for systemform in Entity FormXml ID: '{efb45b0d-f934-4571-9506-a40b246d8650}'</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_categorytypesrelationsentitymsfsi_categorytypesrelations" xml:space="preserve">
+    <value>Category types relations</value>
+    <comment> 'msfsi_categorytypesrelations' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_lifemomentcategoryconfigentitymsfsi_lifemomentcategoryconfig" xml:space="preserve">
+    <value>Life event category config</value>
+    <comment> 'msfsi_lifemomentcategoryconfig' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_lifemomentsconfigurationsentitymsfsi_lifemomentsconfigurations" xml:space="preserve">
+    <value>Life events configurations</value>
+    <comment> 'msfsi_lifemomentsconfigurations' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_LifeMomentTypeConfigentitymsfsi_LifeMomentTypeConfig" xml:space="preserve">
+    <value>Life event type config</value>
+    <comment> 'msfsi_LifeMomentTypeConfig' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,Category types relationsInfo{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Category types relations' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Category types relationsMarketing{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Category types relations' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Category types relationsProcessCenter{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Category types relations' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Category types relationsSales{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Category types relations' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Category types relationsService{85a270f3-cb9b-4faf-b626-44b98b26ed8f}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Category types relations' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Life event category configInfo{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Life event category config' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Life event category configMarketing{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Life event category config' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Life event category configProcessCenter{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Life event category config' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Life event category configSales{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Life event category config' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Life event category configService{12e2b569-7de9-4cf5-bb83-55a8bf11196f}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Life event category config' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Life event type configInfo{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Life event type config' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Life event type configMarketing{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Life event type config' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Life event type configProcessCenter{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Life event type config' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Life event type configSales{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Life event type config' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Life event type configService{ec521c39-9ded-4410-86e1-5e14566e3db0}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Life event type config' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Life events configurationsInfo{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Life events configurations' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Life events configurationsMarketing{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Life events configurations' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Life events configurationsProcessCenter{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Life events configurations' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Life events configurationsSales{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Life events configurations' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Life events configurationsService{efb45b0d-f934-4571-9506-a40b246d8650}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Life events configurations' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="29:LocalizedName,{0078f46e-b4ac-4fb3-994e-a6a550c07fd6}" xml:space="preserve">
+    <value>GFH fetch</value>
+    <comment>'GFH fetch' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{190cb9fe-ea42-4514-814a-461864a138f0}" xml:space="preserve">
+    <value>Group Update</value>
+    <comment>'Group Update' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{4c8a3417-a514-44fb-8278-a46b05103135}" xml:space="preserve">
+    <value>Group Delete</value>
+    <comment>'Group Delete' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{5b2014ce-e685-4892-9b5b-c06081ab2681}" xml:space="preserve">
+    <value>Group Add</value>
+    <comment>'Group Add' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{bb9e4821-36ac-4237-b82b-0b95a4a21d32}" xml:space="preserve">
+    <value>FH fetch</value>
+    <comment>'FH fetch' : LocalizedName for Workflow</comment>
+  </data>
+</root>

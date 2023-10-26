@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a4ccb18c-099d-43e8-809d-64a21ef93c9e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{01a6cfb5-35a8-4e44-9c1a-77dddda98bd3}" name="tab_1" showlabel="false" labelid="{208673fd-3032-433a-bdcb-ed01ba900f0a}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{6522cab5-d8b5-4bcd-8233-6d93b5892398}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{16c11f3f-8ae6-4892-b172-d9e5c86315b7}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{38919103-6b2a-67ae-ea4e-d88da20a7ea7}" showlabel="true" locklevel="0" labelid="{f6744c1b-b6cc-4bb1-8669-ed98804561aa}">
+                        <labels>
+                          <label description="Financial holding category" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdingcategory" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialholdingcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bba9bb91-e202-1144-c1d3-4322893c73a9}" showlabel="true" locklevel="0" labelid="{58114e7c-675d-469a-8d85-c320a829f2b4}">
+                        <labels>
+                          <label description="Financial holding type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdingtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialholdingtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82d25d15-c009-6ae6-d143-ba952dea4252}" showlabel="true" locklevel="0" labelid="{25fc8d1c-2b5d-45d0-a171-7a85c2a7dcfd}">
+                        <labels>
+                          <label description="Accounting classification" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_accountingclassification" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_accountingclassification" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abb7473c-5497-4161-8095-b28e58d35ca7}" showlabel="true" locklevel="0" labelid="{41748c5e-5e6b-406d-98e1-3355089ceb2d}" visible="false">
+                        <labels>
+                          <label description="(hidden) balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_balance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_balance" disabled="false" uniqueid="{0a2a8b91-0621-09b4-151e-a37d62cc7e45}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b33dcbc-79ed-d2e1-e388-c4dbad7b9b69}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_balancedisplayvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_balancedisplayvalue" disabled="false" uniqueid="{46e28c89-1adc-a8b6-281d-2d05ae4626c4}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{edc68e00-720c-5aed-ea25-0e46d19192e3}" showlabel="true" locklevel="0" labelid="{33a8cbe7-9774-43e9-9325-5e52db758865}">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{da332ab4-53b9-2b06-d468-ba4dca418764}" showlabel="true" locklevel="0" labelid="{b3e2d8a2-ec35-4d47-b9aa-3962e595339c}" visible="false">
+                        <labels>
+                          <label description="(hidden) balance (default)" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_balancedefault" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_balancedefault" disabled="false" uniqueid="{1c447646-1916-c68c-20b3-c5d7e1a2c52c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98cb523b-d636-70ea-3d42-b97bccad6a37}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Balance (default)" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_balancedefaultdisplayvalue" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_balancedefaultdisplayvalue" disabled="false" uniqueid="{39382901-3bc5-db74-2e8b-c9a8699894cc}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{adb32c7c-9c41-759a-93ac-0847c51bc4c8}" showlabel="true" locklevel="0" labelid="{3e9b5a5c-4ee1-4710-9fc2-21cb5a1fde62}">
+                        <labels>
+                          <label description="Balance exchange rate" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_balanceexchangerate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_balanceexchangerate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d7977178-a19b-4203-0ca5-0984e448beb5}" showlabel="true" locklevel="0" labelid="{73faaf3b-af00-4b0e-8695-f286f889a7f1}">
+                        <labels>
+                          <label description="Credit limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_creditlimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_creditlimit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31b3a3eb-5cbc-26c4-9bdc-84c4707815e6}" showlabel="true" locklevel="0" labelid="{1b02573d-7f36-42d0-9ea0-19c062d98783}">
+                        <labels>
+                          <label description="Delinquency status" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_delinquencystatus" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_delinquencystatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c4bb2b4-8379-d762-e057-1d508572aa04}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Exchange rate" languagecode="1033" />
+                        </labels>
+                        <control id="exchangerate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="exchangerate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d764272-ed3e-d134-7916-37c0c50d806a}" showlabel="true" locklevel="0" labelid="{35165d08-4dad-47bf-9428-5d72fa92b33d}">
+                        <labels>
+                          <label description="Interest rate" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_interestrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_interestrate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{56134578-5cc8-dea3-7872-5c242dbd1728}" showlabel="true" locklevel="0" labelid="{95586aa8-b88b-4c9f-b50a-c12bf32b89e9}">
+                        <labels>
+                          <label description="Last payment due date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastpaymentduedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_lastpaymentduedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a0ca28a-bee6-777c-2091-905e876a4286}" showlabel="true" locklevel="0" labelid="{04d7016f-85cd-40b5-869e-3c6a68b5ce59}">
+                        <labels>
+                          <label description="Last statement balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_laststatementbalance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_laststatementbalance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5081a287-7186-aa83-a749-1d865d660201}" showlabel="true" locklevel="0" labelid="{eefb8993-de93-43b9-8100-1cb424520d61}">
+                        <labels>
+                          <label description="Last statement date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_laststatementdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_laststatementdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0ecb1225-4660-c808-a024-ba0856ab1bb4}" showlabel="true" locklevel="0" labelid="{c319be47-8d9e-4a91-9fb7-341311e35e51}">
+                        <labels>
+                          <label description="Minimum payment due" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_minimumpaymentdue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_minimumpaymentdue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7ba8916-d323-8ab1-e038-d476d18487de}" showlabel="true" locklevel="0" labelid="{e25ceb7b-392b-491b-b20e-9376f113ad73}">
+                        <labels>
+                          <label description="Monthly payment percentage" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_monthlypaymentpercentage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_monthlypaymentpercentage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b022029c-3bba-37e3-bcd8-986c3a60e0ec}" showlabel="true" locklevel="0" labelid="{98080ff1-f1dc-43bd-964b-907fc828b56c}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58e5eb9d-da1d-d553-4d06-76209516850d}" showlabel="true" locklevel="0" labelid="{3c684439-eec5-4d8e-8a39-bf5ca56edae6}">
+                        <labels>
+                          <label description="Next payment date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nextpaymentdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_nextpaymentdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5db6b56a-1936-9000-2687-627d668cb742}" showlabel="true" locklevel="0" labelid="{3dd36e99-5d90-4270-b845-073f1185748f}">
+                        <labels>
+                          <label description="Next statement date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nextstatementdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_nextstatementdate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FH line of credit quick view form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

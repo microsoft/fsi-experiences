@@ -103,7 +103,7 @@
             {
                 // WARNING this value directly correlates to the folder name in the Solution Explorer where the ImportConfig.xml and sub content is located. 
                 // Changing this name requires that you also change the correlating name in the Solution Explorer 
-                return "WealthManagement";
+                return "UCP-Wealth-Management";
             }
         }
 

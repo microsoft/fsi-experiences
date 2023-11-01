@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ImportExportXml version="9.2.22111.206" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
-    <UniqueName>UCP-Wealth-Management</UniqueName>
+    <UniqueName>WealthManagement</UniqueName>
     <LocalizedNames>
       <LocalizedName description="Wealth Management" languagecode="1033" />
     </LocalizedNames>

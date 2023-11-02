@@ -1,11 +1,21 @@
-# FSI - Unified Customer Profile
+# Unified Customer Profile
 1. [Introduction][Introduction]
-2. [Prerequisites installations][Prerequisitesinstallations]
-3. [Repo code setup][Repocodesetup]
-4. [Deploy][Deploying]
-5. [Tools][UsedTools]
+2. [Overview][Overview]
+3. [Prerequisites installations][Prerequisitesinstallations]
+4. [Repo code setup][Repocodesetup]
+5. [Deploy][Deploying]
+6. [Tools][UsedTools]
+
 # Introduction
-[**Introduction**][Introduction] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
+[**Introduction**][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
+
+The Unified customer profile provides a 360-degree perspective of the customer in a clear and intuitive way. It helps professionals have a good understanding of their customer’s financial details, important life moments, goals and much more, in order to be able to effectively maintain or deepen their loyalty. It has been tailored to fit the specific needs of professionals operating in the retail banking and the wealth management industries.
+
+* Learn more about the Unified customer profile for retail banking [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/unified-customer-profile?toc=%2Findustry%2Ffinancial-services%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json).
+* Learn more about the Unified client profile for wealth management [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/unified-client-profile?toc=%2Findustry%2Ffinancial-services%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json).
+
+# Overview
+[Introduction][Introduction] | [**Overview**][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
 This guide walks you through the entire process of building and deploying the Unified customer profile solution. It introduces the list of essential prerequisites, a set of detailed code setup instructions, a deployment guidance into the Power Platform environment, and an overview of the tools at your disposal.
 To install the solution, you can either carefully follow the instructions outlined in the following sections or use `InstallTools.cmd` in [**Tools**][UsedTools].
@@ -13,10 +23,10 @@ To install the solution, you can either carefully follow the instructions outlin
 **Note:** To guarantee a smooth build process, you may need to have a memory of 8GB or more to avoid running out of memory on build.
 
 # Prerequisites installations
-[Introduction][Introduction] | [**Prerequisites installations**][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
+[Introduction][Introduction] | [Overview][Overview] | [**Prerequisites installations**][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
 >    * [NPM, PNPM, .NET and Node.js 18.14.1][NPM,PNPM,.NETandNode.js18.14.1]
->    * [Visual Studio 2019][VisualStudio2019]
+>    * [Visual Studio 2022][VisualStudio2022]
 >    * [Visual Studio Code][VisualStudioCode]
 >    * [Tools and configurations][Toolsandconfigurations]
 >    * [SDK installation][SDKinstallation]
@@ -57,7 +67,7 @@ To install the CRM SDK tools, you can manually the specified steps, or run the `
 
 # Repo code setup
 
-[Introduction][Introduction] | [Prerequisites installations][Prerequisitesinstallations] | [**Repo code setup**][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
+[Introduction][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [**Repo code setup**][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
 1. Clone the [repository](https://github.com/microsoft/fsi-experiences).
 2. Run `pnpm install` in `\frontend` directory to install all dependent node libraries.
@@ -354,7 +364,7 @@ Note that the `FakeXrmEasy` is taken locally since it is an edited version of th
 
 # Deploy
 
-[Introduction][Introduction] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [**Deploy**][Deploying] | [Tools][UsedTools]
+[Introduction][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [**Deploy**][Deploying] | [Tools][UsedTools]
 
 ## Prerequisites
 
@@ -391,7 +401,7 @@ To enable multiple languages on your Power Platform environment, follow these st
 3. **Import translations**: To import the translations into your environment, follow these [steps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/import-translated-entity-field-text), which will help you configure and import localization files for your solution in your Power Platform environment.
 # Tools
 
-[Introduction][Introduction] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [**Tools**][UsedTools]
+[Introduction][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [**Tools**][UsedTools]
 ## Export solution or data
 
 You can use `ExportTool.cmd` to export the solution and data or manually export them.
@@ -417,6 +427,7 @@ This project may contain trademarks or logos for projects, products, or services
 
 [Enviroment]: #installations
 [Introduction]: #introduction
+[Overview]: #overview
 [Prerequisitesinstallations]: #prerequisites-installations
 [Repocodesetup]: #repo-code-setup
 [Deploying]: #deploy

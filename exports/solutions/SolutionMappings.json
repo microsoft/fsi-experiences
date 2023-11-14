@@ -19,6 +19,18 @@
     {
       "ProjectName": "FSIUnifiedCustomerProfileSecurityRoles",
       "SolutionName": "UnifiedCustomerProfileSecurityRoles"
+    },
+    {
+      "ProjectName": "FSIWealthManagement",
+      "SolutionName": "WealthManagement"
+    },
+    {
+      "ProjectName": "FSIWealthManagementAnchor",
+      "SolutionName": "WealthManagementAnchor"
+    },
+    {
+      "ProjectName": "FSIWealthManagementSecurityRoles",
+      "SolutionName": "WealthManagementSecurityRoles"
     }
   ]
 }

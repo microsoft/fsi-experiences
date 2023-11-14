@@ -47,9 +47,9 @@ Install NVM to use the specified Node.js version (18.14.1).
 1. Install [Visual Studio Code](https://code.visualstudio.com/download).
 
 ## Tools and configurations
-1. Install the [PAC powerapps CLI](https://aka.ms/PowerAppsCLI).
-2. Install the [Microsoft Dynamics CRM SDK Templates](https://marketplace.visualstudio.com/items?itemName=DynamicsCRMPG.MicrosoftDynamicsCRMSDKTemplates&ssr=false#overview).
-3. Install the package deployment module according to the instructions [here](https://docs.microsoft.com/powershell/powerapps/get-started-packagedeployment?view=pa-ps-latest), and make sure to run the command `Install-Module Microsoft.Xrm.Tooling.CrmConnector.PowerShell`. You can use the instructions in [this guide](https://lifehacker.com/windows-10-allows-file-names-longer-than-260-characters-1785201032) to change the registry and allow file path longer then 260 characters. 
+1. Install the [PAC PowerApps CLI](https://aka.ms/PowerAppsCLI).
+2. Install [Power Platform Tools extension for Visual Studio](https://learn.microsoft.com/en-us/power-platform/developer/devtools-vs#install-power-platform-tools-extension-for-visual-studio).
+3. Install the package deployment module according to the instructions [here](https://docs.microsoft.com/powershell/powerapps/get-started-packagedeployment?view=pa-ps-latest), and make sure to run the command `Install-Module Microsoft.Xrm.Tooling.CrmConnector.PowerShell` (use Administrator Windows PowerShell). You can use the instructions in [this guide](https://lifehacker.com/windows-10-allows-file-names-longer-than-260-characters-1785201032) to change the registry and allow file path longer then 260 characters. 
 4. Install [git](https://git-scm.com/download/win) for Windows.
 5. Allow git to use long file paths by running the following command:
 `git config --global core.longpaths true`.
@@ -70,10 +70,11 @@ To install the CRM SDK tools, you can manually the specified steps, or run the `
 [Introduction][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [**Repo code setup**][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
 1. Clone the [repository](https://github.com/microsoft/fsi-experiences).
-2. Run `pnpm install` in `\frontend` directory to install all dependent node libraries.
-3. Run `pnpm build-libs` in `\frontend` directory to build all dependent node libraries.
-4. Open `Modules\FSI.sln` in Visual Studio, and build the solution. If the build fails, go to the next step.
-5. Open a PowerShell terminal, go to `\Modules` and run `dotnet build`. The build should complete without any errors.
+2. If you're planning to go through the deployment process later, make sure to have plug-ins signed before building the solution in this stage. To achieve that, you can follow the instructions highlighted in [signing and registering plug-ins][PluginRegister] section. 
+3. Run `pnpm install` in `\frontend` directory to install all dependent node libraries. If you encountered an error, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and try again.
+4. Run `pnpm build-libs` in `\frontend` directory to build all dependent node libraries.
+5. Open `Modules\FSI.sln` in Visual Studio, and build the solution. If the build fails, go to the next step.
+6. Open a PowerShell terminal, go to `\Modules` and run `dotnet build`. The build should complete without any errors.
 
 ## Getting started
 
@@ -85,7 +86,7 @@ To install the CRM SDK tools, you can manually the specified steps, or run the `
 >
 >    * [Export solution or data][ExportSolution]
 >
->    * [Registering a plug-in][PluginRegister]
+>    * [Signing and registering a plug-in][PluginRegister]
 >
 >    * [Setup by project type][Projects]
 
@@ -123,7 +124,7 @@ There are two name convention in the setup that will be shorten for readability.
 >
 >    * [Adding new solution to repo][DataProject]
 > 
->    * [Registering a plug-in][PluginRegister]
+>    * [Signing and registering a plug-in][PluginRegister]
 > 
 >    * [Setup by project type][Projects]
 ### Module folder
@@ -168,8 +169,8 @@ There are two name convention in the setup that will be shorten for readability.
 >        * [**Package project**][PackageProject]
 
 The package project combines all the other projects, such as solution, plugin, and PCF, into one package for shipping to the client and in the local deployment for testing. To set up your package project, follow these steps:
-1. Go to Visual Studio and add a new `CRM package` project under the already created module. Use the `Microsoft Dynamics CRM SDK Templates` to get this package type. Naming convention is `<module>.Package`. Remember to make sure the project is created under the module directory. If you don't have the CRM package project, you can copy from the sample project.
-2. Copy the contents of the `importConfig.xml` file content from `<projectDirectory>/templates` and update `importConfig.xml` of the newly created package file (`\Modules\<module>\<module>.Package\PkgFolder\ImportConfig.xml`). Update the `configsolutionfile` attributes accordingly.
+1. Go to Visual Studio and add a new project under the already created module. Use the `power platform package deployment project` to get this package type. Naming convention is `<module>.Package`. Remember to make sure the project is created under the module directory. If you don't have the Power Platform package project, you can copy from `<projectDirectory>/templates/SampleProject.package`.
+2. Copy the contents of the `importConfig.xml` file content from `<projectDirectory>/templates/SampleProject.package` and update `importConfig.xml` of the newly created package file (`\Modules\<module>\<module>.Package\PkgFolder\ImportConfig.xml`). Update the `configsolutionfile` attributes accordingly.
 3. Rename `pkgFolder` to `<module>`.
 4. In `PackageTemplate.cs`, override the return value of `GetImportPackageDataFolderName` with `<module>`.
 5. Copy the contents of the `BaseSolution.Package.csproj` file from `<projectDirectory>/templates` to `<module>.Package\<module>.Package.csproj`.
@@ -177,7 +178,7 @@ The package project combines all the other projects, such as solution, plugin, a
    - Update the `ModuleName` attribute with current `<module>`.
    - Delete to `properties` folder and `packages.config` file.
 6. Under `\Modules\<module>\<module>.Package\<module>` create a `ConfigData` folder and copy into it the placeholder file `readme.md` from `<projectDirectory>/templates`. This folder can store `data.xml` files that will be unpacked there.
-7. Copy the `PackageExtra` folder from `<projectDirectory>/templates` and paste it under `<module>.Package`.
+7. Copy the `PackageExtra` folder from `<projectDirectory>/templates/SampleProject.package` and paste it under `<module>.Package`.
 
 ## Adding new solution to repo
 >    * [Repo code setup][Repocodesetup]
@@ -192,7 +193,7 @@ The package project combines all the other projects, such as solution, plugin, a
 > 
 >        * [Solution project][SolutionProject]
 >
->    * [Registering a plug-in][PluginRegister]
+>    * [Signing and registering a plug-in][PluginRegister]
 > 
 >    * [Setup by project type][Projects]
 ### Set up a data project
@@ -223,7 +224,7 @@ If you want to add a new solution with the name `<SolutionName>` available in yo
    - This file describes the different projects and the corresponding solutions. `ProjectName` is the name of the solution in the repo. `SolutionName` is the display name of the solution  (in the Dynamics 365 environment) you want to add to the repo.
    - Add the new solution in `SolutionMappings.json` by following the pattern in the file. For information about the initial export, refer to [this][ExportSolution] section.
 
-## Registering a plug-in
+## Signing and registering a plug-in
 >
 >    * [Repo code setup][Repocodesetup]
 >
@@ -237,11 +238,21 @@ If you want to add a new solution with the name `<SolutionName>` available in yo
 > 
 >        * [Solution project][SolutionProject]
 >
->    * [**Registering a plug-in**][PluginRegister]
+>    * [**Signing and registering a plug-in**][PluginRegister]
 > 
 >    * [Setup by project type][Projects]
 
-The plug-in must be signed and registered before the deployment stage. Otherwise, the deployment will fail. Follow the instructions in the [official documentation](https://learn.microsoft.com/power-apps/developer/data-platform/tutorial-write-plug-in#sign-the-plug-in) to sign and register a plug-in.
+Plug-ins must be signed before the deployment stage. Otherwise, the deployment will fail. Follow the steps down below to sign the plug-in:
+
+1. To sign the plugins, you need to create a key pair using the [Strong Name tool](https://learn.microsoft.com/en-us/dotnet/framework/tools/sn-exe-strong-name-tool). 
+2. Start the tool using Visual Studio Developer Command Prompt, go to `build\config` folder, and follow the steps in this [documentation](https://learn.microsoft.com/en-us/dotnet/standard/assembly/create-public-private-key-pair#create-a-key-pair) to create a key pair, **call it *"key.snk"***.
+3. Extract the public key from the key pair and copy it to a separate file as declared in the documentation in step 2, you'll need the *public.snk* file to extract the public key token.
+4. Run `sn -tp public.snk` on Visual Studio Developer Command Prompt and save the extracted public key token.
+5. Follow the steps [here](https://learn.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name?source=recommendations#create-and-sign-an-assembly-with-a-strong-name-by-using-visual-studio) to sign the assembly using Visual Studio. The strong name key file path should point to your key pair file, i.e., `$(MSBuildThisFileDirectory)\build\config\key.snk`.
+6. Using Visual Studio Code, search for *"PublicKeyToken=null"*, and replace all results with the public key token extracted previously in step 4, *i.e, PublicKeyToken=<extracted_public_key_token>*.
+
+For plug-ins registration, you can follow the steps in this [documentation](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
+
 
 ## Setup by project type
 >    * [Repo code setup][Repocodesetup]
@@ -252,7 +263,7 @@ The plug-in must be signed and registered before the deployment stage. Otherwise
 >
 >    * [Adding new solution to repo][DataProject]
 >
->    * [Registering a plug-in][PluginRegister]
+>    * [Signing and registering a plug-in][PluginRegister]
 > 
 >    * [**Setup by project type**][Projects]
 >
@@ -434,7 +445,7 @@ This project may contain trademarks or logos for projects, products, or services
 [UsedTools]: #tools
 [Installations]: #installations
 [NugetCredentials]: #nuget-credentials
-[PluginRegister]: #register-a-plug-in
+[PluginRegister]: #signing-and-registering-a-plug-in
 [DataProject]: #set-up-a-data-project
 [Projects]: #pcf-projects
 [WebResourceProjects]: #webresource-projects

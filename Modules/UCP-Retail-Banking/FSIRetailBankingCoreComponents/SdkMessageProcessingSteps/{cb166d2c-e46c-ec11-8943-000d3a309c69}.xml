@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SdkMessageProcessingStep Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin: msfsi_FHfetch of any Entity" SdkMessageProcessingStepId="{cb166d2c-e46c-ec11-8943-000d3a309c69}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>c94266bb-e36c-ec11-8943-000d3a3099c3</SdkMessageId>
-  <PluginTypeName>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</PluginTypeName>
+  <PluginTypeName>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
   <PluginTypeId>a1a0fa53-1c25-4169-8942-df6aa84c5362</PluginTypeId>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Description>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildFHEntityCollectionPlugin: msfsi_FHfetch of any Entity</Description>

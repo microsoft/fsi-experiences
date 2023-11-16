@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SdkMessageProcessingStep Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.UpdateGroupPlugin: msfsi_GroupUpdate of any Entity" SdkMessageProcessingStepId="{1e08c88a-fe74-eb11-a812-000d3a37da6b}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>9e5dc3e8-8974-eb11-a812-000d3a36d396</SdkMessageId>
-  <PluginTypeName>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.UpdateGroupPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</PluginTypeName>
+  <PluginTypeName>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.UpdateGroupPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
   <PluginTypeId>0340c098-22ca-4e56-b310-95bc61aeb144</PluginTypeId>
   <AsyncAutoDelete>0</AsyncAutoDelete>
   <Description>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.UpdateGroupPlugin: msfsi_GroupUpdate of any Entity</Description>

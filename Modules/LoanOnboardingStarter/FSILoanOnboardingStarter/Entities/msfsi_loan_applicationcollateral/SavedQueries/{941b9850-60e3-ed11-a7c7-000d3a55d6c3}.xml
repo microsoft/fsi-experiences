@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{941b9850-60e3-ed11-a7c7-000d3a55d6c3}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_loan_applicationcollateralid">
+          <cell name="msfsi_name" width="200" />
+          <cell name="a_bb9d40a169fc4838827158550a91656e.msfsi_category" width="160" />
+          <cell name="msfsi_loancollateralvaluation" width="180" />
+          <cell name="msfsi_purchasedate" width="118" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msfsi_loan_applicationcollateral">
+          <attribute name="msfsi_name" />
+          <attribute name="msfsi_loan_applicationcollateralid" />
+          <link-entity alias="a_bb9d40a169fc4838827158550a91656e" name="msfsi_applicationcollateral" to="msfsi_applicationcollateral" from="msfsi_applicationcollateralid" link-type="outer" visible="false">
+            <attribute name="msfsi_category" />
+          </link-entity>
+          <attribute name="msfsi_loancollateralvaluation" />
+          <attribute name="msfsi_purchasedate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Loan application information collateral view" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

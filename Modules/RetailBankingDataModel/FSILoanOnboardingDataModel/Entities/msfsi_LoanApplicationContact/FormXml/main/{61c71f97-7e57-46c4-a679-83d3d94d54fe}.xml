@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{61c71f97-7e57-46c4-a679-83d3d94d54fe}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{4c03a3fd-4ecd-4c02-bd18-9be8b26e42b9}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f3373720-3aaf-4ed3-826b-714a3ccb08a6}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{931cd4f5-f71c-4cb1-9377-5874e3ef96ec}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d70f05a2-6edc-4fc5-be57-e401e58aa4de}" locklevel="0">
+                        <labels>
+                          <label description="Loan application ID" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_loanapplicationid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_loanapplicationid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e73e8c8-bbfb-4cd2-9404-6d9cf38b24bc}" locklevel="0">
+                        <labels>
+                          <label description="Loan application role" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_loanapplicationrole" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_loanapplicationrole" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd6023da-255a-4d8f-811c-af99ecec020f}" locklevel="0">
+                        <labels>
+                          <label description="Is primary borrower" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_isprimaryborrower" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_isprimaryborrower" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{747c29d8-9dd5-4e53-ae2e-6cb81d8b8966}" locklevel="0">
+                        <labels>
+                          <label description="Is borrower employer relationship" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_isborroweremployerrelationship" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_isborroweremployerrelationship" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{71d7c237-c25f-4a20-94ca-75320554ff0d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9e499586-0e6a-489d-bd54-a9e4e26bb48d}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{357c883f-7390-455a-87d0-316b448d8ed1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{43f1853b-c112-4a77-8b2f-0c9d4b055799}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{545071da-8249-44aa-9353-11be05d57938}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{42bf5bea-aa95-46f8-a065-888bd5ae81ce}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{021357b8-e11f-4f4a-806b-2db7c9504b9e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{664a7d08-da8e-4977-b6b5-eaf5a0bf1291}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="The main form of the entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

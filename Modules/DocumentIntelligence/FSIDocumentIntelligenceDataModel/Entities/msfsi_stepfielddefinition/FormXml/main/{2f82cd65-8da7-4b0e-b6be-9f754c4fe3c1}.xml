@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2f82cd65-8da7-4b0e-b6be-9f754c4fe3c1}</formid>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{3ccf3101-53c9-4eaa-b934-b137747e6ac4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{174acbf5-062b-41a4-88f6-370eac6aa430}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{209f2fa5-b661-42a6-9962-21c2982f5148}">
+                        <labels>
+                          <label description="Display name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_displayname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_displayname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{804d298e-c34e-2d52-1b33-698a061ba39d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="External name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_externalname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_externalname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b089a698-ec29-35b8-aae6-e8da12c731ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Step definition" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_stepdefinition" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_stepdefinition" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad47002a-eb94-4502-c626-a69d2459141d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Required for approval" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_requiredforapproval" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_requiredforapproval" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61316784-1eaf-448f-b692-332b463deeb1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Read only" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_readonly" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_readonly" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a37a74c4-c0a7-7161-ad60-ee195b8bbb7d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Order" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_order" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_order" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{280600df-6f0f-4ebc-a122-141e7715244e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

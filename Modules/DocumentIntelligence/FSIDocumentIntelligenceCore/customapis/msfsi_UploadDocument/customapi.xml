@@ -1,0 +1,19 @@
+<customapi uniquename="msfsi_UploadDocument">
+  <allowedcustomprocessingsteptype>0</allowedcustomprocessingsteptype>
+  <bindingtype>1</bindingtype>
+  <boundentitylogicalname>msfsi_documentrequest</boundentitylogicalname>
+  <description default="Upload new document to an existing document request.">
+    <label description="Upload new document to an existing document request." languagecode="1033" />
+  </description>
+  <displayname default="Upload document">
+    <label description="Upload document" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>0</isprivate>
+  <name>Upload document</name>
+  <plugintypeid>
+    <plugintypeid>84e66d07-7855-4a86-9d96-9c2035267fc1</plugintypeid>
+  </plugintypeid>
+  <workflowsdkstepenabled>1</workflowsdkstepenabled>
+</customapi>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{44e1cced-65c6-ed11-b596-000d3a37dbf1}</formid>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d12778bf-bd3a-46b4-8190-6176b532a534}" IsUserDefined="1" labelid="{7664af9f-ff5c-4e4d-918f-a281bc2649b1}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1289357e-293d-462d-b867-d7bc0a3a0169}" columns="11" name="general_details" labelid="{2355bcd6-8c7e-4f1b-aa99-48f0b5d20bfa}" visible="false">
+                  <labels>
+                    <label description="General details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{86d55084-d945-4587-95e4-d2d3506a5036}" locklevel="0" colspan="1" rowspan="1" labelid="{da562c23-5427-45ba-ad7d-35b18d74947f}" visible="false">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_relatedparty_role" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_relatedparty_role" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4302f917-64ef-40a7-b421-9f8603380281}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{041afe68-07c4-4660-9c01-4af613e349fa}" visible="false" labelid="{b79112c6-3b36-458a-9b40-3abb0e923447}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{5ba48e45-ade3-4acd-ade0-fd6bc45bbee9}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="50c7c0e0-98f4-4f33-9399-b97ef27bafdb" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{417caa2a-f695-44f2-992b-c8f4584fd7e2}" showlabel="true" labelid="{4cc36f52-d5d3-4dbc-90ae-89463865132d}" visible="true" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Full name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                      <cell id="{1d115527-5056-4938-92a8-4887d28ed5d4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="City" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_address1_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{bdeef8a5-4a99-4839-95c7-e0c2e3d8e9a9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{1c48f6ea-0e31-4fc0-93e6-fc6733b1a5a0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="State" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_address1stateprovince" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_address1stateprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{544a9c99-1476-4072-88b7-0154b8de8d81}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{28b3f44d-077d-4bcf-bc77-1e3bb5651c7a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Marital Status" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_maritalstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_maritalstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{0c390557-9c0f-40ba-ab5b-d247f00ebf0b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{c0a2a46d-735d-42c3-bf42-713694d5d302}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="National ID" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_governmentid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_governmentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e65bb8b7-7724-4031-b3c8-e39a6da496e7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Birthday" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_birthday" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_birthday" disabled="false" />
+                      </cell>
+                      <cell id="{8588fc59-b4f1-499e-ba09-f3102362db33}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Know your customer" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_kyc_check" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_kyc_check" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7388bf5-62fc-417e-93c3-ace614a5760f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_address1_telephone1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_address1_telephone1" disabled="false" />
+                      </cell>
+                      <cell id="{1c5c75e0-1cc1-4cfd-80c7-cb224f7a997b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Credit score" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_creditscore" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msfsi_creditscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9422640d-a218-4d2c-8fc4-3c92a6070560}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_emailaddress" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="msfsi_emailaddress" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{1d574584-ffc3-4ce8-b5d0-0678ba7575e8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3e004fd8-0dab-4e55-bd9d-febc86dfce3b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_address1_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_address1_name" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{89208cb7-69a4-4961-b2a5-a7dabeb6c6a3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_4" id="65a37e25-69d3-4587-9d2b-a5fcaeb02844" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{514d141e-653f-42b0-9e15-ef1392a158ac}" rowspan="6" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Employment" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{18b62215-9aed-5d95-79cc-6b094dd3a337}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <TargetEntityType>msfsi_contactemployment</TargetEntityType>
+                            <ViewId>{B566A3EE-64C6-ED11-B597-000D3A37DE5F}</ViewId>
+                            <ViewIds>{1B11634F-9470-44DA-99AF-734C3F056E17},{B566A3EE-64C6-ED11-B597-000D3A37DE5F}</ViewIds>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <IsUserChart>false</IsUserChart>
+                            <RelationshipName>msfsi_msfsi_contactemployment_relatedpartycontract_msfsi_relatedpartycontract</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2be9caa9-56a8-4951-9f60-bb133a26016f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9e01d226-098d-47b2-8209-e4d1b3f45f9d}" showlabel="false" labelid="{558cf84e-08d6-4242-8db2-1ecfcfdf1fb0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{87c3c4b0-fdd5-4eec-b739-4ba94be39779}" showlabel="false" labelid="{cb5c89be-55e6-4e8c-af8a-03db86adc87e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{038eb2d7-5aa6-445d-858a-829c328cc433}" showlabel="false" labelid="{083d6ce1-fe3d-4cfe-9ad5-5eb24aaa7ff7}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{89cf9c3b-eaa0-42e8-8487-f7f884d42f45}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b6f373cc-937b-4bf0-9848-526fa437f455}" showlabel="false" labelid="{e28e4139-5997-4578-abd4-20edf59c1343}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{afdf4191-76cc-4164-86f9-989ccf770033}" showlabel="false" labelid="{a29fcd28-59f7-45a5-9239-6b6084771cf8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{06693d4e-1307-4dac-843d-d7fca5b2293f}" showlabel="false" labelid="{9bab2dbb-bdfe-4111-a411-7f62ced09d20}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{f9525f93-d158-48aa-8604-dbaee4f638a4}">
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>msfsi_relatedparty</datafieldname>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{8A482B0B-AED6-ED11-A7C7-0022481FCBFD}" />
+        <Role Id="{5D3CB17C-D1CF-ED11-B597-000D3A4DCB84}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Related loan parties' information main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

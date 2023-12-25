@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_businessscenario" localizedName="Business scenario" description="Defines the business scenario that will be applicable for applications, various parties and roles." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.4.0.0</IntroducedVersion>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Business scenario" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="Defines the business scenario that will be applicable for applications, various parties and roles." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="104800001">
+      <labels>
+        <label description="Loan" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

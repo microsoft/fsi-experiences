@@ -1,0 +1,413 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfsi_sharedcommondataserviceforapps_b8eb3"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "7b09b093-3454-418c-b137-eb96eab634f0"
+          },
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "File Template",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Pipeline step Definition Id",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_2": {
+                  "title": "Document Pipeline Id",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1",
+                "text_2"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Pre_pipeline_step_functionalities": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "a667f20b-1049-408e-aedc-7a902edce0d7"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "ba35f4f3-a7fa-ec11-82e5-000d3a182304"
+            },
+            "body": {
+              "text": "@triggerBody()['text_1']",
+              "text_1": "@triggerBody()['text_2']"
+            }
+          }
+        },
+        "Generate_JSON_of_file_string": {
+          "runAfter": {
+            "Get_pipeline_step_definition": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3adccaab-31c6-4514-a036-a8213988d7c9"
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@json(triggerBody()['text'])",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "$content-type": {
+                  "type": "string"
+                },
+                "$content": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Try_-_Extract_Information_from_document": {
+          "actions": {
+            "Predict": {
+              "runAfter": {},
+              "limit": {
+                "timeout": "PT5M"
+              },
+              "metadata": {
+                "operationMetadataId": "aeae0079-0c81-43a8-af5e-8778892574a2",
+                "flowSystemMetadata": {
+                  "portalOperationApiDisplayNameOverride": "AI Builder",
+                  "portalOperationIconOverride": "https://content.powerapps.com/resource/makerx/static/pauto/images/designeroperations/aiBuilderNew.51dbdb6b.png",
+                  "portalOperationBrandColorOverride": "#0A76C4",
+                  "portalOperationApiTierOverride": "Standard",
+                  "portalOperationId": "aibuilderpredict",
+                  "portalOperationGroup": "aibuilder"
+                }
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "host": {
+                  "connectionName": "shared_commondataserviceforapps",
+                  "operationId": "aibuilderpredict",
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+                },
+                "parameters": {
+                  "recordId": "@outputs('Get_pipeline_step_definition')?['body/_msfsi_aibuildermodel_value']",
+                  "item": {
+                    "version": "2.0",
+                    "requestv2": {
+                      "@@odata.type": "Microsoft.Dynamics.CRM.expando",
+                      "mimeType": "@{body('Generate_JSON_of_file_string')?['$content-type']}",
+                      "base64Encoded": "@{string(body('Generate_JSON_of_file_string')?['$content'])}"
+                    }
+                  }
+                },
+                "authentication": {
+                  "type": "Raw",
+                  "value": "@json(decodeBase64(triggerOutputs().headers['X-MS-APIM-Tokens']))['$ConnectionKey']"
+                }
+              }
+            },
+            "Check_for_extraction_step_with_fields": {
+              "actions": {
+                "Format_extracted_data": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "d4d7fab9-4c14-488f-a5cf-4dea82b2c48a"
+                  },
+                  "type": "Workflow",
+                  "inputs": {
+                    "host": {
+                      "workflowReferenceName": "c035fd97-3f6b-ed11-9561-00224805ce8f"
+                    },
+                    "body": {
+                      "text": "@triggerBody()['text_1']",
+                      "text_1": "@outputs('Get_pipeline_step_definition')?['body/_msfsi_aibuildermodel_value']",
+                      "text_2": "@string(outputs('Clean_output_-_remove_page_read_results'))",
+                      "number": "@coalesce(outputs('Get_pipeline_step_definition')?['body/msfsi_successthreshold'],0.9)",
+                      "number_1": "@coalesce(outputs('Get_pipeline_step_definition')?['body/msfsi_failurethreshold'],0.2)"
+                    }
+                  }
+                }
+              },
+              "runAfter": {
+                "Clean_output_-_remove_page_read_results": [
+                  "Succeeded"
+                ]
+              },
+              "expression": {
+                "and": [
+                  {
+                    "equals": [
+                      "@outputs('Get_pipeline_step_definition')?['body/msfsi_type']",
+                      104800000
+                    ]
+                  },
+                  {
+                    "greater": [
+                      "@length(outputs('Get_pipeline_step_definition')?['body/msfsi_msfsi_pipelinestepdefinition_msfsi_stepfielddefinition_stepdefinition'])",
+                      0
+                    ]
+                  }
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "98c9d65b-8785-43d6-82dc-113b5269ecfc"
+              },
+              "type": "If"
+            },
+            "Clean_output_-_remove_read_results": {
+              "runAfter": {
+                "Predict": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "420fe7cb-fd9c-40ce-8411-414dca7a0633"
+              },
+              "type": "Compose",
+              "inputs": "@removeProperty(coalesce(outputs('Predict')?['body/responsev2/predictionOutput'],json('{}')), 'readResults')"
+            },
+            "Clean_output_-_remove_page_read_results": {
+              "runAfter": {
+                "Clean_output_-_remove_read_results": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "d2c70c0c-1d07-404e-a088-df9dae46d738"
+              },
+              "type": "Compose",
+              "inputs": "@removeProperty(outputs('Clean_output_-_remove_read_results'),'pageReadResults')"
+            }
+          },
+          "runAfter": {
+            "Generate_JSON_of_file_string": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d472d736-50ce-4918-9dc2-976f37aacbfe"
+          },
+          "type": "Scope"
+        },
+        "Catch_-_Extract_Information_from_document": {
+          "actions": {
+            "Post_pipeline_step_failure": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "62296a6d-5a2a-49b6-aafc-0c95bdef4112"
+              },
+              "type": "Workflow",
+              "inputs": {
+                "host": {
+                  "workflowReferenceName": "0be25b1f-a9fa-ec11-82e5-000d3a182304"
+                },
+                "body": {
+                  "text": "@body('Pre_pipeline_step_functionalities')?['document_pipeline_step_id']",
+                  "text_1": "Rejected",
+                  "text_2": "Failure"
+                }
+              }
+            },
+            "Respond_Error_to_a_PowerApp_or_flow": {
+              "runAfter": {
+                "Post_pipeline_step_failure": [
+                  "Succeeded"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "26bf5d4b-43b2-4442-b690-7b4ecf9ce1c9"
+              },
+              "type": "Response",
+              "kind": "PowerApp",
+              "inputs": {
+                "statusCode": 200,
+                "body": {
+                  "document_state": "Rejected",
+                  "pipeline_state": "Failure"
+                },
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "document_state": {
+                      "title": "Document State",
+                      "x-ms-dynamically-added": true,
+                      "type": "string"
+                    },
+                    "pipeline_state": {
+                      "title": "Pipeline State",
+                      "x-ms-dynamically-added": true,
+                      "type": "string"
+                    },
+                    "raw_output": {
+                      "title": "Raw output",
+                      "x-ms-dynamically-added": true,
+                      "type": "string"
+                    },
+                    "output": {
+                      "title": "Output",
+                      "x-ms-dynamically-added": true,
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Try_-_Extract_Information_from_document": [
+              "Failed",
+              "TimedOut"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "ed0e0dd8-e842-43a8-ae66-98529c2a42f5"
+          },
+          "type": "Scope"
+        },
+        "Respond_to_a_PowerApp_or_flow": {
+          "runAfter": {
+            "Post_pipeline_step_functionalities": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "26bf5d4b-43b2-4442-b690-7b4ecf9ce1c9"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "document_state": "@{coalesce(outputs('Format_extracted_data')?['Body']?['document_state'], 'Approved')}",
+              "pipeline_state": "Success",
+              "raw_output": "@{string(outputs('Clean_output_-_remove_page_read_results'))}",
+              "output": "@{coalesce(body('Format_extracted_data')?['formatted_model_output'], '')}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "document_state": {
+                  "title": "Document State",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "pipeline_state": {
+                  "title": "Pipeline State",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "raw_output": {
+                  "title": "Raw output",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "output": {
+                  "title": "Output",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Get_pipeline_step_definition": {
+          "runAfter": {
+            "Pre_pipeline_step_functionalities": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "1c9a9d9e-3881-4951-85d7-b8a22d86e823"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "GetItem",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "msfsi_pipelinestepdefinitions",
+              "recordId": "@triggerBody()['text_1']",
+              "$select": "msfsi_msfsi_pipelinestepdefinition_msfsi_stepfielddefinition_stepdefinition,_msfsi_aibuildermodel_value,msfsi_type,msfsi_successthreshold,msfsi_failurethreshold",
+              "$expand": "msfsi_msfsi_pipelinestepdefinition_msfsi_stepfielddefinition_stepdefinition($filter=statecode eq 0)"
+            },
+            "authentication": {
+              "type": "Raw",
+              "value": "@json(decodeBase64(triggerOutputs().headers['X-MS-APIM-Tokens']))['$ConnectionKey']"
+            }
+          }
+        },
+        "Post_pipeline_step_functionalities": {
+          "runAfter": {
+            "Catch_-_Extract_Information_from_document": [
+              "Skipped"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "2c53a2cb-0c08-493c-ba79-316d8512c8e9"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "0be25b1f-a9fa-ec11-82e5-000d3a182304"
+            },
+            "body": {
+              "text": "@body('Pre_pipeline_step_functionalities')?['document_pipeline_step_id']",
+              "text_1": "@coalesce(outputs('Format_extracted_data')?['Body']?['document_state'], 'Approved')",
+              "text_2": "Success",
+              "text_3": "@string(outputs('Clean_output_-_remove_page_read_results'))",
+              "text_4": "@coalesce(body('Format_extracted_data')?['formatted_model_output'], '')"
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

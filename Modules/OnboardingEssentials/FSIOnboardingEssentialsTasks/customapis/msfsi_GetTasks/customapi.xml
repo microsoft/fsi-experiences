@@ -1,0 +1,18 @@
+<customapi uniquename="msfsi_GetTasks">
+  <allowedcustomprocessingsteptype>0</allowedcustomprocessingsteptype>
+  <bindingtype>0</bindingtype>
+  <description default="GetTasks">
+    <label description="GetTasks" languagecode="1033" />
+  </description>
+  <displayname default="GetTasks">
+    <label description="GetTasks" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>1</isprivate>
+  <name>GetTasks</name>
+  <plugintypeid>
+    <plugintypeid>11f5d567-293e-4e38-99cd-7debf8cd333c</plugintypeid>
+  </plugintypeid>
+  <workflowsdkstepenabled>0</workflowsdkstepenabled>
+</customapi>

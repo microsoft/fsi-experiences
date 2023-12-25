@@ -1,0 +1,51 @@
+<msfsi_pipelinestepdefinitions>
+  <msfsi_pipelinestepdefinition msfsi_pipelinestepdefinitionid="3296bd12-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_aibuildermodel>
+      <msdyn_aimodelid>2c444168-f8b1-4c6a-9313-2d9c03be6fea</msdyn_aimodelid>
+    </msfsi_aibuildermodel>
+    <msfsi_documentdefinition>
+      <msfsi_documentdefinitionid>fcf0c52f-f1a7-44d9-9c51-99e0ce0f5490</msfsi_documentdefinitionid>
+    </msfsi_documentdefinition>
+    <msfsi_failurethreshold>0.2</msfsi_failurethreshold>
+    <msfsi_infolink>https://aka.ms/AAj1jrx</msfsi_infolink>
+    <msfsi_name default="Extract information">
+      <label description="Extract information" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_order>0</msfsi_order>
+    <msfsi_successthreshold>0.9</msfsi_successthreshold>
+    <msfsi_type>104800000</msfsi_type>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_pipelinestepdefinition>
+  <msfsi_pipelinestepdefinition msfsi_pipelinestepdefinitionid="8160747a-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_documentdefinition>
+      <msfsi_documentdefinitionid>fcf0c52f-f1a7-44d9-9c51-99e0ce0f5490</msfsi_documentdefinitionid>
+    </msfsi_documentdefinition>
+    <msfsi_failurethreshold>0.8</msfsi_failurethreshold>
+    <msfsi_infolink>https://aka.ms/AAj1jrx</msfsi_infolink>
+    <msfsi_name default="Document type verification">
+      <label description="Document type verification" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_order>2</msfsi_order>
+    <msfsi_successthreshold>0.9</msfsi_successthreshold>
+    <msfsi_type>104800002</msfsi_type>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_pipelinestepdefinition>
+  <msfsi_pipelinestepdefinition msfsi_pipelinestepdefinitionid="8eb08f5f-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_documentdefinition>
+      <msfsi_documentdefinitionid>fcf0c52f-f1a7-44d9-9c51-99e0ce0f5490</msfsi_documentdefinitionid>
+    </msfsi_documentdefinition>
+    <msfsi_infolink>https://aka.ms/AAj1jrx</msfsi_infolink>
+    <msfsi_name default="Add supporting information">
+      <label description="Add supporting information" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_order>1</msfsi_order>
+    <msfsi_type>104800001</msfsi_type>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_pipelinestepdefinition>
+</msfsi_pipelinestepdefinitions>

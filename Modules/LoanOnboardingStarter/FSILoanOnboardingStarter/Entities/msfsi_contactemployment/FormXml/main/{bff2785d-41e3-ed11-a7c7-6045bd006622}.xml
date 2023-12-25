@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bff2785d-41e3-ed11-a7c7-6045bd006622}</formid>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ade90348-045d-40a5-876a-8bf8b93365d5}" IsUserDefined="1" labelid="{83a4c210-c653-42de-8287-d4d2f0bed5ee}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{de823aef-fbb3-4b1d-897f-590a23f1f36b}" labelid="{d93d8fc5-12a3-4f44-ba92-766ca2e8cc73}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6c55295b-d81a-4bb7-be2e-b9d718ff4725}" labelid="{fe632622-298d-4394-9236-e1c6de0bc43d}">
+                        <labels>
+                          <label description="Employer name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_employername" classid="{324eecdd-6eb7-4a04-949c-49d38995655b}" datafieldname="msfsi_employername" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{624bda7c-cb5e-48c4-9a34-bf3b2c9f6f80}" visible="false" labelid="{135ebcf2-6170-46ec-851e-0719a5f6fb25}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{97d34f9b-90b4-4e0d-8df5-cfdc23e4ff5a}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a7473431-2a0b-4871-a85a-6edcf585e434}" locklevel="0" colspan="1" rowspan="1" labelid="{a43e18f2-6610-40b6-b143-64fbc716b897}">
+                        <labels>
+                          <label description="Job title" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_jobtitle" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{79bb64a6-92ac-4bae-9bb3-fb5a5b390895}" locklevel="0" colspan="1" rowspan="1" labelid="{74e37233-1f27-4dec-b57a-f97a9bbb3367}">
+                        <labels>
+                          <label description="Employment start date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_contactemploymentstartdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_contactemploymentstartdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1c2f279-dff0-4ed2-be30-dfe3b033e0f6}" locklevel="0" colspan="1" rowspan="1" labelid="{bebecc2d-8e10-4488-936b-515715036dc4}">
+                        <labels>
+                          <label description="Employment end date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_contactemploymentenddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_contactemploymentenddate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{7a0993cb-e9bf-4833-a2e7-1c54f17a204a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e44db3d6-19a3-46d3-8667-079f1911d92b}" showlabel="false" labelid="{217bc46b-31ef-4ae1-a3b1-be04b44ebaf0}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{674755c0-2e67-4c44-bf47-285af1774d55}" showlabel="false" labelid="{6f6909c6-2d39-4970-b942-26ffc882b542}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4fc4cdab-fe95-4631-af96-4805feea32a0}" showlabel="false" labelid="{dd108d3a-7102-4544-bab0-5eb2ad5a8154}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f71f0a30-b47e-41f6-bc39-1a6cdf63145b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{21a4eb5f-5a41-41b9-9992-199b3e5a8837}" showlabel="false" labelid="{bebd3161-7008-4e74-85d9-c957768385f1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{05af6fa6-4a5b-4d62-a2c1-d4ad88ae0c96}" showlabel="false" labelid="{c9e53a8d-6eb2-47a5-83e1-f000676c43e9}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8ffc4e1d-6b95-4cad-b165-c8c2ec955616}" showlabel="false" labelid="{ef579b45-4d50-49a0-b521-5f4add050645}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{8A482B0B-AED6-ED11-A7C7-0022481FCBFD}" />
+        <Role Id="{5D3CB17C-D1CF-ED11-B597-000D3A4DCB84}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Employment main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

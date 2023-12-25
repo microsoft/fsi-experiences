@@ -1,0 +1,12 @@
+<customapirequestparameter uniquename="ProcessStage">
+  <description default="ProcessStage">
+    <label description="ProcessStage" languagecode="1033" />
+  </description>
+  <displayname default="ProcessStage">
+    <label description="ProcessStage" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>1</isoptional>
+  <name>ProcessStage</name>
+  <type>10</type>
+</customapirequestparameter>

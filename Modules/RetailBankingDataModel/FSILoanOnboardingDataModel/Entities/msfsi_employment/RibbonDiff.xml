@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_employment.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_employment.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_employment.Flyout.Hide" Location="AIBuilder.msfsi_employment.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Activate.Hide" Location="Mscrm.Form.msfsi_employment.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddAppointment.Hide" Location="Mscrm.Form.msfsi_employment.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_employment.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddConnection.Hide" Location="Mscrm.Form.msfsi_employment.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddEmail.Hide" Location="Mscrm.Form.msfsi_employment.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddFax.Hide" Location="Mscrm.Form.msfsi_employment.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddFile.Hide" Location="Mscrm.Form.msfsi_employment.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddLetter.Hide" Location="Mscrm.Form.msfsi_employment.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddNote.Hide" Location="Mscrm.Form.msfsi_employment.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_employment.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddPhone.Hide" Location="Mscrm.Form.msfsi_employment.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_employment.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_employment.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddTask.Hide" Location="Mscrm.Form.msfsi_employment.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.AddToQueue.Hide" Location="Mscrm.Form.msfsi_employment.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Convert.Case.Hide" Location="Mscrm.Form.msfsi_employment.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_employment.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.CopySelected.Hide" Location="Mscrm.Form.msfsi_employment.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_employment.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Deactivate.Hide" Location="Mscrm.Form.msfsi_employment.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_employment.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_employment.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.FormDesign.Hide" Location="Mscrm.Form.msfsi_employment.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.MailMerge.Hide" Location="Mscrm.Form.msfsi_employment.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_employment.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_employment.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_employment.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_employment.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Permissions.Hide" Location="Mscrm.Form.msfsi_employment.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_employment.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.PublishAll.Hide" Location="Mscrm.Form.msfsi_employment.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.PublishEntity.Hide" Location="Mscrm.Form.msfsi_employment.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_employment.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.Reports.Hide" Location="Mscrm.Form.msfsi_employment.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.RunScript.Hide" Location="Mscrm.Form.msfsi_employment.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_employment.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_employment.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_employment.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_employment.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_employment.WordTemplate.Hide" Location="Mscrm.Form.msfsi_employment.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_employment.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_employment.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.Activate.Hide" Location="Mscrm.SubGrid.msfsi_employment.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_employment.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_employment.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_employment.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_employment.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_employment.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_employment.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_employment.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_employment.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.Charts.Hide" Location="Mscrm.SubGrid.msfsi_employment.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_employment.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_employment.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.Detect.Hide" Location="Mscrm.SubGrid.msfsi_employment.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_employment.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.Filters.Hide" Location="Mscrm.SubGrid.msfsi_employment.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_employment.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_employment.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_employment.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_employment.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_employment.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_employment.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_employment.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_employment.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_employment.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_employment.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_employment.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

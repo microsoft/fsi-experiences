@@ -84,13 +84,13 @@ $installedSNPaths = Get-InstalledSNPaths
 $successFullSNInvocations = 0
 
 foreach ($installedSNPath in $installedSNPaths){
-    Write-Host "Executing '$installedSNPath' to skip validation for all the FSI assemblies with signature '31bf3856ad364e35'"
-    $installationResult = $(& "$installedSNPath" -Vr *,31bf3856ad364e35) -join " "
+    Write-Host "Executing '$installedSNPath' to skip validation for all the FSI assemblies with signature '<signture>'"
+    $installationResult = $(& "$installedSNPath" -Vr *,*) -join " "
     if (-not ($installationResult.Contains("Failed"))){
         $successFullSNInvocations++
     }
 }
 
 if ($successFullSNInvocations -eq 0){
-    Write-Error "Failed to register FSI assemblies with signature '31bf3856ad364e35' for verification skipping"
+    Write-Error "Failed to register FSI assemblies with signature '<signture>' for verification skipping"
 }

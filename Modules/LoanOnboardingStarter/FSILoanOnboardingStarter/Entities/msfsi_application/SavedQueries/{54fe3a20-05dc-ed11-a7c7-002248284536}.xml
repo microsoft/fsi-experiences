@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{54fe3a20-05dc-ed11-a7c7-002248284536}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_applicationid">
+          <cell name="msfsi_name" width="200" />
+          <cell name="msfsi_primaryapplicant" width="100" />
+          <cell name="a_5fc85271c09147c4be2fd5a4b1d2e93c.msfsi_loanoriginator" width="100" />
+          <cell name="msfsi_category" width="100" />
+          <cell name="createdon" width="100" />
+          <cell name="a_5fc85271c09147c4be2fd5a4b1d2e93c.msfsi_loantype" width="100" />
+          <cell name="a_5fc85271c09147c4be2fd5a4b1d2e93c.msfsi_principalamount" width="100" />
+          <cell name="msfsi_archivedate" width="100" />
+          <cell name="msfsi_archivereason" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="msfsi_application">
+          <attribute name="msfsi_name" />
+          <attribute name="msfsi_applicationid" />
+          <attribute name="msfsi_primaryapplicant" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+            <condition attribute="msfsi_businessscenario" operator="eq" value="104800001" />
+          </filter>
+          <link-entity alias="a_5fc85271c09147c4be2fd5a4b1d2e93c" name="msfsi_loan_application" to="msfsi_detailsid" from="msfsi_loan_applicationid" link-type="outer" visible="false">
+            <attribute name="msfsi_loanoriginator" />
+            <attribute name="msfsi_loantype" />
+            <attribute name="msfsi_principalamount" />
+          </link-entity>
+          <attribute name="msfsi_category" />
+          <attribute name="createdon" />
+          <attribute name="msfsi_archivedate" />
+          <attribute name="msfsi_archivereason" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Archived Loan Applications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

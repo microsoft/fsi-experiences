@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSIDocumentIntelligenceCore_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="100000:label,15E01D03D7F1041B3FAEA04A660172DBE3BAD0FC272CC513212591F83A0D8F2C" xml:space="preserve">
+    <value>Recommend that you reject the document</value>
+    <comment>Relative path in xml: msfsi_pipelinedocumentstatemessages\msfsi_pipelinedocumentstatemessage\msfsi_statetext id:8919dbf0-0c72-48a7-9c43-31d4b63f4456</comment>
+  </data>
+  <data name="100000:label,23BE3AF60C9B28E97EC01B7ED7B05F5F354B9F0E11FE754D1F5690FEF9A470A1" xml:space="preserve">
+    <value>The type of the file. Supported types: image/jpeg, image/png, application/pdf</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="100000:label,24BDB291FEB4C3EB2148C4D402A40093AF934E08A861AC24A8C99CBD70F4AA26" xml:space="preserve">
+    <value>Document request id</value>
+    <comment>Relative path in xml: \customapiresponseproperty\displayname id:</comment>
+  </data>
+  <data name="100000:label,3543910A3442DF4FC463AAFAAFB76C8A86D1D83CBE94EF1A13D424B4DCF45B47" xml:space="preserve">
+    <value>Delete document's related records, possibly delete the request.</value>
+    <comment>Relative path in xml: \customapi\description id:</comment>
+  </data>
+  <data name="100000:label,37910F64A4DA06D3A29D2859EA146D034E7942968EA7E4B796C114E4FFA9EC9B" xml:space="preserve">
+    <value>File type</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,45D49688BB5FA0DA4C914383E27888FCF413621E1F7275DEC100E49043C78D94" xml:space="preserve">
+    <value>Delete document</value>
+    <comment>Relative path in xml: \customapi\displayname id:</comment>
+  </data>
+  <data name="100000:label,46B0ED97C50325F7AF1FE0ED43D17E0C02F4DC27173F23420A9B54D40E7EAF1E" xml:space="preserve">
+    <value>The name of the file.</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="100000:label,56D890E30C394643EACB92011B8AD9DA3FA0CDEABCAFD94AB969DDFFB45A9961" xml:space="preserve">
+    <value>This document doesn’t meet the criteria needed for approval.</value>
+    <comment>Relative path in xml: msfsi_pipelinedocumentstatemessages\msfsi_pipelinedocumentstatemessage\msfsi_statedescription id:8919dbf0-0c72-48a7-9c43-31d4b63f4456</comment>
+  </data>
+  <data name="100000:label,5734ADD4CCD0D8491232D63F9FB4232804FBC43DFFAAA5C92AA76151A36B6E12" xml:space="preserve">
+    <value>This document doesn’t seem to meet some of the criteria needed for approval, but may still be correct. Please review it once before making a decision.</value>
+    <comment>Relative path in xml: msfsi_pipelinedocumentstatemessages\msfsi_pipelinedocumentstatemessage\msfsi_statedescription id:d33fc728-c1e9-4267-acdb-c3bbea9eefcb</comment>
+  </data>
+  <data name="100000:label,6DD4FD242EB26196430DAABBBAE7976F7CF89E9468CB7F96E4CFE760BA6FCABC" xml:space="preserve">
+    <value>Document id</value>
+    <comment>Relative path in xml: \customapiresponseproperty\displayname id:</comment>
+  </data>
+  <data name="100000:label,6E06DE36E810CECA40D59AA3A9FAB4FB9E6DD5869D898891E43C86B1164268C7" xml:space="preserve">
+    <value>Id of the annotation related to the request.</value>
+    <comment>Relative path in xml: \customapiresponseproperty\description id:</comment>
+  </data>
+  <data name="100000:label,6E8BE20E7AB1EBB98F0769C26802BE95A5167F2762B543514D04A8232543AD35" xml:space="preserve">
+    <value>Flag to indicates whether to delete the request.</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="100000:label,76CD4BFBD99651614CA9E3E1D68C68C64A3EB5E9564D8BE4C30B1FC527FCFE9A" xml:space="preserve">
+    <value>Delete request</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,9039A5431390ECAFCD227D387BFA6234A77C1994D35DB66872687BD84E556B4E" xml:space="preserve">
+    <value>The file types that the documents process supports.</value>
+    <comment>Relative path in xml: \environmentvariabledefinition\description id:</comment>
+  </data>
+  <data name="100000:label,90C87785213A113381802DE7C4D97C98491D87331EE9A06FFC194DFC862B323B" xml:space="preserve">
+    <value>Document request id</value>
+    <comment>Relative path in xml: \customapiresponseproperty\description id:</comment>
+  </data>
+  <data name="100000:label,941433AE2830E672B85C841BC61ED22925389F2AA84696F063219FE6AEA022F4" xml:space="preserve">
+    <value>Upload new document to an existing document request.</value>
+    <comment>Relative path in xml: \customapi\description id:</comment>
+  </data>
+  <data name="100000:label,98DE66D02FCA96461BE6F0948D8174DC7D7DCEB00FE6898A0C6E3CEE1232F39C" xml:space="preserve">
+    <value>Annotation id</value>
+    <comment>Relative path in xml: \customapiresponseproperty\displayname id:</comment>
+  </data>
+  <data name="100000:label,A04BB3CBBF57240D9F94635C23AD8EB2C7C3B6A846D1B37AD6590776F3A7DAB2" xml:space="preserve">
+    <value>Document request id</value>
+    <comment>Relative path in xml: \customapiresponseproperty\displayname id:</comment>
+  </data>
+  <data name="100000:label,AAB786656EFB71B046213B498576C1C64465D4CBB42CC0FDD5DF9C6896C63F23" xml:space="preserve">
+    <value>Id of the document related to the request.</value>
+    <comment>Relative path in xml: \customapiresponseproperty\description id:</comment>
+  </data>
+  <data name="100000:label,B8C586601DF881692EFB497CFF66222F3E2E8E5FD82982C5E1D640534C19FAF8" xml:space="preserve">
+    <value>File body</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,BBDCF9DE75284D4D9AB9CD6581AAAC8EB98E107C99D0AE4AC5C0F44C4E5B2E9A" xml:space="preserve">
+    <value>Recommend that you manually review the document</value>
+    <comment>Relative path in xml: msfsi_pipelinedocumentstatemessages\msfsi_pipelinedocumentstatemessage\msfsi_statetext id:d33fc728-c1e9-4267-acdb-c3bbea9eefcb</comment>
+  </data>
+  <data name="100000:label,C5C5360352B4818876135690F74A260330DE4D2ED0B042387652910A24F00EA3" xml:space="preserve">
+    <value>File name</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,C6F4670926A54080268EFBFA3635FD58E650211663917EBA2CF969EDFABB23BC" xml:space="preserve">
+    <value>This document meets the criteria needed for approval.</value>
+    <comment>Relative path in xml: msfsi_pipelinedocumentstatemessages\msfsi_pipelinedocumentstatemessage\msfsi_statedescription id:cb9613e5-1910-4260-8d45-0d75e4f25ab5</comment>
+  </data>
+  <data name="100000:label,CD65CE2782B9C8A234CF5FC619BCE8E11C2840A06E9026CF6888C8758BF8A964" xml:space="preserve">
+    <value>Recommend that you approve the document</value>
+    <comment>Relative path in xml: msfsi_pipelinedocumentstatemessages\msfsi_pipelinedocumentstatemessage\msfsi_statetext id:cb9613e5-1910-4260-8d45-0d75e4f25ab5</comment>
+  </data>
+  <data name="100000:label,D4882FF860BD470C9FBC26ED7E9B067F34EC94F7F8CEE9059ABAE956C7962315" xml:space="preserve">
+    <value>The content of the file in base 64 string format.</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="100000:label,E2796120E37E7FABD86DF88AAD036AF0C93B357691B83048553B5E88C59A9C48" xml:space="preserve">
+    <value>Document request id.</value>
+    <comment>Relative path in xml: \customapiresponseproperty\description id:</comment>
+  </data>
+  <data name="100000:label,E4E9976FB90DDF5029B5EED027A75B1D72E1A4080335E6DD34E17FF0DFBA7B9E" xml:space="preserve">
+    <value>Supported file types</value>
+    <comment>Relative path in xml: \environmentvariabledefinition\displayname id:</comment>
+  </data>
+  <data name="100000:label,FA8526E6C1087DEB8A8116B669F42B11526FCED7F0B162AD56857A449FB8E42E" xml:space="preserve">
+    <value>Upload document</value>
+    <comment>Relative path in xml: \customapi\displayname id:</comment>
+  </data>
+  <data name="15062:Description,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,DocumentIntelligenceCore" xml:space="preserve">
+    <value>Document Intelligence Core</value>
+    <comment> 'DocumentIntelligenceCore' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="29:LocalizedName,{0be25b1f-a9fa-ec11-82e5-000d3a182304}" xml:space="preserve">
+    <value>Post pipeline step</value>
+    <comment>'Post pipeline step' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{155b58ac-aaf7-ec11-bb3d-00224808c150}" xml:space="preserve">
+    <value>Post pipeline</value>
+    <comment>'Post pipeline' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{63364e6b-a8f7-ec11-bb3d-00224808c150}" xml:space="preserve">
+    <value>Pre pipeline</value>
+    <comment>'Pre pipeline' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{903157fb-ae64-ed11-9561-00224805c952}" xml:space="preserve">
+    <value>Document AI builder step</value>
+    <comment>'Document AI builder step' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{9c2d7df1-96f7-ec11-bb3d-00224808c150}" xml:space="preserve">
+    <value>Main pipeline</value>
+    <comment>'Main pipeline' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{ba35f4f3-a7fa-ec11-82e5-000d3a182304}" xml:space="preserve">
+    <value>Pre pipeline step</value>
+    <comment>'Pre pipeline step' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{c035fd97-3f6b-ed11-9561-00224805ce8f}" xml:space="preserve">
+    <value>Format extracted data AI builder</value>
+    <comment>'Format extracted data AI builder' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{d406b572-667f-ed11-81ad-0022482a4e0c}" xml:space="preserve">
+    <value>Get pipeline details</value>
+    <comment>'Get pipeline details' : LocalizedName for Workflow</comment>
+  </data>
+</root>

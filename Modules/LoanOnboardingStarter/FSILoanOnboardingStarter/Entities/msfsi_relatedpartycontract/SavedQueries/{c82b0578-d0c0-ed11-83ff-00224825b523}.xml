@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c82b0578-d0c0-ed11-83ff-00224825b523}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_relatedpartycontractid">
+          <cell name="msfsi_name" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_relatedparty_role" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="msfsi_relatedpartycontract">
+          <attribute name="msfsi_name" />
+          <attribute name="msfsi_relatedparty_role" />
+          <filter type="and">
+            <condition attribute="msfsi_isprimary" operator="eq" value="0" />
+          </filter>
+          <attribute name="msfsi_relatedpartycontractid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Additional applicant view" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="msfsi_canceltasksdisplayindicator">
+  <defaultvalue>yes</defaultvalue>
+  <description default="Display the cancel tasks indicator. If the indicator is on, the canceled tasks will appear in a designated section.">
+    <label description="Display the cancel tasks indicator. If the indicator is on, the canceled tasks will appear in a designated section." languagecode="1033" />
+  </description>
+  <displayname default="Cancel task display">
+    <label description="Cancel task display" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.4.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000002</type>
+</environmentvariabledefinition>

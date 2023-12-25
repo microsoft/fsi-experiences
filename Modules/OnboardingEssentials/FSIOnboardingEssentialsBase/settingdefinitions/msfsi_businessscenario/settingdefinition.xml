@@ -1,0 +1,15 @@
+<settingdefinition uniquename="msfsi_businessscenario">
+  <datatype>1</datatype>
+  <defaultvalue>-</defaultvalue>
+  <displayname default="Business scenario">
+    <label description="Business scenario" languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <ishidden>1</ishidden>
+  <isoverridable>1</isoverridable>
+  <isplatform>0</isplatform>
+  <overridablelevel>2</overridablelevel>
+  <releaselevel>0</releaselevel>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</settingdefinition>

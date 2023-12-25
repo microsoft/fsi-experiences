@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AccessChecker.OpenDialog.msfsi_application.Button.Hide" Location="AccessChecker.OpenDialog.msfsi_application.Button" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.AddToQueue.Hide" Location="Mscrm.Form.msfsi_application.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.Deactivate.Hide" Location="Mscrm.Form.msfsi_application.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.Delete.Hide" Location="Mscrm.Form.msfsi_application.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_application.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_application.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.Reports.Hide" Location="Mscrm.Form.msfsi_application.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.SaveAndClose.Hide" Location="Mscrm.Form.msfsi_application.SaveAndClose" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_application.WordTemplate.Hide" Location="Mscrm.Form.msfsi_application.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_application.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_application.MBPF.ConvertTo" />
+    <CustomAction Id="msfsi.msfsi_application.CancelArchive.Button.CustomAction" Location="Mscrm.Form.msfsi_application.MainTab.Save.Controls._children" Sequence="58">
+      <CommandUIDefinition>
+        <Button Command="msfsi.msfsi_application.CancelArchive.Command" Id="msfsi.msfsi_application.CancelArchive.Button" LabelText="$LocLabels:msfsi.msfsi_application.CancelArchive.Button.LabelText" Sequence="58" TemplateAlias="o2" ModernImage="$webresource:msfsi_DeactivateIcon" />
+      </CommandUIDefinition>
+    </CustomAction>
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions>
+    <CommandDefinition Id="msfsi.msfsi_application.CancelArchive.Command">
+      <EnableRules>
+        <EnableRule Id="msfsi.msfsi_application.CancelArchive.EnableRule" />
+      </EnableRules>
+      <DisplayRules />
+      <Actions>
+        <JavaScriptFunction FunctionName="ArchiveLoanApplication.cancelAndArchiveApplication" Library="$webresource:msfsi_ArchiveLoanApplication.js">
+          <CrmParameter Value="PrimaryControl" />
+        </JavaScriptFunction>
+      </Actions>
+    </CommandDefinition>
+  </CommandDefinitions>
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules>
+      <EnableRule Id="msfsi.msfsi_application.CancelArchive.EnableRule">
+        <CustomRule FunctionName="ArchiveLoanApplication.showHideCancelArchiveButton" Library="$webresource:msfsi_ArchiveLoanApplication.js" Default="true">
+          <CrmParameter Value="PrimaryControl" />
+        </CustomRule>
+      </EnableRule>
+    </EnableRules>
+  </RuleDefinitions>
+  <LocLabels>
+    <LocLabel Id="msfsi.msfsi_application.CancelArchive.Button.LabelText">
+      <Titles>
+        <Title description="Archive" languagecode="1033" />
+      </Titles>
+    </LocLabel>
+  </LocLabels>
+</RibbonDiffXml>

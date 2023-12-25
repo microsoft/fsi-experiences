@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_expensetype" localizedName="Expense type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>0</IsCustomizable>
+  <displaynames>
+    <displayname description="Expense type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="104800000">
+      <labels>
+        <label description="Rent" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800001">
+      <labels>
+        <label description="Mortgage" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800002">
+      <labels>
+        <label description="Food/Groceries/Household products" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800003">
+      <labels>
+        <label description="Medical/Dental expenses &amp; insurance" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800004">
+      <labels>
+        <label description="Automobile insurance" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800005">
+      <labels>
+        <label description="Other insurance" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800006">
+      <labels>
+        <label description="Credit card payment" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800007">
+      <labels>
+        <label description="Loan payment" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800008">
+      <labels>
+        <label description="Educational loan payments" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800009">
+      <labels>
+        <label description="Child care" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="105000000">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

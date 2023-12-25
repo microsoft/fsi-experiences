@@ -1,6 +1,6 @@
 import { CommonPCFContext } from '../common-props';
-import { ICurrenciesDetails, ICurrency } from '@fsi/core-components/dist/context/currency/ICurrenciesDetails';
-export { ICurrenciesDetails, ICurrency } from '@fsi/core-components/dist/context/currency/ICurrenciesDetails';
+import { ICurrenciesDetails, ICurrency } from '@fsi/core-components/context/currency/ICurrenciesDetails';
+export { ICurrenciesDetails, ICurrency } from '@fsi/core-components/context/currency/ICurrenciesDetails';
 
 export const parseCurrency = (entity: any): ICurrency => ({
     id: entity['transactioncurrencyid'],

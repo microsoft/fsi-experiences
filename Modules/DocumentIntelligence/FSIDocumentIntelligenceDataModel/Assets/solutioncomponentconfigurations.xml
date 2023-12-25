@@ -1,0 +1,46 @@
+<solutioncomponentconfigurations>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_pipelinedocumentstatemessage">
+    <fileformat>0</fileformat>
+    <filescope>2</filescope>
+    <iscustomizable>0</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_pipelinedocumentstatemessage</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_documentdefinition">
+    <fileformat>0</fileformat>
+    <filescope>2</filescope>
+    <iscustomizable>1</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_documentdefinition</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_pipelinestepdefinition">
+    <fileformat>0</fileformat>
+    <filescope>2</filescope>
+    <iscustomizable>1</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_pipelinestepdefinition</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_stepfielddefinition">
+    <fileformat>0</fileformat>
+    <filescope>2</filescope>
+    <iscustomizable>1</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_stepfielddefinition</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+</solutioncomponentconfigurations>

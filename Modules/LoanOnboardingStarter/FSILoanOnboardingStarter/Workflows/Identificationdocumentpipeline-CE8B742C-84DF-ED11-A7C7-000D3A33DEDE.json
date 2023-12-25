@@ -1,0 +1,293 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfsi_sharedcommondataserviceforapps_7e301"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "643ac691-167a-4deb-8bb3-74cc4546c365"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 3,
+              "subscriptionRequest/entityname": "msfsi_documentpipeline",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/filteringattributes": "msfsi_triggercustompipelineon",
+              "subscriptionRequest/filterexpression": "_msfsi_documentdefinition_value eq fcf0c52f-f1a7-44d9-9c51-99e0ce0f5490",
+              "subscriptionRequest/runas": 2
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Decide_the_state_of_the_pipeline_and_the_document_here": {
+          "actions": {
+            "Set_pipeline_state_as_success": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "1c205040-0451-4b7e-9ee7-20dc3ad4771c"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "Pipeline State",
+                "value": "Success"
+              }
+            },
+            "Check_your_pipeline_steps": {
+              "actions": {
+                "Set_document_state": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "4c0a0b10-07b8-4f50-b5d7-87c22d87fd78"
+                  },
+                  "type": "SetVariable",
+                  "inputs": {
+                    "name": "Document State",
+                    "value": "@{body('Run_document_type_verification_step')?['document_state']}"
+                  }
+                }
+              },
+              "runAfter": {
+                "Set_pipeline_state_as_success": ["Succeeded"]
+              },
+              "else": {
+                "actions": {
+                  "Set_document_state_2": {
+                    "runAfter": {},
+                    "metadata": {
+                      "operationMetadataId": "d258e7c9-27c4-4c63-b0f6-6d4361d321e1"
+                    },
+                    "type": "SetVariable",
+                    "inputs": {
+                      "name": "Document State",
+                      "value": "Unclear"
+                    }
+                  }
+                }
+              },
+              "expression": {
+                "equals": [
+                  "@body('Run_document_type_verification_step')?['document_state']",
+                  "Rejected"
+                ]
+              },
+              "metadata": {
+                "operationMetadataId": "8d42a960-2afe-40b7-9e54-c2673f0b2f26"
+              },
+              "type": "If"
+            }
+          },
+          "runAfter": {
+            "Catch_-_Run_custom_steps": ["Skipped"]
+          },
+          "metadata": {
+            "operationMetadataId": "0622e6eb-b300-4ee2-80f3-4ccf5231a284"
+          },
+          "type": "Scope"
+        },
+        "Post_pipeline": {
+          "runAfter": {
+            "Decide_the_state_of_the_pipeline_and_the_document_here": [
+              "Succeeded",
+              "Skipped"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "8e79f887-2f1c-4db6-8fc6-01395751f2f4"
+          },
+          "type": "Workflow",
+          "inputs": {
+            "host": {
+              "workflowReferenceName": "155b58ac-aaf7-ec11-bb3d-00224808c150"
+            },
+            "body": {
+              "text": "@variables('Pipeline State')",
+              "text_1": "@variables('Document State')",
+              "text_3": "@triggerOutputs()?['body/msfsi_documentpipelineid']",
+              "text_4": "@triggerOutputs()?['body/_msfsi_documentrequest_value']",
+              "text_5": "@variables('Is Auto Update')"
+            }
+          }
+        },
+        "Try_-_Run_custom_steps": {
+          "actions": {
+            "Get_pipeline_details": {
+              "runAfter": {},
+              "limit": {
+                "timeout": "PT3M"
+              },
+              "metadata": {
+                "operationMetadataId": "ca5698e6-0479-4ed4-92e6-760d8ca9c6ca"
+              },
+              "type": "Workflow",
+              "inputs": {
+                "host": {
+                  "workflowReferenceName": "d406b572-667f-ed11-81ad-0022482a4e0c"
+                },
+                "body": {
+                  "text": "@triggerOutputs()?['body/msfsi_documentpipelineid']",
+                  "boolean": false
+                }
+              }
+            },
+            "Run_document_type_enrichment_step": {
+              "runAfter": {
+                "Get_pipeline_details": ["Succeeded"]
+              },
+              "limit": {
+                "timeout": "PT3M"
+              },
+              "metadata": {
+                "operationMetadataId": "97630ff3-9a17-4413-a3fb-f68fb8c4f120"
+              },
+              "type": "Workflow",
+              "inputs": {
+                "host": {
+                  "workflowReferenceName": "cba1b9e7-83df-ed11-a7c7-000d3a33d043"
+                },
+                "body": {
+                  "text": "@body('Get_pipeline_details')?['document_request_id']",
+                  "text_1": "8eb08f5f-81df-ed11-a7c7-000d3a33d043",
+                  "text_2": "@triggerOutputs()?['body/msfsi_documentpipelineid']"
+                }
+              }
+            },
+            "Run_document_type_verification_step": {
+              "runAfter": {
+                "Run_document_type_enrichment_step": ["Succeeded"]
+              },
+              "limit": {
+                "timeout": "PT3M"
+              },
+              "metadata": {
+                "operationMetadataId": "503d4eba-e5e2-425a-a506-0289fc5b68df"
+              },
+              "type": "Workflow",
+              "inputs": {
+                "host": {
+                  "workflowReferenceName": "a3abf003-84df-ed11-a7c7-000d3a33d043"
+                },
+                "body": {
+                  "text_1": "8160747a-81df-ed11-a7c7-000d3a33d043",
+                  "text_2": "@triggerOutputs()?['body/msfsi_documentpipelineid']",
+                  "text_4": "@body('Get_pipeline_details')?['extraction_output']"
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Initiate_Auto_Update_(Yes_or_No)": ["Succeeded"]
+          },
+          "metadata": {
+            "operationMetadataId": "b299397a-66e0-446c-8eb3-021aab410e02"
+          },
+          "type": "Scope"
+        },
+        "Initiate_Pipeline_State": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "822ca181-c5d3-4259-85c0-068a036d3da0"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Pipeline State",
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "Initiate_Document_State": {
+          "runAfter": {
+            "Initiate_Pipeline_State": ["Succeeded"]
+          },
+          "metadata": {
+            "operationMetadataId": "7d03d2b4-bf86-4a4d-8621-608819db40f7"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Document State",
+                "type": "string",
+                "value": "Unclear"
+              }
+            ]
+          }
+        },
+        "Initiate_Auto_Update_(Yes_or_No)": {
+          "runAfter": {
+            "Initiate_Document_State": ["Succeeded"]
+          },
+          "metadata": {
+            "operationMetadataId": "b3f465b0-4556-490d-8275-4a18c2669b60"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Is Auto Update",
+                "type": "string",
+                "value": "No"
+              }
+            ]
+          }
+        },
+        "Catch_-_Run_custom_steps": {
+          "actions": {
+            "Set_pipeline_state_as_failure": {
+              "runAfter": {},
+              "metadata": {
+                "operationMetadataId": "1c205040-0451-4b7e-9ee7-20dc3ad4771c"
+              },
+              "type": "SetVariable",
+              "inputs": {
+                "name": "Pipeline State",
+                "value": "Failure"
+              }
+            }
+          },
+          "runAfter": {
+            "Try_-_Run_custom_steps": ["Failed", "TimedOut"]
+          },
+          "metadata": {
+            "operationMetadataId": "8fb0da9d-c829-4422-8c3d-0a1d386042c7"
+          },
+          "type": "Scope"
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <WebResources />
+  <CustomControls />
+  <SolutionPluginAssemblies />
+  <SdkMessageProcessingSteps />
+  <EntityDataProviders />
+  <EntityAnalyticsConfigs>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>account</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>contact</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_bank</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_branch</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_group</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_groupmember</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_customerfinancialholding</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fh_account</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fh_creditline</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fh_investment</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fh_loan</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fh_saving</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fi_card</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fi_directdebit</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fi_overdraft</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fi_standingorder</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_financialholding</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_financialholdinginstrument</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_groupfinancialholding</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_lifemoment</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_relationship</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_fi_position</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_financialgoal</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+    </EntityAnalyticsConfig>
+  </EntityAnalyticsConfigs>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

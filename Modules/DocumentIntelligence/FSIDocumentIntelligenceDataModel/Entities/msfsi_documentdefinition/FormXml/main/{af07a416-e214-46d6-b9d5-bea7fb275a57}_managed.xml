@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{af07a416-e214-46d6-b9d5-bea7fb275a57}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{98a5c257-d85a-4313-8a65-06b466c8e4da}" IsUserDefined="1" name="Main">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d3dcd6ea-a32e-4d15-a1d6-48f5ebe21d92}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a0fd952a-e4fe-41c1-b253-a320428e81bc}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{16b80335-6194-42f3-b248-5c9f166e4184}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c04ca3c-7e59-88aa-9178-0db1e3268ec6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="msfsi_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{558aa048-5243-4124-91b2-e02e42686927}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Has Automatic Flow" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_hasautomaticflow" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_hasautomaticflow" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d2040bb-4834-298d-34ce-11032bce9d08}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c5a33b5-9c11-1b04-6265-3b81ea8cb659}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Relevant scenarios" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_relevantscenarios" classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}" datafieldname="msfsi_relevantscenarios" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Main_section_3" id="f0359c4a-08d4-47ff-af3d-daa76f0db2e0" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Document related steps" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{81c9c62f-1d4f-4b25-bdd4-d80f804c7c5a}" rowspan="4" colspan="1" auto="true" showlabel="true">
+                        <labels>
+                          <label description="Pipeline step definitions" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="pipeline_step_definition_subgrid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>msfsi_pipelinestepdefinition</TargetEntityType>
+                            <ViewId>{72D84FC5-4887-ED11-81AD-000D3A1A9494}</ViewId>
+                            <ViewIds>{01AA80BB-F16F-4E04-A2B5-33E0FA1C144E},{72D84FC5-4887-ED11-81AD-000D3A1A9494}</ViewIds>
+                            <RelationshipName>msfsi_msfsi_pipelinestepdefinition_documentdefi</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{9c3aefdf-e362-48db-a955-0901a977914b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f96d27b1-1a6b-4dd0-9cb9-59e645b4d5ab}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3073e236-3f13-4fd2-b2ce-becb6c0db932}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e5dae486-9644-462a-9ec2-39a44fc9bf3d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{eb2b8014-e533-4ab0-af07-f3d9b519d06e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ce0062c7-2581-46ff-89b1-b7a9f6d39b2a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7fb0ae93-2e3a-4408-ac63-38713f90c044}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{524e9fd8-4f70-4d05-8ebe-d3f78c5a4904}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem Area="Info" Show="false" RelationshipName="msfsi_msfsi_documentpipeline_documentdefinition" Id="nav_msfsi_msfsi_documentpipeline_documentdefinition" Sequence="10000">
+            <Titles>
+              <Title Text="Document pipelines" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem Area="Info" Show="false" RelationshipName="msfsi_msfsi_pipelinestepdefinition_documentdefi" Id="nav_msfsi_msfsi_pipelinestepdefinition_documentdefi" Sequence="10000">
+            <Titles>
+              <Title Text="Pipeline step definitions" LCID="1033" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

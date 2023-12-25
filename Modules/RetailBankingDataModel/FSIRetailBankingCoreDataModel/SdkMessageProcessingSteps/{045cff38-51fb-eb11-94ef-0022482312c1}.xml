@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember" SdkMessageProcessingStepId="{045cff38-51fb-eb11-94ef-0022482312c1}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin, Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
+  <PluginTypeId>5eec2a21-6bbd-479d-b8c4-43a050badbaa</PluginTypeId>
+  <PrimaryEntity>msfsi_groupmember</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember</Description>
+  <FilteringAttributes>msfsi_group,msfsi_groupmemberid,msfsi_isprimarygroup,msfsi_member</FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages>
+    <SdkMessageProcessingStepImage Name="msfsi_groupmember">
+      <SdkMessageProcessingStepImageId>{9672af52-51fb-eb11-94ef-0022482312c1}</SdkMessageProcessingStepImageId>
+      <Attributes>msfsi_group,msfsi_groupmemberid,msfsi_isprimarygroup,msfsi_member</Attributes>
+      <EntityAlias>PreImageAliasName</EntityAlias>
+      <ImageType>0</ImageType>
+      <MessagePropertyName>Target</MessagePropertyName>
+      <IsCustomizable>1</IsCustomizable>
+    </SdkMessageProcessingStepImage>
+  </SdkMessageProcessingStepImages>
+</SdkMessageProcessingStep>

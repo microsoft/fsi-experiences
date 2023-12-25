@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21083.139" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>RetailBankingCoreDataModel</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Banking Core Data Model" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true">
+      </EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true">
+      </SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true">
+          </City>
+          <County xsi:nil="true">
+          </County>
+          <Country xsi:nil="true">
+          </Country>
+          <Fax xsi:nil="true">
+          </Fax>
+          <FreightTermsCode xsi:nil="true">
+          </FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true">
+          </ImportSequenceNumber>
+          <Latitude xsi:nil="true">
+          </Latitude>
+          <Line1 xsi:nil="true">
+          </Line1>
+          <Line2 xsi:nil="true">
+          </Line2>
+          <Line3 xsi:nil="true">
+          </Line3>
+          <Longitude xsi:nil="true">
+          </Longitude>
+          <Name xsi:nil="true">
+          </Name>
+          <PostalCode xsi:nil="true">
+          </PostalCode>
+          <PostOfficeBox xsi:nil="true">
+          </PostOfficeBox>
+          <PrimaryContactName xsi:nil="true">
+          </PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true">
+          </StateOrProvince>
+          <Telephone1 xsi:nil="true">
+          </Telephone1>
+          <Telephone2 xsi:nil="true">
+          </Telephone2>
+          <Telephone3 xsi:nil="true">
+          </Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true">
+          </TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true">
+          </UPSZone>
+          <UTCOffset xsi:nil="true">
+          </UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true">
+          </UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true">
+          </City>
+          <County xsi:nil="true">
+          </County>
+          <Country xsi:nil="true">
+          </Country>
+          <Fax xsi:nil="true">
+          </Fax>
+          <FreightTermsCode xsi:nil="true">
+          </FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true">
+          </ImportSequenceNumber>
+          <Latitude xsi:nil="true">
+          </Latitude>
+          <Line1 xsi:nil="true">
+          </Line1>
+          <Line2 xsi:nil="true">
+          </Line2>
+          <Line3 xsi:nil="true">
+          </Line3>
+          <Longitude xsi:nil="true">
+          </Longitude>
+          <Name xsi:nil="true">
+          </Name>
+          <PostalCode xsi:nil="true">
+          </PostalCode>
+          <PostOfficeBox xsi:nil="true">
+          </PostOfficeBox>
+          <PrimaryContactName xsi:nil="true">
+          </PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true">
+          </StateOrProvince>
+          <Telephone1 xsi:nil="true">
+          </Telephone1>
+          <Telephone2 xsi:nil="true">
+          </Telephone2>
+          <Telephone3 xsi:nil="true">
+          </Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true">
+          </TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true">
+          </UPSZone>
+          <UTCOffset xsi:nil="true">
+          </UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true">
+          </UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_bank" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_branch" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_customerfinancialholding" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fh_account" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fh_creditline" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fh_investment" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fh_loan" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fh_saving" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_financialgoal" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_financialholding" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_financialholdinginstrument" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_financialmarketproduct" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_fi_card" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fi_directdebit" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fi_overdraft" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fi_position" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_fi_standingorder" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_group" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_groupfinancialholding" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_groupmember" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_lifemoment" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_relationship" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_accountingclassification" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_financialholdingcategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_financialinstrumenttype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_relationshiprole" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.de-DE.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.en-US.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.es-ES.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.fr-FR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.it-IT.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.nl-NL.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.pt-BR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingLabels.zh-TW.resx" behavior="0" />
+      <RootComponent type="91" id="{e9055ab7-0506-4824-a5cd-7e5184fee639}" schemaName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
+      <RootComponent type="92" id="{045cff38-51fb-eb11-94ef-0022482312c1}" behavior="0" />
+      <RootComponent type="92" id="{d102c404-51fb-eb11-94ef-0022482312c1}" behavior="0" />
+      <RootComponent type="92" id="{fd7255f2-50fb-eb11-94ef-0022482312c1}" behavior="0" />
+      <RootComponent type="430" schemaName="account" behavior="0" />
+      <RootComponent type="430" schemaName="contact" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_bank" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_branch" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_customerfinancialholding" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fh_account" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fh_creditline" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fh_investment" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fh_loan" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fh_saving" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_financialholding" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_financialholdinginstrument" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fi_card" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fi_directdebit" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fi_overdraft" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fi_standingorder" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_group" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_groupfinancialholding" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_groupmember" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_lifemoment" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_relationship" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fi_position" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_financialgoal" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_bank" displayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_branch" displayName="Branch" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_branch" displayName="Branch" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_branch" displayName="Branch" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_branch" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="fi_fi_product_polymorph" displayName="fi_fi_product_polymorph" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_fi_position_msfsi_financialmarketproduct" displayName="msfsi_fi_position_msfsi_financialmarketproduct" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_group" displayName="Group" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_GroupFinancialHolding_Group_msfsi_Group" displayName="msfsi_GroupFinancialHolding_Group_msfsi_Group" parentSchemaName="msfsi_group" parentDisplayName="Group" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Groups" displayName="Inactive Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{0c121a1e-05c4-4219-9ad5-4778e4a2e8b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Associated View" displayName="Group Associated View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{143935ad-5cda-420c-b580-9ca8f5bd80fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Groups" displayName="Quick Find Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{3b4a65b7-b78c-4e7c-ac43-d40a5ac1db88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Advanced Find View" displayName="Group Advanced Find View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{83470d88-edbc-46b1-a685-3a34b2cbd575}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Groups" displayName="Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{88512617-eecc-4795-96d0-3f43579fb1f1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="My Groups" displayName="My Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{95056656-7744-eb11-a813-00224808f1f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Lookup View" displayName="Group Lookup View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{f1985ad8-f060-43af-9d4b-67df8b145901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_group" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{718fd3a2-f532-40e1-b125-aa9f66eda46a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{86d7c298-9e6e-4327-b78a-f7fd66555434}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{8cf222d5-949e-461e-a6d8-66174e60662e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.Group.UpdateGroupPlugin: Update of msfsi_group" id="{d102c404-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_group" displayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{5e070d24-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="1" schemaName="msfsi_groupmember" displayName="Group member" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Associated View" displayName="Group Member Associated View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{0393c85f-4d58-41ef-b32c-719c98cba4c8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Group Members" displayName="Inactive Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{2df2f4e3-2765-426a-ab40-d3ee896bd1b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Advanced Find View" displayName="Group Member Advanced Find View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{3f377a9e-44dc-45d4-909e-b77fe639c993}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="My Group Members" displayName="My Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{45dc87c0-7744-eb11-bf68-000d3a337a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Lookup View" displayName="Group Member Lookup View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{4a1d775b-e831-47ba-8581-e03a23899dc3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Group Members" displayName="Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{65e5c523-36f5-4a3e-97cd-1b8a51eaa6ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Group Members" displayName="Quick Find Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{f3cf6609-a8cd-453c-9b8f-b6a99e02e2b5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_groupmember" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group member" id="{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember" id="{045cff38-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.CreateGroupMemberPlugin: Create of msfsi_groupmember" id="{fd7255f2-50fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_groupmember" displayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{9672af52-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproductid" displayName="Financial market product" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="fi_fi_product_polymorph" displayName="fi_fi_product_polymorph" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproductid" displayName="Financial market product" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_fi_position_msfsi_financialmarketproduct" displayName="msfsi_fi_position_msfsi_financialmarketproduct" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="fi_fi_product_polymorph" displayName="fi_fi_product_polymorph" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_fi_position_msfsi_financialmarketproduct" displayName="msfsi_fi_position_msfsi_financialmarketproduct" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Groups" displayName="Inactive Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{0c121a1e-05c4-4219-9ad5-4778e4a2e8b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Associated View" displayName="Group Associated View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{143935ad-5cda-420c-b580-9ca8f5bd80fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Groups" displayName="Quick Find Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{3b4a65b7-b78c-4e7c-ac43-d40a5ac1db88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Advanced Find View" displayName="Group Advanced Find View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{83470d88-edbc-46b1-a685-3a34b2cbd575}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Groups" displayName="Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{88512617-eecc-4795-96d0-3f43579fb1f1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Lookup View" displayName="Group Lookup View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{f1985ad8-f060-43af-9d4b-67df8b145901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{86d7c298-9e6e-4327-b78a-f7fd66555434}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_GroupFinancialHolding_Group_msfsi_Group" displayName="msfsi_GroupFinancialHolding_Group_msfsi_Group" parentSchemaName="msfsi_group" parentDisplayName="Group" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Groups" displayName="Inactive Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{0c121a1e-05c4-4219-9ad5-4778e4a2e8b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Associated View" displayName="Group Associated View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{143935ad-5cda-420c-b580-9ca8f5bd80fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Groups" displayName="Quick Find Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{3b4a65b7-b78c-4e7c-ac43-d40a5ac1db88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Advanced Find View" displayName="Group Advanced Find View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{83470d88-edbc-46b1-a685-3a34b2cbd575}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Groups" displayName="Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{88512617-eecc-4795-96d0-3f43579fb1f1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="My Groups" displayName="My Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{95056656-7744-eb11-a813-00224808f1f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Lookup View" displayName="Group Lookup View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{f1985ad8-f060-43af-9d4b-67df8b145901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.Group.UpdateGroupPlugin: Update of msfsi_group" id="{d102c404-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupid" displayName="Group" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{5e070d24-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="10" schemaName="msfsi_GroupFinancialHolding_Group_msfsi_Group" displayName="msfsi_GroupFinancialHolding_Group_msfsi_Group" parentSchemaName="msfsi_group" parentDisplayName="Group" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Groups" displayName="Inactive Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{0c121a1e-05c4-4219-9ad5-4778e4a2e8b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Associated View" displayName="Group Associated View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{143935ad-5cda-420c-b580-9ca8f5bd80fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Groups" displayName="Quick Find Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{3b4a65b7-b78c-4e7c-ac43-d40a5ac1db88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Advanced Find View" displayName="Group Advanced Find View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{83470d88-edbc-46b1-a685-3a34b2cbd575}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Groups" displayName="Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{88512617-eecc-4795-96d0-3f43579fb1f1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Lookup View" displayName="Group Lookup View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{f1985ad8-f060-43af-9d4b-67df8b145901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{718fd3a2-f532-40e1-b125-aa9f66eda46a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{86d7c298-9e6e-4327-b78a-f7fd66555434}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{8cf222d5-949e-461e-a6d8-66174e60662e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_type" displayName="Type" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.Group.UpdateGroupPlugin: Update of msfsi_group" id="{d102c404-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_type" displayName="Type" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{5e070d24-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="Active" />
+        <Dependent type="26" schemaName="My Groups" displayName="My Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{95056656-7744-eb11-a813-00224808f1f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{718fd3a2-f532-40e1-b125-aa9f66eda46a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{86d7c298-9e6e-4327-b78a-f7fd66555434}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{8cf222d5-949e-461e-a6d8-66174e60662e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Groups" displayName="Inactive Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{0c121a1e-05c4-4219-9ad5-4778e4a2e8b4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Associated View" displayName="Group Associated View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{143935ad-5cda-420c-b580-9ca8f5bd80fa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Groups" displayName="Quick Find Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{3b4a65b7-b78c-4e7c-ac43-d40a5ac1db88}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Groups" displayName="Active Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{88512617-eecc-4795-96d0-3f43579fb1f1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="My Groups" displayName="My Groups" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{95056656-7744-eb11-a813-00224808f1f0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Lookup View" displayName="Group Lookup View" parentSchemaName="msfsi_group" parentDisplayName="Group" id="{f1985ad8-f060-43af-9d4b-67df8b145901}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="msfsi_group" parentDisplayName="Group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group" id="{86d7c298-9e6e-4327-b78a-f7fd66555434}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Associated View" displayName="Group Member Associated View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{0393c85f-4d58-41ef-b32c-719c98cba4c8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Group Members" displayName="Inactive Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{2df2f4e3-2765-426a-ab40-d3ee896bd1b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Advanced Find View" displayName="Group Member Advanced Find View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{3f377a9e-44dc-45d4-909e-b77fe639c993}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Lookup View" displayName="Group Member Lookup View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{4a1d775b-e831-47ba-8581-e03a23899dc3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Group Members" displayName="Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{65e5c523-36f5-4a3e-97cd-1b8a51eaa6ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Group Members" displayName="Quick Find Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{f3cf6609-a8cd-453c-9b8f-b6a99e02e2b5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_group" displayName="Group" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember" id="{045cff38-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_group" displayName="Group" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{9672af52-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Associated View" displayName="Group Member Associated View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{0393c85f-4d58-41ef-b32c-719c98cba4c8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Group Members" displayName="Inactive Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{2df2f4e3-2765-426a-ab40-d3ee896bd1b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Advanced Find View" displayName="Group Member Advanced Find View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{3f377a9e-44dc-45d4-909e-b77fe639c993}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="My Group Members" displayName="My Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{45dc87c0-7744-eb11-bf68-000d3a337a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Lookup View" displayName="Group Member Lookup View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{4a1d775b-e831-47ba-8581-e03a23899dc3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Group Members" displayName="Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{65e5c523-36f5-4a3e-97cd-1b8a51eaa6ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Group Members" displayName="Quick Find Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{f3cf6609-a8cd-453c-9b8f-b6a99e02e2b5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember" id="{045cff38-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_groupmemberid" displayName="Group member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{9672af52-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isprimarygroup" displayName="Is group primary" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember" id="{045cff38-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isprimarygroup" displayName="Is group primary" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{9672af52-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_member" displayName="Member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="92" displayName="Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.GroupMember.UpdateGroupMemberPlugin: Update of msfsi_groupmember" id="{045cff38-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_member" displayName="Member" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="93" id="{9672af52-51fb-eb11-94ef-0022482312c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Associated View" displayName="Group Member Associated View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{0393c85f-4d58-41ef-b32c-719c98cba4c8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Group Members" displayName="Inactive Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{2df2f4e3-2765-426a-ab40-d3ee896bd1b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Advanced Find View" displayName="Group Member Advanced Find View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{3f377a9e-44dc-45d4-909e-b77fe639c993}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Lookup View" displayName="Group Member Lookup View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{4a1d775b-e831-47ba-8581-e03a23899dc3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Group Members" displayName="Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{65e5c523-36f5-4a3e-97cd-1b8a51eaa6ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Group Members" displayName="Quick Find Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{f3cf6609-a8cd-453c-9b8f-b6a99e02e2b5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Group member" id="{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Associated View" displayName="Group Member Associated View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{0393c85f-4d58-41ef-b32c-719c98cba4c8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Inactive Group Members" displayName="Inactive Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{2df2f4e3-2765-426a-ab40-d3ee896bd1b1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="My Group Members" displayName="My Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{45dc87c0-7744-eb11-bf68-000d3a337a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Group Member Lookup View" displayName="Group Member Lookup View" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{4a1d775b-e831-47ba-8581-e03a23899dc3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Active Group Members" displayName="Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{65e5c523-36f5-4a3e-97cd-1b8a51eaa6ef}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="26" schemaName="Quick Find Active Group Members" displayName="Quick Find Active Group Members" parentSchemaName="msfsi_groupmember" parentDisplayName="Group member" id="{f3cf6609-a8cd-453c-9b8f-b6a99e02e2b5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="account" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="contact" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_bank" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_branch" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_branch" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_group" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_group" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_groupmember" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="430" schemaName="msfsi_groupmember" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_dayofweek" displayName="Day of week" solution="FinancialServicesCommonDataModel (1.0.0.0)" />
+        <Dependent type="2" schemaName="msfsi_dayofweek" displayName="Day of week" parentSchemaName="msfsi_fi_standingorder" parentDisplayName="FI standing order" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

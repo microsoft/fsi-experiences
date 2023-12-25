@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{273eabac-3050-4aaa-bc37-2a8941731409}</WebResourceId>
+  <Name>msfsi_PluginResources/RetailBankingLabels.fr-FR.resx</Name>
+  <DisplayName>Retail banking plugin resources french</DisplayName>
+  <WebResourceType>12</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>0</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_PluginResourcesRetailBankingLabelsfr-FRresx273EABAC-3050-4AAA-BC37-2A8941731409</FileName>
+</WebResource>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_relationshiprole" localizedName="Relationship role" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Relationship role" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="104800000">
+      <labels>
+        <label description="Accountant" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800001">
+      <labels>
+        <label description="Client (accounting)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800002">
+      <labels>
+        <label description="Lawyer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800003">
+      <labels>
+        <label description="Client (legal)" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800004">
+      <labels>
+        <label description="Child" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800005">
+      <labels>
+        <label description="Parent" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800006">
+      <labels>
+        <label description="Grandchild" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800007">
+      <labels>
+        <label description="Grandparent" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800008">
+      <labels>
+        <label description="Spouse" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800009">
+      <labels>
+        <label description="Ex-spouse" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800010">
+      <labels>
+        <label description="Extended family" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800011">
+      <labels>
+        <label description="Sibling" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800012">
+      <labels>
+        <label description="Principal" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800013">
+      <labels>
+        <label description="Power of attorney" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

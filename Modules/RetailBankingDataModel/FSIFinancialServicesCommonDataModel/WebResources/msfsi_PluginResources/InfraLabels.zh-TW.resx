@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InputParameterIsNotAnEntity" xml:space="preserve">
+    <value>InputParameters {0} 不是實體。</value>
+    <comment>InputParameters {placeholder="{0}"} is not an Entity.</comment>
+  </data>
+  <data name="InputParameterIsNotOfCorrectType" xml:space="preserve">
+    <value>InputParameters {0} 不是 {1} 類型的實體。</value>
+    <comment>InputParameters {placeholder="{0}"} is not of type {placeholder="{1}"} entity.</comment>
+  </data>
+  <data name="NullPreviousEntityState" xml:space="preserve">
+    <value>預期的 {0} 預先註冊實體影像步驟
+           依據 preImageAlias 名稱排列的實體: {1}. 
+           作業 = {2}</value>
+    <comment>Expected pre-entity image step registration for {placeholder="{0}"} 
+           entity by preImageAlias name: {placeholder="{1}"}. 
+           Operation = {placeholder="{2}"}</comment>
+  </data>
+  <data name="PrimaryEntityIdNotValue" xml:space="preserve">
+    <value>作業 {0} PrimaryEntityId 的要求格式錯誤，必須為有效的非空白 GUID。</value>
+    <comment>Malformed Request for operation {placeholder="{0}"}: PrimaryEntityId must be a valid, non empty Guid.</comment>
+  </data>
+  <data name="MissingInputParams" xml:space="preserve">
+    <value>作業 {0} 的要求格式錯誤: InputParameters 中缺少 {1}。</value>
+    <comment>Malformed Request for operation {placeholder="{0}"}: {placeholder="{1}"} is missing in the InputParameters.</comment>
+  </data>
+  <data name="RetrieveMultipleMalformedInputParameter" xml:space="preserve">
+    <value>作業 {0} 的要求格式錯誤: InputParameters {1} 的類型不是 QueryExpression 或 FetchExpression。</value>
+    <comment>Malformed Request for operation {placeholder="{1}"}: InputParameters {placeholder="{0}"} is not of type QueryExpression or FetchExpression.</comment>
+  </data>
+  <data name="PreviousStateManagerNullPreImage" xml:space="preserve">
+    <value>preImageAliasName 不得為 Null 或空白。</value>
+    <comment>preImageAliasName cannot be null or empty.</comment>
+  </data>
+  <data name="PreviousStateManagerStateNotAvailable" xml:space="preserve">
+    <value>無法取得 PreImage 實體別名 {0} 先前的狀態。</value>
+    <comment>Failed to get previous state for PreImage entity alias {placeholder="{0}"}.</comment>
+  </data>
+  <data name="PreviousStateManagerStateForEntityNotAvailable" xml:space="preserve">
+    <value>無法取得 {0} 實體先前的狀態。</value>
+    <comment>Failed to get previous state for {placeholder="{0}"} entity.</comment>
+  </data>
+  <data name="ContactQueryIdNullOrEmpty" xml:space="preserve">
+    <value>ContactId 查詢參數為 Null 或空白。</value>
+    <comment>ContactId query parameter is null or empty.</comment>
+  </data>
+  <data name="MissingMappingDataInCi" xml:space="preserve">
+    <value>缺少 CI 客戶識別碼和連絡人識別碼之間的對應資料。</value>
+    <comment>Missing mapping data between Ci Customer id to Contact Id.</comment>
+  </data>
+  <data name="EntityDoesNotExist" xml:space="preserve">
+    <value>實體 {0} 不存在。</value>
+    <comment>Entity {placeholder="{0}"} does not exist.</comment>
+  </data>
+  <data name="RetrieveMultipleFailed" xml:space="preserve">
+    <value>無法從 {0} 實體取出倍數: {1}。</value>
+    <comment>Failed to RetrieveMultiple from {placeholder="{0}"} entity: {placeholder="{1}"}.</comment>
+  </data>
+  <data name="RetrieveMultipleQueryFailed" xml:space="preserve">
+    <value>嘗試查詢 {0} 時無法取得多個結果。ExceptionMessage = {1}。</value>
+    <comment>Failed to retrieve multiple results while attempting to query {placeholder="{0}"}. ExceptionMessage = {placeholder="{1}"}.</comment>
+  </data>
+  <data name="MissingConfigurationInChurnConfig" xml:space="preserve">
+    <value>{0} 實體中缺少設定。</value>
+    <comment>Missing configurations in {placeholder="{0}"} entity.</comment>
+  </data>
+  <data name="ParsingFailedForChurnLevel" xml:space="preserve">
+    <value>無法將流失等級設定值剖析為浮點數。
+            值 = {0}。例外狀況訊息: {1}。
+            資料表資料已毀損。</value>
+    <comment>Failed to parse Churn Level config value to float.
+            value = {placeholder="{0}"}. Exception message: {placeholder="{1}"}.
+            Table data is corrupt.</comment>
+  </data>
+  <data name="InitializationOfEntityFailed" xml:space="preserve">
+    <value>無法初始化/查詢實體。</value>
+    <comment>Failed to initialize / query the entity.</comment>
+  </data>
+  <data name="GroupTypeIsEmpty" xml:space="preserve">
+    <value>群組 {0} 類型為空白。</value>
+    <comment>Type of Group {placeholder="{0}"} is empty.</comment>
+  </data>
+  <data name="TableDoesNotExist" xml:space="preserve">
+    <value>資料表 {0} 不存在。</value>
+    <comment>Table {placeholder="{0}"} does not exist.</comment>
+  </data>
+  <data name="CiDataSourceAcquireFailed" xml:space="preserve">
+    <value>{0} 的收購 CI 資料來源名稱不可以是 Null 或空白。</value>
+    <comment>Acquired CI Datasource Name from {placeholder="{0}"} cannot be null or empty.</comment>
+  </data>
+  <data name="CiEntityNameNullOrEmpty" xml:space="preserve">
+    <value>{0} 的 CI 實體名稱不可以是 Null 或空白。</value>
+    <comment>CI Entity Name from {placeholder="{0}"} cannot be null or empty.</comment>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>發生未預期的錯誤。</value>
+    <comment>An unexpected error occurred.</comment>
+  </data>
+  <data name="InputParametersNeitherQueryNorFetch" xml:space="preserve">
+    <value>輸入參數不是 QueryExpression 也不是 FetchExpression。</value>
+    <comment>Input parameters are neither QueryExpression nor FetchExpression.</comment>
+  </data>
+  <data name="FailedToConvertQuery" xml:space="preserve">
+    <value>無法將 FetchExpression 轉換為 QueryExpression: {0}。</value>
+    <comment>Failed to convert FetchExpression to QueryExpression: {placeholder="{0}"}.</comment>
+  </data>
+  <data name="CiCustomerIdWasNotFound" xml:space="preserve">
+    <value>找不到連絡人識別碼 {0} 的 CI 客戶識別碼。</value>
+    <comment>Could not find CI customer id for contact id {placeholder="{0}"}.</comment>
+  </data>
+  <data name="ParameterCantBeNullOrEmpty" xml:space="preserve">
+    <value>參數 {0} 不能為 Null 或空白。</value>
+    <comment>Parameter {placeholder="{0}"} cannot be null or empty.</comment>
+  </data>
+  <data name="GuidCantBeNullOrEmpty" xml:space="preserve">
+    <value>GUID 參數不能為 Null 或空白。</value>
+    <comment>Guid parameter cannot be null or empty.</comment>
+  </data>
+  <data name="WrongOperation" xml:space="preserve">
+    <value>此外掛程式預期的 {0} 作業。</value>
+    <comment>Expected {placeholder="{0}"} operation for this plugin.</comment>
+  </data>
+</root>

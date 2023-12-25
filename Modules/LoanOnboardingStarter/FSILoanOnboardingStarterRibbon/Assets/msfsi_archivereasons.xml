@@ -1,0 +1,56 @@
+<msfsi_archivereasons>
+  <msfsi_archivereason msfsi_archivereasonid="3690cc94-09db-ed11-a7c7-002248280456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Irrelevant information">
+      <label description="Irrelevant information" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_archivereason>
+  <msfsi_archivereason msfsi_archivereasonid="a590cc94-09db-ed11-a7c7-002248280456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Applicant has better financing options elsewhere">
+      <label description="Applicant has better financing options elsewhere" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_archivereason>
+  <msfsi_archivereason msfsi_archivereasonid="c390cc94-09db-ed11-a7c7-002248280456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Applicant does not satisfy the loan terms">
+      <label description="Applicant does not satisfy the loan terms" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_archivereason>
+  <msfsi_archivereason msfsi_archivereasonid="c53dc79a-09db-ed11-a7c7-002248280456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Cannot reach the primary applicant">
+      <label description="Cannot reach the primary applicant" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_archivereason>
+  <msfsi_archivereason msfsi_archivereasonid="78fe005d-0adb-ed11-a7c7-002248280456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Bank refuses or rejects this application">
+      <label description="Bank refuses or rejects this application" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_archivereason>
+  <msfsi_archivereason msfsi_archivereasonid="7ffe005d-0adb-ed11-a7c7-002248280456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Other">
+      <label description="Other" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_archivereason>
+</msfsi_archivereasons>

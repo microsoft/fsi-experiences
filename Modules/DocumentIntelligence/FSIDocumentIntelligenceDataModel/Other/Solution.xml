@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22111.206" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>DocumentIntelligenceDataModel</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Document Intelligence Data Model" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="msdyn_aimodel" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_document" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_documentdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_documentpipeline" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_documentpipelinestep" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_documentrequest" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_dummycontext" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_pipelinedocumentstatemessage" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_pipelinestepdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_stepfielddefinition" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documentdefinitionscenario" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documentstate" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_pipelinedocumentstate" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_pipelinestate" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_pipelinesteptype" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202211.3.16.5)" />
+        <Dependent type="1" schemaName="msdyn_aimodel" displayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202211.3.16.5)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_pipelinestepdefinition_aIbuilder" displayName="msfsi_msfsi_pipelinestepdefinition_aIbuilder" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_document" displayName="Document" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_document" displayName="Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_document" displayName="Document" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_documentrequest_document_msfsi_docu" displayName="msfsi_msfsi_documentrequest_document_msfsi_docu" parentSchemaName="msfsi_document" parentDisplayName="Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_dummycontext" displayName="Table placeholder" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_dummycontext" displayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_dummycontext" displayName="Table placeholder" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_documentrequest_context_msfsi_dummy" displayName="msfsi_msfsi_documentrequest_context_msfsi_dummy" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_aimodelid" displayName="AIModel" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" solution="msdyn_AISolution (202211.3.16.5)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_pipelinestepdefinition_aIbuilder" displayName="msfsi_msfsi_pipelinestepdefinition_aIbuilder" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Name" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" solution="msdyn_AISolution (202211.3.16.5)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_pipelinestepdefinition_aIbuilder" displayName="msfsi_msfsi_pipelinestepdefinition_aIbuilder" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_documentid" displayName="Document" parentSchemaName="msfsi_document" parentDisplayName="Document" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_documentrequest_document_msfsi_docu" displayName="msfsi_msfsi_documentrequest_document_msfsi_docu" parentSchemaName="msfsi_document" parentDisplayName="Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_document" parentDisplayName="Document" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_documentrequest_document_msfsi_docu" displayName="msfsi_msfsi_documentrequest_document_msfsi_docu" parentSchemaName="msfsi_document" parentDisplayName="Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_dummycontextid" displayName="Table placeholder" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_documentrequest_context_msfsi_dummy" displayName="msfsi_msfsi_documentrequest_context_msfsi_dummy" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_documentrequest_context_msfsi_dummy" displayName="msfsi_msfsi_documentrequest_context_msfsi_dummy" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="AIModel Lookup View" displayName="AIModel Lookup View" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" solution="msdyn_AISolution (202211.3.16.8)" id="{a0b7c73c-0bf0-40cb-817b-05530a567d13}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Pipeline step definition" id="{dced8bf0-4885-41c1-bdec-e5cafbe2f3b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive AIModels" displayName="Inactive AIModels" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" solution="msdyn_AISolution (202211.3.16.8)" id="{a22f1a4c-ab82-40f5-8ee0-267196087c97}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Pipeline step definition" id="{dced8bf0-4885-41c1-bdec-e5cafbe2f3b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active AIModels" displayName="Active AIModels" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" solution="msdyn_AISolution (202211.3.16.8)" id="{ba0de7e0-5d3c-4b73-ba34-36e082dbd9e4}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Pipeline step definition" id="{dced8bf0-4885-41c1-bdec-e5cafbe2f3b7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_documenttype" displayName="Document type" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_type" displayName="Type" parentSchemaName="msfsi_documentdefinition" parentDisplayName="Document definition" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

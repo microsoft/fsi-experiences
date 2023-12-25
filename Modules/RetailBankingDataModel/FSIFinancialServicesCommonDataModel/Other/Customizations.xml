@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <WebResources />
+  <CustomControls />
+  <EntityDataProviders />
+  <EntityAnalyticsConfigs>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>account</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>contact</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_applicationdocument</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_bank</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_branch</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_customdocument</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_group</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_groupmember</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_financialmarketproduct</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+    </EntityAnalyticsConfig>
+  </EntityAnalyticsConfigs>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

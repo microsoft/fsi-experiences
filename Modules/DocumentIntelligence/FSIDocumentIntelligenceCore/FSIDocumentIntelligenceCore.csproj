@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>DocumentIntelligence</ModuleName>
+    <SolutionMapFile>packageMap.xml</SolutionMapFile>
+  </PropertyGroup>
+  <ItemGroup>
+	  <ProjectReference Include="..\FSIDocumentIntelligenceCore.Plugins\FSIDocumentIntelligenceCore.Plugins.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+</Project>

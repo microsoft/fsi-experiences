@@ -1,0 +1,92 @@
+<msfsi_stepfielddefinitions>
+  <msfsi_stepfielddefinition msfsi_stepfielddefinitionid="196c6268-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_displayname default="Credit score">
+      <label description="Credit score" languagecode="1033" />
+    </msfsi_displayname>
+    <msfsi_externalname>creditScore</msfsi_externalname>
+    <msfsi_order>0</msfsi_order>
+    <msfsi_readonly>1</msfsi_readonly>
+    <msfsi_requiredforapproval>0</msfsi_requiredforapproval>
+    <msfsi_stepdefinition>
+      <msfsi_pipelinestepdefinitionid>8eb08f5f-81df-ed11-a7c7-000d3a33d043</msfsi_pipelinestepdefinitionid>
+    </msfsi_stepdefinition>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_stepfielddefinition>
+  <msfsi_stepfielddefinition msfsi_stepfielddefinitionid="2c557851-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_displayname default="Expire date">
+      <label description="Expire date" languagecode="1033" />
+    </msfsi_displayname>
+    <msfsi_externalname>dateOfExpiration</msfsi_externalname>
+    <msfsi_order>4</msfsi_order>
+    <msfsi_readonly>0</msfsi_readonly>
+    <msfsi_requiredforapproval>0</msfsi_requiredforapproval>
+    <msfsi_stepdefinition>
+      <msfsi_pipelinestepdefinitionid>3296bd12-81df-ed11-a7c7-000d3a33d043</msfsi_pipelinestepdefinitionid>
+    </msfsi_stepdefinition>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_stepfielddefinition>
+  <msfsi_stepfielddefinition msfsi_stepfielddefinitionid="51913422-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_displayname default="ID number">
+      <label description="ID number" languagecode="1033" />
+    </msfsi_displayname>
+    <msfsi_externalname>documentNumber</msfsi_externalname>
+    <msfsi_order>0</msfsi_order>
+    <msfsi_readonly>0</msfsi_readonly>
+    <msfsi_requiredforapproval>1</msfsi_requiredforapproval>
+    <msfsi_stepdefinition>
+      <msfsi_pipelinestepdefinitionid>3296bd12-81df-ed11-a7c7-000d3a33d043</msfsi_pipelinestepdefinitionid>
+    </msfsi_stepdefinition>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_stepfielddefinition>
+  <msfsi_stepfielddefinition msfsi_stepfielddefinitionid="680a2d39-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_displayname default="Last name">
+      <label description="Last name" languagecode="1033" />
+    </msfsi_displayname>
+    <msfsi_externalname>lastName</msfsi_externalname>
+    <msfsi_order>2</msfsi_order>
+    <msfsi_readonly>0</msfsi_readonly>
+    <msfsi_requiredforapproval>0</msfsi_requiredforapproval>
+    <msfsi_stepdefinition>
+      <msfsi_pipelinestepdefinitionid>3296bd12-81df-ed11-a7c7-000d3a33d043</msfsi_pipelinestepdefinitionid>
+    </msfsi_stepdefinition>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_stepfielddefinition>
+  <msfsi_stepfielddefinition msfsi_stepfielddefinitionid="86dbeb2e-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_displayname default="First name">
+      <label description="First name" languagecode="1033" />
+    </msfsi_displayname>
+    <msfsi_externalname>firstName</msfsi_externalname>
+    <msfsi_order>1</msfsi_order>
+    <msfsi_readonly>0</msfsi_readonly>
+    <msfsi_requiredforapproval>0</msfsi_requiredforapproval>
+    <msfsi_stepdefinition>
+      <msfsi_pipelinestepdefinitionid>3296bd12-81df-ed11-a7c7-000d3a33d043</msfsi_pipelinestepdefinitionid>
+    </msfsi_stepdefinition>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_stepfielddefinition>
+  <msfsi_stepfielddefinition msfsi_stepfielddefinitionid="fe13c144-81df-ed11-a7c7-000d3a33d043">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_displayname default="Address">
+      <label description="Address" languagecode="1033" />
+    </msfsi_displayname>
+    <msfsi_externalname>address</msfsi_externalname>
+    <msfsi_order>3</msfsi_order>
+    <msfsi_readonly>0</msfsi_readonly>
+    <msfsi_requiredforapproval>1</msfsi_requiredforapproval>
+    <msfsi_stepdefinition>
+      <msfsi_pipelinestepdefinitionid>3296bd12-81df-ed11-a7c7-000d3a33d043</msfsi_pipelinestepdefinitionid>
+    </msfsi_stepdefinition>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_stepfielddefinition>
+</msfsi_stepfielddefinitions>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_reasonforarchive" localizedName="Reason for archive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>0</IsCustomizable>
+  <displaynames>
+    <displayname description="Reason for archive" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="104800000">
+      <labels>
+        <label description="Irrelevant information" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800001">
+      <labels>
+        <label description="Applicant has better financing options elsewhere" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800002">
+      <labels>
+        <label description="Applicant does not satisfy the loan terms" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800003">
+      <labels>
+        <label description="Cannot reach the primary applicant" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800004">
+      <labels>
+        <label description="Bank refuses or rejects this application" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800005">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

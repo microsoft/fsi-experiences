@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_loanapplication.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_loanapplication.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_loanapplication.Flyout.Hide" Location="AIBuilder.msfsi_loanapplication.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Activate.Hide" Location="Mscrm.Form.msfsi_loanapplication.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddAppointment.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddConnection.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddEmail.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddFax.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddFile.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddLetter.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddNote.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddPhone.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddTask.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.AddToQueue.Hide" Location="Mscrm.Form.msfsi_loanapplication.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Convert.Case.Hide" Location="Mscrm.Form.msfsi_loanapplication.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_loanapplication.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.CopySelected.Hide" Location="Mscrm.Form.msfsi_loanapplication.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_loanapplication.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Deactivate.Hide" Location="Mscrm.Form.msfsi_loanapplication.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_loanapplication.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_loanapplication.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.FormDesign.Hide" Location="Mscrm.Form.msfsi_loanapplication.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.MailMerge.Hide" Location="Mscrm.Form.msfsi_loanapplication.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_loanapplication.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_loanapplication.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_loanapplication.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_loanapplication.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Permissions.Hide" Location="Mscrm.Form.msfsi_loanapplication.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_loanapplication.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.PublishAll.Hide" Location="Mscrm.Form.msfsi_loanapplication.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.PublishEntity.Hide" Location="Mscrm.Form.msfsi_loanapplication.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_loanapplication.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.Reports.Hide" Location="Mscrm.Form.msfsi_loanapplication.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.RunScript.Hide" Location="Mscrm.Form.msfsi_loanapplication.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_loanapplication.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_loanapplication.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_loanapplication.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_loanapplication.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplication.WordTemplate.Hide" Location="Mscrm.Form.msfsi_loanapplication.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplication.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplication.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.Activate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.Charts.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.Detect.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.Filters.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplication.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplication.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

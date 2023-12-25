@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_fi_overdraft.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_fi_overdraft.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_fi_overdraft.Flyout.Hide" Location="AIBuilder.msfsi_fi_overdraft.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Activate.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddAppointment.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddConnection.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddEmail.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddFax.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddFile.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddLetter.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddNote.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddPhone.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddTask.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.AddToQueue.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Convert.Case.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.CopySelected.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Deactivate.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Delete.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.FormDesign.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.MailMerge.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.NewRecord.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Permissions.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.PublishAll.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.PublishEntity.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.Reports.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.RunScript.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_overdraft.WordTemplate.Hide" Location="Mscrm.Form.msfsi_fi_overdraft.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.DeleteMenu.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.DeleteMenu" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.NewRecord.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.NewRecordForBPFEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_overdraft.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_overdraft.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Activate.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AddNewStandard.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AddNewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Charts.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Delete.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Detect.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Edit.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Filters.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.NewRecord.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.Remove.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.Remove" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_overdraft.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_fi_overdraft.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

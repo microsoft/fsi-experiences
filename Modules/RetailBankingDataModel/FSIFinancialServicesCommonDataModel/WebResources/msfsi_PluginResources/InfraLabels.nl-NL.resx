@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InputParameterIsNotAnEntity" xml:space="preserve">
+    <value>Invoerparameters {0} is geen entiteit.</value>
+    <comment>InputParameters {placeholder="{0}"} is not an Entity.</comment>
+  </data>
+  <data name="InputParameterIsNotOfCorrectType" xml:space="preserve">
+    <value>Invoerparameters {0} is geen entiteit van het type {1}.</value>
+    <comment>InputParameters {placeholder="{0}"} is not of type {placeholder="{1}"} entity.</comment>
+  </data>
+  <data name="NullPreviousEntityState" xml:space="preserve">
+    <value>Verwachte registratie van de afbeeldingsstap voor entiteit {0} 
+           op preImageAlias-naam: {1}. 
+           Bewerking = {2}</value>
+    <comment>Expected pre-entity image step registration for {placeholder="{0}"} 
+           entity by preImageAlias name: {placeholder="{1}"}. 
+           Operation = {placeholder="{2}"}</comment>
+  </data>
+  <data name="PrimaryEntityIdNotValue" xml:space="preserve">
+    <value>Ongeldige aanvraag voor bewerking {0} PrimaryEntityId moet een geldige, niet-lege GUID zijn.</value>
+    <comment>Malformed Request for operation {placeholder="{0}"}: PrimaryEntityId must be a valid, non empty Guid.</comment>
+  </data>
+  <data name="MissingInputParams" xml:space="preserve">
+    <value>Ongeldige aanvraag voor bewerking {0}: {1} ontbreekt in de invoerparameters.</value>
+    <comment>Malformed Request for operation {placeholder="{0}"}: {placeholder="{1}"} is missing in the InputParameters.</comment>
+  </data>
+  <data name="RetrieveMultipleMalformedInputParameter" xml:space="preserve">
+    <value>Ongeldige aanvraag voor bewerking {0}: InputParameters {1} is niet van het type QueryExpression of FetchExpression.</value>
+    <comment>Malformed Request for operation {placeholder="{1}"}: InputParameters {placeholder="{0}"} is not of type QueryExpression or FetchExpression.</comment>
+  </data>
+  <data name="PreviousStateManagerNullPreImage" xml:space="preserve">
+    <value>preImageAliasName mag niet null of leeg zijn.</value>
+    <comment>preImageAliasName cannot be null or empty.</comment>
+  </data>
+  <data name="PreviousStateManagerStateNotAvailable" xml:space="preserve">
+    <value>Kan vorige status voor alias voor PreImage-entiteit {0} niet ophalen.</value>
+    <comment>Failed to get previous state for PreImage entity alias {placeholder="{0}"}.</comment>
+  </data>
+  <data name="PreviousStateManagerStateForEntityNotAvailable" xml:space="preserve">
+    <value>Kan vorige status voor entiteit {0} niet ophalen.</value>
+    <comment>Failed to get previous state for {placeholder="{0}"} entity.</comment>
+  </data>
+  <data name="ContactQueryIdNullOrEmpty" xml:space="preserve">
+    <value>ContactId-queryparameter is null of leeg.</value>
+    <comment>ContactId query parameter is null or empty.</comment>
+  </data>
+  <data name="MissingMappingDataInCi" xml:space="preserve">
+    <value>Ontbrekende toewijzingsgegevens tussen id van CI-klant en contactpersoon-id.</value>
+    <comment>Missing mapping data between Ci Customer id to Contact Id.</comment>
+  </data>
+  <data name="EntityDoesNotExist" xml:space="preserve">
+    <value>Entiteit {0} bestaat niet.</value>
+    <comment>Entity {placeholder="{0}"} does not exist.</comment>
+  </data>
+  <data name="RetrieveMultipleFailed" xml:space="preserve">
+    <value>RetrieveMultiple kan niet worden opgehaald uit entiteit {0}: {1}.</value>
+    <comment>Failed to RetrieveMultiple from {placeholder="{0}"} entity: {placeholder="{1}"}.</comment>
+  </data>
+  <data name="RetrieveMultipleQueryFailed" xml:space="preserve">
+    <value>Ophalen van meerdere resultaten is mislukt bij poging om query {0} uit te voeren. ExceptionMessage = {1}.</value>
+    <comment>Failed to retrieve multiple results while attempting to query {placeholder="{0}"}. ExceptionMessage = {placeholder="{1}"}.</comment>
+  </data>
+  <data name="MissingConfigurationInChurnConfig" xml:space="preserve">
+    <value>Ontbrekende configuraties in entiteit {0}.</value>
+    <comment>Missing configurations in {placeholder="{0}"} entity.</comment>
+  </data>
+  <data name="ParsingFailedForChurnLevel" xml:space="preserve">
+    <value>Parseren van configuratiewaarde van Verloopniveau naar zwevende indeling mislukt.
+            waarde = {0}. Uitzonderingsbericht: {1}.
+            Tabelgegevens zijn beschadigd.</value>
+    <comment>Failed to parse Churn Level config value to float.
+            value = {placeholder="{0}"}. Exception message: {placeholder="{1}"}.
+            Table data is corrupt.</comment>
+  </data>
+  <data name="InitializationOfEntityFailed" xml:space="preserve">
+    <value>Het initialiseren/uitvoeren van een query op de entiteit is mislukt.</value>
+    <comment>Failed to initialize / query the entity.</comment>
+  </data>
+  <data name="GroupTypeIsEmpty" xml:space="preserve">
+    <value>Type van groep {0} is leeg.</value>
+    <comment>Type of Group {placeholder="{0}"} is empty.</comment>
+  </data>
+  <data name="TableDoesNotExist" xml:space="preserve">
+    <value>Tabel {0} bestaat niet.</value>
+    <comment>Table {placeholder="{0}"} does not exist.</comment>
+  </data>
+  <data name="CiDataSourceAcquireFailed" xml:space="preserve">
+    <value>Naam van verworven CI-gegevensbron van {0} mag niet null of leeg zijn.</value>
+    <comment>Acquired CI Datasource Name from {placeholder="{0}"} cannot be null or empty.</comment>
+  </data>
+  <data name="CiEntityNameNullOrEmpty" xml:space="preserve">
+    <value>Naam van CI-entiteit van {0} mag niet null of leeg zijn.</value>
+    <comment>CI Entity Name from {placeholder="{0}"} cannot be null or empty.</comment>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Er is een onverwachte fout opgetreden.</value>
+    <comment>An unexpected error occurred.</comment>
+  </data>
+  <data name="InputParametersNeitherQueryNorFetch" xml:space="preserve">
+    <value>Invoerparameters zijn geen QueryExpression of FetchExpression.</value>
+    <comment>Input parameters are neither QueryExpression nor FetchExpression.</comment>
+  </data>
+  <data name="FailedToConvertQuery" xml:space="preserve">
+    <value>Kan FetchExpression niet converteren naar QueryExpression: {0}.</value>
+    <comment>Failed to convert FetchExpression to QueryExpression: {placeholder="{0}"}.</comment>
+  </data>
+  <data name="CiCustomerIdWasNotFound" xml:space="preserve">
+    <value>Kan geen CI-klant-id vinden voor contactpersoon-id {0}.</value>
+    <comment>Could not find CI customer id for contact id {placeholder="{0}"}.</comment>
+  </data>
+  <data name="ParameterCantBeNullOrEmpty" xml:space="preserve">
+    <value>Parameter {0} mag niet null of leeg zijn.</value>
+    <comment>Parameter {placeholder="{0}"} cannot be null or empty.</comment>
+  </data>
+  <data name="GuidCantBeNullOrEmpty" xml:space="preserve">
+    <value>Guid-parameter mag niet null of leeg zijn.</value>
+    <comment>Guid parameter cannot be null or empty.</comment>
+  </data>
+  <data name="WrongOperation" xml:space="preserve">
+    <value>Bewerking {0} werd verwacht voor deze invoegtoepassing.</value>
+    <comment>Expected {placeholder="{0}"} operation for this plugin.</comment>
+  </data>
+</root>

@@ -1,0 +1,412 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps_1": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfsi_sharedcommondataserviceforapps_b8eb3"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "3b957932-d155-40b2-ab9d-3be6887d9be1"
+          },
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "Pipeline Id",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "boolean": {
+                  "title": "Fetch file",
+                  "type": "boolean",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please select yes or no",
+                  "x-ms-content-hint": "BOOLEAN"
+                }
+              },
+              "required": [
+                "text"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Fetch_pipeline_details": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "1aeaf7fa-e1e0-4873-860a-8d2a07c03c09"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps_1",
+              "operationId": "ListRecords",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "msfsi_documentpipelines",
+              "fetchXml": "<fetch>\n  <entity name=\"msfsi_documentpipeline\" >\n    <attribute name=\"msfsi_documentrequest\" />\n    <filter>\n      <condition attribute=\"msfsi_documentpipelineid\" operator=\"eq\" value=\"@{triggerBody()['text']}\" />\n    </filter>\n    <link-entity name=\"msfsi_documentpipelinestep\" from=\"msfsi_documentpipeline\" to=\"msfsi_documentpipelineid\" link-type=\"outer\" alias=\"step_result\" >\n      <attribute name=\"msfsi_pipelinestepstate\" />\n      <attribute name=\"msfsi_pipelinestepdocumentstate\" />\n      <attribute name=\"msfsi_rawoutput\" />\n      <attribute name=\"msfsi_output\" />\n      <link-entity name=\"msfsi_pipelinestepdefinition\" from=\"msfsi_pipelinestepdefinitionid\" to=\"msfsi_pipelinestepdefinition\" link-type=\"outer\" alias=\"step_definition\" >\n        <attribute name=\"msfsi_type\" />\n      </link-entity>\n    </link-entity>\n    <link-entity name=\"msfsi_documentrequest\" from=\"msfsi_documentrequestid\" to=\"msfsi_documentrequest\" alias=\"request\" >\n      <attribute name=\"msfsi_documentdefinition\" />\n      <attribute name=\"msfsi_regarding\" />\n      <attribute name=\"msfsi_context\" />\n      <attribute name=\"msfsi_documentrequestid\" />\n\t  @{if(equals(triggerBody()?['boolean'], true), '<link-entity name=\"msfsi_document\" from=\"msfsi_documentid\" to=\"msfsi_document\" >\n        <link-entity name=\"annotation\" from=\"objectid\" to=\"msfsi_documentid\" alias=\"note\" >\n          <attribute name=\"mimetype\" />\n          <attribute name=\"documentbody\" />\n          <attribute name=\"annotationid\" />\n\t\t  <filter>\n            <condition attribute=\"isdocument\" operator=\"eq\" value=\"1\" />\n          </filter>\n        </link-entity>\n      </link-entity>', '')}\n    </link-entity>\n  </entity>\n</fetch>"
+            },
+            "authentication": {
+              "type": "Raw",
+              "value": "@json(decodeBase64(triggerOutputs().headers['X-MS-APIM-Tokens']))['$ConnectionKey']"
+            }
+          }
+        },
+        "Get_extraction_step": {
+          "runAfter": {
+            "Fetch_pipeline_details": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "03231bdb-349d-4f41-b0f3-71ba7959cb31"
+          },
+          "type": "Query",
+          "inputs": {
+            "from": "@array(outputs('Fetch_pipeline_details')?['body/value'])",
+            "where": "@equals(item()?['step_definition.msfsi_type'], 104800000)"
+          }
+        },
+        "Parse_extraction_step": {
+          "runAfter": {
+            "Get_extraction_step": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3abb02fa-4455-436d-829d-6299087bf6a1"
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@coalesce(first(body('Get_extraction_step')), json('{}'))",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "step_result.msfsi_output@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "step_result.msfsi_output": {
+                  "type": "string"
+                },
+                "step_result.msfsi_pipelinestepstate@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "step_result.msfsi_pipelinestepstate@OData.Community.Display.V1.FormattedValue": {
+                  "type": "string"
+                },
+                "step_result.msfsi_pipelinestepstate": {
+                  "type": "integer"
+                },
+                "step_result.msfsi_rawoutput@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "step_result.msfsi_rawoutput": {
+                  "type": "string"
+                },
+                "step_result.msfsi_pipelinestepdocumentstate@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "step_result.msfsi_pipelinestepdocumentstate@OData.Community.Display.V1.FormattedValue": {
+                  "type": "string"
+                },
+                "step_result.msfsi_pipelinestepdocumentstate": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        },
+        "Get_enrichment_step": {
+          "runAfter": {
+            "Parse_extraction_step": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "6cafcb6e-7d8f-4773-9ad7-ef4fa81a03cd"
+          },
+          "type": "Query",
+          "inputs": {
+            "from": "@array(outputs('Fetch_pipeline_details')?['body/value'])",
+            "where": "@equals(item()?['step_definition.msfsi_type'], 104800001)"
+          }
+        },
+        "Parse_enrichment_step": {
+          "runAfter": {
+            "Get_enrichment_step": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3abb02fa-4455-436d-829d-6299087bf6a1"
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@coalesce(first(body('Get_enrichment_step')), json('{}'))",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "step_result.msfsi_output@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "step_result.msfsi_output": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Parse_pipeline_response": {
+          "runAfter": {
+            "Parse_enrichment_step": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "3abb02fa-4455-436d-829d-6299087bf6a1"
+          },
+          "type": "ParseJson",
+          "inputs": {
+            "content": "@coalesce(first(outputs('Fetch_pipeline_details')?['body/value']), json('{}'))",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "@@odata.type": {
+                  "type": "string"
+                },
+                "@@odata.id": {
+                  "type": "string"
+                },
+                "@@odata.etag": {
+                  "type": "string"
+                },
+                "@@odata.editLink": {
+                  "type": "string"
+                },
+                "msfsi_documentpipelineid@odata.type": {
+                  "type": "string"
+                },
+                "msfsi_documentpipelineid": {
+                  "type": "string"
+                },
+                "_msfsi_documentrequest_value@OData.Community.Display.V1.FormattedValue": {
+                  "type": "string"
+                },
+                "_msfsi_documentrequest_value@Microsoft.Dynamics.CRM.associatednavigationproperty": {
+                  "type": "string"
+                },
+                "_msfsi_documentrequest_value@Microsoft.Dynamics.CRM.lookuplogicalname": {
+                  "type": "string"
+                },
+                "_msfsi_documentrequest_value@odata.type": {
+                  "type": "string"
+                },
+                "_msfsi_documentrequest_value": {
+                  "type": "string"
+                },
+                "note.documentbody@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "note.documentbody": {
+                  "type": "string"
+                },
+                "request.msfsi_documentrequestid@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "request.msfsi_documentrequestid@odata.type": {
+                  "type": "string"
+                },
+                "request.msfsi_documentrequestid": {
+                  "type": "string"
+                },
+                "request.msfsi_regarding@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "request.msfsi_regarding@OData.Community.Display.V1.FormattedValue": {
+                  "type": "string"
+                },
+                "request.msfsi_regarding@Microsoft.Dynamics.CRM.lookuplogicalname": {
+                  "type": "string"
+                },
+                "request.msfsi_regarding@odata.type": {
+                  "type": "string"
+                },
+                "request.msfsi_regarding": {
+                  "type": "string"
+                },
+                "request.msfsi_documentdefinition@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "request.msfsi_documentdefinition@OData.Community.Display.V1.FormattedValue": {
+                  "type": "string"
+                },
+                "request.msfsi_documentdefinition@Microsoft.Dynamics.CRM.lookuplogicalname": {
+                  "type": "string"
+                },
+                "request.msfsi_documentdefinition@odata.type": {
+                  "type": "string"
+                },
+                "request.msfsi_documentdefinition": {
+                  "type": "string"
+                },
+                "note.mimetype@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "note.mimetype": {
+                  "type": "string"
+                },
+                "note.annotationid@OData.Community.Display.V1.AttributeName": {
+                  "type": "string"
+                },
+                "note.annotationid@odata.type": {
+                  "type": "string"
+                },
+                "note.annotationid": {
+                  "type": "string"
+                },
+                "msfsi_documentrequest@odata.associationLink": {
+                  "type": "string"
+                },
+                "msfsi_documentrequest@odata.navigationLink": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "File_Content_Template": {
+          "runAfter": {
+            "Parse_pipeline_response": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "fa2aee4d-0f29-4766-8c9a-18c6f48c946c"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "File Template",
+                "type": "string",
+                "value": "'{\"$content-type\":\"@{if(equals(body('Parse_pipeline_response')?['note.mimetype'], 'image/jpeg'), 'image/jpg', body('Parse_pipeline_response')?['note.mimetype'])}\",\"$content\":\"@{if(empty(body('Parse_pipeline_response')?['note.documentbody']),'',base64ToBinary(body('Parse_pipeline_response')?['note.documentbody'])?['$content'])}\"}'"
+              }
+            ]
+          }
+        },
+        "Respond_to_a_PowerApp_or_flow": {
+          "runAfter": {
+            "File_Content_Template": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "a2c73900-1307-4fac-96a6-0d63f7a7c3d9"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "document_definition": "@body('Parse_pipeline_response')?['request.msfsi_documentdefinition']",
+              "file_template": "@variables('File Template')",
+              "document_request_id": "@body('Parse_pipeline_response')?['request.msfsi_documentrequestid']",
+              "extraction_state": "@{body('Parse_extraction_step')?['step_result.msfsi_pipelinestepstate']}",
+              "extraction_doc_state": "@{body('Parse_extraction_step')?['step_result.msfsi_pipelinestepdocumentstate']}",
+              "extraction_output": "@body('Parse_extraction_step')?['step_result.msfsi_output']",
+              "extraction_raw_output": "@body('Parse_extraction_step')?['step_result.msfsi_rawoutput']",
+              "enrichment_output": "@body('Parse_enrichment_step')?['step_result.msfsi_output']",
+              "document_context": "@{body('Parse_pipeline_response')?['request.msfsi_context']}",
+              "document_regarding": "@body('Parse_pipeline_response')?['request.msfsi_regarding']"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "document_definition": {
+                  "title": "Document Definition",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "file_template": {
+                  "title": "File Template",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "document_request_id": {
+                  "title": "Document request id",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "extraction_state": {
+                  "title": "Extraction state",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "extraction_doc_state": {
+                  "title": "Extraction doc state",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "extraction_output": {
+                  "title": "Extraction output",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "extraction_raw_output": {
+                  "title": "Extraction raw output",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "enrichment_output": {
+                  "title": "Enrichment output",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "document_context": {
+                  "title": "Document context",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "document_regarding": {
+                  "title": "Document regarding",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_lifemoment.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_lifemoment.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_lifemoment.Flyout.Hide" Location="AIBuilder.msfsi_lifemoment.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Activate.Hide" Location="Mscrm.Form.msfsi_lifemoment.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddAppointment.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddConnection.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddEmail.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddFax.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddFile.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddLetter.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddNote.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddPhone.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddTask.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.AddToQueue.Hide" Location="Mscrm.Form.msfsi_lifemoment.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Convert.Case.Hide" Location="Mscrm.Form.msfsi_lifemoment.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_lifemoment.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.CopySelected.Hide" Location="Mscrm.Form.msfsi_lifemoment.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_lifemoment.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Deactivate.Hide" Location="Mscrm.Form.msfsi_lifemoment.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_lifemoment.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_lifemoment.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.FormDesign.Hide" Location="Mscrm.Form.msfsi_lifemoment.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.MailMerge.Hide" Location="Mscrm.Form.msfsi_lifemoment.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_lifemoment.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_lifemoment.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_lifemoment.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_lifemoment.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Permissions.Hide" Location="Mscrm.Form.msfsi_lifemoment.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_lifemoment.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.PublishAll.Hide" Location="Mscrm.Form.msfsi_lifemoment.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.PublishEntity.Hide" Location="Mscrm.Form.msfsi_lifemoment.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_lifemoment.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.Reports.Hide" Location="Mscrm.Form.msfsi_lifemoment.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.RunScript.Hide" Location="Mscrm.Form.msfsi_lifemoment.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_lifemoment.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_lifemoment.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_lifemoment.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_lifemoment.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_lifemoment.WordTemplate.Hide" Location="Mscrm.Form.msfsi_lifemoment.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_lifemoment.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_lifemoment.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Activate.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Charts.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Detect.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Filters.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.NewRecord.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.AddNewStandard.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.AddNewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_lifemoment.Edit.Hide" Location="Mscrm.SubGrid.msfsi_lifemoment.Edit" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

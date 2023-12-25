@@ -1,0 +1,8 @@
+.is-selected.ms-GroupHeader {
+    background: none !important;
+}
+
+.tableWrapper,
+.tableWrapper .ms-Viewport {
+    width: 100% !important;
+}

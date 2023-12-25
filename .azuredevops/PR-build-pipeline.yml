@@ -1,0 +1,93 @@
+trigger:
+  - master
+  - EA
+
+stages:
+  - stage: Build
+    pool:
+      name: Azure-Pipelines-EO-Windows2019-DynamicsCRM
+      demands:
+        - Cmd
+        - msbuild
+        - visualstudio
+        - DotNetFramework
+    jobs:
+      - job: Build
+        displayName: Full Build For the Product
+        timeoutInMinutes: 180
+
+        variables:
+          - group: Financial_Services_Key_Vault_Secrets
+
+          - name: SkipArtifactVersioning
+            value: True
+
+          - name: ReturnNextVersion
+            value: false
+
+          - name: UseAsPipelineBuildVersion
+            value: false
+
+          - name: BuildConfiguration
+            value: release
+
+          - name: Configuration
+            value: release
+
+          - name: BuildPlatform
+            value: AnyCPU
+
+          - name: TF_BUILD
+            value: True
+
+          - name: UsePackageVersion
+            value: False
+
+          - name: EnableLocalization
+            value: True
+
+          - name: SkipLocalizationExtraction
+            value: True
+
+        steps:
+          - template: PR-build/build-template.yml
+            parameters:
+              pcfControls: |
+                frontend\pcf-controls\**\**.pcfproj
+
+  - stage: Deploy
+    dependsOn:
+      - Build
+    pool:
+      name: Azure-Pipelines-EO-Windows2019-DynamicsCRM
+      demands:
+        - Cmd
+        - msbuild
+        - visualstudio
+        - DotNetFramework
+
+    jobs:
+      - job: Deploy
+        displayName: Test Deploy of the packages
+        timeoutInMinutes: 240
+
+        variables:
+          - name: BuildConfiguration
+            value: release
+          - name: BuildPlatform
+            value: AnyCPU
+
+        steps:
+          - checkout: none
+          - download: current
+            artifact: FSI
+          - template: PR-build/deploy-template.yml
+            parameters:
+              assignApiApplicationUser: true
+              packages:
+                - packageName: RetailBankingDataModel
+                - packageName: UCP-Retail-Banking
+                - packageName: UCP-Wealth-Management
+                - packageName: DocumentIntelligence
+                - packageName: OnboardingEssentials
+                - packageName: LoanOnboardingStarter

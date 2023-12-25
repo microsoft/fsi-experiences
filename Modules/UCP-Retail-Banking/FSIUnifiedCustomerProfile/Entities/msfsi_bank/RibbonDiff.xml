@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.Activate.Hide" Location="Mscrm.Form.msfsi_bank.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.Deactivate.Hide" Location="Mscrm.Form.msfsi_bank.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.Delete.Hide" Location="Mscrm.Form.msfsi_bank.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_bank.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_bank.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.NewRecord.Hide" Location="Mscrm.Form.msfsi_bank.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_bank.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.Save.Hide" Location="Mscrm.Form.msfsi_bank.Save" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.SaveAndClose.Hide" Location="Mscrm.Form.msfsi_bank.SaveAndClose" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_bank.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_bank.WordTemplate.Hide" Location="Mscrm.Form.msfsi_bank.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

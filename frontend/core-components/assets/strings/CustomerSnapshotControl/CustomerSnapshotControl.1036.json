@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "Instantané du client",
+    "ENTITY_ID": "Entité principale",
+    "ENTITY_ID_DESC": "ID du composant de capture instantanée du client de l’entité pour extraire les données",
+    "FORM_ID": "ID formulaire",
+    "FORM_ID_DESC": "ID du formulaire (Aperçu) utilisé pour déterminer les champs de données et la disposition de la capture instantanée du client",
+    "LINK_ENTITY_FIELD": "Champ de liaison de l’entité principale",
+    "LINK_ENTITY_FIELD_DESC": "Nom logique du champ qui contient l’ID d’entité principale (par défaut, nom d’entité + ID)",
+    "TITLE_VISIBILITY": "Visibilité du titre",
+    "TITLE_VISIBILITY_DESC": "Afficher ou masquer la section du titre du composant",
+    "PREFERRED": "Par défaut",
+    "NO_DATA_TO_SHOW_YET": "Aucune donnée à afficher pour l’instant",
+    "TRY_REFRESH_CONTACT_ADMIN": "Essayez d’actualiser votre navigateur ou contactez votre administrateur informatique",
+    "INVALID_CONFIGURATION": "Un problème s’est produit lors de la configuration",
+    "PREFERRED_COMM_EMAIL": "Le client préfère communiquer par courrier électronique",
+    "PREFERRED_COMM_MAIL": "Le client préfère communiquer par e-mail",
+    "PREFERRED_COMM_PHONE": "Le client préfère communiquer par téléphone"
+}

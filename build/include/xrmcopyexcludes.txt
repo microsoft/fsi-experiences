@@ -1,0 +1,16 @@
+PackageExtra
+LocalizableFieldsMapping.xml
+GuidMapsMaster.xml
+lcids.json
+FSIRetailBankingCoreControls.
+FSIRetailBankingCoreComponents.
+FSICRMInfra.
+FSIUnifiedCustomerProfile.
+FSIUnifiedCustomerProfileAnchor.
+Microsoft.Crm.
+Microsoft.IdentityModel.Clients.
+Microsoft.Rest.ClientRuntime.dll
+Microsoft.Uii.
+Microsoft.Xrm.
+CDSEntityUpdaterBusinessLogic
+Newtonsoft.Json.

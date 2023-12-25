@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildGroupFHEntityCollectionPlugin: msfsi_GFHfetch of any Entity" SdkMessageProcessingStepId="{a94ea22a-e67a-ec11-8d21-00224808307f}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>768870a9-e57a-ec11-8d21-002248083308</SdkMessageId>
+  <PluginTypeName>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildGroupFHEntityCollectionPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
+  <PluginTypeId>9057be16-7824-4bc6-b3a8-886478f46c17</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.EntityFetch.BuildGroupFHEntityCollectionPlugin: msfsi_GFHfetch of any Entity</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

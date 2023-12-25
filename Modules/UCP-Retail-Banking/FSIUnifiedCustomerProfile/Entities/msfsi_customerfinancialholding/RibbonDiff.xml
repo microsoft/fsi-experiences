@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.Activate.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.Deactivate.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.Delete.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.NewRecord.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.Save.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.Save" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.SaveAndClose.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.SaveAndClose" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_customerfinancialholding.WordTemplate.Hide" Location="Mscrm.Form.msfsi_customerfinancialholding.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

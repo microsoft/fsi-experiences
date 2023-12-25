@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="FH Line of credit" OriginalName="FH Line of credit">msfsi_FH_Creditline</Name>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>

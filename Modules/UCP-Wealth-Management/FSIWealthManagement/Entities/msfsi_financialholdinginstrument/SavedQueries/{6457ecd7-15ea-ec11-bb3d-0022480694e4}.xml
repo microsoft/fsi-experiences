@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{6457ecd7-15ea-ec11-bb3d-0022480694e4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_financialholdinginstrumentid">
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.msfsi_name" width="180" />
+          <cell name="a_70f3fdb835b74313abc77fa99780e7d3.msfsi_financialmarketproducttype" width="123" />
+          <cell name="a_70f3fdb835b74313abc77fa99780e7d3.msfsi_tickersymbol" width="76" />
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.msfsi_positioncount" width="100" />
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.transactioncurrencyid" width="100" />
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.msfsi_averagesecuritycostdefault" width="100" />
+          <cell name="a_70f3fdb835b74313abc77fa99780e7d3.msfsi_currentpricedefault" width="100" />
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.msfsi_currentvaluedefault" width="120" />
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.msfsi_performance" width="170" imageproviderfunctionname="displayIconTooltip" imageproviderwebresource="$webresource:msfsi_portfolioAssetsGrid.js" />
+          <cell name="a_e22a3f748bb54f2dbd8ac043ac5beb41.msfsi_positiontype" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="msfsi_financialholdinginstrument">
+          <filter type="and">
+            <condition attribute="msfsi_financialholdinginstrumenttype" operator="eq" value="100000000" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity alias="a_70f3fdb835b74313abc77fa99780e7d3" name="msfsi_financialmarketproduct" to="msfsi_product" from="msfsi_financialmarketproductid" link-type="outer" visible="false">
+            <attribute name="msfsi_financialmarketproducttype" />
+            <attribute name="msfsi_tickersymbol" />
+            <attribute name="msfsi_currentpricedefault" />
+          </link-entity>
+          <link-entity alias="a_e22a3f748bb54f2dbd8ac043ac5beb41" name="msfsi_fi_position" to="msfsi_details" from="msfsi_fi_positionid" link-type="inner">
+            <attribute name="msfsi_currentvaluedefault" />
+            <attribute name="msfsi_positiontype" />
+            <attribute name="msfsi_positioncount" />
+            <attribute name="msfsi_name" />
+            <attribute name="msfsi_averagesecuritycostdefault" />
+            <attribute name="transactioncurrencyid" />
+            <attribute name="msfsi_performance" />
+            <filter type="and">
+              <condition attribute="statecode" operator="eq" value="0" />
+            </filter>
+          </link-entity>
+          <attribute name="msfsi_financialholdinginstrumentid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Portfolio assets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,40 @@
+<entities >
+  <entity name="msfsi_categorytypesrelations" displayname="Category Types Relations" etc="10095" primaryidfield="msfsi_categorytypesrelationsid" primarynamefield="msfsi_name" disableplugins="false">
+    <fields>
+      <field displayname="Category Types Relations" name="msfsi_categorytypesrelationsid" type="guid" primaryKey="true" />
+      <field displayname="Life Event Type Configurations" name="msfsi_lifemomenttypeconfigurations" type="entityreference" lookupType="msfsi_lifemomenttypeconfig" customfield="true" />
+      <field displayname="Name" name="msfsi_name" type="string" customfield="true" />
+      <field displayname="LifeMomentCategoryConfigurations" name="msfsi_lifemomentcategoryconfigurations" type="entityreference" lookupType="msfsi_lifemomentcategoryconfig" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="msfsi_lifemomenttypeconfig" displayname="Life Event Type Config" etc="10099" primaryidfield="msfsi_lifemomenttypeconfigid" primarynamefield="msfsi_name" disableplugins="false">
+    <fields>
+      <field displayname="Display Order" name="msfsi_displayorder" type="number" customfield="true" />
+      <field displayname="Life Event Type Config" name="msfsi_lifemomenttypeconfigid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="msfsi_name" type="string" customfield="true" />
+      <field displayname="Type Code" name="msfsi_typecode" type="number" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="msfsi_lifemomentcategoryconfig" displayname="Life Event Category Config" etc="10097" primaryidfield="msfsi_lifemomentcategoryconfigid" primarynamefield="msfsi_name" disableplugins="false">
+    <fields>
+      <field displayname="Display Order" name="msfsi_displayorder" type="number" customfield="true" />
+      <field displayname="Icon" name="msfsi_icon" type="string" customfield="true" />
+      <field displayname="Life Event Category Config" name="msfsi_lifemomentcategoryconfigid" type="guid" primaryKey="true" />
+      <field displayname="Category Code" name="msfsi_categorycode" type="number" customfield="true" />
+      <field displayname="Name" name="msfsi_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="msfsi_lifemomentsconfigurations" displayname="Life Events Configurations" etc="10098" primaryidfield="msfsi_lifemomentsconfigurationsid" primarynamefield="msfsi_name" disableplugins="false">
+    <fields>
+      <field displayname="Birthday Category Code" name="msfsi_birthdaycategorycode" type="number" customfield="true" />
+      <field displayname="Birthday Type Code" name="msfsi_birthdaytypecode" type="number" customfield="true" />
+      <field displayname="Education Category Code" name="msfsi_educationcategorycode" type="number" customfield="true" />
+      <field displayname="Focus Indication Period Days" name="msfsi_focusindicationperioddays" type="number" customfield="true" />
+      <field displayname="Life Events Configurations" name="msfsi_lifemomentsconfigurationsid" type="guid" primaryKey="true" />
+      <field displayname="New Event Indication Period Days" name="msfsi_newmomentindicationperioddays" type="number" customfield="true" />
+      <field displayname="Other Category Code" name="msfsi_othercategorycode" type="number" customfield="true" />
+      <field displayname="Other Type Code" name="msfsi_othertypecode" type="number" customfield="true" />
+      <field displayname="Name" name="msfsi_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+</entities>

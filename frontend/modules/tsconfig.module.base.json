@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "es5",
+        "alwaysStrict": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "strict": true,
+        "declaration": true,
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "lib": ["es2020", "DOM"]
+    },
+    "exclude": ["*/node_modules", "*/dist", "**/__mocks__/*", "*/coverage", "*/jest-setup.ts", ".*/jest.config.js"]
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6639aaf6-49fc-40db-be19-35e6aa9519d5}</savedqueryid>
+    <layoutxml>
+      <grid name="msfsi_stepfielddefinitions" jump="msfsi_displayname" select="1" icon="1" preview="0">
+        <row name="msfsi_stepfielddefinition" id="msfsi_stepfielddefinitionid">
+          <cell name="msfsi_displayname" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_stepfielddefinition">
+          <attribute name="msfsi_stepfielddefinitionid" />
+          <attribute name="msfsi_displayname" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Step field definition Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

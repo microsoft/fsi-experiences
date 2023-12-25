@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_pipelinesteptype" localizedName="Pipeline step type" description="The step type describes the operation the step performs on the document." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.4.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Pipeline step type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="The step type describes the operation the step performs on the document." languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="104800000" ExternalValue="">
+      <labels>
+        <label description="Extraction" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800001" ExternalValue="">
+      <labels>
+        <label description="Enrichment" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800002">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

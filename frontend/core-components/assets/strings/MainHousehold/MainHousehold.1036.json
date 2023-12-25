@@ -1,0 +1,14 @@
+{
+    "NO_PRIMARY_GROUP_DEFINED": "Définir un foyer principal pour ce contact",
+    "NO_PRIMARY_GROUP_DEFINED_SUB_HEADER": "Veuillez ajouter aux groupes",
+    "MEMBERS": "membres",
+    "NOT_AVAILABLE": "Indisponible",
+    "ANNUAL_INCOME": "Revenus annuels",
+    "TOTAL_ASSETS": "Total des actifs",
+    "TOTAL_LIABILITIES": "Total du passif",
+    "THERE_ARE_NO_ASSETS": "Il n’y a aucun actif",
+    "THERE_ARE_NO_LIABILITIES": "Il n’y a aucun passif",
+    "MISSING_PRIMARY": "Ce groupe a besoin d’un membre principal",
+    "MISSING_HOLDING": "Ce groupe a besoin qu’au moins un produit financier lui soit associé",
+    "MISSING_HOLDING_AND_PRIMARY": "Ce groupe a besoin qu’un membre principal et qu’au moins un produit financier lui soient associés"
+}

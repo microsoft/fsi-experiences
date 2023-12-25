@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping>
+  <FileToPath map="WebResources\**\*.js" to="..\..\..\target\WebResources\UCP-Wealth-Management\FSIWealthManagement\**" />
+  <FileToPath map="WebResources\*.js" to="..\..\..\target\WebResources\UCP-Wealth-Management\FSIWealthManagement\**" />
+</Mapping>

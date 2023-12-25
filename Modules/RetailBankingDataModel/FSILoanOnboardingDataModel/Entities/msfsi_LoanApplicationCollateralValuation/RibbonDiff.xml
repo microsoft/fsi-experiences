@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_loanapplicationcollateralvaluation.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_loanapplicationcollateralvaluation.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_loanapplicationcollateralvaluation.Flyout.Hide" Location="AIBuilder.msfsi_loanapplicationcollateralvaluation.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Activate.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddAppointment.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddConnection.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddEmail.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddFax.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddFile.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddLetter.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddNote.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddPhone.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddTask.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddToQueue.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Convert.Case.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.CopySelected.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Deactivate.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.FormDesign.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.MailMerge.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Permissions.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PublishAll.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PublishEntity.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Reports.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.RunScript.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_loanapplicationcollateralvaluation.WordTemplate.Hide" Location="Mscrm.Form.msfsi_loanapplicationcollateralvaluation.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_loanapplicationcollateralvaluation.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Activate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Charts.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Detect.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Filters.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_loanapplicationcollateralvaluation.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

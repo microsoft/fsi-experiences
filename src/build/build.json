@@ -1,0 +1,111 @@
+{
+  "withLicensing": false,
+  "packages": [
+    {
+      "name": "CareManagement",
+      "solutions": [
+        "HealthcareCareManagement",
+        "HealthcareCareManagementAnchor"
+      ],
+      "project": "HealthcareAccelerator.Package.CareManagement",
+      "isAppSource": true
+    },
+    {
+      "name": "HealthFoundation",
+      "solutions": [
+        "FHIRCommonCore",
+        "FHIRAdministrationCore",
+        "FHIRClinicalCore",
+        "FHIRDiagnosticCore",
+        "FHIRMedicationCore",
+        "FHIRAdministrationAppointmentEMR",
+        "FHIRAdministrationEncounter",
+        "FHIRAdministrationHealthServices",
+        "FHIRClinicalCareTeam",
+        "FHIRClinicalProcedure",
+        "FHIRDiagnosticReport",
+        "FHIRFinancial",
+        "FHIRWorkflowClinicalProcess",
+        "HealthcareControls",
+        "HealthcareFoundation",
+        "HealthcareFoundationAnchor"
+      ],
+      "project": "HealthcareAccelerator.Package.HealthFoundation",
+      "isAppSource": true
+    },
+    {
+      "name": "HealthcareFoundationSampleData",
+      "solutions": ["HealthcareFoundationSampleData"],
+      "project": "HealthcareAccelerator.Package.HealthFoundationSampleData",
+      "isAppSource": true
+    },
+    {
+      "name": "FHIRSyncAgentAdministration",
+      "solutions": [
+        "FHIRSyncAgentCommon",
+        "FHIRSyncAgentCDMUpdates",
+        "FHIRSyncAgentControls",
+        "FHIRSyncAgentAnchor"
+      ],
+      "project": "HealthcareAccelerator.Package.FHIRSyncAgentAdministration",
+      "isAppSource": true
+    },
+    {
+      "name": "HomeHealth",
+      "solutions": ["HealthcareHomeHealth", "HealthcareHomeHealthAnchor"],
+      "project": "HealthcareAccelerator.Package.HomeHealth",
+      "isAppSource": true
+    },
+    {
+      "name": "HealthcareHomeHealthSampleData",
+      "solutions": ["HealthcareHomeHealthSampleData"],
+      "project": "HealthcareAccelerator.Package.HomeHealthSampleData",
+      "isAppSource": true
+    },
+    {
+      "name": "PatientAccess",
+      "solutions": [
+        "HealthcarePatientAccessPortal",
+        "HealthcarePatientAccessAnchor"
+      ],
+      "project": "HealthcareAccelerator.Package.PatientAccess",
+      "isAppSource": true
+    },
+    {
+      "name": "PatientAccessSampleData",
+      "solutions": ["HealthcarePatientAccessPortalSampleData"],
+      "project": "HealthcareAccelerator.Package.PatientAccessSampleData",
+      "isAppSource": true
+    },
+    {
+      "name": "PatientOutreach",
+      "solutions": [
+        "HealthcarePatientOutreach",
+        "HealthcarePatientOutreachAnchor"
+      ],
+      "project": "HealthcareAccelerator.Package.PatientOutreach",
+      "isAppSource": true
+    },
+    {
+      "name": "PatientOutreachSampleData",
+      "solutions": ["HealthcarePatientOutreachSampleData"],
+      "project": "HealthcareAccelerator.Package.PatientOutreachSampleData",
+      "isAppSource": true
+    },
+    {
+      "name": "PatientServiceCenter",
+      "solutions": [
+        "HealthcarePatientServiceCenter",
+        "HealthcarePatientServiceCenterAnchor"
+      ],
+      "project": "HealthcareAccelerator.Package.PatientServiceCenter",
+      "isAppSource": true
+    },
+    {
+      "name": "TeamCollaboration",
+      "solutions": ["HealthcareTeamCollaboration"],
+      "project": "HealthcareAccelerator.Package.TeamCollaboration",
+      "isAppSource": true
+    }
+  ]
+}

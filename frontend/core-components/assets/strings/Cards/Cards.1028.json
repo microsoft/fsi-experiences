@@ -1,0 +1,9 @@
+{
+    "CARDS": "卡片 {{cardNumbers}}",
+    "NO_OWNED_CARDS": "未持有卡片",
+    "EXPIRES": "到期",
+    "EXPIRES_SOON": "即將到期",
+    "EXPIRED": "已過期",
+    "BANKING_CARD_DETAILS": "銀行卡片 {{index}} 詳細資料",
+    "CUSTOMER_INFORMATION_RESTRICTED": "此客戶資訊已隱藏"
+}

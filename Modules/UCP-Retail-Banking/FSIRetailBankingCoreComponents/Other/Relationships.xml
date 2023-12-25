@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_msfsi_categorytypesrelations" />
+  <EntityRelationship Name="business_unit_msfsi_lifemomentcategoryconfig" />
+  <EntityRelationship Name="business_unit_msfsi_lifemomentsconfigurations" />
+  <EntityRelationship Name="business_unit_msfsi_lifemomenttypeconfig" />
+  <EntityRelationship Name="lk_msfsi_categorytypesrelations_createdby" />
+  <EntityRelationship Name="lk_msfsi_categorytypesrelations_modifiedby" />
+  <EntityRelationship Name="lk_msfsi_lifemomentcategoryconfig_createdby" />
+  <EntityRelationship Name="lk_msfsi_lifemomentcategoryconfig_modifiedby" />
+  <EntityRelationship Name="lk_msfsi_lifemomentsconfigurations_createdby" />
+  <EntityRelationship Name="lk_msfsi_lifemomentsconfigurations_modifiedby" />
+  <EntityRelationship Name="lk_msfsi_lifemomenttypeconfig_createdby" />
+  <EntityRelationship Name="lk_msfsi_lifemomenttypeconfig_modifiedby" />
+  <EntityRelationship Name="msfsi_msfsi_lifemomentcategoryconfig_msfsi_categorytypesrelations_LifeMomentCategoryConfigurations" />
+  <EntityRelationship Name="msfsi_msfsi_lifemomenttypeconfig_msfsi_categorytypesrelations_LifeMomentTypeConfigurations" />
+  <EntityRelationship Name="owner_msfsi_categorytypesrelations" />
+  <EntityRelationship Name="owner_msfsi_lifemomentcategoryconfig" />
+  <EntityRelationship Name="owner_msfsi_lifemomentsconfigurations" />
+  <EntityRelationship Name="owner_msfsi_lifemomenttypeconfig" />
+  <EntityRelationship Name="team_msfsi_categorytypesrelations" />
+  <EntityRelationship Name="team_msfsi_lifemomentcategoryconfig" />
+  <EntityRelationship Name="team_msfsi_lifemomentsconfigurations" />
+  <EntityRelationship Name="team_msfsi_lifemomenttypeconfig" />
+  <EntityRelationship Name="user_msfsi_categorytypesrelations" />
+  <EntityRelationship Name="user_msfsi_lifemomentcategoryconfig" />
+  <EntityRelationship Name="user_msfsi_lifemomentsconfigurations" />
+  <EntityRelationship Name="user_msfsi_lifemomenttypeconfig" />
+  <EntityRelationship Name="msfsi_contact_fhlookupplaceholder_msfsi_financi" />
+</EntityRelationships>

@@ -1,0 +1,2752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSIUnifiedCustomerProfile_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,UnifiedCustomerProfileApplication" xml:space="preserve">
+    <value>Unified Customer Profile Application</value>
+    <comment> 'UnifiedCustomerProfileApplication' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Bank{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Bank' : Description for systemform in Entity FormXml ID: '{1edac099-bd52-4c99-9052-cdf26a50c7fa}'</comment>
+  </data>
+  <data name="1:Description,Branch{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Branch' : Description for systemform in Entity FormXml ID: '{529287a4-8f26-42d1-bc89-ed1d3249fb2e}'</comment>
+  </data>
+  <data name="1:Description,Contact{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Updated default Contact form.</value>
+    <comment>'Contact' : Description for systemform in Entity FormXml ID: '{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}'</comment>
+  </data>
+  <data name="1:Description,Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Unified Customer Profile</value>
+    <comment>'Contact' : Description for systemform in Entity FormXml ID: '{55ae608e-3f74-eb11-a812-000d3a37d57b}'</comment>
+  </data>
+  <data name="1:Description,Customer financial holding{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Customer financial holding' : Description for systemform in Entity FormXml ID: '{20564e53-7f9e-4015-bf98-554d7dee3bf7}'</comment>
+  </data>
+  <data name="1:Description,FH Account{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'FH Account' : Description for systemform in Entity FormXml ID: '{31f01299-38ff-eb11-94ef-0022480a761c}'</comment>
+  </data>
+  <data name="1:Description,FH Investment{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>A form for this entity</value>
+    <comment>'FH Investment' : Description for systemform in Entity FormXml ID: '{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}'</comment>
+  </data>
+  <data name="1:Description,FH Loan{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>A form for this entity</value>
+    <comment>'FH Loan' : Description for systemform in Entity FormXml ID: '{d9027c35-13e4-416f-b8d7-dd2b9825359d}'</comment>
+  </data>
+  <data name="1:Description,FH Saving{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>A form for this entity</value>
+    <comment>'FH Saving' : Description for systemform in Entity FormXml ID: '{bca71c6b-9775-4762-b385-05a95f0c3a8b}'</comment>
+  </data>
+  <data name="1:Description,FI Card{4ee9fc8f-50ff-eb11-94ef-002248047c4c}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'FI Card' : Description for systemform in Entity FormXml ID: '{4ee9fc8f-50ff-eb11-94ef-002248047c4c}'</comment>
+  </data>
+  <data name="1:Description,FI Direct debit{226fb4b7-7ad9-43b8-90fa-26adb379c917}" xml:space="preserve">
+    <value>This is a quick view form</value>
+    <comment>'FI Direct debit' : Description for systemform in Entity FormXml ID: '{226fb4b7-7ad9-43b8-90fa-26adb379c917}'</comment>
+  </data>
+  <data name="1:Description,FI Direct debit{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'FI Direct debit' : Description for systemform in Entity FormXml ID: '{344ce063-cf94-4ef1-8032-c4a08265ad32}'</comment>
+  </data>
+  <data name="1:Description,FI Overdraft{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>A form for this entity</value>
+    <comment>'FI Overdraft' : Description for systemform in Entity FormXml ID: '{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}'</comment>
+  </data>
+  <data name="1:Description,FI Standing order{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>A form for this entity</value>
+    <comment>'FI Standing order' : Description for systemform in Entity FormXml ID: '{f8a9e297-7c1f-432a-9758-06a48bef5628}'</comment>
+  </data>
+  <data name="1:Description,Financial holding instrument{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Financial holding instrument' : Description for systemform in Entity FormXml ID: '{de27d2e0-c11b-484b-88d8-436aae07401a}'</comment>
+  </data>
+  <data name="1:Description,Financial holding{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Financial holding' : Description for systemform in Entity FormXml ID: '{8f703a00-e8df-455c-a83d-965ac864374c}'</comment>
+  </data>
+  <data name="1:Description,Group member{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Group member' : Description for systemform in Entity FormXml ID: '{06d76f67-4e8c-49fc-a76c-8e98bb87d381}'</comment>
+  </data>
+  <data name="1:Description,Group{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Group' : Description for systemform in Entity FormXml ID: '{8cf222d5-949e-461e-a6d8-66174e60662e}'</comment>
+  </data>
+  <data name="1:Description,Life Event{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Life Event' : Description for systemform in Entity FormXml ID: '{28d73704-4f4f-42e5-865a-9289c4de4285}'</comment>
+  </data>
+  <data name="1:label,Bank{1d9202dc-26bb-3e26-3d6e-e4394cd4a285}" xml:space="preserve">
+    <value>Bank code</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{1d9202dc-26bb-3e26-3d6e-e4394cd4a285}'</comment>
+  </data>
+  <data name="1:label,Bank{3b2167e3-e7e5-b9b8-de27-a6415d8190ad}" xml:space="preserve">
+    <value>Address line 1</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{3b2167e3-e7e5-b9b8-de27-a6415d8190ad}'</comment>
+  </data>
+  <data name="1:label,Bank{3d57e82c-57dc-267c-de90-dad0e28e0899}" xml:space="preserve">
+    <value>Address line 3</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{3d57e82c-57dc-267c-de90-dad0e28e0899}'</comment>
+  </data>
+  <data name="1:label,Bank{470a655a-395c-9a70-9a3c-39e9a5051ba5}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{470a655a-395c-9a70-9a3c-39e9a5051ba5}'</comment>
+  </data>
+  <data name="1:label,Bank{853254a1-c640-cedb-93a4-b6077426ca77}" xml:space="preserve">
+    <value>Telephone no.</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{853254a1-c640-cedb-93a4-b6077426ca77}'</comment>
+  </data>
+  <data name="1:label,Bank{9182eb0c-de88-a200-e19a-7eb8011b6607}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{9182eb0c-de88-a200-e19a-7eb8011b6607}'</comment>
+  </data>
+  <data name="1:label,Bank{9bda9a60-3ec8-307c-3673-3db88c60e743}" xml:space="preserve">
+    <value>Bank name</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{9bda9a60-3ec8-307c-3673-3db88c60e743}'</comment>
+  </data>
+  <data name="1:label,Bank{d38845db-b65a-2368-47e3-d2d7ce0eb5d3}" xml:space="preserve">
+    <value>Address line 2</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{d38845db-b65a-2368-47e3-d2d7ce0eb5d3}'</comment>
+  </data>
+  <data name="1:label,Bank{da896b50-6a35-7873-b611-86408b30b3b2}" xml:space="preserve">
+    <value>ZIP/Postal code</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{da896b50-6a35-7873-b611-86408b30b3b2}'</comment>
+  </data>
+  <data name="1:label,Bank{e8b86145-ec43-235d-816b-d8e8305a1e6a}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Bank' : label for cell in Entity FormXml ID: '{e8b86145-ec43-235d-816b-d8e8305a1e6a}'</comment>
+  </data>
+  <data name="1:label,Branch{0b7037a8-c349-662e-c5b2-27a741ac4981}" xml:space="preserve">
+    <value>Bank</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{0b7037a8-c349-662e-c5b2-27a741ac4981}'</comment>
+  </data>
+  <data name="1:label,Branch{0cca0226-3ccb-3ccb-303c-0474a347a7a5}" xml:space="preserve">
+    <value>ZIP/Postal code</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{0cca0226-3ccb-3ccb-303c-0474a347a7a5}'</comment>
+  </data>
+  <data name="1:label,Branch{16175463-80d6-e53c-e7dd-c887aa60e4d6}" xml:space="preserve">
+    <value>Address line 3</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{16175463-80d6-e53c-e7dd-c887aa60e4d6}'</comment>
+  </data>
+  <data name="1:label,Branch{1e754e45-c1a3-967a-c055-dcd133d6c467}" xml:space="preserve">
+    <value>Telephone no.</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{1e754e45-c1a3-967a-c055-dcd133d6c467}'</comment>
+  </data>
+  <data name="1:label,Branch{2dc96c5c-eab6-17a4-aea1-89558a312e69}" xml:space="preserve">
+    <value>Branch code</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{2dc96c5c-eab6-17a4-aea1-89558a312e69}'</comment>
+  </data>
+  <data name="1:label,Branch{372d809e-4aa0-46cb-3db3-4222d730cde0}" xml:space="preserve">
+    <value>Branch manager</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{372d809e-4aa0-46cb-3db3-4222d730cde0}'</comment>
+  </data>
+  <data name="1:label,Branch{49eb8cda-3263-b16b-ccb5-4bd06b942e7e}" xml:space="preserve">
+    <value>Branch manager</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{49eb8cda-3263-b16b-ccb5-4bd06b942e7e}'</comment>
+  </data>
+  <data name="1:label,Branch{4e8d1dd3-7c2d-8cb7-b237-c8cc29a6a3be}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{4e8d1dd3-7c2d-8cb7-b237-c8cc29a6a3be}'</comment>
+  </data>
+  <data name="1:label,Branch{69e3516b-1a48-8d62-81e8-52ed116c2bc1}" xml:space="preserve">
+    <value>Telephone no.</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{69e3516b-1a48-8d62-81e8-52ed116c2bc1}'</comment>
+  </data>
+  <data name="1:label,Branch{6a09a333-c734-07b4-9980-5963546753a1}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{6a09a333-c734-07b4-9980-5963546753a1}'</comment>
+  </data>
+  <data name="1:label,Branch{6c77c88b-730b-4c19-6340-7a1de5d55d00}" xml:space="preserve">
+    <value>Address line 2</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{6c77c88b-730b-4c19-6340-7a1de5d55d00}'</comment>
+  </data>
+  <data name="1:label,Branch{84084c31-c26a-93e6-eacb-1ee531a7484e}" xml:space="preserve">
+    <value>Branch name</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{84084c31-c26a-93e6-eacb-1ee531a7484e}'</comment>
+  </data>
+  <data name="1:label,Branch{8904aaeb-36c2-db83-84c5-3a447d099960}" xml:space="preserve">
+    <value>Bank</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{8904aaeb-36c2-db83-84c5-3a447d099960}'</comment>
+  </data>
+  <data name="1:label,Branch{9a1e4b17-5707-98ca-749c-902c9b5b5491}" xml:space="preserve">
+    <value>Address line 1</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{9a1e4b17-5707-98ca-749c-902c9b5b5491}'</comment>
+  </data>
+  <data name="1:label,Branch{9dc34dcb-eaa4-00c5-6656-3517c5b369c3}" xml:space="preserve">
+    <value>Address line 3</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{9dc34dcb-eaa4-00c5-6656-3517c5b369c3}'</comment>
+  </data>
+  <data name="1:label,Branch{a4503135-ac26-dd79-79c1-e352c9d30344}" xml:space="preserve">
+    <value>Address line 2</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{a4503135-ac26-dd79-79c1-e352c9d30344}'</comment>
+  </data>
+  <data name="1:label,Branch{ba1192c0-e756-8c17-e1a6-1c0ca8356dca}" xml:space="preserve">
+    <value>Branch code</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{ba1192c0-e756-8c17-e1a6-1c0ca8356dca}'</comment>
+  </data>
+  <data name="1:label,Branch{bce3e60e-adb0-2323-2272-71d79a147a5d}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{bce3e60e-adb0-2323-2272-71d79a147a5d}'</comment>
+  </data>
+  <data name="1:label,Branch{bd37d2a6-122c-7edc-d719-658b2144d79e}" xml:space="preserve">
+    <value>ZIP/Postal code</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{bd37d2a6-122c-7edc-d719-658b2144d79e}'</comment>
+  </data>
+  <data name="1:label,Branch{d43a1e17-b63b-28d1-ac6b-b7d725ee4bcc}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{d43a1e17-b63b-28d1-ac6b-b7d725ee4bcc}'</comment>
+  </data>
+  <data name="1:label,Branch{e17990a0-696d-2da0-e5de-b6b2295517dc}" xml:space="preserve">
+    <value>Branch name</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{e17990a0-696d-2da0-e5de-b6b2295517dc}'</comment>
+  </data>
+  <data name="1:label,Branch{e48a3959-9e19-0003-8c77-60335e86b077}" xml:space="preserve">
+    <value>Address line 1</value>
+    <comment>'Branch' : label for cell in Entity FormXml ID: '{e48a3959-9e19-0003-8c77-60335e86b077}'</comment>
+  </data>
+  <data name="1:label,Contact2f98aaf7-80ce-46a5-8e22-8760ac1a0b8f" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '2f98aaf7-80ce-46a5-8e22-8760ac1a0b8f'</comment>
+  </data>
+  <data name="1:label,Contact{07326cde-7529-ddc0-e421-c0bcddd07b8a}" xml:space="preserve">
+    <value>Job title</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{07326cde-7529-ddc0-e421-c0bcddd07b8a}'</comment>
+  </data>
+  <data name="1:label,Contact{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" xml:space="preserve">
+    <value>Summary</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}'</comment>
+  </data>
+  <data name="1:label,Contact{1b54cdb3-1582-c29e-cc9e-9d4bc2a5700b}" xml:space="preserve">
+    <value>Fax</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{1b54cdb3-1582-c29e-cc9e-9d4bc2a5700b}'</comment>
+  </data>
+  <data name="1:label,Contact{215da2d0-2b64-3481-8d2d-16107d4d7e5b}" xml:space="preserve">
+    <value>Business phone</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{215da2d0-2b64-3481-8d2d-16107d4d7e5b}'</comment>
+  </data>
+  <data name="1:label,Contact{24be01cc-16a6-8eea-8916-42d20a1097ae}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{24be01cc-16a6-8eea-8916-42d20a1097ae}'</comment>
+  </data>
+  <data name="1:label,Contact{28c6639e-69b8-d751-e7d3-3a54e700d56d}" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{28c6639e-69b8-d751-e7d3-3a54e700d56d}'</comment>
+  </data>
+  <data name="1:label,Contact{290b48ba-c0cc-7746-6dda-93e240e4cc78}" xml:space="preserve">
+    <value>Mobile phone</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{290b48ba-c0cc-7746-6dda-93e240e4cc78}'</comment>
+  </data>
+  <data name="1:label,Contact{2d8cee50-7123-01e7-c2cc-0068c0ecc4c0}" xml:space="preserve">
+    <value>Marital status</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{2d8cee50-7123-01e7-c2cc-0068c0ecc4c0}'</comment>
+  </data>
+  <data name="1:label,Contact{398ca68b-c375-1750-16ee-78eccca0103b}" xml:space="preserve">
+    <value>Connections</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '{398ca68b-c375-1750-16ee-78eccca0103b}'</comment>
+  </data>
+  <data name="1:label,Contact{408dda0b-48a7-c05c-e29a-56a93eb97172}" xml:space="preserve">
+    <value>Preferred method of contact</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{408dda0b-48a7-c05c-e29a-56a93eb97172}'</comment>
+  </data>
+  <data name="1:label,Contact{4478c342-e0c8-658d-1aad-17871d946253}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '{4478c342-e0c8-658d-1aad-17871d946253}'</comment>
+  </data>
+  <data name="1:label,Contact{450c5a59-c7de-1289-0934-9a04bc4e1c72}" xml:space="preserve">
+    <value>Spouse/Partner name</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{450c5a59-c7de-1289-0934-9a04bc4e1c72}'</comment>
+  </data>
+  <data name="1:label,Contact{4e7b2783-1a45-4a13-bfd6-e12915e74161}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{4e7b2783-1a45-4a13-bfd6-e12915e74161}'</comment>
+  </data>
+  <data name="1:label,Contact{542e581d-cca1-5e40-e6d9-d67a9d1468b4}" xml:space="preserve">
+    <value>Full name</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{542e581d-cca1-5e40-e6d9-d67a9d1468b4}'</comment>
+  </data>
+  <data name="1:label,Contact{59c59e19-1257-494f-90f0-4f98dcb0a2a3}" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{59c59e19-1257-494f-90f0-4f98dcb0a2a3}'</comment>
+  </data>
+  <data name="1:label,Contact{616e0da6-5645-4254-ab67-2fb05d7af9bc}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{616e0da6-5645-4254-ab67-2fb05d7af9bc}'</comment>
+  </data>
+  <data name="1:label,Contact{64e56163-0a77-46c9-9872-50b94d661d96}" xml:space="preserve">
+    <value>Credit hold</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{64e56163-0a77-46c9-9872-50b94d661d96}'</comment>
+  </data>
+  <data name="1:label,Contact{6b03860a-a677-48f1-bfdc-a04faf8b151c}" xml:space="preserve">
+    <value>Credit limit</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{6b03860a-a677-48f1-bfdc-a04faf8b151c}'</comment>
+  </data>
+  <data name="1:label,Contact{7d538a97-98eb-b438-72de-57a808b9a308}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{7d538a97-98eb-b438-72de-57a808b9a308}'</comment>
+  </data>
+  <data name="1:label,Contact{8d9ba7ec-849e-339c-382b-261867a67773}" xml:space="preserve">
+    <value>Placeholder</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{8d9ba7ec-849e-339c-382b-261867a67773}'</comment>
+  </data>
+  <data name="1:label,Contact{9980090e-c75b-4bc9-834f-63ba6e3a93f2}" xml:space="preserve">
+    <value>Payment terms</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{9980090e-c75b-4bc9-834f-63ba6e3a93f2}'</comment>
+  </data>
+  <data name="1:label,Contact{ad1c111c-b322-4fd9-8ff9-d88b8e9e0704}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{ad1c111c-b322-4fd9-8ff9-d88b8e9e0704}'</comment>
+  </data>
+  <data name="1:label,Contact{b0b7419b-6405-56eb-46ad-c6b0ec949aaa}" xml:space="preserve">
+    <value>Financial holdings</value>
+    <comment>'Contact' : label for tab in Entity FormXml ID: '{b0b7419b-6405-56eb-46ad-c6b0ec949aaa}'</comment>
+  </data>
+  <data name="1:label,Contact{ba714204-2499-db47-78e0-d8795307301d}" xml:space="preserve">
+    <value>Anniversary</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{ba714204-2499-db47-78e0-d8795307301d}'</comment>
+  </data>
+  <data name="1:label,Contact{bac50a31-27a0-c7e2-3ab3-5d6aa8895c6e}" xml:space="preserve">
+    <value>Birthday</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{bac50a31-27a0-c7e2-3ab3-5d6aa8895c6e}'</comment>
+  </data>
+  <data name="1:label,Contact{cb391eb8-02ec-0ee6-9d92-6996d4311809}" xml:space="preserve">
+    <value>Gender</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{cb391eb8-02ec-0ee6-9d92-6996d4311809}'</comment>
+  </data>
+  <data name="1:label,Contact{d0c6aad7-7064-924e-b0e0-718dc557ccee}" xml:space="preserve">
+    <value>Description</value>
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{d0c6aad7-7064-924e-b0e0-718dc557ccee}'</comment>
+  </data>
+  <data name="1:label,Contact{e102b193-ce33-5d0d-d684-2a2eab4b2c17}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Contact' : label for section in Entity FormXml ID: '{e102b193-ce33-5d0d-d684-2a2eab4b2c17}'</comment>
+  </data>
+  <data name="1:label,Contact{f496418d-d479-4bdf-a32a-060df282cb5e}" xml:space="preserve">
+    <value />
+    <comment>'Contact' : label for cell in Entity FormXml ID: '{f496418d-d479-4bdf-a32a-060df282cb5e}'</comment>
+  </data>
+  <data name="1:label,Customer financial holding{6600a0c5-e8c7-69a9-176e-89841284accc}" xml:space="preserve">
+    <value>Financial holding ID</value>
+    <comment>'Customer financial holding' : label for cell in Entity FormXml ID: '{6600a0c5-e8c7-69a9-176e-89841284accc}'</comment>
+  </data>
+  <data name="1:label,Customer financial holding{beecc130-d588-ec7d-200b-bec5161a7c44}" xml:space="preserve">
+    <value>Customer id</value>
+    <comment>'Customer financial holding' : label for cell in Entity FormXml ID: '{beecc130-d588-ec7d-200b-bec5161a7c44}'</comment>
+  </data>
+  <data name="1:label,Customer financial holding{e09976e4-912a-cbb1-1ac1-eeeb231bc83d}" xml:space="preserve">
+    <value>Financial holding role</value>
+    <comment>'Customer financial holding' : label for cell in Entity FormXml ID: '{e09976e4-912a-cbb1-1ac1-eeeb231bc83d}'</comment>
+  </data>
+  <data name="1:label,FH AccountACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>Main</value>
+    <comment>'FH Account' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,FH AccountAD49B5BF-256F-46A8-9C75-947146172EB9" xml:space="preserve">
+    <value>Financial holding account</value>
+    <comment>'FH Account' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
+  </data>
+  <data name="1:label,FH Account{004cacf3-02ec-41e7-b321-2e40178e88bf}" xml:space="preserve">
+    <value>Delinquency status</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{004cacf3-02ec-41e7-b321-2e40178e88bf}'</comment>
+  </data>
+  <data name="1:label,FH Account{0a075a89-9c52-48ed-beaa-5a4229ff2d79}" xml:space="preserve">
+    <value>Number of transactions</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{0a075a89-9c52-48ed-beaa-5a4229ff2d79}'</comment>
+  </data>
+  <data name="1:label,FH Account{0b34be47-3e78-40ef-a3f0-ca3dc19c2757}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{0b34be47-3e78-40ef-a3f0-ca3dc19c2757}'</comment>
+  </data>
+  <data name="1:label,FH Account{11050c6f-23ca-49db-8420-f86499f54e16}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{11050c6f-23ca-49db-8420-f86499f54e16}'</comment>
+  </data>
+  <data name="1:label,FH Account{1e7cf758-13a3-4f5c-b559-04b9b9a96cf5}" xml:space="preserve">
+    <value />
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{1e7cf758-13a3-4f5c-b559-04b9b9a96cf5}'</comment>
+  </data>
+  <data name="1:label,FH Account{20b8bec6-1ea1-4490-9f0d-95d4d13de691}" xml:space="preserve">
+    <value>Date of last transaction</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{20b8bec6-1ea1-4490-9f0d-95d4d13de691}'</comment>
+  </data>
+  <data name="1:label,FH Account{2b591e6d-30ae-4831-9c7f-f44b0af68b34}" xml:space="preserve">
+    <value>Number of transactions</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{2b591e6d-30ae-4831-9c7f-f44b0af68b34}'</comment>
+  </data>
+  <data name="1:label,FH Account{33ba1530-5647-4a35-a0c2-ccb533f0a16e}" xml:space="preserve">
+    <value>Exchange rate</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{33ba1530-5647-4a35-a0c2-ccb533f0a16e}'</comment>
+  </data>
+  <data name="1:label,FH Account{37dc0d6c-4643-4137-88dd-c29ea18b25a6}" xml:space="preserve">
+    <value>Blocked amount</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{37dc0d6c-4643-4137-88dd-c29ea18b25a6}'</comment>
+  </data>
+  <data name="1:label,FH Account{3a8fc06d-a78b-49c4-ab4a-feb9b6361c59}" xml:space="preserve">
+    <value>Uncleared balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{3a8fc06d-a78b-49c4-ab4a-feb9b6361c59}'</comment>
+  </data>
+  <data name="1:label,FH Account{3cca9654-16b2-42f9-9073-12d1f38b7dfc}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{3cca9654-16b2-42f9-9073-12d1f38b7dfc}'</comment>
+  </data>
+  <data name="1:label,FH Account{4b820f8a-4bab-4355-ae97-315a44b91339}" xml:space="preserve">
+    <value />
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{4b820f8a-4bab-4355-ae97-315a44b91339}'</comment>
+  </data>
+  <data name="1:label,FH Account{4bdd4343-2f5c-41e9-ae67-cf959e20da6e}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{4bdd4343-2f5c-41e9-ae67-cf959e20da6e}'</comment>
+  </data>
+  <data name="1:label,FH Account{52fec4be-470b-4b1d-8472-1e4dbaabd94a}" xml:space="preserve">
+    <value>Average balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{52fec4be-470b-4b1d-8472-1e4dbaabd94a}'</comment>
+  </data>
+  <data name="1:label,FH Account{5316dbcc-34bc-45b4-843c-63093874b72f}" xml:space="preserve">
+    <value />
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{5316dbcc-34bc-45b4-843c-63093874b72f}'</comment>
+  </data>
+  <data name="1:label,FH Account{5420cc1f-e105-4339-8094-224d790ddfa2}" xml:space="preserve">
+    <value>Blocked amount</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{5420cc1f-e105-4339-8094-224d790ddfa2}'</comment>
+  </data>
+  <data name="1:label,FH Account{56d1dfc4-3dd7-4d6f-8a1f-0cdea9316d3f}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{56d1dfc4-3dd7-4d6f-8a1f-0cdea9316d3f}'</comment>
+  </data>
+  <data name="1:label,FH Account{58c12bb2-a0c6-445b-9df7-a042be14f640}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{58c12bb2-a0c6-445b-9df7-a042be14f640}'</comment>
+  </data>
+  <data name="1:label,FH Account{5ac1d2ef-f1a6-43be-9ab5-e72448fb66db}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{5ac1d2ef-f1a6-43be-9ab5-e72448fb66db}'</comment>
+  </data>
+  <data name="1:label,FH Account{60449e3c-f3cd-44c1-8293-9ee549169856}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{60449e3c-f3cd-44c1-8293-9ee549169856}'</comment>
+  </data>
+  <data name="1:label,FH Account{66b5e481-5008-4a24-94aa-5744d2acfa29}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{66b5e481-5008-4a24-94aa-5744d2acfa29}'</comment>
+  </data>
+  <data name="1:label,FH Account{74f854eb-8a7a-4f60-bb18-e3100c648045}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{74f854eb-8a7a-4f60-bb18-e3100c648045}'</comment>
+  </data>
+  <data name="1:label,FH Account{7ca3d14b-0498-44cd-af13-7bc366fa33eb}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{7ca3d14b-0498-44cd-af13-7bc366fa33eb}'</comment>
+  </data>
+  <data name="1:label,FH Account{7fb52c3b-46ea-4b8e-81d8-f09237d5ef28}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{7fb52c3b-46ea-4b8e-81d8-f09237d5ef28}'</comment>
+  </data>
+  <data name="1:label,FH Account{8193f657-000b-429b-9086-4d136b03620c}" xml:space="preserve">
+    <value>Delinquency status</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{8193f657-000b-429b-9086-4d136b03620c}'</comment>
+  </data>
+  <data name="1:label,FH Account{86a7b8c4-1db9-46de-8acb-6da454a89441}" xml:space="preserve">
+    <value />
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{86a7b8c4-1db9-46de-8acb-6da454a89441}'</comment>
+  </data>
+  <data name="1:label,FH Account{880eb506-5ed7-46c7-89e1-e30dcc1e5382}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{880eb506-5ed7-46c7-89e1-e30dcc1e5382}'</comment>
+  </data>
+  <data name="1:label,FH Account{8c023226-740a-48ea-ae95-1d0e6555c51f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Account' : label for tab in Entity FormXml ID: '{8c023226-740a-48ea-ae95-1d0e6555c51f}'</comment>
+  </data>
+  <data name="1:label,FH Account{8cfa19e6-1250-47fc-adb9-4bc837b9fd7a}" xml:space="preserve">
+    <value>Interest type</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{8cfa19e6-1250-47fc-adb9-4bc837b9fd7a}'</comment>
+  </data>
+  <data name="1:label,FH Account{90510781-c7cd-4e39-818a-863fcb258341}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{90510781-c7cd-4e39-818a-863fcb258341}'</comment>
+  </data>
+  <data name="1:label,FH Account{98691b2a-221d-48ad-a430-9500db0b3b4d}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{98691b2a-221d-48ad-a430-9500db0b3b4d}'</comment>
+  </data>
+  <data name="1:label,FH Account{9dbe04ef-bd8f-4c4c-a9d7-d25fb787bfef}" xml:space="preserve">
+    <value />
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{9dbe04ef-bd8f-4c4c-a9d7-d25fb787bfef}'</comment>
+  </data>
+  <data name="1:label,FH Account{a9e2f746-f891-4352-b172-013ac100d49e}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Account' : label for section in Entity FormXml ID: '{a9e2f746-f891-4352-b172-013ac100d49e}'</comment>
+  </data>
+  <data name="1:label,FH Account{abee4f11-c1ec-44ad-ba61-1a723c718d77}" xml:space="preserve">
+    <value>Interest type</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{abee4f11-c1ec-44ad-ba61-1a723c718d77}'</comment>
+  </data>
+  <data name="1:label,FH Account{b02b502f-15eb-4fdf-8d52-44dbe6bf1db5}" xml:space="preserve">
+    <value />
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{b02b502f-15eb-4fdf-8d52-44dbe6bf1db5}'</comment>
+  </data>
+  <data name="1:label,FH Account{b0eba439-5f40-4ab6-9614-4037ef8cb9aa}" xml:space="preserve">
+    <value>Available balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{b0eba439-5f40-4ab6-9614-4037ef8cb9aa}'</comment>
+  </data>
+  <data name="1:label,FH Account{b13f40dd-7004-4a0c-a207-71591c485180}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{b13f40dd-7004-4a0c-a207-71591c485180}'</comment>
+  </data>
+  <data name="1:label,FH Account{b8456c63-c250-4dc6-b9e5-66574c9e735e}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{b8456c63-c250-4dc6-b9e5-66574c9e735e}'</comment>
+  </data>
+  <data name="1:label,FH Account{bda1c271-4483-4e1e-920e-42d6e2fbf229}" xml:space="preserve">
+    <value>Average balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{bda1c271-4483-4e1e-920e-42d6e2fbf229}'</comment>
+  </data>
+  <data name="1:label,FH Account{d6a8e04c-2b1b-42b2-bd3e-0ef3ba793a96}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{d6a8e04c-2b1b-42b2-bd3e-0ef3ba793a96}'</comment>
+  </data>
+  <data name="1:label,FH Account{d7aac5b0-0722-1828-6046-a1c469a9778b}" xml:space="preserve">
+    <value>Uncleared balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{d7aac5b0-0722-1828-6046-a1c469a9778b}'</comment>
+  </data>
+  <data name="1:label,FH Account{d8d10775-b4f3-4629-bbf7-f0d17ecc559b}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{d8d10775-b4f3-4629-bbf7-f0d17ecc559b}'</comment>
+  </data>
+  <data name="1:label,FH Account{dbc19b0a-0ffc-4ce6-8802-486f78019b16}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{dbc19b0a-0ffc-4ce6-8802-486f78019b16}'</comment>
+  </data>
+  <data name="1:label,FH Account{e3f1ebd5-3407-4e87-aa62-8f0fcd1e39fa}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{e3f1ebd5-3407-4e87-aa62-8f0fcd1e39fa}'</comment>
+  </data>
+  <data name="1:label,FH Account{f63c8a67-1c26-4ae0-ba64-cce697d618ce}" xml:space="preserve">
+    <value>Date of last transaction</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{f63c8a67-1c26-4ae0-ba64-cce697d618ce}'</comment>
+  </data>
+  <data name="1:label,FH Account{fca840d2-86fb-4f1a-b2d5-f864f2c8ea5c}" xml:space="preserve">
+    <value>Available balance</value>
+    <comment>'FH Account' : label for cell in Entity FormXml ID: '{fca840d2-86fb-4f1a-b2d5-f864f2c8ea5c}'</comment>
+  </data>
+  <data name="1:label,FH Investment{0b59a5e5-9414-162c-87b6-8be933dbd47c}" xml:space="preserve">
+    <value>Performance 3y</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{0b59a5e5-9414-162c-87b6-8be933dbd47c}'</comment>
+  </data>
+  <data name="1:label,FH Investment{13899de7-f96b-42e7-8cf1-e15afff3716e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{13899de7-f96b-42e7-8cf1-e15afff3716e}'</comment>
+  </data>
+  <data name="1:label,FH Investment{16c1cdec-42a6-4dbe-8775-61f573ee8570}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FH Investment' : label for tab in Entity FormXml ID: '{16c1cdec-42a6-4dbe-8775-61f573ee8570}'</comment>
+  </data>
+  <data name="1:label,FH Investment{175395a6-51b6-4eb6-8dc7-4bc2d9638783}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{175395a6-51b6-4eb6-8dc7-4bc2d9638783}'</comment>
+  </data>
+  <data name="1:label,FH Investment{19a322a3-2ed0-29e4-3049-3db657daa5d3}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{19a322a3-2ed0-29e4-3049-3db657daa5d3}'</comment>
+  </data>
+  <data name="1:label,FH Investment{1b8000b9-4793-5088-8c44-9d637d43ca65}" xml:space="preserve">
+    <value>Investment risk</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{1b8000b9-4793-5088-8c44-9d637d43ca65}'</comment>
+  </data>
+  <data name="1:label,FH Investment{1c5da70d-303d-ca6b-2606-352b31ba3b4e}" xml:space="preserve">
+    <value>Valid from</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{1c5da70d-303d-ca6b-2606-352b31ba3b4e}'</comment>
+  </data>
+  <data name="1:label,FH Investment{1d595cd7-929b-198c-718d-b4e0aa732258}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{1d595cd7-929b-198c-718d-b4e0aa732258}'</comment>
+  </data>
+  <data name="1:label,FH Investment{202cb9ba-0603-4ca9-0683-209138518330}" xml:space="preserve">
+    <value>Cash balance</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{202cb9ba-0603-4ca9-0683-209138518330}'</comment>
+  </data>
+  <data name="1:label,FH Investment{22be90a8-1482-474f-8e1f-03b5db76e62c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Investment' : label for tab in Entity FormXml ID: '{22be90a8-1482-474f-8e1f-03b5db76e62c}'</comment>
+  </data>
+  <data name="1:label,FH Investment{24783ba5-c3c2-5586-c589-18c4d49a9286}" xml:space="preserve">
+    <value>Investment time frame</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{24783ba5-c3c2-5586-c589-18c4d49a9286}'</comment>
+  </data>
+  <data name="1:label,FH Investment{25112ccd-d7c1-963d-4a71-241925642422}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{25112ccd-d7c1-963d-4a71-241925642422}'</comment>
+  </data>
+  <data name="1:label,FH Investment{267b446a-085d-294b-aae6-97523c1311b2}" xml:space="preserve">
+    <value>Performance 1y</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{267b446a-085d-294b-aae6-97523c1311b2}'</comment>
+  </data>
+  <data name="1:label,FH Investment{2e0a3da9-1859-5bb1-501c-77e83d1d3430}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{2e0a3da9-1859-5bb1-501c-77e83d1d3430}'</comment>
+  </data>
+  <data name="1:label,FH Investment{310e8a29-4e1e-108c-889d-aca0d380601d}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{310e8a29-4e1e-108c-889d-aca0d380601d}'</comment>
+  </data>
+  <data name="1:label,FH Investment{331e4298-a778-aa26-7703-cdd85c5a0775}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{331e4298-a778-aa26-7703-cdd85c5a0775}'</comment>
+  </data>
+  <data name="1:label,FH Investment{3a79b476-360c-c86e-95e7-8ec1746aac76}" xml:space="preserve">
+    <value>Performance 1y</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{3a79b476-360c-c86e-95e7-8ec1746aac76}'</comment>
+  </data>
+  <data name="1:label,FH Investment{46bd2bd1-55d0-9d83-e514-ad1d85585d00}" xml:space="preserve">
+    <value>Gain/Loss</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{46bd2bd1-55d0-9d83-e514-ad1d85585d00}'</comment>
+  </data>
+  <data name="1:label,FH Investment{4752d48c-479d-dde9-cc82-e58de479c0d8}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{4752d48c-479d-dde9-cc82-e58de479c0d8}'</comment>
+  </data>
+  <data name="1:label,FH Investment{52008216-a074-3863-2d9b-9247ec6b2db6}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{52008216-a074-3863-2d9b-9247ec6b2db6}'</comment>
+  </data>
+  <data name="1:label,FH Investment{5836e51c-26e0-4ccb-8eb0-4ee501237396}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Investment' : label for section in Entity FormXml ID: '{5836e51c-26e0-4ccb-8eb0-4ee501237396}'</comment>
+  </data>
+  <data name="1:label,FH Investment{5c8a907c-d49b-5539-a8a9-483d37c1a0a4}" xml:space="preserve">
+    <value>Portfolio name</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{5c8a907c-d49b-5539-a8a9-483d37c1a0a4}'</comment>
+  </data>
+  <data name="1:label,FH Investment{5ddb0b3a-55c0-e7d4-7b86-d813cb4c994b}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{5ddb0b3a-55c0-e7d4-7b86-d813cb4c994b}'</comment>
+  </data>
+  <data name="1:label,FH Investment{60262829-1b33-78d3-8699-d4a6d6c30bbd}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{60262829-1b33-78d3-8699-d4a6d6c30bbd}'</comment>
+  </data>
+  <data name="1:label,FH Investment{679c6588-bb32-c802-6507-477c247eaaed}" xml:space="preserve">
+    <value>Portfolio name</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{679c6588-bb32-c802-6507-477c247eaaed}'</comment>
+  </data>
+  <data name="1:label,FH Investment{6ddee837-abda-1075-337c-d6a8c77b2dd2}" xml:space="preserve">
+    <value>Investment objectives</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{6ddee837-abda-1075-337c-d6a8c77b2dd2}'</comment>
+  </data>
+  <data name="1:label,FH Investment{729e75ec-812e-03d6-b875-2e85112ab2d8}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{729e75ec-812e-03d6-b875-2e85112ab2d8}'</comment>
+  </data>
+  <data name="1:label,FH Investment{78d25d72-244e-745a-6996-74c614095dea}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{78d25d72-244e-745a-6996-74c614095dea}'</comment>
+  </data>
+  <data name="1:label,FH Investment{7b3e3b99-11b7-417a-61ba-e3d8b89ca684}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{7b3e3b99-11b7-417a-61ba-e3d8b89ca684}'</comment>
+  </data>
+  <data name="1:label,FH Investment{8573ac01-45e7-5547-c1e4-5de047675262}" xml:space="preserve">
+    <value>Investment time frame</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{8573ac01-45e7-5547-c1e4-5de047675262}'</comment>
+  </data>
+  <data name="1:label,FH Investment{86940664-7b47-d0a1-5a57-280bc4ed8b60}" xml:space="preserve">
+    <value>Investment risk</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{86940664-7b47-d0a1-5a57-280bc4ed8b60}'</comment>
+  </data>
+  <data name="1:label,FH Investment{8e8a9956-3a5b-d7a2-6c6a-2d134ae81de7}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{8e8a9956-3a5b-d7a2-6c6a-2d134ae81de7}'</comment>
+  </data>
+  <data name="1:label,FH Investment{94b36b4a-4c4a-3e45-0610-e84949340c72}" xml:space="preserve">
+    <value>Performance 3y</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{94b36b4a-4c4a-3e45-0610-e84949340c72}'</comment>
+  </data>
+  <data name="1:label,FH Investment{a69d0947-3cba-3e82-4ba9-10cd7b813b6a}" xml:space="preserve">
+    <value>Valid from</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{a69d0947-3cba-3e82-4ba9-10cd7b813b6a}'</comment>
+  </data>
+  <data name="1:label,FH Investment{abb193dd-8e44-467b-5943-213c31c14553}" xml:space="preserve">
+    <value>Investment objectives</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{abb193dd-8e44-467b-5943-213c31c14553}'</comment>
+  </data>
+  <data name="1:label,FH Investment{b0a7c764-1d42-d635-959a-7bb025047dc9}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{b0a7c764-1d42-d635-959a-7bb025047dc9}'</comment>
+  </data>
+  <data name="1:label,FH Investment{b25e73e3-b741-2cd6-6240-16013cda3eac}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{b25e73e3-b741-2cd6-6240-16013cda3eac}'</comment>
+  </data>
+  <data name="1:label,FH Investment{c0e37477-e119-c029-1180-ca47b7d4c904}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{c0e37477-e119-c029-1180-ca47b7d4c904}'</comment>
+  </data>
+  <data name="1:label,FH Investment{ddc6c30c-4a78-5c71-0b87-48b6b98de6d1}" xml:space="preserve">
+    <value>Cash balance</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{ddc6c30c-4a78-5c71-0b87-48b6b98de6d1}'</comment>
+  </data>
+  <data name="1:label,FH Investment{de06b2ac-2fe2-4984-bd35-fafc3780e107}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FH Investment' : label for section in Entity FormXml ID: '{de06b2ac-2fe2-4984-bd35-fafc3780e107}'</comment>
+  </data>
+  <data name="1:label,FH Investment{e5ad799e-4c12-23d4-09ee-29217249b1ba}" xml:space="preserve">
+    <value>Gain/Loss</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{e5ad799e-4c12-23d4-09ee-29217249b1ba}'</comment>
+  </data>
+  <data name="1:label,FH Investment{e8181654-2275-0db0-0150-27b195becc86}" xml:space="preserve">
+    <value>Performance YTD</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{e8181654-2275-0db0-0150-27b195becc86}'</comment>
+  </data>
+  <data name="1:label,FH Investment{e8c91bce-27a7-47e3-b42a-019f96c30404}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{e8c91bce-27a7-47e3-b42a-019f96c30404}'</comment>
+  </data>
+  <data name="1:label,FH Investment{ee7e9bac-05a1-eddd-8983-ce023b428eac}" xml:space="preserve">
+    <value>Performance YTD</value>
+    <comment>'FH Investment' : label for cell in Entity FormXml ID: '{ee7e9bac-05a1-eddd-8983-ce023b428eac}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{00ce7199-4d19-8e6a-63db-50d41b984952}" xml:space="preserve">
+    <value>Last statement date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{00ce7199-4d19-8e6a-63db-50d41b984952}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{01a6cfb5-35a8-4e44-9c1a-77dddda98bd3}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FH Line of credit' : label for tab in Entity FormXml ID: '{01a6cfb5-35a8-4e44-9c1a-77dddda98bd3}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{03e6a7c5-04b8-80a8-ba48-95a7584104e9}" xml:space="preserve">
+    <value>Delinquency status</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{03e6a7c5-04b8-80a8-ba48-95a7584104e9}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{0b33dcbc-79ed-d2e1-e388-c4dbad7b9b69}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{0b33dcbc-79ed-d2e1-e388-c4dbad7b9b69}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{0e5b0062-d747-e53d-a78d-4c4aa802bade}" xml:space="preserve">
+    <value>Next statement date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{0e5b0062-d747-e53d-a78d-4c4aa802bade}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{0ecb1225-4660-c808-a024-ba0856ab1bb4}" xml:space="preserve">
+    <value>Minimum payment due</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{0ecb1225-4660-c808-a024-ba0856ab1bb4}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{1cb9a84b-3eb2-9066-109e-e7726670e1d3}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{1cb9a84b-3eb2-9066-109e-e7726670e1d3}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{24b81b4a-3980-dab3-3b0a-75830cc6701a}" xml:space="preserve">
+    <value>Next payment date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{24b81b4a-3980-dab3-3b0a-75830cc6701a}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{2d764272-ed3e-d134-7916-37c0c50d806a}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{2d764272-ed3e-d134-7916-37c0c50d806a}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{31b3a3eb-5cbc-26c4-9bdc-84c4707815e6}" xml:space="preserve">
+    <value>Delinquency status</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{31b3a3eb-5cbc-26c4-9bdc-84c4707815e6}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{38919103-6b2a-67ae-ea4e-d88da20a7ea7}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{38919103-6b2a-67ae-ea4e-d88da20a7ea7}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{492ae6c2-4595-a350-cb8c-130ddcacad92}" xml:space="preserve">
+    <value>Exchange rate</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{492ae6c2-4595-a350-cb8c-130ddcacad92}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{4b0be389-9347-882a-c196-c8c023c7c63a}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{4b0be389-9347-882a-c196-c8c023c7c63a}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{5081a287-7186-aa83-a749-1d865d660201}" xml:space="preserve">
+    <value>Last statement date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{5081a287-7186-aa83-a749-1d865d660201}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{50ca80d7-5cb5-3a29-e190-58b7e50c65c2}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{50ca80d7-5cb5-3a29-e190-58b7e50c65c2}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{56134578-5cc8-dea3-7872-5c242dbd1728}" xml:space="preserve">
+    <value>Last payment due date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{56134578-5cc8-dea3-7872-5c242dbd1728}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{58e5eb9d-da1d-d553-4d06-76209516850d}" xml:space="preserve">
+    <value>Next payment date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{58e5eb9d-da1d-d553-4d06-76209516850d}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{5db6b56a-1936-9000-2687-627d668cb742}" xml:space="preserve">
+    <value>Next statement date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{5db6b56a-1936-9000-2687-627d668cb742}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{6522cab5-d8b5-4bcd-8233-6d93b5892398}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FH Line of credit' : label for section in Entity FormXml ID: '{6522cab5-d8b5-4bcd-8233-6d93b5892398}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{6a0ca28a-bee6-777c-2091-905e876a4286}" xml:space="preserve">
+    <value>Last statement balance</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{6a0ca28a-bee6-777c-2091-905e876a4286}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{6cced65b-b52a-e0e5-d131-61b429e3b3c9}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{6cced65b-b52a-e0e5-d131-61b429e3b3c9}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{7c005acb-1303-4eb2-a496-2c28dce31b15}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{7c005acb-1303-4eb2-a496-2c28dce31b15}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{82d25d15-c009-6ae6-d143-ba952dea4252}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{82d25d15-c009-6ae6-d143-ba952dea4252}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{876cc1c9-d4bc-05ed-2763-ec2b467243c6}" xml:space="preserve">
+    <value>Minimum payment due</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{876cc1c9-d4bc-05ed-2763-ec2b467243c6}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{8c4bb2b4-8379-d762-e057-1d508572aa04}" xml:space="preserve">
+    <value>Exchange rate</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{8c4bb2b4-8379-d762-e057-1d508572aa04}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{8e725e18-0580-b781-abe6-0e9838663b94}" xml:space="preserve">
+    <value>Last payment due date</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{8e725e18-0580-b781-abe6-0e9838663b94}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{9710928d-db16-4a83-b6ad-02c0fc821c4b}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Line of credit' : label for section in Entity FormXml ID: '{9710928d-db16-4a83-b6ad-02c0fc821c4b}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{97b87d9d-643b-4715-94d5-91b265c1e18e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{97b87d9d-643b-4715-94d5-91b265c1e18e}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{98cb523b-d636-70ea-3d42-b97bccad6a37}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{98cb523b-d636-70ea-3d42-b97bccad6a37}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{a04b8794-bd90-7858-b09c-4946bd6a6d73}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{a04b8794-bd90-7858-b09c-4946bd6a6d73}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{abb7473c-5497-4161-8095-b28e58d35ca7}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{abb7473c-5497-4161-8095-b28e58d35ca7}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{adb32c7c-9c41-759a-93ac-0847c51bc4c8}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{adb32c7c-9c41-759a-93ac-0847c51bc4c8}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{b022029c-3bba-37e3-bcd8-986c3a60e0ec}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{b022029c-3bba-37e3-bcd8-986c3a60e0ec}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{bba9bb91-e202-1144-c1d3-4322893c73a9}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{bba9bb91-e202-1144-c1d3-4322893c73a9}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{bc136d38-7529-7582-69c4-7a6e23b660e2}" xml:space="preserve">
+    <value>Credit limit</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{bc136d38-7529-7582-69c4-7a6e23b660e2}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{c0d8a825-b4a2-edb4-e0b9-68db903432ed}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{c0d8a825-b4a2-edb4-e0b9-68db903432ed}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{c184443a-7191-070d-969e-9486b4d4a78d}" xml:space="preserve">
+    <value>Monthly payment percentage</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{c184443a-7191-070d-969e-9486b4d4a78d}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{cccddb7d-0382-a762-599d-0c6dacbb6ea8}" xml:space="preserve">
+    <value>Last statement balance</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{cccddb7d-0382-a762-599d-0c6dacbb6ea8}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{d645544b-385a-b63b-e308-3da3a9d013ab}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{d645544b-385a-b63b-e308-3da3a9d013ab}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{d7977178-a19b-4203-0ca5-0984e448beb5}" xml:space="preserve">
+    <value>Credit limit</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{d7977178-a19b-4203-0ca5-0984e448beb5}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{da332ab4-53b9-2b06-d468-ba4dca418764}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{da332ab4-53b9-2b06-d468-ba4dca418764}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{da93318e-c5fb-44f0-b89f-b1fff87506f6}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{da93318e-c5fb-44f0-b89f-b1fff87506f6}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{e0c28244-aca0-2e4c-d284-70b9ec73139c}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{e0c28244-aca0-2e4c-d284-70b9ec73139c}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{e34d563c-5aca-a85c-ad55-d30564d951aa}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{e34d563c-5aca-a85c-ad55-d30564d951aa}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{e7ba8916-d323-8ab1-e038-d476d18487de}" xml:space="preserve">
+    <value>Monthly payment percentage</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{e7ba8916-d323-8ab1-e038-d476d18487de}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{edc68e00-720c-5aed-ea25-0e46d19192e3}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Line of credit' : label for cell in Entity FormXml ID: '{edc68e00-720c-5aed-ea25-0e46d19192e3}'</comment>
+  </data>
+  <data name="1:label,FH Line of credit{f53d929f-2635-4ae8-8037-3f145affc332}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Line of credit' : label for tab in Entity FormXml ID: '{f53d929f-2635-4ae8-8037-3f145affc332}'</comment>
+  </data>
+  <data name="1:label,FH Loan{04356a6c-35a5-c721-7b90-71618d7b8e00}" xml:space="preserve">
+    <value>Days past due</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{04356a6c-35a5-c721-7b90-71618d7b8e00}'</comment>
+  </data>
+  <data name="1:label,FH Loan{0470cb47-7209-a53c-087e-736c886d5122}" xml:space="preserve">
+    <value>Collection risk</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{0470cb47-7209-a53c-087e-736c886d5122}'</comment>
+  </data>
+  <data name="1:label,FH Loan{05358b6c-412d-1683-0c0b-382cd49192b6}" xml:space="preserve">
+    <value>Maturity date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{05358b6c-412d-1683-0c0b-382cd49192b6}'</comment>
+  </data>
+  <data name="1:label,FH Loan{08bac4e8-1054-7121-b264-725393eae4e2}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{08bac4e8-1054-7121-b264-725393eae4e2}'</comment>
+  </data>
+  <data name="1:label,FH Loan{12a730b2-08d1-d42c-56c1-e6eb57402bac}" xml:space="preserve">
+    <value>Interest type</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{12a730b2-08d1-d42c-56c1-e6eb57402bac}'</comment>
+  </data>
+  <data name="1:label,FH Loan{14771829-422c-4a76-9eae-240efa05b9d2}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FH Loan' : label for section in Entity FormXml ID: '{14771829-422c-4a76-9eae-240efa05b9d2}'</comment>
+  </data>
+  <data name="1:label,FH Loan{1c1d7b42-920d-cda7-07eb-ade59702b6da}" xml:space="preserve">
+    <value>Number of installments paid</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{1c1d7b42-920d-cda7-07eb-ade59702b6da}'</comment>
+  </data>
+  <data name="1:label,FH Loan{1e08b92a-b161-38dd-757a-25beb8ac3aa9}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{1e08b92a-b161-38dd-757a-25beb8ac3aa9}'</comment>
+  </data>
+  <data name="1:label,FH Loan{215ddbb5-b84e-9eae-7dee-2275da7d95b5}" xml:space="preserve">
+    <value>Interest arrears</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{215ddbb5-b84e-9eae-7dee-2275da7d95b5}'</comment>
+  </data>
+  <data name="1:label,FH Loan{22d83bd0-a576-d403-942a-6968831e9153}" xml:space="preserve">
+    <value>Installment amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{22d83bd0-a576-d403-942a-6968831e9153}'</comment>
+  </data>
+  <data name="1:label,FH Loan{24fb35fd-cebe-4c06-8fce-b0f00cffc2c0}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{24fb35fd-cebe-4c06-8fce-b0f00cffc2c0}'</comment>
+  </data>
+  <data name="1:label,FH Loan{2534a160-b96d-d9aa-874e-3b8232deaeb3}" xml:space="preserve">
+    <value>Next payment date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{2534a160-b96d-d9aa-874e-3b8232deaeb3}'</comment>
+  </data>
+  <data name="1:label,FH Loan{26e38416-4375-da88-d523-385160b0d13c}" xml:space="preserve">
+    <value>Overdue date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{26e38416-4375-da88-d523-385160b0d13c}'</comment>
+  </data>
+  <data name="1:label,FH Loan{274cade6-4648-5386-1067-ab703a3e8cdb}" xml:space="preserve">
+    <value>Next interest review date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{274cade6-4648-5386-1067-ab703a3e8cdb}'</comment>
+  </data>
+  <data name="1:label,FH Loan{290e3873-0316-d51a-39ba-305a843b41d7}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{290e3873-0316-d51a-39ba-305a843b41d7}'</comment>
+  </data>
+  <data name="1:label,FH Loan{29718663-b4b6-059e-9564-37c8ca958a33}" xml:space="preserve">
+    <value>Maturity date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{29718663-b4b6-059e-9564-37c8ca958a33}'</comment>
+  </data>
+  <data name="1:label,FH Loan{2ba93e58-c69c-b9e7-9442-9d14a89e5e7c}" xml:space="preserve">
+    <value>Mode of payment</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{2ba93e58-c69c-b9e7-9442-9d14a89e5e7c}'</comment>
+  </data>
+  <data name="1:label,FH Loan{33e597e0-a904-576c-b3d6-596b90204cec}" xml:space="preserve">
+    <value>Collection risk</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{33e597e0-a904-576c-b3d6-596b90204cec}'</comment>
+  </data>
+  <data name="1:label,FH Loan{33eecb71-73e6-5c82-4c5c-e5eb13c1e3cc}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{33eecb71-73e6-5c82-4c5c-e5eb13c1e3cc}'</comment>
+  </data>
+  <data name="1:label,FH Loan{39e99c12-7a4a-aa87-0d34-68838bd77e8b}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{39e99c12-7a4a-aa87-0d34-68838bd77e8b}'</comment>
+  </data>
+  <data name="1:label,FH Loan{3e89c8cd-bd37-7808-9235-92dac029065e}" xml:space="preserve">
+    <value>Next interest review date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{3e89c8cd-bd37-7808-9235-92dac029065e}'</comment>
+  </data>
+  <data name="1:label,FH Loan{421e0748-5b55-475b-4ab0-b45ee71e7e70}" xml:space="preserve">
+    <value>Delinquency status</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{421e0748-5b55-475b-4ab0-b45ee71e7e70}'</comment>
+  </data>
+  <data name="1:label,FH Loan{44497897-2b8c-8563-14ee-00a4dc39157c}" xml:space="preserve">
+    <value>Principal amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{44497897-2b8c-8563-14ee-00a4dc39157c}'</comment>
+  </data>
+  <data name="1:label,FH Loan{48483150-a128-a3ba-9c9e-e2e0b0912c51}" xml:space="preserve">
+    <value>Last payment date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{48483150-a128-a3ba-9c9e-e2e0b0912c51}'</comment>
+  </data>
+  <data name="1:label,FH Loan{484c090d-a1b1-2169-51c5-a1ecb849874b}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{484c090d-a1b1-2169-51c5-a1ecb849874b}'</comment>
+  </data>
+  <data name="1:label,FH Loan{4fb42d97-0885-456e-b8fb-64119fe94e36}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Loan' : label for tab in Entity FormXml ID: '{4fb42d97-0885-456e-b8fb-64119fe94e36}'</comment>
+  </data>
+  <data name="1:label,FH Loan{50b4a4b7-d97b-ea69-4d42-1444e62300e4}" xml:space="preserve">
+    <value>Mode of payment</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{50b4a4b7-d97b-ea69-4d42-1444e62300e4}'</comment>
+  </data>
+  <data name="1:label,FH Loan{57085dd7-ea50-ba37-9ab6-4eeb1798e7e6}" xml:space="preserve">
+    <value>Start date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{57085dd7-ea50-ba37-9ab6-4eeb1798e7e6}'</comment>
+  </data>
+  <data name="1:label,FH Loan{582e32da-2714-e247-7017-0e884906cab6}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{582e32da-2714-e247-7017-0e884906cab6}'</comment>
+  </data>
+  <data name="1:label,FH Loan{58d9991d-88d8-b640-e8c1-562384a02e61}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{58d9991d-88d8-b640-e8c1-562384a02e61}'</comment>
+  </data>
+  <data name="1:label,FH Loan{5d05a63c-696e-279e-7b7e-33d57710c883}" xml:space="preserve">
+    <value>Review period</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{5d05a63c-696e-279e-7b7e-33d57710c883}'</comment>
+  </data>
+  <data name="1:label,FH Loan{5e0e6762-5622-4010-8e39-986917d71457}" xml:space="preserve">
+    <value>Start date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{5e0e6762-5622-4010-8e39-986917d71457}'</comment>
+  </data>
+  <data name="1:label,FH Loan{6092228a-ec9b-4411-b01b-548619b618a1}" xml:space="preserve">
+    <value>Last payment date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{6092228a-ec9b-4411-b01b-548619b618a1}'</comment>
+  </data>
+  <data name="1:label,FH Loan{61dc9397-8693-8d09-8edc-dd3b8c65a30e}" xml:space="preserve">
+    <value>Repayment account</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{61dc9397-8693-8d09-8edc-dd3b8c65a30e}'</comment>
+  </data>
+  <data name="1:label,FH Loan{6242d443-96e6-d3c4-613c-0a9cc268a3b9}" xml:space="preserve">
+    <value>Capital arrears</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{6242d443-96e6-d3c4-613c-0a9cc268a3b9}'</comment>
+  </data>
+  <data name="1:label,FH Loan{67a747d3-e958-18e8-1078-8d77b046ce2e}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{67a747d3-e958-18e8-1078-8d77b046ce2e}'</comment>
+  </data>
+  <data name="1:label,FH Loan{6a997a5d-4e94-bb0c-c854-5ea003782c0a}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{6a997a5d-4e94-bb0c-c854-5ea003782c0a}'</comment>
+  </data>
+  <data name="1:label,FH Loan{6c6288d4-3905-46d1-3911-bb1b8447cb61}" xml:space="preserve">
+    <value>Last payment amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{6c6288d4-3905-46d1-3911-bb1b8447cb61}'</comment>
+  </data>
+  <data name="1:label,FH Loan{6ce617d4-a3dd-2194-7d5b-6e8c4587c5bb}" xml:space="preserve">
+    <value>Disbursement date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{6ce617d4-a3dd-2194-7d5b-6e8c4587c5bb}'</comment>
+  </data>
+  <data name="1:label,FH Loan{74a596ee-3e15-42cd-5595-00ad49eb1893}" xml:space="preserve">
+    <value>Last payment amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{74a596ee-3e15-42cd-5595-00ad49eb1893}'</comment>
+  </data>
+  <data name="1:label,FH Loan{74b0a1c6-4673-b054-5863-b1b41689c27c}" xml:space="preserve">
+    <value>Disbursed amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{74b0a1c6-4673-b054-5863-b1b41689c27c}'</comment>
+  </data>
+  <data name="1:label,FH Loan{75b66eb7-1135-23cc-6d3c-d2b0e5dc1720}" xml:space="preserve">
+    <value>Capital arrears</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{75b66eb7-1135-23cc-6d3c-d2b0e5dc1720}'</comment>
+  </data>
+  <data name="1:label,FH Loan{7636678a-e6d0-3162-a223-9d847784d342}" xml:space="preserve">
+    <value>Total arrear</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{7636678a-e6d0-3162-a223-9d847784d342}'</comment>
+  </data>
+  <data name="1:label,FH Loan{77da2bb7-d8e5-3d16-c129-6409d252c1ed}" xml:space="preserve">
+    <value>Total interest paid</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{77da2bb7-d8e5-3d16-c129-6409d252c1ed}'</comment>
+  </data>
+  <data name="1:label,FH Loan{80b4122b-2a77-ab01-912b-3c647b909b64}" xml:space="preserve">
+    <value>Repayment account</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{80b4122b-2a77-ab01-912b-3c647b909b64}'</comment>
+  </data>
+  <data name="1:label,FH Loan{84cd312d-a78b-4e32-7c1e-c09849b44383}" xml:space="preserve">
+    <value>Review period</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{84cd312d-a78b-4e32-7c1e-c09849b44383}'</comment>
+  </data>
+  <data name="1:label,FH Loan{84ce3f7a-01eb-4be8-b627-dacb88ad4358}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{84ce3f7a-01eb-4be8-b627-dacb88ad4358}'</comment>
+  </data>
+  <data name="1:label,FH Loan{8833d56a-8e04-14d4-06db-8509b2969037}" xml:space="preserve">
+    <value>Next payment amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{8833d56a-8e04-14d4-06db-8509b2969037}'</comment>
+  </data>
+  <data name="1:label,FH Loan{8c1c7b72-d85c-c9ca-e141-95b469968d16}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{8c1c7b72-d85c-c9ca-e141-95b469968d16}'</comment>
+  </data>
+  <data name="1:label,FH Loan{8dc7a07e-9ba0-9675-c8dc-620a21793633}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{8dc7a07e-9ba0-9675-c8dc-620a21793633}'</comment>
+  </data>
+  <data name="1:label,FH Loan{9a57094d-126c-7355-3586-5b419a50e424}" xml:space="preserve">
+    <value>Next payment date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{9a57094d-126c-7355-3586-5b419a50e424}'</comment>
+  </data>
+  <data name="1:label,FH Loan{9b40c130-031d-c2e7-0326-5ee76d9deea7}" xml:space="preserve">
+    <value>Principal amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{9b40c130-031d-c2e7-0326-5ee76d9deea7}'</comment>
+  </data>
+  <data name="1:label,FH Loan{9e0ae786-a6b5-0129-9364-5251a6db1709}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{9e0ae786-a6b5-0129-9364-5251a6db1709}'</comment>
+  </data>
+  <data name="1:label,FH Loan{a0c4adc7-81d5-4921-9d83-d8e7fb15cd60}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Loan' : label for section in Entity FormXml ID: '{a0c4adc7-81d5-4921-9d83-d8e7fb15cd60}'</comment>
+  </data>
+  <data name="1:label,FH Loan{a3cc4568-8861-b972-5225-ab9e307871a1}" xml:space="preserve">
+    <value>Total arrear</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{a3cc4568-8861-b972-5225-ab9e307871a1}'</comment>
+  </data>
+  <data name="1:label,FH Loan{ab3bc589-d13a-062c-da67-edde1e735682}" xml:space="preserve">
+    <value>Number of installments paid</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{ab3bc589-d13a-062c-da67-edde1e735682}'</comment>
+  </data>
+  <data name="1:label,FH Loan{aca6c405-1e0c-341b-dd9e-581d1c538002}" xml:space="preserve">
+    <value>Next payment amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{aca6c405-1e0c-341b-dd9e-581d1c538002}'</comment>
+  </data>
+  <data name="1:label,FH Loan{b2812ca4-7a19-3ab8-c51d-076b6decb613}" xml:space="preserve">
+    <value>Interest type</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{b2812ca4-7a19-3ab8-c51d-076b6decb613}'</comment>
+  </data>
+  <data name="1:label,FH Loan{b750b825-755d-4641-6e86-d7c5d06b8ec1}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{b750b825-755d-4641-6e86-d7c5d06b8ec1}'</comment>
+  </data>
+  <data name="1:label,FH Loan{b97dd534-3e08-1284-4e04-9081287a2983}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{b97dd534-3e08-1284-4e04-9081287a2983}'</comment>
+  </data>
+  <data name="1:label,FH Loan{bd346575-64e7-9dbe-1042-67076808b4a0}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{bd346575-64e7-9dbe-1042-67076808b4a0}'</comment>
+  </data>
+  <data name="1:label,FH Loan{bd51d7b0-02ed-19ea-b154-a09b21a5aac1}" xml:space="preserve">
+    <value>Interest arrears</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{bd51d7b0-02ed-19ea-b154-a09b21a5aac1}'</comment>
+  </data>
+  <data name="1:label,FH Loan{bde3e2a1-3862-037b-ca76-9a5b19490e9b}" xml:space="preserve">
+    <value>Delinquency status</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{bde3e2a1-3862-037b-ca76-9a5b19490e9b}'</comment>
+  </data>
+  <data name="1:label,FH Loan{c2b7b48c-6463-c196-c33c-20c03bb5625e}" xml:space="preserve">
+    <value>Overdue date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{c2b7b48c-6463-c196-c33c-20c03bb5625e}'</comment>
+  </data>
+  <data name="1:label,FH Loan{c44c532e-4dab-eed9-b7ac-0906bccae032}" xml:space="preserve">
+    <value>Number of deferrals made</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{c44c532e-4dab-eed9-b7ac-0906bccae032}'</comment>
+  </data>
+  <data name="1:label,FH Loan{c4bae6d1-bccb-5ca5-967e-02b07446bd1d}" xml:space="preserve">
+    <value>Number of deferrals made</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{c4bae6d1-bccb-5ca5-967e-02b07446bd1d}'</comment>
+  </data>
+  <data name="1:label,FH Loan{cbe13951-bbb5-7275-75de-66b19e652bad}" xml:space="preserve">
+    <value>Total interest paid</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{cbe13951-bbb5-7275-75de-66b19e652bad}'</comment>
+  </data>
+  <data name="1:label,FH Loan{d423606e-7496-8a09-bdc7-3d48a9ed1778}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{d423606e-7496-8a09-bdc7-3d48a9ed1778}'</comment>
+  </data>
+  <data name="1:label,FH Loan{d453d970-59dc-238d-19c1-0352d149d0e7}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{d453d970-59dc-238d-19c1-0352d149d0e7}'</comment>
+  </data>
+  <data name="1:label,FH Loan{d819738b-cab2-a700-30e7-2a0de332e016}" xml:space="preserve">
+    <value>Fee arrears</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{d819738b-cab2-a700-30e7-2a0de332e016}'</comment>
+  </data>
+  <data name="1:label,FH Loan{d93a9d64-8d0e-4651-a596-7b1b8d6422cc}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FH Loan' : label for tab in Entity FormXml ID: '{d93a9d64-8d0e-4651-a596-7b1b8d6422cc}'</comment>
+  </data>
+  <data name="1:label,FH Loan{dc0bc86d-bb2b-38a3-1494-67b04e27ed21}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{dc0bc86d-bb2b-38a3-1494-67b04e27ed21}'</comment>
+  </data>
+  <data name="1:label,FH Loan{de94d7d0-d4d2-84d4-4b12-228b648d6cac}" xml:space="preserve">
+    <value>Disbursement date</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{de94d7d0-d4d2-84d4-4b12-228b648d6cac}'</comment>
+  </data>
+  <data name="1:label,FH Loan{e0388d08-d56a-bd29-2e25-329698d5c5cb}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{e0388d08-d56a-bd29-2e25-329698d5c5cb}'</comment>
+  </data>
+  <data name="1:label,FH Loan{e4472a6e-c171-4938-72db-56b810089cc3}" xml:space="preserve">
+    <value>Disbursed amount</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{e4472a6e-c171-4938-72db-56b810089cc3}'</comment>
+  </data>
+  <data name="1:label,FH Loan{ec37b6ee-97a1-5ced-a40b-cd6a82342480}" xml:space="preserve">
+    <value>Fee arrears</value>
+    <comment>'FH Loan' : label for cell in Entity FormXml ID: '{ec37b6ee-97a1-5ced-a40b-cd6a82342480}'</comment>
+  </data>
+  <data name="1:label,FH Saving{0f23a69b-3181-41fb-b071-2cdc8a99d04a}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{0f23a69b-3181-41fb-b071-2cdc8a99d04a}'</comment>
+  </data>
+  <data name="1:label,FH Saving{10eab345-e1d6-a23e-a1be-516ec7960793}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{10eab345-e1d6-a23e-a1be-516ec7960793}'</comment>
+  </data>
+  <data name="1:label,FH Saving{1100134b-e9bb-40c1-96ba-44734dafa41d}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FH Saving' : label for section in Entity FormXml ID: '{1100134b-e9bb-40c1-96ba-44734dafa41d}'</comment>
+  </data>
+  <data name="1:label,FH Saving{1289d6e4-d5c4-110e-212a-9d48c0402e2c}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{1289d6e4-d5c4-110e-212a-9d48c0402e2c}'</comment>
+  </data>
+  <data name="1:label,FH Saving{159aea87-27c6-d4e6-5589-ac32c6956502}" xml:space="preserve">
+    <value>Projected interest amount</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{159aea87-27c6-d4e6-5589-ac32c6956502}'</comment>
+  </data>
+  <data name="1:label,FH Saving{1ad32a2b-4357-2633-dd0c-ed8542ec7cd9}" xml:space="preserve">
+    <value>(hidden) balance</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{1ad32a2b-4357-2633-dd0c-ed8542ec7cd9}'</comment>
+  </data>
+  <data name="1:label,FH Saving{1d546bbc-a52c-993d-3c30-ca3ccc142e0d}" xml:space="preserve">
+    <value>Initial source</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{1d546bbc-a52c-993d-3c30-ca3ccc142e0d}'</comment>
+  </data>
+  <data name="1:label,FH Saving{1d9a305c-4487-8576-7e1d-2a97aa0b18bb}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{1d9a305c-4487-8576-7e1d-2a97aa0b18bb}'</comment>
+  </data>
+  <data name="1:label,FH Saving{2954ec11-472b-53ae-8da3-290c0b86606b}" xml:space="preserve">
+    <value>Accrued interest amount</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{2954ec11-472b-53ae-8da3-290c0b86606b}'</comment>
+  </data>
+  <data name="1:label,FH Saving{2e313ebc-8613-49a1-9553-7b21fa264f35}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{2e313ebc-8613-49a1-9553-7b21fa264f35}'</comment>
+  </data>
+  <data name="1:label,FH Saving{329a7137-e95a-a5e4-1c25-39cbb9730b9d}" xml:space="preserve">
+    <value>Maturity instructions details</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{329a7137-e95a-a5e4-1c25-39cbb9730b9d}'</comment>
+  </data>
+  <data name="1:label,FH Saving{432162e4-5bc1-d783-2eda-168de914e630}" xml:space="preserve">
+    <value>Balance at maturity</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{432162e4-5bc1-d783-2eda-168de914e630}'</comment>
+  </data>
+  <data name="1:label,FH Saving{45816c8a-8b2b-ec86-7d1b-54c36e769ad0}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{45816c8a-8b2b-ec86-7d1b-54c36e769ad0}'</comment>
+  </data>
+  <data name="1:label,FH Saving{47c88824-a0d6-9721-359a-1ba51804ab7c}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{47c88824-a0d6-9721-359a-1ba51804ab7c}'</comment>
+  </data>
+  <data name="1:label,FH Saving{480c813b-8739-3764-149e-8966ee28b8c9}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{480c813b-8739-3764-149e-8966ee28b8c9}'</comment>
+  </data>
+  <data name="1:label,FH Saving{4e05a883-3b2c-c148-c98c-e688acbaad25}" xml:space="preserve">
+    <value>Term</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{4e05a883-3b2c-c148-c98c-e688acbaad25}'</comment>
+  </data>
+  <data name="1:label,FH Saving{4e1bec30-ba33-675a-5b51-9220408be252}" xml:space="preserve">
+    <value>Currency</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{4e1bec30-ba33-675a-5b51-9220408be252}'</comment>
+  </data>
+  <data name="1:label,FH Saving{50c5e47c-0181-bd5e-6cd7-d783e5147248}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{50c5e47c-0181-bd5e-6cd7-d783e5147248}'</comment>
+  </data>
+  <data name="1:label,FH Saving{5664390c-b39c-2ca4-0bd9-279e757e437b}" xml:space="preserve">
+    <value>Initial source</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{5664390c-b39c-2ca4-0bd9-279e757e437b}'</comment>
+  </data>
+  <data name="1:label,FH Saving{5ea65cbd-ec93-63c6-175b-a3858979b677}" xml:space="preserve">
+    <value>Maturity date</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{5ea65cbd-ec93-63c6-175b-a3858979b677}'</comment>
+  </data>
+  <data name="1:label,FH Saving{609809e8-7219-a777-c926-394730c19b46}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{609809e8-7219-a777-c926-394730c19b46}'</comment>
+  </data>
+  <data name="1:label,FH Saving{7a39571c-6eb0-409c-913b-6f79cffbc019}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FH Saving' : label for tab in Entity FormXml ID: '{7a39571c-6eb0-409c-913b-6f79cffbc019}'</comment>
+  </data>
+  <data name="1:label,FH Saving{825ca87a-9400-0ab9-abec-99473540a584}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{825ca87a-9400-0ab9-abec-99473540a584}'</comment>
+  </data>
+  <data name="1:label,FH Saving{940b80b8-1a01-4d85-db97-029a5b392e74}" xml:space="preserve">
+    <value>Term</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{940b80b8-1a01-4d85-db97-029a5b392e74}'</comment>
+  </data>
+  <data name="1:label,FH Saving{94a6c9fc-3990-4605-845c-5dadcc2da218}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Saving' : label for section in Entity FormXml ID: '{94a6c9fc-3990-4605-845c-5dadcc2da218}'</comment>
+  </data>
+  <data name="1:label,FH Saving{998a6611-78dd-63dd-94e0-5974430753da}" xml:space="preserve">
+    <value>(hidden) balance (default)</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{998a6611-78dd-63dd-94e0-5974430753da}'</comment>
+  </data>
+  <data name="1:label,FH Saving{9e601bb1-92b2-6c38-2572-ae40deb533a8}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{9e601bb1-92b2-6c38-2572-ae40deb533a8}'</comment>
+  </data>
+  <data name="1:label,FH Saving{b3017545-7639-0c48-7031-568a1445b967}" xml:space="preserve">
+    <value>Balance</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{b3017545-7639-0c48-7031-568a1445b967}'</comment>
+  </data>
+  <data name="1:label,FH Saving{b553da46-7b12-e0a8-64a4-8358c5ca1732}" xml:space="preserve">
+    <value>Balance (default)</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{b553da46-7b12-e0a8-64a4-8358c5ca1732}'</comment>
+  </data>
+  <data name="1:label,FH Saving{bc6c3826-b811-8db3-5e87-c5b5c53d96a3}" xml:space="preserve">
+    <value>Balance exchange rate</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{bc6c3826-b811-8db3-5e87-c5b5c53d96a3}'</comment>
+  </data>
+  <data name="1:label,FH Saving{bc6f7a5e-2eb2-43d5-be7f-9f468abf5a23}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FH Saving' : label for tab in Entity FormXml ID: '{bc6f7a5e-2eb2-43d5-be7f-9f468abf5a23}'</comment>
+  </data>
+  <data name="1:label,FH Saving{c34844dc-1719-9d53-7aa1-c534733988c5}" xml:space="preserve">
+    <value>Accounting classification</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{c34844dc-1719-9d53-7aa1-c534733988c5}'</comment>
+  </data>
+  <data name="1:label,FH Saving{c3880c47-2d91-359d-c636-d3e173886a8b}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{c3880c47-2d91-359d-c636-d3e173886a8b}'</comment>
+  </data>
+  <data name="1:label,FH Saving{c542b1cd-0082-a541-a910-cae3727ab669}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{c542b1cd-0082-a541-a910-cae3727ab669}'</comment>
+  </data>
+  <data name="1:label,FH Saving{c90200b5-61ed-2374-9522-d427c07c2050}" xml:space="preserve">
+    <value>Projected interest amount</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{c90200b5-61ed-2374-9522-d427c07c2050}'</comment>
+  </data>
+  <data name="1:label,FH Saving{d1726944-eb4b-a153-1b3a-19dbc9a291ea}" xml:space="preserve">
+    <value>Maturity instructions details</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{d1726944-eb4b-a153-1b3a-19dbc9a291ea}'</comment>
+  </data>
+  <data name="1:label,FH Saving{d7e5574e-0e8d-0474-504b-05da65597ad8}" xml:space="preserve">
+    <value>Accrued interest amount</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{d7e5574e-0e8d-0474-504b-05da65597ad8}'</comment>
+  </data>
+  <data name="1:label,FH Saving{e401692c-9abb-4635-11d2-6bb4a98d0e09}" xml:space="preserve">
+    <value>Financial holding type</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{e401692c-9abb-4635-11d2-6bb4a98d0e09}'</comment>
+  </data>
+  <data name="1:label,FH Saving{e566e178-1b7b-168a-6b27-cc59bd691a5b}" xml:space="preserve">
+    <value>Maturity date</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{e566e178-1b7b-168a-6b27-cc59bd691a5b}'</comment>
+  </data>
+  <data name="1:label,FH Saving{ea21e0ad-339b-1b09-c5a3-694ab38cbbe5}" xml:space="preserve">
+    <value>Balance at maturity</value>
+    <comment>'FH Saving' : label for cell in Entity FormXml ID: '{ea21e0ad-339b-1b09-c5a3-694ab38cbbe5}'</comment>
+  </data>
+  <data name="1:label,FI CardACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>New tab</value>
+    <comment>'FI Card' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,FI CardAD49B5BF-256F-46A8-9C75-947146172EB9" xml:space="preserve">
+    <value>New section</value>
+    <comment>'FI Card' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
+  </data>
+  <data name="1:label,FI Card{02d08188-bae1-4333-8f30-0181a2c4c024}" xml:space="preserve">
+    <value />
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{02d08188-bae1-4333-8f30-0181a2c4c024}'</comment>
+  </data>
+  <data name="1:label,FI Card{0430bddf-20a8-4ead-b6d8-33af5d54d256}" xml:space="preserve">
+    <value />
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{0430bddf-20a8-4ead-b6d8-33af5d54d256}'</comment>
+  </data>
+  <data name="1:label,FI Card{08495ed4-6b70-441f-9dfc-6f25c65dcb50}" xml:space="preserve">
+    <value>Product name</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{08495ed4-6b70-441f-9dfc-6f25c65dcb50}'</comment>
+  </data>
+  <data name="1:label,FI Card{08f131ec-876f-4e10-93a9-4a55a1b509ce}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{08f131ec-876f-4e10-93a9-4a55a1b509ce}'</comment>
+  </data>
+  <data name="1:label,FI Card{0e4e1d8e-1417-44e5-8ec7-dc9c94345208}" xml:space="preserve">
+    <value>Activation date</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{0e4e1d8e-1417-44e5-8ec7-dc9c94345208}'</comment>
+  </data>
+  <data name="1:label,FI Card{0f88a9f4-5c4d-4200-880e-0e9a6a7311ba}" xml:space="preserve">
+    <value>Purchasing limit</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{0f88a9f4-5c4d-4200-880e-0e9a6a7311ba}'</comment>
+  </data>
+  <data name="1:label,FI Card{183e66ad-ab85-4af0-9b76-b812a3b08939}" xml:space="preserve">
+    <value>Card number</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{183e66ad-ab85-4af0-9b76-b812a3b08939}'</comment>
+  </data>
+  <data name="1:label,FI Card{2111c8bb-6aac-4078-9ca1-3eabd43e71f1}" xml:space="preserve">
+    <value>Date of last cash withdrawal</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{2111c8bb-6aac-4078-9ca1-3eabd43e71f1}'</comment>
+  </data>
+  <data name="1:label,FI Card{325ccb67-0a20-4e22-87a3-5d4ce560bf05}" xml:space="preserve">
+    <value />
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{325ccb67-0a20-4e22-87a3-5d4ce560bf05}'</comment>
+  </data>
+  <data name="1:label,FI Card{39a69c9c-154d-4faa-a0a2-ecf10a9328aa}" xml:space="preserve">
+    <value />
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{39a69c9c-154d-4faa-a0a2-ecf10a9328aa}'</comment>
+  </data>
+  <data name="1:label,FI Card{3f9b016d-c324-422d-b62d-cdada5930aeb}" xml:space="preserve">
+    <value>Embossing name</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{3f9b016d-c324-422d-b62d-cdada5930aeb}'</comment>
+  </data>
+  <data name="1:label,FI Card{3fb9be12-576f-4d6f-9052-3d8244314419}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{3fb9be12-576f-4d6f-9052-3d8244314419}'</comment>
+  </data>
+  <data name="1:label,FI Card{46cc3308-cb98-486a-abb1-4630c7fbd10f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Card' : label for tab in Entity FormXml ID: '{46cc3308-cb98-486a-abb1-4630c7fbd10f}'</comment>
+  </data>
+  <data name="1:label,FI Card{58a8a013-cac0-485c-af32-fcd8fa61f101}" xml:space="preserve">
+    <value>Number of cash withdrawals</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{58a8a013-cac0-485c-af32-fcd8fa61f101}'</comment>
+  </data>
+  <data name="1:label,FI Card{59df9580-696b-454d-85f0-d5a4b90c3256}" xml:space="preserve">
+    <value>Number of transactions</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{59df9580-696b-454d-85f0-d5a4b90c3256}'</comment>
+  </data>
+  <data name="1:label,FI Card{5c459109-c318-4719-9cb8-45ddb317542f}" xml:space="preserve">
+    <value>Expiry date</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{5c459109-c318-4719-9cb8-45ddb317542f}'</comment>
+  </data>
+  <data name="1:label,FI Card{6b4e6a3c-c9dd-4366-bf92-64d35d8d7363}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{6b4e6a3c-c9dd-4366-bf92-64d35d8d7363}'</comment>
+  </data>
+  <data name="1:label,FI Card{6e89c263-5070-4eea-93ec-f8e1f2cabf06}" xml:space="preserve">
+    <value>Card network</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{6e89c263-5070-4eea-93ec-f8e1f2cabf06}'</comment>
+  </data>
+  <data name="1:label,FI Card{720f2b7f-150a-4b3b-83f3-c97c8c82ad97}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{720f2b7f-150a-4b3b-83f3-c97c8c82ad97}'</comment>
+  </data>
+  <data name="1:label,FI Card{784ea35b-7e2e-4d9e-8f89-676a7f1b1cd2}" xml:space="preserve">
+    <value>Embossing name</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{784ea35b-7e2e-4d9e-8f89-676a7f1b1cd2}'</comment>
+  </data>
+  <data name="1:label,FI Card{84b0046a-4ad7-414f-83da-bf9d3b6b7e99}" xml:space="preserve">
+    <value>Card type</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{84b0046a-4ad7-414f-83da-bf9d3b6b7e99}'</comment>
+  </data>
+  <data name="1:label,FI Card{895fb1a1-4d86-4e0f-ab34-0b77aba37af0}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{895fb1a1-4d86-4e0f-ab34-0b77aba37af0}'</comment>
+  </data>
+  <data name="1:label,FI Card{8aa28751-906d-416d-b6c7-069d638edc9c}" xml:space="preserve">
+    <value>Expiry date</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{8aa28751-906d-416d-b6c7-069d638edc9c}'</comment>
+  </data>
+  <data name="1:label,FI Card{8c4c9522-1e3b-400b-891c-890a051bf619}" xml:space="preserve">
+    <value>Withdrawal limit</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{8c4c9522-1e3b-400b-891c-890a051bf619}'</comment>
+  </data>
+  <data name="1:label,FI Card{927ba503-d132-48a3-9368-221c33c31f68}" xml:space="preserve">
+    <value>Card type</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{927ba503-d132-48a3-9368-221c33c31f68}'</comment>
+  </data>
+  <data name="1:label,FI Card{96eeed1a-b0e3-44c4-9177-844dcde71d05}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{96eeed1a-b0e3-44c4-9177-844dcde71d05}'</comment>
+  </data>
+  <data name="1:label,FI Card{98d5d386-7615-456b-8b08-9e7879bd521b}" xml:space="preserve">
+    <value>Activation date</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{98d5d386-7615-456b-8b08-9e7879bd521b}'</comment>
+  </data>
+  <data name="1:label,FI Card{99af75d8-9fc1-4b9c-ba53-fea01d798b8a}" xml:space="preserve">
+    <value>Product name</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{99af75d8-9fc1-4b9c-ba53-fea01d798b8a}'</comment>
+  </data>
+  <data name="1:label,FI Card{a12a5973-bae6-43a2-859b-69d5a8f1184e}" xml:space="preserve">
+    <value>Date of last transaction</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{a12a5973-bae6-43a2-859b-69d5a8f1184e}'</comment>
+  </data>
+  <data name="1:label,FI Card{a1f8243a-70a7-489d-8c4a-a1e386b60e7a}" xml:space="preserve">
+    <value>Purchasing limit</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{a1f8243a-70a7-489d-8c4a-a1e386b60e7a}'</comment>
+  </data>
+  <data name="1:label,FI Card{a99ce7d4-5ff3-48a1-a5da-57c8f06f6217}" xml:space="preserve">
+    <value>Card network</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{a99ce7d4-5ff3-48a1-a5da-57c8f06f6217}'</comment>
+  </data>
+  <data name="1:label,FI Card{b2b08d2d-0559-4a8b-a523-5a874e0324c3}" xml:space="preserve">
+    <value />
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{b2b08d2d-0559-4a8b-a523-5a874e0324c3}'</comment>
+  </data>
+  <data name="1:label,FI Card{b6920098-cdde-498e-9978-8e0e6956f468}" xml:space="preserve">
+    <value>Issue date</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{b6920098-cdde-498e-9978-8e0e6956f468}'</comment>
+  </data>
+  <data name="1:label,FI Card{c0be4341-7b6d-462f-ae48-54fa64755824}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Card' : label for section in Entity FormXml ID: '{c0be4341-7b6d-462f-ae48-54fa64755824}'</comment>
+  </data>
+  <data name="1:label,FI Card{cab9f930-5be1-4f54-9bcb-e65f2897fe26}" xml:space="preserve">
+    <value>Number of cash withdrawals</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{cab9f930-5be1-4f54-9bcb-e65f2897fe26}'</comment>
+  </data>
+  <data name="1:label,FI Card{d06085a6-523c-400c-a1d6-5b91b1a855ab}" xml:space="preserve">
+    <value>Status</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{d06085a6-523c-400c-a1d6-5b91b1a855ab}'</comment>
+  </data>
+  <data name="1:label,FI Card{dedc748f-0600-4d76-acd7-715de5bd541c}" xml:space="preserve">
+    <value>Number of transactions</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{dedc748f-0600-4d76-acd7-715de5bd541c}'</comment>
+  </data>
+  <data name="1:label,FI Card{e5b2f7fc-be09-4311-8f85-537dd5941946}" xml:space="preserve">
+    <value />
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{e5b2f7fc-be09-4311-8f85-537dd5941946}'</comment>
+  </data>
+  <data name="1:label,FI Card{e96ea94d-291c-4ed9-8b3e-f364c319f50d}" xml:space="preserve">
+    <value>Date of last transaction</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{e96ea94d-291c-4ed9-8b3e-f364c319f50d}'</comment>
+  </data>
+  <data name="1:label,FI Card{eda6c832-cc22-42c8-92e7-9846b85f503f}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{eda6c832-cc22-42c8-92e7-9846b85f503f}'</comment>
+  </data>
+  <data name="1:label,FI Card{f4eb5d74-851c-4a83-81f3-e4a00d69384f}" xml:space="preserve">
+    <value>Withdrawal limit</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{f4eb5d74-851c-4a83-81f3-e4a00d69384f}'</comment>
+  </data>
+  <data name="1:label,FI Card{f5fbf910-b79f-4894-8dd3-fcd98347b96d}" xml:space="preserve">
+    <value>Date of last cash withdrawal</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{f5fbf910-b79f-4894-8dd3-fcd98347b96d}'</comment>
+  </data>
+  <data name="1:label,FI Card{f9419eb4-a871-426f-96d8-091dfea2322e}" xml:space="preserve">
+    <value>Issue date</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{f9419eb4-a871-426f-96d8-091dfea2322e}'</comment>
+  </data>
+  <data name="1:label,FI Card{fc46a6f0-54b1-43f3-ad6d-994fbb74b05b}" xml:space="preserve">
+    <value>Card number</value>
+    <comment>'FI Card' : label for cell in Entity FormXml ID: '{fc46a6f0-54b1-43f3-ad6d-994fbb74b05b}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{04cedd94-539c-dd54-48aa-7a8c0733ae56}" xml:space="preserve">
+    <value>Last item status reason</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{04cedd94-539c-dd54-48aa-7a8c0733ae56}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{0b5d5d4b-a966-394e-0887-3de7cb34b2e1}" xml:space="preserve">
+    <value>Last item status reason</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{0b5d5d4b-a966-394e-0887-3de7cb34b2e1}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{0dc7d878-0961-e831-b631-4e39c5aa3c02}" xml:space="preserve">
+    <value>Mandate end date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{0dc7d878-0961-e831-b631-4e39c5aa3c02}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{0ec609ed-b814-8ae2-6b03-4ac2d29d9092}" xml:space="preserve">
+    <value>Order end date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{0ec609ed-b814-8ae2-6b03-4ac2d29d9092}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{17556db2-db93-4c9f-b3e6-e85c13ffcc60}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FI Direct debit' : label for tab in Entity FormXml ID: '{17556db2-db93-4c9f-b3e6-e85c13ffcc60}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{1e374eee-6955-cb32-eb1c-ee3bc4ddb357}" xml:space="preserve">
+    <value>Mandate id</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{1e374eee-6955-cb32-eb1c-ee3bc4ddb357}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{1eebd85e-20a7-a0ce-c20c-d19b4d299734}" xml:space="preserve">
+    <value>Mandate id</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{1eebd85e-20a7-a0ce-c20c-d19b4d299734}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{25769752-8023-46e7-8d7d-a66997f6ca30}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Direct debit' : label for tab in Entity FormXml ID: '{25769752-8023-46e7-8d7d-a66997f6ca30}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{29508704-1492-a375-5243-3494570080e8}" xml:space="preserve">
+    <value>Creditor identifier</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{29508704-1492-a375-5243-3494570080e8}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{2dd71089-6ca3-5434-1a92-c418a7b908c2}" xml:space="preserve">
+    <value>Next item date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{2dd71089-6ca3-5434-1a92-c418a7b908c2}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{3482d9a2-20a0-14b7-5876-52d1a87057b8}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{3482d9a2-20a0-14b7-5876-52d1a87057b8}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{42bd2714-6dce-6cee-c215-98676c5d305c}" xml:space="preserve">
+    <value>Next item amount</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{42bd2714-6dce-6cee-c215-98676c5d305c}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{476ffb0a-1f02-4764-8bf1-6e9e48f3529c}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{476ffb0a-1f02-4764-8bf1-6e9e48f3529c}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{5111964e-73a5-b86d-09dd-3429083b146c}" xml:space="preserve">
+    <value>Order end date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{5111964e-73a5-b86d-09dd-3429083b146c}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{63c2b454-0aae-dec4-5847-9a9d6a810d3c}" xml:space="preserve">
+    <value>Debtor account</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{63c2b454-0aae-dec4-5847-9a9d6a810d3c}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{63e3460c-6769-5b8e-6989-30154b74cb23}" xml:space="preserve">
+    <value>Mandate start date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{63e3460c-6769-5b8e-6989-30154b74cb23}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{647232bd-2b02-c07c-d83c-7cb1eb2bae1c}" xml:space="preserve">
+    <value>Amount</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{647232bd-2b02-c07c-d83c-7cb1eb2bae1c}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{6b69aaab-c91d-7c80-8e37-2559ccdb897b}" xml:space="preserve">
+    <value>Last item date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{6b69aaab-c91d-7c80-8e37-2559ccdb897b}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{6c829a32-9aae-2c07-b656-e28069d308ce}" xml:space="preserve">
+    <value>Creditor identifier</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{6c829a32-9aae-2c07-b656-e28069d308ce}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{74419cab-d60d-da14-0b46-e597a48c0adb}" xml:space="preserve">
+    <value>Debtor account</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{74419cab-d60d-da14-0b46-e597a48c0adb}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{76b58aa9-1ac7-225c-8a54-85d3ea250618}" xml:space="preserve">
+    <value>Creditor name</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{76b58aa9-1ac7-225c-8a54-85d3ea250618}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{7c57ee46-0903-e2a8-c201-a8a1317bbe3b}" xml:space="preserve">
+    <value>Mandate limit</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{7c57ee46-0903-e2a8-c201-a8a1317bbe3b}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{90b25c16-bc9b-49a2-4289-08ad1a9a6b9b}" xml:space="preserve">
+    <value>Creditor name</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{90b25c16-bc9b-49a2-4289-08ad1a9a6b9b}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{93e3d5bd-470b-1a33-e8a6-477b4ec05c4d}" xml:space="preserve">
+    <value>Mandate start date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{93e3d5bd-470b-1a33-e8a6-477b4ec05c4d}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{9cb62c30-873e-044c-b768-66bdac3b7678}" xml:space="preserve">
+    <value>Last item status</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{9cb62c30-873e-044c-b768-66bdac3b7678}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{a54432ae-2cbd-a084-682d-7d01c4377e61}" xml:space="preserve">
+    <value>Next item amount</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{a54432ae-2cbd-a084-682d-7d01c4377e61}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{a5b9c556-b3ae-b6ad-31c4-95046487c753}" xml:space="preserve">
+    <value>Mandate limit</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{a5b9c556-b3ae-b6ad-31c4-95046487c753}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{ab95e344-4128-1348-5c72-bbc5dd165cc3}" xml:space="preserve">
+    <value>Last item amount</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{ab95e344-4128-1348-5c72-bbc5dd165cc3}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{b76e83ec-732a-1476-9e73-eec6898d9808}" xml:space="preserve">
+    <value>Last item status</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{b76e83ec-732a-1476-9e73-eec6898d9808}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{bd167eb8-c548-5ca5-408c-9b3c9082186b}" xml:space="preserve">
+    <value>Last item amount</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{bd167eb8-c548-5ca5-408c-9b3c9082186b}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{be615110-3c9f-48c6-b63a-c66ed8d6b8bb}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Direct debit' : label for section in Entity FormXml ID: '{be615110-3c9f-48c6-b63a-c66ed8d6b8bb}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{cc9ec728-89d0-44d8-d7c9-239a567058c5}" xml:space="preserve">
+    <value>Mandate end date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{cc9ec728-89d0-44d8-d7c9-239a567058c5}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{d783d011-eb72-b33c-223e-07931eb8a9e2}" xml:space="preserve">
+    <value>Last item date</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{d783d011-eb72-b33c-223e-07931eb8a9e2}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{dc1600c2-eaaa-c2bd-ad27-b3ea85dad788}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{dc1600c2-eaaa-c2bd-ad27-b3ea85dad788}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{dce082b6-da16-6da1-d02c-10bdee0b1011}" xml:space="preserve">
+    <value>Amount</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{dce082b6-da16-6da1-d02c-10bdee0b1011}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{e5dbd78a-da20-4fa5-90ae-4a9a718f8028}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FI Direct debit' : label for cell in Entity FormXml ID: '{e5dbd78a-da20-4fa5-90ae-4a9a718f8028}'</comment>
+  </data>
+  <data name="1:label,FI Direct debit{f3e4738f-f6cf-47ab-a0a4-66822c4101dc}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FI Direct debit' : label for section in Entity FormXml ID: '{f3e4738f-f6cf-47ab-a0a4-66822c4101dc}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{111d9e86-1bc0-8cde-7162-44a4e84c39c4}" xml:space="preserve">
+    <value>Overdraft limit used</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{111d9e86-1bc0-8cde-7162-44a4e84c39c4}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{136ad4da-f556-416f-b82b-b9a5dde16221}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Overdraft' : label for tab in Entity FormXml ID: '{136ad4da-f556-416f-b82b-b9a5dde16221}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{1c3cc5ce-1220-3599-6d29-6ea24c4a6835}" xml:space="preserve">
+    <value>Overdraft rate</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{1c3cc5ce-1220-3599-6d29-6ea24c4a6835}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{26802c7d-2eb5-4a71-a87e-af871206fab5}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FI Overdraft' : label for section in Entity FormXml ID: '{26802c7d-2eb5-4a71-a87e-af871206fab5}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{306c268a-80a3-2082-e07a-dc7287305cb1}" xml:space="preserve">
+    <value>Overdraft limit used</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{306c268a-80a3-2082-e07a-dc7287305cb1}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{62bea05a-0984-a1a7-63dd-ac6aa6c29497}" xml:space="preserve">
+    <value>Overdraft rate</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{62bea05a-0984-a1a7-63dd-ac6aa6c29497}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{6d955782-7326-acd6-7b1c-b49ee531bb2b}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{6d955782-7326-acd6-7b1c-b49ee531bb2b}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{72d733bc-c6aa-4de9-89e4-4d9350b7ca39}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{72d733bc-c6aa-4de9-89e4-4d9350b7ca39}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{759cd75b-9bec-0d8a-aa37-88e1524ede33}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{759cd75b-9bec-0d8a-aa37-88e1524ede33}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{8c12fbeb-2618-4c8d-804a-59a4999cbbc9}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{8c12fbeb-2618-4c8d-804a-59a4999cbbc9}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{a33128ae-908d-e625-43c8-5e3122153d74}" xml:space="preserve">
+    <value>Overdraft limit</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{a33128ae-908d-e625-43c8-5e3122153d74}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{c44b8ded-a87c-4999-9fb1-892041caf094}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FI Overdraft' : label for tab in Entity FormXml ID: '{c44b8ded-a87c-4999-9fb1-892041caf094}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{e47ec1ca-e343-4fc3-a281-e165f1330f4a}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Overdraft' : label for section in Entity FormXml ID: '{e47ec1ca-e343-4fc3-a281-e165f1330f4a}'</comment>
+  </data>
+  <data name="1:label,FI Overdraft{ed7a3a06-5e13-3c39-3863-bbd1e9b13e40}" xml:space="preserve">
+    <value>Overdraft limit</value>
+    <comment>'FI Overdraft' : label for cell in Entity FormXml ID: '{ed7a3a06-5e13-3c39-3863-bbd1e9b13e40}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{04dde230-df3a-4357-9361-dd5fea3de389}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'FI Standing order' : label for section in Entity FormXml ID: '{04dde230-df3a-4357-9361-dd5fea3de389}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{0acb9663-d746-706e-8865-d82c68b79be9}" xml:space="preserve">
+    <value>Day of week</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{0acb9663-d746-706e-8865-d82c68b79be9}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{1e93b15c-882d-3b59-8ad8-5e597ab52d86}" xml:space="preserve">
+    <value>Creditor name</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{1e93b15c-882d-3b59-8ad8-5e597ab52d86}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{32c2ee0a-c556-1d0e-48d7-d218b3a67b6c}" xml:space="preserve">
+    <value>Day of week</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{32c2ee0a-c556-1d0e-48d7-d218b3a67b6c}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{391c0627-1c1d-8823-bb18-dc0a6970515c}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{391c0627-1c1d-8823-bb18-dc0a6970515c}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{3c016dd0-cd56-a280-4ebd-d4cd4210e4c4}" xml:space="preserve">
+    <value>Frequency</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{3c016dd0-cd56-a280-4ebd-d4cd4210e4c4}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{4d3d047e-92bb-183c-5ed0-7a83e20a947e}" xml:space="preserve">
+    <value>Creditor account</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{4d3d047e-92bb-183c-5ed0-7a83e20a947e}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{50431b99-83cd-1e12-2d58-575188ceda44}" xml:space="preserve">
+    <value>Next item amount</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{50431b99-83cd-1e12-2d58-575188ceda44}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{60612b98-6cba-2357-3d27-6396a8391dad}" xml:space="preserve">
+    <value>Last item date</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{60612b98-6cba-2357-3d27-6396a8391dad}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{606bc739-e5b2-2ee7-5567-41c2d2d74de4}" xml:space="preserve">
+    <value>Day of month</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{606bc739-e5b2-2ee7-5567-41c2d2d74de4}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{62081101-ec25-a24d-8ba1-1ba06787d52d}" xml:space="preserve">
+    <value>Last item amount</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{62081101-ec25-a24d-8ba1-1ba06787d52d}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{65b45996-838b-c524-20b9-2e4252ae60c4}" xml:space="preserve">
+    <value>Next item date</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{65b45996-838b-c524-20b9-2e4252ae60c4}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{742310a4-b4a3-7485-8056-36905055860d}" xml:space="preserve">
+    <value>Creditor account</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{742310a4-b4a3-7485-8056-36905055860d}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{75b210a3-96e7-7cee-1849-cd752d585c8c}" xml:space="preserve">
+    <value>Next item date</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{75b210a3-96e7-7cee-1849-cd752d585c8c}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{843a77a5-102c-b595-8c48-b5ec01178956}" xml:space="preserve">
+    <value>Next item amount</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{843a77a5-102c-b595-8c48-b5ec01178956}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{87dd09b7-986a-25da-3058-ed5213ed81bc}" xml:space="preserve">
+    <value>Last item status reason</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{87dd09b7-986a-25da-3058-ed5213ed81bc}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{954c56fa-2388-4029-96a6-5255aa7bba42}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{954c56fa-2388-4029-96a6-5255aa7bba42}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{957405a4-78ea-b2e0-0dc7-b15bb7045454}" xml:space="preserve">
+    <value>First payment date</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{957405a4-78ea-b2e0-0dc7-b15bb7045454}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{979c3c1b-354b-351c-7d09-65a7c3399e8c}" xml:space="preserve">
+    <value>Last item status</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{979c3c1b-354b-351c-7d09-65a7c3399e8c}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{979ee81b-c7aa-888c-9519-a57c6a087b7e}" xml:space="preserve">
+    <value>Amount</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{979ee81b-c7aa-888c-9519-a57c6a087b7e}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{a6c80bf5-3186-460b-aa6a-f763e570659a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{a6c80bf5-3186-460b-aa6a-f763e570659a}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{abe73cc2-5404-48f2-b899-4a716779a624}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Standing order' : label for section in Entity FormXml ID: '{abe73cc2-5404-48f2-b899-4a716779a624}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{b0b1d13a-be07-ed33-6842-3915bb746330}" xml:space="preserve">
+    <value>Last item status</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{b0b1d13a-be07-ed33-6842-3915bb746330}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{b59ea17c-1412-a9bb-6ee2-3a1dedb5c2e1}" xml:space="preserve">
+    <value>Creditor name</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{b59ea17c-1412-a9bb-6ee2-3a1dedb5c2e1}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{b755226d-1a67-a119-d6cc-7c7a714e478a}" xml:space="preserve">
+    <value>First payment date</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{b755226d-1a67-a119-d6cc-7c7a714e478a}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{bcab8be0-e432-8dd2-3123-10a03d515cbd}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{bcab8be0-e432-8dd2-3123-10a03d515cbd}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{be1eb97b-5055-a398-49b5-e9e8a9c6396b}" xml:space="preserve">
+    <value>Debtor account</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{be1eb97b-5055-a398-49b5-e9e8a9c6396b}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{c72c2899-aa21-c398-a513-ed0c1172a5de}" xml:space="preserve">
+    <value>Day of month</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{c72c2899-aa21-c398-a513-ed0c1172a5de}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{d00d3997-5aba-6d2d-c5cb-48b9ec8085c3}" xml:space="preserve">
+    <value>Frequency</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{d00d3997-5aba-6d2d-c5cb-48b9ec8085c3}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{d4c81d02-9e54-d4b8-e15e-ad58494073b0}" xml:space="preserve">
+    <value>Last item status reason</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{d4c81d02-9e54-d4b8-e15e-ad58494073b0}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{d6b57179-2bac-4a38-acd4-04ca9433db53}" xml:space="preserve">
+    <value>General</value>
+    <comment>'FI Standing order' : label for tab in Entity FormXml ID: '{d6b57179-2bac-4a38-acd4-04ca9433db53}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{db7bb64d-e327-18cb-0b84-d35ac157e697}" xml:space="preserve">
+    <value>Last item date</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{db7bb64d-e327-18cb-0b84-d35ac157e697}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{e2139741-1574-b7e0-e1ed-8c73a0c4cc49}" xml:space="preserve">
+    <value>Debtor account</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{e2139741-1574-b7e0-e1ed-8c73a0c4cc49}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{e43a416f-887d-45d0-853d-2cc2badc9ec1}" xml:space="preserve">
+    <value>Tab</value>
+    <comment>'FI Standing order' : label for tab in Entity FormXml ID: '{e43a416f-887d-45d0-853d-2cc2badc9ec1}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{e68ceb2d-b1e3-3211-7b07-ad962ad3ad6b}" xml:space="preserve">
+    <value>Last item amount</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{e68ceb2d-b1e3-3211-7b07-ad962ad3ad6b}'</comment>
+  </data>
+  <data name="1:label,FI Standing order{eb7da348-3b26-b048-7947-9aba150c99ab}" xml:space="preserve">
+    <value>Amount</value>
+    <comment>'FI Standing order' : label for cell in Entity FormXml ID: '{eb7da348-3b26-b048-7947-9aba150c99ab}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{13e7c251-64a2-aed9-0920-5c10256c2345}" xml:space="preserve">
+    <value>Financial holding</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{13e7c251-64a2-aed9-0920-5c10256c2345}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{58a21077-5c4b-9d29-bdbd-81ca3a44cc1e}" xml:space="preserve">
+    <value>Financial instrument type</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{58a21077-5c4b-9d29-bdbd-81ca3a44cc1e}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{70a0c2c6-c100-4c33-81cc-6c367bd9d9eb}" xml:space="preserve">
+    <value>Conflicts section</value>
+    <comment>'Financial holding instrument' : label for section in Entity FormXml ID: '{70a0c2c6-c100-4c33-81cc-6c367bd9d9eb}'</comment>
+  </data>
+  <data name="1:label,Financial holding instrument{885771fd-bb03-49d3-9518-79b734226ceb}" xml:space="preserve">
+    <value>New QV control 1629201060762</value>
+    <comment>'Financial holding instrument' : label for cell in Entity FormXml ID: '{885771fd-bb03-49d3-9518-79b734226ceb}'</comment>
+  </data>
+  <data name="1:label,Financial holding{05d3114e-a3b8-4c61-b5d2-9ea9d2a1028a}" xml:space="preserve">
+    <value>Financial holding instruments (financial holding)</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{05d3114e-a3b8-4c61-b5d2-9ea9d2a1028a}'</comment>
+  </data>
+  <data name="1:label,Financial holding{0c963494-15e0-a22a-e633-412aaa6ea637}" xml:space="preserve">
+    <value>Financial holding instrument</value>
+    <comment>'Financial holding' : label for tab in Entity FormXml ID: '{0c963494-15e0-a22a-e633-412aaa6ea637}'</comment>
+  </data>
+  <data name="1:label,Financial holding{322c7912-248d-e8c3-d17c-4a0c305e211b}" xml:space="preserve">
+    <value>Financial holding category</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{322c7912-248d-e8c3-d17c-4a0c305e211b}'</comment>
+  </data>
+  <data name="1:label,Financial holding{34f19d69-323e-4b4d-9080-6dfdb7129942}" xml:space="preserve">
+    <value>Id</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{34f19d69-323e-4b4d-9080-6dfdb7129942}'</comment>
+  </data>
+  <data name="1:label,Financial holding{4146169a-379e-d780-0a9a-72738251e2aa}" xml:space="preserve">
+    <value>Financial holding name</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{4146169a-379e-d780-0a9a-72738251e2aa}'</comment>
+  </data>
+  <data name="1:label,Financial holding{e50d97c6-11d9-47cd-a459-7f74e9763a94}" xml:space="preserve">
+    <value>New QV control 1629188605431</value>
+    <comment>'Financial holding' : label for cell in Entity FormXml ID: '{e50d97c6-11d9-47cd-a459-7f74e9763a94}'</comment>
+  </data>
+  <data name="1:label,Financial holding{e732868d-b455-c528-87cc-abb172aa1763}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Financial holding' : label for section in Entity FormXml ID: '{e732868d-b455-c528-87cc-abb172aa1763}'</comment>
+  </data>
+  <data name="1:label,Group member{2c089b95-4ee9-dc87-02b1-838a3d95e61e}" xml:space="preserve">
+    <value>Customer</value>
+    <comment>'Group member' : label for cell in Entity FormXml ID: '{2c089b95-4ee9-dc87-02b1-838a3d95e61e}'</comment>
+  </data>
+  <data name="1:label,Group member{5acd282b-772e-a772-b65d-bc5e2a59809c}" xml:space="preserve">
+    <value>Group</value>
+    <comment>'Group member' : label for cell in Entity FormXml ID: '{5acd282b-772e-a772-b65d-bc5e2a59809c}'</comment>
+  </data>
+  <data name="1:label,Group member{6d7a05dc-c666-1ba6-e042-03e2971ee762}" xml:space="preserve">
+    <value>Is group type primary</value>
+    <comment>'Group member' : label for cell in Entity FormXml ID: '{6d7a05dc-c666-1ba6-e042-03e2971ee762}'</comment>
+  </data>
+  <data name="1:label,Group member{c5c38161-38e1-a723-4752-02b15c31975d}" xml:space="preserve">
+    <value>Role</value>
+    <comment>'Group member' : label for cell in Entity FormXml ID: '{c5c38161-38e1-a723-4752-02b15c31975d}'</comment>
+  </data>
+  <data name="1:label,Group{03e0d6e8-4cb4-2b84-4cd6-430523a988ed}" xml:space="preserve">
+    <value>Group financial holding</value>
+    <comment>'Group' : label for tab in Entity FormXml ID: '{03e0d6e8-4cb4-2b84-4cd6-430523a988ed}'</comment>
+  </data>
+  <data name="1:label,Group{09389bde-c387-563c-cae5-a84c579e1e3b}" xml:space="preserve">
+    <value>Type</value>
+    <comment>'Group' : label for cell in Entity FormXml ID: '{09389bde-c387-563c-cae5-a84c579e1e3b}'</comment>
+  </data>
+  <data name="1:label,Group{1ae2dd95-0099-4aee-430d-cca02378ca03}" xml:space="preserve">
+    <value>Primary member</value>
+    <comment>'Group' : label for cell in Entity FormXml ID: '{1ae2dd95-0099-4aee-430d-cca02378ca03}'</comment>
+  </data>
+  <data name="1:label,Group{2a0bc934-ad24-0269-a5e4-86dce8bd3614}" xml:space="preserve">
+    <value>Type</value>
+    <comment>'Group' : label for cell in Entity FormXml ID: '{2a0bc934-ad24-0269-a5e4-86dce8bd3614}'</comment>
+  </data>
+  <data name="1:label,Group{64b039b3-c6dc-29e3-e7b4-b5e632a0d71d}" xml:space="preserve">
+    <value>Primary member</value>
+    <comment>'Group' : label for cell in Entity FormXml ID: '{64b039b3-c6dc-29e3-e7b4-b5e632a0d71d}'</comment>
+  </data>
+  <data name="1:label,Group{89e95844-0de6-5334-d7b8-770ed0c2a325}" xml:space="preserve">
+    <value>Group financial holdings (group)</value>
+    <comment>'Group' : label for cell in Entity FormXml ID: '{89e95844-0de6-5334-d7b8-770ed0c2a325}'</comment>
+  </data>
+  <data name="1:label,Group{d25910d3-3ade-5652-a9b1-c7868320bc53}" xml:space="preserve">
+    <value>Section</value>
+    <comment>'Group' : label for section in Entity FormXml ID: '{d25910d3-3ade-5652-a9b1-c7868320bc53}'</comment>
+  </data>
+  <data name="1:label,Life Event{11d1499c-1469-4dca-8171-8c60f9b12a13}" xml:space="preserve">
+    <value>Date</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{11d1499c-1469-4dca-8171-8c60f9b12a13}'</comment>
+  </data>
+  <data name="1:label,Life Event{27ab3315-c9e4-0329-481b-b192d2e39c67}" xml:space="preserve">
+    <value>Title</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{27ab3315-c9e4-0329-481b-b192d2e39c67}'</comment>
+  </data>
+  <data name="1:label,Life Event{7c007212-4daa-4499-907d-83fd4811511b}" xml:space="preserve">
+    <value />
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{7c007212-4daa-4499-907d-83fd4811511b}'</comment>
+  </data>
+  <data name="1:label,Life Event{8bb47bd2-7133-4474-884a-0c371eea9afc}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life Event' : label for tab in Entity FormXml ID: '{8bb47bd2-7133-4474-884a-0c371eea9afc}'</comment>
+  </data>
+  <data name="1:label,Life Event{9327f1b1-daaa-42d8-915f-7c51878fdc4e}" xml:space="preserve">
+    <value>Life event type</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{9327f1b1-daaa-42d8-915f-7c51878fdc4e}'</comment>
+  </data>
+  <data name="1:label,Life Event{9779d7aa-b122-4a42-9662-446b62b3c765}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{9779d7aa-b122-4a42-9662-446b62b3c765}'</comment>
+  </data>
+  <data name="1:label,Life Event{9b4b7a8f-9af0-495d-842b-daa9f0ee8092}" xml:space="preserve">
+    <value>Life event category</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{9b4b7a8f-9af0-495d-842b-daa9f0ee8092}'</comment>
+  </data>
+  <data name="1:label,Life Event{aceeaa6a-4238-4fec-8651-26c9104a3f8c}" xml:space="preserve">
+    <value />
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{aceeaa6a-4238-4fec-8651-26c9104a3f8c}'</comment>
+  </data>
+  <data name="1:label,Life Event{ae228af1-73d2-42fd-9363-26ed1c749a1e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{ae228af1-73d2-42fd-9363-26ed1c749a1e}'</comment>
+  </data>
+  <data name="1:label,Life Event{ee857b37-bf39-4a4a-8a57-7d16bfabc92b}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Life Event' : label for section in Entity FormXml ID: '{ee857b37-bf39-4a4a-8a57-7d16bfabc92b}'</comment>
+  </data>
+  <data name="1:label,Life Event{fb2b9bad-8f8b-4c17-bb92-d16a3de0d0b8}" xml:space="preserve">
+    <value>Contact</value>
+    <comment>'Life Event' : label for cell in Entity FormXml ID: '{fb2b9bad-8f8b-4c17-bb92-d16a3de0d0b8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Bank{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Bank' : LocalizedName for systemform in Entity FormXml ID: '{1edac099-bd52-4c99-9052-cdf26a50c7fa}'</comment>
+  </data>
+  <data name="1:LocalizedName,Branch{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Branch' : LocalizedName for systemform in Entity FormXml ID: '{529287a4-8f26-42d1-bc89-ed1d3249fb2e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Branch{543b8b7a-6b07-482a-b36d-dde959d58d5b}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Branch' : LocalizedName for systemform in Entity FormXml ID: '{543b8b7a-6b07-482a-b36d-dde959d58d5b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Contact</value>
+    <comment>'Contact' : LocalizedName for systemform in Entity FormXml ID: '{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Unified customer profile</value>
+    <comment>'Contact' : LocalizedName for systemform in Entity FormXml ID: '{55ae608e-3f74-eb11-a812-000d3a37d57b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{e34cc42e-867b-eb11-a812-0022481f18ea}" xml:space="preserve">
+    <value>My Contacts</value>
+    <comment>'Contact' : LocalizedName for SavedQuery on Entity QueryId: '{e34cc42e-867b-eb11-a812-0022481f18ea}'</comment>
+  </data>
+  <data name="1:LocalizedName,Contact{eb5177da-867b-eb11-a812-0022481f18ea}" xml:space="preserve">
+    <value>All Contacts</value>
+    <comment>'Contact' : LocalizedName for SavedQuery on Entity QueryId: '{eb5177da-867b-eb11-a812-0022481f18ea}'</comment>
+  </data>
+  <data name="1:LocalizedName,Customer financial holding{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Customer financial holding' : LocalizedName for systemform in Entity FormXml ID: '{20564e53-7f9e-4015-bf98-554d7dee3bf7}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Account{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>FH account main form</value>
+    <comment>'FH Account' : LocalizedName for systemform in Entity FormXml ID: '{31f01299-38ff-eb11-94ef-0022480a761c}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Account{aed8dce9-3bff-eb11-94ef-0022480a77ca}" xml:space="preserve">
+    <value>FH account quick view form</value>
+    <comment>'FH Account' : LocalizedName for systemform in Entity FormXml ID: '{aed8dce9-3bff-eb11-94ef-0022480a77ca}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Investment{107653e2-2f8e-4cc2-b586-8348ecc225b1}" xml:space="preserve">
+    <value>FH investment quick view form</value>
+    <comment>'FH Investment' : LocalizedName for systemform in Entity FormXml ID: '{107653e2-2f8e-4cc2-b586-8348ecc225b1}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Investment{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>FH investment main form</value>
+    <comment>'FH Investment' : LocalizedName for systemform in Entity FormXml ID: '{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Line of credit{07f80ed7-abef-4550-8ec5-7a7613b26c52}" xml:space="preserve">
+    <value>FH line of credit main form</value>
+    <comment>'FH Line of credit' : LocalizedName for systemform in Entity FormXml ID: '{07f80ed7-abef-4550-8ec5-7a7613b26c52}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Line of credit{a4ccb18c-099d-43e8-809d-64a21ef93c9e}" xml:space="preserve">
+    <value>FH line of credit quick view form</value>
+    <comment>'FH Line of credit' : LocalizedName for systemform in Entity FormXml ID: '{a4ccb18c-099d-43e8-809d-64a21ef93c9e}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Loan{532e4a58-0d6a-4658-8784-12264b3b295d}" xml:space="preserve">
+    <value>FH loan quick view form</value>
+    <comment>'FH Loan' : LocalizedName for systemform in Entity FormXml ID: '{532e4a58-0d6a-4658-8784-12264b3b295d}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Loan{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>FH loan main form</value>
+    <comment>'FH Loan' : LocalizedName for systemform in Entity FormXml ID: '{d9027c35-13e4-416f-b8d7-dd2b9825359d}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Saving{230ec2cc-fdaa-4c5f-aeb3-c0d557d7c680}" xml:space="preserve">
+    <value>FH savings quick view form</value>
+    <comment>'FH Saving' : LocalizedName for systemform in Entity FormXml ID: '{230ec2cc-fdaa-4c5f-aeb3-c0d557d7c680}'</comment>
+  </data>
+  <data name="1:LocalizedName,FH Saving{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>FH savings main form</value>
+    <comment>'FH Saving' : LocalizedName for systemform in Entity FormXml ID: '{bca71c6b-9775-4762-b385-05a95f0c3a8b}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Card{4ee9fc8f-50ff-eb11-94ef-002248047c4c}" xml:space="preserve">
+    <value>FI card main form</value>
+    <comment>'FI Card' : LocalizedName for systemform in Entity FormXml ID: '{4ee9fc8f-50ff-eb11-94ef-002248047c4c}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Card{a4bc654e-51ff-eb11-94ef-002248047c4c}" xml:space="preserve">
+    <value>FI card quick view form</value>
+    <comment>'FI Card' : LocalizedName for systemform in Entity FormXml ID: '{a4bc654e-51ff-eb11-94ef-002248047c4c}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Direct debit{226fb4b7-7ad9-43b8-90fa-26adb379c917}" xml:space="preserve">
+    <value>FI direct debit quick view form</value>
+    <comment>'FI Direct debit' : LocalizedName for systemform in Entity FormXml ID: '{226fb4b7-7ad9-43b8-90fa-26adb379c917}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Direct debit{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>FI direct debit main form</value>
+    <comment>'FI Direct debit' : LocalizedName for systemform in Entity FormXml ID: '{344ce063-cf94-4ef1-8032-c4a08265ad32}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Overdraft{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>FI overdraft main form</value>
+    <comment>'FI Overdraft' : LocalizedName for systemform in Entity FormXml ID: '{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Overdraft{f00d8453-96ad-4ef3-841f-6d45938cc50e}" xml:space="preserve">
+    <value>FI overdraft quick view form</value>
+    <comment>'FI Overdraft' : LocalizedName for systemform in Entity FormXml ID: '{f00d8453-96ad-4ef3-841f-6d45938cc50e}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Standing order{129f803b-dbef-45f5-80e3-31939cf2ec35}" xml:space="preserve">
+    <value>FI standing order quick view form</value>
+    <comment>'FI Standing order' : LocalizedName for systemform in Entity FormXml ID: '{129f803b-dbef-45f5-80e3-31939cf2ec35}'</comment>
+  </data>
+  <data name="1:LocalizedName,FI Standing order{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>FI standing order main form</value>
+    <comment>'FI Standing order' : LocalizedName for systemform in Entity FormXml ID: '{f8a9e297-7c1f-432a-9758-06a48bef5628}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial holding instrument{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Financial holding instrument' : LocalizedName for systemform in Entity FormXml ID: '{de27d2e0-c11b-484b-88d8-436aae07401a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial holding instrument{e8d6a922-ec24-420a-b559-6f467fc589f9}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Financial holding instrument' : LocalizedName for systemform in Entity FormXml ID: '{e8d6a922-ec24-420a-b559-6f467fc589f9}'</comment>
+  </data>
+  <data name="1:LocalizedName,Financial holding{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Financial holding' : LocalizedName for systemform in Entity FormXml ID: '{8f703a00-e8df-455c-a83d-965ac864374c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Group member{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Group member' : LocalizedName for systemform in Entity FormXml ID: '{06d76f67-4e8c-49fc-a76c-8e98bb87d381}'</comment>
+  </data>
+  <data name="1:LocalizedName,Group{718fd3a2-f532-40e1-b125-aa9f66eda46a}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Group' : LocalizedName for systemform in Entity FormXml ID: '{718fd3a2-f532-40e1-b125-aa9f66eda46a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Group{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Group' : LocalizedName for systemform in Entity FormXml ID: '{8cf222d5-949e-461e-a6d8-66174e60662e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Life Event{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>Life event main form</value>
+    <comment>'Life Event' : LocalizedName for systemform in Entity FormXml ID: '{28d73704-4f4f-42e5-865a-9289c4de4285}'</comment>
+  </data>
+  <data name="1:Title,BankInfo{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Bank' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,BankMarketing{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Bank' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,BankProcessCenter{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Bank' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,BankSales{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Bank' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,BankService{1edac099-bd52-4c99-9052-cdf26a50c7fa}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Bank' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,BranchInfo{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Branch' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,BranchMarketing{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Branch' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,BranchProcessCenter{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Branch' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,BranchSales{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Branch' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,BranchService{529287a4-8f26-42d1-bc89-ed1d3249fb2e}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Branch' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,ContactInfo{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,ContactInfo{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,ContactMarketing{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,ContactMarketing{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,ContactMscrm.Form.contact.SaveAndClose.Alt" xml:space="preserve">
+    <value>Close</value>
+    <comment>'Contact' : Title for LocLabel on Entity ID: 'Mscrm.Form.contact.SaveAndClose.Alt'</comment>
+  </data>
+  <data name="1:Title,ContactMscrm.Form.contact.SaveAndClose.LabelText" xml:space="preserve">
+    <value>Close</value>
+    <comment>'Contact' : Title for LocLabel on Entity ID: 'Mscrm.Form.contact.SaveAndClose.LabelText'</comment>
+  </data>
+  <data name="1:Title,ContactMscrm.Form.contact.SaveAndClose.ToolTipDescription" xml:space="preserve">
+    <value>Close this {0}.</value>
+    <comment>'Contact' : Title for LocLabel on Entity ID: 'Mscrm.Form.contact.SaveAndClose.ToolTipDescription'</comment>
+  </data>
+  <data name="1:Title,ContactMscrm.Form.contact.SaveAndClose.ToolTipTitle" xml:space="preserve">
+    <value>Close</value>
+    <comment>'Contact' : Title for LocLabel on Entity ID: 'Mscrm.Form.contact.SaveAndClose.ToolTipTitle'</comment>
+  </data>
+  <data name="1:Title,ContactnavActivities{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Activities</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navActivities'</comment>
+  </data>
+  <data name="1:Title,ContactnavAddresses{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Addresses</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAddresses'</comment>
+  </data>
+  <data name="1:Title,ContactnavAsyncOperations{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Workflows</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAsyncOperations'</comment>
+  </data>
+  <data name="1:Title,ContactnavAudit{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Audit history</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
+  </data>
+  <data name="1:Title,ContactnavCampaignsInSFA{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Campaigns</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navCampaignsInSFA'</comment>
+  </data>
+  <data name="1:Title,ContactnavConnections{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Connections</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navConnections'</comment>
+  </data>
+  <data name="1:Title,ContactnavFeedback{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Feedback</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navFeedback'</comment>
+  </data>
+  <data name="1:Title,ContactnavProcessSessions{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Dialog sessions</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navProcessSessions'</comment>
+  </data>
+  <data name="1:Title,ContactnavRelationships{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Customerrelationship</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navRelationships'</comment>
+  </data>
+  <data name="1:Title,ContactnavSocialprofile{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Social profiles</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSocialprofile'</comment>
+  </data>
+  <data name="1:Title,ContactnavSubConts{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Contacts</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navSubConts'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_ApplicationDocument_Submitter_Conta{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Application documents</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_ApplicationDocument_Submitter_Conta'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_ApplicationDocument_Submitter_Conta{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Application documents</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_ApplicationDocument_Submitter_Conta'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_ApplicationDocument_Origin{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Application documents</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_ApplicationDocument_Origin'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_ApplicationDocument_Origin{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Application documents</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_ApplicationDocument_Origin'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_customerfinancialholding_CustomerID{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Customer financial holdings</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_customerfinancialholding_CustomerID'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_fi_Card_Cardholder{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>FI cards</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_fi_Card_Cardholder'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_fi_Card_Cardholder{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>FI cards</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_fi_Card_Cardholder'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_lifemoment_Contact{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Life events</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_lifemoment_Contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_lifemoment_Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Life events</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_lifemoment_Contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_relationship_Contactfrom{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Relationships</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_relationship_Contactfrom'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_relationship_Contactfrom{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Relationships</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_relationship_Contactfrom'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_relationship_Contactto{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Relationships</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_relationship_Contactto'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_contact_msfsi_relationship_Contactto{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Relationships</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_contact_msfsi_relationship_Contactto'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_groupmember_member_contact{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Group members</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_groupmember_member_contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_groupmember_member_contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Group members</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_groupmember_member_contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_Group_PrimaryMember_Contact{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Groups</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_Group_PrimaryMember_Contact'</comment>
+  </data>
+  <data name="1:Title,Contactnav_msfsi_Group_PrimaryMember_Contact{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Groups</value>
+    <comment>'Contact' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'nav_msfsi_Group_PrimaryMember_Contact'</comment>
+  </data>
+  <data name="1:Title,ContactProcessCenter{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,ContactProcessCenter{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,ContactSales{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,ContactSales{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,ContactService{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,ContactService{55ae608e-3f74-eb11-a812-000d3a37d57b}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Contact' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Customer financial holdingInfo{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Customer financial holding' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Customer financial holdingMarketing{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Customer financial holding' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Customer financial holdingProcessCenter{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Customer financial holding' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Customer financial holdingSales{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Customer financial holding' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Customer financial holdingService{20564e53-7f9e-4015-bf98-554d7dee3bf7}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Customer financial holding' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FH AccountInfo{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FH Account' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FH AccountMarketing{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FH Account' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FH AccountProcessCenter{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FH Account' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FH AccountSales{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FH Account' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FH AccountService{31f01299-38ff-eb11-94ef-0022480a761c}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FH Account' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FH InvestmentInfo{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FH Investment' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FH InvestmentMarketing{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FH Investment' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FH InvestmentProcessCenter{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FH Investment' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FH InvestmentSales{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FH Investment' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FH InvestmentService{5504ae56-f9e1-4fc5-acc5-51623f68b3d9}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FH Investment' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FH Line of creditInfo{07f80ed7-abef-4550-8ec5-7a7613b26c52}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FH Line of credit' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FH Line of creditMarketing{07f80ed7-abef-4550-8ec5-7a7613b26c52}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FH Line of credit' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FH Line of creditProcessCenter{07f80ed7-abef-4550-8ec5-7a7613b26c52}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FH Line of credit' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FH Line of creditSales{07f80ed7-abef-4550-8ec5-7a7613b26c52}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FH Line of credit' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FH Line of creditService{07f80ed7-abef-4550-8ec5-7a7613b26c52}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FH Line of credit' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FH LoanInfo{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FH Loan' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FH LoanMarketing{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FH Loan' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FH LoanProcessCenter{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FH Loan' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FH LoanSales{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FH Loan' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FH LoanService{d9027c35-13e4-416f-b8d7-dd2b9825359d}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FH Loan' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FH SavingInfo{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FH Saving' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FH SavingMarketing{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FH Saving' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FH SavingProcessCenter{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FH Saving' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FH SavingSales{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FH Saving' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FH SavingService{bca71c6b-9775-4762-b385-05a95f0c3a8b}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FH Saving' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FI Direct debitInfo{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FI Direct debit' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FI Direct debitMarketing{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FI Direct debit' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FI Direct debitProcessCenter{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FI Direct debit' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FI Direct debitSales{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FI Direct debit' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FI Direct debitService{344ce063-cf94-4ef1-8032-c4a08265ad32}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FI Direct debit' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FI OverdraftInfo{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FI Overdraft' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FI OverdraftMarketing{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FI Overdraft' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FI OverdraftProcessCenter{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FI Overdraft' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FI OverdraftSales{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FI Overdraft' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FI OverdraftService{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FI Overdraft' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,FI Standing orderInfo{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'FI Standing order' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,FI Standing orderMarketing{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'FI Standing order' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,FI Standing orderProcessCenter{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'FI Standing order' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,FI Standing orderSales{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'FI Standing order' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,FI Standing orderService{f8a9e297-7c1f-432a-9758-06a48bef5628}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'FI Standing order' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Financial holding instrumentInfo{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Financial holding instrument' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Financial holding instrumentMarketing{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Financial holding instrument' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Financial holding instrumentProcessCenter{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Financial holding instrument' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Financial holding instrumentSales{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Financial holding instrument' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Financial holding instrumentService{de27d2e0-c11b-484b-88d8-436aae07401a}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Financial holding instrument' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Financial holdingInfo{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Financial holdingMarketing{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Financial holdingnavAudit{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Audit history</value>
+    <comment>'Financial holding' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
+  </data>
+  <data name="1:Title,Financial holdingProcessCenter{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Financial holdingSales{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Financial holdingService{8f703a00-e8df-455c-a83d-965ac864374c}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Financial holding' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Group memberInfo{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Group member' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Group memberMarketing{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Group member' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Group membernavAudit{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Audit history</value>
+    <comment>'Group member' : Title for NavBarByRelationshipItem in Entity FormXml ID: 'navAudit'</comment>
+  </data>
+  <data name="1:Title,Group memberProcessCenter{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Group member' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Group memberSales{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Group member' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Group memberService{06d76f67-4e8c-49fc-a76c-8e98bb87d381}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Group member' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,GroupInfo{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Group' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,GroupMarketing{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Group' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,GroupProcessCenter{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Group' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,GroupSales{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Group' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,GroupService{8cf222d5-949e-461e-a6d8-66174e60662e}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Group' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Life EventInfo{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Life Event' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Life EventMarketing{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Life Event' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Life EventProcessCenter{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>Process sessions</value>
+    <comment>'Life Event' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Life EventSales{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Life Event' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Life EventService{28d73704-4f4f-42e5-865a-9289c4de4285}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Life Event' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="80:Description,msfsi_UnifiedCustomerProfile" xml:space="preserve">
+    <value>Tailor customer experiences with a 360-degree view of each customer to help increase wallet share and loyalty</value>
+    <comment> 'msfsi_UnifiedCustomerProfile' : Description for AppModule</comment>
+  </data>
+  <data name="80:LocalizedName,msfsi_UnifiedCustomerProfile" xml:space="preserve">
+    <value>Unified customer profile for retail banking</value>
+    <comment> 'msfsi_UnifiedCustomerProfile' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,msfsi_UnifiedCustomerProfile" xml:space="preserve">
+    <value>Unified customer profile</value>
+    <comment>'msfsi_UnifiedCustomerProfile' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,customers_areacustomers_area" xml:space="preserve">
+    <value>Customers</value>
+    <comment>Title for Area 'customers_area' Area 'customers_area'</comment>
+  </data>
+  <data name="81:Title,customers_areacustomers_group" xml:space="preserve">
+    <value>Customers</value>
+    <comment>Title for Area 'customers_area' Group 'customers_group'</comment>
+  </data>
+</root>

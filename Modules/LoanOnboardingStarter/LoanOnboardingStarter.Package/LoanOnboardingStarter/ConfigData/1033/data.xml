@@ -1,0 +1,31 @@
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2023-03-12T07:08:22.2739019Z">
+  <entity name="queue" displayname="Queue">
+    <records>
+      <record id="319ebf2c-cebc-ed11-83ff-002248081af8">
+        <field name="name" value="Application queue" />
+        <field name="queueid" value="319ebf2c-cebc-ed11-83ff-002248081af8" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+  <entity name="msfsi_taskdefinition" displayname="Task definition">
+    <records>
+      <record id="bd5df4cb-e5d0-ed11-a7c7-000d3a549c38">
+        <field name="msfsi_processstage" value="fb9b0718-8d1e-44d5-9023-a1bd063da63d" lookupentity="processstage" lookupentityname="Loan Verification" />
+      </record>
+      <record id="7f7d0258-ecd0-ed11-a7c7-000d3a549c38">
+        <field name="msfsi_processstage" value="fb9b0718-8d1e-44d5-9023-a1bd063da63d" lookupentity="processstage" lookupentityname="Loan Verification" />
+      </record>
+      <record id="fb7921ac-ecd0-ed11-a7c7-000d3a549c38">
+        <field name="msfsi_processstage" value="fb9b0718-8d1e-44d5-9023-a1bd063da63d" lookupentity="processstage" lookupentityname="Loan Verification" />
+      </record>
+      <record id="7c8bfafa-ecd0-ed11-a7c7-000d3a549c38">
+        <field name="msfsi_processstage" value="fb9b0718-8d1e-44d5-9023-a1bd063da63d" lookupentity="processstage" lookupentityname="Loan Verification" />
+      </record>
+      <record id="e3069e57-edd0-ed11-a7c7-000d3a549c38">
+        <field name="msfsi_processstage" value="fb9b0718-8d1e-44d5-9023-a1bd063da63d" lookupentity="processstage" lookupentityname="Loan Verification" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

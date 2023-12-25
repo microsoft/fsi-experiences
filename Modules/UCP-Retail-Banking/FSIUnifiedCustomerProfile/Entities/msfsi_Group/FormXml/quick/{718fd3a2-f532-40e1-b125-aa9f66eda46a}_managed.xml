@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{718fd3a2-f532-40e1-b125-aa9f66eda46a}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{2d387685-f55b-4c5a-b95f-fcb415446888}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{249636cc-677f-4ccb-abe5-811178ce955f}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{1e0435a6-8e9f-449d-a897-38e23c82b873}" showlabel="true" locklevel="0" ordinalvalue="10000" solutionaction="Modified">
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" uniqueid="{24a02adb-80b9-ebed-d949-b9c94bb08d48}" disabled="true" solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20c070b9-a202-4800-9a3d-0c892d05de62}" showlabel="true" locklevel="1" ordinalvalue="10001" solutionaction="Modified">
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{cbdc2858-0b0a-803a-1e3a-392729beaba3}" disabled="true" solutionaction="Modified">
+                          <parameters solutionaction="Added">
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{09389bde-c387-563c-cae5-a84c579e1e3b}" showlabel="true" locklevel="0" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_type" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_type" disabled="true" uniqueid="{06077558-b02a-7579-b8d8-74b64da8e256}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ae2dd95-0099-4aee-430d-cca02378ca03}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Primary member" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_primarymember" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_primarymember" disabled="true" uniqueid="{44e21a05-5811-1b82-3916-66ac34358058}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4A1D775B-E831-47BA-8581-E03A23899DC3}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

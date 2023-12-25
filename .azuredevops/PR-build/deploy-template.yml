@@ -1,0 +1,95 @@
+parameters:
+  - name: packages
+    type: object
+    default: []
+
+  - name: "environmentUrl"
+    type: string
+    default: " "
+
+  - name: "environmentId"
+    type: string
+    default: " "
+
+  - name: "shouldResetEnv"
+    type: boolean
+    default: false
+
+  - name: requestedAssignmentScenarios
+    type: string
+    default: "Common"
+
+  - name: roleAssignmentsSenariosBlob
+    default: "pr_build_role_assignments_with_scenarios.json"
+
+  - name: "languageCode"
+    type: string
+    default: 1033
+
+  - name: assignApiApplicationUser
+    default: false
+
+steps:
+  - task: microsoft-IsvExpTools.PowerPlatform-BuildTools.tool-installer.PowerPlatformToolInstaller@2
+    displayName: "Install Power Platform Tools"
+    inputs:
+      DefaultVersion: true
+
+  - task: MSCRMToolInstaller@12
+    inputs:
+      nugetFeed: "official"
+      psFeed: "official"
+
+  - ${{if ne(parameters.environmentUrl, ' ')}}:
+      - task: VariableSetTask@2
+        inputs:
+          variableName: "createEnvOutput.BuildTools.EnvironmentUrl"
+          Value: ${{parameters.environmentUrl}}
+
+  - ${{if ne(parameters.environmentId, ' ')}}:
+      - task: VariableSetTask@2
+        inputs:
+          variableName: "createEnvOutput.BuildTools.environmentId"
+          Value: ${{parameters.environmentId}}
+
+  - task: microsoft-IsvExpTools.PowerPlatform-BuildTools.reset-environment.PowerPlatformResetEnvironment@2
+    enabled: ${{parameters.shouldResetEnv}}
+    name: createEnvOutput
+    displayName: "Reset Dataverse Environment $(createEnvOutput.BuildTools.EnvironmentUrl)"
+    inputs:
+      authenticationType: "PowerPlatformEnvironment"
+      PowerPlatformEnvironment: "dyn_bas_fsi_daily_dev_environment"
+      Environment: "$(createEnvOutput.BuildTools.EnvironmentUrl)"
+
+  - ${{if eq(parameters.environmentUrl, ' ')}}:
+      - task: microsoft-IsvExpTools.PowerPlatform-BuildTools.create-environment.PowerPlatformCreateEnvironment@2
+        name: createEnvOutput
+        displayName: "Create Dataverse Environment dynbasfsi.pr.$(Build.BuildNumber)"
+        inputs:
+          authenticationType: "PowerPlatformEnvironment"
+          PowerPlatformEnvironment: "dyn_bas_fsi_daily_dev_environment"
+          DisplayName: "dynbasfsi.pr.$(Build.BuildNumber)"
+          DomainName: "dynbasfsi-pr"
+          EnvironmentSku: "Sandbox"
+          LocationName: "unitedstates"
+          LanguageName: "${{ parameters.languageCode }}"
+          CurrencyName: "USD"
+
+      - task: Wait@1
+        inputs:
+          displayName: "Wait between the creation of the environment to the deployment to allow the deployment user to be introduced to the it"
+          Value: "1"
+          Unit: "minutes"
+
+  - ${{each package in parameters.packages}}:
+      - template: deploy-solution-packages-to-dataverse.yml
+        parameters:
+          ExtractedPackagePath: '$(Agent.TempDirectory)\packagesToDeploy'
+          PackagesPath: '$(Pipeline.Workspace)\FSI\PDPackages'
+          TargetEnvironmentUrl: "$(createEnvOutput.BuildTools.EnvironmentUrl)"
+          AdoPipelineDeploymentUser: "$(adopipelinedeploymentuser)"
+          AdoPipelineDeploymentUserPassword: "$(adopipelinedeploymentuserpassword)"
+          SolutionFolderName: "${{package.packageName}}"
+          DllName: "${{package.packageName}}.Package.dll"
+          ShouldDeployCustomizationData: false
+          ZipFileLocation: '${{package.packageName}}\ConfigData\${{parameters.languageCode}}\${{package.packageName}}_ConfigData.zip'

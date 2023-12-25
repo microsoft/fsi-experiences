@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d6833b4b-a56f-43d5-8fd6-87976a5f84d0}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_lifemomentid">
+          <cell name="a_d46ce19ac90a427288d55dbe8a34b18a.fullname" width="100" />
+          <cell name="msfsi_lifemomentcategory" width="100" />
+          <cell name="msfsi_lifemomenttype" width="100" />
+          <cell name="msfsi_name" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_lifemoment">
+          <attribute name="msfsi_lifemomentid" />
+          <attribute name="msfsi_name" />
+          <order attribute="msfsi_name" descending="false" />
+          <link-entity alias="a_d46ce19ac90a427288d55dbe8a34b18a" name="contact" to="msfsi_contact" from="contactid" link-type="outer" visible="false">
+            <attribute name="fullname" />
+          </link-entity>
+          <attribute name="msfsi_lifemomentcategory" />
+          <attribute name="msfsi_lifemomenttype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Life Event Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,16 @@
+export const IMAGE_SRC = {
+    emptyState: 'emptyState.png',
+    emptyState48: 'emptyState48.png',
+    emptyState100: 'emptyState100.png',
+    emptyStateFolder100: 'emptyStateFolder100.png',
+    emptyFile: 'emptyFile.png',
+    error: 'error.png',
+    error48: 'error48.png',
+    error100: 'error100.png',
+    create: 'create.png',
+    create48: 'create48.png',
+    create100: 'create100.png',
+    connect_error: 'connect_error.png',
+    no_access100: 'no_access100.png',
+    no_access48: 'no_access48.png',
+};

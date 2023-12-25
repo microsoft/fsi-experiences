@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_verificationstatus" localizedName="Verification status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>0</IsCustomizable>
+  <displaynames>
+    <displayname description="Verification status" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="104800000">
+      <labels>
+        <label description="Unverified" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800001">
+      <labels>
+        <label description="Verified" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

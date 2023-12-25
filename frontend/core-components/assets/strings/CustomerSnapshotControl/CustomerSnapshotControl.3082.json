@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "Instantánea del cliente",
+    "ENTITY_ID": "Entidad principal",
+    "ENTITY_ID_DESC": "Identificador de la entidad que el componente de instantánea del cliente usará para capturar datos",
+    "FORM_ID": "Id. de formulario",
+    "FORM_ID_DESC": "Identificador del formulario (formulario de vista rápida) utilizado para determinar los campos de datos y el diseño de la instantánea del cliente",
+    "LINK_ENTITY_FIELD": "Campo de vinculación de entidad principal",
+    "LINK_ENTITY_FIELD_DESC": "Nombre lógico del campo que contiene el identificador de entidad principal (el valor predeterminado es nombre de entidad + id)",
+    "TITLE_VISIBILITY": "Visibilidad del título",
+    "TITLE_VISIBILITY_DESC": "Mostrar u ocultar la sección de título del componente",
+    "PREFERRED": "Preferida",
+    "NO_DATA_TO_SHOW_YET": "Aún no hay datos para mostrar",
+    "TRY_REFRESH_CONTACT_ADMIN": "Intente actualizar su explorador o póngase en contacto con su administrador de TI",
+    "INVALID_CONFIGURATION": "Hay un problema de configuración",
+    "PREFERRED_COMM_EMAIL": "El cliente prefiere comunicarse por correo electrónico",
+    "PREFERRED_COMM_MAIL": "El cliente prefiere comunicarse por correo",
+    "PREFERRED_COMM_PHONE": "El cliente prefiere comunicarse por teléfono"
+}

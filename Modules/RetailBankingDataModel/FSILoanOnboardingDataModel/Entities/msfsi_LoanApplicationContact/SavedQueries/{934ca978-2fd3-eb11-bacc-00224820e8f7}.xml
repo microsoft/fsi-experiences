@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{934ca978-2fd3-eb11-bacc-00224820e8f7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_loanapplicationcontactid">
+          <cell name="a_149c791756eaeb11bacb00224808b6e4.fullname" width="100" disableSorting="1" />
+          <cell name="msfsi_loanapplicationrole" width="100" />
+          <cell name="msfsi_isprimaryborrower" width="100" />
+          <cell name="a_149c791756eaeb11bacb00224808b6e4.emailaddress1" width="100" disableSorting="1" />
+          <cell name="a_149c791756eaeb11bacb00224808b6e4.mobilephone" width="100" disableSorting="1" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="msfsi_loanapplicationcontact">
+          <attribute name="msfsi_loanapplicationrole" />
+          <link-entity alias="a_149c791756eaeb11bacb00224808b6e4" name="contact" from="contactid" to="msfsi_contact" link-type="outer" visible="false">
+            <attribute name="emailaddress1" />
+            <attribute name="fullname" />
+            <attribute name="mobilephone" />
+          </link-entity>
+          <attribute name="msfsi_isprimaryborrower" />
+          <attribute name="msfsi_loanapplicationcontactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Loan Parties and Roles" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Active loan parties and roles view" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

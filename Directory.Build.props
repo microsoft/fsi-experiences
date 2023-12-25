@@ -1,0 +1,17 @@
+<Project>
+  <Import Project="RepoLayout.props" />
+  
+  <PropertyGroup>
+    <OutDirName Condition="'$(OutDirName)' == ''">$(MSBuildProjectName)</OutDirName>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+
+    <ModulePath>$([System.IO.Directory]::GetParent('$(MSBuildProjectDirectory)'))</ModulePath>
+    <ModuleName Condition="'$(ModuleName)' == ''">$([System.IO.Path]::GetFileName('$(ModulePath)'))</ModuleName>
+    <BaseOutputPath>$(WSRoot)\target\$(Configuration)\$(Platform)\$(ModuleName)\$(MSBuildProjectName)</BaseOutputPath>
+    <PDPackagesDropPath>$(WSRoot)\drop\$(Configuration)\$(Platform)\PDPackages</PDPackagesDropPath>
+    <EnableExportMerge Condition="'$(EnableExportMerge)' == ''">false</EnableExportMerge>
+  </PropertyGroup>
+  
+  <Import Project="$(MSBuildThisFileDirectory)\PackageVersions.props" /> 
+</Project>

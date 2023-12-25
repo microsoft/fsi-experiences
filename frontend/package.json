@@ -1,0 +1,43 @@
+{
+    "name": "fsi-workspace",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "clean-modules": "pnpm -r exec -- rm -rf node_modules",
+        "install-libs": "pnpm i -r --filter @fsi/core-components --filter @fsi/pcf-common --filter @fsi/web-resources --filter ./modules/*",
+        "test-modules": "pnpm -r test-ci --workspace-concurrency=1 --filter ./modules",
+        "build-libs": "pnpm -r --filter @fsi/core-components --filter @fsi/pcf-common --filter @fsi/web-resources --filter ./modules/* build",
+        "build-core": "pnpm build -r --filter @fsi/core-components",
+        "install-all-pcf": "pnpm i -r --filter ./pcf-controls/*",
+        "build-all-pcf": "pnpm -r --filter ./pcf-controls/* build",
+        "bundle-update": "node ./scripts/bundle-update/bundleUpdate.js",
+        "lint": "pnpm -r lint"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.33.0",
+        "@typescript-eslint/parser": "^4.33.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-import": "2.22.1",
+        "eslint-plugin-jest": "^24.7.0",
+        "eslint-plugin-jsx-a11y": "6.4.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react": "^7.26.1",
+        "eslint-plugin-react-hooks": "1.7.0",
+        "file-save": "^0.2.0",
+        "glob": "^7.2.0",
+        "prettier": "^2.4.1",
+        "prompts": "^2.4.2",
+        "lodash": "^4.17.21",
+        "resx": "^2.0.3",
+        "xml2js": "0.5.0"
+    },
+    "pnpm": {
+        "overrides": {
+            "xml2js": "0.5.0"
+        }
+    },
+    "author": "",
+    "license": "ISC"
+}

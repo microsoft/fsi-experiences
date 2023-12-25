@@ -1,0 +1,255 @@
+parameters:
+  - name: pcfControls
+    type: string
+    default: " "
+  - name: packagesVersion
+    type: string
+    default: " "
+
+steps:
+  - task: NuGetAuthenticate@1
+
+  - task: NuGetToolInstaller@1
+    displayName: "Use NuGet 6.5.0"
+    inputs:
+      versionSpec: 6.5.0
+      checkLatest: true
+
+  - task: DotNetCoreCLI@2
+    displayName: Restore
+    inputs:
+      command: restore
+      projects: '**\FSI.sln'
+      feedsToUse: config
+      nugetConfigPath: nuget.config
+
+  - script: |
+      corepack enable
+      corepack prepare pnpm@8.6.2 --activate
+      pnpm config set store-dir $(pnpm_config_cache)
+    displayName: "Setup PNPM"
+
+  - task: CmdLine@2
+    displayName: "PNPM install frontend workspace"
+    inputs:
+      workingDirectory: $(system.defaultworkingdirectory)/frontend
+      script: |
+        pnpm install-libs --frozen-lockfile
+
+  - task: CmdLine@2
+    displayName: "PNPM build frontend"
+    inputs:
+      workingDirectory: $(system.defaultworkingdirectory)/frontend
+      script: |
+        pnpm build-libs
+
+  - ${{if ne(parameters.packagesVersion, ' ')}}:
+      - task: CmdLine@2
+        inputs:
+          workingDirectory: $(system.defaultworkingdirectory)/tools/BuildTools
+          script: |
+            pnpm install
+
+      - task: PowerShell@2
+        inputs:
+          targetType: "inline"
+          script: |
+            node versionUpdate.js ${{parameters.packagesVersion}}
+          workingDirectory: $(system.defaultworkingdirectory)/tools/BuildTools/VersionUpdate
+
+  - ${{if ne(parameters.pcfControls, ' ')}}:
+      - task: DotNetCoreCLI@2
+        displayName: "dotnet build PCF Control Projects in release mode"
+        inputs:
+          command: "build"
+          projects: ${{parameters.pcfControls}}
+          arguments: "-p:AutoVersionPassword=$(AutoVersionPassword)"
+
+  #First we build only plugins
+  - task: DotNetCoreCLI@2
+    displayName: "dotnet build Plugins Projects"
+    inputs:
+      projects: |
+        Modules\**\*.Plugins.csproj
+      arguments:
+        "--no-restore -p:BuildScope=pipeline -p:AutoVersionPassword=$(AutoVersionPassword)"
+
+    #Sign plugins
+  - task: EsrpCodeSigning@2
+    displayName: "Sign drop plugins"
+    inputs:
+      ConnectedServiceName: "ESRPCodeSigningConnection-Solutions"
+      FolderPath: '$(system.defaultworkingdirectory)\drop\$(BuildConfiguration)\$(BuildPlatform)\Plugins'
+      Pattern: "*.Plugins.dll"
+      signConfigType: inlineSignParams
+      inlineOperation: |
+        [
+          {
+            "KeyCode": "CP-233863-SN",
+            "OperationCode": "StrongNameSign",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-233863-SN",
+            "OperationCode": "StrongNameVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolSign",
+            "Parameters": {
+                "OpusName": "Microsoft",
+                "OpusInfo": "http://www.microsoft.com",
+                "FileDigest": "/fd \"SHA256\"",
+                "PageHash": "/NPH",
+                "TimeStamp": "/tr \"http://rfc3161.gtm.corp.microsoft.com/TSS/HttpTspServer\" /td sha256"
+            },
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          }
+        ]
+      SessionTimeout: 120
+
+  #Now we build solutions
+  - task: DotNetCoreCLI@2
+    displayName: "dotnet build Solution Projects"
+    inputs:
+      projects: |
+        Modules\**\*.csproj
+        !Modules\**\*.Package.csproj
+        !Modules\**\*.Plugins.csproj
+        !Modules\**\Tests\**\*.csproj
+      arguments: "--no-restore -p:BuildScope=pipeline -p:AutoVersionPassword=$(AutoVersionPassword) -p:UsePackageVersion=$(UsePackageVersion) -p:EnableLocalization=$(EnableLocalization)"
+
+  #Now we sign solution cab files
+  #Disabling this task for now as we do not use or ship the CABS so this is unneeded overhead on pipeline
+  - task: EsrpCodeSigning@2
+    displayName: "Sign Solutions"
+    enabled: false
+    inputs:
+      ConnectedServiceName: "ESRPCodeSigningConnection-Solutions"
+      FolderPath: '$(system.defaultworkingdirectory)\drop\$(BuildConfiguration)\$(BuildPlatform)\Solutions'
+      Pattern: "*.cab"
+      signConfigType: inlineSignParams
+      inlineOperation: |
+        [
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolSign",
+            "Parameters": {
+                "OpusName": "Microsoft",
+                "OpusInfo": "http://www.microsoft.com",
+                "FileDigest": "/fd \"SHA256\"",
+                "PageHash": "/NPH",
+                "TimeStamp": "/tr \"http://rfc3161.gtm.corp.microsoft.com/TSS/HttpTspServer\" /td sha256"
+            },
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          }
+        ]
+      SessionTimeout: 120
+
+  #Now Build only packages
+  - task: DotNetCoreCLI@2
+    displayName: "dotnet build Packages Projects"
+    inputs:
+      projects: |
+        Modules\**\*.Package.csproj
+      arguments: "--no-restore -p:AutoVersionPassword=$(AutoVersionPassword)"
+
+  #Now we Sign Packages
+  - task: EsrpCodeSigning@2
+    displayName: "Sign Package Assemblies"
+    inputs:
+      ConnectedServiceName: "ESRPCodeSigningConnection-Solutions"
+      FolderPath: '$(system.defaultworkingdirectory)\target\$(BuildConfiguration)\$(BuildPlatform)'
+      Pattern: "*.Package.dll"
+      signConfigType: inlineSignParams
+      inlineOperation: |
+        [
+          {
+            "KeyCode": "CP-233863-SN",
+            "OperationCode": "StrongNameSign",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-233863-SN",
+            "OperationCode": "StrongNameVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolSign",
+            "Parameters": {
+                "OpusName": "Microsoft",
+                "OpusInfo": "http://www.microsoft.com",
+                "FileDigest": "/fd \"SHA256\"",
+                "PageHash": "/NPH",
+                "TimeStamp": "/tr \"http://rfc3161.gtm.corp.microsoft.com/TSS/HttpTspServer\" /td sha256"
+            },
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          },
+          {
+            "KeyCode": "CP-230012",
+            "OperationCode": "SigntoolVerify",
+            "Parameters": {},
+            "ToolName": "sign",
+            "ToolVersion": "1.0"
+          }
+        ]
+      SessionTimeout: 120
+
+  #Now we create final package zips
+  - task: DotNetCoreCLI@2
+    displayName: "dotnet Create Packages"
+    inputs:
+      projects: 'Modules\FSI.sln'
+      arguments: "--no-restore -p:AutoVersionPassword=$(AutoVersionPassword) -t:CreatePDPackageZip -t:CreatePVSPackageZip"
+
+  - task: CopyFiles@2
+    displayName: "Copy Files to: $(build.artifactstagingdirectory)"
+    inputs:
+      SourceFolder: '$(system.defaultworkingdirectory)\drop\$(BuildConfiguration)\$(BuildPlatform)'
+      Contents: |
+        **\*.*
+      TargetFolder: "$(build.artifactstagingdirectory)"
+    condition: succeededOrFailed()
+
+  - task: CopyFiles@2
+    displayName: "Copy release relevant scripts to: $(build.artifactstagingdirectory)"
+    inputs:
+      SourceFolder: '$(system.defaultworkingdirectory)\build\scripts'
+      Contents: |
+        validatedataimport.ps1
+      TargetFolder: "$(build.artifactstagingdirectory)"
+    condition: succeededOrFailed()
+
+  - task: PublishBuildArtifacts@1
+    displayName: "Publish Artifact: FSI"
+    inputs:
+      PathtoPublish: "$(build.artifactstagingdirectory)"
+      ArtifactName: FSI
+    condition: succeededOrFailed()

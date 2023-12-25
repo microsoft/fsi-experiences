@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{42e7a30a-0eb0-ec11-9840-002248081bab}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" shownavigationbar="false" maxWidth="1920">
+      <ancestor id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      <hiddencontrols>
+        <data id="fullname" datafieldname="fullname" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+        <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab name="WM_SUMMARY_TAB" id="{fe1c5c3b-d556-4552-a444-4781214a6d63}" IsUserDefined="0" expanded="true" showlabel="true" labelid="{8d812a2d-ed75-414c-921a-609088a7684b}">
+          <labels>
+            <label description="Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="15%">
+              <sections>
+                <section name="CUSTOMER_SNAPSHOT" id="334f5591-bbb6-42f5-b413-1c6d632ad197" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{5ddf18ec-7049-4b64-82b3-17091d91f182}">
+                  <labels>
+                    <label description="Customer snapshot" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{734fbc71-91b3-442a-b565-bfd8e119d327}" locklevel="0" colspan="1" rowspan="1" showlabel="false" labelid="{81deebbd-d523-4d3f-8b02-7eccabc19018}">
+                        <labels>
+                          <label description="Customer snapshot" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{ad94c018-232d-4de0-1d86-a88cdbce46ed}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="MAIN_HOUSEHOLD" id="d24479e6-9c1d-4f5b-8b28-fb0d991a38cc" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Main household" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="70%">
+              <sections>
+                <section name="LIFE_EVENTS_GOALS" id="06770296-3265-452a-adeb-843116f3d096" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{562701d0-cd44-4030-83f7-fd6722fac151}">
+                  <labels>
+                    <label description="Life events and goals" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7cd5a833-b756-4c97-b22b-8f1c9f812688}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Life events and goals" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{d2a1e888-6cec-c6b1-422d-1ae4bb6785c9}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="INVESTMENTS_PORTFOLIOS" id="ac6bd5d6-4d68-4d01-9830-33e948cd0798" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{c25f981b-8545-4305-b25a-e023d416823e}">
+                  <labels>
+                    <label description="Investments portfolios" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6dc08c50-7823-91a0-49b8-4d37a60c3b78}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Investments portfolios" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{9641a546-c7c5-bad5-ee89-1b139e31accc}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="SUMMARY_FH" id="1376eade-c519-4fd0-8ee9-ca5edfa2e29b" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Financial holdings " languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1433d1ea-30b3-4238-afa1-91970ad52691}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Financial holdings" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{4268e587-cd45-1686-2c5d-62c0b0971007}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="15%">
+              <sections>
+                <section name="MAIN_HOUSEHOLD2" id="3062ff9c-58b3-4bb3-9f12-c4ca129f0d3e" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Main household" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{96783fef-d040-409b-be28-ee4db6c47eca}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Main household" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{8121a094-7eb8-9323-66cd-e41983e02959}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="CONNECTIONS_TAB" id="0c400460-e4e6-4ad1-9a67-6bf101618af3" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="singleComponent">
+          <labels>
+            <label description="Connections" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="CONNECTIONS" id="bf62e1a6-1f1f-4b80-bba5-be9f4923d6ff" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Connections" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{41666605-3084-4373-8c6c-7fa7277e2cd1}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{a65cc862-920a-c48e-24e4-6401d16a8da0}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="FINANCIAL_HOLDINGS_TAB" id="f9d234d0-baa6-4815-b222-3bb038ef1c01" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="singleComponent">
+          <labels>
+            <label description="Financial holdings" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="FINANCIAL_HOLDINGS" id="02241e37-2fa8-48ef-acb0-ba0f8f555602" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Financial holdings" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{be15137a-b24f-4306-9ad6-18cf5524c916}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_placeholder" disabled="false" uniqueid="{5ce4a3b0-85b4-636c-362c-2c6d1a430ea9}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="INVESTMENTS_SELECTOR" id="60f4604c-3824-42af-803d-40d144146fb0" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Investments details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="20%">
+              <sections>
+                <section name="investments_selector" id="ec4b8af7-674a-45ef-9d69-b491e8ad1717" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Financial holding selector" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e9685692-19d7-4a6e-b65d-838904d7d19f}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="FH lookup placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_fhlookupplaceholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_fhlookupplaceholder" disabled="false" uniqueid="{bb3a144e-4b80-629a-57dc-81288a4cd9e4}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="80%">
+              <sections>
+                <section name="investments_form" id="0f469d1f-b3d3-4c3b-969f-ea35f2b9fbf4" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Financial holding investments details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7efb6d12-7914-4353-b71d-1720b194f9a4}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="FH lookup placeholder" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_fhlookupplaceholder" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_fhlookupplaceholder" disabled="false" uniqueid="{83e2c5e7-5113-be65-42a8-06b18417b951}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{3ff9aa06-4e43-41ce-afa9-22a038af5c19}" celllabelposition="Top" columns="1" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{24be01cc-16a6-8eea-8916-42d20a1097ae}" showlabel="true" locklevel="1" labelid="{cc99835c-00e8-479e-924c-05f39c4574a0}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:AppCommon/Contact/Contact_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="AppCommon.Contact.Instance.form_onload" libraryName="AppCommon/Contact/Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
+          </InternalHandlers>
+          <Handlers>
+            <Handler functionName="formOnLoad" libraryName="msfsi_UnifiedClientProfileFormOnLoad.js" handlerUniqueId="{60ec8da3-c913-4c81-b74b-5819239d5006}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Addresses" />
+              <Title LCID="1025" Text="العناوين" />
+              <Title LCID="1026" Text="Адреси" />
+              <Title LCID="1027" Text="Adreces" />
+              <Title LCID="1029" Text="Adresy" />
+              <Title LCID="1030" Text="Adresser" />
+              <Title LCID="1031" Text="Adressen" />
+              <Title LCID="1032" Text="Διευθύνσεις" />
+              <Title LCID="3082" Text="Direcciones" />
+              <Title LCID="1061" Text="Aadressid" />
+              <Title LCID="1069" Text="Helbideak" />
+              <Title LCID="1035" Text="Osoitteet" />
+              <Title LCID="1036" Text="Adresses" />
+              <Title LCID="1110" Text="Enderezos" />
+              <Title LCID="1037" Text="כתובות" />
+              <Title LCID="1081" Text="पते" />
+              <Title LCID="1050" Text="Adrese" />
+              <Title LCID="1038" Text="Címek" />
+              <Title LCID="1057" Text="Alamat" />
+              <Title LCID="1040" Text="Indirizzi" />
+              <Title LCID="1041" Text="住所" />
+              <Title LCID="1087" Text="Мекенжайлар" />
+              <Title LCID="1042" Text="주소" />
+              <Title LCID="1063" Text="Adresai" />
+              <Title LCID="1062" Text="Adreses" />
+              <Title LCID="1086" Text="Alamat" />
+              <Title LCID="1044" Text="Adresser" />
+              <Title LCID="1043" Text="Adressen" />
+              <Title LCID="1045" Text="Adresy" />
+              <Title LCID="1046" Text="Endereços" />
+              <Title LCID="2070" Text="Endereços" />
+              <Title LCID="1048" Text="Adrese" />
+              <Title LCID="1049" Text="Адреса" />
+              <Title LCID="1051" Text="Adresy" />
+              <Title LCID="1060" Text="Naslovi" />
+              <Title LCID="3098" Text="Адресе" />
+              <Title LCID="10266" Text="Адресе" />
+              <Title LCID="2074" Text="Adrese" />
+              <Title LCID="9242" Text="Adrese" />
+              <Title LCID="1053" Text="Adresser" />
+              <Title LCID="1054" Text="ที่อยู่" />
+              <Title LCID="1055" Text="Adresler" />
+              <Title LCID="1058" Text="Адреси" />
+              <Title LCID="1066" Text="Địa chỉ" />
+              <Title LCID="2052" Text="地址" />
+              <Title LCID="3076" Text="地址" />
+              <Title LCID="1028" Text="地址" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contact_customer_contacts" Id="navSubConts" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Contacts" />
+              <Title LCID="1025" Text="جهات الاتصال" />
+              <Title LCID="1026" Text="Контакти" />
+              <Title LCID="1027" Text="Contactes" />
+              <Title LCID="1029" Text="Kontakty" />
+              <Title LCID="1030" Text="Kontakter" />
+              <Title LCID="1031" Text="Kontakte" />
+              <Title LCID="1032" Text="Επαφές" />
+              <Title LCID="3082" Text="Contactos" />
+              <Title LCID="1061" Text="Kontaktid" />
+              <Title LCID="1069" Text="Kontaktuak" />
+              <Title LCID="1035" Text="Yhteyshenkilöt" />
+              <Title LCID="1036" Text="Contacts" />
+              <Title LCID="1110" Text="Contactos" />
+              <Title LCID="1037" Text="אנשי קשר" />
+              <Title LCID="1081" Text="संपर्क" />
+              <Title LCID="1050" Text="Kontakti" />
+              <Title LCID="1038" Text="Kapcsolattartók" />
+              <Title LCID="1057" Text="Kontak" />
+              <Title LCID="1040" Text="Contatti" />
+              <Title LCID="1041" Text="取引先担当者" />
+              <Title LCID="1087" Text="Контактілер" />
+              <Title LCID="1042" Text="연락처" />
+              <Title LCID="1063" Text="Kontaktai" />
+              <Title LCID="1062" Text="Kontaktpersonas" />
+              <Title LCID="1086" Text="Kenalan" />
+              <Title LCID="1044" Text="Kontakter" />
+              <Title LCID="1043" Text="Contactpersonen" />
+              <Title LCID="1045" Text="Kontakty" />
+              <Title LCID="1046" Text="Contatos" />
+              <Title LCID="2070" Text="Contactos" />
+              <Title LCID="1048" Text="Persoane de contact" />
+              <Title LCID="1049" Text="Контакты" />
+              <Title LCID="1051" Text="Kontakty" />
+              <Title LCID="1060" Text="Stiki" />
+              <Title LCID="3098" Text="Контакти" />
+              <Title LCID="10266" Text="Контакти" />
+              <Title LCID="2074" Text="Kontakti" />
+              <Title LCID="9242" Text="Kontakti" />
+              <Title LCID="1053" Text="Kontakter" />
+              <Title LCID="1054" Text="ผู้ติดต่อ" />
+              <Title LCID="1055" Text="İlgili Kişiler" />
+              <Title LCID="1058" Text="Контактні особи" />
+              <Title LCID="1066" Text="Người liên hệ" />
+              <Title LCID="2052" Text="联系人" />
+              <Title LCID="3076" Text="連絡人" />
+              <Title LCID="1028" Text="連絡人" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contact_customer_relationship_customer" Id="navRelationships" Sequence="10" Area="Info" Show="false">
+            <Privileges>
+              <Privilege Entity="" Privilege="ReadActivity" />
+            </Privileges>
+            <Titles>
+              <Title LCID="1033" Text="Customerrelationship" />
+              <Title LCID="1025" Text="CustomerRelationship" />
+              <Title LCID="1026" Text="CustomerRelationship" />
+              <Title LCID="1027" Text="CustomerRelationship" />
+              <Title LCID="1029" Text="CustomerRelationship" />
+              <Title LCID="1030" Text="CustomerRelationship" />
+              <Title LCID="1031" Text="CustomerRelationship" />
+              <Title LCID="1032" Text="CustomerRelationship" />
+              <Title LCID="3082" Text="CustomerRelationship" />
+              <Title LCID="1061" Text="CustomerRelationship" />
+              <Title LCID="1069" Text="CustomerRelationship" />
+              <Title LCID="1035" Text="CustomerRelationship" />
+              <Title LCID="1036" Text="CustomerRelationship" />
+              <Title LCID="1110" Text="CustomerRelationship" />
+              <Title LCID="1037" Text="CustomerRelationship" />
+              <Title LCID="1081" Text="CustomerRelationship" />
+              <Title LCID="1050" Text="CustomerRelationship" />
+              <Title LCID="1038" Text="CustomerRelationship" />
+              <Title LCID="1057" Text="CustomerRelationship" />
+              <Title LCID="1040" Text="CustomerRelationship" />
+              <Title LCID="1041" Text="CustomerRelationship" />
+              <Title LCID="1087" Text="CustomerRelationship" />
+              <Title LCID="1042" Text="CustomerRelationship" />
+              <Title LCID="1063" Text="CustomerRelationship" />
+              <Title LCID="1062" Text="CustomerRelationship" />
+              <Title LCID="1086" Text="CustomerRelationship" />
+              <Title LCID="1044" Text="CustomerRelationship" />
+              <Title LCID="1043" Text="CustomerRelationship" />
+              <Title LCID="1045" Text="CustomerRelationship" />
+              <Title LCID="1046" Text="CustomerRelationship" />
+              <Title LCID="2070" Text="CustomerRelationship" />
+              <Title LCID="1048" Text="CustomerRelationship" />
+              <Title LCID="1049" Text="CustomerRelationship" />
+              <Title LCID="1051" Text="CustomerRelationship" />
+              <Title LCID="1060" Text="CustomerRelationship" />
+              <Title LCID="3098" Text="CustomerRelationship" />
+              <Title LCID="10266" Text="CustomerRelationship" />
+              <Title LCID="2074" Text="CustomerRelationship" />
+              <Title LCID="9242" Text="CustomerRelationship" />
+              <Title LCID="1053" Text="CustomerRelationship" />
+              <Title LCID="1054" Text="CustomerRelationship" />
+              <Title LCID="1055" Text="CustomerRelationship" />
+              <Title LCID="1058" Text="CustomerRelationship" />
+              <Title LCID="1066" Text="CustomerRelationship" />
+              <Title LCID="2052" Text="CustomerRelationship" />
+              <Title LCID="3076" Text="CustomerRelationship" />
+              <Title LCID="1028" Text="CustomerRelationship" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Contact_ActivityPointers" Sequence="20" Area="Info" Id="navActivities" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Activities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Socialprofile_customer_contacts" Sequence="40" Area="Info" Id="navSocialprofile" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Social profiles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8500" Area="Info" Id="navConnections" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Connections" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Workflows" />
+              <Title LCID="1025" Text="عمليات سير العمل" />
+              <Title LCID="1026" Text="Работни потоци" />
+              <Title LCID="1027" Text="Fluxos de treball" />
+              <Title LCID="1029" Text="Pracovní postupy" />
+              <Title LCID="1030" Text="Arbejdsprocesser" />
+              <Title LCID="1031" Text="Workflows" />
+              <Title LCID="1032" Text="Ροές εργασιών" />
+              <Title LCID="3082" Text="Flujos de trabajo" />
+              <Title LCID="1061" Text="Töövood" />
+              <Title LCID="1069" Text="Lan-fluxuak" />
+              <Title LCID="1035" Text="Työnkulut" />
+              <Title LCID="1036" Text="Workflows" />
+              <Title LCID="1110" Text="Fluxos de traballo" />
+              <Title LCID="1037" Text="זרימות עבודה" />
+              <Title LCID="1081" Text="कार्य प्रवाह" />
+              <Title LCID="1050" Text="Tjekovi rada" />
+              <Title LCID="1038" Text="Munkafolyamatok" />
+              <Title LCID="1057" Text="Alur Kerja" />
+              <Title LCID="1040" Text="Flussi di lavoro" />
+              <Title LCID="1041" Text="ワークフロー" />
+              <Title LCID="1087" Text="Жұмыс ағындары" />
+              <Title LCID="1042" Text="워크플로" />
+              <Title LCID="1063" Text="Darbo eigos" />
+              <Title LCID="1062" Text="Darbplūsmas" />
+              <Title LCID="1086" Text="Aliran Kerja" />
+              <Title LCID="1044" Text="Arbeidsflyter" />
+              <Title LCID="1043" Text="Werkstromen" />
+              <Title LCID="1045" Text="Przepływy pracy" />
+              <Title LCID="1046" Text="Fluxos de Trabalho" />
+              <Title LCID="2070" Text="Fluxos de Trabalho" />
+              <Title LCID="1048" Text="Fluxuri de lucru" />
+              <Title LCID="1049" Text="Бизнес-процессы" />
+              <Title LCID="1051" Text="Pracovné postupy" />
+              <Title LCID="1060" Text="Poteki dela" />
+              <Title LCID="3098" Text="Токови посла" />
+              <Title LCID="10266" Text="Токови посла" />
+              <Title LCID="2074" Text="Tokovi posla" />
+              <Title LCID="9242" Text="Tokovi posla" />
+              <Title LCID="1053" Text="Arbetsflöden" />
+              <Title LCID="1054" Text="เวิร์กโฟลว์" />
+              <Title LCID="1055" Text="İş Akışları" />
+              <Title LCID="1058" Text="Робочі цикли" />
+              <Title LCID="1066" Text="Quy trình làm việc" />
+              <Title LCID="2052" Text="工作流" />
+              <Title LCID="3076" Text="工作流程" />
+              <Title LCID="1028" Text="工作流程" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Audit history" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Dialog sessions" />
+              <Title LCID="1025" Text="جلسات عمل الحوار" />
+              <Title LCID="1026" Text="Диалогови сесии" />
+              <Title LCID="1027" Text="Sessions del diàleg" />
+              <Title LCID="1029" Text="Relace dialogů" />
+              <Title LCID="1030" Text="Dialogsessioner" />
+              <Title LCID="1031" Text="Dialogsitzungen" />
+              <Title LCID="1032" Text="Περίοδοι λειτουργίας παραθύρου διαλόγου" />
+              <Title LCID="3082" Text="Sesiones de diálogo" />
+              <Title LCID="1061" Text="Dialoogiseansid" />
+              <Title LCID="1069" Text="Elkarrizketa-saioak" />
+              <Title LCID="1035" Text="Dialogi-istunnot" />
+              <Title LCID="1036" Text="Sessions de dialogue" />
+              <Title LCID="1110" Text="Sesións de diálogo" />
+              <Title LCID="1037" Text="הפעלות דו-שיח" />
+              <Title LCID="1081" Text="संवाद सत्र" />
+              <Title LCID="1050" Text="Sesije dijaloga" />
+              <Title LCID="1038" Text="Párbeszéd-munkamenetek" />
+              <Title LCID="1057" Text="Sesi Dialog" />
+              <Title LCID="1040" Text="Sessioni di interazione" />
+              <Title LCID="1041" Text="ダイアログ セッション" />
+              <Title LCID="1087" Text="Диалог сеанстары" />
+              <Title LCID="1042" Text="대화 세션" />
+              <Title LCID="1063" Text="Dialogo seansai" />
+              <Title LCID="1062" Text="Dialogu sesijas" />
+              <Title LCID="1086" Text="Sesi Dialog" />
+              <Title LCID="1044" Text="Dialogøkter" />
+              <Title LCID="1043" Text="Dialoogvenstersessies" />
+              <Title LCID="1045" Text="Sesje dialogowe" />
+              <Title LCID="1046" Text="Sessões de Diálogo" />
+              <Title LCID="2070" Text="Sessões de Diálogo" />
+              <Title LCID="1048" Text="Sesiuni de dialog" />
+              <Title LCID="1049" Text="Сеансы диалогового окна" />
+              <Title LCID="1051" Text="Relácie dialógového okna" />
+              <Title LCID="1060" Text="Seje dialoga" />
+              <Title LCID="3098" Text="Сесије дијалога" />
+              <Title LCID="10266" Text="Сесије дијалога" />
+              <Title LCID="2074" Text="Sesije dijaloga" />
+              <Title LCID="9242" Text="Sesije dijaloga" />
+              <Title LCID="1053" Text="Dialogsessioner" />
+              <Title LCID="1054" Text="เซสชันของกล่องโต้ตอบ" />
+              <Title LCID="1055" Text="Diyalog Oturumları" />
+              <Title LCID="1058" Text="Сеанси діалогу" />
+              <Title LCID="1066" Text="Phiên hộp thoại" />
+              <Title LCID="2052" Text="对话会话" />
+              <Title LCID="3076" Text="對話方塊工作階段" />
+              <Title LCID="1028" Text="對話方塊工作階段" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFeedback" Sequence="9958" Area="Info" Id="navFeedback" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Feedback" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_Group_PrimaryMember_Contact" Sequence="10000" Area="Info" Id="nav_msfsi_Group_PrimaryMember_Contact" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Groups" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_groupmember_member_contact" Sequence="10000" Area="Info" Id="nav_msfsi_groupmember_member_contact" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Group members" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_customerfinancialholding_CustomerID" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_customerfinancialholding_CustomerID" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Customer financial holdings" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_fi_Card_Cardholder" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_fi_Card_Cardholder" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="FI cards" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_lifemoment_Contact" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_lifemoment_Contact" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Life events" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_relationship_Contactfrom" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_relationship_Contactfrom" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Relationships" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_relationship_Contactto" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_relationship_Contactto" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Relationships" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{5ce4a3b0-85b4-636c-362c-2c6d1a430ea9}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.DetailedFHControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.DetailedFHControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.DetailedFHControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{a65cc862-920a-c48e-24e4-6401d16a8da0}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.GroupsControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.GroupsControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.GroupsControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ad94c018-232d-4de0-1d86-a88cdbce46ed}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.CustomerSnapshotControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <entityId type="SingleLine.Text">contactid</entityId>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.CustomerSnapshotControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <entityId type="SingleLine.Text">contactid</entityId>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.CustomerSnapshotControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <entityId type="SingleLine.Text">contactid</entityId>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{83e2c5e7-5113-be65-42a8-06b18417b951}">
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>msfsi_fhlookupplaceholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msfsi_fhlookupplaceholder</BindAttribute>
+                <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms static="true" type="SingleLine.Text">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_financialholding"&gt;3303e8c6-0cdc-ec11-a7b6-000d3a55e477&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode static="true" type="Enum">0</SaveMode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msfsi_fhlookupplaceholder</BindAttribute>
+                <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms static="true" type="SingleLine.Text">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_financialholding"&gt;3303e8c6-0cdc-ec11-a7b6-000d3a55e477&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode static="true" type="Enum">0</SaveMode>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.ModelForm.ModelFormControl">
+            <parameters>
+              <value>
+                <BindAttribute>msfsi_fhlookupplaceholder</BindAttribute>
+                <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </value>
+              <QuickForms static="true" type="SingleLine.Text">&lt;QuickForms&gt;&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_financialholding"&gt;3303e8c6-0cdc-ec11-a7b6-000d3a55e477&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;&lt;/QuickForms&gt;</QuickForms>
+              <SaveMode static="true" type="Enum">0</SaveMode>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{bb3a144e-4b80-629a-57dc-81288a4cd9e4}">
+          <customControl id="{270BD3DB-D9AF-4782-9025-509E298DEC0A}">
+            <parameters>
+              <datafieldname>msfsi_fhlookupplaceholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.FinancialHoldingSelectorControl">
+            <parameters>
+              <selectedFinancialHolding>
+                <BindAttribute>msfsi_fhlookupplaceholder</BindAttribute>
+                <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </selectedFinancialHolding>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <financialHoldingCategory static="true" type="Enum">104800002</financialHoldingCategory>
+              <formId static="true" type="SingleLine.Text">3303e8c6-0cdc-ec11-a7b6-000d3a55e477</formId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.FinancialHoldingSelectorControl">
+            <parameters>
+              <selectedFinancialHolding>
+                <BindAttribute>msfsi_fhlookupplaceholder</BindAttribute>
+                <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </selectedFinancialHolding>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <financialHoldingCategory static="true" type="Enum">104800002</financialHoldingCategory>
+              <formId static="true" type="SingleLine.Text">3303e8c6-0cdc-ec11-a7b6-000d3a55e477</formId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.FinancialHoldingSelectorControl">
+            <parameters>
+              <selectedFinancialHolding>
+                <BindAttribute>msfsi_fhlookupplaceholder</BindAttribute>
+                <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                <FilterRelationshipName />
+                <DependentAttributeName />
+                <DependentAttributeType />
+                <AvailableViewIds />
+                <AllowFilterOff>false</AllowFilterOff>
+                <DisableQuickFind>false</DisableQuickFind>
+                <DisableViewPicker>false</DisableViewPicker>
+              </selectedFinancialHolding>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <financialHoldingCategory static="true" type="Enum">104800002</financialHoldingCategory>
+              <formId static="true" type="SingleLine.Text">3303e8c6-0cdc-ec11-a7b6-000d3a55e477</formId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{9641a546-c7c5-bad5-ee89-1b139e31accc}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.InvestmentsPortfoliosControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.InvestmentsPortfoliosControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.InvestmentsPortfoliosControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{8121a094-7eb8-9323-66cd-e41983e02959}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">5</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">5</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">5</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d2a1e888-6cec-c6b1-422d-1ae4bb6785c9}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">2</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+              <enableFinancialGoals static="true" type="Enum">1</enableFinancialGoals>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">2</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+              <enableFinancialGoals static="true" type="Enum">1</enableFinancialGoals>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">2</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+              <enableFinancialGoals static="true" type="Enum">1</enableFinancialGoals>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4268e587-cd45-1686-2c5d-62c0b0971007}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_placeholder</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">3</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">3</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.CustomerSummaryControl">
+            <parameters>
+              <dummy>msfsi_placeholder</dummy>
+              <contactId type="SingleLine.Text">contactid</contactId>
+              <component static="true" type="Enum">3</component>
+              <formId static="true" type="SingleLine.Text">75c78db3-068f-ec11-b400-0022480988ea</formId>
+              <showChurnScore static="true" type="Enum">1</showChurnScore>
+              <showSegments static="true" type="Enum">1</showSegments>
+              <showFinancialInsights static="true" type="Enum">1</showFinancialInsights>
+              <enableModifyingLifeEvents static="true" type="Enum">1</enableModifyingLifeEvents>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer id="{09013f6b-f412-494e-882c-75a65952cd26}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{cad9afb9-1308-4e6f-8c9b-c869ae4ab3a6}" showlabel="false" labelid="{4f3c05e7-d79c-44d5-9c90-da228c6afe8c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1b27e792-5e2b-453d-838a-9e4bdd6ea6f3}" showlabel="false" labelid="{36c71a3e-d516-445d-a7cf-5db04de3f2b1}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b1e44ee5-8f00-405c-8f78-093d7a24ab4a}" showlabel="false" labelid="{b05bab99-a795-4ce4-9ef1-efbb794eb158}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="msfsi_UnifiedClientProfileFormOnLoad.js" libraryUniqueId="{b0a94e6e-077e-4aeb-bd86-66e73289ec3c}" />
+      </formLibraries>
+      <DisplayConditions FallbackForm="true" Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{D517896C-A002-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{C47254DA-AF02-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{F723A10D-9F02-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{BBCDF624-6E99-EC11-B400-00224832DB88}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Unified client profile" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Unified client profile" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

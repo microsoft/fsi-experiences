@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Posición financiera seleccionada",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "Atributo de la búsqueda subyacente de una posición financiera",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Seleccionar la categoría de posición financiera",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Mostrar las posiciones financieras con la categoría seleccionada",
+    "SELECT_LINES_OF_CREDIT": "Líneas de crédito",
+    "SELECT_LINES_OF_CREDIT_DESC": "Categoría Líneas de crédito",
+    "SELECT_LOANS": "Préstamos",
+    "SELECT_LOANS_DESC": "Categoría Préstamos",
+    "SELECT_INVESTMENTS": "Inversiones",
+    "SELECT_INVESTMENTS_DESC": "Categoría Inversiones",
+    "SELECT_LONG_TERM_SAVINGS": "Cuenta de ahorro a largo plazo",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Categoría de cuenta de ahorro a largo plazo",
+    "SELECT_ACCOUNTS": "Cuentas",
+    "SELECT_ACCOUNTS_DESC": "Categoría Cuentas",
+    "NO_FINANCIAL_HOLDINGS": "No hay posiciones financieras",
+    "FORM_ID": "Id. de formulario",
+    "FORM_ID_DESC": "El id. del formulario utilizado para mostrar los detalles de la posición financiera seleccionada"
+}

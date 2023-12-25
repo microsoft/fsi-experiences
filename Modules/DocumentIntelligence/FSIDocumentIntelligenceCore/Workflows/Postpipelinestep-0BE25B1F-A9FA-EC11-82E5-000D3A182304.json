@@ -1,0 +1,189 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "msfsi_sharedcommondataserviceforapps_b8eb3"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "fe260561-1e3c-4f5f-9806-ece7222b8657"
+          },
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "title": "Document Pipeline step Id",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_1": {
+                  "title": "Pipeline step Document State",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT",
+                  "enum": [
+                    "Approved",
+                    "Rejected",
+                    "Unclear"
+                  ]
+                },
+                "text_2": {
+                  "title": "Pipeline step State",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT",
+                  "enum": [
+                    "Success",
+                    "Failure"
+                  ]
+                },
+                "text_3": {
+                  "title": "Raw output",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                },
+                "text_4": {
+                  "title": "Output",
+                  "type": "string",
+                  "x-ms-dynamically-added": true,
+                  "description": "Please enter your input",
+                  "x-ms-content-hint": "TEXT"
+                }
+              },
+              "required": [
+                "text",
+                "text_1",
+                "text_2"
+              ]
+            }
+          }
+        }
+      },
+      "actions": {
+        "Update_Document_Pipeline_step_record": {
+          "runAfter": {
+            "Set_statuses_map": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "351a25ea-219c-4425-bc29-a751549c7840"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "UpdateRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "msfsi_documentpipelinesteps",
+              "recordId": "@triggerBody()['text']",
+              "item/msfsi_output": "@triggerBody()?['text_4']",
+              "item/msfsi_pipelinestepdocumentstate": "@variables('Statuses map')?['documentState']?[triggerBody()['text_1']]",
+              "item/msfsi_pipelinestepstate": "@variables('Statuses map')?['pipelineState']?[triggerBody()['text_2']]",
+              "item/msfsi_rawoutput": "@triggerBody()?['text_3']"
+            },
+            "authentication": {
+              "type": "Raw",
+              "value": "@json(decodeBase64(triggerOutputs().headers['X-MS-APIM-Tokens']))['$ConnectionKey']"
+            }
+          }
+        },
+        "Respond_to_a_PowerApp_or_flow": {
+          "runAfter": {
+            "Update_Document_Pipeline_step_record": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "d2b1d506-114b-432c-a899-1a7c2722e911"
+          },
+          "type": "Response",
+          "kind": "PowerApp",
+          "inputs": {
+            "statusCode": 200,
+            "body": {
+              "pipeline_step_document_state": "@{outputs('Update_Document_Pipeline_step_record')?['body/msfsi_pipelinestepdocumentstate']}",
+              "pipeline_step_state": "@{outputs('Update_Document_Pipeline_step_record')?['body/msfsi_pipelinestepstate']}"
+            },
+            "schema": {
+              "type": "object",
+              "properties": {
+                "pipeline_step_document_state": {
+                  "title": "Pipeline step Document State",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                },
+                "pipeline_step_state": {
+                  "title": "Pipeline step State",
+                  "x-ms-dynamically-added": true,
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "Set_statuses_map": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "7f130852-c9b2-4a84-950b-5017aebd1f5e"
+          },
+          "type": "InitializeVariable",
+          "inputs": {
+            "variables": [
+              {
+                "name": "Statuses map",
+                "type": "object",
+                "value": {
+                  "pipelineState": {
+                    "Running": 104800000,
+                    "Success": 104800001,
+                    "Failure": 104800002
+                  },
+                  "documentState": {
+                    "Unclear": 104800000,
+                    "Rejected": 104800001,
+                    "Approved": 104800002
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

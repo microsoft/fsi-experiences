@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Activate.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Deactivate.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Delete.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.NewRecord.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Save.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Save" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.SaveAndClose.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.SaveAndClose" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.WordTemplate.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

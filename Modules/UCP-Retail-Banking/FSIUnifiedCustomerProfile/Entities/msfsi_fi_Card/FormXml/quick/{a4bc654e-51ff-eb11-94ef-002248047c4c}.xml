@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a4bc654e-51ff-eb11-94ef-002248047c4c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tab_1" showlabel="false" labelid="{60895fa3-c54e-45a8-985d-753d8540b532}">
+          <labels>
+            <label description="New tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{f4eeb773-fbae-4d99-91af-e4efb808ce8a}">
+                  <labels>
+                    <label description="New section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{08f131ec-876f-4e10-93a9-4a55a1b509ce}" locklevel="0" labelid="{78fec9e2-8eab-414e-93c7-00ad2b38c366}">
+                        <labels>
+                          <label description="Financial instrument type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialinstrumenttype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialinstrumenttype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e4e1d8e-1417-44e5-8ec7-dc9c94345208}" locklevel="0" labelid="{9c868342-d611-4576-a820-c96e2a175f37}">
+                        <labels>
+                          <label description="Activation date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_activationdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_activationdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a99ce7d4-5ff3-48a1-a5da-57c8f06f6217}" locklevel="0" labelid="{412a1045-cfc8-411e-8f0c-ee77fef97bb5}">
+                        <labels>
+                          <label description="Card network" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_cardnetwork" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_cardnetwork" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fc46a6f0-54b1-43f3-ad6d-994fbb74b05b}" locklevel="0" labelid="{bddbca08-8921-4af7-969b-0d26ffbc487a}">
+                        <labels>
+                          <label description="Card number" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_cardnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_cardnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{927ba503-d132-48a3-9368-221c33c31f68}" locklevel="0" labelid="{0cc99a1a-220c-4ccb-ac33-fb908f5cd58c}">
+                        <labels>
+                          <label description="Card type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_cardtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_cardtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2111c8bb-6aac-4078-9ca1-3eabd43e71f1}" locklevel="0" labelid="{7b272731-0209-432d-9856-33edc1feccc0}">
+                        <labels>
+                          <label description="Date of last cash withdrawal" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dateoflastcashwithdrawal" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_dateoflastcashwithdrawal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e96ea94d-291c-4ed9-8b3e-f364c319f50d}" locklevel="0" labelid="{76ddf31f-0b8f-4e46-a7a0-51c839d00c35}">
+                        <labels>
+                          <label description="Date of last transaction" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dateoflasttransaction" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_dateoflasttransaction" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3f9b016d-c324-422d-b62d-cdada5930aeb}" locklevel="0" labelid="{6ee2fdc0-46bc-4071-adfe-4a71c70249e6}">
+                        <labels>
+                          <label description="Embossing name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_embossingname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_embossingname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8aa28751-906d-416d-b6c7-069d638edc9c}" locklevel="0" labelid="{d4734fde-3164-499f-bf75-c3e879c90201}">
+                        <labels>
+                          <label description="Expiry date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_expirydate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_expirydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9419eb4-a871-426f-96d8-091dfea2322e}" locklevel="0" labelid="{bda5455c-9a6b-49e6-8e53-b09f8a9cb1c3}">
+                        <labels>
+                          <label description="Issue date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_issuedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="msfsi_issuedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58a8a013-cac0-485c-af32-fcd8fa61f101}" locklevel="0" labelid="{e9449f8f-6764-47c3-8710-fc3ddd4a2d8e}">
+                        <labels>
+                          <label description="Number of cash withdrawals" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_numberofcashwithdrawal" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msfsi_numberofcashwithdrawal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dedc748f-0600-4d76-acd7-715de5bd541c}" locklevel="0" labelid="{18b9e5ac-b34e-468c-a633-970ad7676699}">
+                        <labels>
+                          <label description="Number of transactions" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_numberoftransactions" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="msfsi_numberoftransactions" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{08495ed4-6b70-441f-9dfc-6f25c65dcb50}" locklevel="0" labelid="{9c67bcc6-840d-4af6-a1a2-b5280cc93086}">
+                        <labels>
+                          <label description="Product name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_productname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_productname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0f88a9f4-5c4d-4200-880e-0e9a6a7311ba}" locklevel="0" labelid="{b5f8f4c9-2899-4c93-9856-17a7c9dbd930}">
+                        <labels>
+                          <label description="Purchasing limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_purchasinglimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_purchasinglimit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d06085a6-523c-400c-a1d6-5b91b1a855ab}" locklevel="0" labelid="{6a1ec52a-7f94-4826-8bbc-aa7d4cc10dd9}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_status" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_status" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{720f2b7f-150a-4b3b-83f3-c97c8c82ad97}" locklevel="0" labelid="{424d33ff-0841-4c33-a3d4-796fe8bbd1a4}">
+                        <labels>
+                          <label description="Status reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c4c9522-1e3b-400b-891c-890a051bf619}" locklevel="0" labelid="{b59eb99f-323b-41af-8d45-f8deaae611b6}">
+                        <labels>
+                          <label description="Withdrawal limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_withdrawallimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_withdrawallimit" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FI card quick view form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

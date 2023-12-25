@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="FinancialHoldingSelectorControl" version="1.4.0" display-name-key="FinancialHoldingSelectorControl" description-key="FinancialHoldingSelectorControl description" control-type="standard">
+    <property name="selectedFinancialHolding" display-name-key="SELECTED_FINANCIAL_HOLDING" description-key="SELECTED_FINANCIAL_HOLDING_DESCRIPTION" of-type="Lookup.Simple" usage="bound" required="true" />
+    <property name="contactId" display-name-key="CONTACT" description-key="CONTACT_DESC" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="financialHoldingCategory" display-name-key="SELECT_FINANCIAL_HOLDING_CATEGORY" description-key="SELECT_FINANCIAL_HOLDING_CATEGORY_DESC" of-type="Enum" usage="input" required="true">
+      <value name="LinesOfCredit" display-name-key="SELECT_LINES_OF_CREDIT" description-key="SELECT_LINES_OF_CREDIT_DESC">104800000</value>
+      <value name="Loans" display-name-key="SELECT_LOANS" description-key="SELECT_LOANS_DESC">104800001</value>
+      <value name="Investments" display-name-key="SELECT_INVESTMENTS" description-key="SELECT_INVESTMENTS_DESC">104800002</value>
+      <value name="LongTermSavings" display-name-key="SELECT_LONG_TERM_SAVINGS" description-key="SELECT_LONG_TERM_SAVINGS_DESC">104800003</value>
+      <value name="Accounts" display-name-key="SELECT_ACCOUNTS" description-key="SELECT_ACCOUNTS_DESC">104800004</value>
+    </property>
+    <property name="formId" display-name-key="FORM_ID" description-key="FORM_ID_DESC" of-type="SingleLine.Text" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="investmentsTab.css" order="1" />
+      <resx path="strings/FinancialHoldingSelectorControl.1046.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.1028.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.3082.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.1040.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.1031.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.1043.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.1036.resx" version="1.0.0" />
+      <resx path="strings/FinancialHoldingSelectorControl.1033.resx" version="1.0.0" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error100.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/no_access100.png" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

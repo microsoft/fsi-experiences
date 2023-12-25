@@ -1,0 +1,17 @@
+{
+    "INITIAL_AMOUNT": "Importo iniziale",
+    "OUTSTANDING_BALANCE": "Saldo scoperto",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "Importo di capitale residuo",
+    "CURRENT_BALANCE": "Saldo corrente",
+    "BOOK_BALANCE": "Saldo contabile",
+    "FH_CUSTOMER_HOLDING": "Partecipazioni cliente",
+    "FH_ASSOCIATED_HOLDING": "Partecipazioni associate",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "Partecipazioni finanziarie dettagliate",
+    "FH_ID_ACCOUNT": "ID conto",
+    "FH_ID_LOAN": "ID finanziamento",
+    "FH_ID_INVESTMENT": "ID investimento",
+    "FH_ID_SAVING": "ID risparmi a lungo termine",
+    "FH_ID_CREDIT": "ID linea di credito",
+    "PORTFOLIO_ALLOCATION": "Allocazione portafoglio",
+    "NO_ASSETS_YET": "Ancora nessun cespite"
+}

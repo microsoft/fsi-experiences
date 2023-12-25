@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{47f0b80a-eb83-4579-9fb3-b7a1edb387e8}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{9080f379-0436-45ef-b815-f33ec9e5c110}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{55ea804d-e0d6-43a1-be84-c373daf156d1}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{de29dfb8-0661-443d-8315-0769c64a4853}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca65bba8-07b7-4352-81d3-cd3cd263f0a6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Business process flow" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_businessprocessflow" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_businessprocessflow" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f737e552-3f89-4251-9ab9-6cfaf2d854d3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Business scenario" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_businessscenario" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_businessscenario" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6fdb81b3-780b-4f2d-9da4-ef4bcf78aabc}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4dc70c4c-4973-4b97-a160-1019fc263407}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9bf86fc7-1a14-42db-bf42-c609896dee6a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6da130a7-ec09-4839-bf5f-8427e674f9a1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e07d9a2f-b815-405d-abf8-4d12438eada4}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{1b79f3e1-8745-4a07-b0ef-13f4b80550d7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2ab845d4-8fbd-4da6-9bb6-71246fb7210a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{efdae92c-2a74-4f10-8ae0-577bb0d1c06a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{93a55be9-fd2f-46ff-89b8-2534ffcbcd95}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

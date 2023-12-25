@@ -1,0 +1,12 @@
+<customapirequestparameter uniquename="DeleteRequest">
+  <description default="Flag to indicates whether to delete the request.">
+    <label description="Flag to indicates whether to delete the request." languagecode="1033" />
+  </description>
+  <displayname default="Delete request">
+    <label description="Delete request" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>1</isoptional>
+  <name>Delete request</name>
+  <type>0</type>
+</customapirequestparameter>

@@ -1,0 +1,24 @@
+<solutioncomponentconfigurations>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_relatedpartyrole">
+    <fileformat>0</fileformat>
+    <filescope>2</filescope>
+    <iscustomizable>1</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_relatedpartyrole</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_archivereason">
+    <fileformat>0</fileformat>
+    <filescope>2</filescope>
+    <iscustomizable>1</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_archivereason</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+</solutioncomponentconfigurations>

@@ -61,34 +61,6 @@
       "SolutionName": "OnboardingEssentialsTasks"
     },
     {
-      "ProjectName": "FSICommonSecurityRoles",
-      "SolutionName": "CommonSecurityRoles"
-    },
-    {
-      "ProjectName": "FSICoreRetailBankingSecurityRoles",
-      "SolutionName": "CoreRetailBankingSecurityRoles"
-    },
-    {
-      "ProjectName": "FSIFinancialServicesCommonDataModel",
-      "SolutionName": "FinancialServicesCommonDataModel"
-    },
-    {
-      "ProjectName": "FSIFinancialServicesConfiguration",
-      "SolutionName": "FinancialServicesConfiguration"
-    },
-    {
-      "ProjectName": "FSILoanOnboardingDataModel",
-      "SolutionName": "LoanOnboardingDataModel"
-    },
-    {
-      "ProjectName": "FSIRetailBankingCoreDataModel",
-      "SolutionName": "RetailBankingCoreDataModel"
-    },
-    {
-      "ProjectName": "FSIRetailBankingDataModelAnchor",
-      "SolutionName": "RetailBankingDataModelAnchor"
-    },
-    {
       "ProjectName": "FSILoanOnboardingStarterAnchor",
       "SolutionName": "LoanOnboardingStarterAnchor"
     },

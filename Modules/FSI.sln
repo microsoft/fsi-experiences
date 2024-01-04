@@ -33,26 +33,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UCP-Retail-Banking.Package"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSIUnifiedCustomerProfileSecurityRoles", "UCP-Retail-Banking\FSIUnifiedCustomerProfileSecurityRoles\FSIUnifiedCustomerProfileSecurityRoles.csproj", "{8ECA3E1A-966F-4C18-B3DE-448451AF1FEF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RetailBankingDataModel", "RetailBankingDataModel", "{D4490F73-2CFF-4D40-9D26-4E78B529B594}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSICommonSecurityRoles", "RetailBankingDataModel\FSICommonSecurityRoles\FSICommonSecurityRoles.csproj", "{AEABB4BD-263C-45BC-8180-B1C43F6E4B74}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSICoreRetailBankingSecurityRoles", "RetailBankingDataModel\FSICoreRetailBankingSecurityRoles\FSICoreRetailBankingSecurityRoles.csproj", "{E212EB1F-4159-40DF-B135-E4ED5E3EA5E4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSIFinancialServicesCommonDataModel", "RetailBankingDataModel\FSIFinancialServicesCommonDataModel\FSIFinancialServicesCommonDataModel.csproj", "{6B322541-143E-4FB3-9883-112DD598A9B7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSIFinancialServicesConfiguration", "RetailBankingDataModel\FSIFinancialServicesConfiguration\FSIFinancialServicesConfiguration.csproj", "{FC168198-B309-4417-9FE8-F27C3BE573D1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSILoanOnboardingDataModel", "RetailBankingDataModel\FSILoanOnboardingDataModel\FSILoanOnboardingDataModel.csproj", "{B8F0F311-3DAE-46AE-8D71-5FBCAB9BC93D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSIRetailBankingCoreDataModel", "RetailBankingDataModel\FSIRetailBankingCoreDataModel\FSIRetailBankingCoreDataModel.csproj", "{15C5B6CF-2109-4687-A9B5-7786B70618AC}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSIRetailBankingDataModelAnchor", "RetailBankingDataModel\FSIRetailBankingDataModelAnchor\FSIRetailBankingDataModelAnchor.csproj", "{ACBD41A5-13E5-4457-B5F4-CF235572C046}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailBankingDataModel.Package", "RetailBankingDataModel\RetailBankingDataModel.Package\RetailBankingDataModel.Package.csproj", "{97368CE9-0BCB-45BE-988E-B7C860AE86E7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailBankingDataModel.Plugins", "RetailBankingDataModel\RetailBankingDataModel.Plugins\RetailBankingDataModel.Plugins.csproj", "{C918DAC6-29D6-4D8F-8900-F64C76DD8C1B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0319CFB1-2F94-4854-8686-EEAFC6A2435D}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -272,42 +252,6 @@ Global
 		{31152797-7EAF-47F7-87A8-D710A2AD4D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31152797-7EAF-47F7-87A8-D710A2AD4D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31152797-7EAF-47F7-87A8-D710A2AD4D68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEABB4BD-263C-45BC-8180-B1C43F6E4B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEABB4BD-263C-45BC-8180-B1C43F6E4B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEABB4BD-263C-45BC-8180-B1C43F6E4B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEABB4BD-263C-45BC-8180-B1C43F6E4B74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E212EB1F-4159-40DF-B135-E4ED5E3EA5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E212EB1F-4159-40DF-B135-E4ED5E3EA5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E212EB1F-4159-40DF-B135-E4ED5E3EA5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E212EB1F-4159-40DF-B135-E4ED5E3EA5E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B322541-143E-4FB3-9883-112DD598A9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B322541-143E-4FB3-9883-112DD598A9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B322541-143E-4FB3-9883-112DD598A9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B322541-143E-4FB3-9883-112DD598A9B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC168198-B309-4417-9FE8-F27C3BE573D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC168198-B309-4417-9FE8-F27C3BE573D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC168198-B309-4417-9FE8-F27C3BE573D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC168198-B309-4417-9FE8-F27C3BE573D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8F0F311-3DAE-46AE-8D71-5FBCAB9BC93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8F0F311-3DAE-46AE-8D71-5FBCAB9BC93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8F0F311-3DAE-46AE-8D71-5FBCAB9BC93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8F0F311-3DAE-46AE-8D71-5FBCAB9BC93D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15C5B6CF-2109-4687-A9B5-7786B70618AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15C5B6CF-2109-4687-A9B5-7786B70618AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15C5B6CF-2109-4687-A9B5-7786B70618AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15C5B6CF-2109-4687-A9B5-7786B70618AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ACBD41A5-13E5-4457-B5F4-CF235572C046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACBD41A5-13E5-4457-B5F4-CF235572C046}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACBD41A5-13E5-4457-B5F4-CF235572C046}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACBD41A5-13E5-4457-B5F4-CF235572C046}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97368CE9-0BCB-45BE-988E-B7C860AE86E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97368CE9-0BCB-45BE-988E-B7C860AE86E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97368CE9-0BCB-45BE-988E-B7C860AE86E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97368CE9-0BCB-45BE-988E-B7C860AE86E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C918DAC6-29D6-4D8F-8900-F64C76DD8C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C918DAC6-29D6-4D8F-8900-F64C76DD8C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C918DAC6-29D6-4D8F-8900-F64C76DD8C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C918DAC6-29D6-4D8F-8900-F64C76DD8C1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -352,15 +296,6 @@ Global
 		{EA4323A0-1960-42BA-9775-D4559CE36B43} = {390AFE04-5CDA-47B4-A236-799D18EC2DB2}
 		{04940EB0-0C62-42FF-B802-C3ABB5ABE210} = {390AFE04-5CDA-47B4-A236-799D18EC2DB2}
 		{31152797-7EAF-47F7-87A8-D710A2AD4D68} = {390AFE04-5CDA-47B4-A236-799D18EC2DB2}
-		{AEABB4BD-263C-45BC-8180-B1C43F6E4B74} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{E212EB1F-4159-40DF-B135-E4ED5E3EA5E4} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{6B322541-143E-4FB3-9883-112DD598A9B7} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{FC168198-B309-4417-9FE8-F27C3BE573D1} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{B8F0F311-3DAE-46AE-8D71-5FBCAB9BC93D} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{15C5B6CF-2109-4687-A9B5-7786B70618AC} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{ACBD41A5-13E5-4457-B5F4-CF235572C046} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{97368CE9-0BCB-45BE-988E-B7C860AE86E7} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
-		{C918DAC6-29D6-4D8F-8900-F64C76DD8C1B} = {D4490F73-2CFF-4D40-9D26-4E78B529B594}
 
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Group" OriginalName="Group">msfsi_Group</Name>
+  <EntityInfo>
+    <entity Name="msfsi_Group">
+      <attributes />
+      <CanCreateAttributes>1</CanCreateAttributes>
+      <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

@@ -1,0 +1,1560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSILoanOnboardingStarter_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="100000:label,052D521061D9FEF2D1F8FB496ADF1BE0D35CCA360DE3F9DC160EA0D627E445F4" xml:space="preserve">
+    <value>Identification</value>
+    <comment>Relative path in xml: msfsi_documentdefinitions\msfsi_documentdefinition\msfsi_name id:fcf0c52f-f1a7-44d9-9c51-99e0ce0f5490</comment>
+  </data>
+  <data name="100000:label,381D4DD1C2906007757141BBA798024EF64F52D415F59BA8B8284394083411C3" xml:space="preserve">
+    <value>Loan</value>
+    <comment>Relative path in xml: msfsi_onboardingscenariodefinitions\msfsi_onboardingscenariodefinition\msfsi_name id:62e7897f-a814-4632-b401-002fb1b1754c</comment>
+  </data>
+  <data name="100000:label,39ADB191BCBDDFC464713F7264FDE572BEFEB0EAE45086C53C9565925EBDDB1B" xml:space="preserve">
+    <value>Income statement</value>
+    <comment>Relative path in xml: msfsi_documentdefinitions\msfsi_documentdefinition\msfsi_name id:6cd2548e-475d-4ce1-a4de-f865b6c88a66</comment>
+  </data>
+  <data name="100000:label,3B93C2796CFB1AFE8D8725BEDFCE5843417208E3D61A5306339AB356DDA0AA02" xml:space="preserve">
+    <value>Open documents tab</value>
+    <comment>Relative path in xml: msfsi_tasknavigations\msfsi_tasknavigation\msfsi_name id:aa9a4bd1-e3d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,3CB7B1FBB75D207F9FCFF8BBC882ECC027F942708488CF8DDB9171310B361BFE" xml:space="preserve">
+    <value>Guarantor</value>
+    <comment>Relative path in xml: msfsi_relatedpartyroles\msfsi_relatedpartyrole\msfsi_name id:663b6b74-f19b-42a2-8d3c-0266fcd7fe35</comment>
+  </data>
+  <data name="100000:label,439BE1F8B9397388E68136822F306A1F6B70AC18938A32434885D2708873320C" xml:space="preserve">
+    <value>Declared assets and liabilities</value>
+    <comment>Relative path in xml: msfsi_taskdefinitions\msfsi_taskdefinition\msfsi_name id:fb7921ac-ecd0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,4AC63229F3135B4ACF3B2A3FAC32A300A0904569044093D1526B13993C44BF1C" xml:space="preserve">
+    <value>Extract information</value>
+    <comment>Relative path in xml: msfsi_pipelinestepdefinitions\msfsi_pipelinestepdefinition\msfsi_name id:3296bd12-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,108005BD3B74F8E1E653755076DB55FE08F1B300E2410002B77C8AB96898D242" xml:space="preserve">
+    <value>Retirement</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:899ea10b-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,1765611E2C80E1F70FD76A2D5B0591D82E2F0031666082D318CC57A37AA322FD" xml:space="preserve">
+    <value>Child support</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:61cee93f-44b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,1B075DC5DD61AB2E6F28133A95B3F47468A0A02191DCD346BD26E2CB5B2D362D" xml:space="preserve">
+    <value>Gift of property equity</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:fb3c77db-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,2013D7BF225D64EB80807F4E1C2C8BAAFA2D10E59F5191BADE8A709E4FE54202" xml:space="preserve">
+    <value>Gift of cash</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:4ca977d5-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,212CEF33A759BBFC0E5410D4ADCABBDFD50F8AA372851FFBBC861D7CDCFC9B84" xml:space="preserve">
+    <value>Review documents</value>
+    <comment>Relative path in xml: msfsi_taskdefinitions\msfsi_taskdefinition\msfsi_name id:e3069e57-edd0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,21A4E57846DBD720EF50DBE24A1E4F625E43F47AA4E0D80BCDA0E9C9341E5702" xml:space="preserve">
+    <value>Address</value>
+    <comment>Relative path in xml: msfsi_stepfielddefinitions\msfsi_stepfielddefinition\msfsi_displayname id:fe13c144-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,22C49AD9585FF8CDA14ACC8EA19A2E525642B47BCC3A4372F4100130FC76141A" xml:space="preserve">
+    <value>Savings</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:4d265ba9-43b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,27B499CE24D52265EC266E8A4D32F737C01A8097AF9D4BA7EEC65F8B7BD561FB" xml:space="preserve">
+    <value>Declared income and expenses</value>
+    <comment>Relative path in xml: msfsi_taskgroups\msfsi_taskgroup\msfsi_name id:25ca4a80-e2d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,2DCB9A4459017AFB25C3981A063A089723526F78DD186079B36AE0236207CC2E" xml:space="preserve">
+    <value>Application information</value>
+    <comment>Relative path in xml: msfsi_taskdefinitions\msfsi_taskdefinition\msfsi_name id:bd5df4cb-e5d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,2FDBF20207814333ABA3DA6CF293DF8B0E5EBC7B95CA9092E80B9057DCC11EB8" xml:space="preserve">
+    <value>Other</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:34ac0a65-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,3226C77CAFDA3F2D63366D5205C939373C4F858161BB7A0D731C5F41CE3F599F" xml:space="preserve">
+    <value>Savings account</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:513c8e14-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,34B631D9CF1E8ABE10D1A2FB3ABA7B66444044DD55B2151E4EDC4B35D0FA43B4" xml:space="preserve">
+    <value>Identity document such as ID, passport or driving license.</value>
+    <comment>Relative path in xml: msfsi_documentdefinitions\msfsi_documentdefinition\msfsi_description id:fcf0c52f-f1a7-44d9-9c51-99e0ce0f5490</comment>
+  </data>
+  <data name="100000:label,37DFC2911C0CA9A7E61576591488D7BD0544B2168CA572126CDAABCA2EB2A398" xml:space="preserve">
+    <value>Open application information tab</value>
+    <comment>Relative path in xml: msfsi_tasknavigations\msfsi_tasknavigation\msfsi_name id:0211ab7c-e3d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,4FD712753C24073A0B3B9A383CD75711C5A37B1C161B141CD90050CF36FA7D84" xml:space="preserve">
+    <value>Education</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:7ee598f1-d4b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,5513371BF7526A8998F917F0DD79FB96C494EE5CF48ED121362C1988F3520C04" xml:space="preserve">
+    <value>Grant</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:fb1b5ce2-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,55FB724F074F011DE9112E7A72B517F4B5271EEEB8496884D74829198F047D1B" xml:space="preserve">
+    <value>Checking account</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:c99c30cf-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,570633927E2C5F0F5E2CEFF411D1E5ECE6348FF6049FE65F6195F1E0757FDCBD" xml:space="preserve">
+    <value>Bond</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:d489b1ae-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,5C66AFE94B5DAA7F6831440A9DA7EBAADD3989595C4F3FE52421873EC58A5F76" xml:space="preserve">
+    <value>Documents</value>
+    <comment>Relative path in xml: msfsi_taskgroups\msfsi_taskgroup\msfsi_name id:6beeba73-e2d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,5C6FD99DB8C8232F7375752AEDCF10F51538D1F83EDD1C3F5D1B1EB4D948811C" xml:space="preserve">
+    <value>Credit score</value>
+    <comment>Relative path in xml: msfsi_stepfielddefinitions\msfsi_stepfielddefinition\msfsi_displayname id:196c6268-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,5F4474A4EC11307A4926053C590B3CE8C93ADCB5F1907D470D85065765F745F0" xml:space="preserve">
+    <value>Other</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:0f95085c-44b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,672C22D1BF83969B366AE7546D7812C5B1D2C3EB323B629CE462DD86433E15EF" xml:space="preserve">
+    <value>Deposit account</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:e19c30cf-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,697BC0804058933DF404B4C8687DCA44C3CD037A7926CDFF1F6A33B2703AB40F" xml:space="preserve">
+    <value>Child support</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:652f7c53-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,6E4AE3F8D6C0474A13D69180701E0D0AC95C36632FECE020277B2DB2BA915538" xml:space="preserve">
+    <value>Retirement fund</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:503c8e14-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,6E9A3D9ABA9ADC565CE7FD33FC844CD5B2F9F412027AE01B2FA3F4C7FFC0C406" xml:space="preserve">
+    <value>ID number</value>
+    <comment>Relative path in xml: msfsi_stepfielddefinitions\msfsi_stepfielddefinition\msfsi_displayname id:51913422-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,71B036A3940957DDC16051F39EE234807F3DD8148D323EF9574AC66D88A1CF18" xml:space="preserve">
+    <value>Stock</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:c26f371d-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,78B4EC5EA3CA5DECB717D4BE8D39227ED183ABC9BC620647C816E52D1BD103F4" xml:space="preserve">
+    <value>Certificate of deposit time deposit</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:8231c1c5-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,79E84DE774F7BF5E4703792FE691AAED5C3161970FAF8CAC1DF19696B6635BC5" xml:space="preserve">
+    <value>Business owned</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:8131c1c5-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,7A70EF6F37EE89B803E24AF746A744C4B2B9A5AB45967553450F8766BCE17014" xml:space="preserve">
+    <value>First name</value>
+    <comment>Relative path in xml: msfsi_stepfielddefinitions\msfsi_stepfielddefinition\msfsi_displayname id:86dbeb2e-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,7B38F0C28B08D7A06CB75407E6E5CB0B92C886C65261D7A3CE8164298421CEE0" xml:space="preserve">
+    <value>Medical expenses</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:9aef9db8-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,7B52659655DA9AEADAEFF1481C6E9D4DE3FB24AC82BB79923FA73BD7076750FC" xml:space="preserve">
+    <value>Bridge loan not deposited</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:156000b7-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,7BBFF1E16B265175D42F999CD261C8F7D2C7C586B92DDAC614AA5F2254A00D0D" xml:space="preserve">
+    <value>Mutual fund</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:1c933b05-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,81E95204CBCA56C12396A2BA685D905CEE00678E75B7BB11ABA4B728E5CA2AE4" xml:space="preserve">
+    <value>Declared income and expenses</value>
+    <comment>Relative path in xml: msfsi_taskdefinitions\msfsi_taskdefinition\msfsi_name id:7c8bfafa-ecd0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,84835128E73AFBC8EDB663E2819C15B645598ED523B5861BEEAC3ED66AEF994E" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>Relative path in xml: \settingdefinition\displayname id:</comment>
+  </data>
+  <data name="100000:label,890037ABFEB1F9C4BF4C5BF976638B1D3D9EB9A7F9DB3A2A2F347319A5DED41E" xml:space="preserve">
+    <value>Declared assets and liabilities</value>
+    <comment>Relative path in xml: msfsi_taskgroups\msfsi_taskgroup\msfsi_name id:ae53167a-e2d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,8CF1864E705D1BD8F9E102A2FE64160375B1BAE9D2AB7E6D9144602AD98FCC64" xml:space="preserve">
+    <value>Parties information</value>
+    <comment>Relative path in xml: msfsi_taskgroups\msfsi_taskgroup\msfsi_name id:3c8d606d-e2d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,8F69A7BA8B23B812D589E0EFEB39A4D4B8D99B23820188681FAC2CA2E320716F" xml:space="preserve">
+    <value>Leasing</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:7e53e961-d4b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,92DF1B16574E7744B53694852ACEEEF96D2A6897EB739430B3462C0269BE93C4" xml:space="preserve">
+    <value>Real estate owned</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:879ea10b-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,956FE2B29EFED33108E0F24E08A75FFFEA641895EC25846CB8BEB1CDB892A73F" xml:space="preserve">
+    <value>Automobiles</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:9f31e52d-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,99C072C82C17B100A5F5172CF8B3E3369D674D7C43E88092F5F9A466AD0BA4EF" xml:space="preserve">
+    <value>Open income and expenses tab</value>
+    <comment>Relative path in xml: msfsi_tasknavigations\msfsi_tasknavigation\msfsi_name id:d0ed84f2-e3d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,9AC00F0E51A523852AEC399E82E91782B5B67CE9F2C5DAFECE662C40014E28CD" xml:space="preserve">
+    <value>Life insurance</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:b90cc5fc-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,9CA1D24A1624E77AF4BF6417F6A5E49411525BA38364AADB2D894896A102F5D0" xml:space="preserve">
+    <value>Loan</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:31ac0a65-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,9CD047C31144B6E41216C1F523E71D0F7804DE9CE72E73376C93279CB8A4F6C9" xml:space="preserve">
+    <value>Child care</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:a529e4ff-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,9CF9F7938F593EC3FB5E10965F518DB48E679C2DAEE1CC78C32FA0B0D3E44EE9" xml:space="preserve">
+    <value>Open parties information tab</value>
+    <comment>Relative path in xml: msfsi_tasknavigations\msfsi_tasknavigation\msfsi_name id:f00973ab-e3d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,A28DF2858EBEF8DF22B388F10DF0CFCB1D8AB996A22A71AC509C9EA7DAD802FA" xml:space="preserve">
+    <value>Mortgage</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:89c0245d-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,A37F658F6E9DBD85B72AC57ACC5DA7F17B28D7021B89FDBE75362A312CC873C0" xml:space="preserve">
+    <value>Document type verification</value>
+    <comment>Relative path in xml: msfsi_pipelinestepdefinitions\msfsi_pipelinestepdefinition\msfsi_name id:8160747a-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,A4E6A5B8041DB9FD4244CF95BC2AB0CFC55C622D38DFDA36CE3C4552F2B321A5" xml:space="preserve">
+    <value>Credit card payment</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:118fc0e1-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,A6264FBA117CF64A8CB0C95B75FF08FFD4BE991D845FC23CB279051B566CD6F9" xml:space="preserve">
+    <value>Dividends/Interest</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:5740c2b8-43b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,A94FC88865DF6430A337A29FE7C40DA86C0B81A453C3224DA1B60DD0CF14A392" xml:space="preserve">
+    <value>Money market fund</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:bc0cc5fc-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,ACE57648B6ECDA4CB1CE4824226DC5E7CCCF7E186E1244EABBC017199770206F" xml:space="preserve">
+    <value>Last name</value>
+    <comment>Relative path in xml: msfsi_stepfielddefinitions\msfsi_stepfielddefinition\msfsi_displayname id:680a2d39-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,AF63ED611E2431DABD51B1808F007D2F3D496C8D075437DC7EC3B65840EB6AC9" xml:space="preserve">
+    <value>Mortgage</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:086efca0-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,B36643ADE78746F79C39DEBB76EED97CF52AA65AAB3CEE9297089E2828832EAB" xml:space="preserve">
+    <value>Employment monthly salary</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:0849695b-43b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,B3724F3F8792F356C5B065841C9723591E4D8DB69A2E3213FE20F3D3970A2DBC" xml:space="preserve">
+    <value>Open assets and liabilities tab</value>
+    <comment>Relative path in xml: msfsi_tasknavigations\msfsi_tasknavigation\msfsi_name id:312a4ee2-e3d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,B4053334B17666D4C59B78B3C8323F5148F7E177661E630CE362AE4D676CAD0F" xml:space="preserve">
+    <value>Boat or vessel</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:c9e7336d-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,B4B5AEB6D608567C244128EBDF6F2B58C8251C5EDB11056486DBF0D168BF6655" xml:space="preserve">
+    <value>Application information</value>
+    <comment>Relative path in xml: msfsi_taskgroups\msfsi_taskgroup\msfsi_name id:fa126d0b-e2d0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,B53FBA1BAC77819FFF78CEB75D22A4245F506E753D5C17731EA3EC58A837C4BE" xml:space="preserve">
+    <value>Secured</value>
+    <comment>Relative path in xml: msfsi_applicationcategories\msfsi_applicationcategory\msfsi_name id:1c8947f5-06d1-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,B5FC02CB0BF291F4D507164E88ABAE27C6F2D8BCC51B90DEF7BA570A7A52796D" xml:space="preserve">
+    <value>Co-signer</value>
+    <comment>Relative path in xml: msfsi_relatedpartyroles\msfsi_relatedpartyrole\msfsi_name id:bf658a3f-9f30-400b-97ca-73ca20dce9c0</comment>
+  </data>
+  <data name="100000:label,B7380705857A7E51D1A8B9BA2E730763F0E634788D78F05E3E1FF44079373656" xml:space="preserve">
+    <value>Parties information</value>
+    <comment>Relative path in xml: msfsi_taskdefinitions\msfsi_taskdefinition\msfsi_name id:7f7d0258-ecd0-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,BD6539149ED5A3B329AB649FD573EF99EF9D725891A1CEFABEA40DF7FDF6679B" xml:space="preserve">
+    <value>Alimony</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:fcdae94a-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,BD79F01602DC0F9E8327EDFD191EB6494D9226F18DC39622AFA7E999A2ED6E98" xml:space="preserve">
+    <value>Stock options</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:dd56a523-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,BEF91442211BDFDC836A8F0F47A5FCF7C4B5D0BCADFE980FC7B54C5A35044254" xml:space="preserve">
+    <value>Insurance</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:823d295a-d4b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,C1EE21F2800BEE2AD77D5781247E63B0072E27779C0995E9D9F7FDE6EC5FF410" xml:space="preserve">
+    <value>Co-Borrower</value>
+    <comment>Relative path in xml: msfsi_relatedpartyroles\msfsi_relatedpartyrole\msfsi_name id:372929d1-f6b9-4c50-ae21-9235b318636e</comment>
+  </data>
+  <data name="100000:label,C9472D70963016DAF48BEB97A8625AC47451D48853A39077BF6E859E52317D33" xml:space="preserve">
+    <value>Individual development account</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:0b1c5ce2-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,C96D98E824860E61CC17BB547479F561B92871969A0F4D871E0DB75C7E7D8A52" xml:space="preserve">
+    <value>Bridge loan proceeds</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:63504bbe-d5b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,CBB4F9DF154DEA1D76631C369B440F69DD9C9C3B8D5B5A0D2F6B83BCA86574D0" xml:space="preserve">
+    <value>Other</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:b2ffe90c-43b8-ed11-83fe-002248081af8</comment>
+    </data>
+  <data name="100000:label,CE60B407AEFF02CEC01A53D91BA678D7F91EAD9011A0DD93D2AC9452F55F64D3" xml:space="preserve">
+    <value>Unsecured</value>
+    <comment>Relative path in xml: msfsi_applicationcategories\msfsi_applicationcategory\msfsi_name id:f7f6460c-07d1-ed11-a7c7-000d3a549c38</comment>
+  </data>
+  <data name="100000:label,D0ADB80E4EBA518B4EE6DACC8E25ED93C404E2405ECCAD1219F96B15A49E156A" xml:space="preserve">
+    <value>Expire date</value>
+    <comment>Relative path in xml: msfsi_stepfielddefinitions\msfsi_stepfielddefinition\msfsi_displayname id:2c557851-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,D86BC9C51F5ACEA6F36372CA282EA975698EAC176B3EBAD40B6C6E5CEBC46C87" xml:space="preserve">
+    <value>Alimony/Maintenance</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:829bc748-44b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,D9C5F805E4464903DBDAC55544EBB0EFA50998A15750FBADD0D1B75D41BE766C" xml:space="preserve">
+    <value>Rent</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:0905b97d-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,DD63D4D466D2E28FE59066C4ADCB4CFD47ECB1F9A3920452CA9B9AFAB18490C5" xml:space="preserve">
+    <value>Other</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:db82eb2a-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,E90D9A472061EC6B4C2D1705F1F97E3B5BE0CBF76ECD705B5D12B5BE4807E2E6" xml:space="preserve">
+    <value>Trust account</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:df56a523-d6b8-ed11-83fe-00224808199b</comment>
+  </data>
+  <data name="100000:label,ED106C75B00EC073830B811D002F733C7AD5B731A2B04F496FF25C07C1AB0311" xml:space="preserve">
+    <value>Household products</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:9d7994a7-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,F064DACE1EF0E8C8247B0146E091034B5484FFA8466A4D854BE722EB3263F209" xml:space="preserve">
+    <value>Add supporting information</value>
+    <comment>Relative path in xml: msfsi_pipelinestepdefinitions\msfsi_pipelinestepdefinition\msfsi_name id:8eb08f5f-81df-ed11-a7c7-000d3a33d043</comment>
+  </data>
+  <data name="100000:label,F57C571E5DD22D041BB7988B11F6B40820DE06E4ADEA6398B5D2A2F818C70FDA" xml:space="preserve">
+    <value>Loan payment</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:debbfae8-42b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,F95CED94FE303D821DD9DE565005FECFDE3D0152CA3CDE1EB0664C22BB0FF5DA" xml:space="preserve">
+    <value>Spouse's monthly salary</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:73a84299-43b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="100000:label,FA087917FF7035580250E2772E6A055870347D935A04C47B5B683FD0764CA880" xml:space="preserve">
+    <value>State/Provincial/Gov't Assistance</value>
+    <comment>Relative path in xml: msfsi_onboardingfinancialtypes\msfsi_onboardingfinancialtype\msfsi_name id:e59ac155-44b8-ed11-83fe-002248081af8</comment>
+  </data>
+  <data name="15062:Description,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,LoanOnboardingStarter" xml:space="preserve">
+    <value>Loan Onboarding</value>
+    <comment> 'LoanOnboardingStarter' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,Application{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Application' : Description for systemform in Entity FormXml ID: '{26e70759-53d1-ed11-a7c7-000d3a1b91b8}'</comment>
+  </data>
+  <data name="1:Description,Application{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Application' : Description for systemform in Entity FormXml ID: '{83257ce0-c7bc-ed11-83ff-002248081af8}'</comment>
+  </data>
+  <data name="1:Description,Collateral{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Collateral' : Description for systemform in Entity FormXml ID: '{4d7c6864-60e7-ed11-a7c6-000d3a549b93}'</comment>
+  </data>
+  <data name="1:Description,Loan application collateral{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Loan application collateral' : Description for systemform in Entity FormXml ID: '{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}'</comment>
+    </data>
+  <data name="1:Description,Employment{bff2785d-41e3-ed11-a7c7-6045bd006622}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Employment' : Description for systemform in Entity FormXml ID: '{bff2785d-41e3-ed11-a7c7-6045bd006622}'</comment>
+  </data>
+  <data name="1:Description,Loan application{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Loan application' : Description for systemform in Entity FormXml ID: '{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}'</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_application_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Application</value>
+    <comment>'msfsi_application' : Description for OptionSet 'msfsi_application_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_businessscenario" xml:space="preserve">
+    <value>The business scenario of the application.</value>
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_Interestrate" xml:space="preserve">
+    <value>The interest rate of the account application.</value>
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_Interestrate' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_loanterm" xml:space="preserve">
+    <value />
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_loanterm' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_loantype" xml:space="preserve">
+    <value>The type of the requested loan.</value>
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_loantype' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_principalamount" xml:space="preserve">
+    <value>Amount of money borrowed for the loan.</value>
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_principalamount' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_principalamount_Base" xml:space="preserve">
+    <value>Value of the Principal amount in base currency.</value>
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_principalamount_Base' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationmsfsi_textplaceholder" xml:space="preserve">
+    <value />
+    <comment>'msfsi_application' : Description for Attribute 'msfsi_textplaceholder' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_applicationstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Application</value>
+    <comment>'msfsi_application' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,Related party{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Related party' : Description for systemform in Entity FormXml ID: '{44e1cced-65c6-ed11-b596-000d3a37dbf1}'</comment>
+  </data>
+  <data name="1:Description,Related party{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Related party' : Description for systemform in Entity FormXml ID: '{6ab588aa-c5c7-ed11-b597-00224825b5e2}'</comment>
+  </data>
+  <data name="1:Description,Related party{a2eed558-dee8-ed11-a7c6-00224808da54}" xml:space="preserve">
+    <value>Loan</value>
+    <comment>'Related party' : Description for systemform in Entity FormXml ID: '{a2eed558-dee8-ed11-a7c6-00224808da54}'</comment>
+  </data>
+  <data name="1:Description,Related party{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Related party' : Description for systemform in Entity FormXml ID: '{b0acd246-d4c0-ed11-83ff-00224825bc73}'</comment>
+  </data>
+  <data name="1:Description,Related party{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Related party' : Description for systemform in Entity FormXml ID: '{bdc180a3-70c1-ed11-83ff-00224825bc73}'</comment>
+  </data>
+  <data name="1:Description,Related party{de1b6343-2cc6-ed11-b597-00224825b6b0}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Related party' : Description for systemform in Entity FormXml ID: '{de1b6343-2cc6-ed11-b597-00224825b6b0}'</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_application_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_application' : displayname for OptionSet 'msfsi_application_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_businessscenario" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_Interestrate" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_Interestrate' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_loanterm" xml:space="preserve">
+    <value>Term (months)</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_loanterm' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_loantype" xml:space="preserve">
+    <value>Type</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_loantype' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_principalamount" xml:space="preserve">
+    <value>Principal amount</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_principalamount' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_principalamount_Base" xml:space="preserve">
+    <value>Principal amount (Base)</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_principalamount_Base' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationmsfsi_textplaceholder" xml:space="preserve">
+    <value>Text placeholder</value>
+    <comment>'msfsi_application' : displayname for Attribute 'msfsi_textplaceholder' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_applicationstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_application' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:label,Application01448212-c07a-4a9d-905b-c4ff01f7be20" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '01448212-c07a-4a9d-905b-c4ff01f7be20'</comment>
+  </data>
+  <data name="1:label,Application18b233c8-7d42-4f0c-821f-46ec7c3b525d" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '18b233c8-7d42-4f0c-821f-46ec7c3b525d'</comment>
+  </data>
+  <data name="1:label,Application1b02e0f1-179c-4edc-8169-07c3167a2f1f" xml:space="preserve">
+    <value>Loan Information</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '1b02e0f1-179c-4edc-8169-07c3167a2f1f'</comment>
+  </data>
+  <data name="1:label,Application26954a08-a8e3-44e9-bf58-2112c94c39fd" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '26954a08-a8e3-44e9-bf58-2112c94c39fd'</comment>
+  </data>
+  <data name="1:label,Application2bf752a7-5a6b-46ba-90c7-2bc4d084a1de" xml:space="preserve">
+    <value>Parties' information</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: '2bf752a7-5a6b-46ba-90c7-2bc4d084a1de'</comment>
+  </data>
+  <data name="1:label,Application3110f071-1a80-4c99-8111-81de92602211" xml:space="preserve">
+    <value>Tasks</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: '3110f071-1a80-4c99-8111-81de92602211'</comment>
+  </data>
+  <data name="1:label,Application463c82b9-84c9-484b-ba6c-49c6e6024a63" xml:space="preserve">
+    <value>Application progress</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '463c82b9-84c9-484b-ba6c-49c6e6024a63'</comment>
+  </data>
+  <data name="1:label,Application5490b6c0-eef4-4b1b-9fb0-69ce08bc9609" xml:space="preserve">
+    <value>Application information</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: '5490b6c0-eef4-4b1b-9fb0-69ce08bc9609'</comment>
+  </data>
+  <data name="1:label,Application6e559837-0258-4f06-bdad-6ff371cf95df" xml:space="preserve">
+    <value>Declared assets and liabilities</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: '6e559837-0258-4f06-bdad-6ff371cf95df'</comment>
+  </data>
+  <data name="1:label,Application78d5e9d1-380e-41ee-b2b4-4fdf5bcd926f" xml:space="preserve">
+    <value>Declared assets and liabilities</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '78d5e9d1-380e-41ee-b2b4-4fdf5bcd926f'</comment>
+  </data>
+  <data name="1:label,Application81ff7fed-d2b2-4f8e-ae84-ef731aeb07ef" xml:space="preserve">
+    <value>Declared income and expenses</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '81ff7fed-d2b2-4f8e-ae84-ef731aeb07ef'</comment>
+  </data>
+  <data name="1:label,Applicationa166aa60-e572-4bf2-8b72-33d5a079a0d4" xml:space="preserve">
+    <value>Additional Applicants</value>
+    <comment>'Application' : label for section in Entity FormXml ID: 'a166aa60-e572-4bf2-8b72-33d5a079a0d4'</comment>
+  </data>
+  <data name="1:label,Applicationafc989e1-7e8d-4aa7-b83c-e0259b85321b" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Application' : label for section in Entity FormXml ID: 'afc989e1-7e8d-4aa7-b83c-e0259b85321b'</comment>
+  </data>
+  <data name="1:label,Applicationba4b79e5-c627-4308-ae80-7111d574903d" xml:space="preserve">
+    <value>Declared income and expenses</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: 'ba4b79e5-c627-4308-ae80-7111d574903d'</comment>
+  </data>
+  <data name="1:label,Applicationba511c6d-0f78-4f2b-96c9-ccb6d5b02e84" xml:space="preserve">
+    <value>Activities</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: 'ba511c6d-0f78-4f2b-96c9-ccb6d5b02e84'</comment>
+  </data>
+  <data name="1:label,Applicationd8f65a67-6c59-46ce-b354-cd86a82ac474" xml:space="preserve">
+    <value>Documents</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: 'd8f65a67-6c59-46ce-b354-cd86a82ac474'</comment>
+  </data>
+  <data name="1:label,Applicatione307d34f-24ff-4e7f-bee1-a0d43297e31d" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Application' : label for section in Entity FormXml ID: 'e307d34f-24ff-4e7f-bee1-a0d43297e31d'</comment>
+  </data>
+  <data name="1:label,Applicatione75fb3a2-d82b-4196-89cd-a42f5235270c" xml:space="preserve">
+    <value>Task Verfication</value>
+    <comment>'Application' : label for section in Entity FormXml ID: 'e75fb3a2-d82b-4196-89cd-a42f5235270c'</comment>
+  </data>
+  <data name="1:label,Applicationeeb5d800-76ea-4f27-a14d-da1180b8b368" xml:space="preserve">
+    <value>Timeline section</value>
+    <comment>'Application' : label for section in Entity FormXml ID: 'eeb5d800-76ea-4f27-a14d-da1180b8b368'</comment>
+  </data>
+  <data name="1:label,Applicationf2778efb-23f9-4939-ac58-5d9871ccbbd0" xml:space="preserve">
+    <value>Collateral</value>
+    <comment>'Application' : label for section in Entity FormXml ID: 'f2778efb-23f9-4939-ac58-5d9871ccbbd0'</comment>
+  </data>
+  <data name="1:label,Application{0f23b49d-d813-4a71-b986-28277d37916e}" xml:space="preserve">
+    <value>Note Text</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{0f23b49d-d813-4a71-b986-28277d37916e}'</comment>
+  </data>
+  <data name="1:label,Application{115e27fe-8205-4ed0-b9c1-71416ba20437}" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{115e27fe-8205-4ed0-b9c1-71416ba20437}'</comment>
+  </data>
+  <data name="1:label,Application{120f9bed-7ab3-4d49-b4d4-463962141940}" xml:space="preserve">
+    <value>Applicant list placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{120f9bed-7ab3-4d49-b4d4-463962141940}'</comment>
+  </data>
+  <data name="1:label,Application{147d13ed-c385-4690-a7e5-612b0e8942ca}" xml:space="preserve">
+    <value>Term (months)</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{147d13ed-c385-4690-a7e5-612b0e8942ca}'</comment>
+  </data>
+  <data name="1:label,Application{15486d34-44a8-461a-89b5-f33de602dde3}" xml:space="preserve">
+    <value>Applicant list placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{15486d34-44a8-461a-89b5-f33de602dde3}'</comment>
+  </data>
+  <data name="1:label,Application{1a6b6a1a-d043-402a-8b31-e42d2b1d2c95}" xml:space="preserve">
+    <value>Text placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{1a6b6a1a-d043-402a-8b31-e42d2b1d2c95}'</comment>
+  </data>
+  <data name="1:label,Application{2aba2c39-4e49-40d9-9246-0394b40baf5f}" xml:space="preserve">
+    <value>Text placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{2aba2c39-4e49-40d9-9246-0394b40baf5f}'</comment>
+  </data>
+  <data name="1:label,Application{2cb3e52d-7b86-4cf4-b6e7-ec5335cea020}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{2cb3e52d-7b86-4cf4-b6e7-ec5335cea020}'</comment>
+  </data>
+  <data name="1:label,Application{2d38ea2c-71d1-4ba5-a1a9-ea9392038266}" xml:space="preserve">
+    <value>Applicants</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{2d38ea2c-71d1-4ba5-a1a9-ea9392038266}'</comment>
+  </data>
+  <data name="1:label,Application{2f9ec175-9898-40e7-9ed0-07b25fdad963}" xml:space="preserve">
+    <value>Selected tasks group placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{2f9ec175-9898-40e7-9ed0-07b25fdad963}'</comment>
+  </data>
+  <data name="1:label,Application{305ebf90-33de-4107-86b2-f10816086570}" xml:space="preserve">
+    <value>Additional parties</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{305ebf90-33de-4107-86b2-f10816086570}'</comment>
+  </data>
+  <data name="1:label,Application{33e567b2-a563-4e59-bde7-bf86ced832ad}" xml:space="preserve">
+    <value>Application name/number</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{33e567b2-a563-4e59-bde7-bf86ced832ad}'</comment>
+  </data>
+  <data name="1:label,Application{3e258e1e-1abf-494f-9ec9-18d69af57f92}" xml:space="preserve">
+    <value>Collateral</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{3e258e1e-1abf-494f-9ec9-18d69af57f92}'</comment>
+  </data>
+  <data name="1:label,Application{4dc27863-3c6b-4f20-91cd-6f38d4de5016}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Application' : label for section in Entity FormXml ID: '{4dc27863-3c6b-4f20-91cd-6f38d4de5016}'</comment>
+  </data>
+  <data name="1:label,Application{5e8a64af-9d18-431c-be2b-1a9f9f07826a}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{5e8a64af-9d18-431c-be2b-1a9f9f07826a}'</comment>
+  </data>
+  <data name="1:label,Application{94032072-ed8b-4c64-9393-65a6f7189bcb}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{94032072-ed8b-4c64-9393-65a6f7189bcb}'</comment>
+  </data>
+  <data name="1:label,Application{a1a4ae37-c96a-4ca7-b341-5d8963ab1a26}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{a1a4ae37-c96a-4ca7-b341-5d8963ab1a26}'</comment>
+  </data>
+  <data name="1:label,Application{a4795ab8-8187-467a-a865-c4e2904e1d28}" xml:space="preserve">
+    <value>Application snapshot</value>
+    <comment>'Application' : label for tab in Entity FormXml ID: '{a4795ab8-8187-467a-a865-c4e2904e1d28}'</comment>
+  </data>
+  <data name="1:label,Application{aaa00b75-8ed5-4429-97c9-815ba903c99e}" xml:space="preserve">
+    <value>Principal amount</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{aaa00b75-8ed5-4429-97c9-815ba903c99e}'</comment>
+  </data>
+  <data name="1:label,Application{ab9ca646-0336-4a00-9804-72ce4e308900}" xml:space="preserve">
+    <value>Text placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{ab9ca646-0336-4a00-9804-72ce4e308900}'</comment>
+  </data>
+  <data name="1:label,Application{b3bf6c26-4874-4e5e-b25d-8ad4382a58c9}" xml:space="preserve">
+    <value>Documents</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{b3bf6c26-4874-4e5e-b25d-8ad4382a58c9}'</comment>
+  </data>
+  <data name="1:label,Application{b5f70e8f-5ba1-4419-8bd8-abebacf39c8a}" xml:space="preserve">
+    <value>Type</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{b5f70e8f-5ba1-4419-8bd8-abebacf39c8a}'</comment>
+  </data>
+  <data name="1:label,Application{b72ec817-5feb-4d0c-8a01-8eb51bbe44fb}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{b72ec817-5feb-4d0c-8a01-8eb51bbe44fb}'</comment>
+  </data>
+  <data name="1:label,Application{bee72d0e-8501-4fc9-9449-c812a82821cc}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{bee72d0e-8501-4fc9-9449-c812a82821cc}'</comment>
+  </data>
+  <data name="1:label,Application{bf2733be-672e-4614-bc75-4e9001ef3f81}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{bf2733be-672e-4614-bc75-4e9001ef3f81}'</comment>
+  </data>
+  <data name="1:label,Application{c40ba231-aae5-47e1-880d-394a860dd8da}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{c40ba231-aae5-47e1-880d-394a860dd8da}'</comment>
+  </data>
+  <data name="1:label,Application{cd146dae-d553-4622-8b52-0f3a32157551}" xml:space="preserve">
+    <value>Loan type</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{cd146dae-d553-4622-8b52-0f3a32157551}'</comment>
+  </data>
+  <data name="1:label,Application{d55f13a4-44e6-461c-a05e-07d2b5ed800d}" xml:space="preserve">
+    <value>Text placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{d55f13a4-44e6-461c-a05e-07d2b5ed800d}'</comment>
+  </data>
+  <data name="1:label,Application{d60d41cc-ee9d-432d-a685-27e1ddad5e4e}" xml:space="preserve">
+    <value>Applicant list placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{d60d41cc-ee9d-432d-a685-27e1ddad5e4e}'</comment>
+  </data>
+  <data name="1:label,Application{d98ffd21-ff3c-4bfb-9c32-a3546c3d9324}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{d98ffd21-ff3c-4bfb-9c32-a3546c3d9324}'</comment>
+  </data>
+  <data name="1:label,Application{ea0461eb-8a69-465e-b51a-99bdc3151306}" xml:space="preserve">
+    <value>Text placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{ea0461eb-8a69-465e-b51a-99bdc3151306}'</comment>
+  </data>
+  <data name="1:label,Application{edb87f51-9e52-40e0-9b4b-fe620e4cb245}" xml:space="preserve">
+    <value />
+    <comment>'Application' : label for cell in Entity FormXml ID: '{edb87f51-9e52-40e0-9b4b-fe620e4cb245}'</comment>
+  </data>
+  <data name="1:label,Application{fa086040-dfaf-4530-8e42-7b35297c8874}" xml:space="preserve">
+    <value>Applicant list placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{fa086040-dfaf-4530-8e42-7b35297c8874}'</comment>
+  </data>
+  <data name="1:label,Application{ff16adf9-4b9e-4d14-b318-be56211b3173}" xml:space="preserve">
+    <value>Applicant list placeholder</value>
+    <comment>'Application' : label for cell in Entity FormXml ID: '{ff16adf9-4b9e-4d14-b318-be56211b3173}'</comment>
+  </data>
+  <data name="1:label,Collateral62ec4a99-3c14-4e85-90cf-09d8aac7b99b" xml:space="preserve">
+    <value>Real estate details</value>
+    <comment>'Collateral' : label for section in Entity FormXml ID: '62ec4a99-3c14-4e85-90cf-09d8aac7b99b'</comment>
+  </data>
+  <data name="1:label,Collateral{04a7eaaf-09ea-4e59-8224-bc4a8104ac8d}" xml:space="preserve">
+    <value>State/Province</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{04a7eaaf-09ea-4e59-8224-bc4a8104ac8d}'</comment>
+  </data>
+  <data name="1:label,Collateral{1aefb53c-5d41-4981-b9ca-aca40ca17922}" xml:space="preserve">
+    <value>Address line 1</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{1aefb53c-5d41-4981-b9ca-aca40ca17922}'</comment>
+  </data>
+  <data name="1:label,Collateral{1c2f6d0c-8a3a-4527-87f8-5f26ad092918}" xml:space="preserve">
+    <value>Real estate type</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{1c2f6d0c-8a3a-4527-87f8-5f26ad092918}'</comment>
+  </data>
+  <data name="1:label,Collateral{4c052251-07c8-4563-b8cb-c7629c943057}" xml:space="preserve">
+    <value>Country/Region</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{4c052251-07c8-4563-b8cb-c7629c943057}'</comment>
+  </data>
+  <data name="1:label,Collateral{56b5b06e-2cd4-43c2-8c6f-878998f36376}" xml:space="preserve">
+    <value>Legal description</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{56b5b06e-2cd4-43c2-8c6f-878998f36376}'</comment>
+  </data>
+  <data name="1:label,Collateral{5bd1d7b5-b8f1-4da3-ab81-58bcce0348cb}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Collateral' : label for section in Entity FormXml ID: '{5bd1d7b5-b8f1-4da3-ab81-58bcce0348cb}'</comment>
+  </data>
+  <data name="1:label,Collateral{608ab8ff-689f-454e-a401-cde8abfaa52e}" xml:space="preserve">
+    <value>Category</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{608ab8ff-689f-454e-a401-cde8abfaa52e}'</comment>
+  </data>
+  <data name="1:label,Collateral{798d6d9a-e616-41d2-99c1-16ca70f4d296}" xml:space="preserve">
+    <value>ZIP/Postal code</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{798d6d9a-e616-41d2-99c1-16ca70f4d296}'</comment>
+  </data>
+  <data name="1:label,Collateral{9bdbd97c-7ead-4e36-b87f-f900525ba1d1}" xml:space="preserve">
+    <value>Longitude</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{9bdbd97c-7ead-4e36-b87f-f900525ba1d1}'</comment>
+  </data>
+  <data name="1:label,Collateral{b07efd0a-bd9e-47b2-adc1-cc405a9b994d}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{b07efd0a-bd9e-47b2-adc1-cc405a9b994d}'</comment>
+  </data>
+  <data name="1:label,Collateral{ba4cece8-581f-4adb-b929-bb4c97a7033d}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{ba4cece8-581f-4adb-b929-bb4c97a7033d}'</comment>
+  </data>
+  <data name="1:label,Collateral{cc505240-217f-4317-b392-9b8823413e27}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{cc505240-217f-4317-b392-9b8823413e27}'</comment>
+  </data>
+  <data name="1:label,Collateral{ee39b66e-6893-42da-a7b8-1993fae2c683}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Collateral' : label for tab in Entity FormXml ID: '{ee39b66e-6893-42da-a7b8-1993fae2c683}'</comment>
+  </data>
+  <data name="1:label,Collateral{f78b90ff-34fc-4f89-a681-400d196b2a8f}" xml:space="preserve">
+    <value>Latitude</value>
+    <comment>'Collateral' : label for cell in Entity FormXml ID: '{f78b90ff-34fc-4f89-a681-400d196b2a8f}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{131682ed-32c9-4068-aa97-456a3031c082}" xml:space="preserve">
+    <value>Purchase date</value>
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{131682ed-32c9-4068-aa97-456a3031c082}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{1afabac8-9965-4cdb-9ad7-0ae93140f456}" xml:space="preserve">
+    <value>Loan collateral valuation</value>
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{1afabac8-9965-4cdb-9ad7-0ae93140f456}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{2f17b853-1877-4d1c-b81e-e0ef9cf25e54}" xml:space="preserve">
+    <value />
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{2f17b853-1877-4d1c-b81e-e0ef9cf25e54}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{519f7cf0-1ebb-4161-933d-40ac45164133}" xml:space="preserve">
+    <value />
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{519f7cf0-1ebb-4161-933d-40ac45164133}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{53657e28-19d8-45a5-b35e-fab1b293a70e}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{53657e28-19d8-45a5-b35e-fab1b293a70e}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{7e4681aa-3918-440e-b8be-e03eb4bfb692}" xml:space="preserve">
+    <value />
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{7e4681aa-3918-440e-b8be-e03eb4bfb692}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{a50a529a-b240-495b-b476-f632493814be}" xml:space="preserve">
+    <value />
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{a50a529a-b240-495b-b476-f632493814be}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{a9e26de7-1884-429b-a7ca-9c7c106f07cc}" xml:space="preserve">
+    <value>Loan application</value>
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{a9e26de7-1884-429b-a7ca-9c7c106f07cc}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{ba55dfc0-aaf4-477b-9bdd-603b11bfde71}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{ba55dfc0-aaf4-477b-9bdd-603b11bfde71}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{beb72499-9697-4586-a513-4928840618a4}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Loan application collateral' : label for tab in Entity FormXml ID: '{beb72499-9697-4586-a513-4928840618a4}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{db9c0287-7d18-4a18-8fdb-25e60b32a23a}" xml:space="preserve">
+    <value />
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{db9c0287-7d18-4a18-8fdb-25e60b32a23a}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{e2b95ae3-0b82-45f4-beb7-00c54a3768eb}" xml:space="preserve">
+    <value>Collateral</value>
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{e2b95ae3-0b82-45f4-beb7-00c54a3768eb}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{ea71a50c-04a8-4844-94d0-95639bc8806f}" xml:space="preserve">
+    <value />
+    <comment>'Loan application collateral' : label for cell in Entity FormXml ID: '{ea71a50c-04a8-4844-94d0-95639bc8806f}'</comment>
+  </data>
+  <data name="1:label,Loan application collateral{f049ee68-6f63-45ca-a91a-4c5bd12fd0ab}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Loan application collateral' : label for section in Entity FormXml ID: '{f049ee68-6f63-45ca-a91a-4c5bd12fd0ab}'</comment>
+    </data>
+  <data name="1:label,Employment{05af6fa6-4a5b-4d62-a2c1-d4ad88ae0c96}" xml:space="preserve">
+    <value />
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{05af6fa6-4a5b-4d62-a2c1-d4ad88ae0c96}'</comment>
+  </data>
+  <data name="1:label,Employment{21a4eb5f-5a41-41b9-9992-199b3e5a8837}" xml:space="preserve">
+    <value />
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{21a4eb5f-5a41-41b9-9992-199b3e5a8837}'</comment>
+  </data>
+  <data name="1:label,Employment{4fc4cdab-fe95-4631-af96-4805feea32a0}" xml:space="preserve">
+    <value />
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{4fc4cdab-fe95-4631-af96-4805feea32a0}'</comment>
+  </data>
+  <data name="1:label,Employment{624bda7c-cb5e-48c4-9a34-bf3b2c9f6f80}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{624bda7c-cb5e-48c4-9a34-bf3b2c9f6f80}'</comment>
+  </data>
+  <data name="1:label,Employment{674755c0-2e67-4c44-bf47-285af1774d55}" xml:space="preserve">
+    <value />
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{674755c0-2e67-4c44-bf47-285af1774d55}'</comment>
+  </data>
+  <data name="1:label,Employment{6c55295b-d81a-4bb7-be2e-b9d718ff4725}" xml:space="preserve">
+    <value>Employer name</value>
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{6c55295b-d81a-4bb7-be2e-b9d718ff4725}'</comment>
+  </data>
+  <data name="1:label,Employment{79bb64a6-92ac-4bae-9bb3-fb5a5b390895}" xml:space="preserve">
+    <value>Employment start date</value>
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{79bb64a6-92ac-4bae-9bb3-fb5a5b390895}'</comment>
+  </data>
+  <data name="1:label,Employment{8ffc4e1d-6b95-4cad-b165-c8c2ec955616}" xml:space="preserve">
+    <value />
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{8ffc4e1d-6b95-4cad-b165-c8c2ec955616}'</comment>
+  </data>
+  <data name="1:label,Employment{a7473431-2a0b-4871-a85a-6edcf585e434}" xml:space="preserve">
+    <value>Job title</value>
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{a7473431-2a0b-4871-a85a-6edcf585e434}'</comment>
+  </data>
+  <data name="1:label,Employment{ade90348-045d-40a5-876a-8bf8b93365d5}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Employment' : label for tab in Entity FormXml ID: '{ade90348-045d-40a5-876a-8bf8b93365d5}'</comment>
+  </data>
+  <data name="1:label,Employment{de823aef-fbb3-4b1d-897f-590a23f1f36b}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Employment' : label for section in Entity FormXml ID: '{de823aef-fbb3-4b1d-897f-590a23f1f36b}'</comment>
+  </data>
+  <data name="1:label,Employment{e1c2f279-dff0-4ed2-be30-dfe3b033e0f6}" xml:space="preserve">
+    <value>Employment end date</value>
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{e1c2f279-dff0-4ed2-be30-dfe3b033e0f6}'</comment>
+  </data>
+  <data name="1:label,Employment{e44db3d6-19a3-46d3-8667-079f1911d92b}" xml:space="preserve">
+    <value />
+    <comment>'Employment' : label for cell in Entity FormXml ID: '{e44db3d6-19a3-46d3-8667-079f1911d92b}'</comment>
+  </data>
+  <data name="1:label,Loan application43385201-029b-4663-a499-87333e001251" xml:space="preserve">
+    <value>Loan Information</value>
+    <comment>'Loan application' : label for section in Entity FormXml ID: '43385201-029b-4663-a499-87333e001251'</comment>
+  </data>
+  <data name="1:label,Loan application{04b36679-ff32-4e83-96f4-5370d67576a8}" xml:space="preserve">
+    <value>Term</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{04b36679-ff32-4e83-96f4-5370d67576a8}'</comment>
+  </data>
+  <data name="1:label,Loan application{1bf49c46-0d19-4b32-88c3-88d24ae5f6bc}" xml:space="preserve">
+    <value>Principal amount</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{1bf49c46-0d19-4b32-88c3-88d24ae5f6bc}'</comment>
+  </data>
+  <data name="1:label,Loan application{391a01da-77f6-4926-a986-10c7fe03faf4}" xml:space="preserve">
+    <value />
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{391a01da-77f6-4926-a986-10c7fe03faf4}'</comment>
+  </data>
+  <data name="1:label,Loan application{67448689-a619-4f2d-ae8a-ae61416ecc38}" xml:space="preserve">
+    <value />
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{67448689-a619-4f2d-ae8a-ae61416ecc38}'</comment>
+  </data>
+  <data name="1:label,Loan application{80492f78-863d-4be6-85fa-dbb61fa953c6}" xml:space="preserve">
+    <value />
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{80492f78-863d-4be6-85fa-dbb61fa953c6}'</comment>
+  </data>
+  <data name="1:label,Loan application{8ee40be7-edfd-43ec-a9e0-be4c5c08708a}" xml:space="preserve">
+    <value />
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{8ee40be7-edfd-43ec-a9e0-be4c5c08708a}'</comment>
+  </data>
+  <data name="1:label,Loan application{9bdd1efd-1220-41b9-9ab5-9dbba581cac3}" xml:space="preserve">
+    <value>Loan purpose</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{9bdd1efd-1220-41b9-9ab5-9dbba581cac3}'</comment>
+  </data>
+  <data name="1:label,Loan application{b8d5afbe-5d5d-4161-9037-eda5c0be0098}" xml:space="preserve">
+    <value>Main</value>
+    <comment>'Loan application' : label for tab in Entity FormXml ID: '{b8d5afbe-5d5d-4161-9037-eda5c0be0098}'</comment>
+  </data>
+  <data name="1:label,Loan application{c006f590-ecbe-46b2-a948-ad2a0da9b4b8}" xml:space="preserve">
+    <value>Down payment</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{c006f590-ecbe-46b2-a948-ad2a0da9b4b8}'</comment>
+  </data>
+  <data name="1:label,Loan application{c95819a4-b1eb-46d0-a251-f0e24d4d6c22}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{c95819a4-b1eb-46d0-a251-f0e24d4d6c22}'</comment>
+  </data>
+  <data name="1:label,Loan application{c963cfd7-14d0-4a97-8e3d-b47fa67cb3c2}" xml:space="preserve">
+    <value />
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{c963cfd7-14d0-4a97-8e3d-b47fa67cb3c2}'</comment>
+  </data>
+  <data name="1:label,Loan application{d573c4a6-58f2-4de3-aab9-46c5b4dc8171}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{d573c4a6-58f2-4de3-aab9-46c5b4dc8171}'</comment>
+  </data>
+  <data name="1:label,Loan application{e0724945-2502-44c3-8a23-031d28f0119b}" xml:space="preserve">
+    <value>Interest rate</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{e0724945-2502-44c3-8a23-031d28f0119b}'</comment>
+  </data>
+  <data name="1:label,Loan application{eb45de83-c204-4777-9442-cbc55ef1c65b}" xml:space="preserve">
+    <value>Application date</value>
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{eb45de83-c204-4777-9442-cbc55ef1c65b}'</comment>
+  </data>
+  <data name="1:label,Loan application{ee05d139-1f82-43dc-b6f1-d62ba8578445}" xml:space="preserve">
+    <value />
+    <comment>'Loan application' : label for cell in Entity FormXml ID: '{ee05d139-1f82-43dc-b6f1-d62ba8578445}'</comment>
+  </data>
+  <data name="1:label,Loan application{fd68bc4b-4e5d-45b7-a150-d9e737a0067c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Loan application' : label for section in Entity FormXml ID: '{fd68bc4b-4e5d-45b7-a150-d9e737a0067c}'</comment>
+  </data>
+  <data name="1:label,Related party50c7c0e0-98f4-4f33-9399-b97ef27bafdb" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: '50c7c0e0-98f4-4f33-9399-b97ef27bafdb'</comment>
+  </data>
+  <data name="1:label,Related party65a37e25-69d3-4587-9d2b-a5fcaeb02844" xml:space="preserve">
+    <value>New Section</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: '65a37e25-69d3-4587-9d2b-a5fcaeb02844'</comment>
+  </data>
+  <data name="1:label,Related partyACBA75B7-97B6-4116-AA55-51312992B721" xml:space="preserve">
+    <value>New Tab</value>
+    <comment>'Related party' : label for tab in Entity FormXml ID: 'ACBA75B7-97B6-4116-AA55-51312992B721'</comment>
+  </data>
+  <data name="1:label,Related partyAD49B5BF-256F-46A8-9C75-947146172EB9" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: 'AD49B5BF-256F-46A8-9C75-947146172EB9'</comment>
+  </data>
+  <data name="1:label,Related partye38b67e1-c8ae-44e7-95c4-052b96bcc831" xml:space="preserve">
+    <value>Details 2</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: 'e38b67e1-c8ae-44e7-95c4-052b96bcc831'</comment>
+  </data>
+  <data name="1:label,Related partyfb46843c-6d51-4582-a307-c46087365e77" xml:space="preserve">
+    <value>Details 1</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: 'fb46843c-6d51-4582-a307-c46087365e77'</comment>
+  </data>
+  <data name="1:label,Related party{038eb2d7-5aa6-445d-858a-829c328cc433}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{038eb2d7-5aa6-445d-858a-829c328cc433}'</comment>
+  </data>
+  <data name="1:label,Related party{041afe68-07c4-4660-9c01-4af613e349fa}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{041afe68-07c4-4660-9c01-4af613e349fa}'</comment>
+  </data>
+  <data name="1:label,Related party{05679134-4a05-4829-9bc9-40ab0f43885f}" xml:space="preserve">
+    <value>Know your customer</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{05679134-4a05-4829-9bc9-40ab0f43885f}'</comment>
+  </data>
+  <data name="1:label,Related party{06693d4e-1307-4dac-843d-d7fca5b2293f}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{06693d4e-1307-4dac-843d-d7fca5b2293f}'</comment>
+  </data>
+  <data name="1:label,Related party{0c390557-9c0f-40ba-ab5b-d247f00ebf0b}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{0c390557-9c0f-40ba-ab5b-d247f00ebf0b}'</comment>
+  </data>
+  <data name="1:label,Related party{118c03b5-304a-4d6a-958f-52ba4debc8eb}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{118c03b5-304a-4d6a-958f-52ba4debc8eb}'</comment>
+  </data>
+  <data name="1:label,Related party{1289357e-293d-462d-b867-d7bc0a3a0169}" xml:space="preserve">
+    <value>General details</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: '{1289357e-293d-462d-b867-d7bc0a3a0169}'</comment>
+  </data>
+  <data name="1:label,Related party{1c48f6ea-0e31-4fc0-93e6-fc6733b1a5a0}" xml:space="preserve">
+    <value>State</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{1c48f6ea-0e31-4fc0-93e6-fc6733b1a5a0}'</comment>
+  </data>
+  <data name="1:label,Related party{1c5c75e0-1cc1-4cfd-80c7-cb224f7a997b}" xml:space="preserve">
+    <value>Credit score</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{1c5c75e0-1cc1-4cfd-80c7-cb224f7a997b}'</comment>
+  </data>
+  <data name="1:label,Related party{1d115527-5056-4938-92a8-4887d28ed5d4}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{1d115527-5056-4938-92a8-4887d28ed5d4}'</comment>
+  </data>
+  <data name="1:label,Related party{1d574584-ffc3-4ce8-b5d0-0678ba7575e8}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{1d574584-ffc3-4ce8-b5d0-0678ba7575e8}'</comment>
+  </data>
+  <data name="1:label,Related party{25c93939-8e2a-4824-be93-ed0ea49efe73}" xml:space="preserve">
+    <value>Marital Status</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{25c93939-8e2a-4824-be93-ed0ea49efe73}'</comment>
+  </data>
+  <data name="1:label,Related party{27c91a62-6ce8-4615-9c06-f9f0d492a019}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{27c91a62-6ce8-4615-9c06-f9f0d492a019}'</comment>
+  </data>
+  <data name="1:label,Related party{28b3f44d-077d-4bcf-bc77-1e3bb5651c7a}" xml:space="preserve">
+    <value>Marital Status</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{28b3f44d-077d-4bcf-bc77-1e3bb5651c7a}'</comment>
+  </data>
+  <data name="1:label,Related party{2c328315-93ac-4981-b813-653bda82b2cd}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{2c328315-93ac-4981-b813-653bda82b2cd}'</comment>
+  </data>
+  <data name="1:label,Related party{2dccfe22-9b31-45e6-84c0-41ff246a3888}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{2dccfe22-9b31-45e6-84c0-41ff246a3888}'</comment>
+  </data>
+  <data name="1:label,Related party{3e004fd8-0dab-4e55-bd9d-febc86dfce3b}" xml:space="preserve">
+    <value>Address</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{3e004fd8-0dab-4e55-bd9d-febc86dfce3b}'</comment>
+  </data>
+  <data name="1:label,Related party{3ea2fc28-9dc6-44ca-b83f-b4d2ec52ebda}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{3ea2fc28-9dc6-44ca-b83f-b4d2ec52ebda}'</comment>
+  </data>
+  <data name="1:label,Related party{417caa2a-f695-44f2-992b-c8f4584fd7e2}" xml:space="preserve">
+    <value>Full name</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{417caa2a-f695-44f2-992b-c8f4584fd7e2}'</comment>
+  </data>
+  <data name="1:label,Related party{4302f917-64ef-40a7-b421-9f8603380281}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{4302f917-64ef-40a7-b421-9f8603380281}'</comment>
+  </data>
+  <data name="1:label,Related party{47f950c5-6bb8-4abe-8390-e1fd52eef7bb}" xml:space="preserve">
+    <value>Address</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{47f950c5-6bb8-4abe-8390-e1fd52eef7bb}'</comment>
+  </data>
+  <data name="1:label,Related party{4a09b956-a22a-4b17-a8d2-0c957490d9d7}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{4a09b956-a22a-4b17-a8d2-0c957490d9d7}'</comment>
+  </data>
+  <data name="1:label,Related party{514d141e-653f-42b0-9e15-ef1392a158ac}" xml:space="preserve">
+    <value>Employment</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{514d141e-653f-42b0-9e15-ef1392a158ac}'</comment>
+  </data>
+  <data name="1:label,Related party{51d9216f-a9f0-445d-9b2b-9959912ab241}" xml:space="preserve">
+    <value>Email Address</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{51d9216f-a9f0-445d-9b2b-9959912ab241}'</comment>
+  </data>
+  <data name="1:label,Related party{544a9c99-1476-4072-88b7-0154b8de8d81}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{544a9c99-1476-4072-88b7-0154b8de8d81}'</comment>
+  </data>
+  <data name="1:label,Related party{553ebe2a-7e27-47cd-9f7b-51da54550fb2}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{553ebe2a-7e27-47cd-9f7b-51da54550fb2}'</comment>
+  </data>
+  <data name="1:label,Related party{57d25b09-5bdf-4271-b5db-672547b9f9c1}" xml:space="preserve">
+    <value>Related party</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{57d25b09-5bdf-4271-b5db-672547b9f9c1}'</comment>
+  </data>
+  <data name="1:label,Related party{59351359-5fbf-41c5-9202-d3ce509230dd}" xml:space="preserve">
+    <value>National ID</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{59351359-5fbf-41c5-9202-d3ce509230dd}'</comment>
+  </data>
+  <data name="1:label,Related party{5ba48e45-ade3-4acd-ade0-fd6bc45bbee9}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{5ba48e45-ade3-4acd-ade0-fd6bc45bbee9}'</comment>
+  </data>
+  <data name="1:label,Related party{6cf4ed63-9e75-4d84-8c16-1a8118990aa1}" xml:space="preserve">
+    <value>Marital Status</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{6cf4ed63-9e75-4d84-8c16-1a8118990aa1}'</comment>
+  </data>
+  <data name="1:label,Related party{718e68e6-fe75-4137-abdf-37454631dd49}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{718e68e6-fe75-4137-abdf-37454631dd49}'</comment>
+  </data>
+  <data name="1:label,Related party{764c28a2-c637-4ea3-a740-6c6fbd09c7a8}" xml:space="preserve">
+    <value>Phone</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{764c28a2-c637-4ea3-a740-6c6fbd09c7a8}'</comment>
+  </data>
+  <data name="1:label,Related party{794f80c9-ac5e-49ca-812f-a3fe17ee629d}" xml:space="preserve">
+    <value>Age</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{794f80c9-ac5e-49ca-812f-a3fe17ee629d}'</comment>
+  </data>
+  <data name="1:label,Related party{8286e203-8c02-496d-b2df-98becec0a387}" xml:space="preserve">
+    <value>Credit score</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{8286e203-8c02-496d-b2df-98becec0a387}'</comment>
+  </data>
+  <data name="1:label,Related party{8588fc59-b4f1-499e-ba09-f3102362db33}" xml:space="preserve">
+    <value>Know your customer</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{8588fc59-b4f1-499e-ba09-f3102362db33}'</comment>
+  </data>
+  <data name="1:label,Related party{86d55084-d945-4587-95e4-d2d3506a5036}" xml:space="preserve">
+    <value>Role</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{86d55084-d945-4587-95e4-d2d3506a5036}'</comment>
+  </data>
+  <data name="1:label,Related party{87c3c4b0-fdd5-4eec-b739-4ba94be39779}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{87c3c4b0-fdd5-4eec-b739-4ba94be39779}'</comment>
+  </data>
+  <data name="1:label,Related party{89208cb7-69a4-4961-b2a5-a7dabeb6c6a3}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{89208cb7-69a4-4961-b2a5-a7dabeb6c6a3}'</comment>
+  </data>
+  <data name="1:label,Related party{8975daa9-9622-43a3-a6a2-c01f73d0b73c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Related party' : label for tab in Entity FormXml ID: '{8975daa9-9622-43a3-a6a2-c01f73d0b73c}'</comment>
+  </data>
+  <data name="1:label,Related party{8dc9a104-4d34-4b31-95c1-34c87c285fa6}" xml:space="preserve">
+    <value>Is primary</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{8dc9a104-4d34-4b31-95c1-34c87c285fa6}'</comment>
+  </data>
+  <data name="1:label,Related party{90496f95-5bbb-4197-bea6-2e2d1a51af77}" xml:space="preserve">
+    <value>City</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{90496f95-5bbb-4197-bea6-2e2d1a51af77}'</comment>
+  </data>
+  <data name="1:label,Related party{9422640d-a218-4d2c-8fc4-3c92a6070560}" xml:space="preserve">
+    <value>Email</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{9422640d-a218-4d2c-8fc4-3c92a6070560}'</comment>
+  </data>
+  <data name="1:label,Related party{9d0b307e-0efb-487a-8d02-4f799446e1c1}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{9d0b307e-0efb-487a-8d02-4f799446e1c1}'</comment>
+  </data>
+  <data name="1:label,Related party{9dce4c8f-0ac1-4ed1-9dd0-640117180ed6}" xml:space="preserve">
+    <value>Birthday</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{9dce4c8f-0ac1-4ed1-9dd0-640117180ed6}'</comment>
+  </data>
+  <data name="1:label,Related party{9e01d226-098d-47b2-8209-e4d1b3f45f9d}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{9e01d226-098d-47b2-8209-e4d1b3f45f9d}'</comment>
+  </data>
+  <data name="1:label,Related party{a24aaaad-2504-42ee-9653-3dab6d09b170}" xml:space="preserve">
+    <value>State</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{a24aaaad-2504-42ee-9653-3dab6d09b170}'</comment>
+  </data>
+  <data name="1:label,Related party{afdf4191-76cc-4164-86f9-989ccf770033}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{afdf4191-76cc-4164-86f9-989ccf770033}'</comment>
+  </data>
+  <data name="1:label,Related party{b6f373cc-937b-4bf0-9848-526fa437f455}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{b6f373cc-937b-4bf0-9848-526fa437f455}'</comment>
+  </data>
+  <data name="1:label,Related party{bdeef8a5-4a99-4839-95c7-e0c2e3d8e9a9}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{bdeef8a5-4a99-4839-95c7-e0c2e3d8e9a9}'</comment>
+  </data>
+  <data name="1:label,Related party{c0a2a46d-735d-42c3-bf42-713694d5d302}" xml:space="preserve">
+    <value>National ID</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{c0a2a46d-735d-42c3-bf42-713694d5d302}'</comment>
+  </data>
+  <data name="1:label,Related party{c7388bf5-62fc-417e-93c3-ace614a5760f}" xml:space="preserve">
+    <value>Phone</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{c7388bf5-62fc-417e-93c3-ace614a5760f}'</comment>
+  </data>
+  <data name="1:label,Related party{cdab4eef-6d9b-4f49-a67c-e13a03b434de}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{cdab4eef-6d9b-4f49-a67c-e13a03b434de}'</comment>
+  </data>
+  <data name="1:label,Related party{d12778bf-bd3a-46b4-8190-6176b532a534}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Related party' : label for tab in Entity FormXml ID: '{d12778bf-bd3a-46b4-8190-6176b532a534}'</comment>
+  </data>
+  <data name="1:label,Related party{e65bb8b7-7724-4031-b3c8-e39a6da496e7}" xml:space="preserve">
+    <value>Birthday</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{e65bb8b7-7724-4031-b3c8-e39a6da496e7}'</comment>
+  </data>
+  <data name="1:label,Related party{e705ba7a-83d9-468e-969e-582eba998910}" xml:space="preserve">
+    <value>Role</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{e705ba7a-83d9-468e-969e-582eba998910}'</comment>
+  </data>
+  <data name="1:label,Related party{e99283f7-d93c-4611-a65e-48ef1108825a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{e99283f7-d93c-4611-a65e-48ef1108825a}'</comment>
+  </data>
+  <data name="1:label,Related party{ee0901fa-a2d1-4808-907f-a90bc40e3330}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Related party' : label for section in Entity FormXml ID: '{ee0901fa-a2d1-4808-907f-a90bc40e3330}'</comment>
+  </data>
+  <data name="1:label,Related party{f503e724-c6e6-490c-b807-a747d3fd34fa}" xml:space="preserve">
+    <value />
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{f503e724-c6e6-490c-b807-a747d3fd34fa}'</comment>
+  </data>
+  <data name="1:label,Related party{f903c158-ac27-4037-bb3c-2acb7848b8ed}" xml:space="preserve">
+    <value>Phone</value>
+    <comment>'Related party' : label for cell in Entity FormXml ID: '{f903c158-ac27-4037-bb3c-2acb7848b8ed}'</comment>
+  </data>
+  <data name="1:LocalizedName,Application{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>Loan Application modify form</value>
+    <comment>'Application' : LocalizedName for systemform in Entity FormXml ID: '{26e70759-53d1-ed11-a7c7-000d3a1b91b8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Application{54fe3a20-05dc-ed11-a7c7-002248284536}" xml:space="preserve">
+    <value>Archived Loan Applications</value>
+    <comment>'Application' : LocalizedName for SavedQuery on Entity QueryId: '{54fe3a20-05dc-ed11-a7c7-002248284536}'</comment>
+  </data>
+  <data name="1:LocalizedName,Application{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Loan application main form</value>
+    <comment>'Application' : LocalizedName for systemform in Entity FormXml ID: '{83257ce0-c7bc-ed11-83ff-002248081af8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Collateral{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" xml:space="preserve">
+    <value>Collateral main form</value>
+    <comment>'Collateral' : LocalizedName for systemform in Entity FormXml ID: '{4d7c6864-60e7-ed11-a7c6-000d3a549b93}'</comment>
+  </data>
+  <data name="1:LocalizedName,Employment{b566a3ee-64c6-ed11-b597-000d3a37de5f}" xml:space="preserve">
+    <value>Loan parties' information view</value>
+    <comment>'Employment' : LocalizedName for SavedQuery on Entity QueryId: '{b566a3ee-64c6-ed11-b597-000d3a37de5f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Loan application collateral{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" xml:space="preserve">
+    <value>Loan application collateral main form</value>
+    <comment>'Loan application collateral' : LocalizedName for systemform in Entity FormXml ID: '{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}'</comment>
+  </data>
+  <data name="1:LocalizedName,Loan application collateral{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" xml:space="preserve">
+    <value>Loan application information collateral view</value>
+    <comment>'Loan application collateral' : LocalizedName for SavedQuery on Entity QueryId: '{941b9850-60e3-ed11-a7c7-000d3a55d6c3}'</comment>
+  </data>
+  <data name="1:LocalizedName,Employment{bff2785d-41e3-ed11-a7c7-6045bd006622}" xml:space="preserve">
+    <value>Employment main form</value>
+    <comment>'Employment' : LocalizedName for systemform in Entity FormXml ID: '{bff2785d-41e3-ed11-a7c7-6045bd006622}'</comment>
+  </data>
+  <data name="1:LocalizedName,Loan application{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" xml:space="preserve">
+    <value>Loan application main form</value>
+    <comment>'Loan application' : LocalizedName for systemform in Entity FormXml ID: '{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}'</comment>
+  </data>
+  <data name="1:LocalizedName,Queue Item{9df016db-c0bc-ed11-83ff-00224808199b}" xml:space="preserve">
+    <value>Loan applications view</value>
+    <comment>'Queue Item' : LocalizedName for SavedQuery on Entity QueryId: '{9df016db-c0bc-ed11-83ff-00224808199b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>Related loan parties' information main form</value>
+    <comment>'Related party' : LocalizedName for systemform in Entity FormXml ID: '{44e1cced-65c6-ed11-b596-000d3a37dbf1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>Related party income and expenses</value>
+    <comment>'Related party' : LocalizedName for systemform in Entity FormXml ID: '{6ab588aa-c5c7-ed11-b597-00224825b5e2}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{a2eed558-dee8-ed11-a7c6-00224808da54}" xml:space="preserve">
+    <value>Loan Primary Applicant Snapshot Quick view</value>
+    <comment>'Related party' : LocalizedName for systemform in Entity FormXml ID: '{a2eed558-dee8-ed11-a7c6-00224808da54}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Related party entity snapshot form</value>
+    <comment>'Related party' : LocalizedName for systemform in Entity FormXml ID: '{b0acd246-d4c0-ed11-83ff-00224825bc73}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Related party details form</value>
+    <comment>'Related party' : LocalizedName for systemform in Entity FormXml ID: '{bdc180a3-70c1-ed11-83ff-00224825bc73}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{c82b0578-d0c0-ed11-83ff-00224825b523}" xml:space="preserve">
+    <value>Additional applicant view</value>
+    <comment>'Related party' : LocalizedName for SavedQuery on Entity QueryId: '{c82b0578-d0c0-ed11-83ff-00224825b523}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{de1b6343-2cc6-ed11-b597-00224825b6b0}" xml:space="preserve">
+    <value>Related party assets and liabilities </value>
+    <comment>'Related party' : LocalizedName for systemform in Entity FormXml ID: '{de1b6343-2cc6-ed11-b597-00224825b6b0}'</comment>
+  </data>
+  <data name="1:LocalizedName,Related party{fde16cd5-c8ec-ed11-8849-002248081bbd}" xml:space="preserve">
+    <value>All applicants view</value>
+    <comment>'Related party' : LocalizedName for SavedQuery on Entity QueryId: '{fde16cd5-c8ec-ed11-8849-002248081bbd}'</comment>
+  </data>
+  <data name="1:Title,ApplicationInfo{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,ApplicationInfo{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,ApplicationMarketing{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,ApplicationMarketing{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,ApplicationProcessCenter{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,ApplicationProcessCenter{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,ApplicationSales{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,ApplicationSales{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,ApplicationService{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,ApplicationService{83257ce0-c7bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Application' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Related partyInfo{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Related partyInfo{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Related partyInfo{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Related partyInfo{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Common</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,Related partyMarketing{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Related partyMarketing{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Related partyMarketing{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Related partyMarketing{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Marketing</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,Related partyProcessCenter{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Related partyProcessCenter{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Related partyProcessCenter{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Related partyProcessCenter{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Process Sessions</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,Related partySales{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Related partySales{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Related partySales{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Related partySales{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Sales</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,Related partyService{44e1cced-65c6-ed11-b596-000d3a37dbf1}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Related partyService{6ab588aa-c5c7-ed11-b597-00224825b5e2}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Related partyService{b0acd246-d4c0-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="1:Title,Related partyService{bdc180a3-70c1-ed11-83ff-00224825bc73}" xml:space="preserve">
+    <value>Service</value>
+    <comment>'Related party' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="29:LocalizedName,{28db399b-08ce-ed11-b597-0022481c39a0}" xml:space="preserve">
+    <value>Income statement document request</value>
+    <comment>'Income statement document request' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{94a023fc-76d2-ed11-a7c7-000d3a1bafbe}" xml:space="preserve">
+    <value>Update application fields from loan application</value>
+    <comment>'Update application fields from loan application' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{a3abf003-84df-ed11-a7c7-000d3a33d043}" xml:space="preserve">
+    <value>Identification document type verification step</value>
+    <comment>'Identification document type verification step' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{cba1b9e7-83df-ed11-a7c7-000d3a33d043}" xml:space="preserve">
+    <value>Identification document enrichment step</value>
+    <comment>'Identification document enrichment step' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{ce8b742c-84df-ed11-a7c7-000d3a33dede}" xml:space="preserve">
+    <value>Identification document pipeline</value>
+    <comment>'Identification document pipeline' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{d6b9f884-7bcc-ed11-b597-0022481c39a0}" xml:space="preserve">
+    <value>Request ID for loan parties</value>
+    <comment>'Request ID for loan parties' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{dbe8fa4b-d0bc-ed11-83ff-002248081af8}" xml:space="preserve">
+    <value>Add loan application to queue</value>
+    <comment>'Add loan application to queue' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="80:LocalizedName,msfsi_LoanOnboardingStarter" xml:space="preserve">
+    <value>Loan Onboarding</value>
+    <comment> 'msfsi_LoanOnboardingStarter' : LocalizedName for AppModule</comment>
+  </data>
+  <data name="81:LocalizedName,msfsi_LoanOnboardingStarter" xml:space="preserve">
+    <value>Loan Onboarding</value>
+    <comment>'msfsi_LoanOnboardingStarter' : LocalizedName for AppModuleSiteMap</comment>
+  </data>
+  <data name="81:Title,area_339053f9area_339053f9" xml:space="preserve">
+    <value>Loan onboarding</value>
+    <comment>Title for Area 'area_339053f9' Area 'area_339053f9'</comment>
+  </data>
+  <data name="81:Title,area_339053f9group_loan_onboarding" xml:space="preserve">
+    <value>Loan onboarding</value>
+    <comment>Title for Area 'area_339053f9' Group 'group_loan_onboarding'</comment>
+  </data>
+  <data name="81:Title,area_339053f9subarea_active" xml:space="preserve">
+    <value>Loan Applications</value>
+    <comment>Title for Area 'area_339053f9' SubArea 'subarea_active'</comment>
+  </data>
+  <data name="81:Title,area_339053f9subarea_archived" xml:space="preserve">
+    <value>Archived Loan Applications</value>
+    <comment>Title for Area 'area_339053f9' SubArea 'subarea_archived'</comment>
+  </data>
+  <data name="9:Description,msfsi_documentdefinitionscenario" xml:space="preserve">
+    <value>Different business scenarios such as: Loan, Insurance, etc...</value>
+    <comment>'msfsi_documentdefinitionscenario' : Description for OptionSet</comment>
+  </data>
+  <data name="9:Description,msfsi_documentdefinitionscenario104800000" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documentdefinitionscenario' : Description for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:Description,msfsi_documentdefinitionscenario104800001" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documentdefinitionscenario' : Description for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:Description,msfsi_documenttype104800000" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documenttype' : Description for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:Description,msfsi_documenttype104800001" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documenttype' : Description for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:Description,msfsi_documenttype104800002" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documenttype' : Description for OptionSet Value '104800002'</comment>
+  </data>
+  <data name="9:Description,msfsi_documenttype104800003" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documenttype' : Description for OptionSet Value '104800003'</comment>
+  </data>
+  <data name="9:Description,msfsi_documenttype104800004" xml:space="preserve">
+    <value />
+    <comment>'msfsi_documenttype' : Description for OptionSet Value '104800004'</comment>
+  </data>
+  <data name="9:displayname,msfsi_documentdefinitionscenario" xml:space="preserve">
+    <value>Document definition scenario</value>
+    <comment>'msfsi_documentdefinitionscenario' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,msfsi_documenttype" xml:space="preserve">
+    <value>Document type</value>
+    <comment>'msfsi_documenttype' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:label,msfsi_documentdefinitionscenario104800000" xml:space="preserve">
+    <value>General</value>
+    <comment>'msfsi_documentdefinitionscenario' : label for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:label,msfsi_documentdefinitionscenario104800001" xml:space="preserve">
+    <value>Loan</value>
+    <comment>'msfsi_documentdefinitionscenario' : label for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:label,msfsi_documenttype104800000" xml:space="preserve">
+    <value>Driver license</value>
+    <comment>'msfsi_documenttype' : label for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:label,msfsi_documenttype104800001" xml:space="preserve">
+    <value>Inspection</value>
+    <comment>'msfsi_documenttype' : label for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:label,msfsi_documenttype104800002" xml:space="preserve">
+    <value>Images</value>
+    <comment>'msfsi_documenttype' : label for OptionSet Value '104800002'</comment>
+  </data>
+  <data name="9:label,msfsi_documenttype104800003" xml:space="preserve">
+    <value>License</value>
+    <comment>'msfsi_documenttype' : label for OptionSet Value '104800003'</comment>
+  </data>
+  <data name="9:label,msfsi_documenttype104800004" xml:space="preserve">
+    <value>Identification</value>
+    <comment>'msfsi_documenttype' : label for OptionSet Value '104800004'</comment>
+  </data>
+</root>

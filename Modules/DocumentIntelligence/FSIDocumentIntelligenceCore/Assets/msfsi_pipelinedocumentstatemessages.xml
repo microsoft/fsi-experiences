@@ -1,0 +1,41 @@
+<msfsi_pipelinedocumentstatemessages>
+  <msfsi_pipelinedocumentstatemessage msfsi_pipelinedocumentstatemessageid="8919dbf0-0c72-48a7-9c43-31d4b63f4456">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_name>Pipeline rejected</msfsi_name>
+    <msfsi_pipelinedocumentstate>104800001</msfsi_pipelinedocumentstate>
+    <msfsi_statedescription default="This document doesn’t meet the criteria needed for approval.">
+      <label description="This document doesn’t meet the criteria needed for approval." languagecode="1033" />
+    </msfsi_statedescription>
+    <msfsi_statetext default="Recommend that you reject the document">
+      <label description="Recommend that you reject the document" languagecode="1033" />
+    </msfsi_statetext>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_pipelinedocumentstatemessage>
+  <msfsi_pipelinedocumentstatemessage msfsi_pipelinedocumentstatemessageid="cb9613e5-1910-4260-8d45-0d75e4f25ab5">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_name>Pipeline approved</msfsi_name>
+    <msfsi_pipelinedocumentstate>104800002</msfsi_pipelinedocumentstate>
+    <msfsi_statedescription default="This document meets the criteria needed for approval.">
+      <label description="This document meets the criteria needed for approval." languagecode="1033" />
+    </msfsi_statedescription>
+    <msfsi_statetext default="Recommend that you approve the document">
+      <label description="Recommend that you approve the document" languagecode="1033" />
+    </msfsi_statetext>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_pipelinedocumentstatemessage>
+  <msfsi_pipelinedocumentstatemessage msfsi_pipelinedocumentstatemessageid="d33fc728-c1e9-4267-acdb-c3bbea9eefcb">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_name>Pipeline unclear</msfsi_name>
+    <msfsi_pipelinedocumentstate>104800000</msfsi_pipelinedocumentstate>
+    <msfsi_statedescription default="This document doesn’t seem to meet some of the criteria needed for approval, but may still be correct. Please review it once before making a decision.">
+      <label description="This document doesn’t seem to meet some of the criteria needed for approval, but may still be correct. Please review it once before making a decision." languagecode="1033" />
+    </msfsi_statedescription>
+    <msfsi_statetext default="Recommend that you manually review the document">
+      <label description="Recommend that you manually review the document" languagecode="1033" />
+    </msfsi_statetext>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_pipelinedocumentstatemessage>
+</msfsi_pipelinedocumentstatemessages>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping>
+    <FileToFile map="PluginAssemblies/MicrosoftCloudForFSIRetailBankingCoreDataModelPlugins-E9055AB7-0506-4824-A5CD-7E5184FEE639/MicrosoftCloudForFSIRetailBankingCoreDataModelPlugins.dll" to="..\..\..\drop\%BuildConfiguration%\%BuildPlatform%\Plugins\Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins.dll" />
+</Mapping>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_fh_creditline.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_fh_creditline.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_fh_creditline.Flyout.Hide" Location="AIBuilder.msfsi_fh_creditline.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Activate.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddAppointment.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddConnection.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddEmail.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddFax.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddFile.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddLetter.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddNote.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddPhone.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddTask.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.AddToQueue.Hide" Location="Mscrm.Form.msfsi_fh_creditline.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Convert.Case.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.CopySelected.Hide" Location="Mscrm.Form.msfsi_fh_creditline.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_fh_creditline.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Deactivate.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Delete.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.FormDesign.Hide" Location="Mscrm.Form.msfsi_fh_creditline.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.MailMerge.Hide" Location="Mscrm.Form.msfsi_fh_creditline.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.NewRecord.Hide" Location="Mscrm.Form.msfsi_fh_creditline.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_fh_creditline.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_fh_creditline.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_fh_creditline.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Permissions.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_fh_creditline.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.PublishAll.Hide" Location="Mscrm.Form.msfsi_fh_creditline.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.PublishEntity.Hide" Location="Mscrm.Form.msfsi_fh_creditline.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_fh_creditline.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.Reports.Hide" Location="Mscrm.Form.msfsi_fh_creditline.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.RunScript.Hide" Location="Mscrm.Form.msfsi_fh_creditline.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_fh_creditline.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_fh_creditline.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_fh_creditline.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_fh_creditline.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_fh_creditline.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fh_creditline.WordTemplate.Hide" Location="Mscrm.Form.msfsi_fh_creditline.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.DeleteMenu.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.DeleteMenu" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.NewRecord.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.NewRecordForBPFEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fh_creditline.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_fh_creditline.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Activate.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AddNewStandard.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AddNewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Charts.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Delete.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Detect.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Edit.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Filters.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.NewRecord.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.Remove.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.Remove" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fh_creditline.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_fh_creditline.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

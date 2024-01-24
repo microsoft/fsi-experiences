@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDataSource EntityDataSourceId="{a61e8106-dd05-ed11-82e4-000d3a9c71b4}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Onboarding form data source</Name>
+  <ConnectionDefinition>%7B%0D%0A++%22Name%22%3A+%22Onboarding+form+data+source%22%2C%0D%0A++%22Onboarding+form+data+source%22%3A+%22a61e8106-dd05-ed11-82e4-000d3a9c71b4%22%0D%0A%7D</ConnectionDefinition>
+  <EntityDataProviderId>{a36072f1-dc05-ed11-82e4-000d3a9c71b4}</EntityDataProviderId>
+  <IsCustomizable>1</IsCustomizable>
+</EntityDataSource>

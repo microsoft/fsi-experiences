@@ -31,6 +31,102 @@
     {
       "ProjectName": "FSIWealthManagementSecurityRoles",
       "SolutionName": "WealthManagementSecurityRoles"
+    },
+    {
+      "ProjectName": "FSIApplicationQueueControl",
+      "SolutionName": "ApplicationQueueControl"
+    },
+    {
+      "ProjectName": "FSIOnboardingEssentialsAnchor",
+      "SolutionName": "OnboardingEssentialsAnchor"
+    },
+    {
+      "ProjectName": "FSIOnboardingEssentialsBase",
+      "SolutionName": "OnboardingEssentialsBase"
+    },
+    {
+      "ProjectName": "FSIOnboardingEssentialsControls",
+      "SolutionName": "OnboardingEssentialsControls"
+    },
+    {
+      "ProjectName": "FSIOnboardingEssentialsDataModel",
+      "SolutionName": "OnboardingEssentialsDataModel"
+    },
+    {
+      "ProjectName": "FSIOnboardingEssentialsSecurityRoles",
+      "SolutionName": "OnboardingEssentialsSecurityRoles"
+    },
+    {
+      "ProjectName": "FSIOnboardingEssentialsTasks",
+      "SolutionName": "OnboardingEssentialsTasks"
+    },
+    {
+      "ProjectName": "FSICommonSecurityRoles",
+      "SolutionName": "CommonSecurityRoles"
+    },
+    {
+      "ProjectName": "FSICoreRetailBankingSecurityRoles",
+      "SolutionName": "CoreRetailBankingSecurityRoles"
+    },
+    {
+      "ProjectName": "FSIFinancialServicesCommonDataModel",
+      "SolutionName": "FinancialServicesCommonDataModel"
+    },
+    {
+      "ProjectName": "FSIFinancialServicesConfiguration",
+      "SolutionName": "FinancialServicesConfiguration"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingDataModel",
+      "SolutionName": "LoanOnboardingDataModel"
+    },
+    {
+      "ProjectName": "FSIRetailBankingCoreDataModel",
+      "SolutionName": "RetailBankingCoreDataModel"
+    },
+    {
+      "ProjectName": "FSIRetailBankingDataModelAnchor",
+      "SolutionName": "RetailBankingDataModelAnchor"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingStarterAnchor",
+      "SolutionName": "LoanOnboardingStarterAnchor"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingStarterSecurityRoles",
+      "SolutionName": "LoanOnboardingStarterSecurityRoles"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingStarter",
+      "SolutionName": "LoanOnboardingStarter"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingStarterDataModel",
+      "SolutionName": "LoanOnboardingStarterDataModel"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingStarterRibbon",
+      "SolutionName": "LoanOnboardingStarterRibbon"
+    },
+    {
+      "ProjectName": "FSIDocumentCommonDataModel",
+      "SolutionName": "DocumentCommonDataModel"
+    },
+    {
+      "ProjectName": "FSIDocumentIntelligenceDataModel",
+      "SolutionName": "DocumentIntelligenceDataModel"
+    },
+    {
+      "ProjectName": "FSIDocumentIntelligenceCore",
+      "SolutionName": "DocumentIntelligenceCore"
+    },
+    {
+      "ProjectName": "FSIDocumentIntelligenceControls",
+      "SolutionName": "DocumentIntelligenceControls"
+    },
+    {
+      "ProjectName": "FSIDocumentIntelligenceAnchor",
+      "SolutionName": "DocumentIntelligenceAnchor"
     }
   ]
 }

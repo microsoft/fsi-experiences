@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="TaskVerificationControl" version="1.4.0" display-name-key="TaskVerificationControl" description-key="TaskVerificationControl description" control-type="virtual">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="taskDefinitionId" display-name-key="TASK_DEFINITION_ID" description-key="TASK_DEFINITION_ID_DESC" usage="input" of-type="SingleLine.Text" required="false" />
+    <property name="dummy" display-name-key="PLACE_HOLDER_BOUND" description-key="PLACE_HOLDER_NAME_DESCRIPTION" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="applicationId" display-name-key="APPLICATION_ID_NAME" description-key="APPLICATION_ID_DESC" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error48.png" />
+      <resx path="strings/TaskVerificationControl.1028.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.1031.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.1036.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.1040.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.1043.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.1046.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.3082.resx" version="1.0.0" />
+      <resx path="strings/TaskVerificationControl.1033.resx" version="1.0.0" />
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="8.29.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

@@ -14,12 +14,32 @@
     <Content Include="$(ModuleName)\**\*.*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\RetailBankingDataModel\FSIFinancialServicesCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\RetailBankingDataModel\FSIRetailBankingCoreDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIRetailBankingCoreComponents_managed.zip">
       <Link>$(ModuleName)\FSIRetailBankingCoreComponents_managed.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIRetailBankingCoreControls_managed.zip">
       <Link>$(ModuleName)\FSIRetailBankingCoreControls_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\RetailBankingDataModel\FSICoreRetailBankingSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSICoreRetailBankingSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\RetailBankingDataModel\FSICommonSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSICommonSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\RetailBankingDataModel\FSIFinancialServicesConfiguration_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesConfiguration_managed.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIUnifiedCustomerProfileSecurityRoles_managed.zip">
@@ -37,8 +57,13 @@
   </ItemGroup>
   
   <ItemGroup>
+    <ProjectReference Include="..\..\RetailBankingDataModel\FSIFinancialServicesCommonDataModel\FSIFinancialServicesCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\RetailBankingDataModel\FSIRetailBankingCoreDataModel\FSIRetailBankingCoreDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
     <ProjectReference Include="..\FSIRetailBankingCoreComponents\FSIRetailBankingCoreComponents.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
     <ProjectReference Include="..\FSIRetailBankingCoreControls\FSIRetailBankingCoreControls.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\RetailBankingDataModel\FSICoreRetailBankingSecurityRoles\FSICoreRetailBankingSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\RetailBankingDataModel\FSICommonSecurityRoles\FSICommonSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\RetailBankingDataModel\FSIFinancialServicesConfiguration\FSIFinancialServicesConfiguration.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
     <ProjectReference Include="..\FSIUnifiedCustomerProfileSecurityRoles\FSIUnifiedCustomerProfileSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
     <ProjectReference Include="..\FSIUnifiedCustomerProfile\FSIUnifiedCustomerProfile.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
     <ProjectReference Include="..\FSIUnifiedCustomerProfileAnchor\FSIUnifiedCustomerProfileAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'"/>

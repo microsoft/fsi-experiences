@@ -1,0 +1,92 @@
+<msfsi_taskdefinitions>
+  <msfsi_taskdefinition msfsi_taskdefinitionid="bd5df4cb-e5d0-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_associationtype>104800000</msfsi_associationtype>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Application information">
+      <label description="Application information" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_taskgroup>
+      <msfsi_taskgroupid>fa126d0b-e2d0-ed11-a7c7-000d3a549c38</msfsi_taskgroupid>
+    </msfsi_taskgroup>
+    <msfsi_tasknavigation>
+      <msfsi_tasknavigationid>0211ab7c-e3d0-ed11-a7c7-000d3a549c38</msfsi_tasknavigationid>
+    </msfsi_tasknavigation>
+    <msfsi_tasktype>104800000</msfsi_tasktype>
+    <msfsi_triggertype>100000000</msfsi_triggertype>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_taskdefinition>
+  <msfsi_taskdefinition msfsi_taskdefinitionid="7f7d0258-ecd0-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_associationtype>104800002</msfsi_associationtype>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Parties information">
+      <label description="Parties information" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_taskgroup>
+      <msfsi_taskgroupid>3c8d606d-e2d0-ed11-a7c7-000d3a549c38</msfsi_taskgroupid>
+    </msfsi_taskgroup>
+    <msfsi_tasknavigation>
+      <msfsi_tasknavigationid>f00973ab-e3d0-ed11-a7c7-000d3a549c38</msfsi_tasknavigationid>
+    </msfsi_tasknavigation>
+    <msfsi_tasktype>104800000</msfsi_tasktype>
+    <msfsi_triggertype>100000000</msfsi_triggertype>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_taskdefinition>
+  <msfsi_taskdefinition msfsi_taskdefinitionid="fb7921ac-ecd0-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_associationtype>104800002</msfsi_associationtype>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Declared assets and liabilities">
+      <label description="Declared assets and liabilities" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_taskgroup>
+      <msfsi_taskgroupid>ae53167a-e2d0-ed11-a7c7-000d3a549c38</msfsi_taskgroupid>
+    </msfsi_taskgroup>
+    <msfsi_tasknavigation>
+      <msfsi_tasknavigationid>312a4ee2-e3d0-ed11-a7c7-000d3a549c38</msfsi_tasknavigationid>
+    </msfsi_tasknavigation>
+    <msfsi_tasktype>104800000</msfsi_tasktype>
+    <msfsi_triggertype>100000000</msfsi_triggertype>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_taskdefinition>
+  <msfsi_taskdefinition msfsi_taskdefinitionid="7c8bfafa-ecd0-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_associationtype>104800002</msfsi_associationtype>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Declared income and expenses">
+      <label description="Declared income and expenses" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_taskgroup>
+      <msfsi_taskgroupid>25ca4a80-e2d0-ed11-a7c7-000d3a549c38</msfsi_taskgroupid>
+    </msfsi_taskgroup>
+    <msfsi_tasknavigation>
+      <msfsi_tasknavigationid>d0ed84f2-e3d0-ed11-a7c7-000d3a549c38</msfsi_tasknavigationid>
+    </msfsi_tasknavigation>
+    <msfsi_tasktype>104800000</msfsi_tasktype>
+    <msfsi_triggertype>100000000</msfsi_triggertype>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_taskdefinition>
+  <msfsi_taskdefinition msfsi_taskdefinitionid="e3069e57-edd0-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_associationtype>104800000</msfsi_associationtype>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Review documents">
+      <label description="Review documents" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_taskgroup>
+      <msfsi_taskgroupid>6beeba73-e2d0-ed11-a7c7-000d3a549c38</msfsi_taskgroupid>
+    </msfsi_taskgroup>
+    <msfsi_tasknavigation>
+      <msfsi_tasknavigationid>aa9a4bd1-e3d0-ed11-a7c7-000d3a549c38</msfsi_tasknavigationid>
+    </msfsi_tasknavigation>
+    <msfsi_tasktype>104800001</msfsi_tasktype>
+    <msfsi_triggertype>100000000</msfsi_triggertype>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_taskdefinition>
+</msfsi_taskdefinitions>

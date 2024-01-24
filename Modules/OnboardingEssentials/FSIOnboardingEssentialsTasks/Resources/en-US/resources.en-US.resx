@@ -1,0 +1,2264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSIOnboardingEssentialsTasks_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="100000:label,009A9BFE95EFCE20CC230D5B371E540B120790502FB31E70F359A80B687BAC9D" xml:space="preserve">
+    <value>GetTasks</value>
+    <comment>Relative path in xml: \customapi\description id:</comment>
+  </data>
+  <data name="100000:label,0EC48ECC960EEF5BF0E0D086569AE3CF6E5104F36B46932B079925DA03B7DD49" xml:space="preserve">
+    <value>tasks</value>
+    <comment>Relative path in xml: \customapiresponseproperty\description id:</comment>
+  </data>
+  <data name="100000:label,2F53D48AC8947C90121C625C971829036B9EBB01AC3833EF9F4D5B3509DDAE9D" xml:space="preserve">
+    <value>Cancel task display</value>
+    <comment>Relative path in xml: \environmentvariabledefinition\displayname id:</comment>
+  </data>
+  <data name="100000:label,32E39A638B4626CCF3EB58253252BB6415430E050233097CB93F61A376F7759F" xml:space="preserve">
+    <value>tasks</value>
+    <comment>Relative path in xml: \customapiresponseproperty\displayname id:</comment>
+  </data>
+  <data name="100000:label,59626CB7357CEF51C43AA72956008DF93BF61A117FEB3509EB48938E218F4777" xml:space="preserve">
+    <value>ProcessStage</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,6399746F86073B93A784280B86FBD86809651C8F29080E038A2BF3E747915630" xml:space="preserve">
+    <value>Application</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,6795653054A1DEAF3D88FDE24AAD8294B7734375B8C4A4ED93C503D5FBE79824" xml:space="preserve">
+    <value>ShouldGetForms</value>
+    <comment>Relative path in xml: \customapirequestparameter\displayname id:</comment>
+  </data>
+  <data name="100000:label,9A668FD912E9DE65425BB5274929EFEF7CA4521B69DF575FC9CE765219C631D7" xml:space="preserve">
+    <value>ShouldGetForms</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="100000:label,BFEDF738EBF92D91CCA729107EC71D2CB5E3D2A7AFC3A9D46410D675011394F5" xml:space="preserve">
+    <value>Display the cancel tasks indicator. If the indicator is on, the canceled tasks will appear in a designated section.</value>
+    <comment>Relative path in xml: \environmentvariabledefinition\description id:</comment>
+  </data>
+  <data name="100000:label,DBA09CFE8154927FB60053BE7CDE1C86C4F48B82DEBF216D6C840C6524AD4C1E" xml:space="preserve">
+    <value>Application</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="100000:label,E842F4E5D7A61E6B670A90680616B34721E0883CBB953AF85CC91FC70625720A" xml:space="preserve">
+    <value>GetTasks</value>
+    <comment>Relative path in xml: \customapi\displayname id:</comment>
+  </data>
+  <data name="100000:label,F2A546A5EBE432A729096F6562CF84AA784C9B9855535B73B76D11262788BD5B" xml:space="preserve">
+    <value>ProcessStage</value>
+    <comment>Relative path in xml: \customapirequestparameter\description id:</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_canceltasksconfigurationtable Description for EntityRelationship 'business_unit_msfsi_canceltasksconfigurationtable'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_taskdefinition" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'business_unit_msfsi_taskdefinition'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_taskgroup" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_taskgroup Description for EntityRelationship 'business_unit_msfsi_taskgroup'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_tasknavigation" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'business_unit_msfsi_tasknavigation'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_canceltasksconfigurationtable_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_canceltasksconfigurationtable Description for EntityRelationship 'lk_msfsi_canceltasksconfigurationtable_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_canceltasksconfigurationtable_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_canceltasksconfigurationtable Description for EntityRelationship 'lk_msfsi_canceltasksconfigurationtable_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_taskdefinition_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'lk_msfsi_taskdefinition_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_taskdefinition_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'lk_msfsi_taskdefinition_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_taskgroup_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_taskgroup Description for EntityRelationship 'lk_msfsi_taskgroup_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_taskgroup_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_taskgroup Description for EntityRelationship 'lk_msfsi_taskgroup_modifiedby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_tasknavigation_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'lk_msfsi_tasknavigation_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_tasknavigation_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'lk_msfsi_tasknavigation_modifiedby'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" xml:space="preserve">
+    <value>The document that the task definition will be related to.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'msfsi_msfsi_taskdefinition_taskdocument_msfsi_d'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_taskdefinition_taskgroup_msfsi_taskgroup" xml:space="preserve">
+    <value>The task group that the task definition will be related to.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'msfsi_msfsi_taskdefinition_taskgroup_msfsi_taskgroup'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_taskdefinition_tasknavigation_msfsi_tasknavigation" xml:space="preserve">
+    <value>The task navigation that the task definition will be related to.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'msfsi_msfsi_taskdefinition_tasknavigation_msfsi_tasknavigation'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_tasknavigation_taskform_msfsi_onboa" xml:space="preserve">
+    <value>The form that the task navigation will be related to.</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'msfsi_msfsi_tasknavigation_taskform_msfsi_onboa'</comment>
+  </data>
+  <data name="10:Description,msfsi_taskdefinition_processstage" xml:space="preserve">
+    <value>Unique identifier of the process stage for the task definition.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'msfsi_taskdefinition_processstage'</comment>
+  </data>
+  <data name="10:Description,msfsi_task_commentmodifiedby_systemuser" xml:space="preserve">
+    <value>Define comment modified by user per task.</value>
+    <comment>Task Description for EntityRelationship 'msfsi_task_commentmodifiedby_systemuser'</comment>
+  </data>
+  <data name="10:Description,msfsi_task_relatedpartycontract_msfsi_relatedpa" xml:space="preserve">
+    <value />
+    <comment>Task Description for EntityRelationship 'msfsi_task_relatedpartycontract_msfsi_relatedpa'</comment>
+  </data>
+  <data name="10:Description,msfsi_task_taskdefinition_msfsi_taskdefinition" xml:space="preserve">
+    <value>The task definition that the task is related to.</value>
+    <comment>Task Description for EntityRelationship 'msfsi_task_taskdefinition_msfsi_taskdefinition'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_canceltasksconfigurationtable Description for EntityRelationship 'owner_msfsi_canceltasksconfigurationtable'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_taskdefinition" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'owner_msfsi_taskdefinition'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_taskgroup" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_taskgroup Description for EntityRelationship 'owner_msfsi_taskgroup'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_tasknavigation" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'owner_msfsi_tasknavigation'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_canceltasksconfigurationtable Description for EntityRelationship 'team_msfsi_canceltasksconfigurationtable'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_taskdefinition" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'team_msfsi_taskdefinition'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_taskgroup" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_taskgroup Description for EntityRelationship 'team_msfsi_taskgroup'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_tasknavigation" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'team_msfsi_tasknavigation'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_canceltasksconfigurationtable Description for EntityRelationship 'user_msfsi_canceltasksconfigurationtable'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_taskdefinition" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_taskdefinition Description for EntityRelationship 'user_msfsi_taskdefinition'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_taskgroup" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_taskgroup Description for EntityRelationship 'user_msfsi_taskgroup'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_tasknavigation" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_tasknavigation Description for EntityRelationship 'user_msfsi_tasknavigation'</comment>
+  </data>
+  <data name="15062:Description,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,OnboardingEssentialsTasks" xml:space="preserve">
+    <value>Onboarding Essentials Tasks</value>
+    <comment> 'OnboardingEssentialsTasks' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Cancel Tasks configuration table{1229e4c8-3d88-47c0-99f7-0143d8a7c3f1}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Cancel Tasks configuration table' : Description for systemform in Entity FormXml ID: '{1229e4c8-3d88-47c0-99f7-0143d8a7c3f1}'</comment>
+  </data>
+  <data name="1:Description,Cancel Tasks configuration table{34864371-b868-ed11-9562-002248275144}" xml:space="preserve">
+    <value>Active Cancel Tasks configuration tables owned by me</value>
+    <comment>'Cancel Tasks configuration table' : Description for SavedQuery on Entity QueryId: '{34864371-b868-ed11-9562-002248275144}'</comment>
+  </data>
+  <data name="1:Description,Cancel Tasks configuration table{e5f38c23-fad2-4d42-8ea9-71575f87318f}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Cancel Tasks configuration table' : Description for systemform in Entity FormXml ID: '{e5f38c23-fad2-4d42-8ea9-71575f87318f}'</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableentitymsfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_canceltasksconfigurationtable' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_applicationstate" xml:space="preserve">
+    <value />
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'msfsi_applicationstate' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_applicationstatusreason" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'msfsi_applicationstatusreason' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_businessscenario" xml:space="preserve">
+    <value />
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtableId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'msfsi_canceltasksconfigurationtableId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statecode" xml:space="preserve">
+    <value>Status of the Cancel Tasks configuration table</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for OptionSet 'msfsi_canceltasksconfigurationtable_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Cancel Tasks configuration table</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for OptionSet 'msfsi_canceltasksconfigurationtable_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablemsfsi_name" xml:space="preserve">
+    <value />
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablestatecode" xml:space="preserve">
+    <value>Status of the Cancel Tasks configuration table</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtablestatuscode" xml:space="preserve">
+    <value>Reason for the status of the Cancel Tasks configuration table</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_canceltasksconfigurationtableUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformdatasourceentitymsfsi_onboardingformdatasource" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_onboardingformdatasource' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformdatasourcemsfsi_onboardingformdatasourceId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_onboardingformdatasource' : Description for Attribute 'msfsi_onboardingformdatasourceId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformentitymsfsi_onboardingform" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_onboardingform' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformmsfsi_entityname" xml:space="preserve">
+    <value>The entity name of the related form.</value>
+    <comment>'msfsi_onboardingform' : Description for Attribute 'msfsi_entityname' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformmsfsi_formid" xml:space="preserve">
+    <value>The form id of the related form.</value>
+    <comment>'msfsi_onboardingform' : Description for Attribute 'msfsi_formid' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformmsfsi_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'msfsi_onboardingform' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_onboardingformmsfsi_onboardingformId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_onboardingform' : Description for Attribute 'msfsi_onboardingformId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionentitymsfsi_taskdefinition" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_taskdefinition' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_associationtype" xml:space="preserve">
+    <value />
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_associationtype' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_businessscenario" xml:space="preserve">
+    <value>The business scenario that the task definition will be related to.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_Name" xml:space="preserve">
+    <value />
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_processstage" xml:space="preserve">
+    <value>Unique identifier of the process stage for the task definition.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_processstage' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_taskdefinitionId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_taskdefinitionId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_taskdefinition_statecode" xml:space="preserve">
+    <value>Status of the Task definition</value>
+    <comment>'msfsi_taskdefinition' : Description for OptionSet 'msfsi_taskdefinition_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_taskdefinition_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Task definition</value>
+    <comment>'msfsi_taskdefinition' : Description for OptionSet 'msfsi_taskdefinition_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_taskdocument" xml:space="preserve">
+    <value>The document that the task definition will be related to.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_taskdocument' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_taskgroup" xml:space="preserve">
+    <value>The task group that the task definition will be related to.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_taskgroup' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_tasknavigation" xml:space="preserve">
+    <value>The task navigation that the task definition will be related to.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_tasknavigation' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_tasktype" xml:space="preserve">
+    <value>OptionSet describes task type.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_tasktype' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionmsfsi_triggertype" xml:space="preserve">
+    <value>When standard, the task creation will be filtered by the standard conditions.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'msfsi_triggertype' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionstatecode" xml:space="preserve">
+    <value>Status of the Task definition</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Task definition</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskdefinitionUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_taskdefinition' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupentitymsfsi_taskgroup" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_taskgroup' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupmsfsi_businessscenario" xml:space="preserve">
+    <value>The business scenario of this task group.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupmsfsi_Name" xml:space="preserve">
+    <value />
+    <comment>'msfsi_taskgroup' : Description for Attribute 'msfsi_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupmsfsi_order" xml:space="preserve">
+    <value>The order in which the task group will be shown in the tasks control.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'msfsi_order' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupmsfsi_taskgroupId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'msfsi_taskgroupId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupmsfsi_taskgroup_statecode" xml:space="preserve">
+    <value>Status of the Task group</value>
+    <comment>'msfsi_taskgroup' : Description for OptionSet 'msfsi_taskgroup_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupmsfsi_taskgroup_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Task group</value>
+    <comment>'msfsi_taskgroup' : Description for OptionSet 'msfsi_taskgroup_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupstatecode" xml:space="preserve">
+    <value>Status of the Task group</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Task group</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_taskgroupUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_taskgroup' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationentitymsfsi_tasknavigation" xml:space="preserve">
+    <value />
+    <comment> 'msfsi_tasknavigation' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_Name" xml:space="preserve">
+    <value />
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'msfsi_Name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_navigationdetails" xml:space="preserve">
+    <value>Parameters needed to perform the navigation of the related navigation type in the UI.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'msfsi_navigationdetails' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_navigationtype" xml:space="preserve">
+    <value>Type of navigation for the related tasks in the UI.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'msfsi_navigationtype' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_taskform" xml:space="preserve">
+    <value>The form that the task navigation will be related to.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'msfsi_taskform' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_tasknavigationId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'msfsi_tasknavigationId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_tasknavigation_statecode" xml:space="preserve">
+    <value>Status of the Task navigation</value>
+    <comment>'msfsi_tasknavigation' : Description for OptionSet 'msfsi_tasknavigation_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationmsfsi_tasknavigation_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Task navigation</value>
+    <comment>'msfsi_tasknavigation' : Description for OptionSet 'msfsi_tasknavigation_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationstatecode" xml:space="preserve">
+    <value>Status of the Task navigation</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Task navigation</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_tasknavigationUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_tasknavigation' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,Onboarding form data source{7244ecc5-1f7f-4722-a02a-1dca0ba03595}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Onboarding form data source' : Description for systemform in Entity FormXml ID: '{7244ecc5-1f7f-4722-a02a-1dca0ba03595}'</comment>
+  </data>
+  <data name="1:Description,Onboarding form data source{c7334dc5-dc05-ed11-82e4-000d3a9daf31}" xml:space="preserve">
+    <value>All active Onboarding form data sources</value>
+    <comment>'Onboarding form data source' : Description for SavedQuery on Entity QueryId: '{c7334dc5-dc05-ed11-82e4-000d3a9daf31}'</comment>
+  </data>
+  <data name="1:Description,Onboarding form data source{db859f79-821b-4e1d-9f0a-2ea504b32353}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Onboarding form data source' : Description for systemform in Entity FormXml ID: '{db859f79-821b-4e1d-9f0a-2ea504b32353}'</comment>
+  </data>
+  <data name="1:Description,Onboarding form{0b0ac93b-0773-473c-9490-73e3ab20acb1}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Onboarding form' : Description for systemform in Entity FormXml ID: '{0b0ac93b-0773-473c-9490-73e3ab20acb1}'</comment>
+  </data>
+  <data name="1:Description,Onboarding form{54689941-2685-469e-b2bd-27018429cd16}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Onboarding form' : Description for systemform in Entity FormXml ID: '{54689941-2685-469e-b2bd-27018429cd16}'</comment>
+  </data>
+  <data name="1:Description,Onboarding form{59a45a2f-22eb-ec11-bb3d-000d3a5b43ee}" xml:space="preserve">
+    <value>All active My Forms</value>
+    <comment>'Onboarding form' : Description for SavedQuery on Entity QueryId: '{59a45a2f-22eb-ec11-bb3d-000d3a5b43ee}'</comment>
+  </data>
+  <data name="1:Description,Task definition{5add4c0d-e2ea-ec11-bb3e-000d3a5b4e9b}" xml:space="preserve">
+    <value>Active Task definitions owned by me</value>
+    <comment>'Task definition' : Description for SavedQuery on Entity QueryId: '{5add4c0d-e2ea-ec11-bb3e-000d3a5b4e9b}'</comment>
+  </data>
+  <data name="1:Description,Task definition{6594c95c-9f9e-4211-862e-39fd531c32d7}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Task definition' : Description for systemform in Entity FormXml ID: '{6594c95c-9f9e-4211-862e-39fd531c32d7}'</comment>
+  </data>
+  <data name="1:Description,Task definition{7104bad9-67f7-46e8-ac6d-e199959cdef8}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Task definition' : Description for systemform in Entity FormXml ID: '{7104bad9-67f7-46e8-ac6d-e199959cdef8}'</comment>
+  </data>
+  <data name="1:Description,Task definition{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Task definition' : Description for systemform in Entity FormXml ID: '{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}'</comment>
+  </data>
+  <data name="1:Description,Task group{1808a0ec-e748-4133-bf63-0e350ae67b44}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Task group' : Description for systemform in Entity FormXml ID: '{1808a0ec-e748-4133-bf63-0e350ae67b44}'</comment>
+  </data>
+  <data name="1:Description,Task group{6147fc1a-78a4-4560-b60c-42e05511933d}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Task group' : Description for systemform in Entity FormXml ID: '{6147fc1a-78a4-4560-b60c-42e05511933d}'</comment>
+  </data>
+  <data name="1:Description,Task group{9ffcff89-86ea-ec11-bb3e-000d3a5b4752}" xml:space="preserve">
+    <value>Active Task groups owned by me</value>
+    <comment>'Task group' : Description for SavedQuery on Entity QueryId: '{9ffcff89-86ea-ec11-bb3e-000d3a5b4752}'</comment>
+  </data>
+  <data name="1:Description,Task group{aee588e1-97fb-ec11-82e5-0022482440bd}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Task group' : Description for systemform in Entity FormXml ID: '{aee588e1-97fb-ec11-82e5-0022482440bd}'</comment>
+  </data>
+  <data name="1:Description,Task navigation{2d3fae43-7eea-ec11-bb3e-000d3a5b4e9b}" xml:space="preserve">
+    <value>Active Task navigations owned by me</value>
+    <comment>'Task navigation' : Description for SavedQuery on Entity QueryId: '{2d3fae43-7eea-ec11-bb3e-000d3a5b4e9b}'</comment>
+  </data>
+  <data name="1:Description,Task navigation{8613aa62-b49b-4cac-986d-c7e40610508c}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Task navigation' : Description for systemform in Entity FormXml ID: '{8613aa62-b49b-4cac-986d-c7e40610508c}'</comment>
+  </data>
+  <data name="1:Description,Task navigation{add1faa0-62c8-4f27-940d-658bcc77c831}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Task navigation' : Description for systemform in Entity FormXml ID: '{add1faa0-62c8-4f27-940d-658bcc77c831}'</comment>
+  </data>
+  <data name="1:Description,Taskmsfsi_comment" xml:space="preserve">
+    <value>Define comment per task.</value>
+    <comment>'Task' : Description for Attribute 'msfsi_comment' on Entity</comment>
+  </data>
+  <data name="1:Description,Taskmsfsi_commentmodifiedby" xml:space="preserve">
+    <value>Define comment modified by user per task.</value>
+    <comment>'Task' : Description for Attribute 'msfsi_commentmodifiedby' on Entity</comment>
+  </data>
+  <data name="1:Description,Taskmsfsi_commentmodifiedon" xml:space="preserve">
+    <value>Define comment modified on per task.</value>
+    <comment>'Task' : Description for Attribute 'msfsi_commentmodifiedon' on Entity</comment>
+  </data>
+  <data name="1:Description,Taskmsfsi_relatedpartycontract" xml:space="preserve">
+    <value />
+    <comment>'Task' : Description for Attribute 'msfsi_relatedpartycontract' on Entity</comment>
+  </data>
+  <data name="1:Description,Taskmsfsi_taskdefinition" xml:space="preserve">
+    <value>The task definition that the task is related to.</value>
+    <comment>'Task' : Description for Attribute 'msfsi_taskdefinition' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_applicationstate" xml:space="preserve">
+    <value>Application status</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'msfsi_applicationstate' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_applicationstatusreason" xml:space="preserve">
+    <value>Application status reason</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'msfsi_applicationstatusreason' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_businessscenario" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtableId" xml:space="preserve">
+    <value>Cancel Tasks configuration table</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'msfsi_canceltasksconfigurationtableId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for OptionSet 'msfsi_canceltasksconfigurationtable_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for OptionSet 'msfsi_canceltasksconfigurationtable_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablemsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablestatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtablestatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_canceltasksconfigurationtableUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_onboardingformdatasourcemsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_onboardingformdatasource' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_onboardingformdatasourcemsfsi_onboardingformdatasourceId" xml:space="preserve">
+    <value>Onboarding form data source</value>
+    <comment>'msfsi_onboardingformdatasource' : displayname for Attribute 'msfsi_onboardingformdatasourceId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_onboardingformmsfsi_entityname" xml:space="preserve">
+    <value>Entity Name</value>
+    <comment>'msfsi_onboardingform' : displayname for Attribute 'msfsi_entityname' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_onboardingformmsfsi_formid" xml:space="preserve">
+    <value>Form Id</value>
+    <comment>'msfsi_onboardingform' : displayname for Attribute 'msfsi_formid' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_onboardingformmsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_onboardingform' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_onboardingformmsfsi_onboardingformId" xml:space="preserve">
+    <value>Onboarding form</value>
+    <comment>'msfsi_onboardingform' : displayname for Attribute 'msfsi_onboardingformId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_associationtype" xml:space="preserve">
+    <value>Association type</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_associationtype' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_businessscenario" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_processstage" xml:space="preserve">
+    <value>Process Stage</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_processstage' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_taskdefinitionId" xml:space="preserve">
+    <value>Task definition</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_taskdefinitionId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_taskdefinition_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_taskdefinition' : displayname for OptionSet 'msfsi_taskdefinition_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_taskdefinition_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_taskdefinition' : displayname for OptionSet 'msfsi_taskdefinition_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_taskdocument" xml:space="preserve">
+    <value>Task document</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_taskdocument' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_taskgroup" xml:space="preserve">
+    <value>Task group</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_taskgroup' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_tasknavigation" xml:space="preserve">
+    <value>Task navigation</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_tasknavigation' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_tasktype" xml:space="preserve">
+    <value>Task type</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_tasktype' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionmsfsi_triggertype" xml:space="preserve">
+    <value>Trigger type</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'msfsi_triggertype' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskdefinitionUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_taskdefinition' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupmsfsi_businessscenario" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'msfsi_businessscenario' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupmsfsi_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'msfsi_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupmsfsi_order" xml:space="preserve">
+    <value>Order</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'msfsi_order' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupmsfsi_taskgroupId" xml:space="preserve">
+    <value>Task group</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'msfsi_taskgroupId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupmsfsi_taskgroup_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_taskgroup' : displayname for OptionSet 'msfsi_taskgroup_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupmsfsi_taskgroup_statuscode" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'msfsi_taskgroup' : displayname for OptionSet 'msfsi_taskgroup_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_taskgroupUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_taskgroup' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_Name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'msfsi_Name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_navigationdetails" xml:space="preserve">
+    <value>Navigation details</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'msfsi_navigationdetails' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_navigationtype" xml:space="preserve">
+    <value>Navigation type</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'msfsi_navigationtype' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_taskform" xml:space="preserve">
+    <value>Task form</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'msfsi_taskform' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_tasknavigationId" xml:space="preserve">
+    <value>Task navigation</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'msfsi_tasknavigationId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_tasknavigation_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_tasknavigation' : displayname for OptionSet 'msfsi_tasknavigation_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationmsfsi_tasknavigation_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_tasknavigation' : displayname for OptionSet 'msfsi_tasknavigation_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_tasknavigationUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_tasknavigation' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,Taskmsfsi_comment" xml:space="preserve">
+    <value>Comment</value>
+    <comment>'Task' : displayname for Attribute 'msfsi_comment' on Entity</comment>
+  </data>
+  <data name="1:displayname,Taskmsfsi_commentmodifiedby" xml:space="preserve">
+    <value>CommentModifiedBy</value>
+    <comment>'Task' : displayname for Attribute 'msfsi_commentmodifiedby' on Entity</comment>
+  </data>
+  <data name="1:displayname,Taskmsfsi_commentmodifiedon" xml:space="preserve">
+    <value>CommentModifiedOn</value>
+    <comment>'Task' : displayname for Attribute 'msfsi_commentmodifiedon' on Entity</comment>
+  </data>
+  <data name="1:displayname,Taskmsfsi_relatedpartycontract" xml:space="preserve">
+    <value>Related party</value>
+    <comment>'Task' : displayname for Attribute 'msfsi_relatedpartycontract' on Entity</comment>
+  </data>
+  <data name="1:displayname,Taskmsfsi_taskdefinition" xml:space="preserve">
+    <value>Task definition</value>
+    <comment>'Task' : displayname for Attribute 'msfsi_taskdefinition' on Entity</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{0b70930a-b7af-4e28-a99b-7dc34679ae88}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Cancel Tasks configuration table' : label for section in Entity FormXml ID: '{0b70930a-b7af-4e28-a99b-7dc34679ae88}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{0c39bc2f-2568-42bd-bc29-2ef6d562b5d5}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{0c39bc2f-2568-42bd-bc29-2ef6d562b5d5}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{0de8d312-0d4e-4411-9bac-30e6d0efc8a1}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Cancel Tasks configuration table' : label for section in Entity FormXml ID: '{0de8d312-0d4e-4411-9bac-30e6d0efc8a1}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{26e191b7-0f3f-4242-844a-f2ed48e891f6}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{26e191b7-0f3f-4242-844a-f2ed48e891f6}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{2d26dad2-3e82-499f-90a6-18c6026252c2}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Cancel Tasks configuration table' : label for section in Entity FormXml ID: '{2d26dad2-3e82-499f-90a6-18c6026252c2}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{32f0ca35-888f-44a9-a7c6-d87d85b493eb}" xml:space="preserve">
+    <value />
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{32f0ca35-888f-44a9-a7c6-d87d85b493eb}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{393a6c65-50a1-434e-b4f0-2169657db745}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Cancel Tasks configuration table' : label for section in Entity FormXml ID: '{393a6c65-50a1-434e-b4f0-2169657db745}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{3cf9955b-be10-4d3b-ba71-a04cc6d35d00}" xml:space="preserve">
+    <value />
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{3cf9955b-be10-4d3b-ba71-a04cc6d35d00}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{4490078f-5572-4754-9baf-c1ca073009c7}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Cancel Tasks configuration table' : label for section in Entity FormXml ID: '{4490078f-5572-4754-9baf-c1ca073009c7}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{50c6cf7d-7e1e-40c9-a92c-b9fac5873edd}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{50c6cf7d-7e1e-40c9-a92c-b9fac5873edd}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{5722ffa9-11c5-4889-a5f8-45a5c73dbcd5}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{5722ffa9-11c5-4889-a5f8-45a5c73dbcd5}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{649168ca-6640-4d63-ac98-939a5895960a}" xml:space="preserve">
+    <value />
+    <comment>'Cancel Tasks configuration table' : label for tab in Entity FormXml ID: '{649168ca-6640-4d63-ac98-939a5895960a}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{77c28639-5f78-4e23-83cd-b7af21af873f}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{77c28639-5f78-4e23-83cd-b7af21af873f}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{7e7def6e-031b-4d21-848d-cfbd0e6b3c36}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{7e7def6e-031b-4d21-848d-cfbd0e6b3c36}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{a84d833a-1fcf-4839-9449-f730f6f4e8b8}" xml:space="preserve">
+    <value />
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{a84d833a-1fcf-4839-9449-f730f6f4e8b8}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{aba641e4-56b4-4afb-af7c-8708ec5db72f}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Cancel Tasks configuration table' : label for section in Entity FormXml ID: '{aba641e4-56b4-4afb-af7c-8708ec5db72f}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{ae2e4a83-9a2f-4ff3-8913-02dcacb18561}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{ae2e4a83-9a2f-4ff3-8913-02dcacb18561}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{b237f581-f000-4d87-b784-5182733419e3}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Cancel Tasks configuration table' : label for tab in Entity FormXml ID: '{b237f581-f000-4d87-b784-5182733419e3}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{d35b4d40-2019-4f48-bb5f-d5d6c2c2a0a2}" xml:space="preserve">
+    <value />
+    <comment>'Cancel Tasks configuration table' : label for tab in Entity FormXml ID: '{d35b4d40-2019-4f48-bb5f-d5d6c2c2a0a2}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{db3bc9fa-4095-4b95-8f9d-5e0a963a4b0a}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{db3bc9fa-4095-4b95-8f9d-5e0a963a4b0a}'</comment>
+  </data>
+  <data name="1:label,Cancel Tasks configuration table{e93ea802-2a8e-4641-b80d-e5c8757aaef1}" xml:space="preserve">
+    <value />
+    <comment>'Cancel Tasks configuration table' : label for cell in Entity FormXml ID: '{e93ea802-2a8e-4641-b80d-e5c8757aaef1}'</comment>
+  </data>
+  <data name="1:label,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_canceltasksconfigurationtablemsfsi_canceltasksconfigurationtable_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_canceltasksconfigurationtable' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskdefinitionmsfsi_taskdefinition_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_taskdefinition' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskdefinitionmsfsi_taskdefinition_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_taskdefinition' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskdefinitionmsfsi_taskdefinition_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_taskdefinition' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskdefinitionmsfsi_taskdefinition_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_taskdefinition' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskgroupmsfsi_taskgroup_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_taskgroup' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskgroupmsfsi_taskgroup_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_taskgroup' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskgroupmsfsi_taskgroup_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_taskgroup' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_taskgroupmsfsi_taskgroup_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_taskgroup' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_tasknavigationmsfsi_tasknavigation_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_tasknavigation' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_tasknavigationmsfsi_tasknavigation_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_tasknavigation' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_tasknavigationmsfsi_tasknavigation_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_tasknavigation' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_tasknavigationmsfsi_tasknavigation_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_tasknavigation' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{048ed3b7-0175-46b3-a0bf-673f789b1304}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{048ed3b7-0175-46b3-a0bf-673f789b1304}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{06f4523a-113c-4283-9650-b63a68de32cd}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for tab in Entity FormXml ID: '{06f4523a-113c-4283-9650-b63a68de32cd}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{1eb2f579-3af9-4e4c-8c6e-2253db1ca900}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Onboarding form data source' : label for tab in Entity FormXml ID: '{1eb2f579-3af9-4e4c-8c6e-2253db1ca900}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{2060bc31-db3c-4c3d-af61-b980d3adc76b}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{2060bc31-db3c-4c3d-af61-b980d3adc76b}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{27c242f3-3b13-4bce-8680-9fc7e6f24ef6}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Onboarding form data source' : label for section in Entity FormXml ID: '{27c242f3-3b13-4bce-8680-9fc7e6f24ef6}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{32c3c512-b2d3-436d-8909-70a0ef773fdf}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{32c3c512-b2d3-436d-8909-70a0ef773fdf}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{3470576f-f444-455b-83d2-983fe1bdd25e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{3470576f-f444-455b-83d2-983fe1bdd25e}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{3f1d2b3f-11cb-4c59-93ea-f36120ab36b5}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{3f1d2b3f-11cb-4c59-93ea-f36120ab36b5}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{4a2f236b-053d-4555-be4e-25fd48a9404a}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{4a2f236b-053d-4555-be4e-25fd48a9404a}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{55658113-9680-450b-8e42-3c0310944814}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Onboarding form data source' : label for section in Entity FormXml ID: '{55658113-9680-450b-8e42-3c0310944814}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{599161f9-eb91-4473-8fff-30449730f44a}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{599161f9-eb91-4473-8fff-30449730f44a}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{5b8204f4-a95b-480b-afa7-531e323adeeb}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for tab in Entity FormXml ID: '{5b8204f4-a95b-480b-afa7-531e323adeeb}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{70c2cb09-8c44-4210-b3e0-62df298d2b25}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Onboarding form data source' : label for section in Entity FormXml ID: '{70c2cb09-8c44-4210-b3e0-62df298d2b25}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{810704ba-948b-49a2-a75e-9733b5126cbf}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{810704ba-948b-49a2-a75e-9733b5126cbf}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{9d68a903-51a5-429d-9102-cfa5fd7b3dad}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Onboarding form data source' : label for section in Entity FormXml ID: '{9d68a903-51a5-429d-9102-cfa5fd7b3dad}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{b5e129a4-0983-41d9-b64b-3492e4709c8b}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Onboarding form data source' : label for cell in Entity FormXml ID: '{b5e129a4-0983-41d9-b64b-3492e4709c8b}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{c5753c1c-4012-4a86-a3ad-1a13984a4597}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Onboarding form data source' : label for section in Entity FormXml ID: '{c5753c1c-4012-4a86-a3ad-1a13984a4597}'</comment>
+  </data>
+  <data name="1:label,Onboarding form data source{e38b65cb-e4ba-4982-94dd-f954fb004fdd}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Onboarding form data source' : label for section in Entity FormXml ID: '{e38b65cb-e4ba-4982-94dd-f954fb004fdd}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{0a721dee-3b29-4d85-8b60-c6e7ebca52c3}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for tab in Entity FormXml ID: '{0a721dee-3b29-4d85-8b60-c6e7ebca52c3}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{1918eb41-ee51-47e8-ade4-820ec17af7cf}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Onboarding form' : label for section in Entity FormXml ID: '{1918eb41-ee51-47e8-ade4-820ec17af7cf}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{26979258-48da-413f-9971-79a8f2341c24}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{26979258-48da-413f-9971-79a8f2341c24}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{4717beb3-d2ce-4c4c-9cc7-e7bac41de2f5}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{4717beb3-d2ce-4c4c-9cc7-e7bac41de2f5}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{4f0f612e-772e-4882-822e-3dc0443302ef}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Onboarding form' : label for tab in Entity FormXml ID: '{4f0f612e-772e-4882-822e-3dc0443302ef}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{67916406-a787-4bcc-ae31-7e457711de7c}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{67916406-a787-4bcc-ae31-7e457711de7c}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{6d9d6aa6-126e-4824-b1dd-9a5b7d6f9d1a}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{6d9d6aa6-126e-4824-b1dd-9a5b7d6f9d1a}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{73cc1c1b-e246-4334-a91f-34ab9d42cfce}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Onboarding form' : label for section in Entity FormXml ID: '{73cc1c1b-e246-4334-a91f-34ab9d42cfce}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{7520bbc3-b8de-44a4-a4fb-7e1ebb3592d4}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for tab in Entity FormXml ID: '{7520bbc3-b8de-44a4-a4fb-7e1ebb3592d4}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{7c201f36-2141-4724-9d83-449496cec599}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{7c201f36-2141-4724-9d83-449496cec599}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{848f94ed-d701-4cd9-9765-0781d7ee58f8}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{848f94ed-d701-4cd9-9765-0781d7ee58f8}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{8d546ca9-5c1f-44bb-99a7-6aa1c899e308}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Onboarding form' : label for section in Entity FormXml ID: '{8d546ca9-5c1f-44bb-99a7-6aa1c899e308}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{92ebf169-09d7-4441-b236-b1fceacd14eb}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Onboarding form' : label for section in Entity FormXml ID: '{92ebf169-09d7-4441-b236-b1fceacd14eb}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{aacf6b5e-3963-4b16-9193-b8117273edb2}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Onboarding form' : label for section in Entity FormXml ID: '{aacf6b5e-3963-4b16-9193-b8117273edb2}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{e6ce8391-1100-4137-945e-f3a29102ad48}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{e6ce8391-1100-4137-945e-f3a29102ad48}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{e75f1380-7e52-45a9-9b7a-410a1656fb72}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Onboarding form' : label for section in Entity FormXml ID: '{e75f1380-7e52-45a9-9b7a-410a1656fb72}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{f5e32ec0-4959-4139-b890-c6bdce56ecf4}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{f5e32ec0-4959-4139-b890-c6bdce56ecf4}'</comment>
+  </data>
+  <data name="1:label,Onboarding form{ff98374b-2dda-44ab-a285-fb0d0a1579c9}" xml:space="preserve">
+    <value />
+    <comment>'Onboarding form' : label for cell in Entity FormXml ID: '{ff98374b-2dda-44ab-a285-fb0d0a1579c9}'</comment>
+  </data>
+  <data name="1:label,Task definition{03c49b86-3720-431b-ab4d-3914ce1326c7}" xml:space="preserve">
+    <value>Task type</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{03c49b86-3720-431b-ab4d-3914ce1326c7}'</comment>
+  </data>
+  <data name="1:label,Task definition{099d3d22-02d0-44d9-98c7-f5747dbd9255}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Task definition' : label for section in Entity FormXml ID: '{099d3d22-02d0-44d9-98c7-f5747dbd9255}'</comment>
+  </data>
+  <data name="1:label,Task definition{0c6098e9-9863-424e-8fd2-d549aa888aee}" xml:space="preserve">
+    <value>Task group</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{0c6098e9-9863-424e-8fd2-d549aa888aee}'</comment>
+  </data>
+  <data name="1:label,Task definition{0c83cdfb-0fca-45a1-8cd9-864583f4631a}" xml:space="preserve">
+    <value>Association type</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{0c83cdfb-0fca-45a1-8cd9-864583f4631a}'</comment>
+  </data>
+  <data name="1:label,Task definition{10941f83-ae1c-4075-8cb6-cc1254a23294}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Task definition' : label for section in Entity FormXml ID: '{10941f83-ae1c-4075-8cb6-cc1254a23294}'</comment>
+  </data>
+  <data name="1:label,Task definition{10e7eb6e-1b9e-47f4-a2ca-6f531f0390c9}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{10e7eb6e-1b9e-47f4-a2ca-6f531f0390c9}'</comment>
+  </data>
+  <data name="1:label,Task definition{16b106f4-3f66-4854-8939-de5bc56e1e78}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task definition' : label for section in Entity FormXml ID: '{16b106f4-3f66-4854-8939-de5bc56e1e78}'</comment>
+  </data>
+  <data name="1:label,Task definition{1b4ab8e0-209e-4f08-9408-a835ef945f49}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{1b4ab8e0-209e-4f08-9408-a835ef945f49}'</comment>
+  </data>
+  <data name="1:label,Task definition{1f9f3ea0-30fb-472c-b567-d12f895f6676}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for tab in Entity FormXml ID: '{1f9f3ea0-30fb-472c-b567-d12f895f6676}'</comment>
+  </data>
+  <data name="1:label,Task definition{21349eca-cde6-4a72-afa2-7777e29f5801}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{21349eca-cde6-4a72-afa2-7777e29f5801}'</comment>
+  </data>
+  <data name="1:label,Task definition{291c84c8-ba37-4207-9869-71154e59ca3a}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task definition' : label for section in Entity FormXml ID: '{291c84c8-ba37-4207-9869-71154e59ca3a}'</comment>
+  </data>
+  <data name="1:label,Task definition{2a592569-f500-42ba-ad7b-34f0e903b962}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Task definition' : label for section in Entity FormXml ID: '{2a592569-f500-42ba-ad7b-34f0e903b962}'</comment>
+  </data>
+  <data name="1:label,Task definition{3036f9a8-d30a-449e-959b-d510b85802e8}" xml:space="preserve">
+    <value>Application categories</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{3036f9a8-d30a-449e-959b-d510b85802e8}'</comment>
+  </data>
+  <data name="1:label,Task definition{33711eb2-b62b-4f5f-9737-929c4e57c5e7}" xml:space="preserve">
+    <value>Task object</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{33711eb2-b62b-4f5f-9737-929c4e57c5e7}'</comment>
+  </data>
+  <data name="1:label,Task definition{38c794f9-1cff-487d-9811-a7648b655d7f}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{38c794f9-1cff-487d-9811-a7648b655d7f}'</comment>
+  </data>
+  <data name="1:label,Task definition{47950cd8-b89a-4501-933c-d8747ca66662}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{47950cd8-b89a-4501-933c-d8747ca66662}'</comment>
+  </data>
+  <data name="1:label,Task definition{486ca190-ac88-4f99-9e92-3420ffb7f818}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{486ca190-ac88-4f99-9e92-3420ffb7f818}'</comment>
+  </data>
+  <data name="1:label,Task definition{4c143f09-9e26-4478-9bf8-588f0f787d47}" xml:space="preserve">
+    <value>Related party roles</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{4c143f09-9e26-4478-9bf8-588f0f787d47}'</comment>
+  </data>
+  <data name="1:label,Task definition{6b1daed8-c5a0-4562-8abf-313b6eb8b134}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{6b1daed8-c5a0-4562-8abf-313b6eb8b134}'</comment>
+  </data>
+  <data name="1:label,Task definition{7b52f8cb-dc3e-496e-a042-d02821c011c2}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for tab in Entity FormXml ID: '{7b52f8cb-dc3e-496e-a042-d02821c011c2}'</comment>
+  </data>
+  <data name="1:label,Task definition{8384e135-5579-477e-b204-f83e46a41ef2}" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{8384e135-5579-477e-b204-f83e46a41ef2}'</comment>
+  </data>
+  <data name="1:label,Task definition{8965615c-776b-4b2d-bf38-b051c7b894aa}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{8965615c-776b-4b2d-bf38-b051c7b894aa}'</comment>
+  </data>
+  <data name="1:label,Task definition{8ea74da9-2576-4a38-adc6-64dfcf25707d}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{8ea74da9-2576-4a38-adc6-64dfcf25707d}'</comment>
+  </data>
+  <data name="1:label,Task definition{94d0bd4b-716d-42b6-87bf-804e80c89b35}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{94d0bd4b-716d-42b6-87bf-804e80c89b35}'</comment>
+  </data>
+  <data name="1:label,Task definition{a4134755-757a-479c-88e2-4569946e985f}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{a4134755-757a-479c-88e2-4569946e985f}'</comment>
+  </data>
+  <data name="1:label,Task definition{b219402c-8fcc-4faa-8a49-40fb7ed92f14}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{b219402c-8fcc-4faa-8a49-40fb7ed92f14}'</comment>
+  </data>
+  <data name="1:label,Task definition{b8c235dc-486b-48d4-895c-3e45fb1ab678}" xml:space="preserve">
+    <value>Trigger type</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{b8c235dc-486b-48d4-895c-3e45fb1ab678}'</comment>
+  </data>
+  <data name="1:label,Task definition{bd28cf7e-64ba-4b64-9cdf-d3eb0d28d128}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{bd28cf7e-64ba-4b64-9cdf-d3eb0d28d128}'</comment>
+  </data>
+  <data name="1:label,Task definition{bf337c7c-42eb-40af-a637-971a4c5c1b92}" xml:space="preserve">
+    <value>Process Stage</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{bf337c7c-42eb-40af-a637-971a4c5c1b92}'</comment>
+  </data>
+  <data name="1:label,Task definition{c462b2e4-0041-4b1f-b162-680e660254b1}" xml:space="preserve">
+    <value />
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{c462b2e4-0041-4b1f-b162-680e660254b1}'</comment>
+  </data>
+  <data name="1:label,Task definition{cec59065-d117-4794-9eac-439f4c35d54a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{cec59065-d117-4794-9eac-439f4c35d54a}'</comment>
+  </data>
+  <data name="1:label,Task definition{d62a499f-cc4d-4653-b5a8-fee3e18c334b}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{d62a499f-cc4d-4653-b5a8-fee3e18c334b}'</comment>
+  </data>
+  <data name="1:label,Task definition{df54012c-8969-4d4d-87e8-6192f120fa37}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task definition' : label for tab in Entity FormXml ID: '{df54012c-8969-4d4d-87e8-6192f120fa37}'</comment>
+  </data>
+  <data name="1:label,Task definition{e6840117-f307-470d-8cb1-6b6db5b2c3c5}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{e6840117-f307-470d-8cb1-6b6db5b2c3c5}'</comment>
+  </data>
+  <data name="1:label,Task definition{ebec350e-6ec3-487d-ac55-f826cdd8a657}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Task definition' : label for section in Entity FormXml ID: '{ebec350e-6ec3-487d-ac55-f826cdd8a657}'</comment>
+  </data>
+  <data name="1:label,Task definition{ec31b7f5-aa2d-4ced-aac8-6690e85e853f}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{ec31b7f5-aa2d-4ced-aac8-6690e85e853f}'</comment>
+  </data>
+  <data name="1:label,Task definition{ff2c06a2-b691-4eb5-bbef-42f370d17acf}" xml:space="preserve">
+    <value>Task navigation</value>
+    <comment>'Task definition' : label for cell in Entity FormXml ID: '{ff2c06a2-b691-4eb5-bbef-42f370d17acf}'</comment>
+  </data>
+  <data name="1:label,Task group{029766af-0ac4-4cc5-bca8-b9a9f029eb0b}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{029766af-0ac4-4cc5-bca8-b9a9f029eb0b}'</comment>
+  </data>
+  <data name="1:label,Task group{0572c884-dc00-4036-9cd7-e9bab8866691}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{0572c884-dc00-4036-9cd7-e9bab8866691}'</comment>
+  </data>
+  <data name="1:label,Task group{0ddf8012-c8d2-4569-8e8d-c59f5c91e86e}" xml:space="preserve">
+    <value>Business scenario</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{0ddf8012-c8d2-4569-8e8d-c59f5c91e86e}'</comment>
+  </data>
+  <data name="1:label,Task group{230982db-3935-4d80-aa8e-f530664c7766}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task group' : label for section in Entity FormXml ID: '{230982db-3935-4d80-aa8e-f530664c7766}'</comment>
+  </data>
+  <data name="1:label,Task group{2604fbf8-3fb2-4972-9601-490324a1225b}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{2604fbf8-3fb2-4972-9601-490324a1225b}'</comment>
+  </data>
+  <data name="1:label,Task group{2a1f4754-397b-421b-bed9-99b463d8bbe2}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{2a1f4754-397b-421b-bed9-99b463d8bbe2}'</comment>
+  </data>
+  <data name="1:label,Task group{404553e5-bb28-4fb7-b6da-2335a828411d}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task group' : label for tab in Entity FormXml ID: '{404553e5-bb28-4fb7-b6da-2335a828411d}'</comment>
+  </data>
+  <data name="1:label,Task group{4a998c29-8f14-47e9-8f86-62d3c494970f}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for tab in Entity FormXml ID: '{4a998c29-8f14-47e9-8f86-62d3c494970f}'</comment>
+  </data>
+  <data name="1:label,Task group{622f356f-bfcd-4d73-b5d4-6ff2967edcde}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Task group' : label for section in Entity FormXml ID: '{622f356f-bfcd-4d73-b5d4-6ff2967edcde}'</comment>
+  </data>
+  <data name="1:label,Task group{6f788d40-3819-440e-939b-406a14f2cc12}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{6f788d40-3819-440e-939b-406a14f2cc12}'</comment>
+  </data>
+  <data name="1:label,Task group{714cebfe-bf1f-4335-a2f8-99f794a6ea07}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{714cebfe-bf1f-4335-a2f8-99f794a6ea07}'</comment>
+  </data>
+  <data name="1:label,Task group{7d38feaf-928a-4026-9f2d-09db8abd4c72}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{7d38feaf-928a-4026-9f2d-09db8abd4c72}'</comment>
+  </data>
+  <data name="1:label,Task group{83abac21-7b2c-47e6-8648-938122b74437}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{83abac21-7b2c-47e6-8648-938122b74437}'</comment>
+  </data>
+  <data name="1:label,Task group{85348717-a481-4421-a76d-dd78f4ee7b2a}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Task group' : label for section in Entity FormXml ID: '{85348717-a481-4421-a76d-dd78f4ee7b2a}'</comment>
+  </data>
+  <data name="1:label,Task group{9785ed9e-6e4c-454f-9dd9-9aa13a9b11e8}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Task group' : label for section in Entity FormXml ID: '{9785ed9e-6e4c-454f-9dd9-9aa13a9b11e8}'</comment>
+  </data>
+  <data name="1:label,Task group{a6b82f18-e9fb-47e8-8ad8-ecbf044ef5eb}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{a6b82f18-e9fb-47e8-8ad8-ecbf044ef5eb}'</comment>
+  </data>
+  <data name="1:label,Task group{a73c040b-e034-4627-95fd-0fe843ef1bbc}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task group' : label for section in Entity FormXml ID: '{a73c040b-e034-4627-95fd-0fe843ef1bbc}'</comment>
+  </data>
+  <data name="1:label,Task group{ac51fb93-ebc2-4673-8875-2a999792be45}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{ac51fb93-ebc2-4673-8875-2a999792be45}'</comment>
+  </data>
+  <data name="1:label,Task group{bb4f5be7-dc57-47e3-b06e-556eee249f9e}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Task group' : label for section in Entity FormXml ID: '{bb4f5be7-dc57-47e3-b06e-556eee249f9e}'</comment>
+  </data>
+  <data name="1:label,Task group{be45e9e2-96c1-4343-8932-d37f7a8c0ef1}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{be45e9e2-96c1-4343-8932-d37f7a8c0ef1}'</comment>
+  </data>
+  <data name="1:label,Task group{c71dcb21-c6ed-4689-ad16-e66233e3624c}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{c71dcb21-c6ed-4689-ad16-e66233e3624c}'</comment>
+  </data>
+  <data name="1:label,Task group{cc63e971-5700-4ca7-9f9d-08d1bb993ee2}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{cc63e971-5700-4ca7-9f9d-08d1bb993ee2}'</comment>
+  </data>
+  <data name="1:label,Task group{d55846bb-f817-47d4-b787-2b9fc6077d26}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{d55846bb-f817-47d4-b787-2b9fc6077d26}'</comment>
+  </data>
+  <data name="1:label,Task group{d89b3a67-98a9-411e-9912-f1c89a10583d}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{d89b3a67-98a9-411e-9912-f1c89a10583d}'</comment>
+  </data>
+  <data name="1:label,Task group{da141a83-6d8a-4c5f-bc58-dfab9187fd70}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for tab in Entity FormXml ID: '{da141a83-6d8a-4c5f-bc58-dfab9187fd70}'</comment>
+  </data>
+  <data name="1:label,Task group{dbc5334e-a8cb-488d-9037-f00891c1faa8}" xml:space="preserve">
+    <value>Order</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{dbc5334e-a8cb-488d-9037-f00891c1faa8}'</comment>
+  </data>
+  <data name="1:label,Task group{e7313862-4c54-413e-b7b3-a1425b30bbf6}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{e7313862-4c54-413e-b7b3-a1425b30bbf6}'</comment>
+  </data>
+  <data name="1:label,Task group{ee296a7e-62d7-404f-8582-fbcc5e635880}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{ee296a7e-62d7-404f-8582-fbcc5e635880}'</comment>
+  </data>
+  <data name="1:label,Task group{fcd6d993-c68b-4906-9534-2f2ae43f3999}" xml:space="preserve">
+    <value />
+    <comment>'Task group' : label for cell in Entity FormXml ID: '{fcd6d993-c68b-4906-9534-2f2ae43f3999}'</comment>
+  </data>
+  <data name="1:label,Task navigation{02bcfd0e-d35c-4bc3-a8c7-78556a8ab93a}" xml:space="preserve">
+    <value>Navigation type</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{02bcfd0e-d35c-4bc3-a8c7-78556a8ab93a}'</comment>
+  </data>
+  <data name="1:label,Task navigation{0f9009de-4c38-41a0-a1e1-05b70cfefc6b}" xml:space="preserve">
+    <value>Colorstrip</value>
+    <comment>'Task navigation' : label for section in Entity FormXml ID: '{0f9009de-4c38-41a0-a1e1-05b70cfefc6b}'</comment>
+  </data>
+  <data name="1:label,Task navigation{1654082f-d742-455c-af7c-44f704005f1e}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{1654082f-d742-455c-af7c-44f704005f1e}'</comment>
+  </data>
+  <data name="1:label,Task navigation{1685e06c-b689-4f8e-a05b-bf50fced6be1}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{1685e06c-b689-4f8e-a05b-bf50fced6be1}'</comment>
+  </data>
+  <data name="1:label,Task navigation{16e271cd-daa2-4be9-985e-972649c957da}" xml:space="preserve">
+    <value>Task form</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{16e271cd-daa2-4be9-985e-972649c957da}'</comment>
+  </data>
+  <data name="1:label,Task navigation{1ad41d80-f5f9-4210-8e64-37e209e5ae06}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{1ad41d80-f5f9-4210-8e64-37e209e5ae06}'</comment>
+  </data>
+  <data name="1:label,Task navigation{2ac102f9-5c12-4515-865d-263e26f0fde3}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for tab in Entity FormXml ID: '{2ac102f9-5c12-4515-865d-263e26f0fde3}'</comment>
+  </data>
+  <data name="1:label,Task navigation{2d5924c9-9bd9-4a07-ad32-c504c96b2cfb}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Task navigation' : label for section in Entity FormXml ID: '{2d5924c9-9bd9-4a07-ad32-c504c96b2cfb}'</comment>
+  </data>
+  <data name="1:label,Task navigation{3118cdca-52c0-4dbe-a1b1-dca200fd99b5}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{3118cdca-52c0-4dbe-a1b1-dca200fd99b5}'</comment>
+  </data>
+  <data name="1:label,Task navigation{38a385ce-de6b-4322-9ae7-c95523afcea8}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{38a385ce-de6b-4322-9ae7-c95523afcea8}'</comment>
+  </data>
+  <data name="1:label,Task navigation{41803c93-20f4-4217-acba-758e0d4ccc49}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{41803c93-20f4-4217-acba-758e0d4ccc49}'</comment>
+  </data>
+  <data name="1:label,Task navigation{43795742-45a1-491f-9546-a21572227bef}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{43795742-45a1-491f-9546-a21572227bef}'</comment>
+  </data>
+  <data name="1:label,Task navigation{49c9baff-fce5-4a5d-9706-2db72f08548a}" xml:space="preserve">
+    <value>Status reason</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{49c9baff-fce5-4a5d-9706-2db72f08548a}'</comment>
+  </data>
+  <data name="1:label,Task navigation{4a07caa5-675a-433f-a01e-26e2519f04f5}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{4a07caa5-675a-433f-a01e-26e2519f04f5}'</comment>
+  </data>
+  <data name="1:label,Task navigation{4d2b0417-f62a-4362-845e-963826de9d44}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{4d2b0417-f62a-4362-845e-963826de9d44}'</comment>
+  </data>
+  <data name="1:label,Task navigation{4da87c26-4df9-40d7-b94c-15d2457767c4}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{4da87c26-4df9-40d7-b94c-15d2457767c4}'</comment>
+  </data>
+  <data name="1:label,Task navigation{52d1edf9-1b20-4667-9d81-e144b3019bb9}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{52d1edf9-1b20-4667-9d81-e144b3019bb9}'</comment>
+  </data>
+  <data name="1:label,Task navigation{60400b72-0a79-4659-a797-b6b0670a727e}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{60400b72-0a79-4659-a797-b6b0670a727e}'</comment>
+  </data>
+  <data name="1:label,Task navigation{7bc7f96a-3be9-4973-b029-414d24edd19f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task navigation' : label for section in Entity FormXml ID: '{7bc7f96a-3be9-4973-b029-414d24edd19f}'</comment>
+  </data>
+  <data name="1:label,Task navigation{7bcf2cc6-350d-4c6e-aeda-4f25f94ad00e}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{7bcf2cc6-350d-4c6e-aeda-4f25f94ad00e}'</comment>
+  </data>
+  <data name="1:label,Task navigation{904ab1ef-61ac-4989-8dee-506e04d4cc13}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{904ab1ef-61ac-4989-8dee-506e04d4cc13}'</comment>
+  </data>
+  <data name="1:label,Task navigation{9cc5c75e-105c-448a-ad5d-7e207b42ccde}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Task navigation' : label for section in Entity FormXml ID: '{9cc5c75e-105c-448a-ad5d-7e207b42ccde}'</comment>
+  </data>
+  <data name="1:label,Task navigation{9f894e5f-528b-429c-aaa4-8ee67abceaa8}" xml:space="preserve">
+    <value>Created on</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{9f894e5f-528b-429c-aaa4-8ee67abceaa8}'</comment>
+  </data>
+  <data name="1:label,Task navigation{a4824900-14ee-4502-803d-b36e12995d86}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{a4824900-14ee-4502-803d-b36e12995d86}'</comment>
+  </data>
+  <data name="1:label,Task navigation{c16220b8-4ce4-4eb4-807d-92568cafe323}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{c16220b8-4ce4-4eb4-807d-92568cafe323}'</comment>
+  </data>
+  <data name="1:label,Task navigation{c9739d1a-aa9a-4b03-ae62-86efa91b1fcb}" xml:space="preserve">
+    <value>Navigation details</value>
+    <comment>'Task navigation' : label for cell in Entity FormXml ID: '{c9739d1a-aa9a-4b03-ae62-86efa91b1fcb}'</comment>
+  </data>
+  <data name="1:label,Task navigation{e5448a1e-dfce-497e-9c62-dc9a30a21921}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task navigation' : label for tab in Entity FormXml ID: '{e5448a1e-dfce-497e-9c62-dc9a30a21921}'</comment>
+  </data>
+  <data name="1:label,Task navigation{f1bed442-23b9-4abf-9ac1-3b3acdb4c703}" xml:space="preserve">
+    <value />
+    <comment>'Task navigation' : label for tab in Entity FormXml ID: '{f1bed442-23b9-4abf-9ac1-3b3acdb4c703}'</comment>
+  </data>
+  <data name="1:label,Task navigation{f889e35d-5126-4256-9320-e02cf3f283a9}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Task navigation' : label for section in Entity FormXml ID: '{f889e35d-5126-4256-9320-e02cf3f283a9}'</comment>
+  </data>
+  <data name="1:label,Task navigation{fc1ae103-71e9-455a-8234-f11e775176d9}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Task navigation' : label for section in Entity FormXml ID: '{fc1ae103-71e9-455a-8234-f11e775176d9}'</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_canceltasksconfigurationtableentitymsfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value>Cancel Tasks configuration tables</value>
+    <comment> 'msfsi_canceltasksconfigurationtable' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_onboardingformdatasourceentitymsfsi_onboardingformdatasource" xml:space="preserve">
+    <value>Onboarding form data sources</value>
+    <comment> 'msfsi_onboardingformdatasource' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_onboardingformentitymsfsi_onboardingform" xml:space="preserve">
+    <value>Onboarding forms</value>
+    <comment> 'msfsi_onboardingform' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_taskdefinitionentitymsfsi_taskdefinition" xml:space="preserve">
+    <value>Task definitions</value>
+    <comment> 'msfsi_taskdefinition' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_taskgroupentitymsfsi_taskgroup" xml:space="preserve">
+    <value>Task groups</value>
+    <comment> 'msfsi_taskgroup' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_tasknavigationentitymsfsi_tasknavigation" xml:space="preserve">
+    <value>Task navigations</value>
+    <comment> 'msfsi_tasknavigation' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{1229e4c8-3d88-47c0-99f7-0143d8a7c3f1}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for systemform in Entity FormXml ID: '{1229e4c8-3d88-47c0-99f7-0143d8a7c3f1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{15a57e95-9cb5-4898-83d7-b11cb4890093}" xml:space="preserve">
+    <value>Cancel Tasks configuration table Lookup View</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{15a57e95-9cb5-4898-83d7-b11cb4890093}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{3464875b-fcfa-4d30-8600-45c6667a39c7}" xml:space="preserve">
+    <value>Quick Find Active Cancel Tasks configuration tables</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{3464875b-fcfa-4d30-8600-45c6667a39c7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{34864371-b868-ed11-9562-002248275144}" xml:space="preserve">
+    <value>My Cancel Tasks configuration tables</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{34864371-b868-ed11-9562-002248275144}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{47935b5b-d911-4033-a762-4283c3be9734}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for systemform in Entity FormXml ID: '{47935b5b-d911-4033-a762-4283c3be9734}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{8663daee-9d10-4ff9-89ca-df9ba2ce7f8e}" xml:space="preserve">
+    <value>Cancel Tasks configuration table Associated View</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{8663daee-9d10-4ff9-89ca-df9ba2ce7f8e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{ae09b8ef-03b0-45e7-969b-ad824085463c}" xml:space="preserve">
+    <value>Active Cancel Tasks configuration tables</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{ae09b8ef-03b0-45e7-969b-ad824085463c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{b867dd10-e877-499d-b678-d82647675c4f}" xml:space="preserve">
+    <value>Inactive Cancel Tasks configuration tables</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{b867dd10-e877-499d-b678-d82647675c4f}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{d30c495d-3e13-4e0e-b487-76b1c89d1240}" xml:space="preserve">
+    <value>Cancel Tasks configuration table Advanced Find View</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for SavedQuery on Entity QueryId: '{d30c495d-3e13-4e0e-b487-76b1c89d1240}'</comment>
+  </data>
+  <data name="1:LocalizedName,Cancel Tasks configuration table{e5f38c23-fad2-4d42-8ea9-71575f87318f}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Cancel Tasks configuration table' : LocalizedName for systemform in Entity FormXml ID: '{e5f38c23-fad2-4d42-8ea9-71575f87318f}'</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_canceltasksconfigurationtableentitymsfsi_canceltasksconfigurationtable" xml:space="preserve">
+    <value>Cancel Tasks configuration table</value>
+    <comment> 'msfsi_canceltasksconfigurationtable' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_onboardingformdatasourceentitymsfsi_onboardingformdatasource" xml:space="preserve">
+    <value>Onboarding form data source</value>
+    <comment> 'msfsi_onboardingformdatasource' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_onboardingformentitymsfsi_onboardingform" xml:space="preserve">
+    <value>Onboarding form</value>
+    <comment> 'msfsi_onboardingform' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_taskdefinitionentitymsfsi_taskdefinition" xml:space="preserve">
+    <value>Task definition</value>
+    <comment> 'msfsi_taskdefinition' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_taskgroupentitymsfsi_taskgroup" xml:space="preserve">
+    <value>Task group</value>
+    <comment> 'msfsi_taskgroup' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_tasknavigationentitymsfsi_tasknavigation" xml:space="preserve">
+    <value>Task navigation</value>
+    <comment> 'msfsi_tasknavigation' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{18cf4752-6ee9-4fe1-b7d8-67c6b7093475}" xml:space="preserve">
+    <value>Onboarding form data source Advanced Find View</value>
+    <comment>'Onboarding form data source' : LocalizedName for SavedQuery on Entity QueryId: '{18cf4752-6ee9-4fe1-b7d8-67c6b7093475}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{5a05d52a-55f4-46bd-8dbb-17f45ba7d91d}" xml:space="preserve">
+    <value>Onboarding form data source Lookup View</value>
+    <comment>'Onboarding form data source' : LocalizedName for SavedQuery on Entity QueryId: '{5a05d52a-55f4-46bd-8dbb-17f45ba7d91d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{7244ecc5-1f7f-4722-a02a-1dca0ba03595}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Onboarding form data source' : LocalizedName for systemform in Entity FormXml ID: '{7244ecc5-1f7f-4722-a02a-1dca0ba03595}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{a62a58fd-1a8f-424b-9f07-d9d08621fe4c}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Onboarding form data source' : LocalizedName for systemform in Entity FormXml ID: '{a62a58fd-1a8f-424b-9f07-d9d08621fe4c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{a71acca6-1752-4c20-9108-67debffc48c8}" xml:space="preserve">
+    <value>Onboarding form data source Associated View</value>
+    <comment>'Onboarding form data source' : LocalizedName for SavedQuery on Entity QueryId: '{a71acca6-1752-4c20-9108-67debffc48c8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{c7334dc5-dc05-ed11-82e4-000d3a9daf31}" xml:space="preserve">
+    <value>Onboarding form data sources</value>
+    <comment>'Onboarding form data source' : LocalizedName for SavedQuery on Entity QueryId: '{c7334dc5-dc05-ed11-82e4-000d3a9daf31}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{db859f79-821b-4e1d-9f0a-2ea504b32353}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Onboarding form data source' : LocalizedName for systemform in Entity FormXml ID: '{db859f79-821b-4e1d-9f0a-2ea504b32353}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{e7623c35-c8f0-4ce5-bf40-196b639ac2cc}" xml:space="preserve">
+    <value>All Onboarding form data sources</value>
+    <comment>'Onboarding form data source' : LocalizedName for SavedQuery on Entity QueryId: '{e7623c35-c8f0-4ce5-bf40-196b639ac2cc}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form data source{ead41e45-09dd-4e48-af15-363a02bcd859}" xml:space="preserve">
+    <value>Quick Find Active Onboarding form data sources</value>
+    <comment>'Onboarding form data source' : LocalizedName for SavedQuery on Entity QueryId: '{ead41e45-09dd-4e48-af15-363a02bcd859}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{0b0ac93b-0773-473c-9490-73e3ab20acb1}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Onboarding form' : LocalizedName for systemform in Entity FormXml ID: '{0b0ac93b-0773-473c-9490-73e3ab20acb1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{4c303376-544d-40c0-bfea-29cc9419879a}" xml:space="preserve">
+    <value>My Form Associated View</value>
+    <comment>'Onboarding form' : LocalizedName for SavedQuery on Entity QueryId: '{4c303376-544d-40c0-bfea-29cc9419879a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{54689941-2685-469e-b2bd-27018429cd16}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Onboarding form' : LocalizedName for systemform in Entity FormXml ID: '{54689941-2685-469e-b2bd-27018429cd16}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{5540f124-43ca-4351-8a79-9cd36a518aa6}" xml:space="preserve">
+    <value>Quick Find Active My Forms</value>
+    <comment>'Onboarding form' : LocalizedName for SavedQuery on Entity QueryId: '{5540f124-43ca-4351-8a79-9cd36a518aa6}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{55b8848a-7142-4575-97a0-be8f8b841e5b}" xml:space="preserve">
+    <value>My Form Lookup View</value>
+    <comment>'Onboarding form' : LocalizedName for SavedQuery on Entity QueryId: '{55b8848a-7142-4575-97a0-be8f8b841e5b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{59a45a2f-22eb-ec11-bb3d-000d3a5b43ee}" xml:space="preserve">
+    <value>My Forms</value>
+    <comment>'Onboarding form' : LocalizedName for SavedQuery on Entity QueryId: '{59a45a2f-22eb-ec11-bb3d-000d3a5b43ee}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{67868c90-820a-4544-8c53-2a6e2552530e}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Onboarding form' : LocalizedName for systemform in Entity FormXml ID: '{67868c90-820a-4544-8c53-2a6e2552530e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{bcfee840-989a-4546-8491-65872d8ebd6c}" xml:space="preserve">
+    <value>My Form Advanced Find View</value>
+    <comment>'Onboarding form' : LocalizedName for SavedQuery on Entity QueryId: '{bcfee840-989a-4546-8491-65872d8ebd6c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Onboarding form{efd9ddb7-5f45-476c-8f8e-82b21959792c}" xml:space="preserve">
+    <value>All My Forms</value>
+    <comment>'Onboarding form' : LocalizedName for SavedQuery on Entity QueryId: '{efd9ddb7-5f45-476c-8f8e-82b21959792c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{07cbbf52-84e0-4ce6-a661-151fe3127874}" xml:space="preserve">
+    <value>Task definition Lookup View</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{07cbbf52-84e0-4ce6-a661-151fe3127874}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{40f6aa53-804f-4161-b40c-1e1ab936240d}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task definition' : LocalizedName for systemform in Entity FormXml ID: '{40f6aa53-804f-4161-b40c-1e1ab936240d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{5add4c0d-e2ea-ec11-bb3e-000d3a5b4e9b}" xml:space="preserve">
+    <value>My Task definitions</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{5add4c0d-e2ea-ec11-bb3e-000d3a5b4e9b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{6594c95c-9f9e-4211-862e-39fd531c32d7}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task definition' : LocalizedName for systemform in Entity FormXml ID: '{6594c95c-9f9e-4211-862e-39fd531c32d7}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{6e848f4e-39d3-4db0-8a6d-9acad15b55a0}" xml:space="preserve">
+    <value>Task definition Advanced Find View</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{6e848f4e-39d3-4db0-8a6d-9acad15b55a0}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{7104bad9-67f7-46e8-ac6d-e199959cdef8}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task definition' : LocalizedName for systemform in Entity FormXml ID: '{7104bad9-67f7-46e8-ac6d-e199959cdef8}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{77c2ab14-5a52-4217-9921-ca53a2028f13}" xml:space="preserve">
+    <value>Inactive Task definitions</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{77c2ab14-5a52-4217-9921-ca53a2028f13}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{928333a9-bc7c-42c4-83df-e3bce1d5d575}" xml:space="preserve">
+    <value>Active Task definitions</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{928333a9-bc7c-42c4-83df-e3bce1d5d575}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{9ede696e-e523-47c5-83ff-4cce360c7918}" xml:space="preserve">
+    <value>Quick Find Active Task definitions</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{9ede696e-e523-47c5-83ff-4cce360c7918}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}" xml:space="preserve">
+    <value>Task definition main create form</value>
+    <comment>'Task definition' : LocalizedName for systemform in Entity FormXml ID: '{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task definition{e06b0c75-cbcb-4388-b2e2-6de67c272c18}" xml:space="preserve">
+    <value>Task definition Associated View</value>
+    <comment>'Task definition' : LocalizedName for SavedQuery on Entity QueryId: '{e06b0c75-cbcb-4388-b2e2-6de67c272c18}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{11262e2b-aeb2-440d-a8a0-21341a1ca783}" xml:space="preserve">
+    <value>Task group Lookup View</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{11262e2b-aeb2-440d-a8a0-21341a1ca783}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{1808a0ec-e748-4133-bf63-0e350ae67b44}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task group' : LocalizedName for systemform in Entity FormXml ID: '{1808a0ec-e748-4133-bf63-0e350ae67b44}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{19abc988-c802-44f1-8125-110b9da15bf1}" xml:space="preserve">
+    <value>Task group Associated View</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{19abc988-c802-44f1-8125-110b9da15bf1}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{6147fc1a-78a4-4560-b60c-42e05511933d}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task group' : LocalizedName for systemform in Entity FormXml ID: '{6147fc1a-78a4-4560-b60c-42e05511933d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{7df83db5-092e-4a94-9c40-f552d748f8ac}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task group' : LocalizedName for systemform in Entity FormXml ID: '{7df83db5-092e-4a94-9c40-f552d748f8ac}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{9ffcff89-86ea-ec11-bb3e-000d3a5b4752}" xml:space="preserve">
+    <value>My Task groups</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{9ffcff89-86ea-ec11-bb3e-000d3a5b4752}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{a4eda385-ed61-43df-90b2-5e932e3575ce}" xml:space="preserve">
+    <value>Task group Advanced Find View</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{a4eda385-ed61-43df-90b2-5e932e3575ce}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{acbb738e-0fba-4b63-bea8-244463e5cd18}" xml:space="preserve">
+    <value>Quick Find Active Task groups</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{acbb738e-0fba-4b63-bea8-244463e5cd18}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{aee588e1-97fb-ec11-82e5-0022482440bd}" xml:space="preserve">
+    <value>Task group main form</value>
+    <comment>'Task group' : LocalizedName for systemform in Entity FormXml ID: '{aee588e1-97fb-ec11-82e5-0022482440bd}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{d7e08d2e-f08d-4c89-9b05-a4b56a2f75b9}" xml:space="preserve">
+    <value>Inactive Task groups</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{d7e08d2e-f08d-4c89-9b05-a4b56a2f75b9}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task group{e8b7b755-058a-4720-85b8-cafc148032b6}" xml:space="preserve">
+    <value>Active Task groups</value>
+    <comment>'Task group' : LocalizedName for SavedQuery on Entity QueryId: '{e8b7b755-058a-4720-85b8-cafc148032b6}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{0829ab4f-f6bd-404f-9c14-d157d9c4d7b2}" xml:space="preserve">
+    <value>Quick Find Active Task navigations</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{0829ab4f-f6bd-404f-9c14-d157d9c4d7b2}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{2d3fae43-7eea-ec11-bb3e-000d3a5b4e9b}" xml:space="preserve">
+    <value>My Task navigations</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{2d3fae43-7eea-ec11-bb3e-000d3a5b4e9b}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{3010355e-aa46-4266-a773-bc00308d317c}" xml:space="preserve">
+    <value>Task navigation Lookup View</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{3010355e-aa46-4266-a773-bc00308d317c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{4ab9fde8-619b-4863-9956-ad5767f7ddaa}" xml:space="preserve">
+    <value>Active Task navigations</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{4ab9fde8-619b-4863-9956-ad5767f7ddaa}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{5b70995a-46ae-4625-ba37-e30dc912b4c4}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task navigation' : LocalizedName for systemform in Entity FormXml ID: '{5b70995a-46ae-4625-ba37-e30dc912b4c4}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{5d448648-efa6-45c7-96d2-cddc6dc26d14}" xml:space="preserve">
+    <value>Task navigation Advanced Find View</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{5d448648-efa6-45c7-96d2-cddc6dc26d14}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{8613aa62-b49b-4cac-986d-c7e40610508c}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task navigation' : LocalizedName for systemform in Entity FormXml ID: '{8613aa62-b49b-4cac-986d-c7e40610508c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{9019163e-d26c-4b63-a27b-e93a77f09947}" xml:space="preserve">
+    <value>Task navigation Associated View</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{9019163e-d26c-4b63-a27b-e93a77f09947}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{add1faa0-62c8-4f27-940d-658bcc77c831}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Task navigation' : LocalizedName for systemform in Entity FormXml ID: '{add1faa0-62c8-4f27-940d-658bcc77c831}'</comment>
+  </data>
+  <data name="1:LocalizedName,Task navigation{bf7a3ae2-1cb3-4bc6-9dbc-7c546d59aa9a}" xml:space="preserve">
+    <value>Inactive Task navigations</value>
+    <comment>'Task navigation' : LocalizedName for SavedQuery on Entity QueryId: '{bf7a3ae2-1cb3-4bc6-9dbc-7c546d59aa9a}'</comment>
+  </data>
+  <data name="29:LocalizedName,{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" xml:space="preserve">
+    <value>Create task</value>
+    <comment>'Create task' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{4bf0e3da-a6fe-ec11-82e5-0022482449e2}" xml:space="preserve">
+    <value>Is standard task condition satisfied</value>
+    <comment>'Is standard task condition satisfied' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{5bb2673f-4054-ed11-bba2-000d3a37dd84}" xml:space="preserve">
+    <value>Deactivate Tasks</value>
+    <comment>'Deactivate Tasks' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{76a53548-8aa0-ed11-aad1-000d3a9cab0d}" xml:space="preserve">
+    <value>Tasks creation for Application</value>
+    <comment>'Tasks creation for Application' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="29:LocalizedName,{b198bc79-a0fe-ec11-82e5-0022482440bd}" xml:space="preserve">
+    <value>Tasks creation for Related party</value>
+    <comment>'Tasks creation for Related party' : LocalizedName for Workflow</comment>
+  </data>
+  <data name="9:Description,msfsi_associationtype104800000" xml:space="preserve">
+    <value />
+    <comment>'msfsi_associationtype' : Description for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:Description,msfsi_associationtype104800001" xml:space="preserve">
+    <value />
+    <comment>'msfsi_associationtype' : Description for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:Description,msfsi_associationtype104800002" xml:space="preserve">
+    <value />
+    <comment>'msfsi_associationtype' : Description for OptionSet Value '104800002'</comment>
+  </data>
+  <data name="9:Description,msfsi_tasknavigationtype" xml:space="preserve">
+    <value>Type of navigation from tasks tab.  </value>
+    <comment>'msfsi_tasknavigationtype' : Description for OptionSet</comment>
+  </data>
+  <data name="9:Description,msfsi_tasknavigationtype104800000" xml:space="preserve">
+    <value>Open a tab in the UI with information regarding a task.</value>
+    <comment>'msfsi_tasknavigationtype' : Description for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:Description,msfsi_tasktriggertype100000000" xml:space="preserve">
+    <value />
+    <comment>'msfsi_tasktriggertype' : Description for OptionSet Value '100000000'</comment>
+  </data>
+  <data name="9:Description,msfsi_tasktriggertype100000001" xml:space="preserve">
+    <value>The task creation trigger type.</value>
+    <comment>'msfsi_tasktriggertype' : Description for OptionSet Value '100000001'</comment>
+  </data>
+  <data name="9:Description,msfsi_tasktype104800000" xml:space="preserve">
+    <value>Verification task type</value>
+    <comment>'msfsi_tasktype' : Description for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:Description,msfsi_tasktype104800001" xml:space="preserve">
+    <value>General task type</value>
+    <comment>'msfsi_tasktype' : Description for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:displayname,msfsi_associationtype" xml:space="preserve">
+    <value>Association type</value>
+    <comment>'msfsi_associationtype' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,msfsi_tasknavigationtype" xml:space="preserve">
+    <value>Task navigation type</value>
+    <comment>'msfsi_tasknavigationtype' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,msfsi_tasktriggertype" xml:space="preserve">
+    <value>Task trigger type</value>
+    <comment>'msfsi_tasktriggertype' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:displayname,msfsi_tasktype" xml:space="preserve">
+    <value>Task type</value>
+    <comment>'msfsi_tasktype' : displayname for OptionSet</comment>
+  </data>
+  <data name="9:label,msfsi_associationtype104800000" xml:space="preserve">
+    <value>Application</value>
+    <comment>'msfsi_associationtype' : label for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:label,msfsi_associationtype104800001" xml:space="preserve">
+    <value>Primary</value>
+    <comment>'msfsi_associationtype' : label for OptionSet Value '104800001'</comment>
+  </data>
+  <data name="9:label,msfsi_associationtype104800002" xml:space="preserve">
+    <value>Role</value>
+    <comment>'msfsi_associationtype' : label for OptionSet Value '104800002'</comment>
+  </data>
+  <data name="9:label,msfsi_tasknavigationtype104800000" xml:space="preserve">
+    <value>Open a tab</value>
+    <comment>'msfsi_tasknavigationtype' : label for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:label,msfsi_tasktriggertype100000000" xml:space="preserve">
+    <value>Standard</value>
+    <comment>'msfsi_tasktriggertype' : label for OptionSet Value '100000000'</comment>
+  </data>
+  <data name="9:label,msfsi_tasktriggertype100000001" xml:space="preserve">
+    <value>Complex</value>
+    <comment>'msfsi_tasktriggertype' : label for OptionSet Value '100000001'</comment>
+  </data>
+  <data name="9:label,msfsi_tasktype104800000" xml:space="preserve">
+    <value>Verification</value>
+    <comment>'msfsi_tasktype' : label for OptionSet Value '104800000'</comment>
+  </data>
+  <data name="9:label,msfsi_tasktype104800001" xml:space="preserve">
+    <value>General</value>
+    <comment>'msfsi_tasktype' : label for OptionSet Value '104800001'</comment>
+  </data>
+</root>

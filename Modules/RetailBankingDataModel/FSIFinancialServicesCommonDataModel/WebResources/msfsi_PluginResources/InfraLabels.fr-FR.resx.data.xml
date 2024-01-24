@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{30aaac14-4b33-4840-9c10-e1164afa743c}</WebResourceId>
+  <Name>msfsi_PluginResources/InfraLabels.fr-FR.resx</Name>
+  <DisplayName>Infra plugin resources french</DisplayName>
+  <WebResourceType>12</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>0</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_PluginResourcesInfraLabelsfr-FRresx30AAAC14-4B33-4840-9C10-E1164AFA743C</FileName>
+</WebResource>

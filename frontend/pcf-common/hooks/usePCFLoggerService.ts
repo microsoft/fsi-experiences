@@ -1,7 +1,8 @@
+import { useMemo } from 'react';
 import contextService from '../services/ContextService';
 import loggerServiceMock from '@fsi/core-components/dist/context/telemetry/ILoggerService.mock';
 import { ILoggerService } from '@fsi/core-components/dist/context/telemetry/ILoggerService';
-import { memoize } from 'lodash';
+
 
 export const FSIControls = {
     DetailedFHControl: 'MicrosoftPCF.DetailedFHControl',
@@ -15,12 +16,12 @@ export const FSIControls = {
 
 export const usePCFLoggerService = (): ILoggerService => {
     const context = contextService.geContext();
-    const memoizedFunction = memoize(() => {
+
+    return useMemo(() => {
         if (!context || contextService.isTestMode()) {
             return loggerServiceMock;
         }
         // you can return your loggerService instance here
         return loggerServiceMock;
-    });
-    return memoizedFunction();
+    }, [context]);
 };

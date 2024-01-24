@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mapping>
-    <FileToFile map="PluginAssemblies/MicrosoftCloudForFSIOnboardingEssentialsPlugins-A94D11B9-3C69-4804-B043-615F8A8FB2A1/MicrosoftCloudForFSIOnboardingEssentialsPlugins.dll" to="..\..\..\drop\%BuildConfiguration%\%BuildPlatform%\Plugins\Microsoft.CloudForFSI.OnboardingEssentials.Plugins.dll" />
-</Mapping>

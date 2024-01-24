@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Loan application collateral" OriginalName="Loan application collateral">msfsi_loan_applicationcollateral</Name>
-  <FormXml />
-  <SavedQueries />
-  <RibbonDiffXml />
-</Entity>

@@ -4,9 +4,9 @@
     "description": "",
     "scripts": {
         "clean-modules": "pnpm -r exec -- rm -rf node_modules",
-        "install-libs": "pnpm i -r --filter @fsi/core-components --filter @fsi/pcf-common --filter @fsi/web-resources --filter ./modules/*",
+        "install-libs": "pnpm i -r --filter @fsi/core-components --filter @fsi/pcf-common --filter @fsi/web-resources --filter ./modules",
         "test-modules": "pnpm -r test-ci --workspace-concurrency=1 --filter ./modules",
-        "build-libs": "pnpm -r --filter @fsi/core-components --filter @fsi/pcf-common --filter @fsi/web-resources --filter ./modules/* build",
+        "build-libs": "pnpm -r --filter @fsi/core-components --filter @fsi/pcf-common --filter @fsi/web-resources --filter ./modules build",
         "build-core": "pnpm build -r --filter @fsi/core-components",
         "install-all-pcf": "pnpm i -r --filter ./pcf-controls/*",
         "build-all-pcf": "pnpm -r --filter ./pcf-controls/* build",

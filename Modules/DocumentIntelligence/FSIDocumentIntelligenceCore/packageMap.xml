@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mapping>
-    <FileToFile map="PluginAssemblies/MicrosoftCloudForFSIFSIDocumentIntelligenceCorePlu-A5181D67-3447-40B2-9C0A-1A593D641BE7/MicrosoftCloudForFSIFSIDocumentIntelligenceCorePlu.dll" to="..\..\..\drop\%BuildConfiguration%\%BuildPlatform%\Plugins\Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins.dll" />
-</Mapping>

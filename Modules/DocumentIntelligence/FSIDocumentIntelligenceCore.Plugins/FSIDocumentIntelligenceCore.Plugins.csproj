@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<TargetFramework>net462</TargetFramework>
-		<DynamicsProjectType>Plugin</DynamicsProjectType>
-		<RootNamespace>Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins</RootNamespace>
-		<AssemblyName>Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins</AssemblyName>
-		<ModuleName>DocumentIntelligence</ModuleName>
-	</PropertyGroup>
-</Project>

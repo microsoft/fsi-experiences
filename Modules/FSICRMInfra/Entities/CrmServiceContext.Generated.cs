@@ -12,18 +12,18 @@
 
 namespace Microsoft.CloudForFSI.Tables
 {
-	
+
 	/// <summary>
 	/// Represents a source of entities bound to a CRM service. It tracks and manages changes made to the retrieved entities.
 	/// </summary>
 	public partial class CrmServiceContext : Microsoft.Xrm.Sdk.Client.OrganizationServiceContext
 	{
-		
+
 		/// <summary>
 		/// Constructor.
 		/// </summary>
 		[System.Diagnostics.DebuggerNonUserCode()]
-		public CrmServiceContext(Microsoft.Xrm.Sdk.IOrganizationService service) : 
+		public CrmServiceContext(Microsoft.Xrm.Sdk.IOrganizationService service) :
 				base(service)
 		{
 		}
@@ -39,7 +39,7 @@ namespace Microsoft.CloudForFSI.Tables
 			}
 		}
 
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_customerfinancialholding"/> entities.
 		/// </summary>
@@ -51,7 +51,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_customerfinancialholding>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_financialholding"/> entities.
 		/// </summary>
@@ -63,7 +63,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_financialholding>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_Group"/> entities.
 		/// </summary>
@@ -75,7 +75,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_Group>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_GroupFinancialHolding"/> entities.
 		/// </summary>
@@ -87,7 +87,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_GroupFinancialHolding>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_GroupMember"/> entities.
 		/// </summary>
@@ -111,7 +111,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_FH_Account>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_FH_Creditline"/> entities.
 		/// </summary>
@@ -123,7 +123,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_FH_Creditline>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_FH_Investment"/> entities.
 		/// </summary>
@@ -135,7 +135,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_FH_Investment>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_FH_Loan"/> entities.
 		/// </summary>
@@ -147,7 +147,7 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_FH_Loan>();
 			}
 		}
-		
+
 		/// <summary>
 		/// Gets a binding to the set of all <see cref="msfsi_FH_Saving"/> entities.
 		/// </summary>
@@ -159,59 +159,11 @@ namespace Microsoft.CloudForFSI.Tables
 				return this.CreateQuery<msfsi_FH_Saving>();
 			}
 		}
-
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_taskdefinition"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_taskdefinition> msfsi_taskdefinitionSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_taskdefinition>();
-			}
-		}
-		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_tasknavigation"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_tasknavigation> msfsi_tasknavigationSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_tasknavigation>();
-			}
-		}
-
-    	/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_document"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_document> msfsi_documentSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_document>();
-			}
-		}
-        		
-		/// <summary>
-		/// Gets a binding to the set of all <see cref="msfsi_documentrequest"/> entities.
-		/// </summary>
-		public System.Linq.IQueryable<msfsi_documentrequest> msfsi_documentrequestSet
-		{
-			[System.Diagnostics.DebuggerNonUserCode()]
-			get
-			{
-				return this.CreateQuery<msfsi_documentrequest>();
-			}
-		}
 	}
-	
+
 	internal sealed class EntityOptionSetEnum
 	{
-		
+
 		[System.Diagnostics.DebuggerNonUserCode()]
 		public static System.Nullable<int> GetEnum(Microsoft.Xrm.Sdk.Entity entity, string attributeLogicalName)
 		{
@@ -226,62 +178,62 @@ namespace Microsoft.CloudForFSI.Tables
 			return null;
 		}
 
-        [System.Diagnostics.DebuggerNonUserCode()]
-        public static System.Collections.Generic.IEnumerable<T> GetMultiEnum<T>(Microsoft.Xrm.Sdk.Entity entity, string attributeLogicalName)
+		[System.Diagnostics.DebuggerNonUserCode()]
+		public static System.Collections.Generic.IEnumerable<T> GetMultiEnum<T>(Microsoft.Xrm.Sdk.Entity entity, string attributeLogicalName)
 
-        {
-            Microsoft.Xrm.Sdk.OptionSetValueCollection value = entity.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValueCollection>(attributeLogicalName);
-            System.Collections.Generic.List<T> list = new System.Collections.Generic.List<T>();
-            if (value == null)
-            {
-                return list;
-            }
-            list.AddRange(System.Linq.Enumerable.Select(value, v => (T)(object)v.Value));
-            return list;
-        }
+		{
+			Microsoft.Xrm.Sdk.OptionSetValueCollection value = entity.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValueCollection>(attributeLogicalName);
+			System.Collections.Generic.List<T> list = new System.Collections.Generic.List<T>();
+			if (value == null)
+			{
+				return list;
+			}
+			list.AddRange(System.Linq.Enumerable.Select(value, v => (T)(object)v.Value));
+			return list;
+		}
 
-        [System.Diagnostics.DebuggerNonUserCode()]
-        public static Microsoft.Xrm.Sdk.OptionSetValueCollection GetMultiEnum<T>(Microsoft.Xrm.Sdk.Entity entity, string attributeLogicalName, System.Collections.Generic.IEnumerable<T> values)
+		[System.Diagnostics.DebuggerNonUserCode()]
+		public static Microsoft.Xrm.Sdk.OptionSetValueCollection GetMultiEnum<T>(Microsoft.Xrm.Sdk.Entity entity, string attributeLogicalName, System.Collections.Generic.IEnumerable<T> values)
 
-        {
-            Microsoft.Xrm.Sdk.OptionSetValueCollection collection = new Microsoft.Xrm.Sdk.OptionSetValueCollection();
-            collection.AddRange(System.Linq.Enumerable.Select(values, v => new Microsoft.Xrm.Sdk.OptionSetValue((int)(object)v)));
-            return collection;
-        }
+		{
+			Microsoft.Xrm.Sdk.OptionSetValueCollection collection = new Microsoft.Xrm.Sdk.OptionSetValueCollection();
+			collection.AddRange(System.Linq.Enumerable.Select(values, v => new Microsoft.Xrm.Sdk.OptionSetValue((int)(object)v)));
+			return collection;
+		}
 	}
-	
+
 	/// <summary>
 	/// Attribute to handle storing the OptionSet's Metadata.
 	/// </summary>
 	[System.AttributeUsageAttribute(System.AttributeTargets.Field)]
 	public sealed class OptionSetMetadataAttribute : System.Attribute
 	{
-		
+
 		/// <summary>
 		/// Color of the OptionSetValue.
 		/// </summary>
 		public string Color { get; set; }
-		
+
 		/// <summary>
 		/// Description of the OptionSetValue.
 		/// </summary>
 		public string Description { get; set; }
-		
+
 		/// <summary>
 		/// Display order index of the OptionSetValue.
 		/// </summary>
 		public int DisplayIndex { get; set; }
-		
+
 		/// <summary>
 		/// External value of the OptionSetValue.
 		/// </summary>
 		public string ExternalValue { get; set; }
-		
+
 		/// <summary>
 		/// Name of the OptionSetValue.
 		/// </summary>
 		public string Name { get; set; }
-		
+
 		/// <summary>
 		/// Initializes a new instance of the <see cref="OptionSetMetadataAttribute"/> class.
 		/// </summary>
@@ -300,13 +252,13 @@ namespace Microsoft.CloudForFSI.Tables
 			this.Name = name;
 		}
 	}
-	
+
 	/// <summary>
 	/// Extension class to handle retrieving of OptionSetMetadataAttribute.
 	/// </summary>
 	public static class OptionSetExtension
 	{
-		
+
 		/// <summary>
 		/// Returns the OptionSetMetadataAttribute for the given enum value
 		/// </summary>

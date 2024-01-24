@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Package</DynamicsProjectType>
+    <ModuleName>Loan-Onboarding</ModuleName>
+    <AnchorSolutionName>FSILoanOnboardingStarterAnchor</AnchorSolutionName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="PackageExtra\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(ModuleName)\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSILoanOnboardingStarterAnchor_managed.zip">
+      <Link>$(ModuleName)\FSILoanOnboardingStarterAnchor_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSILoanOnboardingStarterDataModel_managed.zip">
+      <Link>$(ModuleName)\FSILoanOnboardingStarterDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSILoanOnboardingStarterSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSILoanOnboardingStarterSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSILoanOnboardingStarterRibbon_managed.zip">
+      <Link>$(ModuleName)\FSILoanOnboardingStarterRibbon_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSILoanOnboardingStarter_managed.zip">
+      <Link>$(ModuleName)\FSILoanOnboardingStarter_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSILoanOnboardingStarterAnchor\FSILoanOnboardingStarterAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSILoanOnboardingStarterDataModel\FSILoanOnboardingStarterDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSILoanOnboardingStarterSecurityRoles\FSILoanOnboardingStarterSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSILoanOnboardingStarterRibbon\FSILoanOnboardingStarterRibbon.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSILoanOnboardingStarter\FSILoanOnboardingStarter.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+</Project>

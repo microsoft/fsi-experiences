@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23021.198" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>OnboardingEssentialsTasks</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Onboarding Essentials Tasks" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msfsi_application" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_applicationcategory" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_canceltasksconfigurationtable" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_documentdefinition" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_onboardingform" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_onboardingformdatasource" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_relatedpartycontract" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_relatedpartyrole" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_taskdefinition" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_taskgroup" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_tasknavigation" behavior="0" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
+      <RootComponent type="9" schemaName="msfsi_associationtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_tasknavigationtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_tasktriggertype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_tasktype" behavior="0" />
+      <RootComponent type="29" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" behavior="0" />
+      <RootComponent type="29" id="{4bf0e3da-a6fe-ec11-82e5-0022482449e2}" behavior="0" />
+      <RootComponent type="29" id="{5bb2673f-4054-ed11-bba2-000d3a37dd84}" behavior="0" />
+      <RootComponent type="29" id="{76a53548-8aa0-ed11-aad1-000d3a9cab0d}" behavior="0" />
+      <RootComponent type="29" id="{b198bc79-a0fe-ec11-82e5-0022482440bd}" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.de-DE.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.en-US.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.es-ES.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.fr-FR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.it-IT.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.nl-NL.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.pt-BR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsTasksLabels.zh-TW.resx" behavior="0" />
+      <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationTaskProgressOverviewControl" behavior="0" />
+      <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationTasksControl" behavior="0" />
+      <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.TaskVerificationControl" behavior="0" />
+      <RootComponent type="91" id="{a94d11b9-3c69-4804-b043-615f8a8fb2a1}" schemaName="Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="92" id="{a6bea4b2-2b17-ed11-b83e-00224823c9ac}" behavior="0" />
+      <RootComponent type="92" id="{c4c04346-d2b2-ed11-83fe-002248049a2f}" behavior="0" />
+      <RootComponent type="181" id="{a36072f1-dc05-ed11-82e4-000d3a9c71b4}" schemaName="Onboarding form provider" behavior="0" />
+      <RootComponent type="183" id="{a61e8106-dd05-ed11-82e4-000d3a9c71b4}" schemaName="Onboarding form data source" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_application" displayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_application" displayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_application" displayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Create task" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_application" displayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Tasks creation for Application" id="{76a53548-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_application" displayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Tasks creation for Related party" id="{b198bc79-a0fe-ec11-82e5-0022482440bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationcategory" displayName="Application category" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_applicationcategory" displayName="Application category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationcategory" displayName="Application category" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Task definition main create form" parentDisplayName="Task definition" id="{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentdefinition" displayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_documentdefinition" displayName="Document definition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentdefinition" displayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" displayName="msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" parentSchemaName="msfsi_documentdefinition" parentDisplayName="Document definition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related Party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_relatedpartycontract" displayName="Related Party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related Party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Create task" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related Party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Tasks creation for Related party" id="{b198bc79-a0fe-ec11-82e5-0022482440bd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartyrole" displayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_relatedpartyrole" displayName="Related party role" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartyrole" displayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Task definition main create form" parentDisplayName="Task definition" id="{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationid" displayName="Application" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Create task" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Create task" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_documentdefinitionid" displayName="Document definition" parentSchemaName="msfsi_documentdefinition" parentDisplayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" displayName="msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" parentSchemaName="msfsi_documentdefinition" parentDisplayName="Document definition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_documentdefinition" parentDisplayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" displayName="msfsi_msfsi_taskdefinition_taskdocument_msfsi_d" parentSchemaName="msfsi_documentdefinition" parentDisplayName="Document definition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related Party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Create task" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related Party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Create task" id="{40e432b7-8aa0-ed11-aad1-000d3a9cab0d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Application Categories" displayName="Active Application Categories" parentSchemaName="msfsi_applicationcategory" parentDisplayName="Application category" solution="OnboardingEssentialsBase (1.4.0.0)" id="{56c86f78-c985-4c1f-8879-efb68f8eaca8}" />
+        <Dependent type="60" displayName="Task definition main create form" parentDisplayName="Task definition" id="{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Related party roles" displayName="Active Related party roles" parentSchemaName="msfsi_relatedpartyrole" parentDisplayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" id="{5dc4ce2b-d723-4c6d-8b18-9e3e03e0dfab}" />
+        <Dependent type="60" displayName="Task definition main create form" parentDisplayName="Task definition" id="{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_canceltasksconfigurationtable" parentDisplayName="Cancel Tasks configuration table" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_taskdefinition" parentDisplayName="Task definition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_taskgroup" parentDisplayName="Task group" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

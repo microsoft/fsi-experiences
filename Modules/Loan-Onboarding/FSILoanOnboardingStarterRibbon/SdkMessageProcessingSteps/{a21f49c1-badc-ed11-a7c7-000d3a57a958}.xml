@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins.ApplicationArchivingPlugin: Update of msfsi_application" SdkMessageProcessingStepId="{a21f49c1-badc-ed11-a7c7-000d3a57a958}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins.ApplicationArchivingPlugin, Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</PluginTypeName>
+  <PluginTypeId>e093af98-42db-4e51-a0fc-49f33ceb9192</PluginTypeId>
+  <PrimaryEntity>msfsi_application</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins.ApplicationArchivingPlugin: Update of msfsi_application</Description>
+  <FilteringAttributes>statecode</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

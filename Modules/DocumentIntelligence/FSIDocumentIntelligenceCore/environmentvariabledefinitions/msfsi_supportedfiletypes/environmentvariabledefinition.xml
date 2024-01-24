@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="msfsi_supportedfiletypes">
+  <defaultvalue>{"extensions": ["pdf", "jpg", "jpeg", "png"],"mimeTypes":["image/jpeg", "image/png", "application/pdf"]}</defaultvalue>
+  <description default="The file types that the documents process supports.">
+    <label description="The file types that the documents process supports." languagecode="1033" />
+  </description>
+  <displayname default="Supported file types">
+    <label description="Supported file types" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.4.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000003</type>
+</environmentvariabledefinition>

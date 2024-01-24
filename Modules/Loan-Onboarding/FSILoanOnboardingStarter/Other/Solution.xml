@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23034.228" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>LoanOnboardingStarter</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Loan Onboarding" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msfsi_application" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_applicationcollateral" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_contactemployment" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_loan_application" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_loan_applicationcollateral" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_onboardingfinancialtype" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_relatedpartycontract" behavior="2" />
+      <RootComponent type="1" schemaName="queueitem" behavior="2" />
+      <RootComponent type="9" schemaName="msfsi_documentdefinitionscenario" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documenttype" behavior="0" />
+      <RootComponent type="29" id="{28db399b-08ce-ed11-b597-0022481c39a0}" behavior="0" />
+      <RootComponent type="29" id="{94a023fc-76d2-ed11-a7c7-000d3a1bafbe}" behavior="0" />
+      <RootComponent type="29" id="{a3abf003-84df-ed11-a7c7-000d3a33d043}" behavior="0" />
+      <RootComponent type="29" id="{cba1b9e7-83df-ed11-a7c7-000d3a33d043}" behavior="0" />
+      <RootComponent type="29" id="{ce8b742c-84df-ed11-a7c7-000d3a33dede}" behavior="0" />
+      <RootComponent type="29" id="{d6b9f884-7bcc-ed11-b597-0022481c39a0}" behavior="0" />
+      <RootComponent type="29" id="{dbe8fa4b-d0bc-ed11-83ff-002248081af8}" behavior="0" />
+      <RootComponent type="62" schemaName="msfsi_LoanOnboardingStarter" behavior="0" />
+      <RootComponent type="80" schemaName="msfsi_LoanOnboardingStarter" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_application" displayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_application" displayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationcollateral" displayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_applicationcollateral" displayName="Collateral" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationcollateral" displayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationcollateral" displayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_applicationcollateral" displayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="80" schemaName="msfsi_LoanOnboardingStarter" displayName="Loan onboarding starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_contactemployment" displayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_contactemployment" displayName="Employment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_contactemployment" displayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan parties' information view" displayName="Loan parties' information view" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" id="{b566a3ee-64c6-ed11-b597-000d3a37de5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_contactemployment" displayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Contact detail loan parties' information tab" parentDisplayName="Contact detail" id="{7a9aeea9-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_contactemployment" displayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Employment main form" parentDisplayName="Employment" id="{bff2785d-41e3-ed11-a7c7-6045bd006622}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentdefinition" displayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Income statement document request" id="{28db399b-08ce-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentdefinition" displayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Request ID for loan parties" id="{d6b9f884-7bcc-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Income statement document request" id="{28db399b-08ce-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Request ID for loan parties" id="{d6b9f884-7bcc-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_application" displayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_loan_application" displayName="Loan application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_application" displayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_application" displayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Update application fields from loan application" id="{94a023fc-76d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_application" displayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_applicationcollateral" displayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_loan_applicationcollateral" displayName="Loan application collateral" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_applicationcollateral" displayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_applicationcollateral" displayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_loan_applicationcollateral" displayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_onboardingfinancialtype" displayName="Onboarding financial type" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_onboardingfinancialtype" displayName="Onboarding financial type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_onboardingfinancialtype" displayName="Onboarding financial type" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="solutioncomponentconfiguration" displayName="msfsi_onboardingfinancialtype" id.entityid.logicalname="msfsi_onboardingfinancialtype" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Additional applicant view" displayName="Additional applicant view" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" id="{c82b0578-d0c0-ed11-83ff-00224825b523}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Income statement document request" id="{28db399b-08ce-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Request ID for loan parties" id="{d6b9f884-7bcc-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartyrole" displayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Income statement document request" id="{28db399b-08ce-ed11-b597-0022481c39a0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_loan_applicationcollateral_loanappl" displayName="msfsi_msfsi_loan_applicationcollateral_loanappl" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_loan_applicationcollateral_loanappl" displayName="msfsi_msfsi_loan_applicationcollateral_loanappl" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_application_category_msfsi_appli" displayName="msfsi_msfsi_application_category_msfsi_appli" parentSchemaName="msfsi_applicationcategory" parentDisplayName="Application category" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_loan_applicationcollateral_applicationcollateral" displayName="msfsi_loan_applicationcollateral_applicationcollateral" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_loan_applicationcollateral_appcolla" displayName="msfsi_loan_applicationcollateral_appcolla" parentSchemaName="msfsi_loan_applicationcollateralvaluation" parentDisplayName="Loan application collateral valuation" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" displayName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" displayName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" parentSchemaName="msfsi_relatedpartyrole" parentDisplayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" displayName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" parentSchemaName="msfsi_relatedpartyrole" parentDisplayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" displayName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" parentSchemaName="msfsi_relatedpartyrole" parentDisplayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" displayName="msfsi_msfsi_relatedpartyrole_role_msfsi_a" parentSchemaName="msfsi_relatedpartyrole" parentDisplayName="Related party role" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Created On" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicantlistplaceholder" displayName="Applicant list placeholder" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationid" displayName="Application" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationid" displayName="Application" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan applications view" displayName="Loan applications view" parentSchemaName="queueitem" parentDisplayName="Queue Item" id="{9df016db-c0bc-ed11-83ff-00224808199b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationid" displayName="Application" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Loan application" id="{037a707e-1bb8-ed11-83fe-000d3a179469}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationid" displayName="Application" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_archivedate" displayName="Archive date" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_archivereason" displayName="Reason for archive" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_category" displayName="Category" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_category" displayName="Category" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_detailsid" displayName="Details" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_detailsid" displayName="Details" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Loan application" id="{037a707e-1bb8-ed11-83fe-000d3a179469}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_primaryapplicant" displayName="Primary applicant" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_primaryapplicant" displayName="Primary applicant" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_primaryapplicant" displayName="Primary applicant" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_selectedtasksgroupplaceholder" displayName="Selected tasks group placeholder" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="Active" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="Active" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan applications view" displayName="Loan applications view" parentSchemaName="queueitem" parentDisplayName="Queue Item" id="{9df016db-c0bc-ed11-83ff-00224808199b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="29" displayName="Loan application" id="{037a707e-1bb8-ed11-83fe-000d3a179469}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_application" parentDisplayName="Application" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Loan business process flow" id="{312ea038-9c0a-4d5a-b31c-149d5aaaa3a7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_address1_telephone1" displayName="Address 1: Phone" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party quick view form" parentDisplayName="Related party" id="{8c758f9a-d3c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_addressline1" displayName="Address line 1" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationcollateralid" displayName="Collateral" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_category" displayName="Category" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_category" displayName="Category" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_city" displayName="City" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_countryregion" displayName="Country/Region" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_latitude" displayName="Latitude" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_legaldescription" displayName="Legal description" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_longitude" displayName="Longitude" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_realestatetype" displayName="Real estate type" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_stateprovince" displayName="State/Province" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_zippostalcode" displayName="ZIP/Postal code" parentSchemaName="msfsi_applicationcollateral" parentDisplayName="Collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Collateral main form" parentDisplayName="Collateral" id="{4d7c6864-60e7-ed11-a7c6-000d3a549b93}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_birthday" displayName="Birthday" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_age" displayName="Age" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_age" displayName="Age" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_emailaddress" displayName="Email Address" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party quick view form" parentDisplayName="Related party" id="{8c758f9a-d3c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_kycscore" displayName="KYC score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party quick view form" parentDisplayName="Related party" id="{8c758f9a-d3c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_kycstatus" displayName="KYC status" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party quick view form" parentDisplayName="Related party" id="{8c758f9a-d3c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_maritalstatus" displayName="Marital Status" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party quick view form" parentDisplayName="Related party" id="{8c758f9a-d3c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contactemploymentenddate" displayName="Employment end date" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan parties' information view" displayName="Loan parties' information view" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" id="{b566a3ee-64c6-ed11-b597-000d3a37de5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contactemploymentenddate" displayName="Employment end date" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Employment main form" parentDisplayName="Employment" id="{bff2785d-41e3-ed11-a7c7-6045bd006622}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contactemploymentid" displayName="Employment" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan parties' information view" displayName="Loan parties' information view" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" id="{b566a3ee-64c6-ed11-b597-000d3a37de5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contactemploymentstartdate" displayName="Employment start date" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan parties' information view" displayName="Loan parties' information view" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" id="{b566a3ee-64c6-ed11-b597-000d3a37de5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contactemploymentstartdate" displayName="Employment start date" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Employment main form" parentDisplayName="Employment" id="{bff2785d-41e3-ed11-a7c7-6045bd006622}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_employername" displayName="Employer name" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan parties' information view" displayName="Loan parties' information view" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" id="{b566a3ee-64c6-ed11-b597-000d3a37de5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_jobtitle" displayName="Job title" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan parties' information view" displayName="Loan parties' information view" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" id="{b566a3ee-64c6-ed11-b597-000d3a37de5f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_jobtitle" displayName="Job title" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Employment main form" parentDisplayName="Employment" id="{bff2785d-41e3-ed11-a7c7-6045bd006622}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="createdon" displayName="Application date" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_downpayment" displayName="Down payment" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_interestrate" displayName="Interest rate" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loan_applicationid" displayName="Loan application" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loanoriginator" displayName="Loan originator" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loanorrefinancepurpose" displayName="Loan or refinance purpose" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loanterm" displayName="Loan term" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loantype" displayName="Loan type" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_principalamount" displayName="Principal amount" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Archived Loan Applications" displayName="Archived Loan Applications" parentSchemaName="msfsi_application" parentDisplayName="Application" id="{54fe3a20-05dc-ed11-a7c7-002248284536}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_principalamount" displayName="Principal amount" parentSchemaName="msfsi_loan_application" parentDisplayName="Loan application" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Loan application" id="{a96c5ccb-6dd2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationcollateral" displayName="Collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_applicationcollateral" displayName="Collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loan_applicationcollateralid" displayName="Loan application collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loanapplication" displayName="Loan application" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loancollateralvaluation" displayName="Loan collateral valuation" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_loancollateralvaluation" displayName="Loan collateral valuation" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_purchasedate" displayName="Purchase date" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan application information collateral" displayName="Loan application information collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" id="{941b9850-60e3-ed11-a7c7-000d3a55d6c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_purchasedate" displayName="Purchase date" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_birthday" displayName="Birthday" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_birthday" displayName="Birthday" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contractpart" displayName="Contract part" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isprimary" displayName="Is primary" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Additional applicant view" displayName="Additional applicant view" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" id="{c82b0578-d0c0-ed11-83ff-00224825b523}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isprimary" displayName="Is primary" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Additional applicant view" displayName="Additional applicant view" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" id="{c82b0578-d0c0-ed11-83ff-00224825b523}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedparty_role" displayName="Related party role" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Additional applicant view" displayName="Additional applicant view" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" id="{c82b0578-d0c0-ed11-83ff-00224825b523}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedparty_role" displayName="Related party role" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedparty_role" displayName="Related party role" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedparty_role" displayName="Related party role" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedparty_role" displayName="Related party role" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedparty_role" displayName="Related party role" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="26" schemaName="Additional applicant view" displayName="Additional applicant view" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" id="{c82b0578-d0c0-ed11-83ff-00224825b523}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="Active" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="Active" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="Active" />
+        <Dependent type="60" displayName="Related party entity snapshot form" parentDisplayName="Related party" id="{b0acd246-d4c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="Active" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="Active" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Related party entity snapshot form" parentDisplayName="Related party" id="{b0acd246-d4c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Employment main form" parentDisplayName="Employment" id="{bff2785d-41e3-ed11-a7c7-6045bd006622}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Officer" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{5d3cb17c-d1cf-ed11-b597-000d3a4dcb84}" />
+        <Dependent type="80" schemaName="msfsi_LoanOnboardingStarter" displayName="Loan onboarding starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Loan application collateral main form" parentDisplayName="Loan application collateral" id="{2d393fb0-72d2-ed11-a7c7-000d3a1bafbe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Related party entity snapshot form" parentDisplayName="Related party" id="{b0acd246-d4c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Employment main form" parentDisplayName="Employment" id="{bff2785d-41e3-ed11-a7c7-6045bd006622}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Loan Admin" solution="LoanOnboardingStarterSecurityRoles (1.4.0.0)" id="{8a482b0b-aed6-ed11-a7c7-0022481fcbfd}" />
+        <Dependent type="80" schemaName="msfsi_LoanOnboardingStarter" displayName="Loan onboarding starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Loan Application Collateral" displayName="Active Loan Application Collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" id="{0ee2c366-45ba-43bb-ac88-126a597cdd17}" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Related parties" displayName="Active Related parties" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" id="{262d16c2-712a-4f5e-8ac5-ef9e5b69a314}" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Inactive Loan Application Collateral" displayName="Inactive Loan Application Collateral" parentSchemaName="msfsi_loan_applicationcollateral" parentDisplayName="Loan application collateral" solution="LoanOnboardingStarterDataModel (1.4.0.0)" id="{8a43ce91-0c74-4b0f-b048-54b5f299891c}" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+   <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="msfsi_LoanOnboardingStarter" displayName="Loan onboarding starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfsi_OnboardingEssentialsFormOnLoad.js" displayName="msfsi_OnboardingEssentialsFormOnLoad.js" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan Application modify form" parentDisplayName="Application" id="{26e70759-53d1-ed11-a7c7-000d3a1b91b8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfsi_OnboardingEssentialsFormOnLoad.js" displayName="msfsi_OnboardingEssentialsFormOnLoad.js" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msfsi_OnboardingEssentialsFormOnLoad.js" displayName="msfsi_OnboardingEssentialsFormOnLoad.js" solution="OnboardingEssentialsBase (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party details form" parentDisplayName="Related party" id="{bdc180a3-70c1-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.PCFGridControl" displayName="MscrmControls.Grid.PCFGridControl" solution="BaseCustomControlsCore (9.0.2303.4017)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.ModelForm.ModelFormControl" displayName="MscrmControls.ModelForm.ModelFormControl" solution="BaseCustomControlsCore (9.0.2303.4017)" />
+        <Dependent type="60" displayName="Related loan parties' information main form" parentDisplayName="Related party" id="{44e1cced-65c6-ed11-b596-000d3a37dbf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.ModelForm.ModelFormControl" displayName="MscrmControls.ModelForm.ModelFormControl" solution="BaseCustomControlsCore (9.0.2303.4017)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.ApplicantListControl" displayName="msfsi_MicrosoftPCF.ApplicantListControl" solution="OnboardingEssentialsControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.DocumentIntelligenceControl" displayName="msfsi_MicrosoftPCF.DocumentIntelligenceControl" solution="DocumentIntelligenceControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.EntitySnapshotControl" displayName="msfsi_MicrosoftPCF.EntitySnapshotControl" solution="OnboardingEssentialsControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party entity snapshot form" parentDisplayName="Related party" id="{b0acd246-d4c0-ed11-83ff-00224825bc73}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationAssetsAndLiabilitiesControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationAssetsAndLiabilitiesControl" solution="OnboardingEssentialsControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationAssetsAndLiabilitiesControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationAssetsAndLiabilitiesControl" solution="OnboardingEssentialsControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party assets and liabilities " parentDisplayName="Related party" id="{de1b6343-2cc6-ed11-b597-00224825b6b0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl" solution="OnboardingEssentialsControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Related party income and expenses" parentDisplayName="Related party" id="{6ab588aa-c5c7-ed11-b597-00224825b5e2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl" solution="OnboardingEssentialsControls (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationQueueControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationQueueControl" solution="ApplicationQueueControl (1.4.0.0)" />
+        <Dependent type="26" schemaName="Loan applications view" displayName="Loan applications view" parentSchemaName="queueitem" parentDisplayName="Queue Item" id="{9df016db-c0bc-ed11-83ff-00224808199b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationTaskProgressOverviewControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationTaskProgressOverviewControl" solution="OnboardingEssentialsTasks (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationTasksControl" displayName="msfsi_MicrosoftPCF.OnboardingApplicationTasksControl" solution="OnboardingEssentialsTasks (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.TaskVerificationControl" displayName="msfsi_MicrosoftPCF.TaskVerificationControl" solution="OnboardingEssentialsTasks (1.4.0.0)" />
+        <Dependent type="60" displayName="Loan application main form" parentDisplayName="Application" id="{83257ce0-c7bc-ed11-83ff-002248081af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_documentdefinitionscenario" displayName="Document definition scenario" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="9" schemaName="msfsi_documentdefinitionscenario" displayName="Document definition scenario" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_loantype" displayName="Loan type" solution="LoanOnboardingStarterDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_loantype" displayName="Type" parentSchemaName="msfsi_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_documenttype" displayName="Document type" solution="DocumentCommonDataModel (1.4.0.0)" />
+        <Dependent type="9" schemaName="msfsi_documenttype" displayName="Document type" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

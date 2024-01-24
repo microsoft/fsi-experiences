@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>Onboarding-Essentials</ModuleName>
+    <SolutionMapFile>packageMap.xml</SolutionMapFile>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(BuildScope)' != 'pipeline'">
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\OnboardingApplicationTasksControl\OnboardingApplicationTasksControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\OnboardingApplicationTaskProgressOverviewControl\OnboardingApplicationTaskProgressOverviewControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\TaskVerificationControl\TaskVerificationControl.pcfproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSIOnboardingEssentials.Plugins\OnboardingEssentials.Plugins.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+</Project>

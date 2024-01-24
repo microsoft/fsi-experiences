@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23034.228" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>OnboardingEssentialsBase</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Onboarding Essentials Base" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="msfsi_application" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationcategory" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationcontactasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationcontactliability" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationexpense" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationincome" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_applicationliability" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_archivereason" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_bank" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_credit_check" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_documentrequest" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_dummycontext" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_kyc_check" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_onboardingfinancialtype" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_onboardingscenariodefinition" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_relatedpartycontract" behavior="1" />
+      <RootComponent type="1" schemaName="workflow" behavior="1" />
+      <RootComponent type="9" schemaName="msfsi_financialcategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_holdingrole" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_timefrequency" behavior="0" />
+      <RootComponent type="29" id="{593a5d31-0fc4-ed11-83ff-000d3a1ba984}" behavior="0" />
+      <RootComponent type="29" id="{5bde4472-12c4-ed11-83ff-000d3a1ba984}" behavior="0" />
+      <RootComponent type="29" id="{8fea2dd4-bacc-4551-8ff5-d08ddf1e6732}" behavior="0" />
+      <RootComponent type="29" id="{fdca70b7-b4e8-ed11-a7c6-6045bd006aa7}" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_OnboardingEssentialsFormOnLoad.js" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.de-DE.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.en-US.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.es-ES.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.fr-FR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.it-IT.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.nl-NL.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.pt-BR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.zh-TW.resx" behavior="0" />
+      <RootComponent type="91" id="{3dca3871-d63a-4d88-b183-929ff587ab85}" schemaName="Microsoft.CloudForFSI.OnboardingEssentialsBase.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_archivereason" displayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_archivereason" displayName="Archive reason" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_archivereason" displayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_archivereason_msfsi_arc" displayName="msfsi_msfsi_application_archivereason_msfsi_arc" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_bank" displayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationasset_bank_msfsi_bank" displayName="msfsi_msfsi_applicationasset_bank_msfsi_bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationliability_bank_msfsi_ban" displayName="msfsi_msfsi_applicationliability_bank_msfsi_ban" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_contactemployment" displayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_applicationincome_poly_msfsi_contactemployment" displayName="msfsi_applicationincome_poly_msfsi_contactemployment" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_credit_check" displayName="Credit check" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_credit_check" displayName="Credit check" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_credit_check" displayName="Credit check" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_creditscore" displayName="Credit score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_documentrequest" displayName="Document request" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_dummycontext" displayName="Table placeholder" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_dummycontext" displayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_dummycontext" displayName="Table placeholder" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_msfsi_dummycontext_msfsi_detailsid" displayName="msfsi_msfsi_application_msfsi_dummycontext_msfsi_detailsid" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_kyc_check" displayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="1" schemaName="msfsi_kyc_check" displayName="Know your customer" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_kyc_check" displayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycassessmentdate" displayName="KYC assessment date" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_kyc_check" displayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycscore" displayName="KYC score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_kyc_check" displayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycstatus" displayName="KYC status" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" displayName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationcontactasset_relatedpart" displayName="msfsi_msfsi_applicationcontactasset_relatedpart" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationcontactliability_related" displayName="msfsi_msfsi_applicationcontactliability_related" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationexpense_relatedparty_msf" displayName="msfsi_msfsi_applicationexpense_relatedparty_msf" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationincome_relatedparty_msfs" displayName="msfsi_msfsi_applicationincome_relatedparty_msfs" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_primarymemberhelper" displayName="Primary member helper" parentSchemaName="msfsi_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Set primary applicant" id="{8fea2dd4-bacc-4551-8ff5-d08ddf1e6732}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_relatedpartycontract" displayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="93" id="{875198d2-d117-ed11-b83e-000d3a31597a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_archivereasonid" displayName="Archive reason" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_archivereason_msfsi_arc" displayName="msfsi_msfsi_application_archivereason_msfsi_arc" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_archivereason_msfsi_arc" displayName="msfsi_msfsi_application_archivereason_msfsi_arc" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_bankid" displayName="Bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationasset_bank_msfsi_bank" displayName="msfsi_msfsi_applicationasset_bank_msfsi_bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_bankid" displayName="Bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationliability_bank_msfsi_ban" displayName="msfsi_msfsi_applicationliability_bank_msfsi_ban" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationasset_bank_msfsi_bank" displayName="msfsi_msfsi_applicationasset_bank_msfsi_bank" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_bank" parentDisplayName="Bank" solution="FinancialServicesCommonDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationliability_bank_msfsi_ban" displayName="msfsi_msfsi_applicationliability_bank_msfsi_ban" parentSchemaName="msfsi_bank" parentDisplayName="Bank" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_creditscore" displayName="Credit score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycassessmentdate" displayName="KYC assessment date" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycscore" displayName="KYC score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_contactemploymentid" displayName="Employment" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_applicationincome_poly_msfsi_contactemployment" displayName="msfsi_applicationincome_poly_msfsi_contactemployment" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_employername" displayName="Employer name" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_applicationincome_poly_msfsi_contactemployment" displayName="msfsi_applicationincome_poly_msfsi_contactemployment" parentSchemaName="msfsi_contactemployment" parentDisplayName="Employment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_credit_checkid" displayName="Credit check" parentSchemaName="msfsi_credit_check" parentDisplayName="Credit check" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_creditscore" displayName="Credit score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_score" displayName="Score" parentSchemaName="msfsi_credit_check" parentDisplayName="Credit check" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_creditscore" displayName="Credit score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_dummycontextid" displayName="Table placeholder" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_msfsi_dummycontext_msfsi_detailsid" displayName="msfsi_msfsi_application_msfsi_dummycontext_msfsi_detailsid" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_msfsi_dummycontext_msfsi_detailsid" displayName="msfsi_msfsi_application_msfsi_dummycontext_msfsi_detailsid" parentSchemaName="msfsi_dummycontext" parentDisplayName="Table placeholder" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_kyc_checkid" displayName="KYC" parentSchemaName="msfsi_kyc_check" parentDisplayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycassessmentdate" displayName="KYC assessment date" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_kyc_checkid" displayName="KYC" parentSchemaName="msfsi_kyc_check" parentDisplayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycscore" displayName="KYC score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_kyc_checkid" displayName="KYC" parentSchemaName="msfsi_kyc_check" parentDisplayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycstatus" displayName="KYC status" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_score" displayName="Score" parentSchemaName="msfsi_kyc_check" parentDisplayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycscore" displayName="KYC score" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_status" displayName="Status" parentSchemaName="msfsi_kyc_check" parentDisplayName="Know your customer" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycstatus" displayName="KYC status" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isprimary" displayName="Is primary" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Set primary applicant" id="{8fea2dd4-bacc-4551-8ff5-d08ddf1e6732}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isprimary" displayName="Is primary" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="93" id="{875198d2-d117-ed11-b83e-000d3a31597a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" displayName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationcontactasset_relatedpart" displayName="msfsi_msfsi_applicationcontactasset_relatedpart" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationcontactliability_related" displayName="msfsi_msfsi_applicationcontactliability_related" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationexpense_relatedparty_msf" displayName="msfsi_msfsi_applicationexpense_relatedparty_msf" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationincome_relatedparty_msfs" displayName="msfsi_msfsi_applicationincome_relatedparty_msfs" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Set primary applicant" id="{8fea2dd4-bacc-4551-8ff5-d08ddf1e6732}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_primarymemberhelper" displayName="Primary member helper" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_primarymemberhelper" displayName="Primary member helper" parentSchemaName="msfsi_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" displayName="msfsi_msfsi_application_primaryapplicant_msfsi_appl" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationcontactasset_relatedpart" displayName="msfsi_msfsi_applicationcontactasset_relatedpart" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationcontactliability_related" displayName="msfsi_msfsi_applicationcontactliability_related" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationexpense_relatedparty_msf" displayName="msfsi_msfsi_applicationexpense_relatedparty_msf" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="10" schemaName="msfsi_msfsi_applicationincome_relatedparty_msfs" displayName="msfsi_msfsi_applicationincome_relatedparty_msfs" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_primarymemberhelper" displayName="Primary member helper" parentSchemaName="msfsi_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_relatedpartycontractid" displayName="Related Party" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Set primary applicant" id="{8fea2dd4-bacc-4551-8ff5-d08ddf1e6732}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_applicationcategory" parentDisplayName="Application category" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_onboardingfinancialtype" parentDisplayName="Onboarding financial type" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_businessscenario" displayName="Business scenario" parentSchemaName="msfsi_onboardingscenariodefinition" parentDisplayName="Onboarding scenario definition" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="msfsi_kyc_checkstatus" displayName="KYC status" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
+        <Dependent type="2" schemaName="msfsi_kycstatus" displayName="KYC status" parentSchemaName="msfsi_relatedpartycontract" parentDisplayName="Related party" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

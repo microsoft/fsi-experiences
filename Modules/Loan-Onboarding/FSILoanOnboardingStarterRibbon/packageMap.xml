@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping>
+    <FileToFile map="PluginAssemblies/MicrosoftCloudForFSILoanOnboardingStarterRibbonPlugin-4108CE2B-FEDC-448C-86EB-2C7EAFC482D2/MicrosoftCloudForFSILoanOnboardingStarterRibbonPlugin.dll" to="..\..\..\drop\%BuildConfiguration%\%BuildPlatform%\Plugins\Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins.dll" />
+    <FileToPath map="WebResources\**\*.js" to="..\..\..\target\WebResources\Loan-Onboarding\FSILoanOnboardingStarterRibbon\**" />
+    <FileToPath map="WebResources\*.js" to="..\..\..\target\WebResources\Loan-Onboarding\FSILoanOnboardingStarterRibbon\**" />  
+</Mapping>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<DynamicsProjectType>Plugin</DynamicsProjectType>
+    	<RootNamespace>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins</RootNamespace>
+		<AssemblyName>Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins</AssemblyName>
+		<ModuleName>Loan-Onboarding</ModuleName>
+	</PropertyGroup>
+</Project>

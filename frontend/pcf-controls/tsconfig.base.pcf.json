@@ -4,13 +4,6 @@
         "module": "es2015",
         "moduleResolution": "node",
         "baseUrl": ".",
-        "paths": {
-            "CommonComponents/*": ["../pcf-common/internals/ts/es6/CommonComponents/*"],
-            "CustomControls/*": ["../pcf-common/internals/ts/es6/CustomControls/*"],
-            "PerformanceAutomation/*": ["../pcf-common/internals/ts/es6/PerformanceAutomation/*"],
-            "PerformanceEvents/*": ["../pcf-common/internals/ts/es6/PerformanceEvents/*"],
-            "PerformanceInterface/*": ["../pcf-common/internals/ts/es6/PerformanceInterface/*"]
-        },
         "allowSyntheticDefaultImports": true,
         "noImplicitAny": false
     }

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22111.206" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>DocumentIntelligenceCore</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Document Intelligence Core" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="29" id="{0be25b1f-a9fa-ec11-82e5-000d3a182304}" behavior="0" />
+      <RootComponent type="29" id="{155b58ac-aaf7-ec11-bb3d-00224808c150}" behavior="0" />
+      <RootComponent type="29" id="{63364e6b-a8f7-ec11-bb3d-00224808c150}" behavior="0" />
+      <RootComponent type="29" id="{903157fb-ae64-ed11-9561-00224805c952}" behavior="0" />
+      <RootComponent type="29" id="{9c2d7df1-96f7-ec11-bb3d-00224808c150}" behavior="0" />
+      <RootComponent type="29" id="{ba35f4f3-a7fa-ec11-82e5-000d3a182304}" behavior="0" />
+      <RootComponent type="29" id="{c035fd97-3f6b-ed11-9561-00224805ce8f}" behavior="0" />
+      <RootComponent type="29" id="{d406b572-667f-ed11-81ad-0022482a4e0c}" behavior="0" />
+      <RootComponent type="91" id="{a5181d67-3447-40b2-9c0a-1a593d641be7}" schemaName="Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentdefinition" displayName="Document definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Main pipeline" id="{9c2d7df1-96f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentpipeline" displayName="Document pipeline" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Post pipeline" id="{155b58ac-aaf7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentpipeline" displayName="Document pipeline" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Pre pipeline" id="{63364e6b-a8f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentpipeline" displayName="Document pipeline" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Main pipeline" id="{9c2d7df1-96f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentpipeline" displayName="Document pipeline" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Get pipeline details" id="{d406b572-667f-ed11-81ad-0022482a4e0c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentpipelinestep" displayName="Document pipeline step" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Post pipeline step" id="{0be25b1f-a9fa-ec11-82e5-000d3a182304}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentpipelinestep" displayName="Document pipeline step" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Pre pipeline step" id="{ba35f4f3-a7fa-ec11-82e5-000d3a182304}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Post pipeline" id="{155b58ac-aaf7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Pre pipeline" id="{63364e6b-a8f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_documentrequest" displayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Main pipeline" id="{9c2d7df1-96f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_pipelinestepdefinition" displayName="Pipeline step definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Document AI builder step" id="{903157fb-ae64-ed11-9561-00224805c952}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_pipelinestepdefinition" displayName="Pipeline step definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Main pipeline" id="{9c2d7df1-96f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_stepfielddefinition" displayName="Step field definition" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Format extracted data AI builder" id="{c035fd97-3f6b-ed11-9561-00224805ce8f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_uploadedon" displayName="Uploaded on" parentSchemaName="msfsi_documentrequest" parentDisplayName="Document request" solution="DocumentIntelligenceDataModel (1.4.0.0)" />
+        <Dependent type="29" displayName="Main pipeline" id="{9c2d7df1-96f7-ec11-bb3d-00224808c150}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

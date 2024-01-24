@@ -1,4 +1,4 @@
-# Unified Customer Profile
+# Financial Services Experiences
 1. [Introduction][Introduction]
 2. [Overview][Overview]
 3. [Prerequisites installations][Prerequisitesinstallations]
@@ -9,18 +9,23 @@
 # Introduction
 [**Introduction**][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
-The Unified customer profile provides a 360-degree perspective of the customer in a clear and intuitive way. It helps professionals have a good understanding of their customer’s financial details, important life moments, goals and much more, in order to be able to effectively maintain or deepen their loyalty. It has been tailored to fit the specific needs of professionals operating in the retail banking and the wealth management industries.
+The Financial Services Repository contains the code-base for the Unified customer profile, Loan onboarding and Onboarding essentials.
+
+The **Unified customer profile** provides a 360-degree perspective of the customer in a clear and intuitive way. It helps professionals have a good understanding of their customer’s financial details, important life moments, goals and much more, in order to be able to effectively maintain or deepen their loyalty. It has been tailored to fit the specific needs of professionals operating in the retail banking and the wealth management industries.
 
 * Learn more about the Unified customer profile for retail banking [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/unified-customer-profile?toc=%2Findustry%2Ffinancial-services%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json).
 * Learn more about the Unified client profile for wealth management [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/unified-client-profile?toc=%2Findustry%2Ffinancial-services%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json).
 
+**Loan onboarding** has been designed to streamline the lending process by leveraging key capabilities such as document and data collection and verification. The application is easily configurable and extensible so that you can customize it to fit the needs of any financial institution looking to provide lending professionals with a unified interface to manage loans. Learn more about Loan onboarding [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/loan-onboarding).
+
+**Onboarding essentials** provides a set of configurable components to address any onboarding scenarios. You can create an application using a combination of the Onboarding components and out-of-the-box platform components. Learn more about Onboarding essentials [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/onboarding-application-toolkit-components).
+
 # Overview
 [Introduction][Introduction] | [**Overview**][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
-This guide walks you through the entire process of building and deploying the Unified customer profile solution. It introduces the list of essential prerequisites, a set of detailed code setup instructions, a deployment guidance into the Power Platform environment, and an overview of the tools at your disposal.
-To install the solution, you can either carefully follow the instructions outlined in the following sections or use `InstallTools.cmd` in [**Tools**][UsedTools].
+This guide walks you through the entire process of building and deploying any of the solutions within the Financial Services Experiences, such as the Unified customer profile, Loan onboarding or Onboarding essentials. It introduces the list of essential prerequisites, a set of detailed code setup instructions, a deployment guidance into the Power Platform environment, and an overview of the tools at your disposal. To install the solution, you can either carefully follow the instructions outlined in the following sections or use `InstallTools.cmd` in [**Tools**][UsedTools].
 
-**Note:** To guarantee a smooth build process, you may need to have a memory of 8GB or more to avoid running out of memory on build.
+**Note**: To guarantee a smooth build process, you may need to have a memory of 8GB or more to avoid running out of memory on build.
 
 # Prerequisites installations
 [Introduction][Introduction] | [Overview][Overview] | [**Prerequisites installations**][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]

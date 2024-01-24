@@ -1,0 +1,482 @@
+<msfsi_onboardingfinancialtypes>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="34ac0a65-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Other">
+      <label description="Other" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800001</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="31ac0a65-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Loan">
+      <label description="Loan" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800001</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="89c0245d-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Mortgage">
+      <label description="Mortgage" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800001</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="652f7c53-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Child support">
+      <label description="Child support" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800001</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="fcdae94a-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Alimony">
+      <label description="Alimony" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800001</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="db82eb2a-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Other">
+      <label description="Other" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="df56a523-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Trust account">
+      <label description="Trust account" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="dd56a523-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Stock options">
+      <label description="Stock options" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="c26f371d-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Stock">
+      <label description="Stock" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="513c8e14-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Savings account">
+      <label description="Savings account" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="503c8e14-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Retirement fund">
+      <label description="Retirement fund" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="899ea10b-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Retirement">
+      <label description="Retirement" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="879ea10b-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Real estate owned">
+      <label description="Real estate owned" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="1c933b05-d6b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Mutual fund">
+      <label description="Mutual fund" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="bc0cc5fc-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Money market fund">
+      <label description="Money market fund" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="b90cc5fc-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Life insurance">
+      <label description="Life insurance" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="0b1c5ce2-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Individual development account">
+      <label description="Individual development account" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="fb1b5ce2-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Grant">
+      <label description="Grant" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="fb3c77db-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Gift of property equity">
+      <label description="Gift of property equity" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="4ca977d5-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Gift of cash">
+      <label description="Gift of cash" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="e19c30cf-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Deposit account">
+      <label description="Deposit account" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="c99c30cf-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Checking account">
+      <label description="Checking account" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="8231c1c5-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Certificate of deposit time deposit">
+      <label description="Certificate of deposit time deposit" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="8131c1c5-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Business owned">
+      <label description="Business owned" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="63504bbe-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Bridge loan proceeds">
+      <label description="Bridge loan proceeds" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="156000b7-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Bridge loan not deposited">
+      <label description="Bridge loan not deposited" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="d489b1ae-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Bond">
+      <label description="Bond" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="c9e7336d-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Boat or vessel">
+      <label description="Boat or vessel" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="9f31e52d-d5b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Automobiles">
+      <label description="Automobiles" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800000</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="7ee598f1-d4b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Education">
+      <label description="Education" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="7e53e961-d4b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Leasing">
+      <label description="Leasing" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="823d295a-d4b8-ed11-83fe-00224808199b">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Insurance">
+      <label description="Insurance" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="9d7994a7-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Household products">
+      <label description="Household products" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="9aef9db8-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Medical expenses">
+      <label description="Medical expenses" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="0f95085c-44b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Other">
+      <label description="Other" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="e59ac155-44b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="State/Provincial/Gov't Assistance">
+      <label description="State/Provincial/Gov't Assistance" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="829bc748-44b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Alimony/Maintenance">
+      <label description="Alimony/Maintenance" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="61cee93f-44b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Child support">
+      <label description="Child support" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="5740c2b8-43b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Dividends/Interest">
+      <label description="Dividends/Interest" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="4d265ba9-43b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Savings">
+      <label description="Savings" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="73a84299-43b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Spouse's monthly salary">
+      <label description="Spouse's monthly salary" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="0849695b-43b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Employment monthly salary">
+      <label description="Employment monthly salary" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800002</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="b2ffe90c-43b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Other">
+      <label description="Other" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="a529e4ff-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Child care">
+      <label description="Child care" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="debbfae8-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Loan payment">
+      <label description="Loan payment" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="118fc0e1-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Credit card payment">
+      <label description="Credit card payment" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="086efca0-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Mortgage">
+      <label description="Mortgage" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+  <msfsi_onboardingfinancialtype msfsi_onboardingfinancialtypeid="0905b97d-42b8-ed11-83fe-002248081af8">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Rent">
+      <label description="Rent" languagecode="1033" />
+    </msfsi_name>
+    <msfsi_financialcategory>104800003</msfsi_financialcategory>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_onboardingfinancialtype>
+</msfsi_onboardingfinancialtypes>

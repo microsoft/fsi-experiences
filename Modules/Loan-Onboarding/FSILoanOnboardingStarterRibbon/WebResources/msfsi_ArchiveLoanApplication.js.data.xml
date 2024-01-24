@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{246f642d-8ed7-ed11-a7c7-000d3a57a958}</WebResourceId>
+  <Name>msfsi_ArchiveLoanApplication.js</Name>
+  <DisplayName>msfsi_ArchiveLoanApplication</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.4.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_ArchiveLoanApplication246F642D-8ED7-ED11-A7C7-000D3A57A958</FileName>
+</WebResource>

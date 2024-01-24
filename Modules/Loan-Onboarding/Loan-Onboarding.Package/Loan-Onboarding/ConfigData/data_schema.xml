@@ -1,0 +1,14 @@
+<entities>
+  <entity name="queue" displayname="Queue" etc="2020" primaryidfield="queueid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Description" name="description" type="string" />
+      <field displayname="Name" name="name" type="string" />
+      <field displayname="Queue" name="queueid" type="guid" primaryKey="true" />
+    </fields>
+  </entity>
+  <entity name="msfsi_taskdefinition" displayname="Task definition" etc="10251" primaryidfield="msfsi_taskdefinitionid" primarynamefield="msfsi_name" disableplugins="false">
+    <fields>
+      <field displayname="Process stage" name="msfsi_processstage" type="entityreference" lookupType="msfsi_processstage" customfield="true" />
+    </fields>
+  </entity>
+</entities>

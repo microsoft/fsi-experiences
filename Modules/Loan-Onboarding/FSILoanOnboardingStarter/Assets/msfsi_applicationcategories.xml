@@ -1,0 +1,20 @@
+<msfsi_applicationcategories>
+  <msfsi_applicationcategory msfsi_applicationcategoryid="1c8947f5-06d1-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Secured">
+      <label description="Secured" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_applicationcategory>
+  <msfsi_applicationcategory msfsi_applicationcategoryid="f7f6460c-07d1-ed11-a7c7-000d3a549c38">
+    <iscustomizable>1</iscustomizable>
+    <msfsi_businessscenario>104800001</msfsi_businessscenario>
+    <msfsi_name default="Unsecured">
+      <label description="Unsecured" languagecode="1033" />
+    </msfsi_name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </msfsi_applicationcategory>
+</msfsi_applicationcategories>

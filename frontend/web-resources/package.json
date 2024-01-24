@@ -1,0 +1,12 @@
+{
+    "name": "@fsi/web-resources",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "typescript": "^4.1.5"
+    },
+    "devDependencies": {
+        "@types/xrm": "^9.0.47"
+    }
+}

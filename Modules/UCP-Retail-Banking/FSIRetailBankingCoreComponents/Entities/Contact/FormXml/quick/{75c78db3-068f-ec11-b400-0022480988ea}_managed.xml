@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{75c78db3-068f-ec11-b400-0022480988ea}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="customer_snapshot_layout" showlabel="false" labelid="{0eb367ce-e6fe-4ce7-b43e-0fd0a08f87ef}">
+          <labels>
+            <label description="Customer snapshot" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="customer_snapshot_header_section" id="40d4562d-d6ee-4dc6-844b-33cc78662999" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{580ffb38-ca8a-4854-baa9-7a708ce8e49f}">
+                  <labels>
+                    <label description="Header" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9c7b06bc-9b88-4b65-8b79-83da3fecb801}" locklevel="0" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Full name" languagecode="1033" />
+                        </labels>
+                        <control id="fullname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b0574fc-b301-4e0f-b9d2-0cff40c66ead}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="ID" languagecode="1033" />
+                        </labels>
+                        <control id="governmentid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="governmentid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="customer_snapshot_layout_section_1" id="16647c34-82e0-4579-85f8-f0b52f3b3593" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section1" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{83f50b74-e448-41f0-8284-c5fca8bd7bdb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="mobilephone" classid="{8C10015A-B339-4982-9474-A95FE05631A5}" datafieldname="mobilephone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b39874b2-4ed4-4ae3-9815-89f318e36e82}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="emailaddress1" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{deed3c85-e7c8-4e48-8641-2643072b7a02}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="address1_composite" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="customer_snapshot_layout_section_2" id="11411783-b016-49ab-b107-40bee38bb092" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section 2" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{48b2bb65-e3a9-4288-8848-4de0aaada13f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Occupation" languagecode="1033" />
+                        </labels>
+                        <control id="jobtitle" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="jobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c97828c1-4eca-4a6d-b247-da754e9dac91}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Annual income" languagecode="1033" />
+                        </labels>
+                        <control id="annualincome" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="annualincome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00a98e6a-5220-4803-83ab-6788f4bd74d1}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Primary branch" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branch" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_branch" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="2" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Banking customer snapshot" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

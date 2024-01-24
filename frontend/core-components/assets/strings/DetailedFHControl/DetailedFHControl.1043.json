@@ -1,0 +1,17 @@
+{
+    "INITIAL_AMOUNT": "Beginbedrag",
+    "OUTSTANDING_BALANCE": "Openstaand saldo",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "Openstaand bedrag hoofdsom",
+    "CURRENT_BALANCE": "Huidig saldo",
+    "BOOK_BALANCE": "Boeksaldo",
+    "FH_CUSTOMER_HOLDING": "Bezit van klant",
+    "FH_ASSOCIATED_HOLDING": "Gelieerd bezit",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "Details van financieel bezit",
+    "FH_ID_ACCOUNT": "Account-id",
+    "FH_ID_LOAN": "Lening-id",
+    "FH_ID_INVESTMENT": "Investerings-id",
+    "FH_ID_SAVING": "Id van langlopende spaarrekening",
+    "FH_ID_CREDIT": "Id doorlopend krediet",
+    "PORTFOLIO_ALLOCATION": "Toewijzing portfolio",
+    "NO_ASSETS_YET": "Nog geen activa"
+}

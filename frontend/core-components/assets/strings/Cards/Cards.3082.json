@@ -1,0 +1,9 @@
+{
+    "CARDS": "Tarjetas {{cardNumbers}}",
+    "NO_OWNED_CARDS": "Sin tarjetas propias",
+    "EXPIRES": "CADUCA",
+    "EXPIRES_SOON": "CADUCA PRONTO",
+    "EXPIRED": "CADUCADA",
+    "BANKING_CARD_DETAILS": "Detalles de la tarjeta bancaria {{index}}",
+    "CUSTOMER_INFORMATION_RESTRICTED": "Esta información del cliente está oculta"
+}

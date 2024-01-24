@@ -1,0 +1,17 @@
+{
+    "INITIAL_AMOUNT": "初期金額",
+    "OUTSTANDING_BALANCE": "未付餘額",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "未付本金金額",
+    "CURRENT_BALANCE": "目前餘額",
+    "BOOK_BALANCE": "預約餘額",
+    "FH_CUSTOMER_HOLDING": "客戶資產",
+    "FH_ASSOCIATED_HOLDING": "相關資產",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "詳細金融資產",
+    "FH_ID_ACCOUNT": "帳戶識別碼",
+    "FH_ID_LOAN": "貸款識別碼",
+    "FH_ID_INVESTMENT": "投資識別碼",
+    "FH_ID_SAVING": "長期儲蓄識別碼",
+    "FH_ID_CREDIT": "信用額度識別碼",
+    "PORTFOLIO_ALLOCATION": "組合配置",
+    "NO_ASSETS_YET": "尚無資產"
+}

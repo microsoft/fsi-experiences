@@ -1,0 +1,17 @@
+{
+    "INITIAL_AMOUNT": "Montant initial",
+    "OUTSTANDING_BALANCE": "Solde restant",
+    "OUTSTANDING_PRINCIPAL_AMOUNT": "Montant du principal restant",
+    "CURRENT_BALANCE": "Solde actuel",
+    "BOOK_BALANCE": "Solde comptable",
+    "FH_CUSTOMER_HOLDING": "Produits du client",
+    "FH_ASSOCIATED_HOLDING": "Produits associés",
+    "FH_DETAILED_PIVOT_ARIA_LABEL": "Produits financiers détaillés",
+    "FH_ID_ACCOUNT": "ID de compte",
+    "FH_ID_LOAN": "ID prêt",
+    "FH_ID_INVESTMENT": "ID investissement",
+    "FH_ID_SAVING": "ID épargne à long terme",
+    "FH_ID_CREDIT": "ID ligne de crédit",
+    "PORTFOLIO_ALLOCATION": "Répartition du portefeuille",
+    "NO_ASSETS_YET": "Aucune ressource à ce stade"
+}

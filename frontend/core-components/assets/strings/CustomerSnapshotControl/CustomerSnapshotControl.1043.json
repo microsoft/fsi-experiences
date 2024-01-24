@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "Momentopname van klant",
+    "ENTITY_ID": "Hoofdentiteit",
+    "ENTITY_ID_DESC": "De id van het momentopnameonderdeel van de entiteitsklant wordt gebruikt om gegevens op te halen",
+    "FORM_ID": "Formulier-id",
+    "FORM_ID_DESC": "De id van het formulier (snelle-weergaveformulier) dat wordt gebruikt om de gegevensvelden en de indeling van de momentopname van de klant te bepalen",
+    "LINK_ENTITY_FIELD": "Koppelingsveld van hoofdentiteit",
+    "LINK_ENTITY_FIELD_DESC": "De logische naam van het veld dat de hoofdentiteit-id bevat (standaard naam van entiteit + id)",
+    "TITLE_VISIBILITY": "Zichtbaarheid van titel",
+    "TITLE_VISIBILITY_DESC": "De titelsectie voor het onderdeel weergeven of verbergen",
+    "PREFERRED": "Geprefereerd",
+    "NO_DATA_TO_SHOW_YET": "Nog geen gegevens om weer te geven",
+    "TRY_REFRESH_CONTACT_ADMIN": "Probeer uw browser te vernieuwen of neem contact op met uw IT-beheerder",
+    "INVALID_CONFIGURATION": "Er is een configuratieprobleem",
+    "PREFERRED_COMM_EMAIL": "Klant geeft voorkeur aan communicatie per e-mail",
+    "PREFERRED_COMM_MAIL": "Klant geeft voorkeur aan communicatie per post",
+    "PREFERRED_COMM_PHONE": "Klant geeft voorkeur aan communicatie per telefoon"
+}

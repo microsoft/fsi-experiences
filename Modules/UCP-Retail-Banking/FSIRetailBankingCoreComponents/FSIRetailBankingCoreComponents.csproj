@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>UCP-Retail-Banking</ModuleName>
+    <SolutionMapFile>packageMap.xml</SolutionMapFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RetailBankingCoreComponents.Plugins\RetailBankingCoreComponents.Plugins.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+</Project>

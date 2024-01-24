@@ -1,0 +1,16 @@
+{
+    "PRIMARY_APPLICANT": "Primary applicant",
+    "APPLICANT_LIST_PLACEHOLDER": "Applicant list placeholder",
+    "APPLICANT_LIST_PLACEHOLDER_DESC": "The attribute for the underlying lookup for a selected applicant",
+    "TASK_DEFINITION_ID": "Task definition id",
+    "TASK_DEFINITION_ID_DESC": "The id of task definition to filter applicants by",
+    "APPLICATION_ID_NAME": "Application id",
+    "APPLICATION_ID_DESC": "The unique identifier of the related application",
+    "FORM_ID": "Form id",
+    "FORM_ID_DESC": "The id of the form that displays the selected applicant information",
+    "NO_DATA": "No data to show yet",
+    "NO_DATA_DESC": "Try refreshing your browser, or contact your IT admin",
+    "CONFIGURATION_ERROR": "We’re having trouble connecting with the data",
+    "CONFIGURATION_ERROR_DESC": "Please contact your IT admin to resolve it",
+    "VERIFICATION_FOR_APPLICANT": "Verification for {{applicant}}"
+}

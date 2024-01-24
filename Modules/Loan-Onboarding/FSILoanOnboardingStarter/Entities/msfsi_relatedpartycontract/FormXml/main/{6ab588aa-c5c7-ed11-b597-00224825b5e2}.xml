@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6ab588aa-c5c7-ed11-b597-00224825b5e2}</formid>
+    <IntroducedVersion>1.4.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{d12778bf-bd3a-46b4-8190-6176b532a534}" IsUserDefined="1" labelid="{c0d0b598-7d26-4e1a-bb8e-0d0b29c55f35}" contenttype="singleComponent">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{1289357e-293d-462d-b867-d7bc0a3a0169}" columns="1" name="general_details" labelid="{449d4c87-a0a3-49e8-91c7-6cc81a8b3373}">
+                  <labels>
+                    <label description="General details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{86d55084-d945-4587-95e4-d2d3506a5036}" locklevel="0" colspan="1" rowspan="1" labelid="{d74bb9f4-04fa-48f0-802f-6b2b82c19268}" visible="false">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_relatedparty_role" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_relatedparty_role" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{041afe68-07c4-4660-9c01-4af613e349fa}" visible="false" labelid="{d3e3d230-089a-46db-8045-63a1af6ae36b}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{cdab4eef-6d9b-4f49-a67c-e13a03b434de}" colspan="1" rowspan="1" showlabel="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_name" uniqueid="{0ee4d44a-693b-48f7-93cb-478878c3ecd7}" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2be9caa9-56a8-4951-9f60-bb133a26016f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9e01d226-098d-47b2-8209-e4d1b3f45f9d}" showlabel="false" labelid="{a0a84f06-3d1a-494d-b7e8-9fca7afaca26}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{87c3c4b0-fdd5-4eec-b739-4ba94be39779}" showlabel="false" labelid="{6d223ca4-fb06-43ab-b092-3f5e5f26a709}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{038eb2d7-5aa6-445d-858a-829c328cc433}" showlabel="false" labelid="{1bec97f4-628e-4bc1-bdad-b4be65ef7ba2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{89cf9c3b-eaa0-42e8-8487-f7f884d42f45}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b6f373cc-937b-4bf0-9848-526fa437f455}" showlabel="false" labelid="{3d71113b-04e3-4782-aadc-b6699078958a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{afdf4191-76cc-4164-86f9-989ccf770033}" showlabel="false" labelid="{4abc8b49-b934-4486-a39d-246e8c24421e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{06693d4e-1307-4dac-843d-d7fca5b2293f}" showlabel="false" labelid="{ab314ef3-3459-458c-8fd8-3403ea238077}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{0ee4d44a-693b-48f7-93cb-478878c3ecd7}">
+          <customControl id="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}">
+            <parameters>
+              <datafieldname>msfsi_name</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl">
+            <parameters>
+              <dummy>msfsi_name</dummy>
+              <applicantId type="SingleLine.Text">msfsi_relatedpartycontractid</applicantId>
+              <component static="true" type="Enum">0</component>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl">
+            <parameters>
+              <dummy>msfsi_name</dummy>
+              <applicantId type="SingleLine.Text">msfsi_relatedpartycontractid</applicantId>
+              <component static="true" type="Enum">0</component>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="msfsi_MicrosoftPCF.OnboardingApplicationIncomeAndExpensesControl">
+            <parameters>
+              <dummy>msfsi_name</dummy>
+              <applicantId type="SingleLine.Text">msfsi_relatedpartycontractid</applicantId>
+              <component static="true" type="Enum">0</component>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="4" FallbackForm="true">
+        <Role Id="{8A482B0B-AED6-ED11-A7C7-0022481FCBFD}" />
+        <Role Id="{5D3CB17C-D1CF-ED11-B597-000D3A4DCB84}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Related party income and expenses" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

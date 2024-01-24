@@ -1,0 +1,93 @@
+<Project>
+  <PropertyGroup>
+    <LegacyProjectFile>.csproj</LegacyProjectFile>
+    <SolutionPackager Condition="'$(SolutionPackager)' == ''">$(PkgMicrosoft_CrmSdk_CoreTools)\content\bin\coretools\SolutionPackager.exe</SolutionPackager>
+    <UpdateSolutionVersionEnabled Condition="'$(UpdateSolutionVersionEnabled)' == ''">true</UpdateSolutionVersionEnabled>
+    <LocalizeArgument Condition="'$(EnableLocalization)' == 'true'">/src /loc</LocalizeArgument>
+    <SolutionMapFileArgument Condition="('$(SolutionMapFile)' != '')">/map:$(SolutionMapFile)</SolutionMapFileArgument>
+    <FolderArgument Condition="('$(SolutionFolder)' != '')">/folder:$(SolutionFolder)</FolderArgument>
+	  <EnableExportMerge Condition="'$(EnableExportMerge)' == ''">false</EnableExportMerge>
+    <LicenseRequired Condition="'$(LicenseRequired)' == ''">false</LicenseRequired>
+    <TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
+  </PropertyGroup>
+
+  <Target Name="PrepareSolution" BeforeTargets="Build">
+    <Message Condition="!Exists($(SolutionOutputPath))" Text="Checking for output folder.."  />
+    <MakeDir Condition="!Exists($(SolutionOutputPath))" Directories="$(SolutionOutputPath)" />
+
+    <Message Text="Solution version update enabled: $(UpdateSolutionVersionEnabled)" />
+    <CallTarget Condition="'$(UpdateSolutionVersionEnabled)' == 'true'" Targets="ResolveSolutionVersion" />
+  </Target>
+
+  <Target Name="GenerateSolutions" AfterTargets="PrepareSolution;Build">
+    <CallTarget Targets="GenerateSolutionFiles" />
+    <CallTarget Targets="GeneratePatchSolutionFiles" />
+  </Target>
+
+  <Target Name="ExtractSolutionFiles" BeforeTargets="Build" Condition="'$(DynamicsProjectType)' == 'Solution' and '$(EnableExportMerge)' == 'True' and Exists('$(WSRoot)\exports\solutions\$(MSBuildProjectName)')">
+    <PropertyGroup>
+      <ZipSourceForExtract>$([System.IO.Directory]::GetFiles('$(WSRoot)\exports\solutions\$(MSBuildProjectName)'))</ZipSourceForExtract>
+      <ZipSourceExtractFileName>$(ZipSourceForExtract.Split(';')[0])</ZipSourceExtractFileName>
+    </PropertyGroup>
+    
+    <Message text="Solution files extraction started.." Importance="High" />
+
+    <Exec Command='&quot;$(SolutionPackager)&quot; /action:extract /packagetype:both $(SolutionMapFileArgument) /f:&quot;$(MSBuildProjectDirectory)&quot; /c /zipfile:&quot;$(ZipSourceExtractFileName)&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
+    <Exec Command="type $(PackagerLog)" Condition="Exists('$(PackagerLog)')" />
+    
+    <Exec Command='&quot;$(SolutionPackager)&quot; /action:extract /packagetype:both /f:&quot;$(MSBuildProjectDirectory)\obj\$(Configuration)\$(MSBuildProjectName)&quot; /c /zipfile:&quot;$(ZipSourceExtractFileName)&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
+    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\MergeSolutionExtracts.ps1 &quot;$(MSBuildProjectDirectory)&quot; &quot;$(MSBuildProjectDirectory)\obj\$(Configuration)\$(MSBuildProjectName)&quot;}&quot;" />
+  </Target>
+  
+  <Target Name="GenerateSolutionFiles" Condition="'$(MSBuildProjectExtension)' == '$(LegacyProjectFile)'">
+	  <Message text="Solution files generation started.." Importance="High" />
+
+    <!-- Inject licensing if LicenseRequired flag is set to true -->
+    <PropertyGroup>
+      <IncludeLicense Condition="'$(LicenseRequired)' == 'true' and Exists('$(MSBuildProjectDirectory)\..\License') and !$(MSBuildProjectName.ToUpper().EndsWith('ANCHOR'))">true</IncludeLicense>
+    </PropertyGroup>
+
+    <!-- Pack Solution -->
+    <Exec Command='&quot;$(SolutionPackager)&quot; /action:pack /packagetype:both $(SolutionMapFileArgument) $(FolderArgument) /zipfile:&quot;$(UnmanagedSolutionName).zip&quot; $(LocalizeArgument) /errorlevel:Verbose /l:$(PackagerLog)' />
+    
+    <Message text="Solution files generation completed." Importance="High" />
+  </Target>
+
+  <Target Name="GeneratePatchSolutionFiles" Condition="'$(GeneratePatch)' == 'true' AND Exists($(ReleasedVersion))">
+    <PropertyGroup>
+	    <PatchGenerator Condition="'$(PatchGenerator)' == ''">$(PKG_CRMTOOLS_PATCHGENERATOR)\tools\Microsoft.Dynamics.Crm.Tools.SolutionPatchGenerator.exe</PatchGenerator>
+      <ReleasedSolution Condition="'$(ReleasedSolution)' == ''">$(ReleasedVersion)\$(SolutionFileNamePrefix)_managed.zip</ReleasedSolution>
+      <UpdatedSolution>$(ManagedSolutionName).zip</UpdatedSolution>
+      <PatchVersion Condition="'$(PatchVersion)' == ''">$(SolutionVersion)</PatchVersion>
+      <PatchNameSuffix Condition="'$(PatchNameSuffix)' == ''">$([System.Version]::Parse('$(PatchVersion)').Build)</PatchNameSuffix>
+      <PatchName Condition="'$(PatchName)' == ''">$(SolutionIdentity)Patch$(PatchNameSuffix)</PatchName>
+	  </PropertyGroup>
+
+    <Message Text="Patch generator is $(PatchGenerator)" />
+    <Message Text="Released solution is: $(ReleasedSolution)" />
+    <Message Text="Updated solution is: $(UpdatedSolution)" />
+    <Message Text="Patch version is: $(PatchVersion)" />
+    <Message Text="Patch unique name is: $(PatchName)" />
+
+    <Message Text="Patch solution files generation started.." Importance="High" />
+    <Exec Command="$(PatchGenerator) $(ReleasedSolution) $(UpdatedSolution) $(SolutionOutputPath) $(PatchName) $(PatchVersion) " />
+	  <Message Text="Patch solution files generation completed." Importance="High" />
+  </Target>
+
+  <Target Name="PostSolutionGeneration" AfterTargets="GenerateSolutions">
+    <CallTarget Targets="GenerateCABSolutionFiles" />
+  </Target>
+
+  <Target Name="GenerateCABSolutionFiles" Condition="'$(MakeCab)' != 'false' AND '$(DynamicsProjectType)' == 'Solution' ">
+    <ItemGroup>
+      <SolutionFiles Include="$(SolutionOutputPath)\$(SolutionFileNamePrefix)_managed.zip" />
+      <SolutionFiles Include="$(SolutionOutputPath)\$(SolutionIdentity)Patch*.zip" />
+    </ItemGroup>
+    
+    <Message Text="Solution CAB generation started.." Importance="High" />
+    <Exec Command="makecab.exe %(SolutionFiles.FullPath) $(SolutionOutputPath)\%(SolutionFiles.Filename).cab" />
+    <Message text="Solution CAB generation completed." Importance="High" />
+  </Target>
+
+  <Import Project="$(MSBuildThisFileDirectory)\SolutionAutoVersion.targets" />
+</Project>

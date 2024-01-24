@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>Onboarding-Essentials</ModuleName>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(BuildScope)' != 'pipeline'">
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\OnboardingApplicationQueueControl\OnboardingApplicationQueueControl.pcfproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

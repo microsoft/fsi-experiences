@@ -1,0 +1,15 @@
+<Project>
+	<PropertyGroup>
+	  <CrmSdk_CoreAssemblies_PackageVersion>9.0.2.50</CrmSdk_CoreAssemblies_PackageVersion>
+	  <CrmSdk_CoreTools_PackageVersion>9.1.0.155</CrmSdk_CoreTools_PackageVersion>
+	  <CrmSdk_Deployment_PackageVersion>9.0.2.33</CrmSdk_Deployment_PackageVersion>
+	  <CrmSdk_Workflow_PackageVersion>9.0.2.42</CrmSdk_Workflow_PackageVersion>
+	  <CrmSdk_XrmTooling_CoreAssembly_PackageVersion>9.1.1.41</CrmSdk_XrmTooling_CoreAssembly_PackageVersion>
+	  <CrmSdk_XrmTooling_PackageDeployment_PackageVersion>9.1.0.46</CrmSdk_XrmTooling_PackageDeployment_PackageVersion>
+	  <CrmSdk_UII_CommonAssemblies_PackageVersion>9.0.0.10</CrmSdk_UII_CommonAssemblies_PackageVersion>
+	  <Microsoft_PowerApps_MSBuild_Pcf>1.*</Microsoft_PowerApps_MSBuild_Pcf>
+	  <Newtonsoft_Json_PackageVersion>13.0.1</Newtonsoft_Json_PackageVersion>
+	  <XrmSolutions_UnifiedResourceScheduling>3.12.69.1</XrmSolutions_UnifiedResourceScheduling>
+	  <XrmSolutions_ScheduleBoard>1.2.10.213612</XrmSolutions_ScheduleBoard>
+	</PropertyGroup>
+  </Project>

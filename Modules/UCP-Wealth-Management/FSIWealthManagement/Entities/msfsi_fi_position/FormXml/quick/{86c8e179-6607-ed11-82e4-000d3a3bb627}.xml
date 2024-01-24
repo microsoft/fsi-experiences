@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{86c8e179-6607-ed11-82e4-000d3a3bb627}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="portfolio_asset_fi_position" showlabel="false" labelid="{4489b409-1232-419a-8b5b-02f82c62a638}">
+          <labels>
+            <label description="Portfolio asset FI position" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="portfolio_asset_fi_position" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{6cdd0430-93f4-4c25-a24a-5caa58f96dcc}">
+                  <labels>
+                    <label description="Portfolio asset FI position" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{81d54b63-878d-49ac-bf8c-eb9403c3bf8f}" locklevel="0" colspan="1" rowspan="1" labelid="{3e7cda28-0f12-41a2-a91b-263399c3faa1}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae4f071d-43e7-492b-a202-72f272198ad2}" locklevel="0" colspan="1" rowspan="1" labelid="{af8235e9-5bc2-433c-9791-bb36e1ced71e}">
+                        <labels>
+                          <label description="Position count" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_positioncount" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msfsi_positioncount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab3437e1-b887-4d86-ac69-3dc08e29ba64}" locklevel="0" colspan="1" rowspan="1" labelid="{66a276b6-07a7-4ca5-a282-c69ac816042c}">
+                        <labels>
+                          <label description="Average security cost" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_averagesecuritycost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_averagesecuritycost" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19a81d3d-462e-4be9-895f-161fa99e5b37}" locklevel="0" colspan="1" rowspan="1" labelid="{54dfe0f7-a64f-4a1b-b16e-cd9e70f9b426}">
+                        <labels>
+                          <label description="Current value" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_currentvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_currentvalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{327d80e9-1522-43a1-85bc-80e36d4218a0}" locklevel="0" colspan="1" rowspan="1" labelid="{098926cc-988e-420f-b076-770fbfde1ac3}">
+                        <labels>
+                          <label description="Current value (default)" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_currentvaluedefault" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msfsi_currentvaluedefault" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{39b7d044-b0e7-403d-be7c-b06bd6c7d580}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="% Performance lifetime" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_performance" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="msfsi_performance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{694cedb6-7419-4f73-aa05-dab64a306576}" locklevel="0" colspan="1" rowspan="1" labelid="{3c7d4974-ffcb-4e53-8d86-d98b269f648c}">
+                        <labels>
+                          <label description="Position type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_positiontype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_positiontype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FI position portfolio asset" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,1337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="552" failures="0" errors="0" time="87.183">
+  <testsuite name="test fsi context" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="18.879" tests="9">
+    <testcase classname="test fsi context should render FSI context" name="test fsi context should render FSI context" time="0.198">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context and set props" name="test fsi context should render FSI context and set props" time="0.044">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with custom theme" name="test fsi context should render FSI context with custom theme" time="0.038">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with different primary color" name="test fsi context should render FSI context with different primary color" time="0.033">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with default primary color for invalid color" name="test fsi context should render FSI context with default primary color for invalid color" time="0.029">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with locale" name="test fsi context should render FSI context with locale" time="0.026">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with default locale" name="test fsi context should render FSI context with default locale" time="0.018">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with currency details" name="test fsi context should render FSI context with currency details" time="0.021">
+    </testcase>
+    <testcase classname="test fsi context should render FSI context with default currency details" name="test fsi context should render FSI context with default currency details" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="PredictoinTag" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="19.995" tests="8">
+    <testcase classname="PredictoinTag Should render Low risk properly" name="PredictoinTag Should render Low risk properly" time="0.192">
+    </testcase>
+    <testcase classname="PredictoinTag Should render Medium risk properly" name="PredictoinTag Should render Medium risk properly" time="0.053">
+    </testcase>
+    <testcase classname="PredictoinTag Should render High risk properly" name="PredictoinTag Should render High risk properly" time="0.024">
+    </testcase>
+    <testcase classname="PredictoinTag Should render unavailable churn score state" name="PredictoinTag Should render unavailable churn score state" time="0.07">
+    </testcase>
+    <testcase classname="PredictoinTag Should render empty state when model not supported" name="PredictoinTag Should render empty state when model not supported" time="0.017">
+    </testcase>
+    <testcase classname="PredictoinTag Should render empty state when response is undefined" name="PredictoinTag Should render empty state when response is undefined" time="0.013">
+    </testcase>
+    <testcase classname="PredictoinTag Should not render explainability icon for external ci model" name="PredictoinTag Should not render explainability icon for external ci model" time="0.025">
+    </testcase>
+    <testcase classname="PredictoinTag Should render explainabilty" name="PredictoinTag Should render explainabilty" time="0.153">
+    </testcase>
+  </testsuite>
+  <testsuite name="EmptyState" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="20.896" tests="9">
+    <testcase classname="EmptyState Should render empty state with only title" name="EmptyState Should render empty state with only title" time="0.162">
+    </testcase>
+    <testcase classname="EmptyState Should render empty state with  subtitle" name="EmptyState Should render empty state with  subtitle" time="0.084">
+    </testcase>
+    <testcase classname="EmptyState Should render empty state with icon" name="EmptyState Should render empty state with icon" time="0.04">
+    </testcase>
+    <testcase classname="EmptyState Should render empty state with action button" name="EmptyState Should render empty state with action button" time="0.233">
+    </testcase>
+    <testcase classname="EmptyState Should render empty state with footer" name="EmptyState Should render empty state with footer" time="0.016">
+    </testcase>
+    <testcase classname="EmptyState Should render empty state with custom style" name="EmptyState Should render empty state with custom style" time="0.016">
+    </testcase>
+    <testcase classname="EmptyState Should render empty horizontal buttons" name="EmptyState Should render empty horizontal buttons" time="0.038">
+    </testcase>
+    <testcase classname="EmptyState Should render empty state with icons in action button" name="EmptyState Should render empty state with icons in action button" time="0.145">
+    </testcase>
+    <testcase classname="EmptyState Should render disabled empty state with icons in action button" name="EmptyState Should render disabled empty state with icons in action button" time="0.078">
+    </testcase>
+  </testsuite>
+  <testsuite name="DataPieChart" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="22.727" tests="11">
+    <testcase classname="DataPieChart should render DataPieChart correctly" name="DataPieChart should render DataPieChart correctly" time="0.506">
+    </testcase>
+    <testcase classname="DataPieChart should render empty state" name="DataPieChart should render empty state" time="0.088">
+    </testcase>
+    <testcase classname="DataPieChart should render with currency in the header" name="DataPieChart should render with currency in the header" time="0.107">
+    </testcase>
+    <testcase classname="DataPieChart should render in compact view" name="DataPieChart should render in compact view" time="0.065">
+    </testcase>
+    <testcase classname="DataPieChart should render big numbers in compact mode" name="DataPieChart should render big numbers in compact mode" time="0.031">
+    </testcase>
+    <testcase classname="DataPieChart should render small slices label outside the chart" name="DataPieChart should render small slices label outside the chart" time="0.179">
+    </testcase>
+    <testcase classname="DataPieChart should render single small slice as in-chart label when there is only one small slice" name="DataPieChart should render single small slice as in-chart label when there is only one small slice" time="0.024">
+    </testcase>
+    <testcase classname="DataPieChart should render &lt;1% slice" name="DataPieChart should render &lt;1% slice" time="0.017">
+    </testcase>
+    <testcase classname="DataPieChart getColor function should return color as is in normal mode" name="DataPieChart getColor function should return color as is in normal mode" time="0.043">
+    </testcase>
+    <testcase classname="DataPieChart getColor function should return the first system color in high contrast mode for index = 0" name="DataPieChart getColor function should return the first system color in high contrast mode for index = 0" time="0.003">
+    </testcase>
+    <testcase classname="DataPieChart getColor function should return the second system color in high contrast mode for index = 5" name="DataPieChart getColor function should return the second system color in high contrast mode for index = 5" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Wizard" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="23.352" tests="19">
+    <testcase classname="Wizard should not render with cancel icon button" name="Wizard should not render with cancel icon button" time="0.468">
+    </testcase>
+    <testcase classname="Wizard should render with header and no Cancel icon" name="Wizard should render with header and no Cancel icon" time="0.132">
+    </testcase>
+    <testcase classname="Wizard should render a Cancel icon when hasCloseIcon is true" name="Wizard should render a Cancel icon when hasCloseIcon is true" time="0.074">
+    </testcase>
+    <testcase classname="Wizard should not render content view if there is no legal current step" name="Wizard should not render content view if there is no legal current step" time="0.051">
+    </testcase>
+    <testcase classname="Wizard should render the current step view" name="Wizard should render the current step view" time="0.081">
+    </testcase>
+    <testcase classname="Wizard should render the steps on the left pane" name="Wizard should render the steps on the left pane" time="0.05">
+    </testcase>
+    <testcase classname="Wizard should move from one step to the other" name="Wizard should move from one step to the other" time="0.112">
+    </testcase>
+    <testcase classname="Wizard should render the first step with Next button only" name="Wizard should render the first step with Next button only" time="0.073">
+    </testcase>
+    <testcase classname="Wizard should render the middle step with Next and Back button" name="Wizard should render the middle step with Next and Back button" time="0.157">
+    </testcase>
+    <testcase classname="Wizard should render the middle step with enabled Next and Back button for completed step" name="Wizard should render the middle step with enabled Next and Back button for completed step" time="0.143">
+    </testcase>
+    <testcase classname="Wizard should change the view when clicking on Back and Next button" name="Wizard should change the view when clicking on Back and Next button" time="0.307">
+    </testcase>
+    <testcase classname="Wizard should display the last step with a disabled Done btn" name="Wizard should display the last step with a disabled Done btn" time="0.152">
+    </testcase>
+    <testcase classname="Wizard should display the last step with an enabled Done btn" name="Wizard should display the last step with an enabled Done btn" time="0.074">
+    </testcase>
+    <testcase classname="Wizard should trigger event when click on Cancel button" name="Wizard should trigger event when click on Cancel button" time="0.039">
+    </testcase>
+    <testcase classname="Wizard should trigger save when clicking on Done" name="Wizard should trigger save when clicking on Done" time="0.094">
+    </testcase>
+    <testcase classname="Wizard should render header with close button" name="Wizard should render header with close button" time="0.053">
+    </testcase>
+    <testcase classname="Wizard should not render header without close button and title" name="Wizard should not render header without close button and title" time="0.042">
+    </testcase>
+    <testcase classname="Wizard should render stepdropdown instead menu" name="Wizard should render stepdropdown instead menu" time="0.028">
+    </testcase>
+    <testcase classname="Wizard should render complete only on stage showCompletedWhileDirty" name="Wizard should render complete only on stage showCompletedWhileDirty" time="0.077">
+    </testcase>
+  </testsuite>
+  <testsuite name="getRules" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:12" time="2.77" tests="11">
+    <testcase classname="getRules should return the correct input rules" name="getRules should return the correct input rules" time="0.005">
+    </testcase>
+    <testcase classname="getRules should return the correct min input rules &gt; 0" name="getRules should return the correct min input rules &gt; 0" time="0.001">
+    </testcase>
+    <testcase classname="getRules should return the correct min input rules = 0" name="getRules should return the correct min input rules = 0" time="0">
+    </testcase>
+    <testcase classname="getRules should return the correct max input rules" name="getRules should return the correct max input rules" time="0">
+    </testcase>
+    <testcase classname="getRules should return empty object" name="getRules should return empty object" time="0.001">
+    </testcase>
+    <testcase classname="getRules should return the correct max length input rules" name="getRules should return the correct max length input rules" time="0.001">
+    </testcase>
+    <testcase classname="getRules should return the correct no white space input rules" name="getRules should return the correct no white space input rules" time="0.002">
+    </testcase>
+    <testcase classname="getRules should return the correct validEmail input rules" name="getRules should return the correct validEmail input rules" time="0.001">
+    </testcase>
+    <testcase classname="getRules should return the correct only digits input rules" name="getRules should return the correct only digits input rules" time="0.002">
+    </testcase>
+    <testcase classname="getEmailValidation should return message when isRequired true and email is invalid" name="getEmailValidation should return message when isRequired true and email is invalid" time="0.001">
+    </testcase>
+    <testcase classname="getEmailValidation should return true when isRequired true and email is valid" name="getEmailValidation should return true when isRequired true and email is valid" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="DatePicker" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="24.504" tests="11">
+    <testcase classname="DatePicker Should render empty date combobox with placeholder" name="DatePicker Should render empty date combobox with placeholder" time="0.5">
+    </testcase>
+    <testcase classname="DatePicker Should render invalid date combobox with placeholder" name="DatePicker Should render invalid date combobox with placeholder" time="0.183">
+    </testcase>
+    <testcase classname="DatePicker Should render date combobox with initial date" name="DatePicker Should render date combobox with initial date" time="0.051">
+    </testcase>
+    <testcase classname="DatePicker Should call handleSelectedDate with null when date was cleared" name="DatePicker Should call handleSelectedDate with null when date was cleared" time="0.226">
+    </testcase>
+    <testcase classname="DatePicker Should call handleSelectedDate with date value when typing new date" name="DatePicker Should call handleSelectedDate with date value when typing new date" time="0.121">
+    </testcase>
+    <testcase classname="DatePicker Should call handleSelectedDate when selecting new date from picker" name="DatePicker Should call handleSelectedDate when selecting new date from picker" time="0.314">
+    </testcase>
+    <testcase classname="DatePicker Should disable dates before min date" name="DatePicker Should disable dates before min date" time="0.293">
+    </testcase>
+    <testcase classname="DatePicker Should disable dates after max date" name="DatePicker Should disable dates after max date" time="0.219">
+    </testcase>
+    <testcase classname="DatePicker Should render date picker with formatting info" name="DatePicker Should render date picker with formatting info" time="0.407">
+    </testcase>
+    <testcase classname="DatePicker Should render label with additional info component" name="DatePicker Should render label with additional info component" time="0.019">
+    </testcase>
+    <testcase classname="DatePicker Should render date picker without a label" name="DatePicker Should render date picker without a label" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="Form Utils - hasOnlyDigits" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:14" time="1.539" tests="22">
+    <testcase classname="Form Utils - hasOnlyDigits should return true if the value has only digits" name="Form Utils - hasOnlyDigits should return true if the value has only digits" time="0.003">
+    </testcase>
+    <testcase classname="Form Utils - hasOnlyDigits should return false if the value does not have only digits" name="Form Utils - hasOnlyDigits should return false if the value does not have only digits" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true if the value has a valid email" name="Form Utils - hasValidEmail should return true if the value has a valid email" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return false if the value does not have a valid email" name="Form Utils - hasValidEmail should return false if the value does not have a valid email" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid unicode email Émanuel@fd.cd" name="Form Utils - hasValidEmail should return true for a valid unicode email Émanuel@fd.cd" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid unicode email квіточка@пошта.укр" name="Form Utils - hasValidEmail should return true for a valid unicode email квіточка@пошта.укр" time="0.002">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid unicode email χρήστης@παράδειγμα.ελ" name="Form Utils - hasValidEmail should return true for a valid unicode email χρήστης@παράδειγμα.ελ" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid unicode email 用户@例子.广告" name="Form Utils - hasValidEmail should return true for a valid unicode email 用户@例子.广告" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid unicode email अजय@डाटा.भारत" name="Form Utils - hasValidEmail should return true for a valid unicode email अजय@डाटा.भारत" time="0">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid unicode email ñoñó1234@server.com" name="Form Utils - hasValidEmail should return true for a valid unicode email ñoñó1234@server.com" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid email user+mailbox/department=shipping@example.com" name="Form Utils - hasValidEmail should return true for a valid email user+mailbox/department=shipping@example.com" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return true for a valid email !#$%&amp;&apos;*+-/=?^_`.{|}~@example.com" name="Form Utils - hasValidEmail should return true for a valid email !#$%&amp;&apos;*+-/=?^_`.{|}~@example.com" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return false for invalid email &quot;Abc@def&quot;@example.com" name="Form Utils - hasValidEmail should return false for invalid email &quot;Abc@def&quot;@example.com" time="0">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return false for invalid unicode email Dörte@Sörensen.example.2c.2k" name="Form Utils - hasValidEmail should return false for invalid unicode email Dörte@Sörensen.example.2c.2k" time="0">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return false for invalid email &quot;Fred Bloggs&quot;@example.com" name="Form Utils - hasValidEmail should return false for invalid email &quot;Fred Bloggs&quot;@example.com" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - hasValidEmail should return false for invalid email &quot;Joe.\Blow&quot;@example.com" name="Form Utils - hasValidEmail should return false for invalid email &quot;Joe.\Blow&quot;@example.com" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - isStringNullOrEmpty should return true if the value has an empty string" name="Form Utils - isStringNullOrEmpty should return true if the value has an empty string" time="0">
+    </testcase>
+    <testcase classname="Form Utils - isStringNullOrEmpty should return false if the value does not have an empty string" name="Form Utils - isStringNullOrEmpty should return false if the value does not have an empty string" time="0">
+    </testcase>
+    <testcase classname="Form Utils - trimValue should return trimmed string" name="Form Utils - trimValue should return trimmed string" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - trimValue should return undefined when input string is undefined" name="Form Utils - trimValue should return undefined when input string is undefined" time="0">
+    </testcase>
+    <testcase classname="Form Utils - notEmptyString should return true if the value is not an empty string" name="Form Utils - notEmptyString should return true if the value is not an empty string" time="0.001">
+    </testcase>
+    <testcase classname="Form Utils - notEmptyString should return false if the value is an empty string" name="Form Utils - notEmptyString should return false if the value is an empty string" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Key Prediction" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:15:51" time="27.806" tests="6">
+    <testcase classname="Key Prediction Should not show prediction until loaded" name="Key Prediction Should not show prediction until loaded" time="0.23">
+    </testcase>
+    <testcase classname="Key Prediction Should show empty state for prediction when getting undefined but is turned on" name="Key Prediction Should show empty state for prediction when getting undefined but is turned on" time="0.04">
+    </testcase>
+    <testcase classname="Key Prediction Should show empty state when artifact is supporrted but churn is missing" name="Key Prediction Should show empty state when artifact is supporrted but churn is missing" time="0.038">
+    </testcase>
+    <testcase classname="Key Prediction Should not show prediction when artifact is not supported" name="Key Prediction Should not show prediction when artifact is not supported" time="0.011">
+    </testcase>
+    <testcase classname="Key Prediction Should show loading after artifacts are fetched until segments are fetched" name="Key Prediction Should show loading after artifacts are fetched until segments are fetched" time="0.044">
+    </testcase>
+    <testcase classname="Key Prediction Should render without prediction when turned off" name="Key Prediction Should render without prediction when turned off" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Key SegmentsWrapper" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:15" time="4.298" tests="5">
+    <testcase classname="Key SegmentsWrapper Should not show segments until loaded" name="Key SegmentsWrapper Should not show segments until loaded" time="0.186">
+    </testcase>
+    <testcase classname="Key SegmentsWrapper Should not show segments when artifact not supported" name="Key SegmentsWrapper Should not show segments when artifact not supported" time="0.012">
+    </testcase>
+    <testcase classname="Key SegmentsWrapper Should show loading after artifacts are fetched until segments are fetched" name="Key SegmentsWrapper Should show loading after artifacts are fetched until segments are fetched" time="0.044">
+    </testcase>
+    <testcase classname="Key SegmentsWrapper Should not show segments when getting undefined" name="Key SegmentsWrapper Should not show segments when getting undefined" time="0.024">
+    </testcase>
+    <testcase classname="Key SegmentsWrapper Should render without churn and segments when turned off" name="Key SegmentsWrapper Should render without churn and segments when turned off" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="BaseCurrency" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:10" time="9.496" tests="9">
+    <testcase classname="BaseCurrency Render base currency iso code" name="BaseCurrency Render base currency iso code" time="0.2">
+    </testcase>
+    <testcase classname="BaseCurrency Render base currency text without exchange" name="BaseCurrency Render base currency text without exchange" time="0.555">
+    </testcase>
+    <testcase classname="BaseCurrency Render base currency text with exchange object" name="BaseCurrency Render base currency text with exchange object" time="0.533">
+    </testcase>
+    <testcase classname="BaseCurrency Render base currency text with unmapped exchange object" name="BaseCurrency Render base currency text with unmapped exchange object" time="0.436">
+    </testcase>
+    <testcase classname="BaseCurrency Render base currency text with exchange but without rate" name="BaseCurrency Render base currency text with exchange but without rate" time="0.5">
+    </testcase>
+    <testcase classname="BaseCurrency Render base currency with different color" name="BaseCurrency Render base currency with different color" time="0.046">
+    </testcase>
+    <testcase classname="BaseCurrency Render with aria-label for icon focus screen reader" name="BaseCurrency Render with aria-label for icon focus screen reader" time="0.064">
+    </testcase>
+    <testcase classname="BaseCurrency Render with context aria-label for icon focus screen reader" name="BaseCurrency Render with context aria-label for icon focus screen reader" time="0.038">
+    </testcase>
+    <testcase classname="BaseCurrency Should NOT Render indicator icon, when hideCurrencyInfoIcon is set" name="BaseCurrency Should NOT Render indicator icon, when hideCurrencyInfoIcon is set" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="Default UseTranslation" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:19" time="1.431" tests="13">
+    <testcase classname="Default UseTranslation Returns the translated value in common" name="Default UseTranslation Returns the translated value in common" time="0.007">
+    </testcase>
+    <testcase classname="Default UseTranslation Returns the translated value in notCommon" name="Default UseTranslation Returns the translated value in notCommon" time="0.001">
+    </testcase>
+    <testcase classname="Default UseTranslation Returns the key if didn&apos;t find any translation in common" name="Default UseTranslation Returns the key if didn&apos;t find any translation in common" time="0">
+    </testcase>
+    <testcase classname="Default UseTranslation Returns text from common if no exists in namespace" name="Default UseTranslation Returns text from common if no exists in namespace" time="0.001">
+    </testcase>
+    <testcase classname="Default UseTranslation Returns key pluraled" name="Default UseTranslation Returns key pluraled" time="0">
+    </testcase>
+    <testcase classname="Interpolation function Doesn&apos;t interpolate" name="Interpolation function Doesn&apos;t interpolate" time="0">
+    </testcase>
+    <testcase classname="Interpolation function Interpolate single word" name="Interpolation function Interpolate single word" time="0.001">
+    </testcase>
+    <testcase classname="Interpolation function Interpolate two word" name="Interpolation function Interpolate two word" time="0.001">
+    </testcase>
+    <testcase classname="Interpolation function Doesn&apos;t Interpolate when not finding the key" name="Interpolation function Doesn&apos;t Interpolate when not finding the key" time="0">
+    </testcase>
+    <testcase classname="DefaultTranslate Interpolate via useTranslation" name="DefaultTranslate Interpolate via useTranslation" time="0.001">
+    </testcase>
+    <testcase classname="DefaultTranslate Default value if no string found" name="DefaultTranslate Default value if no string found" time="0.001">
+    </testcase>
+    <testcase classname="DefaultTranslate Returns defaultString in case no namespace found" name="DefaultTranslate Returns defaultString in case no namespace found" time="0.001">
+    </testcase>
+    <testcase classname="DefaultTranslate Returns key in case no namespace found" name="DefaultTranslate Returns key in case no namespace found" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="DataBox" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:19" time="2.189" tests="5">
+    <testcase classname="DataBox Should render data box in blue color" name="DataBox Should render data box in blue color" time="0.254">
+    </testcase>
+    <testcase classname="DataBox Should render data box in red color and footer" name="DataBox Should render data box in red color and footer" time="0.085">
+    </testcase>
+    <testcase classname="DataBox Should render data box with render value/footer function" name="DataBox Should render data box with render value/footer function" time="0.113">
+    </testcase>
+    <testcase classname="DataBox Should render undefined data box" name="DataBox Should render undefined data box" time="0.036">
+    </testcase>
+    <testcase classname="DataBox Should render data box with children instead of default text component" name="DataBox Should render data box with children instead of default text component" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="CustomerSnapshot/Content" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:14" time="6.706" tests="7">
+    <testcase classname="CustomerSnapshot/Content Should render customer snapshot content" name="CustomerSnapshot/Content Should render customer snapshot content" time="0.37">
+    </testcase>
+    <testcase classname="CustomerSnapshot/Content Should render customer snapshot content without layout" name="CustomerSnapshot/Content Should render customer snapshot content without layout" time="0.175">
+    </testcase>
+    <testcase classname="CustomerSnapshot/Content Should render customer snapshot content without metadata" name="CustomerSnapshot/Content Should render customer snapshot content without metadata" time="0.053">
+    </testcase>
+    <testcase classname="CustomerSnapshot/Content Should render invalid config error when invalid config is true" name="CustomerSnapshot/Content Should render invalid config error when invalid config is true" time="0.026">
+    </testcase>
+    <testcase classname="CustomerSnapshot/Content Should render customer snapshot content without data" name="CustomerSnapshot/Content Should render customer snapshot content without data" time="0.033">
+    </testcase>
+    <testcase classname="CustomerSnapshot/Content Should render customer snapshot content without header" name="CustomerSnapshot/Content Should render customer snapshot content without header" time="0.112">
+    </testcase>
+    <testcase classname="CustomerSnapshot/Content Should render customer snapshot content without sections" name="CustomerSnapshot/Content Should render customer snapshot content without sections" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="DialogServiceReducer" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:19" time="1.981" tests="7">
+    <testcase classname="DialogServiceReducer should return the initial state" name="DialogServiceReducer should return the initial state" time="0.01">
+    </testcase>
+    <testcase classname="DialogServiceReducer should handle SHOW_DIALOG" name="DialogServiceReducer should handle SHOW_DIALOG" time="0.002">
+    </testcase>
+    <testcase classname="DialogServiceReducer should not change state with currentDialogID is not the same for SHOW_DIALOG" name="DialogServiceReducer should not change state with currentDialogID is not the same for SHOW_DIALOG" time="0.001">
+    </testcase>
+    <testcase classname="DialogServiceReducer should handle HIDE_DIALOG" name="DialogServiceReducer should handle HIDE_DIALOG" time="0.001">
+    </testcase>
+    <testcase classname="DialogServiceReducer should handle CLEAR_CONTEXT" name="DialogServiceReducer should handle CLEAR_CONTEXT" time="0.001">
+    </testcase>
+    <testcase classname="DialogServiceProvider should the component with notification wrapped" name="DialogServiceProvider should the component with notification wrapped" time="0.071">
+    </testcase>
+    <testcase classname="DialogServiceProvider should trigger dispatch hide notification" name="DialogServiceProvider should trigger dispatch hide notification" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Key Prediction - Prediction" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:15" time="6.115" tests="3">
+    <testcase classname="Key Prediction - Prediction Should show widget and call getPrediction" name="Key Prediction - Prediction Should show widget and call getPrediction" time="0.331">
+    </testcase>
+    <testcase classname="Key Prediction - Prediction Should show error state" name="Key Prediction - Prediction Should show error state" time="0.099">
+    </testcase>
+    <testcase classname="Key Prediction - Prediction Should show empty state when artifact is not supported" name="Key Prediction - Prediction Should show empty state when artifact is not supported" time="0.076">
+    </testcase>
+  </testsuite>
+  <testsuite name="AIExplainability" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:15" time="6.071" tests="5">
+    <testcase classname="AIExplainability should render AIExplainability 4 main section" name="AIExplainability should render AIExplainability 4 main section" time="0.401">
+    </testcase>
+    <testcase classname="AIExplainability should not render link when missing" name="AIExplainability should not render link when missing" time="0.037">
+    </testcase>
+    <testcase classname="AIExplainability should call AI score with the right props" name="AIExplainability should call AI score with the right props" time="0.024">
+    </testcase>
+    <testcase classname="AIExplainability should call AI Factor List with the right props" name="AIExplainability should call AI Factor List with the right props" time="0.018">
+    </testcase>
+    <testcase classname="AIExplainability should not render factor list" name="AIExplainability should not render factor list" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="useResponsiveContainer" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:21" time="2.123" tests="8">
+    <testcase classname="useResponsiveContainer testing useResponsiveContainer should have no width" name="useResponsiveContainer testing useResponsiveContainer should have no width" time="0.04">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useResponsiveContainer should have width and height" name="useResponsiveContainer testing useResponsiveContainer should have width and height" time="0.004">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useResponsiveContainer should change width when resized more than threshold" name="useResponsiveContainer testing useResponsiveContainer should change width when resized more than threshold" time="0.009">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useResponsiveContainer should not change width when resized less than threshold" name="useResponsiveContainer testing useResponsiveContainer should not change width when resized less than threshold" time="0.006">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useStableWidth should get the same width when not enabled" name="useResponsiveContainer testing useStableWidth should get the same width when not enabled" time="0.005">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useStableWidth should not change width when difference is smaller threshold" name="useResponsiveContainer testing useStableWidth should not change width when difference is smaller threshold" time="0.005">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useStableWidth should change width when difference is bigger than threshold" name="useResponsiveContainer testing useStableWidth should change width when difference is bigger than threshold" time="0.004">
+    </testcase>
+    <testcase classname="useResponsiveContainer testing useStableWidth should change width when new width is smaller than the old one" name="useResponsiveContainer testing useStableWidth should change width when new width is smaller than the old one" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="NotificationReducer" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:21" time="2.369" tests="7">
+    <testcase classname="NotificationReducer should return the initial state" name="NotificationReducer should return the initial state" time="0.008">
+    </testcase>
+    <testcase classname="NotificationReducer should handle SHOW_NOTIFICATION" name="NotificationReducer should handle SHOW_NOTIFICATION" time="0.001">
+    </testcase>
+    <testcase classname="NotificationReducer should handle HIDE_NOTIFICATION" name="NotificationReducer should handle HIDE_NOTIFICATION" time="0.001">
+    </testcase>
+    <testcase classname="NotificationProvider should the component with notification wrapped" name="NotificationProvider should the component with notification wrapped" time="0.095">
+    </testcase>
+    <testcase classname="NotificationProvider should trigger dispatch hide notification" name="NotificationProvider should trigger dispatch hide notification" time="0.011">
+    </testcase>
+    <testcase classname="ToastNotification should render component" name="ToastNotification should render component" time="0.015">
+    </testcase>
+    <testcase classname="ToastNotification should not render component" name="ToastNotification should not render component" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="TextField" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:21" time="2.701" tests="9">
+    <testcase classname="TextField should be rendered in DOM without any default value" name="TextField should be rendered in DOM without any default value" time="0.178">
+    </testcase>
+    <testcase classname="TextField should render the default value" name="TextField should render the default value" time="0.04">
+    </testcase>
+    <testcase classname="TextField should have aria-invalid=&quot;true&quot;" name="TextField should have aria-invalid=&quot;true&quot;" time="0.072">
+    </testcase>
+    <testcase classname="TextField should not have aria-invalid=&quot;true&quot; if validateOnFocusOut is off" name="TextField should not have aria-invalid=&quot;true&quot; if validateOnFocusOut is off" time="0.03">
+    </testcase>
+    <testcase classname="TextField should have `type` attribute set" name="TextField should have `type` attribute set" time="0.012">
+    </testcase>
+    <testcase classname="TextField should have `required` attribute set" name="TextField should have `required` attribute set" time="0.014">
+    </testcase>
+    <testcase classname="TextField should call `onValidate` function on page load, if validateOnLoad={true}" name="TextField should call `onValidate` function on page load, if validateOnLoad={true}" time="0.009">
+    </testcase>
+    <testcase classname="TextField should call `onValidationComplete` function` at least once" name="TextField should call `onValidationComplete` function` at least once" time="0.025">
+    </testcase>
+    <testcase classname="TextField should trigger onChange" name="TextField should trigger onChange" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="useIsArtifactSupported tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:23" time="1.592" tests="5">
+    <testcase classname="useIsArtifactSupported tests Should call getSupportedArtifact with type filter - return true" name="useIsArtifactSupported tests Should call getSupportedArtifact with type filter - return true" time="0.055">
+    </testcase>
+    <testcase classname="useIsArtifactSupported tests Should call getSupportedArtifact with type and internal name filters - return true" name="useIsArtifactSupported tests Should call getSupportedArtifact with type and internal name filters - return true" time="0.011">
+    </testcase>
+    <testcase classname="useIsArtifactSupported tests Should call to getSupportedArtifact when artifacts doesnt exist - return false" name="useIsArtifactSupported tests Should call to getSupportedArtifact when artifacts doesnt exist - return false" time="0.015">
+    </testcase>
+    <testcase classname="useIsArtifactSupported tests Should not call getSupportedArtifacts when not enabled" name="useIsArtifactSupported tests Should not call getSupportedArtifacts when not enabled" time="0.013">
+    </testcase>
+    <testcase classname="useIsArtifactSupported tests Should return error when getSupportedArtifacts is throwing" name="useIsArtifactSupported tests Should return error when getSupportedArtifacts is throwing" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="ComboBox" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:22" time="3.146" tests="7">
+    <testcase classname="ComboBox Should be rendered in DOM" name="ComboBox Should be rendered in DOM" time="0.12">
+    </testcase>
+    <testcase classname="ComboBox Should have `required` attribute set" name="ComboBox Should have `required` attribute set" time="0.088">
+    </testcase>
+    <testcase classname="ComboBox Should have selected value" name="ComboBox Should have selected value" time="0.181">
+    </testcase>
+    <testcase classname="ComboBox Should NOT have value, if autoComplete = &quot;off&quot;" name="ComboBox Should NOT have value, if autoComplete = &quot;off&quot;" time="0.194">
+    </testcase>
+    <testcase classname="ComboBox Should NOT have value, if allowFreeform = false" name="ComboBox Should NOT have value, if allowFreeform = false" time="0.089">
+    </testcase>
+    <testcase classname="ComboBox Should have custom value, if allowFreeform = true" name="ComboBox Should have custom value, if allowFreeform = true" time="0.063">
+    </testcase>
+    <testcase classname="ComboBox should have underline class" name="ComboBox should have underline class" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="Communications components tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:22" time="3.548" tests="5">
+    <testcase classname="Communications components tests Communications should render properly - and &quot;any&quot; should set preferred true" name="Communications components tests Communications should render properly - and &quot;any&quot; should set preferred true" time="0.133">
+    </testcase>
+    <testcase classname="Communications components tests Communications should render properly - and Email as preferred should set emails preferred true" name="Communications components tests Communications should render properly - and Email as preferred should set emails preferred true" time="0.06">
+    </testcase>
+    <testcase classname="Communications components tests Communications should render properly - and Phone as preferred should set emails preferred true" name="Communications components tests Communications should render properly - and Phone as preferred should set emails preferred true" time="0.04">
+    </testcase>
+    <testcase classname="Communications components tests Communications should render properly - and Mail as preferred should set emails preferred true" name="Communications components tests Communications should render properly - and Mail as preferred should set emails preferred true" time="0.026">
+    </testcase>
+    <testcase classname="Communications components tests Communications should render properly - and got none is recognized as preferred should set all non preferred" name="Communications components tests Communications should render properly - and got none is recognized as preferred should set all non preferred" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="useFHData tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:24" time="1.761" tests="5">
+    <testcase classname="useFHData tests Should call to getSegments and return valid result" name="useFHData tests Should call to getSegments and return valid result" time="0.063">
+    </testcase>
+    <testcase classname="useFHData tests Should not call getSegments when no contact id" name="useFHData tests Should not call getSegments when no contact id" time="0.01">
+    </testcase>
+    <testcase classname="useFHData tests Should return error when getSegments is throwing" name="useFHData tests Should return error when getSegments is throwing" time="0.017">
+    </testcase>
+    <testcase classname="useFHData tests Should not call getSegments when not enabled" name="useFHData tests Should not call getSegments when not enabled" time="0.009">
+    </testcase>
+    <testcase classname="useFHData tests Should not call getSegments when artifact not supported" name="useFHData tests Should not call getSegments when artifact not supported" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormDialog" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:21" time="4.519" tests="6">
+    <testcase classname="FormDialog should render dialog" name="FormDialog should render dialog" time="0.194">
+    </testcase>
+    <testcase classname="FormDialog should show error dialog" name="FormDialog should show error dialog" time="0.262">
+    </testcase>
+    <testcase classname="FormDialog should show error dialog with message" name="FormDialog should show error dialog with message" time="0.098">
+    </testcase>
+    <testcase classname="FormDialog should close error dialog and reset error state" name="FormDialog should close error dialog and reset error state" time="0.173">
+    </testcase>
+    <testcase classname="FormDialog should reset error state when close button clicked and onDissmiss is undefined" name="FormDialog should reset error state when close button clicked and onDissmiss is undefined" time="0.128">
+    </testcase>
+    <testcase classname="FormDialog should show loading dialog" name="FormDialog should show loading dialog" time="0.108">
+    </testcase>
+  </testsuite>
+  <testsuite name="usePredictions tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:25" time="1.702" tests="5">
+    <testcase classname="usePredictions tests Should call to getChurn when enabled and return valid result" name="usePredictions tests Should call to getChurn when enabled and return valid result" time="0.062">
+    </testcase>
+    <testcase classname="usePredictions tests Should not call getChurn when not enabled" name="usePredictions tests Should not call getChurn when not enabled" time="0.015">
+    </testcase>
+    <testcase classname="usePredictions tests Should no call getChurn when no contact id" name="usePredictions tests Should no call getChurn when no contact id" time="0.01">
+    </testcase>
+    <testcase classname="usePredictions tests Should return error when getChurn is throwing" name="usePredictions tests Should return error when getChurn is throwing" time="0.013">
+    </testcase>
+    <testcase classname="usePredictions tests Should not call getChurn when artifact is not supported" name="usePredictions tests Should not call getChurn when artifact is not supported" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="AIScore" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:26" time="1.538" tests="4">
+    <testcase classname="AIScore should render AI score title correctly" name="AIScore should render AI score title correctly" time="0.087">
+    </testcase>
+    <testcase classname="AIScore should render AI score value correctly" name="AIScore should render AI score value correctly" time="0.076">
+    </testcase>
+    <testcase classname="AIScore should render AI score range correctly" name="AIScore should render AI score range correctly" time="0.114">
+    </testcase>
+    <testcase classname="AIScore should render AI score range without more info" name="AIScore should render AI score range without more info" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="Key Segments - Segments" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:24" time="3.385" tests="4">
+    <testcase classname="Key Segments - Segments Should show widget and call getSegments" name="Key Segments - Segments Should show widget and call getSegments" time="0.184">
+    </testcase>
+    <testcase classname="Key Segments - Segments Should show custom header text" name="Key Segments - Segments Should show custom header text" time="0.071">
+    </testcase>
+    <testcase classname="Key Segments - Segments Should show error state" name="Key Segments - Segments Should show error state" time="0.089">
+    </testcase>
+    <testcase classname="Key Segments - Segments Should show empty state when artifact is not supported" name="Key Segments - Segments Should show empty state when artifact is not supported" time="0.069">
+    </testcase>
+  </testsuite>
+  <testsuite name="Field" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:25" time="3.025" tests="8">
+    <testcase classname="Field Should render Field" name="Field Should render Field" time="0.081">
+    </testcase>
+    <testcase classname="Field Should render Field with icon" name="Field Should render Field with icon" time="0.058">
+    </testcase>
+    <testcase classname="Field Should render Field with custom content" name="Field Should render Field with custom content" time="0.022">
+    </testcase>
+    <testcase classname="Field Should render Field with custom link" name="Field Should render Field with custom link" time="0.014">
+    </testcase>
+    <testcase classname="Field Should render Field with tags" name="Field Should render Field with tags" time="0.044">
+    </testcase>
+    <testcase classname="Field Should render Field with N/A" name="Field Should render Field with N/A" time="0.024">
+    </testcase>
+    <testcase classname="Field Should render Field as different tag" name="Field Should render Field as different tag" time="0.048">
+    </testcase>
+    <testcase classname="Field Should invoke onClick method if provided and Field has fieldValue" name="Field Should invoke onClick method if provided and Field has fieldValue" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dialog" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:25" time="3.004" tests="8">
+    <testcase classname="Dialog Should NOT be rendered in DOM" name="Dialog Should NOT be rendered in DOM" time="0.066">
+    </testcase>
+    <testcase classname="Dialog Should be rendered in DOM, and be visible" name="Dialog Should be rendered in DOM, and be visible" time="0.119">
+    </testcase>
+    <testcase classname="Dialog Should call onDismiss handler, when Close button (X icon) is pressed" name="Dialog Should call onDismiss handler, when Close button (X icon) is pressed" time="0.052">
+    </testcase>
+    <testcase classname="Dialog Should call onCancel handler, when Cancel button is pressed" name="Dialog Should call onCancel handler, when Cancel button is pressed" time="0.035">
+    </testcase>
+    <testcase classname="Dialog Should not render cancel button" name="Dialog Should not render cancel button" time="0.031">
+    </testcase>
+    <testcase classname="Dialog Should not render accept button" name="Dialog Should not render accept button" time="0.027">
+    </testcase>
+    <testcase classname="Dialog Should not render accept and cancel button" name="Dialog Should not render accept and cancel button" time="0.023">
+    </testcase>
+    <testcase classname="Dialog Should call onAccept handler, when Accept button is pressed" name="Dialog Should call onAccept handler, when Accept button is pressed" time="0.039">
+    </testcase>
+  </testsuite>
+  <testsuite name="AIFactorList" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:26" time="2.916" tests="2">
+    <testcase classname="AIFactorList should render AI Factor list correctly" name="AIFactorList should render AI Factor list correctly" time="0.212">
+    </testcase>
+    <testcase classname="AIFactorList should render Factor list without more info" name="AIFactorList should render Factor list without more info" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dropdown" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:27" time="2.157" tests="5">
+    <testcase classname="Dropdown should be rendered in DOM" name="Dropdown should be rendered in DOM" time="0.117">
+    </testcase>
+    <testcase classname="Dropdown should have selected value" name="Dropdown should have selected value" time="0.098">
+    </testcase>
+    <testcase classname="Dropdown should have `required` attribute set" name="Dropdown should have `required` attribute set" time="0.015">
+    </testcase>
+    <testcase classname="Dropdown should call `onChange` function` at least once" name="Dropdown should call `onChange` function` at least once" time="0.078">
+    </testcase>
+    <testcase classname="Dropdown should have underline class" name="Dropdown should have underline class" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="AIFactor" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:28" time="1.766" tests="6">
+    <testcase classname="AIFactor should render AI Factor correctly" name="AIFactor should render AI Factor correctly" time="0.067">
+    </testcase>
+    <testcase classname="AIFactor should render AI Factor with rate" name="AIFactor should render AI Factor with rate" time="0.034">
+    </testcase>
+    <testcase classname="AIFactor should render AI Factor with red color for positive factor when using lowIsGood" name="AIFactor should render AI Factor with red color for positive factor when using lowIsGood" time="0.018">
+    </testcase>
+    <testcase classname="AIFactor should render AI Factor with green color for negative factor when using lowIsGood" name="AIFactor should render AI Factor with green color for negative factor when using lowIsGood" time="0.02">
+    </testcase>
+    <testcase classname="AIFactor should add aria label to positive icon" name="AIFactor should add aria label to positive icon" time="0.017">
+    </testcase>
+    <testcase classname="AIFactor should add aria label to negative icon" name="AIFactor should add aria label to negative icon" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:26" time="3.509" tests="6">
+    <testcase classname="Contact Should render Contact" name="Contact Should render Contact" time="0.187">
+    </testcase>
+    <testcase classname="Contact Should render Contact with no role" name="Contact Should render Contact with no role" time="0.073">
+    </testcase>
+    <testcase classname="Contact Should render Contact with different styles" name="Contact Should render Contact with different styles" time="0.031">
+    </testcase>
+    <testcase classname="Contact Should render clickable Contact by default" name="Contact Should render clickable Contact by default" time="0.069">
+    </testcase>
+    <testcase classname="Contact Should render not clickable Contact" name="Contact Should render not clickable Contact" time="0.033">
+    </testcase>
+    <testcase classname="Contact Should render clickable Contact without callback" name="Contact Should render clickable Contact without callback" time="0.033">
+    </testcase>
+  </testsuite>
+  <testsuite name="Facepile" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:30" time="1.926" tests="3">
+    <testcase classname="Facepile should show facepile with tooltip" name="Facepile should show facepile with tooltip" time="0.119">
+    </testcase>
+    <testcase classname="Facepile should show facepile without tooltip" name="Facepile should show facepile without tooltip" time="0.028">
+    </testcase>
+    <testcase classname="Facepile should render responsive facepile" name="Facepile should render responsive facepile" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="Performance" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:30" time="2.972" tests="6">
+    <testcase classname="Performance Should render with two numbers after zero" name="Performance Should render with two numbers after zero" time="0.082">
+    </testcase>
+    <testcase classname="Performance Should render with two numbers after zero even with 3 numbers after zero percentage" name="Performance Should render with two numbers after zero even with 3 numbers after zero percentage" time="0.045">
+    </testcase>
+    <testcase classname="Performance Should render trent up" name="Performance Should render trent up" time="0.023">
+    </testcase>
+    <testcase classname="Performance Should render trend down" name="Performance Should render trend down" time="0.029">
+    </testcase>
+    <testcase classname="Performance Should render flat" name="Performance Should render flat" time="0.028">
+    </testcase>
+    <testcase classname="Performance Should render flat with undefined" name="Performance Should render flat with undefined" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="ViewWithNotification" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:27" time="5.485" tests="5">
+    <testcase classname="ViewWithNotification should render component without notification as default" name="ViewWithNotification should render component without notification as default" time="0.117">
+    </testcase>
+    <testcase classname="ViewWithNotification should render component with notification message string with default notification type" name="ViewWithNotification should render component with notification message string with default notification type" time="0.128">
+    </testcase>
+    <testcase classname="ViewWithNotification should render view with notification content component" name="ViewWithNotification should render view with notification content component" time="0.072">
+    </testcase>
+    <testcase classname="ViewWithNotification should render view with different notification type" name="ViewWithNotification should render view with different notification type" time="0.059">
+    </testcase>
+    <testcase classname="ViewWithNotification should hide the notification on dismiss" name="ViewWithNotification should hide the notification on dismiss" time="0.081">
+    </testcase>
+  </testsuite>
+  <testsuite name="FileUploadField" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:11" time="22.096" tests="10">
+    <testcase classname="FileUploadField should show children" name="FileUploadField should show children" time="0.21">
+    </testcase>
+    <testcase classname="FileUploadField should render enabled button" name="FileUploadField should render enabled button" time="0.012">
+    </testcase>
+    <testcase classname="FileUploadField should render disabled button" name="FileUploadField should render disabled button" time="0.012">
+    </testcase>
+    <testcase classname="FileUploadField should call onUpload when file selected" name="FileUploadField should call onUpload when file selected" time="0.055">
+    </testcase>
+    <testcase classname="FileUploadField should not call onUpload if no file selected" name="FileUploadField should not call onUpload if no file selected" time="0.014">
+    </testcase>
+    <testcase classname="FileUploadField should render icon props" name="FileUploadField should render icon props" time="0.07">
+    </testcase>
+    <testcase classname="FileUploadField should render as primary button" name="FileUploadField should render as primary button" time="0.057">
+    </testcase>
+    <testcase classname="FileUploadField should render input element that accept every type of file" name="FileUploadField should render input element that accept every type of file" time="0.012">
+    </testcase>
+    <testcase classname="FileUploadField should render input element that accept only specific file formats" name="FileUploadField should render input element that accept only specific file formats" time="0.012">
+    </testcase>
+    <testcase classname="FileUploadField Should stop propagation on click" name="FileUploadField Should stop propagation on click" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="LinkToForm" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:29" time="3.247" tests="4">
+    <testcase classname="LinkToForm Should render value in a link" name="LinkToForm Should render value in a link" time="0.062">
+    </testcase>
+    <testcase classname="LinkToForm Should call navigation when clicking link" name="LinkToForm Should call navigation when clicking link" time="0.026">
+    </testcase>
+    <testcase classname="LinkToForm Should render value in a text if no id exists" name="LinkToForm Should render value in a text if no id exists" time="0.013">
+    </testcase>
+    <testcase classname="LinkToForm Should render value in a text if no navigation" name="LinkToForm Should render value in a text if no navigation" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="TimedPerformace" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:29" time="3.95" tests="4">
+    <testcase classname="TimedPerformace Should render drop down data box in blue color" name="TimedPerformace Should render drop down data box in blue color" time="0.201">
+    </testcase>
+    <testcase classname="TimedPerformace Should render 3Y performance value" name="TimedPerformace Should render 3Y performance value" time="0.36">
+    </testcase>
+    <testcase classname="TimedPerformace Should render 1Y first" name="TimedPerformace Should render 1Y first" time="0.054">
+    </testcase>
+    <testcase classname="TimedPerformace Should render N/A value" name="TimedPerformace Should render N/A value" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormTextField" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:28" time="5.505" tests="6">
+    <testcase classname="FormTextField should render category list after loading" name="FormTextField should render category list after loading" time="0.071">
+    </testcase>
+    <testcase classname="FormTextField should trigger onChange" name="FormTextField should trigger onChange" time="0.108">
+    </testcase>
+    <testcase classname="FormTextField should trigger onBlur" name="FormTextField should trigger onBlur" time="0.035">
+    </testcase>
+    <testcase classname="FormTextField should render default name" name="FormTextField should render default name" time="0.019">
+    </testcase>
+    <testcase classname="FormTextField should render custom label renderer" name="FormTextField should render custom label renderer" time="0.01">
+    </testcase>
+    <testcase classname="FormTextField should render label with additional info" name="FormTextField should render label with additional info" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="CalcUtils" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:33" time="1.165" tests="14">
+    <testcase classname="CalcUtils **** should mask numbers with *" name="CalcUtils **** should mask numbers with *" time="0.005">
+    </testcase>
+    <testcase classname="CalcUtils **** should mask numbers with custom mask character" name="CalcUtils **** should mask numbers with custom mask character" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils **** should mask 12 digit credit card" name="CalcUtils **** should mask 12 digit credit card" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils **** should mask 2 digit credit card" name="CalcUtils **** should mask 2 digit credit card" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils **** should mask partially masked numbers" name="CalcUtils **** should mask partially masked numbers" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils **** should mask partially masked numbers with 8 digit" name="CalcUtils **** should mask partially masked numbers with 8 digit" time="0">
+    </testcase>
+    <testcase classname="CalcUtils **** should mask partially masked numbers with 8 digit 2" name="CalcUtils **** should mask partially masked numbers with 8 digit 2" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils toRate should add % to numeric value" name="CalcUtils toRate should add % to numeric value" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils toRate should add % to zero value" name="CalcUtils toRate should add % to zero value" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils toRate should return N/A to nullish values" name="CalcUtils toRate should return N/A to nullish values" time="0">
+    </testcase>
+    <testcase classname="CalcUtils toRate should return N/A for NaN value" name="CalcUtils toRate should return N/A for NaN value" time="0.001">
+    </testcase>
+    <testcase classname="CalcUtils check indicator should return the greater indicator" name="CalcUtils check indicator should return the greater indicator" time="0.005">
+    </testcase>
+    <testcase classname="CalcUtils check indicator second indicator is undefined, should return the first indicator" name="CalcUtils check indicator second indicator is undefined, should return the first indicator" time="0">
+    </testcase>
+    <testcase classname="CalcUtils check indicator first indicator is undefined, should return the second indicator" name="CalcUtils check indicator first indicator is undefined, should return the second indicator" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="TimeSlot" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:33" time="1.79" tests="4">
+    <testcase classname="TimeSlot should render component" name="TimeSlot should render component" time="0.069">
+    </testcase>
+    <testcase classname="TimeSlot should render component as selected" name="TimeSlot should render component as selected" time="0.014">
+    </testcase>
+    <testcase classname="TimeSlot should render component with different time format" name="TimeSlot should render component with different time format" time="0.035">
+    </testcase>
+    <testcase classname="TimeSlot should trigger onSelect" name="TimeSlot should trigger onSelect" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="WizardStep - props with default values" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:33" time="1.992" tests="9">
+    <testcase classname="WizardStep - props with default values should render the component" name="WizardStep - props with default values should render the component" time="0.068">
+    </testcase>
+    <testcase classname="WizardStep - props with default values should render the component with right name" name="WizardStep - props with default values should render the component with right name" time="0.018">
+    </testcase>
+    <testcase classname="WizardStep - props with default values should render the component without being active" name="WizardStep - props with default values should render the component without being active" time="0.017">
+    </testcase>
+    <testcase classname="WizardStep -  conditional rendering should not render separator if step is first" name="WizardStep -  conditional rendering should not render separator if step is first" time="0.011">
+    </testcase>
+    <testcase classname="WizardStep -  conditional rendering should render CompletedSolid if step is completed and active" name="WizardStep -  conditional rendering should render CompletedSolid if step is completed and active" time="0.015">
+    </testcase>
+    <testcase classname="WizardStep -  conditional rendering should render CompletedSolid if step is completed and not active" name="WizardStep -  conditional rendering should render CompletedSolid if step is completed and not active" time="0.012">
+    </testcase>
+    <testcase classname="WizardStep -  conditional rendering should render FullCircleMask if step is active only" name="WizardStep -  conditional rendering should render FullCircleMask if step is active only" time="0.011">
+    </testcase>
+    <testcase classname="WizardStep -  conditional rendering should render disabled component" name="WizardStep -  conditional rendering should render disabled component" time="0.017">
+    </testcase>
+    <testcase classname="WizardStep -  conditional rendering should render with description" name="WizardStep -  conditional rendering should render with description" time="0.079">
+    </testcase>
+  </testsuite>
+  <testsuite name="Stepsdropdown" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:33" time="1.931" tests="5">
+    <testcase classname="Stepsdropdown should render the component" name="Stepsdropdown should render the component" time="0.067">
+    </testcase>
+    <testcase classname="Stepsdropdown should open the component menu" name="Stepsdropdown should open the component menu" time="0.057">
+    </testcase>
+    <testcase classname="Stepsdropdown should close the component menu after clicking step" name="Stepsdropdown should close the component menu after clicking step" time="0.047">
+    </testcase>
+    <testcase classname="Stepsdropdown should trigger onChange with clicked step" name="Stepsdropdown should trigger onChange with clicked step" time="0.073">
+    </testcase>
+    <testcase classname="Stepsdropdown should not trigger onChange with clicked disabled step" name="Stepsdropdown should not trigger onChange with clicked disabled step" time="0.049">
+    </testcase>
+  </testsuite>
+  <testsuite name="test number utils" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:34" time="1.346" tests="11">
+    <testcase classname="test number utils formatNumber should return 0 when not value is 0" name="test number utils formatNumber should return 0 when not value is 0" time="0.006">
+    </testcase>
+    <testcase classname="test number utils formatNumber should return 1,000 when not value is 1000" name="test number utils formatNumber should return 1,000 when not value is 1000" time="0.001">
+    </testcase>
+    <testcase classname="test number utils formatNumber should return compacted mode" name="test number utils formatNumber should return compacted mode" time="0.001">
+    </testcase>
+    <testcase classname="test number utils formatNumber should use currency unit" name="test number utils formatNumber should use currency unit" time="0.006">
+    </testcase>
+    <testcase classname="test number utils formatNumber should use german localization" name="test number utils formatNumber should use german localization" time="0.001">
+    </testcase>
+    <testcase classname="test number utils formatNumber should use euro currency" name="test number utils formatNumber should use euro currency" time="0.001">
+    </testcase>
+    <testcase classname="test number utils formatNumber should show up to 2 digit after the decimal point" name="test number utils formatNumber should show up to 2 digit after the decimal point" time="0.002">
+    </testcase>
+    <testcase classname="test number utils formatNumber should show no less than 2 digit after the decimal point" name="test number utils formatNumber should show no less than 2 digit after the decimal point" time="0.002">
+    </testcase>
+    <testcase classname="test number utils isNumber should return true when value is a number" name="test number utils isNumber should return true when value is a number" time="0.001">
+    </testcase>
+    <testcase classname="test number utils isNumber should return true when value is a string and can be converted to a number" name="test number utils isNumber should return true when value is a string and can be converted to a number" time="0.001">
+    </testcase>
+    <testcase classname="test number utils isNumber should return false when value is not a number" name="test number utils isNumber should return false when value is not a number" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="InfoSection" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:32" time="3.554" tests="7">
+    <testcase classname="InfoSection should render section header" name="InfoSection should render section header" time="0.213">
+    </testcase>
+    <testcase classname="InfoSection should render section heade with currency" name="InfoSection should render section heade with currency" time="0.047">
+    </testcase>
+    <testcase classname="InfoSection should render loading component" name="InfoSection should render loading component" time="0.038">
+    </testcase>
+    <testcase classname="InfoSection should render error state" name="InfoSection should render error state" time="0.053">
+    </testcase>
+    <testcase classname="InfoSection should render component" name="InfoSection should render component" time="0.031">
+    </testcase>
+    <testcase classname="InfoSection should not render component if does not exist" name="InfoSection should not render component if does not exist" time="0.01">
+    </testcase>
+    <testcase classname="InfoSection should render command button" name="InfoSection should render command button" time="0.099">
+    </testcase>
+  </testsuite>
+  <testsuite name="SegmentsStack unit tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:33" time="3.195" tests="5">
+    <testcase classname="SegmentsStack unit tests segment test Should render empty state when empty list" name="SegmentsStack unit tests segment test Should render empty state when empty list" time="0.079">
+    </testcase>
+    <testcase classname="SegmentsStack unit tests segment test Should render empty segments is undefined" name="SegmentsStack unit tests segment test Should render empty segments is undefined" time="0.012">
+    </testcase>
+    <testcase classname="SegmentsStack unit tests segment test Should render empty state when artifact is not supported" name="SegmentsStack unit tests segment test Should render empty state when artifact is not supported" time="0.026">
+    </testcase>
+    <testcase classname="SegmentsStack unit tests segment test Should render segment if exists" name="SegmentsStack unit tests segment test Should render segment if exists" time="0.013">
+    </testcase>
+    <testcase classname="SegmentsStack unit tests segment test Should render multiple segments if exists" name="SegmentsStack unit tests segment test Should render multiple segments if exists" time="0.071">
+    </testcase>
+  </testsuite>
+  <testsuite name="TimeUtils" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:35" time="1.625" tests="11">
+    <testcase classname="TimeUtils isDateValid should fail for non Date type" name="TimeUtils isDateValid should fail for non Date type" time="0.004">
+    </testcase>
+    <testcase classname="TimeUtils isDateValid should fail for non exiting date" name="TimeUtils isDateValid should fail for non exiting date" time="0.001">
+    </testcase>
+    <testcase classname="TimeUtils isDateValid should fail for bad Date" name="TimeUtils isDateValid should fail for bad Date" time="0.004">
+    </testcase>
+    <testcase classname="TimeUtils isDateValid should return true for valid date" name="TimeUtils isDateValid should return true for valid date" time="0.001">
+    </testcase>
+    <testcase classname="TimeUtils getAgeInYears should return undefined for missing date" name="TimeUtils getAgeInYears should return undefined for missing date" time="0.001">
+    </testcase>
+    <testcase classname="TimeUtils getAgeInYears should return undefined for invalid date" name="TimeUtils getAgeInYears should return undefined for invalid date" time="0.001">
+    </testcase>
+    <testcase classname="TimeUtils getAgeInYears should return differenceInYears" name="TimeUtils getAgeInYears should return differenceInYears" time="0.002">
+    </testcase>
+    <testcase classname="TimeUtils isDateExpired should return false for missing date" name="TimeUtils isDateExpired should return false for missing date" time="0.001">
+    </testcase>
+    <testcase classname="TimeUtils isDateExpired should return false if the date is today" name="TimeUtils isDateExpired should return false if the date is today" time="0">
+    </testcase>
+    <testcase classname="TimeUtils isDateExpired should return false if the date is after today" name="TimeUtils isDateExpired should return false if the date is after today" time="0.001">
+    </testcase>
+    <testcase classname="TimeUtils isDateExpired should return true if the date before today" name="TimeUtils isDateExpired should return true if the date before today" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="TopicChoicesList" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:35" time="2.276" tests="5">
+    <testcase classname="TopicChoicesList should render list with a header" name="TopicChoicesList should render list with a header" time="0.157">
+    </testcase>
+    <testcase classname="TopicChoicesList should render choices list" name="TopicChoicesList should render choices list" time="0.055">
+    </testcase>
+    <testcase classname="TopicChoicesList should render with selected topic" name="TopicChoicesList should render with selected topic" time="0.028">
+    </testcase>
+    <testcase classname="TopicChoicesList should render with no selected topic" name="TopicChoicesList should render with no selected topic" time="0.047">
+    </testcase>
+    <testcase classname="TopicChoicesList should trigger onSelect when making a choice" name="TopicChoicesList should trigger onSelect when making a choice" time="0.082">
+    </testcase>
+  </testsuite>
+  <testsuite name="Currency" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:34" time="3.33" tests="6">
+    <testcase classname="Currency should render currency with base" name="Currency should render currency with base" time="0.112">
+    </testcase>
+    <testcase classname="Currency should render currency with different currency" name="Currency should render currency with different currency" time="0.056">
+    </testcase>
+    <testcase classname="Currency should render in compact mode" name="Currency should render in compact mode" time="0.038">
+    </testcase>
+    <testcase classname="Currency should not render in compact mode for value &lt; 1M" name="Currency should not render in compact mode for value &lt; 1M" time="0.041">
+    </testcase>
+    <testcase classname="Currency should not render with different style" name="Currency should not render with different style" time="0.021">
+    </testcase>
+    <testcase classname="Currency should render currency with different alignment" name="Currency should render currency with different alignment" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="Progressbar" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:36" time="1.631" tests="5">
+    <testcase classname="Progressbar Should render progressbar" name="Progressbar Should render progressbar" time="0.051">
+    </testcase>
+    <testcase classname="Progressbar Should render progressbar with a label" name="Progressbar Should render progressbar with a label" time="0.038">
+    </testcase>
+    <testcase classname="Progressbar Should render progressbar with a description" name="Progressbar Should render progressbar with a description" time="0.02">
+    </testcase>
+    <testcase classname="Progressbar Should render progressbar with an aside text" name="Progressbar Should render progressbar with an aside text" time="0.016">
+    </testcase>
+    <testcase classname="Progressbar Should render progressbar with custom styles for indicator" name="Progressbar Should render progressbar with custom styles for indicator" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="Indicator" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:36" time="2.268" tests="5">
+    <testcase classname="Indicator Should render indicator without tooltip" name="Indicator Should render indicator without tooltip" time="0.107">
+    </testcase>
+    <testcase classname="Indicator Should render indicator with size and color" name="Indicator Should render indicator with size and color" time="0.049">
+    </testcase>
+    <testcase classname="Indicator Should render indicator with tooltip text" name="Indicator Should render indicator with tooltip text" time="0.446">
+    </testcase>
+    <testcase classname="Indicator Should render indicator with icon aria label" name="Indicator Should render indicator with icon aria label" time="0.044">
+    </testcase>
+    <testcase classname="Indicator Should render indicator with different button styles" name="Indicator Should render indicator with different button styles" time="0.083">
+    </testcase>
+  </testsuite>
+  <testsuite name="CaretPerformance" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:35" time="3.164" tests="6">
+    <testcase classname="CaretPerformance Should render with two numbers after zero" name="CaretPerformance Should render with two numbers after zero" time="0.114">
+    </testcase>
+    <testcase classname="CaretPerformance Should render with two numbers after zero even with 3 numbers after zero percentage" name="CaretPerformance Should render with two numbers after zero even with 3 numbers after zero percentage" time="0.026">
+    </testcase>
+    <testcase classname="CaretPerformance Should render minus value" name="CaretPerformance Should render minus value" time="0.025">
+    </testcase>
+    <testcase classname="CaretPerformance Should render undefined value" name="CaretPerformance Should render undefined value" time="0.012">
+    </testcase>
+    <testcase classname="CaretPerformance Should render zero value" name="CaretPerformance Should render zero value" time="0.02">
+    </testcase>
+    <testcase classname="CaretPerformance Should render without time frame" name="CaretPerformance Should render without time frame" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="GetClassNameStyleSets utility function" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:38" time="1.004" tests="5">
+    <testcase classname="GetClassNameStyleSets utility function Should have base class set" name="GetClassNameStyleSets utility function Should have base class set" time="0.005">
+    </testcase>
+    <testcase classname="GetClassNameStyleSets utility function Should have underlined class set" name="GetClassNameStyleSets utility function Should have underlined class set" time="0.001">
+    </testcase>
+    <testcase classname="GetClassNameStyleSets utility function Should NOT have underlined class set" name="GetClassNameStyleSets utility function Should NOT have underlined class set" time="0.001">
+    </testcase>
+    <testcase classname="GetClassNameStyleSets utility function Should have custom class name set" name="GetClassNameStyleSets utility function Should have custom class name set" time="0.001">
+    </testcase>
+    <testcase classname="GetClassNameStyleSets utility function Should NOT have custom class name set" name="GetClassNameStyleSets utility function Should NOT have custom class name set" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Header" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:35" time="3.197" tests="3">
+    <testcase classname="Header Should render Header" name="Header Should render Header" time="0.06">
+    </testcase>
+    <testcase classname="Header Should render Header without subtitle" name="Header Should render Header without subtitle" time="0.036">
+    </testcase>
+    <testcase classname="Header Should render Header without data" name="Header Should render Header without data" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="SnapshotSections" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:37" time="2.833" tests="4">
+    <testcase classname="SnapshotSections Should render customer snapshot sections" name="SnapshotSections Should render customer snapshot sections" time="0.147">
+    </testcase>
+    <testcase classname="SnapshotSections Should render nothing when when sections is undefined" name="SnapshotSections Should render nothing when when sections is undefined" time="0.004">
+    </testcase>
+    <testcase classname="SnapshotSections Should render nothing when empty sections" name="SnapshotSections Should render nothing when empty sections" time="0.003">
+    </testcase>
+    <testcase classname="SnapshotSections Should render customer snapshot content without header" name="SnapshotSections Should render customer snapshot content without header" time="0.041">
+    </testcase>
+  </testsuite>
+  <testsuite name="SectionField" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:37" time="2.929" tests="4">
+    <testcase classname="SectionField Should render SectionField - Email" name="SectionField Should render SectionField - Email" time="0.1">
+    </testcase>
+    <testcase classname="SectionField Should render SectionField - Email with prefered" name="SectionField Should render SectionField - Email with prefered" time="0.068">
+    </testcase>
+    <testcase classname="SectionField Should render SectionField - Phone with prefered" name="SectionField Should render SectionField - Phone with prefered" time="0.045">
+    </testcase>
+    <testcase classname="SectionField Should render SectionField - Address with prefered" name="SectionField Should render SectionField - Address with prefered" time="0.06">
+    </testcase>
+  </testsuite>
+  <testsuite name="useOpenForm tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:38" time="2.505" tests="3">
+    <testcase classname="useOpenForm tests Should test useOpenForm with form id" name="useOpenForm tests Should test useOpenForm with form id" time="0.051">
+    </testcase>
+    <testcase classname="useOpenForm tests useOpenForm tests Should test useOpenForm without form id" name="useOpenForm tests useOpenForm tests Should test useOpenForm without form id" time="0.012">
+    </testcase>
+    <testcase classname="useOpenForm tests Should test useOpenForm - navigation is undefined" name="useOpenForm tests Should test useOpenForm - navigation is undefined" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="ErrorBoundary" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:38" time="2.584" tests="2">
+    <testcase classname="ErrorBoundary Should catch rendering error and log" name="ErrorBoundary Should catch rendering error and log" time="0.21">
+    </testcase>
+    <testcase classname="ErrorBoundary Should render non throwing component" name="ErrorBoundary Should render non throwing component" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="CurrencyCode" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:38" time="2.457" tests="5">
+    <testcase classname="CurrencyCode Render currency iso code" name="CurrencyCode Render currency iso code" time="0.08">
+    </testcase>
+    <testcase classname="CurrencyCode Render base currency when no currency id" name="CurrencyCode Render base currency when no currency id" time="0.015">
+    </testcase>
+    <testcase classname="CurrencyCode Render currency display name in case no mapping for id" name="CurrencyCode Render currency display name in case no mapping for id" time="0.03">
+    </testcase>
+    <testcase classname="CurrencyCode Should NOT be Rendered when currencyId has no match and currencyDisplayName is not defined" name="CurrencyCode Should NOT be Rendered when currencyId has no match and currencyDisplayName is not defined" time="0.007">
+    </testcase>
+    <testcase classname="CurrencyCode Render currency with different style" name="CurrencyCode Render currency with different style" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="test currency utils" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:40" time="1.139" tests="9">
+    <testcase classname="test currency utils toCurrency should return NA when not value exists" name="test currency utils toCurrency should return NA when not value exists" time="0.005">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should return 0 when not value is 0" name="test currency utils toCurrency should return 0 when not value is 0" time="0.001">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should return 1,000 when not value is 1000" name="test currency utils toCurrency should return 1,000 when not value is 1000" time="0">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should return compacted mode" name="test currency utils toCurrency should return compacted mode" time="0">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should return compacted mode event when flag is down" name="test currency utils toCurrency should return compacted mode event when flag is down" time="0.001">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should ignore compact and styling when style flag is down" name="test currency utils toCurrency should ignore compact and styling when style flag is down" time="0">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should use decimal unit" name="test currency utils toCurrency should use decimal unit" time="0.001">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should use german localization" name="test currency utils toCurrency should use german localization" time="0.001">
+    </testcase>
+    <testcase classname="test currency utils toCurrency should use euro currency" name="test currency utils toCurrency should use euro currency" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ResponsiveUtil" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:41" time="1.1" tests="7">
+    <testcase classname="ResponsiveUtil createClassName should return class name based on number of columns and prefix" name="ResponsiveUtil createClassName should return class name based on number of columns and prefix" time="0.004">
+    </testcase>
+    <testcase classname="ResponsiveUtil createClassSelectorRange should create single class selector with default prefix" name="ResponsiveUtil createClassSelectorRange should create single class selector with default prefix" time="0.001">
+    </testcase>
+    <testcase classname="ResponsiveUtil createClassSelectorRange should create range class selector" name="ResponsiveUtil createClassSelectorRange should create range class selector" time="0.001">
+    </testcase>
+    <testcase classname="ResponsiveUtil getNumOfColumnsByWidth should return 3 columns when width is pixel above 2 columns" name="ResponsiveUtil getNumOfColumnsByWidth should return 3 columns when width is pixel above 2 columns" time="0.001">
+    </testcase>
+    <testcase classname="ResponsiveUtil getNumOfColumnsByWidth should return 2 columns when width is pixel below 2 columns" name="ResponsiveUtil getNumOfColumnsByWidth should return 2 columns when width is pixel below 2 columns" time="0.001">
+    </testcase>
+    <testcase classname="ResponsiveUtil getNumOfColumnsByWidth should return 12 columns when as max num of columns" name="ResponsiveUtil getNumOfColumnsByWidth should return 12 columns when as max num of columns" time="0.001">
+    </testcase>
+    <testcase classname="ResponsiveUtil getNumOfColumnsByWidth should return 1 columns for 1px width" name="ResponsiveUtil getNumOfColumnsByWidth should return 1 columns for 1px width" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ErrorState" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:40" time="2.502" tests="3">
+    <testcase classname="ErrorState should render error state with default error texts and icon" name="ErrorState should render error state with default error texts and icon" time="0.035">
+    </testcase>
+    <testcase classname="ErrorState should render error state without error icon" name="ErrorState should render error state without error icon" time="0.004">
+    </testcase>
+    <testcase classname="ErrorState should render empty state with the same props" name="ErrorState should render empty state with the same props" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="HighlightMessageBar" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:39" time="3.806" tests="4">
+    <testcase classname="HighlightMessageBar should render Message bar with regular text only" name="HighlightMessageBar should render Message bar with regular text only" time="0.172">
+    </testcase>
+    <testcase classname="HighlightMessageBar should render Message bar with highlight text only" name="HighlightMessageBar should render Message bar with highlight text only" time="0.08">
+    </testcase>
+    <testcase classname="HighlightMessageBar should render Message bar with highlight text and regular text" name="HighlightMessageBar should render Message bar with highlight text and regular text" time="0.095">
+    </testcase>
+    <testcase classname="HighlightMessageBar should render Message bar with error type" name="HighlightMessageBar should render Message bar with error type" time="0.05">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormDropdown" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:41" time="1.87" tests="2">
+    <testcase classname="FormDropdown should render category list after loading" name="FormDropdown should render category list after loading" time="0.106">
+    </testcase>
+    <testcase classname="FormDropdown should trigger onChange" name="FormDropdown should trigger onChange" time="0.114">
+    </testcase>
+  </testsuite>
+  <testsuite name="Lookup" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:40" time="2.637" tests="2">
+    <testcase classname="Lookup Should render Lookup" name="Lookup Should render Lookup" time="0.113">
+    </testcase>
+    <testcase classname="Lookup Should call navigation when clicking link" name="Lookup Should call navigation when clicking link" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="ResponsiveContainer" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:42" time="1.338" tests="3">
+    <testcase classname="ResponsiveContainer Should render children" name="ResponsiveContainer Should render children" time="0.103">
+    </testcase>
+    <testcase classname="ResponsiveContainer Should add the correct class name to the container (default prefix)" name="ResponsiveContainer Should add the correct class name to the container (default prefix)" time="0.028">
+    </testcase>
+    <testcase classname="ResponsiveContainer Should add the correct class name to the container with custom prefix" name="ResponsiveContainer Should add the correct class name to the container with custom prefix" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="Date" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:41" time="2.945" tests="5">
+    <testcase classname="Date should render date with default format using the context locale" name="Date should render date with default format using the context locale" time="0.117">
+    </testcase>
+    <testcase classname="Date should render short date using predefined format" name="Date should render short date using predefined format" time="0.022">
+    </testcase>
+    <testcase classname="Date should render date using custom format" name="Date should render date using custom format" time="0.016">
+    </testcase>
+    <testcase classname="Date should render nothing for undefined date" name="Date should render nothing for undefined date" time="0.049">
+    </testcase>
+    <testcase classname="Date should render nothing for invalid date" name="Date should render nothing for invalid date" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="SummarySection" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:43" time="1.477" tests="5">
+    <testcase classname="SummarySection should render section" name="SummarySection should render section" time="0.049">
+    </testcase>
+    <testcase classname="SummarySection should render without icon" name="SummarySection should render without icon" time="0.008">
+    </testcase>
+    <testcase classname="SummarySection should render without sub" name="SummarySection should render without sub" time="0.008">
+    </testcase>
+    <testcase classname="SummarySection should render with sub info broken into lines" name="SummarySection should render with sub info broken into lines" time="0.009">
+    </testcase>
+    <testcase classname="SummarySection should render icon" name="SummarySection should render icon" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="UploadDocument" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:39" time="5.625" tests="4">
+    <testcase classname="UploadDocument should render component" name="UploadDocument should render component" time="0.175">
+    </testcase>
+    <testcase classname="UploadDocument should call onUpload" name="UploadDocument should call onUpload" time="0.021">
+    </testcase>
+    <testcase classname="UploadDocument should render custom label" name="UploadDocument should render custom label" time="0.033">
+    </testcase>
+    <testcase classname="UploadDocument should call onRemove" name="UploadDocument should call onRemove" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="TopicDetails" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:44" time="1.373" tests="5">
+    <testcase classname="TopicDetails should render without icon" name="TopicDetails should render without icon" time="0.05">
+    </testcase>
+    <testcase classname="TopicDetails should render without description" name="TopicDetails should render without description" time="0.007">
+    </testcase>
+    <testcase classname="TopicDetails should render with text" name="TopicDetails should render with text" time="0.023">
+    </testcase>
+    <testcase classname="TopicDetails should render with description" name="TopicDetails should render with description" time="0.014">
+    </testcase>
+    <testcase classname="TopicDetails should render details with icon" name="TopicDetails should render details with icon" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="NumericValue" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:43" time="2.706" tests="4">
+    <testcase classname="NumericValue should render number using the context locale" name="NumericValue should render number using the context locale" time="0.069">
+    </testcase>
+    <testcase classname="NumericValue should render number with positive sign" name="NumericValue should render number with positive sign" time="0.021">
+    </testcase>
+    <testcase classname="NumericValue should render number with negative sign" name="NumericValue should render number with negative sign" time="0.017">
+    </testcase>
+    <testcase classname="NumericValue should call formatNumber with the right params" name="NumericValue should call formatNumber with the right params" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToastNotification" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:44" time="1.601" tests="4">
+    <testcase classname="ToastNotification should render archive toast notification" name="ToastNotification should render archive toast notification" time="0.076">
+    </testcase>
+    <testcase classname="ToastNotification should not render archive toast notification if not opened" name="ToastNotification should not render archive toast notification if not opened" time="0.005">
+    </testcase>
+    <testcase classname="ToastNotification should call onClose when onDismiss clicked" name="ToastNotification should call onClose when onDismiss clicked" time="0.076">
+    </testcase>
+    <testcase classname="ToastNotification should call onClose when toast is closed after few seconds" name="ToastNotification should call onClose when toast is closed after few seconds" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="LinkablePersona" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:43" time="3.301" tests="2">
+    <testcase classname="LinkablePersona Should render persona" name="LinkablePersona Should render persona" time="0.268">
+    </testcase>
+    <testcase classname="LinkablePersona Should render clickable persona and call openForm from context" name="LinkablePersona Should render clickable persona and call openForm from context" time="0.102">
+    </testcase>
+  </testsuite>
+  <testsuite name="useFormatDate" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:44" time="2.561" tests="3">
+    <testcase classname="useFormatDate Should format date" name="useFormatDate Should format date" time="0.045">
+    </testcase>
+    <testcase classname="useFormatDate Should format date with different formatting" name="useFormatDate Should format date with different formatting" time="0.006">
+    </testcase>
+    <testcase classname="useFormatDate Should return empty string if provided date is invalid" name="useFormatDate Should return empty string if provided date is invalid" time="0.036">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormDatePicker" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:43" time="3.336" tests="3">
+    <testcase classname="FormDatePicker should render category list after loading" name="FormDatePicker should render category list after loading" time="0.117">
+    </testcase>
+    <testcase classname="FormDatePicker should render empty name" name="FormDatePicker should render empty name" time="0.019">
+    </testcase>
+    <testcase classname="FormDatePicker should trigger onSelectedDate" name="FormDatePicker should trigger onSelectedDate" time="0.06">
+    </testcase>
+  </testsuite>
+  <testsuite name="CommunicationItem" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:46" time="1.533" tests="3">
+    <testcase classname="CommunicationItem Should render Communication item correctly when isPreferred true" name="CommunicationItem Should render Communication item correctly when isPreferred true" time="0.056">
+    </testcase>
+    <testcase classname="CommunicationItem Should render Communication item correctly when isPreferred false" name="CommunicationItem Should render Communication item correctly when isPreferred false" time="0.009">
+    </testcase>
+    <testcase classname="CommunicationItem Should render Communication item with extra text" name="CommunicationItem Should render Communication item with extra text" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="DialogEvent" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:45" time="2.39" tests="2">
+    <testcase classname="DialogEvent Should show dialog event and cancel" name="DialogEvent Should show dialog event and cancel" time="0.221">
+    </testcase>
+    <testcase classname="DialogEvent Should show dialog event and click on action" name="DialogEvent Should show dialog event and click on action" time="0.109">
+    </testcase>
+  </testsuite>
+  <testsuite name="VerticalGraphLine" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:46" time="1.45" tests="2">
+    <testcase classname="VerticalGraphLine should render vertical line with text" name="VerticalGraphLine should render vertical line with text" time="0.09">
+    </testcase>
+    <testcase classname="VerticalGraphLine should render vertical line with no text" name="VerticalGraphLine should render vertical line with no text" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="Content" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:44" time="3.843" tests="3">
+    <testcase classname="Content Should render Content" name="Content Should render Content" time="0.178">
+    </testcase>
+    <testcase classname="Content Should render Content without data" name="Content Should render Content without data" time="0.058">
+    </testcase>
+    <testcase classname="Content Should render Content with invalid config and error from the fetch" name="Content Should render Content with invalid config and error from the fetch" time="0.042">
+    </testcase>
+  </testsuite>
+  <testsuite name="DropdownUtils.test" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:46" time="1.558" tests="3">
+    <testcase classname="DropdownUtils.test renderEmphasizedOption Should return correct HTML" name="DropdownUtils.test renderEmphasizedOption Should return correct HTML" time="0.047">
+    </testcase>
+    <testcase classname="DropdownUtils.test renderEmphasizedOption Should return NULL when input parameter is invalid" name="DropdownUtils.test renderEmphasizedOption Should return NULL when input parameter is invalid" time="0">
+    </testcase>
+    <testcase classname="DropdownUtils.test renderEmphasizedOption Should return text without dash" name="DropdownUtils.test renderEmphasizedOption Should return text without dash" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExplainabilityBox" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:47" time="1.555" tests="3">
+    <testcase classname="ExplainabilityBox should render box with specific color" name="ExplainabilityBox should render box with specific color" time="0.061">
+    </testcase>
+    <testcase classname="ExplainabilityBox should render box with no explainability" name="ExplainabilityBox should render box with no explainability" time="0.01">
+    </testcase>
+    <testcase classname="ExplainabilityBox should render box with custom text styles" name="ExplainabilityBox should render box with custom text styles" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="Widget" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:45" time="3.368" tests="4">
+    <testcase classname="Widget Should render Widget" name="Widget Should render Widget" time="0.103">
+    </testcase>
+    <testcase classname="Widget Should render Widget loading" name="Widget Should render Widget loading" time="0.052">
+    </testcase>
+    <testcase classname="Widget Should render Widget error" name="Widget Should render Widget error" time="0.046">
+    </testcase>
+    <testcase classname="Widget Should render Widget empty" name="Widget Should render Widget empty" time="0.051">
+    </testcase>
+  </testsuite>
+  <testsuite name="useMediaQueryListener" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:48" time="1.092" tests="2">
+    <testcase classname="useMediaQueryListener Should return FALSE if `query` parameter is an empty string" name="useMediaQueryListener Should return FALSE if `query` parameter is an empty string" time="0.026">
+    </testcase>
+    <testcase classname="useMediaQueryListener Should return TRUE if `query` parameter is valid and has been applied" name="useMediaQueryListener Should return TRUE if `query` parameter is valid and has been applied" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="InfoCallout" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:48" time="1.666" tests="2">
+    <testcase classname="InfoCallout should render icon info with basic callout functionality" name="InfoCallout should render icon info with basic callout functionality" time="0.158">
+    </testcase>
+    <testcase classname="InfoCallout should render callout with styles and aria label" name="InfoCallout should render callout with styles and aria label" time="0.078">
+    </testcase>
+  </testsuite>
+  <testsuite name="Phone" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:48" time="2.557" tests="2">
+    <testcase classname="Phone Should render Phone" name="Phone Should render Phone" time="0.086">
+    </testcase>
+    <testcase classname="Phone Should render Phone without data" name="Phone Should render Phone without data" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="SectionHeader" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:49" time="1.471" tests="4">
+    <testcase classname="SectionHeader Should render header" name="SectionHeader Should render header" time="0.078">
+    </testcase>
+    <testcase classname="SectionHeader Should render header with a11y roles" name="SectionHeader Should render header with a11y roles" time="0.042">
+    </testcase>
+    <testcase classname="SectionHeader should render header without default title" name="SectionHeader should render header without default title" time="0.022">
+    </testcase>
+    <testcase classname="SectionHeader should render header when title is hidden" name="SectionHeader should render header when title is hidden" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="LegendItem" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:49" time="1.294" tests="2">
+    <testcase classname="LegendItem should render legend item correctly" name="LegendItem should render legend item correctly" time="0.085">
+    </testcase>
+    <testcase classname="LegendItem should render legend item with different style" name="LegendItem should render legend item with different style" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="Datetime" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:48" time="2.733" tests="2">
+    <testcase classname="Datetime Should render DateTime" name="Datetime Should render DateTime" time="0.072">
+    </testcase>
+    <testcase classname="Datetime Should render DateTime without data" name="Datetime Should render DateTime without data" time="0.048">
+    </testcase>
+  </testsuite>
+  <testsuite name="Currency" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:48" time="2.611" tests="2">
+    <testcase classname="Currency Should render Currency" name="Currency Should render Currency" time="0.105">
+    </testcase>
+    <testcase classname="Currency Should render Currency without data" name="Currency Should render Currency without data" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="Email" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:48" time="2.615" tests="2">
+    <testcase classname="Email Should render Email" name="Email Should render Email" time="0.136">
+    </testcase>
+    <testcase classname="Email Should render Email without data" name="Email Should render Email without data" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="StepsdropdownMenu" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:50" time="1.578" tests="2">
+    <testcase classname="StepsdropdownMenu should render the component" name="StepsdropdownMenu should render the component" time="0.093">
+    </testcase>
+    <testcase classname="StepsdropdownMenu should not render the component when closed" name="StepsdropdownMenu should not render the component when closed" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="AnnualIncome" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:49" time="2.78" tests="3">
+    <testcase classname="AnnualIncome Should render AnnualIncome" name="AnnualIncome Should render AnnualIncome" time="0.069">
+    </testcase>
+    <testcase classname="AnnualIncome Should render AnnualIncome compact" name="AnnualIncome Should render AnnualIncome compact" time="0.018">
+    </testcase>
+    <testcase classname="AnnualIncome Should render AnnualIncome with 0" name="AnnualIncome Should render AnnualIncome with 0" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="useFHData tests" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:51" time="1.627" tests="1">
+    <testcase classname="useFHData tests Should call to fetchIndicator and return invalid config" name="useFHData tests Should call to fetchIndicator and return invalid config" time="0.063">
+    </testcase>
+  </testsuite>
+  <testsuite name="Address" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:50" time="2.627" tests="2">
+    <testcase classname="Address Should render Address" name="Address Should render Address" time="0.081">
+    </testcase>
+    <testcase classname="Address Should render Address without data" name="Address Should render Address without data" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="Indicators" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:51" time="2.663" tests="2">
+    <testcase classname="Indicators Should render Indicators" name="Indicators Should render Indicators" time="0.172">
+    </testcase>
+    <testcase classname="Indicators Should render Indicators without staleness,currencyId" name="Indicators Should render Indicators without staleness,currencyId" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="useColorContrastListener" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:52" time="1.325" tests="1">
+    <testcase classname="useColorContrastListener Should return FALSE if `high contrast / color contrast` is not applied" name="useColorContrastListener Should return FALSE if `high contrast / color contrast` is not applied" time="0.04">
+    </testcase>
+  </testsuite>
+  <testsuite name="CustomerSnapshot" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:51" time="3.242" tests="1">
+    <testcase classname="CustomerSnapshot Should render customer snapshot" name="CustomerSnapshot Should render customer snapshot" time="0.134">
+    </testcase>
+  </testsuite>
+  <testsuite name="CustomerIndicators" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:51" time="3.132" tests="1">
+    <testcase classname="CustomerIndicators Should render customer indicators" name="CustomerIndicators Should render customer indicators" time="0.225">
+    </testcase>
+  </testsuite>
+  <testsuite name="LabelWithAdditionalInfo" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:53" time="1.447" tests="2">
+    <testcase classname="LabelWithAdditionalInfo should render label with description" name="LabelWithAdditionalInfo should render label with description" time="0.097">
+    </testcase>
+    <testcase classname="LabelWithAdditionalInfo should render label without description" name="LabelWithAdditionalInfo should render label without description" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="OverflowText" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:53" time="1.405" tests="2">
+    <testcase classname="OverflowText should render text" name="OverflowText should render text" time="0.068">
+    </testcase>
+    <testcase classname="OverflowText should render text with tooltip host styles" name="OverflowText should render text with tooltip host styles" time="0.034">
+    </testcase>
+  </testsuite>
+  <testsuite name="SubtitleField" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:52" time="2.996" tests="1">
+    <testcase classname="SubtitleField Should render SubtitleField" name="SubtitleField Should render SubtitleField" time="0.104">
+    </testcase>
+  </testsuite>
+  <testsuite name="Loading" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:52" time="2.832" tests="2">
+    <testcase classname="Loading should show loading spinner with text" name="Loading should show loading spinner with text" time="0.123">
+    </testcase>
+    <testcase classname="Loading should show loading spinner with custom text" name="Loading should show loading spinner with custom text" time="0.033">
+    </testcase>
+  </testsuite>
+  <testsuite name="SeparatedList" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:54" time="1.875" tests="1">
+    <testcase classname="SeparatedList Should render SeparatedList" name="SeparatedList Should render SeparatedList" time="0.199">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:54" time="1.347" tests="1">
+    <testcase classname=" get previous state" name=" get previous state" time="0.04">
+    </testcase>
+  </testsuite>
+  <testsuite name="ChoiceGroup" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:54" time="1.759" tests="1">
+    <testcase classname="ChoiceGroup should render component" name="ChoiceGroup should render component" time="0.081">
+    </testcase>
+  </testsuite>
+  <testsuite name="test group tag component" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:55" time="1.408" tests="1">
+    <testcase classname="test group tag component should render tag component" name="test group tag component should render tag component" time="0.053">
+    </testcase>
+  </testsuite>
+  <testsuite name="FormMaskTextField" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:55" time="1.912" tests="1">
+    <testcase classname="FormMaskTextField should render category list after loading" name="FormMaskTextField should render category list after loading" time="0.086">
+    </testcase>
+  </testsuite>
+  <testsuite name="ThemeGenerator" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:55" time="1.184" tests="2">
+    <testcase classname="ThemeGenerator Should create theme palette from fsi color" name="ThemeGenerator Should create theme palette from fsi color" time="0.011">
+    </testcase>
+    <testcase classname="ThemeGenerator Should return undefined for invalid color" name="ThemeGenerator Should return undefined for invalid color" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="ScreenReaderText" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:55" time="1.212" tests="1">
+    <testcase classname="ScreenReaderText Should be rendered in DOM" name="ScreenReaderText Should be rendered in DOM" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="useDebounce" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:56" time="1.179" tests="1">
+    <testcase classname="useDebounce should call the function" name="useDebounce should call the function" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="mediaQueries" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:56" time="0.946" tests="1">
+    <testcase classname="mediaQueries should check width of mediaQueries" name="mediaQueries should check width of mediaQueries" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Collapse" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:55" time="1.681" tests="1">
+    <testcase classname="Collapse Should render collapse" name="Collapse Should render collapse" time="0.073">
+    </testcase>
+  </testsuite>
+  <testsuite name="Divider" errors="0" failures="0" skipped="0" timestamp="2023-06-21T09:16:56" time="0.956" tests="1">
+    <testcase classname="Divider should render divider" name="Divider should render divider" time="0.028">
+    </testcase>
+  </testsuite>
+</testsuites>

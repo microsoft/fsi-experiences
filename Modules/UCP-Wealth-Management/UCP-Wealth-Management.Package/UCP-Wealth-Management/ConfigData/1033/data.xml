@@ -1,0 +1,479 @@
+
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2021-04-21T09:58:56.3854462Z">
+  <entity name="msfsi_categorytypesrelations" displayname="Category Types Relations">
+    <records>
+      <record id="d6ee1232-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="d6ee1232-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="a1371a8f-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Birth date" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="c8e77c1c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Birthday" />
+        <field name="msfsi_name" value="rel1" />
+      </record>
+      <record id="0d3e573e-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="0d3e573e-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="37f25b95-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Marriage" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2d1a5133-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Marital Status" />
+        <field name="msfsi_name" value="rel2" />
+      </record>
+      <record id="983c484a-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="983c484a-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="38f25b95-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Divorce" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2d1a5133-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Marital Status" />
+        <field name="msfsi_name" value="rel3" />
+      </record>
+      <record id="009a235f-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="009a235f-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="33b758a1-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Widowhood" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2d1a5133-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Marital Status" />
+        <field name="msfsi_name" value="rel4" />
+      </record>
+      <record id="23845669-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="23845669-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="34b758a1-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Child" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="978e333f-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Family" />
+        <field name="msfsi_name" value="rel5" />
+      </record>
+      <record id="dc869c8c-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="dc869c8c-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="195288ac-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Grandchild" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="978e333f-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Family" />
+        <field name="msfsi_name" value="rel6" />
+      </record>
+      <record id="d4c83f98-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="d4c83f98-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="978e333f-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Family" />
+        <field name="msfsi_name" value="rel7" />
+      </record>
+      <record id="2eccddc2-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="2eccddc2-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="406e1cb7-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="High school" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel8" />
+      </record>
+      <record id="7cb520cb-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="7cb520cb-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel9" />
+      </record>
+      <record id="9cd695d3-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="9cd695d3-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="fad8a2c4-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Skills training" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel10" />
+      </record>
+      <record id="048f2bda-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="048f2bda-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="fbd8a2c4-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Associate Degree" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel11" />
+      </record>
+      <record id="f85167e2-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="f85167e2-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="f0157bce-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Job Started" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="26207f52-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Employment" />
+        <field name="msfsi_name" value="rel12" />
+      </record>
+      <record id="d16fdbeb-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="d16fdbeb-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="f1157bce-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Job Ended" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="26207f52-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Employment" />
+        <field name="msfsi_name" value="rel13" />
+      </record>
+      <record id="24dbe6f7-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="24dbe6f7-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="2b0583d8-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Business Started" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="26207f52-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Employment" />
+        <field name="msfsi_name" value="rel14" />
+      </record>
+      <record id="d5422604-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="d5422604-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="2c0583d8-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Business Closed" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="26207f52-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Employment" />
+        <field name="msfsi_name" value="rel15" />
+      </record>
+      <record id="6bdaf512-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="6bdaf512-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="9683dfe4-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Purchase" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="950ddd5c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Residence" />
+        <field name="msfsi_name" value="rel16" />
+      </record>
+      <record id="dd749f1b-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="dd749f1b-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="9b83dfe4-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Sale" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="950ddd5c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Residence" />
+        <field name="msfsi_name" value="rel17" />
+      </record>
+      <record id="80d21723-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="80d21723-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="9683dfe4-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Purchase" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="21ea5069-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Vehicle" />
+        <field name="msfsi_name" value="rel8" />
+      </record>
+      <record id="b6b5a02b-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="b6b5a02b-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="9b83dfe4-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Sale" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="21ea5069-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Vehicle" />
+        <field name="msfsi_name" value="rel19" />
+      </record>
+      <record id="b692e44a-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="b692e44a-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="aeb7d8fa-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Loss of loved one" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="1764917c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Health" />
+        <field name="msfsi_name" value="rel22" />
+      </record>
+      <record id="c641fa52-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="c641fa52-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="afb7d8fa-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Serious illness" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="1764917c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Health" />
+        <field name="msfsi_name" value="rel23" />
+      </record>
+      <record id="808eeb5b-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="808eeb5b-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="f859b705-1449-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Procedure" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="1764917c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Health" />
+        <field name="msfsi_name" value="rel24" />
+      </record>
+      <record id="e5666d66-1549-eb11-a813-000d3a1041e5">
+        <field name="msfsi_categorytypesrelationsid" value="e5666d66-1549-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="f959b705-1449-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Other" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="3c072e86-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Other" />
+        <field name="msfsi_name" value="rel25" />
+      </record>
+      <record id="7d26473c-a16b-eb11-a812-00224803ada0">
+        <field name="msfsi_categorytypesrelationsid" value="7d26473c-a16b-eb11-a812-00224803ada0" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="1914f7c7-a06b-eb11-a812-00224803ada0" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Doctorate degree" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel26" />
+      </record>
+      <record id="746ed750-a16b-eb11-a812-00224803ada0">
+        <field name="msfsi_categorytypesrelationsid" value="746ed750-a16b-eb11-a812-00224803ada0" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="5c8aafbf-a06b-eb11-a812-00224803ada0" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Master’s degree" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel27" />
+      </record>
+      <record id="63cbb259-a16b-eb11-a812-00224803ada0">
+        <field name="msfsi_categorytypesrelationsid" value="63cbb259-a16b-eb11-a812-00224803ada0" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="0c77338f-a06b-eb11-a812-00224803ada0" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Bachelor’s degree" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="2f73ef48-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Education" />
+        <field name="msfsi_name" value="rel28" />
+      </record>
+      <record id="3575d8e1-2434-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="3575d8e1-2434-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="5c16f08e-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Retirement" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="26207f52-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Employment" />
+        <field name="msfsi_name" value="rel40" />
+      </record>
+      <record id="c365bbff-2434-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="c365bbff-2434-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="2ee19796-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Renovation" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="950ddd5c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Residence" />
+        <field name="msfsi_name" value="rel41" />
+      </record>
+      <record id="7ba8b305-2534-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="7ba8b305-2534-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="8599b6b1-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Rent" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="950ddd5c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Residence" />
+        <field name="msfsi_name" value="rel42" />
+      </record>
+      <record id="d717b011-2534-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="d717b011-2534-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="e90e0dd4-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Hospital/facility stay" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="1764917c-1349-eb11-a813-000d3a1041e5" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Health" />
+        <field name="msfsi_name" value="rel43" />
+      </record>
+      <record id="ef60a51d-2534-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="ef60a51d-2534-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="8eb445ea-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Celebration" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="9e3c78ad-1f34-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Leisure" />
+        <field name="msfsi_name" value="rel44" />
+      </record>
+      <record id="9806a023-2534-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="9806a023-2534-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="257ba4f0-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Vacation" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="9e3c78ad-1f34-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Leisure" />
+        <field name="msfsi_name" value="rel45" />
+      </record>
+      <record id="554c952f-2534-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="554c952f-2534-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="bb9f62f7-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Gift" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="9e3c78ad-1f34-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Leisure" />
+        <field name="msfsi_name" value="rel46" />
+      </record>
+      <record id="9950188b-3842-ed11-bba3-0022482b0e6d">
+        <field name="msfsi_categorytypesrelationsid" value="9950188b-3842-ed11-bba3-0022482b0e6d" />
+        <field name="msfsi_lifemomenttypeconfigurations" value="ba9f62f7-2334-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomenttypeconfig" lookupentityname="Major purchase" />
+        <field name="msfsi_lifemomentcategoryconfigurations" value="9e3c78ad-1f34-ed11-9db1-0022482b0e6d" lookupentity="msfsi_lifemomentcategoryconfig" lookupentityname="Leisure" />
+        <field name="msfsi_name" value="rel47" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+  <entity name="msfsi_lifemomenttypeconfig" displayname="Life Event Type Config">
+    <records>
+      <record id="a1371a8f-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="a1371a8f-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Birth date" />
+        <field name="msfsi_typecode" value="104800000" />
+      </record>
+      <record id="37f25b95-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="37f25b95-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Marriage" />
+        <field name="msfsi_typecode" value="104800001" />
+      </record>
+      <record id="38f25b95-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="38f25b95-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Divorce" />
+        <field name="msfsi_typecode" value="104800002" />
+      </record>
+      <record id="33b758a1-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="33b758a1-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Widowhood" />
+        <field name="msfsi_typecode" value="104800003" />
+      </record>
+      <record id="34b758a1-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="34b758a1-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Child" />
+        <field name="msfsi_typecode" value="104800004" />
+      </record>
+      <record id="195288ac-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="195288ac-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Grandchild" />
+        <field name="msfsi_typecode" value="104800005" />
+      </record>
+      <record id="f959b705-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_lifemomenttypeconfigid" value="f959b705-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Other" />
+        <field name="msfsi_typecode" value="104800022" />
+      </record>
+      <record id="406e1cb7-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="2" />
+        <field name="msfsi_lifemomenttypeconfigid" value="406e1cb7-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="High school" />
+        <field name="msfsi_typecode" value="921950001" />
+      </record>
+      <record id="0c77338f-a06b-eb11-a812-00224803ada0">
+        <field name="msfsi_displayorder" value="3" />
+        <field name="msfsi_lifemomenttypeconfigid" value="0c77338f-a06b-eb11-a812-00224803ada0" />
+        <field name="msfsi_name" value="Bachelor’s degree" />
+        <field name="msfsi_typecode" value="921950004" />
+      </record>
+      <record id="5c8aafbf-a06b-eb11-a812-00224803ada0">
+        <field name="msfsi_displayorder" value="4" />
+        <field name="msfsi_lifemomenttypeconfigid" value="5c8aafbf-a06b-eb11-a812-00224803ada0" />
+        <field name="msfsi_name" value="Master’s degree" />
+        <field name="msfsi_typecode" value="921950005" />
+      </record>
+      <record id="fad8a2c4-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="5" />
+        <field name="msfsi_lifemomenttypeconfigid" value="fad8a2c4-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Skills training" />
+        <field name="msfsi_typecode" value="921950002" />
+      </record>
+      <record id="fbd8a2c4-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="6" />
+        <field name="msfsi_lifemomenttypeconfigid" value="fbd8a2c4-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Associate Degree" />
+        <field name="msfsi_typecode" value="921950003" />
+      </record>
+      <record id="1914f7c7-a06b-eb11-a812-00224803ada0">
+        <field name="msfsi_displayorder" value="7" />
+        <field name="msfsi_lifemomenttypeconfigid" value="1914f7c7-a06b-eb11-a812-00224803ada0" />
+        <field name="msfsi_name" value="Doctorate degree" />
+        <field name="msfsi_typecode" value="921950006" />
+      </record>
+      <record id="9683dfe4-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="8" />
+        <field name="msfsi_lifemomenttypeconfigid" value="9683dfe4-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Purchase" />
+        <field name="msfsi_typecode" value="104800015" />
+      </record>
+      <record id="9b83dfe4-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="9" />
+        <field name="msfsi_lifemomenttypeconfigid" value="9b83dfe4-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Sale" />
+        <field name="msfsi_typecode" value="104800016" />
+      </record>
+      <record id="2ee19796-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="10" />
+        <field name="msfsi_lifemomenttypeconfigid" value="2ee19796-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Renovation" />
+        <field name="msfsi_typecode" value="104800047" />
+      </record>
+      <record id="8599b6b1-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="11" />
+        <field name="msfsi_lifemomenttypeconfigid" value="8599b6b1-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Rent" />
+        <field name="msfsi_typecode" value="104800048" />
+      </record>
+      <record id="afb7d8fa-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="12" />
+        <field name="msfsi_lifemomenttypeconfigid" value="afb7d8fa-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Serious illness" />
+        <field name="msfsi_typecode" value="104800020" />
+      </record>
+      <record id="f859b705-1449-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="13" />
+        <field name="msfsi_lifemomenttypeconfigid" value="f859b705-1449-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Procedure" />
+        <field name="msfsi_typecode" value="104800021" />
+      </record>
+      <record id="aeb7d8fa-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="14" />
+        <field name="msfsi_lifemomenttypeconfigid" value="aeb7d8fa-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Loss of loved one" />
+        <field name="msfsi_typecode" value="104800019" />
+      </record>
+      <record id="e90e0dd4-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="15" />
+        <field name="msfsi_lifemomenttypeconfigid" value="e90e0dd4-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Hospital/facility stay" />
+        <field name="msfsi_typecode" value="104800049" />
+      </record>
+      <record id="8eb445ea-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="16" />
+        <field name="msfsi_lifemomenttypeconfigid" value="8eb445ea-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Celebration" />
+        <field name="msfsi_typecode" value="104800050" />
+      </record>
+      <record id="257ba4f0-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="17" />
+        <field name="msfsi_lifemomenttypeconfigid" value="257ba4f0-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Vacation" />
+        <field name="msfsi_typecode" value="104800051" />
+      </record>
+      <record id="ba9f62f7-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="18" />
+        <field name="msfsi_lifemomenttypeconfigid" value="ba9f62f7-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Major purchase" />
+        <field name="msfsi_typecode" value="104800052" />
+      </record>
+      <record id="bb9f62f7-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="19" />
+        <field name="msfsi_lifemomenttypeconfigid" value="bb9f62f7-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Gift" />
+        <field name="msfsi_typecode" value="104800053" />
+      </record>
+      <record id="f0157bce-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="20" />
+        <field name="msfsi_lifemomenttypeconfigid" value="f0157bce-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Job Started" />
+        <field name="msfsi_typecode" value="104800011" />
+      </record>
+      <record id="f1157bce-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="21" />
+        <field name="msfsi_lifemomenttypeconfigid" value="f1157bce-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Job Ended" />
+        <field name="msfsi_typecode" value="104800012" />
+      </record>
+      <record id="2b0583d8-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="22" />
+        <field name="msfsi_lifemomenttypeconfigid" value="2b0583d8-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Business Started" />
+        <field name="msfsi_typecode" value="104800013" />
+      </record>
+      <record id="2c0583d8-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="23" />
+        <field name="msfsi_lifemomenttypeconfigid" value="2c0583d8-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_name" value="Business Closed" />
+        <field name="msfsi_typecode" value="104800014" />
+      </record>
+      <record id="5c16f08e-2334-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="24" />
+        <field name="msfsi_lifemomenttypeconfigid" value="5c16f08e-2334-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_name" value="Retirement" />
+        <field name="msfsi_typecode" value="104800040" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+  <entity name="msfsi_lifemomentcategoryconfig" displayname="Life Event Category Config">
+    <records>
+      <record id="c8e77c1c-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="1" />
+        <field name="msfsi_icon" value="Balloons" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="c8e77c1c-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800000" />
+        <field name="msfsi_name" value="Birthday" />
+      </record>
+      <record id="2d1a5133-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="2" />
+        <field name="msfsi_icon" value="Heart" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="2d1a5133-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800001" />
+        <field name="msfsi_name" value="Marital Status" />
+      </record>
+      <record id="978e333f-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="3" />
+        <field name="msfsi_icon" value="Family" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="978e333f-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800002" />
+        <field name="msfsi_name" value="Family" />
+      </record>
+      <record id="2f73ef48-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="4" />
+        <field name="msfsi_icon" value="Education" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="2f73ef48-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800003" />
+        <field name="msfsi_name" value="Education" />
+      </record>
+      <record id="26207f52-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="5" />
+        <field name="msfsi_icon" value="Work" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="26207f52-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800004" />
+        <field name="msfsi_name" value="Employment" />
+      </record>
+      <record id="950ddd5c-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="6" />
+        <field name="msfsi_icon" value="CityNext2" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="950ddd5c-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800005" />
+        <field name="msfsi_name" value="Residence" />
+      </record>
+      <record id="21ea5069-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="7" />
+        <field name="msfsi_icon" value="Car" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="21ea5069-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800006" />
+        <field name="msfsi_name" value="Vehicle" />
+      </record>
+      <record id="1764917c-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="8" />
+        <field name="msfsi_icon" value="Hospital" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="1764917c-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800008" />
+        <field name="msfsi_name" value="Health" />
+      </record>
+      <record id="9e3c78ad-1f34-ed11-9db1-0022482b0e6d">
+        <field name="msfsi_displayorder" value="9" />
+        <field name="msfsi_icon" value="Vacation" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="9e3c78ad-1f34-ed11-9db1-0022482b0e6d" />
+        <field name="msfsi_categorycode" value="104800040" />
+        <field name="msfsi_name" value="Leisure" />
+      </record>
+      <record id="3c072e86-1349-eb11-a813-000d3a1041e5">
+        <field name="msfsi_displayorder" value="10" />
+        <field name="msfsi_icon" value="CubeShape" />
+        <field name="msfsi_lifemomentcategoryconfigid" value="3c072e86-1349-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_categorycode" value="104800009" />
+        <field name="msfsi_name" value="Other" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+  <entity name="msfsi_lifemomentsconfigurations" displayname="Life Events Configurations">
+    <records>
+      <record id="62ce3c39-1749-eb11-a813-000d3a1041e5">
+        <field name="msfsi_birthdaycategorycode" value="104800000" />
+        <field name="msfsi_birthdaytypecode" value="104800000" />
+        <field name="msfsi_educationcategorycode" value="104800003" />
+        <field name="msfsi_focusindicationperioddays" value="14" />
+        <field name="msfsi_lifemomentsconfigurationsid" value="62ce3c39-1749-eb11-a813-000d3a1041e5" />
+        <field name="msfsi_newmomentindicationperioddays" value="8" />
+        <field name="msfsi_othercategorycode" value="104800009" />
+        <field name="msfsi_othertypecode" value="104800022" />
+        <field name="msfsi_name" value="conf" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

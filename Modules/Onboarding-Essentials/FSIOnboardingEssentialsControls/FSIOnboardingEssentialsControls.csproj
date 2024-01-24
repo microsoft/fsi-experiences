@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>Onboarding-Essentials</ModuleName>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(BuildScope)' != 'pipeline'">
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\ApplicantListControl\ApplicantListControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\OnboardingApplicationAssetsAndLiabilitiesControl\OnboardingApplicationAssetsAndLiabilitiesControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\OnboardingApplicationIncomeAndExpensesControl\OnboardingApplicationIncomeAndExpensesControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\EntitySnapshotControl\EntitySnapshotControl.pcfproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

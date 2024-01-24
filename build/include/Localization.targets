@@ -1,0 +1,122 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SkipLocalizationExtraction Condition="'$(ThrowsLocalizeError)' != ''">$(ThrowsLocalizeError)</SkipLocalizationExtraction>
+    <SkipLocalizationExtraction Condition="'$(SkipLocalizationExtraction)'==''">false</SkipLocalizationExtraction>
+    <LocalizationExtractionOutput Condition="!Exists('$(LocalizationExtractionOutput)')">$(OutputPath)LocExt</LocalizationExtractionOutput>
+    <LocalizationDrop>$(WSRoot)\drop\Resources</LocalizationDrop>
+    <SolutionPackageDefaultLocale Condition="'$(SolutionPackageDefaultLocale)' == ''">en-US</SolutionPackageDefaultLocale>
+    <UseResxManager Condition="'$(UseResxManager)' == ''">true</UseResxManager>
+    <ErrorOnLocDelta Condition="'$(ErrorOnLocDelta)' == ''">false</ErrorOnLocDelta>
+    <MakeLang Condition="!Exists('$(MakeLang)')">$(WSRoot)\Localize\FSI_Makelang.cmd</MakeLang>
+    <EnableMakeLang Condition="'$(EnableMakeLang)'!=''">$(EnableMakeLang)</EnableMakeLang>
+    <LocaleArgument Condition="!Exists('$(LocaleArgument)')">All</LocaleArgument>
+    <PseudoLocalizeArgument>/FullPL</PseudoLocalizeArgument>
+    <RePackagerLog>$(OutputPath)$(SolutionFileNamePrefix)_packager.log</RePackagerLog>
+    <MetadataSolutionArgument>/zipfile:$(OutputPath)$(SolutionFileNamePrefix).zip</MetadataSolutionArgument>
+    <AddedCount>0</AddedCount>
+    <RemovedCount>0</RemovedCount>
+    <ModifiedCount>0</ModifiedCount>
+  </PropertyGroup>
+
+  <Target Name="CheckNeededArguments" BeforeTargets="ExtractLocalizationResources">
+    <Warning Condition="'$(SolutionPackager)'==''" Text="SolutionPackager variable is not specified." />
+    <Warning Condition="'$(FolderArgument)'==''" Text="FolderArgument variable is not specified." />
+    <Warning Condition="'$(SolutionFileNamePrefix)'==''" Text="SolutionFileNamePrefix variable is not specified." />
+    <Warning Condition="'$(SolutionProjectNamePrefix)'==''" Text="SolutionProjectNamePrefix variable is not specified." />
+  </Target>
+
+  <Target Name="CallPowerAppsRefreshLoc" BeforeTargets="PowerAppsPackage" Condition="'$(MSBuildProjectExtension)' != '$(LegacyProjectFile)' AND '$(SkipLocalizationExtraction)'!='true'">
+    <CallTarget Targets="PowerAppsRefreshLoc" /> 
+    <CallTarget Targets="PowerAppsLocalizationDeltaDetection" />
+  </Target>
+
+  <Target Name="CallExtractLocalizationResources" BeforeTargets="GenerateSolutions" AfterTargets="Build" Condition="'$(MSBuildProjectExtension)' == '$(LegacyProjectFile)' AND '$(SkipLocalizationExtraction)'!='true'">
+    <CallTarget Targets="ExtractLocalizationResources" />
+    <CallTarget Targets="LocalizationDeltaDetection" />
+  </Target>
+
+  <Target Name="ExtractLocalizationResources" Condition="'$(SkipLocalizationExtraction)'!='true'">
+    <Message text="LOC: Localization extraction started.." Importance="High" />
+
+    <!-- generate metadata solution zip -->
+    <Message Text="LOC: Generating metadata solution.." />
+    <Exec Command="$(SolutionPackager) /action:pack /packagetype:both $(SolutionMapFileArgument) $(FolderArgument) $(MetadataSolutionArgument) /errorlevel:Verbose /l:$(RePackagerLog)" />
+
+    <!-- extract metadata solution zip to produce resx file -->
+    <Message Text="LOC: Generating localization resource files from Metadata solution.." />
+    <Exec Command="$(SolutionPackager) /n /action:extract /packagetype:both /folder:$(LocalizationExtractionOutput) $(MetadataSolutionArgument) /errorLevel:verbose /src /loc" />
+
+    <Message text="Localization extraction completed." Importance="High" />
+  </Target>
+
+  <Target Name="LocalizationDeltaDetection" DependsOnTargets="ExtractLocalizationResources">
+    <!-- update resx file in solution folder -->
+    <Message text="Detecting changes in $(SolutionPackageDefaultLocale) language resource file." Importance="High" />
+    <Message Text="UseResxManager value is: $(UseResxManager)" Importance="High" />
+    <Message Text="ErrorOnLocDelta value is: $(ErrorOnLocDelta)" Importance="High" />
+
+    <!--comment this next part out when possible. since this part is copy the files twice we want to check how can we eliminate some of the overhead of the copy and remove of of the copy stages -->
+    <!-- Copy newly generated resx to solution folder if not found-->
+    <Copy SourceFiles="$(LocalizationExtractionOutput)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx"
+      DestinationFolder="$(SolutionFolder)\Resources\$(SolutionPackageDefaultLocale)\"
+      Condition="Exists('$(LocalizationExtractionOutput)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx') 
+        AND !Exists('$(SolutionFolder)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx')"
+      SkipUnchangedFiles="True" />
+
+  </Target>
+
+  <Target Name="PowerAppsLocalizationDeltaDetection" DependsOnTargets="PowerAppsRefreshLoc">
+    <!-- update resx file in solution folder -->
+    <Message text="Detecting changes in $(SolutionPackageDefaultLocale) language resource file." Importance="High" />
+    <Message Text="UseResxManager value is: $(UseResxManager)" Importance="High" />
+    <Message Text="ErrorOnLocDelta value is: $(ErrorOnLocDelta)" Importance="High" />
+
+
+    <!-- Copy newly generated resx to solution folder if not found-->
+    <Copy SourceFiles="$(SolutionPackagerLocalizationWorkingDirectory)\Metadata\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx"
+      DestinationFolder="$(MSBuildProjectDirectory)\Resources\$(SolutionPackageDefaultLocale)\"
+      Condition="Exists('$(LocalizationExtractionOutput)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx')
+        AND !Exists('$(MSBuildProjectDirectory)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx')"
+      SkipUnchangedFiles="True" />
+  </Target>
+
+  <Target Name="BinplaceToDropFolder" AfterTargets="LocalizationDeltaDetection">
+    <!-- copy resx file to drop folder -->
+    <Copy SourceFiles="$(SolutionFolder)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx"
+      DestinationFolder="$(LocalizationDrop)\solutions\$(SolutionProjectNamePrefix)\Solution\Resources\$(SolutionPackageDefaultLocale)\"
+      Condition="Exists('$(SolutionFolder)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx')"
+      SkipUnchangedFiles="True" />
+  </Target>
+
+  <Target Name="PowerAppsBinplaceToDropFolder" AfterTargets="PowerAppsLocalizationDeltaDetection">
+    <!-- copy resx file to drop folder -->
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx"
+      DestinationFolder="$(LocalizationDrop)\solutions\$(SolutionFileNamePrefix)\Solution\Resources\$(SolutionPackageDefaultLocale)\"
+      Condition="Exists('$(MSBuildProjectDirectory)\Resources\$(SolutionPackageDefaultLocale)\resources.$(SolutionPackageDefaultLocale).resx')"
+      SkipUnchangedFiles="True" />
+  </Target>
+
+  <Target Name="MakeLangLocalization" AfterTargets="BinplaceToDropFolder" Condition="Exists('$(MakeLang)') AND '$(EnableMakeLang)'=='true'">
+    <Message text="MakeLang localization started.." Importance="High" />
+    <Exec Command="$(MakeLang) $(LocaleArgument) $(PseudoLocalizeArgument) /component $(SolutionProjectNamePrefix)" />
+    <Message text="MakeLang localization completed.." Importance="High" />
+  </Target>
+
+  <Target Name="CleanupTemporaryResourceFiles" AfterTargets="BinplaceToDropFolder">
+    <Message text="Removing temporary resource files.." />
+    <Message text="(To keep extraction output available, set KeepOutput property to true - /p:KeepOutput=true)" />
+    <Exec Command="rmdir /s /q $(LocalizationExtractionOutput)" Condition="'$(KeepOutput)'!='true'" />
+  </Target>
+
+  <Target Name="ExtractComponentLocalizationResources" Condition="'$(SkipLocalizationExtraction)' != 'true'">
+    <Message text="LOC: Extraction of $(MSBuildProjectName) localization started.." Importance="High" />
+
+    <!-- copy component resx file to drop folder -->
+    <PropertyGroup>
+      <ComponentRelativePath>$(MSBuildProjectDirectory.Replace('$(WSRoot)', '$(LocalizationDrop)'))</ComponentRelativePath>
+    </PropertyGroup>
+    <Copy SourceFiles="@(EmbeddedResource)" DestinationFiles="@(EmbeddedResource->'$(ComponentRelativePath)\%(Identity)')" />
+
+    <Message text="LOC: Extraction of $(MSBuildProjectName) localization completed." Importance="High" />
+  </Target>
+</Project>

@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "Kundenmomentaufnahme",
+    "ENTITY_ID": "Hauptentität",
+    "ENTITY_ID_DESC": "Die ID der Entität, die die Komponente Kundenmomentaufnahme zum Abrufen von Daten verwendet.",
+    "FORM_ID": "Formular-ID",
+    "FORM_ID_DESC": "Die ID des Formulars (Schnellansichtsformular), das zum Bestimmen der Datenfelder und des Layouts der Kundenmomentaufnahme verwendet wird",
+    "LINK_ENTITY_FIELD": "Feld für die Verknüpfung der Hauptentität",
+    "LINK_ENTITY_FIELD_DESC": "Der logische Name des Felds, das die ID der Hauptentität enthält (wird standardmäßig auf Entitätsname + ID festgelegt)",
+    "TITLE_VISIBILITY": "Titelsichtbarkeit",
+    "TITLE_VISIBILITY_DESC": "Titelabschnitt der Komponente ein- oder ausblenden",
+    "PREFERRED": "Bevorzugt",
+    "NO_DATA_TO_SHOW_YET": "Noch keine Daten zur Anzeige vorhanden",
+    "TRY_REFRESH_CONTACT_ADMIN": "Aktualisieren Sie Ihren Browser, oder wenden Sie sich an den IT-Administrator.",
+    "INVALID_CONFIGURATION": "Es ist ein Konfigurationsproblem aufgetreten.",
+    "PREFERRED_COMM_EMAIL": "Kunde bevorzugt die Kommunikation per E-Mail",
+    "PREFERRED_COMM_MAIL": "Kunde bevorzugt die Kommunikation per Post",
+    "PREFERRED_COMM_PHONE": "Kunde bevorzugt die Kommunikation per Telefon"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping>
+    <FileToFile map="PluginAssemblies/MicrosoftCloudForFSIOnboardingEssentialsBasePlugins-3DCA3871-D63A-4D88-B183-929FF587AB85/MicrosoftCloudForFSIOnboardingEssentialsBasePlugins.dll" to="..\..\..\drop\%BuildConfiguration%\%BuildPlatform%\Plugins\Microsoft.CloudForFSI.OnboardingEssentialsBase.Plugins.dll" />
+    <FileToPath map="WebResources\**\*.js" to="..\..\..\target\WebResources\Onboarding-Essentials\FSIOnboardingEssentialsBase\**" />
+    <FileToPath map="WebResources\*.js" to="..\..\..\target\WebResources\Onboarding-Essentials\FSIOnboardingEssentialsBase\**" />
+  </Mapping>

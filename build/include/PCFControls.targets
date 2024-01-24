@@ -1,0 +1,39 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LegacyProjectFile>.pcfproj</LegacyProjectFile>
+    <SolutionPackager Condition="'$(SolutionPackager)' == ''">$(PkgMicrosoft_CrmSdk_CoreTools)\content\bin\coretools\SolutionPackager.exe</SolutionPackager>
+    <LocalizeArgument Condition="'$(EnableLocalization)' == 'true'">/src /loc</LocalizeArgument>
+    <TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
+    <BuildMode Condition="'$(Configuration)' == 'release'">-- --buildMode production</BuildMode>
+  </PropertyGroup>
+
+  <Target Name="RestoreNPM" AfterTargets="Restore">
+    <Message Text="Restoring PNPM packages..."  Importance="normal" />
+    <Exec Command="pnpm i --filter {./}... --frozen-lockfile" />
+  </Target>
+
+  <Target Name="Build" AfterTargets="PrepareEnvironment" Condition="'$(DynamicsProjectType)' == 'PCFControl' AND '$(TargetModuleLocation)' != ''">    
+    <Message Text="Control version update enabled" />
+    <CallTarget Condition="'$(ControlManifest)' != ''" Targets="ResolveControlVersion" />
+    <Message Text="Going to execute npm run due to errors during localiztaion when using msbuild and Microsoft.Common.Currentversion.Targets" Importance="High"/>
+    <Error Text="The 'Name' property needs to be defined for PCF controls" Condition="'$(Name)' == ''"/>
+    <Exec command="npm run build $(BuildMode)" />
+    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; Test-Path -Path $(OutputPath)\$(Name)\ControlManifest.xml -PathType Leaf }&quot;" ConsoleToMsBuild="true">
+      <Output TaskParameter="ConsoleOutput" PropertyName="ControlManifestExists" />
+    </Exec>
+    <Error Condition="'$(ControlManifestExists)' == 'false'" Text="Could not locate file: $(OutputPath)\$(Name)\ControlManifest.xml" />
+  </Target>
+
+  <Target Name="AfterPCFControlBuild" AfterTargets="PrepareEnvironment;Build" Condition="'$(DynamicsProjectType)' == 'PCFControl' AND '$(TargetModuleLocation)' != ''">
+    <Message Text="SolutionXMLPath is $(TargetModuleLocation)\Other\Solution.xml" Importance="High"/>
+    <Message Text="ControlManifestpath is $(ModulePath)\$(Name)\$(ControlManifest)" Importance="High"/>
+    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\Get-PCFControlSchemaName.ps1 -SolutionXmlPath $(TargetModuleLocation)\Other\Solution.xml  -ControlManifestPath $(ModulePath)\$(Name)\$(ControlManifest) }&quot;" ConsoleToMsBuild="true">
+        <Output TaskParameter="ConsoleOutput" PropertyName="SchemaName" />
+    </Exec>
+
+    <Message Text="Binplacing PCF Controls From $(OutputPath)\$(Name) into $(TargetModuleLocation)\Controls\$(SchemaName).$(Name)" Importance="High" />
+    <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; xcopy $(OutputPath)\$(Name) $(TargetModuleLocation)\Controls\$(SchemaName).$(Name) /e /i /s /y}&quot;" />
+  </Target>
+
+  <Import Project="$(MSBuildThisFileDirectory)\ControlManifestAutoVersion.targets" Condition="'$(DynamicsProjectType)' == 'PCFControl' AND '$(ControlManifest)' != ''"/>
+</Project>

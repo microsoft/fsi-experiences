@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Package</DynamicsProjectType>
+	  <ModuleName>UCP-Retail-Banking</ModuleName>
+    <AnchorSolutionName>FSIUnifiedCustomerProfileAnchor</AnchorSolutionName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PackageExtra\**\*.*">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="$(ModuleName)\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIRetailBankingCoreComponents_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreComponents_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIRetailBankingCoreControls_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreControls_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIUnifiedCustomerProfileSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSIUnifiedCustomerProfileSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIUnifiedCustomerProfile_managed.zip">
+      <Link>$(ModuleName)\FSIUnifiedCustomerProfile_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIUnifiedCustomerProfileAnchor_managed.zip">
+      <Link>$(ModuleName)\FSIUnifiedCustomerProfileAnchor_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\FSIRetailBankingCoreComponents\FSIRetailBankingCoreComponents.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIRetailBankingCoreControls\FSIRetailBankingCoreControls.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIUnifiedCustomerProfileSecurityRoles\FSIUnifiedCustomerProfileSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIUnifiedCustomerProfile\FSIUnifiedCustomerProfile.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIUnifiedCustomerProfileAnchor\FSIUnifiedCustomerProfileAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+
+</Project>

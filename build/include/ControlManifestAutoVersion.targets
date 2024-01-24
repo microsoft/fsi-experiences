@@ -1,0 +1,98 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask TaskName="ReadArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="ReadArtifactName" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="ResolveArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+  <UsingTask TaskName="SetArtifactVersion" AssemblyFile="$(WSRoot)build\LocalTools\ArtifactVersioning\ArtifactVersioning.Extension.dotnetcore.dll" />
+
+  <PropertyGroup>
+    <ControlName Condition="'$(ControlName)' == '' OR !Exists('$(ControlName)')">$(Name)</ControlName>
+    <ControlManifest Condition="'$(ControlManifest)' == '' OR !Exists('$(ControlManifest)')">ControlManifest.xml</ControlManifest>
+    <ControlVersion Condition="'$(ControlVersion)' == ''"></ControlVersion>
+    <SkipArtifactVersioning Condition="'$(SkipArtifactVersioning)' == ''">False</SkipArtifactVersioning>
+    <ContextControlVersion>None</ContextControlVersion>
+    <QueriedControlVersion>None</QueriedControlVersion>
+    <DynamicControlVersion>None</DynamicControlVersion>
+  </PropertyGroup>
+
+  <Target Name="ResolveControlVersion" BeforeTargets="BeforeBuild">
+    <!-- resolve properties before versioning operation -->
+    <PropertyGroup>
+      <ArtifactBaseVersion Condition="'$(ArtifactBaseVersion)' == ''">$(ControlVersion)</ArtifactBaseVersion>
+
+      <ReturnNextVersion Condition="'$(ReturnNextVersion)' == ''">True</ReturnNextVersion>
+      
+      <UseBaseVersion Condition="'$(UseBaseVersion)' == ''">False</UseBaseVersion>
+      <UseBaseVersion Condition="'$(DynamicControlVersion)' != 'None' AND '$(DynamicControlVersion)' != ''">True</UseBaseVersion>
+
+      <Artifact>$(ControlIdentity)</Artifact>
+      <TF_BUILD Condition="'$(TF_BUILD)' == ''">False</TF_BUILD>
+    </PropertyGroup>
+    
+    <!-- display known information before versioning -->
+    <Message Text="Start custom control versioning.." />
+    <Message Text="Provided control version is: $(ControlVersion)" />
+    <Message Text="UseBaseVersion value is: $(UseBaseVersion)" Importance="High" />
+    <Message Text="ReturnNextVersion value is: $(ReturnNextVersion)" Importance="High" />
+    <Message Text="Control manifest file is: $(ControlManifest)" />
+    <Message Text="Control manifest file version is: $(ControlVersion)" />
+    
+    <Message Text="Artifact is: $(Artifact)" />
+    <Message Text="Artifact base version will be: $(ArtifactBaseVersion)" />
+    <Message Text="ArtifactVersioning tool will be skipped: $(SkipArtifactVersioning)" />
+    <Message Text="Triggered from build pipeline: $(TF_BUILD)" />
+
+    <!-- resolve version using ArtifactVersioning tool -->
+    <ResolveArtifactVersion Condition="'$(TF_BUILD)' == 'True' AND '$(Artifact)' != '' AND '$(SkipArtifactVersioning)' != 'True'"
+      Artifact="$(Artifact)" BaseVersion="$(ArtifactBaseVersion)" ReturnNextVersion="$(ReturnNextVersion)" UseBaseVersion="$(UseBaseVersion)"
+      AutoVersionURL="$(AutoVersionURL)" AutoVersionUserName="$(AutoVersionUserName)" AutoVersionUserPassword="$(AutoVersionPassword)">
+      <Output TaskParameter="ResolvedVersion" PropertyName="ResolvedArtifactVersion" />
+    </ResolveArtifactVersion>
+
+    <PropertyGroup>
+      <ResolvedArtifactVersion Condition="'$(ResolvedArtifactVersion)' == ''">$(ArtifactBaseVersion)</ResolvedArtifactVersion>
+    </PropertyGroup>
+    
+    <Message text="Artifact resolved version is: $(ResolvedArtifactVersion)" Importance="High" />
+    
+    <!-- update control manifest when version changed -->
+    <SetArtifactVersion Type="ControlManifest" Path="$(ControlManifest)" Version="$(ResolvedArtifactVersion)" Condition="Exists('$(ControlManifest)')" />
+    <Message Text="Completed custom control versioning." />
+  </Target>
+
+  <Target Name="PropertyInitialization" BeforeTargets="ResolveControlVersion">
+    <!-- display control context version -->
+    <PropertyGroup>
+      <ContextControlVersion Condition="'$(ControlVersion)' != ''">$(ControlVersion)</ContextControlVersion>
+    </PropertyGroup>
+
+    <!-- read control manifest information and version information when not specified; only executes when no context version -->
+    <ReadArtifactVersion Type="ControlManifest" Path="$(ControlManifest)" Condition="'$(ControlVersion)' == '' AND Exists('$(ControlManifest)')">
+      <Output TaskParameter="Version" PropertyName="QueriedControlVersion" />
+    </ReadArtifactVersion>
+
+    <ReadArtifactName Type="ControlManifest" Path="$(ControlManifest)" Condition="'$(ControlName)' == '' AND Exists('$(ControlManifest)')">
+      <Output TaskParameter="Name" PropertyName="QueriedControlName" />
+    </ReadArtifactName>
+
+    <PropertyGroup>
+      <ControlVersion Condition="'$(QueriedControlVersion)' != 'None' AND '$(ConrolVersion)' == ''">$(QueriedControlVersion)</ControlVersion>
+      <ControlIdentity>$(ControlName)</ControlIdentity>
+      <ControlIdentity Condition="'$(ControlName)' == ''">$(QueriedControlName)</ControlIdentity>
+    </PropertyGroup>
+
+    <!-- retrieve provided custom control version from dynamic properties; overrides context and queried versions -->
+    <ItemGroup>
+      <_Artifact Include="$(ControlIdentity.Replace(&quot;.&quot;, &quot;&quot;))" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+      <DynamicControlVersion Condition="'$(%(_Artifact.Identity))' != ''">$(%(_Artifact.Identity))</DynamicControlVersion>
+      <ControlVersion Condition="'$(DynamicControlVersion)' != 'None' AND '$(DynamicControlVersion)' != ''">$(DynamicControlVersion)</ControlVersion>
+    </PropertyGroup>
+
+    <Message Text="Context control version is: $(ContextControlVersion)" />
+    <Message Text="Queried control version is: $(QueriedControlVersion)" />
+    <Message Text="Dynamic control version is: $(DynamicControlVersion)" />
+    <Message Text="Version to use is: $(ControlVersion)" />
+  </Target>
+</Project>

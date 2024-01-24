@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Microsoft.Dynamics.FSI</id>
+    <!--Increase this version to ship a version upgrade-->
+    <version>1.4.0.0</version>
+    <authors>Microsoft Corporation</authors>
+    <owners>Microsoft Dynamics FSI</owners>
+    <projectUrl>https://dev.azure.com/FSI/_git/EngineeringSystemBuilder</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft Dynamics 365 FSI</description>
+    <releaseNotes>This release includes template packages</releaseNotes>
+    <copyright>Copyright ©2021 Microsoft Corporation</copyright>
+    <tags>Microsoft Dynamics FSI $branchName$</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\drop\$configuration$\$platform$\PDPackages\*.*" target="PDPackages" />
+    <file src="..\..\drop\$configuration$\$platform$\PVSPackages\*.*" target="PVSPackages" />
+  </files>
+</package>

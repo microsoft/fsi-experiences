@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e8d6a922-ec24-420a-b559-6f467fc589f9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{cfd319c0-06ad-457c-a9a9-3ed1e45ccffa}" IsUserDefined="1" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section id="{70a0c2c6-c100-4c33-81cc-6c367bd9d9eb}" name="conflictssection" group="solutionconflictssection" ordinalvalue="1" solutionaction="Added">
+                  <labels>
+                    <label description="Conflicts section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13e7c251-64a2-aed9-0920-5c10256c2345}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Financial holding" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholding" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_financialholding" disabled="true" uniqueid="{26ba6c79-bdea-15dd-ce59-eadb83a872e6}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{9FD80B26-323A-44B6-879F-3DE504E317F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58a21077-5c4b-9d29-bdbd-81ca3a44cc1e}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Financial instrument type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialholdinginstrumenttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialholdinginstrumenttype" disabled="true" uniqueid="{0d3dbc45-9571-17b1-3566-b1632b53801e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

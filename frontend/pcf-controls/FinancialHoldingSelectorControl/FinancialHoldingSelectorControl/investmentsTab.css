@@ -1,0 +1,72 @@
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] section[data-id='investments_selector'],
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] section[data-id='investments_form'] {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 100%;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR']
+    section[data-id='investments_selector']
+    > div[role='presentation']
+    > div[role='presentation']
+    > div[role='presentation'],
+div[data-id='tabpanel-INVESTMENTS_SELECTOR']
+    section[data-id='investments_form']
+    > div[role='presentation']
+    > div[role='presentation']
+    > div[role='presentation'] {
+    padding: 0;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] section[data-id='PORTFOLIO_ASSETS_SECTION'] {
+    margin: 0 24px;
+    padding-block-start: 24px;
+    border-top: 1px solid #edebe9;
+    margin-block-start: 24px;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_fhlookupplaceholder-empty-iconWrapper'] {
+    display: none;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_fhlookupplaceholder-FieldSectionItemContainer'],
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_name-FieldSectionItemContainer'] {
+    padding: 0;
+    border: 0;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_fhlookupplaceholder-FieldSectionItemContainer'] > div:first-child,
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_name-FieldSectionItemContainer'] > div:first-child {
+    display: none;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_fhlookupplaceholder-FieldSectionItemContainer'] > div:last-child,
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] div[data-id='msfsi_name-FieldSectionItemContainer'] > div:last-child {
+    flex: 1;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] {
+    padding-inline: 16px;
+    padding-block: 10px 20px;
+    background: #ebe9e7;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] > section:first-child {
+    border-inline-end: 1px solid #edebe9;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] > section:first-child,
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] > section:last-child {
+    margin: 0;
+}
+
+div[data-id='tabpanel-INVESTMENTS_SELECTOR'] > section:last-child {
+    display: none;
+}
+
+@media screen and (min-width: 960px) {
+    div[data-id='tabpanel-INVESTMENTS_SELECTOR'] > section:last-child {
+        display: block;
+    }
+}

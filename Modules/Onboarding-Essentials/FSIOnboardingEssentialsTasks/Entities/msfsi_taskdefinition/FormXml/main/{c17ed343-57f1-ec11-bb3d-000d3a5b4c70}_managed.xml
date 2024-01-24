@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c17ed343-57f1-ec11-bb3d-000d3a5b4c70}</formid>
+    <IntroducedVersion>1.3.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{df54012c-8969-4d4d-87e8-6192f120fa37}" IsUserDefined="1" labelid="{88d429f9-5544-453d-8dc2-093946c0fb83}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{16b106f4-3f66-4854-8939-de5bc56e1e78}" labelid="{083718d2-27b9-445e-853f-b5d380f1bf82}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d62a499f-cc4d-4653-b5a8-fee3e18c334b}" labelid="{dd7c92da-ec44-4681-ae6b-a1db478e453f}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ea74da9-2576-4a38-adc6-64dfcf25707d}" labelid="{ed6aebbf-6f0f-42e1-8344-4d60daf5d092}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8384e135-5579-477e-b204-f83e46a41ef2}" locklevel="0" colspan="1" rowspan="1" labelid="{7e81ec94-3140-4ff4-b0cf-4bd8c42b8c33}">
+                        <labels>
+                          <label description="Business scenario" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_businessscenario" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_businessscenario" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c6098e9-9863-424e-8fd2-d549aa888aee}" locklevel="0" colspan="1" rowspan="1" labelid="{0bc6562d-58cf-4f6d-8045-dfb8cc0627b4}">
+                        <labels>
+                          <label description="Task group" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_taskgroup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_taskgroup" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{33711eb2-b62b-4f5f-9737-929c4e57c5e7}" locklevel="0" colspan="1" rowspan="1" labelid="{b86c0386-70b7-4f50-9c7c-f9b3098309a0}">
+                        <labels>
+                          <label description="Task object" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_taskobject" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_taskobject" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8c235dc-486b-48d4-895c-3e45fb1ab678}" locklevel="0" colspan="1" rowspan="1" labelid="{3eff9606-5a31-4715-985f-f6689f2937ca}">
+                        <labels>
+                          <label description="Trigger type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_triggertype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_triggertype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c83cdfb-0fca-45a1-8cd9-864583f4631a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Association type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_associationtype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_associationtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff2c06a2-b691-4eb5-bbef-42f370d17acf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task navigation" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_tasknavigation" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_tasknavigation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03c49b86-3720-431b-ab4d-3914ce1326c7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Task type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_tasktype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="msfsi_tasktype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf337c7c-42eb-40af-a637-971a4c5c1b92}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Process Stage" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_processstage" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_processstage" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{4c143f09-9e26-4478-9bf8-588f0f787d47}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Related party roles" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="application_contact_roles_grid" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>msfsi_relatedpartyrole</TargetEntityType>
+                            <ViewId>{5DC4CE2B-D723-4C6D-8B18-9E3E03E0DFAB}</ViewId>
+                            <ViewIds>{5DC4CE2B-D723-4C6D-8B18-9E3E03E0DFAB}</ViewIds>
+                            <RelationshipName>msfsi_taskdefinition_msfsi_relatedpartyrole</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{3036f9a8-d30a-449e-959b-d510b85802e8}" rowspan="4" colspan="1" auto="false">
+                        <labels>
+                          <label description="Application categories" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>msfsi_applicationcategory</TargetEntityType>
+                            <ViewId>{56C86F78-C985-4C1F-8879-EFB68F8EACA8}</ViewId>
+                            <ViewIds>{56C86F78-C985-4C1F-8879-EFB68F8EACA8}</ViewIds>
+                            <RelationshipName>msfsi_msfsi_taskdefinition_msfsi_applicationcat</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{6eeb2822-7558-417c-8823-c764ac65fbcb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{21349eca-cde6-4a72-afa2-7777e29f5801}" showlabel="false" labelid="{2665bb35-1e6a-4954-b1ce-7429ba1fe364}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6b1daed8-c5a0-4562-8abf-313b6eb8b134}" showlabel="false" labelid="{5091cf48-bb73-4ac7-8647-222dcd6340f3}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c462b2e4-0041-4b1f-b162-680e660254b1}" showlabel="false" labelid="{366e26f1-5a78-445c-9176-b461fde529e2}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{0717a169-a40d-4c6e-a413-bdef9bd170e3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{38c794f9-1cff-487d-9811-a7648b655d7f}" showlabel="false" labelid="{3fb8ffba-2c32-4840-8435-18c2765a493c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{94d0bd4b-716d-42b6-87bf-804e80c89b35}" showlabel="false" labelid="{5dcae4d6-1bfd-4fc1-b6b0-52d3929f2277}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8965615c-776b-4b2d-bf38-b051c7b894aa}" showlabel="false" labelid="{8e794b72-ed97-41a8-8c9f-fbf488dfd19d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Task definition main create form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

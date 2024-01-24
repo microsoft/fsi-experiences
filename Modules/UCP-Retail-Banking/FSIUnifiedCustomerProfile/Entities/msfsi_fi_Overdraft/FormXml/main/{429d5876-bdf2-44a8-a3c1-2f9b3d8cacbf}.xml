@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{429d5876-bdf2-44a8-a3c1-2f9b3d8cacbf}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{136ad4da-f556-416f-b82b-b9a5dde16221}" IsUserDefined="1" labelid="{962acf39-c8a9-4c26-b899-116c0cee56ef}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e47ec1ca-e343-4fc3-a281-e165f1330f4a}" labelid="{82c87896-412a-4448-b76b-623f574ba810}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{72d733bc-c6aa-4de9-89e4-4d9350b7ca39}" labelid="{1dcc0212-7117-4455-bacf-b3ceb52627bf}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c12fbeb-2618-4c8d-804a-59a4999cbbc9}" labelid="{5129512d-d8e2-4095-92db-eb50d085b294}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{759cd75b-9bec-0d8a-aa37-88e1524ede33}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Financial instrument type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialinstrumenttype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_financialinstrumenttype" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed7a3a06-5e13-3c39-3863-bbd1e9b13e40}" showlabel="true" locklevel="0" labelid="{25db9861-9d76-4249-a2af-3ab42f6d6da4}">
+                        <labels>
+                          <label description="Overdraft limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overdraftlimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_overdraftlimit" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{111d9e86-1bc0-8cde-7162-44a4e84c39c4}" showlabel="true" locklevel="0" labelid="{23d7aa42-a3ea-4d10-89f1-4e287b2f1b1d}">
+                        <labels>
+                          <label description="Overdraft limit used" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overdraftlimitused" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_overdraftlimitused" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c3cc5ce-1220-3599-6d29-6ea24c4a6835}" showlabel="true" locklevel="0" labelid="{b2788e1c-103e-4fff-9c95-0c8b08bdcb85}">
+                        <labels>
+                          <label description="Overdraft rate" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overdraftrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_overdraftrate" disabled="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="FI overdraft main form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

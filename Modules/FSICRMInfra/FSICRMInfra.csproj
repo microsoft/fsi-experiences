@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Plugin</DynamicsProjectType>
+    <RootNamespace>Microsoft.CloudForFSI.Infra</RootNamespace>
+    <AssemblyName>Microsoft.CloudForFSI.Infra</AssemblyName>
+    <ModuleName>FSICRMInfra</ModuleName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
+    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="$(CrmSdk_Workflow_PackageVersion)" GeneratePathProperty="true" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(Newtonsoft_Json_PackageVersion)" GeneratePathProperty="true" />
+	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="$(CrmSdk_XrmTooling_CoreAssembly_PackageVersion)" GeneratePathProperty="true" />
+	  <PackageReference Include="Microsoft.CrmSdk.XrmTooling.PackageDeployment" Version="$(CrmSdk_XrmTooling_PackageDeployment_PackageVersion)" GeneratePathProperty="true" />
+  </ItemGroup>
+</Project>

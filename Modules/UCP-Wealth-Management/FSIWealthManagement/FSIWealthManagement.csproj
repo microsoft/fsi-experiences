@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>UCP-Wealth-Management</ModuleName>
+    <SolutionMapFile>packageMap.xml</SolutionMapFile>
+  </PropertyGroup>
+</Project>

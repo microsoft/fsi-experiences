@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<DynamicsProjectType>Plugin</DynamicsProjectType>
+		<RootNamespace>Microsoft.CloudForFSI.OnboardingEssentials.Plugins</RootNamespace>
+		<AssemblyName>Microsoft.CloudForFSI.OnboardingEssentials.Plugins</AssemblyName>
+		<ModuleName>Onboarding-Essentials</ModuleName>
+	</PropertyGroup>	
+</Project>

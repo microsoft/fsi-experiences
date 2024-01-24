@@ -1,0 +1,28 @@
+{
+    "name": "@fsi-pcf/onboarding-application-assets-and-liabilities-pcf",
+    "version": "1.0.0",
+    "description": "Project containing your PowerApps Component Framework (PCF) control.",
+    "scripts": {
+        "build": "set NODE_OPTIONS=--openssl-legacy-provider && npm run build-translations && pcf-scripts build",
+        "clean": "pcf-scripts clean",
+        "rebuild": "pcf-scripts rebuild",
+        "start": "set NODE_OPTIONS=--openssl-legacy-provider && npm run build-translations --isDev && pcf-scripts start watch",
+        "build-translations": "node ../../scripts/localization/create-resx.js onboarding-application=AssetsAndLiabilities,FinancialCategoriesFormFields",
+        "go": "npm run build-libs && npm i && pcf-scripts start watch"
+    },
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "@types/node": "^10.17.49",
+        "@types/powerapps-component-framework": "^1.2.0",
+        "@fsi/pcf-common": "1.0.0",
+        "@fsi/core-components": "1.0.0",
+        "@fsi/onboarding-application": "1.0.0",
+        "@fsi-pcf/onboarding-application-common": "1.0.0"
+    },
+    "devDependencies": {
+        "pcf-scripts": "^1.19.4",
+        "pcf-start": "^1.19.4",
+        "typescript": "^4.1.5"
+    }
+}

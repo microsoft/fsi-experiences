@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Package</DynamicsProjectType>
+    <ModuleName>UCP-Wealth-Management</ModuleName>
+    <AnchorSolutionName>FSIWealthManagementAnchor</AnchorSolutionName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PackageExtra\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(ModuleName)\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\UCP-Retail-Banking\FSIRetailBankingCoreControls_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreControls_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\UCP-Retail-Banking\FSIRetailBankingCoreComponents_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreComponents_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIWealthManagementAnchor_managed.zip">
+      <Link>$(ModuleName)\FSIWealthManagementAnchor_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIWealthManagement_managed.zip">
+      <Link>$(ModuleName)\FSIWealthManagement_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIWealthManagementSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSIWealthManagementSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\UCP-Retail-Banking\FSIRetailBankingCoreComponents\FSIRetailBankingCoreComponents.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\UCP-Retail-Banking\FSIRetailBankingCoreControls\FSIRetailBankingCoreControls.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIWealthManagement\FSIWealthManagement.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIWealthManagementAnchor\FSIWealthManagementAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIWealthManagementSecurityRoles\FSIWealthManagementSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+
+</Project>

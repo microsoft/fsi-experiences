@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Package</DynamicsProjectType>
+    <ModuleName>Onboarding-Essentials</ModuleName>
+    <AnchorSolutionName>FSIOnboardingEssentialsAnchor</AnchorSolutionName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PackageExtra\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(ModuleName)\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsAnchor_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsAnchor_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsBase_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsBase_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsTasks_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsTasks_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIApplicationQueueControl_managed.zip">
+      <Link>$(ModuleName)\FSIApplicationQueueControl_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsControls_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsControls_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FSIOnboardingEssentialsAnchor\FSIOnboardingEssentialsAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIOnboardingEssentialsBase\FSIOnboardingEssentialsBase.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIOnboardingEssentialsTasks\FSIOnboardingEssentialsTasks.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIApplicationQueueControl\FSIApplicationQueueControl.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIOnboardingEssentialsSecurityRoles\FSIOnboardingEssentialsSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIOnboardingEssentialsControls\FSIOnboardingEssentialsControls.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\FSIOnboardingEssentialsDataModel\FSIOnboardingEssentialsDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+
+</Project>

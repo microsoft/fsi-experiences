@@ -1,0 +1,12 @@
+<customapirequestparameter uniquename="FileName">
+  <description default="The name of the file.">
+    <label description="The name of the file." languagecode="1033" />
+  </description>
+  <displayname default="File name">
+    <label description="File name" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isoptional>0</isoptional>
+  <name>File name</name>
+  <type>10</type>
+</customapirequestparameter>

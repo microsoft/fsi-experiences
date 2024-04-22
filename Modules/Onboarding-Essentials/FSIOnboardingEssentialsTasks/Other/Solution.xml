@@ -112,7 +112,7 @@
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationTaskProgressOverviewControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.OnboardingApplicationTasksControl" behavior="0" />
       <RootComponent type="66" schemaName="msfsi_MicrosoftPCF.TaskVerificationControl" behavior="0" />
-      <RootComponent type="91" id="{a94d11b9-3c69-4804-b043-615f8a8fb2a1}" schemaName="Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{a94d11b9-3c69-4804-b043-615f8a8fb2a1}" schemaName="Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
       <RootComponent type="92" id="{a6bea4b2-2b17-ed11-b83e-00224823c9ac}" behavior="0" />
       <RootComponent type="92" id="{c4c04346-d2b2-ed11-83fe-002248049a2f}" behavior="0" />
       <RootComponent type="181" id="{a36072f1-dc05-ed11-82e4-000d3a9c71b4}" schemaName="Onboarding form provider" behavior="0" />

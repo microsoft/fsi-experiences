@@ -88,7 +88,7 @@
       <RootComponent type="29" id="{ba35f4f3-a7fa-ec11-82e5-000d3a182304}" behavior="0" />
       <RootComponent type="29" id="{c035fd97-3f6b-ed11-9561-00224805ce8f}" behavior="0" />
       <RootComponent type="29" id="{d406b572-667f-ed11-81ad-0022482a4e0c}" behavior="0" />
-      <RootComponent type="91" id="{a5181d67-3447-40b2-9c0a-1a593d641be7}" schemaName="Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{a5181d67-3447-40b2-9c0a-1a593d641be7}" schemaName="Microsoft.CloudForFSI.FSIDocumentIntelligenceCore.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>

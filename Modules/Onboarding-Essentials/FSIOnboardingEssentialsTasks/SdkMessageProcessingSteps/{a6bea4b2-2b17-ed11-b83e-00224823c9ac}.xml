@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SdkMessageProcessingStep Name="Microsoft.CloudForFSI.OnboardingEssentials.Plugins.DeleteTaskDefinition.DeleteTaskDefinitionPlugin: Delete of msfsi_taskdefinition" SdkMessageProcessingStepId="{a6bea4b2-2b17-ed11-b83e-00224823c9ac}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>a1bdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
-  <PluginTypeName>Microsoft.CloudForFSI.OnboardingEssentials.Plugins.DeleteTaskDefinition.DeleteTaskDefinitionPlugin, Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</PluginTypeName>
+  <PluginTypeName>Microsoft.CloudForFSI.OnboardingEssentials.Plugins.DeleteTaskDefinition.DeleteTaskDefinitionPlugin, Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
   <PluginTypeId>72591ac6-6d5c-453d-858f-af75620dfbb8</PluginTypeId>
   <PrimaryEntity>msfsi_taskdefinition</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>

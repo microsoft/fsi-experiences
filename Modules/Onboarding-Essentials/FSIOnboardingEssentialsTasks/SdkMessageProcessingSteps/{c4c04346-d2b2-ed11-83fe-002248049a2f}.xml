@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SdkMessageProcessingStep Name="Microsoft.CloudForFSI.OnboardingEssentials.Plugins.UpdateTaskComment.UpdateTaskCommentPlugin: Update of task" SdkMessageProcessingStepId="{c4c04346-d2b2-ed11-83fe-002248049a2f}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
-  <PluginTypeName>Microsoft.CloudForFSI.OnboardingEssentials.Plugins.UpdateTaskComment.UpdateTaskCommentPlugin, Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</PluginTypeName>
+  <PluginTypeName>Microsoft.CloudForFSI.OnboardingEssentials.Plugins.UpdateTaskComment.UpdateTaskCommentPlugin, Microsoft.CloudForFSI.OnboardingEssentials.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
   <PluginTypeId>cad17a79-0295-4b4f-b020-51d6a3f36145</PluginTypeId>
   <PrimaryEntity>task</PrimaryEntity>
   <AsyncAutoDelete>0</AsyncAutoDelete>

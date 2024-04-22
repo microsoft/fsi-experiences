@@ -114,7 +114,7 @@
       <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.nl-NL.resx" behavior="0" />
       <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.pt-BR.resx" behavior="0" />
       <RootComponent type="61" schemaName="msfsi_PluginResources/OnboardingEssentialsBaseLabels.zh-TW.resx" behavior="0" />
-      <RootComponent type="91" id="{3dca3871-d63a-4d88-b183-929ff587ab85}" schemaName="Microsoft.CloudForFSI.OnboardingEssentialsBase.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{3dca3871-d63a-4d88-b183-929ff587ab85}" schemaName="Microsoft.CloudForFSI.OnboardingEssentialsBase.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>

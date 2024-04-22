@@ -84,7 +84,7 @@
       <RootComponent type="29" id="{4100f8f5-87dc-ed11-a7c7-000d3a57a958}" behavior="0" />
       <RootComponent type="61" schemaName="msfsi_ArchiveLoanApplication.js" behavior="0" />
       <RootComponent type="29" id="{a2a38135-ebda-ed11-a7c7-0022482804c6}" behavior="0" />
-      <RootComponent type="91" id="{4108ce2b-fedc-448c-86eb-2c7eafc482d2}" schemaName="Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{4108ce2b-fedc-448c-86eb-2c7eafc482d2}" schemaName="Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
       <RootComponent type="92" id="{a21f49c1-badc-ed11-a7c7-000d3a57a958}" behavior="0" />
     </RootComponents>
     <MissingDependencies>

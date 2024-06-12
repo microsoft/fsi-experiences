@@ -1,0 +1,155 @@
+<Project>
+	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Solution'">
+		<Content Include="AppModules\**\*.*" />
+		<Content Include="AppModuleSiteMaps\**\*.*" />
+		<Content Include="Controls\**\*.*" />
+		<Content Include="Dashboards\**\*.*" />
+		<Content Include="Entities\**\*.*" />
+		<Content Include="EnvironmentVariables\**\*.*" />
+		<Content Include="OptionSets\**\*.*" />
+		<Content Include="Other\**\*.*" />
+		<Content Include="PluginAssemblies\**\*.*" />
+		<Content Include="Resources\**\*.*" />
+		<Content Include="Roles\**\*.*" />
+		<Content Include="SdkMessageProcessingSteps\**\*.*" />
+		<Content Include="WebResources\**\*.*" />
+		<Content Include="Workflows\**\*.*" />
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(DynamicsProjectType)' == 'Solution'">
+		<SolutionProjectNamePrefix>$(MSBuildProjectName)</SolutionProjectNamePrefix>
+		<SolutionFileNamePrefix>$(MSBuildProjectName)</SolutionFileNamePrefix>
+		<ApplicationFolder>$(MSBuildProjectDirectory)</ApplicationFolder>
+		<SolutionFolder>$(MSBuildProjectDirectory)</SolutionFolder>
+		<SolutionXML>$(ApplicationFolder)\Other\Solution.xml</SolutionXML>
+		<SolutionOutputPath>$(WSRoot)drop\$(BuildConfiguration)\$(BuildPlatform)\Solutions\$(ModuleName)</SolutionOutputPath>
+		<UnmanagedSolutionName>$(SolutionOutputPath)\$(SolutionFileNamePrefix)</UnmanagedSolutionName>
+		<ManagedSolutionName>$(SolutionOutputPath)\$(SolutionFileNamePrefix)_managed</ManagedSolutionName>
+		<PackagerLog>$(WSRoot)drop\$(BuildConfiguration)\$(BuildPlatform)\Logs\$(ModuleName)\$(MSBuildProjectName)\$(SolutionFileNamePrefix)_packager.log</PackagerLog>
+		<BuildScope Condition="'$(BuildScope)' == ''">local</BuildScope>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(DynamicsProjectType)' == 'Plugin' AND '$(TF_BUILD)' != ''">
+		<DebugType>Full</DebugType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(DynamicsProjectType)' == 'Package'">
+		<PDPackageName>$(ModuleName)-PackageDeployer</PDPackageName>
+		<PVSPackageName>$(ModuleName)-AppSource</PVSPackageName>
+		<PackageExtraFolder>$(MSBuildProjectDirectory)\PackageExtra</PackageExtraFolder>
+		<DllName>$(AssemblyName).dll</DllName>
+		<DropFolder>$(ModuleName)\$(MSBuildProjectName)</DropFolder>
+		<BuildPVS>true</BuildPVS>
+		<TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(DynamicsProjectType)' == 'Plugin'">
+    	<SignAssembly>true</SignAssembly>
+    	<AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)\build\config\key.snk</AssemblyOriginatorKeyFile>
+    	<DelaySign>false</DelaySign>
+  	</PropertyGroup>
+
+	<PropertyGroup>
+		<UseBaseVersion>true</UseBaseVersion>
+		<UsePackageVersion>true</UsePackageVersion>
+		<!-- <EnableLocalization>false</EnableLocalization> -->
+		<PackageNuspec>$(WSRoot)\build\config\package.nuspec</PackageNuspec>
+	</PropertyGroup>
+
+	<Import Project="$(MSBuildThisFileDirectory)\build\include\SolutionPackager.targets" Condition="'$(DynamicsProjectType)' == 'Solution'" />
+	<Import Project="$(MSBuildThisFileDirectory)\build\include\ResolvePDandAppSourceName.targets" Condition="'$(DynamicsProjectType)' == 'Package'" />
+	<Import Project="$(MSBuildThisFileDirectory)\build\include\SetEnvironmentVars.targets" Condition="'$(DynamicsProjectType)' == 'Package' OR '$(DynamicsProjectType)' == 'Solution' OR '$(DynamicsProjectType)' == 'PCFControl'" />
+	<Import Project="$(MSBuildThisFileDirectory)\build\include\PCFControls.targets" Condition="'$(DynamicsProjectType)' == 'PCFControl'" />
+	<Import Project="$(MSBuildThisFileDirectory)\build\include\Localization.targets" Condition="'$(DynamicsProjectType)' == 'Solution'"/>
+
+	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Package' OR '$(DynamicsProjectType)' == 'Solution'">
+		<PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.CoreTools" Version="$(CrmSdk_CoreTools_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.Deployment" Version="$(CrmSdk_Deployment_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.Workflow" Version="$(CrmSdk_Workflow_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.XrmTooling.CoreAssembly" Version="$(CrmSdk_XrmTooling_CoreAssembly_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.XrmTooling.PackageDeployment" Version="$(CrmSdk_XrmTooling_PackageDeployment_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.UII.CommonAssemblies" Version="$(CrmSdk_UII_CommonAssemblies_PackageVersion)" GeneratePathProperty="true" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Package'">
+		<Parent Include="$(MSBuildThisFileDirectory)\Modules\FSICRMInfra\PackageDeployer\**\*.cs" Exclude="$(MSBuildThisFileDirectory)\Modules\FSICRMInfra\obj\**"/>
+		<Compile Include="@(Parent)">
+			<Link>Infra\%(RecursiveDir)\%(Filename)%(Extension)</Link>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(DynamicsProjectType)' == 'PCFControl'">
+		<PackageReference Include="Microsoft.PowerApps.MSBuild.Pcf" Version="$(Microsoft_PowerApps_MSBuild_Pcf)" GeneratePathProperty="true" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Plugin' And '$(ModuleName)' != 'FSICRMInfra'">
+		<PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="$(CrmSdk_CoreAssemblies_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.CrmSdk.Workflow" Version="$(CrmSdk_Workflow_PackageVersion)" GeneratePathProperty="true" />
+		<PackageReference Include="Newtonsoft.Json" Version="$(Newtonsoft_Json_PackageVersion)" GeneratePathProperty="true" />
+		<Parent Include="$(MSBuildThisFileDirectory)Modules\\FSICRMInfra\**\*.cs" Exclude="$(MSBuildThisFileDirectory)\Modules\\FSICRMInfra\obj\**;$(MSBuildThisFileDirectory)Modules\\FSICRMInfra\PackageDeployer\**"/>
+		<Compile Include="@(Parent)">
+			<Link>Infra\%(RecursiveDir)\%(Filename)%(Extension)</Link>
+		</Compile>
+	</ItemGroup>
+	
+	<!-- Merge Config Data from export-->
+	<Target Name="MergeConfigData" BeforeTargets="BeforeBuild" Condition="'$(DynamicsProjectType)' == 'Package' And '$(EnableExportMerge)' == 'true'" >
+		<Message Text="Merging data form export folder" Importance="high" />
+		<Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\MergeDataFromExports.ps1 $(MSBuildProjectName) $(ModuleName) $(WSRoot) $(MSBuildProjectDirectory)}&quot;" />
+	</Target>
+
+	<Import Project="$(MSBuildThisFileDirectory)\build\include\ConfigDataLocalization.targets" Condition="'$(DynamicsProjectType)' == 'Package'" />
+
+	<Target Name="CreatePDPackageZip" AfterTargets="AfterBuild;ResolvePDAndAppSourceNameWithVersion" Condition="'$(SkipPackageGeneration)' != 'true' and '$(DynamicsProjectType)' == 'Package'">
+		<Message Text="ModuleName is: $(ModuleName)" Importance="high"/>
+		<Message Text="Creating Package Deployer Package" Importance="high" />
+
+		<Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\CreatePDPackage.ps1 $(MSBuildProjectName) $(ModuleName) $(PDPackageName) $(DllName) $(DropFolder) $(WSRoot) }&quot;" />
+
+		<Message Text="Finished Creating Package Deployer Package" Importance="high" />
+		<Message Text="Output path is: $(OutputPath)" Importance="high" />
+		<Message Text="Drop folder is: $(PDPackagesDropPath)" Importance="high" />
+	</Target>
+
+	<Target Name="CreatePVSPackageZip" AfterTargets="AfterBuild" DependsOnTargets="CreatePDPackageZip" Condition="'$(BuildPVS)' == 'true' and '$(SkipPackageGeneration)' != 'true' and '$(DynamicsProjectType)' == 'Package'">
+		<Message Text="Creating PVS Package" Importance="high" />
+		<Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\CreatePVSPackage.ps1 $(MSBuildProjectName) $(ModuleName) $(PDPackageName) $(PVSPackageName) $(DllName) $(DropFolder) $(WSRoot) $(PackageExtraFolder) }&quot;" />
+		<Message Text="Finished Creating PVS Package" Importance="high" />
+	</Target>
+
+	<Target Name="AfterBuild" Condition="'$(DynamicsProjectType)' == 'Plugin'">
+		<Message Text="Binplacing plugin assemblies.." Importance="High" />
+		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(WSRoot)\drop\$(BuildConfiguration)\$(BuildPlatform)\Plugins" />
+		<Copy SourceFiles="$(OutputPath)$(AssemblyName).pdb" DestinationFolder="$(WSRoot)\drop\$(BuildConfiguration)\$(BuildPlatform)\Plugins" />
+	</Target>
+
+	<ItemGroup Condition="'$(DynamicsProjectType)' == 'Testing'">
+		<Parent Include="$(MSBuildThisFileDirectory)\Modules\Tests\FSITestInfrastructure\*.cs" 	Exclude="$(MSBuildThisFileDirectory)\Modules\Tests\FSICRMInfra\obj\**"/>
+		<Compile Include="@(Parent)">
+			<Link>TestsInfra\%(RecursiveDir)\%(Filename)%(Extension)</Link>
+		</Compile>
+		<PackageReference Include="FakeItEasy" Version="6.2.0" />
+		<PackageReference Include="xunit" Version="2.4.1" />
+		<PackageReference Include="Moq" Version="4.7.0" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="coverlet.collector" Version="3.0.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="coverlet.msbuild" Version="3.0.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<Reference Include="FakeXrmEasy">
+			<HintPath>$(InternalDLLsPath)\FakeXrmEasy.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<PropertyGroup Condition="'$(DynamicsProjectType)' == 'Testing' Or '$(MSBuildProjectName)' == 'FSITestInfrastructure'">
+		<InternalDLLsPath>$(MSBuildThisFileDirectory)src\InternalDll</InternalDLLsPath>
+	</PropertyGroup>
+</Project>

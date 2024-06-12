@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{eb5177da-867b-eb11-a812-0022481f18ea}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" preview="1" icon="1">
+        <row name="result" id="contactid">
+          <cell name="fullname" width="150" />
+          <cell name="emailaddress1" width="100" />
+          <cell name="mobilephone" width="100" />
+          <cell name="preferredcontactmethodcode" width="100" />
+          <cell name="address1_city" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="contact">
+          <attribute name="fullname" />
+          <attribute name="preferredcontactmethodcode" />
+          <attribute name="mobilephone" />
+          <attribute name="emailaddress1" />
+          <attribute name="address1_city" />
+          <order attribute="fullname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="msfsi_ismanagedbybanksystem" operator="eq" value="1" />
+          </filter>
+          <attribute name="contactid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Contacts" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

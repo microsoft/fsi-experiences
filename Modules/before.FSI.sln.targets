@@ -1,0 +1,17 @@
+<Project>
+  <Import Project="$(MSBuildThisFileDirectory)\..\PackageVersions.props" />
+
+  <PropertyGroup>
+    <BuildFolderRoot>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)'))..\build</BuildFolderRoot>
+    <UseAsPipelineBuildVersion Condition="'$(UseAsPipelineBuildVersion)'==''">True</UseAsPipelineBuildVersion>
+    <SetBuildPipelineNumberScriptPath>$(BuildFolderRoot)\scripts\setPipelineBuildNumber.ps1</SetBuildPipelineNumberScriptPath>
+  </PropertyGroup>
+
+  <Import Project="$(BuildFolderRoot)\include\NuSpecAutoVersion.targets" />
+
+  <Target Name="ResolveNugetPackageVersion" BeforeTargets="Build">
+    <Message Text="Version - $(RestorePackagesPath)" Importance="high" />
+    <CallTarget Targets="ResolvePackageVersion" />
+  </Target>
+
+</Project>

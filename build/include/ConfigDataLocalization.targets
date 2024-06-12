@@ -1,0 +1,18 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+      <TF_BUILD Condition="'$(TF_BUILD)' == ''">false</TF_BUILD>
+      <IsPortalPackage Condition="'$(IsPortalPackage)' == ''">false</IsPortalPackage>
+    </PropertyGroup>  
+  
+    <!-- Generate Configuration Data guid maps for use in localization tracking process for Portal packages-->
+    <Target Name="GenerateConfigDataGuidMaps" AfterTargets="MergeConfigData" BeforeTargets="BeforeBuild" Condition="'$(DynamicsProjectType)' == 'Package' AND '$(IsPortalPackage)' == 'true'" >
+        <Message Text="Executing Generate guid maps to make any needed updates to $(ModuleName)" Importance="high" />
+        <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\GenerateGuidMaps.ps1 $(ModuleName) $(MSBuildProjectDirectory) }&quot;" />  
+    </Target>
+
+    <Target Name="PostProcessPortalDataLoc" AfterTargets="GenerateConfigDataGuidMaps" BeforeTargets="BeforeBuild" Condition="'$(DynamicsProjectType)' == 'Package' AND '$(IsPortalPackage)' == 'true'" >
+      <Message Text="Executing guid updates for $(ModuleName) localized data.xml files" Importance="high" />
+      <Exec command="powershell -Command &quot;&amp;{Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned; $(WSRoot)\build\scripts\PostProcessPortalDataLoc.ps1 $(ModuleName) $(MSBuildProjectDirectory) }&quot;" />  
+    </Target>
+
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_insurancedetailcategory" localizedName="Insurance detail category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.3.0.0</IntroducedVersion>
+  <IsCustomizable>0</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname description="Insurance detail category" languagecode="1033" />
+  </displaynames>
+  <options>
+    <option value="104800000" ExternalValue="">
+      <labels>
+        <label description="Coverage" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800001" ExternalValue="">
+      <labels>
+        <label description="Exclusion" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800002" ExternalValue="">
+      <labels>
+        <label description="Inclusion" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800003" ExternalValue="">
+      <labels>
+        <label description="Cause of loss" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800004" ExternalValue="">
+      <labels>
+        <label description="Insured generic asset" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800005">
+      <labels>
+        <label description="Insured home" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800006">
+      <labels>
+        <label description="Insured auto" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="104800100">
+      <labels>
+        <label description="Location" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

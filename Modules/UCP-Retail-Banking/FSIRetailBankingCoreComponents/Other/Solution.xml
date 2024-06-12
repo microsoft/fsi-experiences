@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22012.140" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>RetailBankingCoreComponents</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Banking Core Components" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true">
+      </EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true">
+      </SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true">
+          </City>
+          <County xsi:nil="true">
+          </County>
+          <Country xsi:nil="true">
+          </Country>
+          <Fax xsi:nil="true">
+          </Fax>
+          <FreightTermsCode xsi:nil="true">
+          </FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true">
+          </ImportSequenceNumber>
+          <Latitude xsi:nil="true">
+          </Latitude>
+          <Line1 xsi:nil="true">
+          </Line1>
+          <Line2 xsi:nil="true">
+          </Line2>
+          <Line3 xsi:nil="true">
+          </Line3>
+          <Longitude xsi:nil="true">
+          </Longitude>
+          <Name xsi:nil="true">
+          </Name>
+          <PostalCode xsi:nil="true">
+          </PostalCode>
+          <PostOfficeBox xsi:nil="true">
+          </PostOfficeBox>
+          <PrimaryContactName xsi:nil="true">
+          </PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true">
+          </StateOrProvince>
+          <Telephone1 xsi:nil="true">
+          </Telephone1>
+          <Telephone2 xsi:nil="true">
+          </Telephone2>
+          <Telephone3 xsi:nil="true">
+          </Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true">
+          </TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true">
+          </UPSZone>
+          <UTCOffset xsi:nil="true">
+          </UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true">
+          </UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true">
+          </City>
+          <County xsi:nil="true">
+          </County>
+          <Country xsi:nil="true">
+          </Country>
+          <Fax xsi:nil="true">
+          </Fax>
+          <FreightTermsCode xsi:nil="true">
+          </FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true">
+          </ImportSequenceNumber>
+          <Latitude xsi:nil="true">
+          </Latitude>
+          <Line1 xsi:nil="true">
+          </Line1>
+          <Line2 xsi:nil="true">
+          </Line2>
+          <Line3 xsi:nil="true">
+          </Line3>
+          <Longitude xsi:nil="true">
+          </Longitude>
+          <Name xsi:nil="true">
+          </Name>
+          <PostalCode xsi:nil="true">
+          </PostalCode>
+          <PostOfficeBox xsi:nil="true">
+          </PostOfficeBox>
+          <PrimaryContactName xsi:nil="true">
+          </PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true">
+          </StateOrProvince>
+          <Telephone1 xsi:nil="true">
+          </Telephone1>
+          <Telephone2 xsi:nil="true">
+          </Telephone2>
+          <Telephone3 xsi:nil="true">
+          </Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true">
+          </TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true">
+          </UPSZone>
+          <UTCOffset xsi:nil="true">
+          </UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true">
+          </UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_categorytypesrelations" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_lifemomentcategoryconfig" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_lifemomentsconfigurations" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_lifemomenttypeconfig" behavior="0" />
+      <RootComponent type="29" id="{0078f46e-b4ac-4fb3-994e-a6a550c07fd6}" behavior="0" />
+      <RootComponent type="29" id="{190cb9fe-ea42-4514-814a-461864a138f0}" behavior="0" />
+      <RootComponent type="29" id="{4c8a3417-a514-44fb-8278-a46b05103135}" behavior="0" />
+      <RootComponent type="29" id="{5b2014ce-e685-4892-9b5b-c06081ab2681}" behavior="0" />
+      <RootComponent type="29" id="{bb9e4821-36ac-4237-b82b-0b95a4a21d32}" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.de-DE.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.en-US.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.es-ES.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.fr-FR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.it-IT.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.nl-NL.resx" behavior="0" />
+      <RootComponent type="91" id="{5df2c9b1-2503-45d8-a921-15a3ca60d6dd}" schemaName="Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" behavior="0" />
+      <RootComponent type="92" id="{1e08c88a-fe74-eb11-a812-000d3a37da6b}" behavior="0" />
+      <RootComponent type="92" id="{7f18d47d-fe74-eb11-a812-000d3a37da6b}" behavior="0" />
+      <RootComponent type="92" id="{96e9ae84-fe74-eb11-a812-000d3a37da6b}" behavior="0" />
+      <RootComponent type="92" id="{a94ea22a-e67a-ec11-8d21-00224808307f}" behavior="0" />
+      <RootComponent type="92" id="{cb166d2c-e46c-ec11-8943-000d3a309c69}" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.pt-BR.resx" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_PluginResources/RetailBankingComponentsLabels.zh-TW.resx" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_Contact_Branch_msfsi_branch" displayName="msfsi_Contact_Branch_msfsi_branch" parentSchemaName="msfsi_branch" parentDisplayName="Branch" solution="FinancialServicesCommonDataModel (1.1.0.0)" />
+        <Dependent type="60" displayName="Banking customer snapshot" parentDisplayName="Contact" id="{75c78db3-068f-ec11-b400-0022480988ea}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_branch" displayName="Branch" parentSchemaName="contact" parentDisplayName="Contact" solution="FinancialServicesCommonDataModel (1.1.0.0)" />
+        <Dependent type="60" displayName="Banking customer snapshot" parentDisplayName="Contact" id="{75c78db3-068f-ec11-b400-0022480988ea}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

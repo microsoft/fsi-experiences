@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22111.206" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>WealthManagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Wealth Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Microsoft_FSI" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_financialholding" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_financialholdinginstrument" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_financialmarketproduct" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_fi_position" behavior="2" />
+      <RootComponent type="61" schemaName="msfsi_negativePercentage" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_neutralPercentage" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_portfolioAssetsGrid.js" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_positivePercentage" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_UnifiedClientProfileFormOnLoad.js" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_unifiedClientProfileIcon" behavior="0" />
+      <RootComponent type="62" schemaName="msfsi_UnifiedClientProfile" behavior="0" />
+      <RootComponent type="80" schemaName="msfsi_UnifiedClientProfile" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_financialgoal" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_financialmarketproduct" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_fi_position" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_fi_position" displayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="1" schemaName="msfsi_fi_position" displayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_fi_position" displayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_fi_position" displayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialholding" displayName="Financial holding" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="1" schemaName="msfsi_financialholding" displayName="Financial holding" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialholding" displayName="Financial holding" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialholdinginstrument" displayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="1" schemaName="msfsi_financialholdinginstrument" displayName="Financial holding instrument" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialholdinginstrument" displayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialholdinginstrument" displayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialholdinginstrument" displayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding instrument portfolio asset" parentDisplayName="Financial holding instrument" id="{557b9647-6507-ed11-82e4-000d3a3bb9c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial market product portfolio asset" parentDisplayName="Financial market product" id="{e538ead5-6807-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding" displayName="msfsi_msfsi_financialholding_msfsi_financialholdinginstrument_FinancialHolding" parentSchemaName="msfsi_financialholding" parentDisplayName="Financial holding" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msfsi_fi_position_msfsi_financialmarketproduct" displayName="msfsi_fi_position_msfsi_financialmarketproduct" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_fhlookupplaceholder" displayName="FH lookup placeholder" parentSchemaName="contact" parentDisplayName="Contact" solution="RetailBankingCoreComponents (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_ismanagedbybanksystem" displayName="Is managed by bank system" parentSchemaName="contact" parentDisplayName="Contact" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Active Contacts" displayName="Active Contacts" parentSchemaName="contact" parentDisplayName="Contact" id="{1586c39f-4e33-ed11-9db1-0022482b0e6d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_placeholder" displayName="Placeholder" parentSchemaName="contact" parentDisplayName="Contact" solution="RetailBankingCoreComponents (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_averagesecuritycost" displayName="Average security cost" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_averagesecuritycost" displayName="Average security cost" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_averagesecuritycostdefault" displayName="Average security cost (default)" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_currentvalue" displayName="Current value" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_currentvaluedefault" displayName="Current value (default)" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_currentvaluedefault" displayName="Current value (default)" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_fi_positionid" displayName="FI position" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_fi_positionid" displayName="FI position" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproduct" displayName="Financial market product" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_positioncount" displayName="Position count" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_positioncount" displayName="Position count" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_positiontype" displayName="Position type" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_positiontype" displayName="Position type" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_positiontype" displayName="Position type" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="FI position portfolio asset" parentDisplayName="FI position" id="{86c8e179-6607-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="Active" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialholdingid" displayName="Financial holding" parentSchemaName="msfsi_financialholding" parentDisplayName="Financial holding" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_financialholding" parentDisplayName="Financial holding" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_financialholding" parentDisplayName="Financial holding" solution="Active" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_details" displayName="Details" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_details" displayName="Details" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding instrument portfolio asset" parentDisplayName="Financial holding instrument" id="{557b9647-6507-ed11-82e4-000d3a3bb9c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialholdinginstrumentid" displayName="Financial instrument" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialholdinginstrumenttype" displayName="Financial instrument type" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding instrument portfolio asset" parentDisplayName="Financial holding instrument" id="{557b9647-6507-ed11-82e4-000d3a3bb9c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_product" displayName="Product" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_product" displayName="Product" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding instrument portfolio asset" parentDisplayName="Financial holding instrument" id="{557b9647-6507-ed11-82e4-000d3a3bb9c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="Active" />
+        <Dependent type="60" displayName="Financial holding instrument portfolio asset" parentDisplayName="Financial holding instrument" id="{557b9647-6507-ed11-82e4-000d3a3bb9c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_currentprice" displayName="Current price" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_currentprice" displayName="Current price" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial market product portfolio asset" parentDisplayName="Financial market product" id="{e538ead5-6807-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_currentpricedefault" displayName="Current price (default)" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproductid" displayName="Financial market product" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="2" schemaName="msfsi_performance" displayName="% Performance lifetime" parentSchemaName="msfsi_fi_position" parentDisplayName="FI position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproductid" displayName="Financial market product" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproducttype" displayName="Type" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_financialmarketproducttype" displayName="Type" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial market product portfolio asset" parentDisplayName="Financial market product" id="{e538ead5-6807-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_isincode" displayName="ISIN code" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial market product portfolio asset" parentDisplayName="Financial market product" id="{e538ead5-6807-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_tickersymbol" displayName="Ticker symbol" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="26" schemaName="Portfolio assets" displayName="Portfolio assets" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" id="{6457ecd7-15ea-ec11-bb3d-0022480694e4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msfsi_tickersymbol" displayName="Ticker symbol" parentSchemaName="msfsi_financialmarketproduct" parentDisplayName="Financial market product" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial market product portfolio asset" parentDisplayName="Financial market product" id="{e538ead5-6807-ed11-82e4-000d3a3bb627}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Wealth Manager" solution="WealthManagementSecurityRoles (1.3.0.0)" id="{bbcdf624-6e99-ec11-b400-00224832db88}" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Wealth Manager" solution="WealthManagementSecurityRoles (1.3.0.0)" id="{bbcdf624-6e99-ec11-b400-00224832db88}" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Wealth Manager" solution="WealthManagementSecurityRoles (1.3.0.0)" id="{bbcdf624-6e99-ec11-b400-00224832db88}" />
+        <Dependent type="60" displayName="Financial holding instrument portfolio asset" parentDisplayName="Financial holding instrument" id="{557b9647-6507-ed11-82e4-000d3a3bb9c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Wealth Manager" solution="WealthManagementSecurityRoles (1.3.0.0)" id="{bbcdf624-6e99-ec11-b400-00224832db88}" />
+        <Dependent type="80" schemaName="msfsi_UnifiedClientProfile" displayName="Unified client profile for wealth management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Financial Holding Instruments" displayName="Active Financial Holding Instruments" parentSchemaName="msfsi_financialholdinginstrument" parentDisplayName="Financial holding instrument" solution="RetailBankingCoreDataModel (1.3.0.0)" id="{b23ed29b-0d36-48bd-bbd1-6ecb0108e29d}" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_fi_position" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="430" schemaName="msfsi_fi_position" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_financialgoal" solution="RetailBankingCoreDataModel (1.3.0.0)" />
+        <Dependent type="430" schemaName="msfsi_financialgoal" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="430" schemaName="msfsi_financialmarketproduct" solution="FinancialServicesCommonDataModel (1.3.0.0)" />
+        <Dependent type="430" schemaName="msfsi_financialmarketproduct" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+        <Dependent type="80" schemaName="msfsi_UnifiedClientProfile" displayName="Unified client profile for wealth management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.ModelForm.ModelFormControl" displayName="MscrmControls.ModelForm.ModelFormControl" solution="BaseCustomControlsCore (9.0.2211.1013)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.CustomerSnapshotControl" displayName="msfsi_MicrosoftPCF.CustomerSnapshotControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.CustomerSummaryControl" displayName="msfsi_MicrosoftPCF.CustomerSummaryControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.DetailedFHControl" displayName="msfsi_MicrosoftPCF.DetailedFHControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.FinancialHoldingInformationControl" displayName="msfsi_MicrosoftPCF.FinancialHoldingInformationControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Financial holding investments details" parentDisplayName="Financial holding" id="{3303e8c6-0cdc-ec11-a7b6-000d3a55e477}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.FinancialHoldingSelectorControl" displayName="msfsi_MicrosoftPCF.FinancialHoldingSelectorControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.GroupsControl" displayName="msfsi_MicrosoftPCF.GroupsControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msfsi_MicrosoftPCF.InvestmentsPortfoliosControl" displayName="msfsi_MicrosoftPCF.InvestmentsPortfoliosControl" solution="RetailBankingCoreControls (1.3.0.0)" />
+        <Dependent type="60" displayName="Unified client profile" parentDisplayName="Contact" id="{42e7a30a-0eb0-ec11-9840-002248081bab}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

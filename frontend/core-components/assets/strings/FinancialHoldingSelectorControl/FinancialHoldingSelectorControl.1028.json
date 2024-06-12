@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "已選取金融資產",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "金融資產基礎查詢的屬性",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "選取金融資產類別",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "顯示具有所選類別的金融資產",
+    "SELECT_LINES_OF_CREDIT": "信貸",
+    "SELECT_LINES_OF_CREDIT_DESC": "信貸類別",
+    "SELECT_LOANS": "貸款",
+    "SELECT_LOANS_DESC": "貸款類別",
+    "SELECT_INVESTMENTS": "投資",
+    "SELECT_INVESTMENTS_DESC": "投資類別",
+    "SELECT_LONG_TERM_SAVINGS": "長期儲蓄",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "長期儲蓄類別",
+    "SELECT_ACCOUNTS": "帳戶",
+    "SELECT_ACCOUNTS_DESC": "科目類別",
+    "NO_FINANCIAL_HOLDINGS": "沒有任何金融資產",
+    "FORM_ID": "表單識別碼",
+    "FORM_ID_DESC": "用來顯示所選金融資產詳細資料之表單的識別碼"
+}

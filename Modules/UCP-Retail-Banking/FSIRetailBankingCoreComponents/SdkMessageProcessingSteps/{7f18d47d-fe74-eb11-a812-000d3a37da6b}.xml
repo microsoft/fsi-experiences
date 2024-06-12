@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.AddGroupPlugin: msfsi_GroupAdd of any Entity" SdkMessageProcessingStepId="{7f18d47d-fe74-eb11-a812-000d3a37da6b}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>53b87ba6-8974-eb11-a812-000d3a36d396</SdkMessageId>
+  <PluginTypeName>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.AddGroupPlugin, Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
+  <PluginTypeId>bece01b4-4d5d-458d-9054-89002f01be22</PluginTypeId>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Microsoft.CloudForFSI.UnifiedCustomerProfile.Plugins.Groups.Plugins.AddGroupPlugin: msfsi_GroupAdd of any Entity</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

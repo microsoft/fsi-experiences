@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<DynamicsProjectType>Plugin</DynamicsProjectType>
+		<RootNamespace>Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins</RootNamespace>
+		<AssemblyName>Microsoft.CloudForFSI.FSIRetailBankingCoreComponents.Plugins</AssemblyName>
+		<ModuleName>UCP-Retail-Banking</ModuleName>
+	</PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Contact\**" />
+    <EmbeddedResource Remove="Contact\**" />
+    <None Remove="Contact\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Groups\FetchXmlResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>FetchXmlResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Groups\FetchXmlResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FetchXmlResources.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

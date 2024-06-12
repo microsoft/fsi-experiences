@@ -1,0 +1,9 @@
+{
+    "CARDS": "Carte {{cardNumbers}}",
+    "NO_OWNED_CARDS": "Nessuna carta intestata",
+    "EXPIRES": "SCADE",
+    "EXPIRES_SOON": "SCADENZA IMMINENTE",
+    "EXPIRED": "SCADUTA",
+    "BANKING_CARD_DETAILS": "Dettagli carta bancaria {{index}}",
+    "CUSTOMER_INFORMATION_RESTRICTED": "Queste informazioni sul cliente sono nascoste"
+}

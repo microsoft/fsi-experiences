@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_financialholdinginstrument.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_financialholdinginstrument.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_financialholdinginstrument.Flyout.Hide" Location="AIBuilder.msfsi_financialholdinginstrument.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Activate.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddAppointment.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddConnection.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddEmail.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddFax.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddFile.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddLetter.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddNote.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddPhone.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddTask.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.AddToQueue.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Convert.Case.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.CopySelected.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Deactivate.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Delete.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.FormDesign.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.MailMerge.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.NewRecord.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Permissions.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.PublishAll.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.PublishEntity.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.Reports.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.RunScript.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_financialholdinginstrument.WordTemplate.Hide" Location="Mscrm.Form.msfsi_financialholdinginstrument.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.DeleteMenu.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.DeleteMenu" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NewRecord.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NewRecordForBPFEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_financialholdinginstrument.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_financialholdinginstrument.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Activate.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AddNewStandard.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AddNewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Charts.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Delete.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Detect.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Edit.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Filters.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.NewRecord.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.Remove.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.Remove" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_financialholdinginstrument.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_financialholdinginstrument.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

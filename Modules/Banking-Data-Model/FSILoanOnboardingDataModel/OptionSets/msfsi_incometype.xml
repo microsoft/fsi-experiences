@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_incometype" localizedName="Income type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>0</IsCustomizable>
+  <displaynames>
+    <displayname description="Income type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="104800000">
+      <labels>
+        <label description="Employment monthly salary" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800001">
+      <labels>
+        <label description="Spouse's monthly salary" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800002">
+      <labels>
+        <label description="Savings" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800003">
+      <labels>
+        <label description="Dividends/Interest" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800004">
+      <labels>
+        <label description="Child support" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800005">
+      <labels>
+        <label description="Alimony/Maintenance" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800006">
+      <labels>
+        <label description="State/Provincial/Gov't Assistance" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="105000000">
+      <labels>
+        <label description="Other" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

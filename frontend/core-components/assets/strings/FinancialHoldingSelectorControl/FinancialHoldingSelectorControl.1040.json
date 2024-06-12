@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Partecipazione finanziaria selezionata",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "Attributo per la ricerca sottostante di una partecipazione finanziaria",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Seleziona categoria di partecipazione finanziaria",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Visualizza partecipazioni finanziarie con la categoria selezionata",
+    "SELECT_LINES_OF_CREDIT": "Linee di credito",
+    "SELECT_LINES_OF_CREDIT_DESC": "Categoria linee di credito",
+    "SELECT_LOANS": "Finanziamenti",
+    "SELECT_LOANS_DESC": "Categoria finanziamenti",
+    "SELECT_INVESTMENTS": "Investimenti",
+    "SELECT_INVESTMENTS_DESC": "Categoria investimenti",
+    "SELECT_LONG_TERM_SAVINGS": "Risparmi a lungo termine",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Categoria risparmi a lungo termine",
+    "SELECT_ACCOUNTS": "Conti",
+    "SELECT_ACCOUNTS_DESC": "Categoria conti",
+    "NO_FINANCIAL_HOLDINGS": "Nessuna partecipazione finanziaria",
+    "FORM_ID": "ID modulo",
+    "FORM_ID_DESC": "ID del modulo utilizzato per mostrare i dettagli di partecipazione finanziaria selezionati"
+}

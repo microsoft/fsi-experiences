@@ -1,0 +1,20 @@
+<Project>
+ <Target Name="CopyContentOnlyModules" AfterTargets="Build">
+   <Message Importance="High" Text="Post Solution Build Steps" />
+   <PropertyGroup>
+     <Platform Condition="'$(Platform)' == 'Any CPU'">AnyCPU</Platform>
+     <PowerBIReportSourceDirectory>$(MSBuildThisFileDirectory)\PowerBI</PowerBIReportSourceDirectory>
+     <PowerBIReportTargetDirectory>$(MSBuildThisFileDirectory)\..\Drop\$(Configuration)\$(Platform)\PowerBI</PowerBIReportTargetDirectory>
+   </PropertyGroup>
+
+   <Message Importance="High" Text="Copy PowerBI Reports from $(PowerBIReportSourceDirectory) to $(PowerBIReportTargetDirectory)" />
+   <Copy
+      SourceFiles="@(PowerBIReports)"
+      DestinationFiles="@(PowerBIReports->'$(PowerBIReportTargetDirectory)\%(RecursiveDir)%(Filename)%(Extension)')"
+   />
+ </Target>
+ <Target Name="CleanOutputDirs" AfterTargets="Clean">
+    <RemoveDir Directories="$(WSRoot)\drop" />
+    <RemoveDir Directories="$(WSRoot)\target" />
+  </Target>
+</Project>

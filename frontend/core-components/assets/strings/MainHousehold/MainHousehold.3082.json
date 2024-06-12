@@ -1,0 +1,14 @@
+{
+    "NO_PRIMARY_GROUP_DEFINED": "Definir un núcleo familiar principal para este contacto",
+    "NO_PRIMARY_GROUP_DEFINED_SUB_HEADER": "Agregue a Grupos",
+    "MEMBERS": "miembros",
+    "NOT_AVAILABLE": "No disponible",
+    "ANNUAL_INCOME": "Ingresos anuales",
+    "TOTAL_ASSETS": "Activos totales",
+    "TOTAL_LIABILITIES": "Pasivos totales",
+    "THERE_ARE_NO_ASSETS": "No hay activos",
+    "THERE_ARE_NO_LIABILITIES": "No hay pasivos",
+    "MISSING_PRIMARY": "Este grupo necesita un miembro principal",
+    "MISSING_HOLDING": "Este grupo debe tener asociada al menos una posición financiera",
+    "MISSING_HOLDING_AND_PRIMARY": "Este grupo necesita un miembro principal y al menos una posición financiera"
+}

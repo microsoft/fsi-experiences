@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>UCP-Retail-Banking</ModuleName>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(BuildScope)' != 'pipeline'">
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\DetailedFHControl\DetailedFHControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\GroupsControl\GroupsControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\CustomerSummaryControl\CustomerSummaryControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\CustomerSnapshotControl\CustomerSnapshotControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\InvestmentsPortfoliosControl\InvestmentsPortfoliosControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\FinancialHoldingSelectorControl\FinancialHoldingSelectorControl.pcfproj" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\..\..\frontend\pcf-controls\FinancialHoldingInformationControl\FinancialHoldingInformationControl.pcfproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>

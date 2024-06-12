@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MicrosoftPCF" constructor="InvestmentsPortfoliosControl" version="1.4.0" display-name-key="InvestmentsPortfoliosControl" description-key="InvestmentsPortfoliosControl description" control-type="standard">
+    <type-group name="Contact">
+      <type>SingleLine.Text</type>
+      <type>Lookup.Customer</type>
+      <type>Lookup.Simple</type>
+    </type-group>
+    <property name="dummy" display-name-key="Dummy_Key" description-key="Dummy_Desc_Key" of-type-group="Contact" usage="bound" required="true" />
+    <property name="contactId" display-name-key="Contact" description-key="Contact ID/Lookup" of-type-group="Contact" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <resx path="strings/InvestmentsPortfoliosControl.1046.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.1028.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.3082.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.1040.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.1031.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.1043.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.1036.resx" version="1.0.0" />
+      <resx path="strings/InvestmentsPortfoliosControl.1033.resx" version="1.0.0" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/error100.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/emptyState48.png" />
+      <img path="../node_modules/@fsi/pcf-common/node_modules//@fsi/core-components/assets/img/no_access100.png" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

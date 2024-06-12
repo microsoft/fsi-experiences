@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Solution</DynamicsProjectType>
+    <ModuleName>Banking-Data-Model</ModuleName>
+    <SolutionMapFile>packageMap.xml</SolutionMapFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RetailBankingDataModel.Plugins\RetailBankingDataModel.Plugins.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+  </ItemGroup>
+</Project>

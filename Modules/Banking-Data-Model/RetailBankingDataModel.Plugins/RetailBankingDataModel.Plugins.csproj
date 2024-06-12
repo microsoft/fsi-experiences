@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<DynamicsProjectType>Plugin</DynamicsProjectType>
+		<RootNamespace>Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins</RootNamespace>
+		<AssemblyName>Microsoft.CloudForFSI.RetailBankingCoreDataModel.Plugins</AssemblyName>
+		<ModuleName>Banking-Data-Model</ModuleName>
+	</PropertyGroup>
+</Project>

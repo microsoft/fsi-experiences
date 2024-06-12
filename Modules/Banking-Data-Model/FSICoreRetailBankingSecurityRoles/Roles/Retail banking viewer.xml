@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{826d867d-7a16-ec11-b6e6-000d3a1df7e5}" name="Retail banking viewer" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadAccount" level="Local" />
+    <RolePrivilege name="prvReadContact" level="Local" />
+    <RolePrivilege name="prvReadmsdyn_sequencetarget" level="Global" />
+    <RolePrivilege name="prvReadmsdyn_tour" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_bank" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_branch" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_categorytypesrelations" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_churnlevelsconfig" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_customerfinancialholding" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_FH_Account" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_FH_Creditline" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_FH_Investment" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_FH_Loan" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_FH_Saving" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_fi_Card" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_fi_DirectDebit" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_fi_Overdraft" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_fi_position" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_fi_StandingOrder" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_financialgoal" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_financialholding" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_financialholdinginstrument" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_financialmarketproduct" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_Group" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_GroupFinancialHolding" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_GroupMember" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_lifemoment" level="Local" />
+    <RolePrivilege name="prvReadmsfsi_lifemomentcategoryconfig" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_lifemomentsconfigurations" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_LifeMomentTypeConfig" level="Global" />
+    <RolePrivilege name="prvReadmsfsi_relationship" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvShareAccount" level="Local" />
+    <RolePrivilege name="prvShareContact" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_bank" level="Global" />
+    <RolePrivilege name="prvSharemsfsi_branch" level="Global" />
+    <RolePrivilege name="prvSharemsfsi_customerfinancialholding" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_FH_Account" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_FH_Creditline" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_FH_Investment" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_FH_Loan" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_FH_Saving" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_fi_Card" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_fi_DirectDebit" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_fi_Overdraft" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_fi_position" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_fi_StandingOrder" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_financialgoal" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_financialholding" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_financialholdinginstrument" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_financialmarketproduct" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_Group" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_GroupFinancialHolding" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_GroupMember" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_lifemoment" level="Local" />
+    <RolePrivilege name="prvSharemsfsi_relationship" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+  <LocalizedNames>
+    <LocalizedName description="Retail banking viewer" languagecode="1033" />
+  </LocalizedNames>
+</Role>

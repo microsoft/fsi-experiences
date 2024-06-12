@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="msfsi_presentaddressownershipstatus" localizedName="Present address ownership status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Present address ownership status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="104800000">
+      <labels>
+        <label description="Own" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="104800001">
+      <labels>
+        <label description="Rent" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

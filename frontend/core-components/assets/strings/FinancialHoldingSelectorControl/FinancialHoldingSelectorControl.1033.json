@@ -1,0 +1,20 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Selected financial holding",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "The attribute for the underlying lookup for a financial holding",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Select financial holding category",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Display financial holdings with selected category",
+    "SELECT_LINES_OF_CREDIT": "Lines of credit",
+    "SELECT_LINES_OF_CREDIT_DESC": "Lines of credit category",
+    "SELECT_LOANS": "Loans",
+    "SELECT_LOANS_DESC": "Loans category",
+    "SELECT_INVESTMENTS": "Investments",
+    "SELECT_INVESTMENTS_DESC": "Investments category",
+    "SELECT_LONG_TERM_SAVINGS": "Long term savings",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Long term savings category",
+    "SELECT_ACCOUNTS": "Accounts",
+    "SELECT_ACCOUNTS_DESC": "Accounts category",
+    "NO_FINANCIAL_HOLDINGS": "No financial holdings",
+    "FORM_ID": "Form Id",
+    "FORM_ID_DESC": "The id of the form used to show the selected financial holding details"
+
+}

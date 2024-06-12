@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfsi_UnifiedCustomerProfile</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>4752d3d6-f22c-ec11-b6e5-000d3a374b66</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="26" id="{eb5177da-867b-eb11-a812-0022481f18ea}" />
+    <AppModuleComponent type="26" id="{e34cc42e-867b-eb11-a812-0022481f18ea}" />
+    <AppModuleComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+    <AppModuleComponent type="60" id="{55ae608e-3f74-eb11-a812-000d3a37d57b}" />
+    <AppModuleComponent type="59" id="{2ff3ebea-6310-4dde-b3a1-e1144ea42b7b}" />
+    <AppModuleComponent type="62" schemaName="msfsi_UnifiedCustomerProfile" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{220a719e-6621-ec11-b6e6-000d3a8fdddd}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Unified customer profile for retail banking" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Tailor customer experiences with a 360-degree view of each customer to help increase wallet share and loyalty" languagecode="1033" />
+  </Descriptions>
+</AppModule>

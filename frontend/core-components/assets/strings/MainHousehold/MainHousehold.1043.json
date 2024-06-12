@@ -1,0 +1,14 @@
+{
+    "NO_PRIMARY_GROUP_DEFINED": "Een hoofdhuishouden voor deze contactpersoon definiëren",
+    "NO_PRIMARY_GROUP_DEFINED_SUB_HEADER": "Toevoegen aan groepen",
+    "MEMBERS": "leden",
+    "NOT_AVAILABLE": "Niet beschikbaar",
+    "ANNUAL_INCOME": "Jaarinkomen",
+    "TOTAL_ASSETS": "Totaal activa",
+    "TOTAL_LIABILITIES": "Totaal passiva",
+    "THERE_ARE_NO_ASSETS": "Er zijn geen activa",
+    "THERE_ARE_NO_LIABILITIES": "Er zijn geen passiva",
+    "MISSING_PRIMARY": "Deze groep heeft een primair lid nodig",
+    "MISSING_HOLDING": "Aan deze groep moet ten minste één financieel bezit zijn gekoppeld",
+    "MISSING_HOLDING_AND_PRIMARY": "Aan deze groep moet een primair lid en ten minste één financieel bezit zijn gekoppeld"
+}

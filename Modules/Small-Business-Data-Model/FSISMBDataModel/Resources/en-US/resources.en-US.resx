@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>1033</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>FSISMBDataModel_managed.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Both</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgJAAAAAAAAAAAAAAAAAAAACw==</value>
+  </metadata>
+  <metadata name="SolutionPackager Version String" xml:space="preserve">
+    <value>9.0.0.0</value>
+  </metadata>
+  <data name="10:CustomLabel,msfsi_msfsi_person_contact_Person" xml:space="preserve">
+    <value />
+    <comment>Contact CustomLabel for EntityRelationship 'msfsi_msfsi_person_contact_Person'</comment>
+  </data>
+  <data name="10:Description,business_unit_msfsi_person" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>msfsi_Person Description for EntityRelationship 'business_unit_msfsi_person'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_person_createdby" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>msfsi_Person Description for EntityRelationship 'lk_msfsi_person_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_msfsi_person_modifiedby" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>msfsi_Person Description for EntityRelationship 'lk_msfsi_person_modifiedby'</comment>
+  </data>
+  <data name="10:Description,msfsi_msfsi_person_contact_Person" xml:space="preserve">
+    <value />
+    <comment>Contact Description for EntityRelationship 'msfsi_msfsi_person_contact_Person'</comment>
+  </data>
+  <data name="10:Description,owner_msfsi_person" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>msfsi_Person Description for EntityRelationship 'owner_msfsi_person'</comment>
+  </data>
+  <data name="10:Description,team_msfsi_person" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>msfsi_Person Description for EntityRelationship 'team_msfsi_person'</comment>
+  </data>
+  <data name="10:Description,user_msfsi_person" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>msfsi_Person Description for EntityRelationship 'user_msfsi_person'</comment>
+  </data>
+  <data name="15062:LocalizedName,SMBDataModel" xml:space="preserve">
+    <value>SMB Data Model</value>
+    <comment> 'SMBDataModel' : LocalizedName for Solution</comment>
+  </data>
+  <data name="15062:LocalizedName,microsoft_fsimsfsi10480" xml:space="preserve">
+    <value>Microsoft_FSI</value>
+    <comment> 'microsoft_fsi' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="1:Description,Contactmsfsi_Person" xml:space="preserve">
+    <value>The person that the contact is associated with.</value>
+    <comment>'Contact' : Description for Attribute 'msfsi_Person' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonCreatedBy" xml:space="preserve">
+    <value>Unique identifier of the user who created the record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonCreatedOn" xml:space="preserve">
+    <value>Date and time when the record was created.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonCreatedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who created the record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personentitymsfsi_Person" xml:space="preserve">
+    <value>Individual human being.</value>
+    <comment> 'msfsi_Person' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonImportSequenceNumber" xml:space="preserve">
+    <value>Sequence number of the import that created this record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonModifiedBy" xml:space="preserve">
+    <value>Unique identifier of the user who modified the record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonModifiedOn" xml:space="preserve">
+    <value>Date and time when the record was modified.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonModifiedOnBehalfBy" xml:space="preserve">
+    <value>Unique identifier of the delegate user who modified the record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personmsfsi_id" xml:space="preserve">
+    <value>The unique ID of the person.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'msfsi_id' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personmsfsi_name" xml:space="preserve">
+    <value>The name of the custom entity.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personmsfsi_PersonId" xml:space="preserve">
+    <value>Unique identifier for entity instances</value>
+    <comment>'msfsi_Person' : Description for Attribute 'msfsi_PersonId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personmsfsi_person_statecode" xml:space="preserve">
+    <value>Status of the Person</value>
+    <comment>'msfsi_Person' : Description for OptionSet 'msfsi_person_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personmsfsi_person_statuscode" xml:space="preserve">
+    <value>Reason for the status of the Person</value>
+    <comment>'msfsi_Person' : Description for OptionSet 'msfsi_person_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonOverriddenCreatedOn" xml:space="preserve">
+    <value>Date and time that the record was migrated.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonOwnerId" xml:space="preserve">
+    <value>Owner Id</value>
+    <comment>'msfsi_Person' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonOwningBusinessUnit" xml:space="preserve">
+    <value>Unique identifier for the business unit that owns the record</value>
+    <comment>'msfsi_Person' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonOwningTeam" xml:space="preserve">
+    <value>Unique identifier for the team that owns the record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonOwningUser" xml:space="preserve">
+    <value>Unique identifier for the user that owns the record.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personstatecode" xml:space="preserve">
+    <value>Status of the Person</value>
+    <comment>'msfsi_Person' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_Personstatuscode" xml:space="preserve">
+    <value>Reason for the status of the Person</value>
+    <comment>'msfsi_Person' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>For internal use only.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,msfsi_PersonUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>Time zone code that was in use when the record was created.</value>
+    <comment>'msfsi_Person' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:Description,Person{20a2e999-5c2e-4eeb-a9d7-b33a6044d682}" xml:space="preserve">
+    <value>A form for this entity.</value>
+    <comment>'Person' : Description for systemform in Entity FormXml ID: '{20a2e999-5c2e-4eeb-a9d7-b33a6044d682}'</comment>
+  </data>
+  <data name="1:Description,Person{6285c7e4-b4eb-42f7-9c7f-22fd8c3b67a0}" xml:space="preserve">
+    <value>A card form for this entity.</value>
+    <comment>'Person' : Description for systemform in Entity FormXml ID: '{6285c7e4-b4eb-42f7-9c7f-22fd8c3b67a0}'</comment>
+  </data>
+  <data name="1:Description,Person{9659d830-610e-ed11-82e5-0022481f085d}" xml:space="preserve">
+    <value>Active Persons owned by me</value>
+    <comment>'Person' : Description for SavedQuery on Entity QueryId: '{9659d830-610e-ed11-82e5-0022481f085d}'</comment>
+  </data>
+  <data name="1:displayname,Contactmsfsi_Person" xml:space="preserve">
+    <value>Person</value>
+    <comment>'Contact' : displayname for Attribute 'msfsi_Person' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonCreatedBy" xml:space="preserve">
+    <value>Created By</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonCreatedOn" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonCreatedOnBehalfBy" xml:space="preserve">
+    <value>Created By (Delegate)</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonImportSequenceNumber" xml:space="preserve">
+    <value>Import Sequence Number</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonModifiedOn" xml:space="preserve">
+    <value>Modified On</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonModifiedOnBehalfBy" xml:space="preserve">
+    <value>Modified By (Delegate)</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personmsfsi_id" xml:space="preserve">
+    <value>ID</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'msfsi_id' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personmsfsi_name" xml:space="preserve">
+    <value>Name</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'msfsi_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personmsfsi_PersonId" xml:space="preserve">
+    <value>Person</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'msfsi_PersonId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personmsfsi_person_statecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_Person' : displayname for OptionSet 'msfsi_person_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personmsfsi_person_statuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_Person' : displayname for OptionSet 'msfsi_person_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonOverriddenCreatedOn" xml:space="preserve">
+    <value>Record Created On</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonOwnerId" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonOwningBusinessUnit" xml:space="preserve">
+    <value>Owning Business Unit</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonOwningTeam" xml:space="preserve">
+    <value>Owning Team</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonOwningUser" xml:space="preserve">
+    <value>Owning User</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personstatecode" xml:space="preserve">
+    <value>Status</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_Personstatuscode" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value>Time Zone Rule Version Number</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,msfsi_PersonUTCConversionTimeZoneCode" xml:space="preserve">
+    <value>UTC Conversion Time Zone Code</value>
+    <comment>'msfsi_Person' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_Personmsfsi_person_statecode0" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_Person' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_Personmsfsi_person_statecode1" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_Person' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_Personmsfsi_person_statuscode1" xml:space="preserve">
+    <value>Active</value>
+    <comment>'msfsi_Person' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,msfsi_Personmsfsi_person_statuscode2" xml:space="preserve">
+    <value>Inactive</value>
+    <comment>'msfsi_Person' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:label,Person{0ab83b51-b8f2-4e73-ad80-4d0641db0dcf}" xml:space="preserve">
+    <value>Header</value>
+    <comment>'Person' : label for section in Entity FormXml ID: '{0ab83b51-b8f2-4e73-ad80-4d0641db0dcf}'</comment>
+  </data>
+  <data name="1:label,Person{1257a21c-f617-490b-a5f3-e6ab47416648}" xml:space="preserve">
+    <value>ColorStrip</value>
+    <comment>'Person' : label for section in Entity FormXml ID: '{1257a21c-f617-490b-a5f3-e6ab47416648}'</comment>
+  </data>
+  <data name="1:label,Person{208ef8df-fc4b-41de-8dfc-35e3b311bb47}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{208ef8df-fc4b-41de-8dfc-35e3b311bb47}'</comment>
+  </data>
+  <data name="1:label,Person{26ae136a-971c-41d7-a631-90f0e1e77001}" xml:space="preserve">
+    <value />
+    <comment>'Person' : label for cell in Entity FormXml ID: '{26ae136a-971c-41d7-a631-90f0e1e77001}'</comment>
+  </data>
+  <data name="1:label,Person{2814d846-41fb-4255-afe6-5d67ee06389b}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{2814d846-41fb-4255-afe6-5d67ee06389b}'</comment>
+  </data>
+  <data name="1:label,Person{2d953a99-3b1e-491d-9cda-82c221650b2a}" xml:space="preserve">
+    <value />
+    <comment>'Person' : label for cell in Entity FormXml ID: '{2d953a99-3b1e-491d-9cda-82c221650b2a}'</comment>
+  </data>
+  <data name="1:label,Person{33237558-f696-41aa-99b5-8923c3920ba7}" xml:space="preserve">
+    <value />
+    <comment>'Person' : label for cell in Entity FormXml ID: '{33237558-f696-41aa-99b5-8923c3920ba7}'</comment>
+  </data>
+  <data name="1:label,Person{6ca7fe12-7630-4dc2-8b00-f54de872c9c5}" xml:space="preserve">
+    <value />
+    <comment>'Person' : label for tab in Entity FormXml ID: '{6ca7fe12-7630-4dc2-8b00-f54de872c9c5}'</comment>
+  </data>
+  <data name="1:label,Person{72d4aaa1-ad33-4359-8a70-310b0afdf205}" xml:space="preserve">
+    <value>GENERAL</value>
+    <comment>'Person' : label for section in Entity FormXml ID: '{72d4aaa1-ad33-4359-8a70-310b0afdf205}'</comment>
+  </data>
+  <data name="1:label,Person{7526c02c-d037-45cd-9d34-e9235806ec0b}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{7526c02c-d037-45cd-9d34-e9235806ec0b}'</comment>
+  </data>
+  <data name="1:label,Person{834b7e92-205a-468e-bd47-451b7a4b388c}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Person' : label for section in Entity FormXml ID: '{834b7e92-205a-468e-bd47-451b7a4b388c}'</comment>
+  </data>
+  <data name="1:label,Person{9f695c14-d1ca-4c77-8220-55360c7bb6c5}" xml:space="preserve">
+    <value>Created On</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{9f695c14-d1ca-4c77-8220-55360c7bb6c5}'</comment>
+  </data>
+  <data name="1:label,Person{ac43dc95-7f07-47ab-a820-2e8f67183608}" xml:space="preserve">
+    <value />
+    <comment>'Person' : label for cell in Entity FormXml ID: '{ac43dc95-7f07-47ab-a820-2e8f67183608}'</comment>
+  </data>
+  <data name="1:label,Person{bf87f42b-7e67-46c9-a1ed-2e8ff0f37937}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{bf87f42b-7e67-46c9-a1ed-2e8ff0f37937}'</comment>
+  </data>
+  <data name="1:label,Person{cd6e51ef-e4f1-496e-a561-dbacbf1a697f}" xml:space="preserve">
+    <value>General</value>
+    <comment>'Person' : label for tab in Entity FormXml ID: '{cd6e51ef-e4f1-496e-a561-dbacbf1a697f}'</comment>
+  </data>
+  <data name="1:label,Person{cf345925-31a3-4b76-b1bb-5951470d34a4}" xml:space="preserve">
+    <value>Name</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{cf345925-31a3-4b76-b1bb-5951470d34a4}'</comment>
+  </data>
+  <data name="1:label,Person{d035c044-517f-4444-873b-9e703c24405a}" xml:space="preserve">
+    <value>Owner</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{d035c044-517f-4444-873b-9e703c24405a}'</comment>
+  </data>
+  <data name="1:label,Person{d5e34f12-5a02-425c-af78-8a947a596d2a}" xml:space="preserve">
+    <value>Details</value>
+    <comment>'Person' : label for section in Entity FormXml ID: '{d5e34f12-5a02-425c-af78-8a947a596d2a}'</comment>
+  </data>
+  <data name="1:label,Person{eedb8755-527a-4404-84bc-5d4a41e6881e}" xml:space="preserve">
+    <value>Footer</value>
+    <comment>'Person' : label for section in Entity FormXml ID: '{eedb8755-527a-4404-84bc-5d4a41e6881e}'</comment>
+  </data>
+  <data name="1:label,Person{f3813d70-0ebf-41fe-95d8-5cbd6463cb16}" xml:space="preserve">
+    <value>Status Reason</value>
+    <comment>'Person' : label for cell in Entity FormXml ID: '{f3813d70-0ebf-41fe-95d8-5cbd6463cb16}'</comment>
+  </data>
+  <data name="1:label,Person{ff889f95-82ef-4b08-a461-9b4d2514c787}" xml:space="preserve">
+    <value />
+    <comment>'Person' : label for tab in Entity FormXml ID: '{ff889f95-82ef-4b08-a461-9b4d2514c787}'</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,msfsi_Personentitymsfsi_Person" xml:space="preserve">
+    <value>Persons</value>
+    <comment> 'msfsi_Person' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,msfsi_Personentitymsfsi_Person" xml:space="preserve">
+    <value>Person</value>
+    <comment> 'msfsi_Person' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Person{0cef3dc4-adef-4c01-828b-17c348953092}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Person' : LocalizedName for systemform in Entity FormXml ID: '{0cef3dc4-adef-4c01-828b-17c348953092}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{1e8b0573-a201-4955-86ef-699ccaa423c2}" xml:space="preserve">
+    <value>Person Advanced Find View</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{1e8b0573-a201-4955-86ef-699ccaa423c2}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{20a2e999-5c2e-4eeb-a9d7-b33a6044d682}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Person' : LocalizedName for systemform in Entity FormXml ID: '{20a2e999-5c2e-4eeb-a9d7-b33a6044d682}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{5a3c1ebc-ee77-4b4c-ac4d-3e886c31081c}" xml:space="preserve">
+    <value>Inactive Persons</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{5a3c1ebc-ee77-4b4c-ac4d-3e886c31081c}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{6285c7e4-b4eb-42f7-9c7f-22fd8c3b67a0}" xml:space="preserve">
+    <value>Information</value>
+    <comment>'Person' : LocalizedName for systemform in Entity FormXml ID: '{6285c7e4-b4eb-42f7-9c7f-22fd8c3b67a0}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{800223a7-c439-4c75-9b4a-a408ddb48d93}" xml:space="preserve">
+    <value>Person Lookup View</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{800223a7-c439-4c75-9b4a-a408ddb48d93}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{8a4f3dd5-5059-4e27-95a5-5b9fd0800180}" xml:space="preserve">
+    <value>Quick Find Active Persons</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{8a4f3dd5-5059-4e27-95a5-5b9fd0800180}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{9659d830-610e-ed11-82e5-0022481f085d}" xml:space="preserve">
+    <value>My Persons</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{9659d830-610e-ed11-82e5-0022481f085d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{9cc8351e-3d58-42fd-9316-6842b5eb56ce}" xml:space="preserve">
+    <value>Active Persons</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{9cc8351e-3d58-42fd-9316-6842b5eb56ce}'</comment>
+  </data>
+  <data name="1:LocalizedName,Person{a6cdac8d-47b7-4152-8308-4d04d29dece8}" xml:space="preserve">
+    <value>Person Associated View</value>
+    <comment>'Person' : LocalizedName for SavedQuery on Entity QueryId: '{a6cdac8d-47b7-4152-8308-4d04d29dece8}'</comment>
+  </data>
+</root>

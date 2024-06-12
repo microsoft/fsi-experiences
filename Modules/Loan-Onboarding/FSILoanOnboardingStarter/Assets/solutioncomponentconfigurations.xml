@@ -1,0 +1,14 @@
+<solutioncomponentconfigurations>
+  <solutioncomponentconfiguration entityid.logicalname="msfsi_onboardingfinancialtype">
+    <fileformat>0</fileformat>
+    <filescope>0</filescope>
+    <iscustomizable>0</iscustomizable>
+    <isdisplayable>1</isdisplayable>
+    <isonetoonechildcomponent>0</isonetoonechildcomponent>
+    <issoftdeleteenabled>0</issoftdeleteenabled>
+    <keepactivecustomizationafterconversion>0</keepactivecustomizationafterconversion>
+    <name>msfsi_onboardingfinancialtype</name>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </solutioncomponentconfiguration>
+</solutioncomponentconfigurations>

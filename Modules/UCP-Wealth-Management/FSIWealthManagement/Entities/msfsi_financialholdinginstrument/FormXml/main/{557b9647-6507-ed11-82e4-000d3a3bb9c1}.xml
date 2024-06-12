@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{557b9647-6507-ed11-82e4-000d3a3bb9c1}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ffcf9fbb-2f8c-4a52-869c-f28c49c67466}" IsUserDefined="1" contenttype="cardSections" visible="true" labelid="{c7acfe31-9022-49ea-bfcb-19ad311bc9c1}" name="Financial holding instrument asset">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{36638bb4-e708-48c6-95de-58375b367fbe}" visible="true" labelid="{c46d91a5-cdea-4eae-9c16-1365846928d2}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9a3f3b4b-2df4-4a8b-b7af-9efe7a4d0794}" labelid="{b9ea30d9-01b6-4175-b83b-75925a8cb66d}" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{190ab53f-61a1-4eae-b2c1-37485642dacf}" labelid="{98db1f59-097f-4241-bbb9-a430af68d4c9}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{be7aa7d0-b562-40ac-ad3b-a4669f1f5e8c}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="FI position portfolio asset" languagecode="1033" />
+                        </labels>
+                        <control id="fi_position_portfolio_asset" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="msfsi_details">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_fi_position"&gt;86c8e179-6607-ed11-82e4-000d3a3bb627&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{869ac9ee-b3ae-47ed-b365-bfd1e7a8e4ae}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Financial market product portfolio asset" languagecode="1033" />
+                        </labels>
+                        <control id="financial_market_product_portfolio_asset" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="msfsi_product">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="msfsi_financialmarketproduct"&gt;e538ead5-6807-ed11-82e4-000d3a3bb627&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{859515b5-2428-46e4-b27a-6585d759db56}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{260b3c51-8da9-4424-b405-77ec5885c893}" showlabel="false" labelid="{1a47386d-50ae-4fcb-988d-11c2f7713938}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{84a7c605-2d58-4bd7-8a58-339ef5c7583e}" showlabel="false" labelid="{38ff6f09-fe95-4aaf-9018-64b28ca9b27b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{30342296-701b-4458-a563-484c2fe149c8}" showlabel="false" labelid="{d7d9dbbe-8851-4c55-9a5d-20ba10c059c8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{50cabf4d-aebd-45d6-b137-2d3a3fbb8925}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8d4fbe22-07a1-42a4-9111-28c4ea2acef1}" showlabel="false" labelid="{b2f070a2-cde6-4e34-9146-2c4add857acf}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{499a0c24-7870-4fc7-ab52-a0e96ff37719}" showlabel="false" labelid="{8f92d6c4-4e74-4d3c-a111-f99c808fe73d}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b05bde21-bf20-45b1-b9bc-b09f29ef847f}" showlabel="false" labelid="{4343191d-1458-4003-9c94-8377c393287b}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{D517896C-A002-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{C47254DA-AF02-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{F723A10D-9F02-ED11-82E4-000D3A5CA22E}" />
+        <Role Id="{BBCDF624-6E99-EC11-B400-00224832DB88}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Financial holding instrument portfolio asset" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this portfolio asset." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

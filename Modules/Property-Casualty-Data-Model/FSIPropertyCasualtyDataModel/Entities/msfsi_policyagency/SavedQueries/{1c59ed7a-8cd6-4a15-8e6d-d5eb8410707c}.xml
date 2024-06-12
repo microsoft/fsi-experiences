@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1c59ed7a-8cd6-4a15-8e6d-d5eb8410707c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_policyagencyid">
+          <cell name="msfsi_name" width="300" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_policyagency">
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="msfsi_name" descending="false" />
+          <attribute name="msfsi_name" />
+          <attribute name="createdon" />
+          <attribute name="msfsi_policyagencyid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Insurance Policy Agencies" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

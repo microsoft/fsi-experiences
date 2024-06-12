@@ -1,0 +1,8 @@
+!This file contains all of the PCF manifest files to be updated with supported languages
+frontend\pcf-controls\CustomerSnapshotControl\CustomerSnapshotControl\ControlManifest.Input.xml
+frontend\pcf-controls\CustomerSummaryControl\CustomerSummaryControl\ControlManifest.Input.xml
+frontend\pcf-controls\DetailedFHControl\DetailedFHControl\ControlManifest.Input.xml
+frontend\pcf-controls\FinancialHoldingInformation\FinancialHoldingInformation\ControlManifest.Input.xml
+!frontend\pcf-controls\FinancialHoldingSelectorControl\FinancialHoldingSelectorControl\ControlManifest.Input.xml
+frontend\pcf-controls\GroupsControl\GroupsControl\ControlManifest.Input.xml
+frontend\pcf-controls\InvestmentsPortfoliosControl\InvestmentsPortfoliosControl\ControlManifest.Input.xml

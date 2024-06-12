@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GroupRetrieveCreationDateFailed" xml:space="preserve">
+    <value>Fehler beim Abrufen des Erstellungsdatums für die Gruppe {0}.</value>
+    <comment>Retrieval of creation date failed for group {placeholder="{0}"}.</comment>
+  </data>
+  <data name="InputDataJsonFormatError" xml:space="preserve">
+    <value>Die eingegebenen Daten hatten nicht das richtige JSON-Format.</value>
+    <comment>The input data was not in the correct json format.</comment>
+  </data>
+  <data name="InvalidInputParameter" xml:space="preserve">
+    <value>Falsch formatierte Anforderung: {0} fehlt in den InputParameters.</value>
+    <comment>Malformed Request: {placeholder="{0}"} is missing in the InputParameters.</comment>
+  </data>
+  <data name="GroupEntityDataNotFound" xml:space="preserve">
+    <value>Die Entitätsdaten wurden nicht gefunden.</value>
+    <comment>Entity data was not found.</comment>
+  </data>
+  <data name="GroupCountGroupsCantBeRetrieved" xml:space="preserve">
+    <value>Beim Abrufen der Anzahl der Gruppen, zu denen der Kunde {0} gehört, ist ein Problem aufgetreten.</value>
+    <comment>There was an issue retrieving the count of groups customer {placeholder="{0}"} belongs to.</comment>
+  </data>
+  <data name="GroupCountGroupsCantBeReturned" xml:space="preserve">
+    <value>Beim Zurückgeben der Anzahl der Gruppen, zu denen der Kunde {0} gehört, ist ein Problem aufgetreten.</value>
+    <comment>There was an issue returning the count of groups customer {placeholder="{0}"} belongs to.</comment>
+  </data>
+  <data name="GroupCountGroupsCantBeConverted" xml:space="preserve">
+    <value>Beim Konvertieren der Anzahl der Gruppen, zu denen der Kunde {0} gehört, ist ein Problem aufgetreten - Die Anzahl der Entitäten muss ein Zahl sein.</value>
+    <comment>There was an issue converting the count of groups customer {placeholder="{0}"} belongs to - entity count was supposed to be a number.</comment>
+  </data>
+  <data name="GroupNoEntityInGetValue" xml:space="preserve">
+    <value>Kein Entitätsergebnis gefunden.</value>
+    <comment>No entity result found.</comment>
+  </data>
+  <data name="GroupNoAttributeNameInGetValue" xml:space="preserve">
+    <value>Das Attribut {0} wurde nicht gefunden.</value>
+    <comment>{placeholder="{0}"} attribute was not found.</comment>
+  </data>
+  <data name="GroupIncompatiableAttributeTypeInGetValue" xml:space="preserve">
+    <value>{0} weist nicht den Typ {1} auf.</value>
+    <comment>{placeholder="{0}"} is not of type {placeholder="{1}"}.</comment>
+  </data>
+  <data name="GroupIsNotInTheMostUpdatedState" xml:space="preserve">
+    <value>Die Gruppe {0} hat nicht den aktuellsten Status.</value>
+    <comment>Group {placeholder="{0}"} is not in the most updated state.</comment>
+  </data>
+  <data name="GroupVersionRetrievalFailure" xml:space="preserve">
+    <value>Problem bei der Anforderung zum Abrufen der Version der Gruppe {0}.</value>
+    <comment>Group {placeholder="{0}"} version retrieval request problem.</comment>
+  </data>
+  <data name="GroupTransactionResultError" xml:space="preserve">
+    <value>Beim zurückgegebenen Ergebnis der Anforderungen ist ein Fehler aufgetreten.</value>
+    <comment>Something went wrong with the returned result of the requests.</comment>
+  </data>
+  <data name="GroupTransactionResultEmpty" xml:space="preserve">
+    <value>Für die Anforderung wurden keine Antworten gefunden.</value>
+    <comment>No responses found for the request.</comment>
+  </data>
+  <data name="GroupTransactionResultEntityError" xml:space="preserve">
+    <value>Die Entität wurde nicht erfolgreich zurückgegeben.</value>
+    <comment>Entity didn't return successfully.</comment>
+  </data>
+  <data name="GroupNameNullOrEmpty" xml:space="preserve">
+    <value>Der Name der Gruppe {0} ist NULL oder leer.</value>
+    <comment>Group {placeholder="{0}"} name is null or empty.</comment>
+  </data>
+  <data name="GroupMembersNullOrEmpty" xml:space="preserve">
+    <value>Die Sammlung der Mitglieder der Gruppe {0} ist NULL.</value>
+    <comment>Group {placeholder="{0}"} members collection is null.</comment>
+  </data>
+  <data name="GroupFinancialHoldingsNull" xml:space="preserve">
+    <value>Die Sammlung der Finanzanlagen für Gruppe {0} ist NULL.</value>
+    <comment>Group {placeholder="{0}"} financial holdings collection is null.</comment>
+  </data>
+  <data name="GroupPrimaryMemberMissing" xml:space="preserve">
+    <value>In der Gruppe {0} fehlt das Feld „Primäres Mitglied“.</value>
+    <comment>Group {placeholder="{0}"} is missing primary member field.</comment>
+  </data>
+  <data name="GroupFinancialHoldingsEmpty" xml:space="preserve">
+    <value>Für die Gruppe {0} fehlt das Feld „Finanzanlage“.</value>
+    <comment>Group {placeholder="{0}"} is missing financial holdings field.</comment>
+  </data>
+  <data name="FHFetchError" xml:space="preserve">
+    <value>Die Finanzanlagesammlung konnte nicht erstellt werden.</value>
+    <comment>There was a problem building financial holdings collection.</comment>
+  </data>
+</root>

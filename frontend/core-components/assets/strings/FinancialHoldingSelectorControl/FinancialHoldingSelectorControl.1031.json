@@ -1,0 +1,19 @@
+{
+    "SELECTED_FINANCIAL_HOLDING": "Ausgewählte Finanzanlagen",
+    "SELECTED_FINANCIAL_HOLDING_DESCRIPTION": "Das Attribut für die zugrundeliegende Suche für eine Finanzanlage",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY": "Finanzanlagekategorie auswählen",
+    "SELECT_FINANCIAL_HOLDING_CATEGORY_DESC": "Finanzanlagen mit ausgewählter Kategorie anzeigen",
+    "SELECT_LINES_OF_CREDIT": "Kreditlinien",
+    "SELECT_LINES_OF_CREDIT_DESC": "Kreditlinienkategorie",
+    "SELECT_LOANS": "Kredite",
+    "SELECT_LOANS_DESC": "Kreditkategorie",
+    "SELECT_INVESTMENTS": "Investitionen",
+    "SELECT_INVESTMENTS_DESC": "Investitionskategorie",
+    "SELECT_LONG_TERM_SAVINGS": "Sparanlagen",
+    "SELECT_LONG_TERM_SAVINGS_DESC": "Kategorie der langfristigen Sparanlagen",
+    "SELECT_ACCOUNTS": "Konten",
+    "SELECT_ACCOUNTS_DESC": "Kontokategorie",
+    "NO_FINANCIAL_HOLDINGS": "Keine Finanzanlagen",
+    "FORM_ID": "Formular-ID",
+    "FORM_ID_DESC": "Die ID des Formulars, das zum Anzeigen der ausgewählten Finanzholdingdetails verwendet wird"
+}

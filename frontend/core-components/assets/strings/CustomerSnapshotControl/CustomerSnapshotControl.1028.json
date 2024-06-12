@@ -1,0 +1,18 @@
+{
+    "SNAPSHOT_HEADER": "客戶快照集",
+    "ENTITY_ID": "主要實體",
+    "ENTITY_ID_DESC": "實體客戶快照集元件將用於擷取資料的識別碼",
+    "FORM_ID": "表單識別碼",
+    "FORM_ID_DESC": "用於決定客戶快照集之資料欄位與配置之表單 (快速檢視表單) 的識別碼",
+    "LINK_ENTITY_FIELD": "主要實體連結欄位",
+    "LINK_ENTITY_FIELD_DESC": "保留主要實體識別碼之欄位的邏輯名稱 (預設為實體名稱 + 識別碼)",
+    "TITLE_VISIBILITY": "標題顯示性",
+    "TITLE_VISIBILITY_DESC": "顯示或隱藏元件的標題區段",
+    "PREFERRED": "偏好的方式",
+    "NO_DATA_TO_SHOW_YET": "尚無可顯示的資料",
+    "TRY_REFRESH_CONTACT_ADMIN": "嘗試重新整理瀏覽器，或連絡您的 IT 管理員",
+    "INVALID_CONFIGURATION": "發生設定問題",
+    "PREFERRED_COMM_EMAIL": "客戶偏好使用電子郵件通訊",
+    "PREFERRED_COMM_MAIL": "客戶偏好使用郵件通訊",
+    "PREFERRED_COMM_PHONE": "客戶偏好使用電話通訊"
+}

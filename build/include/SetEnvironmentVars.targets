@@ -1,0 +1,29 @@
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <UsingTask
+    TaskName="SetBuildEnvironmentVars"
+    TaskFactory="RoslynCodeTaskFactory"
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >
+    <ParameterGroup>
+      <VarName ParameterType="System.String" Required="true"/>
+      <VarValue ParameterType="System.String" Required="true" />
+    </ParameterGroup>
+    <Task>
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+            Console.WriteLine("  Setting var name {0} to {1}...", VarName, VarValue);
+            System.Environment.SetEnvironmentVariable(VarName, VarValue);
+            Console.WriteLine("  {0} = {1}", VarName, VarValue);
+          ]]>
+      </Code>
+    </Task>
+  </UsingTask>
+
+  <!-- This target is needed to set environment variable for filetofile mapping to work. Only run when the environment variables don't exist-->
+  <Target Name="PreBuildSetEnvironmentVars" BeforeTargets="BeforeBuild" Condition="$([System.Environment]::GetEnvironmentVariable('BuildConfiguration')) == '' or $([System.Environment]::GetEnvironmentVariable('BuildPlatform')) == ''">
+    <SetBuildEnvironmentVars VarName="BuildConfiguration" VarValue="$(BuildConfiguration)"/>
+    <SetBuildEnvironmentVars VarName="Configuration" VarValue="$(Configuration)"/>
+    <SetBuildEnvironmentVars VarName="BuildPlatform" VarValue="$(BuildPlatform)"/>
+    <SetBuildEnvironmentVars VarName="Platform" VarValue="$(Platform)"/>
+  </Target>
+
+</Project>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3e642468-db67-4ba7-b060-5a62a58a4505}</formid>
+    <IntroducedVersion>1.3.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{83595ed9-0494-4aa5-9003-6d2dccd63ac2}" IsUserDefined="1" name="General">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="General_section_4" showlabel="false" showbar="false" locklevel="0" id="{1757da45-b53b-8706-71da-785c7d89d527}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{392960a6-1ece-49e9-abd6-dc1a467ae379}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abda5613-64e7-0cd3-cd19-224b67178210}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0381ccd3-0135-4060-9a25-0f1cb87ff871}" columns="111" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+        <rows>
+          <row>
+            <cell id="{aba6ec92-9d92-48c6-87d1-018a0542c0a7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2d29fdd0-7ee1-4656-bac5-9e063063d14e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2b73304c-0aa3-ab36-851c-411e61b82695}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="msfsi_insuredasset_insurancepolicyid_msfs" Sequence="9601" Area="Info" Id="nav_msfsi_insuredasset_insurancepolicyid_msfs" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Insured assets" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_coverage_insurancepolicyid_msfsi_in" Sequence="9602" Area="Info" Id="nav_msfsi_coverage_insurancepolicyid_msfsi_in">
+            <Titles>
+              <Title LCID="1033" Text="Coverages" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9603" Area="Info" Id="navAudit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Audit history" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_relatedpartycontract_policyenti" Sequence="10001" Area="Info" Id="nav_msfsi_msfsi_relatedpartycontract_policyenti">
+            <Titles>
+              <Title LCID="1033" Text="Related parties" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_payment_event_msfsi_policy" Sequence="10002" Area="Info" Id="nav_msfsi_msfsi_payment_event_msfsi_policy">
+            <Titles>
+              <Title LCID="1033" Text="Payments" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_policy_parentpolicy_msfsi_" Sequence="10003" Area="Info" Id="nav_msfsi_msfsi_policy_parentpolicy_msfsi_">
+            <Titles>
+              <Title LCID="1033" Text="Policies" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_claim_insurancepolicyid_msfsi_insur" Sequence="10004" Area="Info" Id="nav_msfsi_claim_insurancepolicyid_msfsi_insur">
+            <Titles>
+              <Title LCID="1033" Text="Claims" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_termdocumentpolicypart_policyenti" Sequence="10005" Area="Info" Id="nav_msfsi_msfsi_termdocumentpolicypart_policyenti" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Term document policy entities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_policytransaction_insurancepolicyid_msfsi_" Sequence="10006" Area="Info" Id="nav_msfsi_policytransaction_insurancepolicyid_msfsi_">
+            <Titles>
+              <Title LCID="1033" Text="Policy terms" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_policyagent_insurancepo" Sequence="10008" Area="Info" Id="nav_msfsi_policyagent_insurancepo">
+            <Titles>
+              <Title LCID="1033" Text="Policy Agents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_policyagency_insurancepoli" Sequence="10009" Area="Info" Id="nav_msfsi_policyagency_insurancepoli">
+            <Titles>
+              <Title LCID="1033" Text="Policy agencies" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{621ebae3-8d3f-41dc-b334-7eebf084b86f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2c64e2fe-3096-4ecb-be1c-2cce291d42ea}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{787cdd4e-3e02-4ddf-b189-45bfefaeabc6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fcda1650-c173-4ebd-8c57-dd5209ac287d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RibbonDiffXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CustomActions>
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_fi_directdebit.Flyout.Dummy.Hide" Location="AIBuilder.msfsi_fi_directdebit.Flyout.Dummy" />
+    <HideCustomAction HideActionId="msfsi.AIBuilder.msfsi_fi_directdebit.Flyout.Hide" Location="AIBuilder.msfsi_fi_directdebit.Flyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Activate.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddAppointment.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddCampaignResponse.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddConnection.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddEmail.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddFax.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddFile.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddLetter.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddNote.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddOtherActivities.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddPhone.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddRecurringAppointment.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddServiceActivity.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddTask.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.AddToQueue.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Convert.Case.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Convert.Case" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Convert.Opportunity.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Convert.Opportunity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.CopySelected.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.CustomizeEntity.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Deactivate.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Delete.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.FormDesign.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.FormDesign" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.MailMerge.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.NewRecord.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.NewRecordForBPFEntity.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.OpenActiveStage.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.PDFButtonId.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.PDFButtonId" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Permissions.Grant.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Permissions.Grant" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Permissions.GrantUCI.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Permissions.GrantUCI" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Permissions.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Permissions" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.PromoteToResponse.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.PromoteToResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.PublishAll.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.PublishEntity.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.QueueItemDetail.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.QueueItemDetail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.Reports.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.Reports" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.RunScript.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.RunWorkflow.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.SaveAndNew.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.SaveAndNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.SaveAsComplete.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.SaveAsComplete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.SuggestProduct.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.SuggestProduct" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.ViewHierarchy.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.Form.msfsi_fi_directdebit.WordTemplate.Hide" Location="Mscrm.Form.msfsi_fi_directdebit.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.AreaFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.ColumnFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Line" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Other" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Charts.Pie" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.ExpandChart" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.Save.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.BottomFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.Clear" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout.Hide" Location="Mscrm.HomepageGrid.AllEntities.VisualizationTab.TopBottom.TopFlyout" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Activate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddCampaignResponse.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddCampaignResponse" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddConnection.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddEmail.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddEmail" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddFax.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddFax" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddFile.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddFile" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddLetter.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddLetter" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddNote.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddNote" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddOtherActivities.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddOtherActivities" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddPhone.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddPhone" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddRecurringAppointment.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddRecurringAppointment" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddServiceActivity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddServiceActivity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddTask.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddTask" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AddToQueue.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.AdvancedFind.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.AdvancedFind" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.ChangeDataSetControlButton.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Delete.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Expand.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Expand" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Export.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Export" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.New.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.New" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.SaveCopy.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Chart.SaveCopy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Charts.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Copy.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Copy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.CustomizeEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.CustomizeEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.CustomizePreviewPane.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.CustomizePreviewPane" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Deactivate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.DeleteMenu.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.DeleteMenu" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.DesignView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.DesignView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Detect.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.DocumentTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Edit.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Flows.RefreshCommandBar.Flows.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Flows.RefreshCommandBar.Flows" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Flows.RefreshCommandBar.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Help.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Help" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Import.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Import" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.ImportDataFromExcel.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.ImportDataFromExcel" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.MailMerge.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.MainFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.MainFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.ManageView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.ManageView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.MBPF.ConvertTo.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.MBPF.ConvertTo" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.Meqf.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.Meqf" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.NavigateToHomepageGrid.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.NavigateToHomepageGrid" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.NewRecord.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.NewRecordForBPFEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.NewRecordForBPFEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.NewView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.NewView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.OpenActiveStage.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.OpenActiveStage" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.PublishAll.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.PublishAll" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.PublishEntity.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.PublishEntity" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.RunReport.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.RunScript.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.RunWorkflow.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveAsDefaultGridView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveAsNew.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveFiltersToCurrentSystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveFiltersToCurrentSystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveToCurrent.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.SystemView.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.SystemView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.ViewFilters.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.ViewFilters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.ViewHierarchy.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.ViewHierarchy" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.HomepageGrid.msfsi_fi_directdebit.WordTemplate.Hide" Location="Mscrm.HomepageGrid.msfsi_fi_directdebit.WordTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Activate.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Activate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AddConnection.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AddConnection" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AddExistingAssoc.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AddExistingAssoc" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AddExistingStandard.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AddExistingStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AddNewStandard.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AddNewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AddToQueue.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AddToQueue" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AdvMergeRecords.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AdvMergeRecords" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.AssociateParentChildCase.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.AssociateParentChildCase" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.BulkDelete.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.BulkDelete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.ChangeDataSetControlButton.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.ChangeDataSetControlButton" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Charts.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Charts" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.CopySelected.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.CopySelected" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Deactivate.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Deactivate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Delete.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Delete" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Detect.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Detect" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.DocumentTemplate.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.DocumentTemplate" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Edit.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Edit" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Filters.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Filters" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Flows.RefreshCommandBar.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Flows.RefreshCommandBar" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.MailMerge.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.MailMerge" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.NewRecord.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.NewRecord" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.OpenAssociatedGridViewStandard.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.OpenAssociatedGridViewStandard" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.Remove.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.Remove" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.RunReport.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.RunReport" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.RunScript.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.RunScript" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.RunWorkflow.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.RunWorkflow" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.SaveAsDefaultGridView.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.SaveAsDefaultGridView" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.SaveAsNew.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.SaveAsNew" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.SaveToCurrent.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.SaveToCurrent" />
+    <HideCustomAction HideActionId="msfsi.Mscrm.SubGrid.msfsi_fi_directdebit.WordTemplate.Hide" Location="Mscrm.SubGrid.msfsi_fi_directdebit.WordTemplate" />
+  </CustomActions>
+  <Templates>
+    <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+  </Templates>
+  <CommandDefinitions />
+  <RuleDefinitions>
+    <TabDisplayRules />
+    <DisplayRules />
+    <EnableRules />
+  </RuleDefinitions>
+  <LocLabels />
+</RibbonDiffXml>

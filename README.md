@@ -9,7 +9,7 @@
 # Introduction
 [**Introduction**][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
-The Financial Services Repository contains the code-base for the Unified customer profile, Loan onboarding and Onboarding essentials.
+The Financial Services Repository contains the code-base for the Unified customer profile, Loan onboarding, Onboarding essentials, Banking data model, Small business data model and Property and Casualty data model.
 
 The **Unified customer profile** provides a 360-degree perspective of the customer in a clear and intuitive way. It helps professionals have a good understanding of their customer’s financial details, important life moments, goals and much more, in order to be able to effectively maintain or deepen their loyalty. It has been tailored to fit the specific needs of professionals operating in the retail banking and the wealth management industries.
 
@@ -20,12 +20,18 @@ The **Unified customer profile** provides a 360-degree perspective of the custom
 
 **Onboarding essentials** provides a set of configurable components to address any onboarding scenarios. You can create an application using a combination of the Onboarding components and out-of-the-box platform components. Learn more about Onboarding essentials [here](https://learn.microsoft.com/en-us/dynamics365/industry/financial-services/onboarding-application-toolkit-components).
 
+**Banking data model** provides the foundation for operational capabilities across retail banking and wealth management. Learn more about retail banking data model [here](https://learn.microsoft.com/en-us/common-data-model/schema/core/industrycommon/financialservices/retailbankingcoredatamodel/overview)
+
+**Small business data model** extends the Microsoft Cloud for Financial Services data model foundation to represent individuals and allows linking small businesses to individual financial holdings. Learn more about small business data model [here](https://learn.microsoft.com/en-us/common-data-model/schema/core/industrycommon/financialservices/smbdatamodel/overview)
+
+**Property and Casualty data model** captures new attributes including policy and coverage information, claims, insurance providers and producers. Learn more about property and casualty data model [here](https://learn.microsoft.com/en-us/common-data-model/schema/core/industrycommon/financialservices/propertyandcasualtydatamodel/overview)
+
 # Overview
 [Introduction][Introduction] | [**Overview**][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
 This guide walks you through the entire process of building and deploying any of the solutions within the Financial Services Experiences, such as the Unified customer profile, Loan onboarding or Onboarding essentials. It introduces the list of essential prerequisites, a set of detailed code setup instructions, a deployment guidance into the Power Platform environment, and an overview of the tools at your disposal. To install the solution, you can either carefully follow the instructions outlined in the following sections or use `InstallTools.cmd` in [**Tools**][UsedTools].
 
-**Note**: To guarantee a smooth build process, you may need to have a memory of 8GB or more to avoid running out of memory on build.
+**Note**: To guarantee a smooth build process, you may need to have a memory of 8GB or more to avoid running out of memory on build. Consider using [Windows PowerShell of version 5.1](https://learn.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) as needed throughout setup steps.
 
 # Prerequisites installations
 [Introduction][Introduction] | [Overview][Overview] | [**Prerequisites installations**][Prerequisitesinstallations] | [Repo code setup][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
@@ -75,7 +81,7 @@ To install the CRM SDK tools, you can manually the specified steps, or run the `
 [Introduction][Introduction] | [Overview][Overview] | [Prerequisites installations][Prerequisitesinstallations] | [**Repo code setup**][Repocodesetup] | [Deploy][Deploying] | [Tools][UsedTools]
 
 1. Clone the [repository](https://github.com/microsoft/fsi-experiences).
-2. If you're planning to go through the deployment process later, make sure to have plug-ins signed before building the solution in this stage. To achieve that, you can follow the instructions highlighted in [signing and registering plug-ins][PluginRegister] section. 
+2. Make sure to have plug-ins signed before building the solution in this stage. To achieve that, you can follow the instructions highlighted in [signing and registering plug-ins][PluginRegister] section. 
 3. Run `pnpm install` in `\frontend` directory to install all dependent node libraries. If you encountered an error, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and try again.
 4. Run `pnpm build-libs` in `\frontend` directory to build all dependent node libraries.
 5. Open `Modules\FSI.sln` in Visual Studio, and build the solution. If the build fails, go to the next step.
@@ -253,7 +259,7 @@ Plug-ins must be signed before the deployment stage. Otherwise, the deployment w
 2. Start the tool using Visual Studio Developer Command Prompt, go to `build\config` folder, and follow the steps in this [documentation](https://learn.microsoft.com/en-us/dotnet/standard/assembly/create-public-private-key-pair#create-a-key-pair) to create a key pair, **call it *"key.snk"***.
 3. Extract the public key from the key pair and copy it to a separate file as declared in the documentation in step 2, you'll need the *public.snk* file to extract the public key token.
 4. Run `sn -tp public.snk` on Visual Studio Developer Command Prompt and save the extracted public key token.
-5. Follow the steps [here](https://learn.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name?source=recommendations#create-and-sign-an-assembly-with-a-strong-name-by-using-visual-studio) to sign the assembly using Visual Studio. The strong name key file path should point to your key pair file, i.e., `$(MSBuildThisFileDirectory)\build\config\key.snk`.
+5. Follow the steps [here](https://learn.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name?source=recommendations#create-and-sign-an-assembly-with-a-strong-name-by-using-visual-studio) to sign the assemblies (.Plugins.csproj files found under the Modules directory) using Visual Studio. The strong name key file path should point to your key pair file, i.e., `$(MSBuildThisFileDirectory)\build\config\key.snk`.
 6. Using Visual Studio Code, search for *"PublicKeyToken=null"*, and replace all results with the public key token extracted previously in step 4, *i.e, PublicKeyToken=<extracted_public_key_token>*.
 
 For plug-ins registration, you can follow the steps in this [documentation](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
@@ -390,10 +396,21 @@ Note that the `FakeXrmEasy` is taken locally since it is an edited version of th
 4. Run the install file: `.\RegisterXRMPackageDeployment.ps1`.
 5. Before deploying the model, make sure to change the maximum file size limit on the Power Platform environment where you want to deploy the model. Follow the instructions in [this documentation](https://learn.microsoft.com/power-apps/developer/data-platform/file-attributes?tabs=sdk).
 6. If you wish to have your Power Platform environment localized, you can import the compressed file supporting your preferred language from `$RepoRoot\Modules\UnifiedCustomerProfile\Localization` into your environment. 
-7. Deploy the Banking data model from Microsoft Solution center, available in [Financial Services](https://solutions.microsoft.com/Microsoft%20Cloud%20for%20Financial%20Services)
-   1. Select the Banking data model and then select **Deploy**.
-   2. Choose any additional components you require.
-   3. Select your Power Platform environment.
+7. Consider tracking the right order through the deployment process, the following table illustrates the dependencies between the packages in this repository, dependencies must be deployed first:
+
+| Solution                                             | Solution Dependencies                          |
+| ---------------------------------------------------- | ---------------------------------------------- |
+| Banking data model                                   | -                                              |
+| Document intelligence data model                     | -                                              |
+| Onboarding essentials                                | Document intelligence data model               |
+| Unified customer profile for retail banking          | Banking data model                             |
+| Unified client profile for wealth management         | Banking data model                             |
+| Loan onboarding                                      | Onboarding essentials                          |
+| Small business data model                            | -                                              |
+| Property and Casualty data model                     | -                                              |
+
+
+
 
 Currently, no automated import tool is available. However, to use the PowerShell tool to import package, you can follow the instructions outlined in the [official documentation](https://docs.microsoft.com/en-us/power-platform/admin/deploy-packages-using-package-deployer-windows-powershell#import), and to use the Package Deployer tool, you should consider [this version](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.Wpf/9.1.0.84#release-body-tab) mentioned previously in **step 1** above, instead of the version attached in the documentation.
 

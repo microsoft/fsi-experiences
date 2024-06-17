@@ -93,7 +93,7 @@
         <Dependent type="1" schemaName="msfsi_application" displayName="Application" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="msfsi_archivereason" displayName="Archive reason" solution="CommonDataModel (1.4.0.0)" />
+        <Required type="1" schemaName="msfsi_archivereason" displayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
         <Dependent type="29" displayName="Archive Loan Application" id="{a2a38135-ebda-ed11-a7c7-0022482804c6}" />
       </MissingDependency>
       <MissingDependency>
@@ -117,11 +117,11 @@
         <Dependent type="29" displayName="Archive Loan Application" id="{a2a38135-ebda-ed11-a7c7-0022482804c6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="msfsi_archivereasonid" displayName="Archive reason" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" solution="CommonDataModel (1.4.0.0)" />
+        <Required type="2" schemaName="msfsi_archivereasonid" displayName="Archive reason" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
         <Dependent type="29" displayName="Archive Loan Application" id="{a2a38135-ebda-ed11-a7c7-0022482804c6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" solution="CommonDataModel (1.4.0.0)" />
+        <Required type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_archivereason" parentDisplayName="Archive reason" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
         <Dependent type="29" displayName="Archive Loan Application" id="{a2a38135-ebda-ed11-a7c7-0022482804c6}" />
       </MissingDependency>
     </MissingDependencies>

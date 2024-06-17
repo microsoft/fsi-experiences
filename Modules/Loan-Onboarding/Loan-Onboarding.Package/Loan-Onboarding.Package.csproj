@@ -32,8 +32,58 @@
       <Link>$(ModuleName)\FSILoanOnboardingStarter_managed.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\DocumentIntelligence\FSIDocumentCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIDocumentCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\DocumentIntelligence\FSIDocumentIntelligenceControls_managed.zip">
+      <Link>$(ModuleName)\FSIDocumentIntelligenceControls_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Onboarding-Essentials\FSIApplicationQueueControl_managed.zip">
+      <Link>$(ModuleName)\FSIApplicationQueueControl_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Onboarding-Essentials\FSIOnboardingEssentialsTasks_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsTasks_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Onboarding-Essentials\FSIOnboardingEssentialsControls_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsControls_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSIFinancialServicesCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\DocumentIntelligence\FSIDocumentIntelligenceDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIDocumentIntelligenceDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\DocumentIntelligence\FSIDocumentIntelligenceCore_managed.zip">
+      <Link>$(ModuleName)\FSIDocumentIntelligenceCore_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Onboarding-Essentials\FSIOnboardingEssentialsDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Onboarding-Essentials\FSIOnboardingEssentialsBase_managed.zip">
+      <Link>$(ModuleName)\FSIOnboardingEssentialsBase_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Banking-Data-Model\FSIFinancialServicesCommonDataModel\FSIFinancialServicesCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\DocumentIntelligence\FSIDocumentCommonDataModel\FSIDocumentCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\DocumentIntelligence\FSIDocumentIntelligenceDataModel\FSIDocumentIntelligenceDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\DocumentIntelligence\FSIDocumentIntelligenceCore\FSIDocumentIntelligenceCore.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\DocumentIntelligence\FSIDocumentIntelligenceControls\FSIDocumentIntelligenceControls.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\Onboarding-Essentials\FSIOnboardingEssentialsDataModel\FSIOnboardingEssentialsDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Onboarding-Essentials\FSIOnboardingEssentialsBase\FSIOnboardingEssentialsBase.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Onboarding-Essentials\FSIApplicationQueueControl\FSIApplicationQueueControl.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Onboarding-Essentials\FSIOnboardingEssentialsTasks\FSIOnboardingEssentialsTasks.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Onboarding-Essentials\FSIOnboardingEssentialsControls\FSIOnboardingEssentialsControls.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSILoanOnboardingStarterAnchor\FSILoanOnboardingStarterAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSILoanOnboardingStarterDataModel\FSILoanOnboardingStarterDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSILoanOnboardingStarterSecurityRoles\FSILoanOnboardingStarterSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />

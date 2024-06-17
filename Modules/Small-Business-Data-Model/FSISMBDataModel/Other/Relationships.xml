@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_msfsi_person" />
+  <EntityRelationship Name="lk_msfsi_person_createdby" />
+  <EntityRelationship Name="lk_msfsi_person_modifiedby" />
+  <EntityRelationship Name="msfsi_msfsi_person_contact_Person" />
+  <EntityRelationship Name="owner_msfsi_person" />
+  <EntityRelationship Name="team_msfsi_person" />
+  <EntityRelationship Name="user_msfsi_person" />
+</EntityRelationships>

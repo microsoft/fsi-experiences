@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DynamicsProjectType>Package</DynamicsProjectType>
+	  <ModuleName>Banking-Data-Model</ModuleName>
+    <AnchorSolutionName>FSIRetailBankingDataModelAnchor</AnchorSolutionName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="PackageExtra\**\*.*">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="$(ModuleName)\**\*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIRetailBankingCoreDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIRetailBankingDataModelAnchor_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingDataModelAnchor_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIFinancialServicesCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSILoanOnboardingDataModel_managed.zip">
+      <Link>$(ModuleName)\FSILoanOnboardingDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSICoreRetailBankingSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSICoreRetailBankingSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\FSIRetailBankingCoreDataModel\FSIRetailBankingCoreDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIRetailBankingDataModelAnchor\FSIRetailBankingDataModelAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSIFinancialServicesCommonDataModel\FSIFinancialServicesCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSILoanOnboardingDataModel\FSILoanOnboardingDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\FSICoreRetailBankingSecurityRoles\FSICoreRetailBankingSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+
+</Project>

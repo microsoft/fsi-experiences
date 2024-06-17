@@ -99,6 +99,42 @@
     {
       "ProjectName": "FSIDocumentIntelligenceAnchor",
       "SolutionName": "DocumentIntelligenceAnchor"
+    },
+    {
+      "ProjectName": "FSIPropertyCasualtyDataModel",
+      "SolutionName": "PropertyCasualtyDataModel"
+    },
+    {
+      "ProjectName": "FSICommonSecurityRoles",
+      "SolutionName": "CommonSecurityRoles"
+    },
+    {
+      "ProjectName": "FSICoreRetailBankingSecurityRoles",
+      "SolutionName": "CoreRetailBankingSecurityRoles"
+    },
+    {
+      "ProjectName": "FSIFinancialServicesCommonDataModel",
+      "SolutionName": "FinancialServicesCommonDataModel"
+    },
+    {
+      "ProjectName": "FSIFinancialServicesConfiguration",
+      "SolutionName": "FinancialServicesConfiguration"
+    },
+    {
+      "ProjectName": "FSILoanOnboardingDataModel",
+      "SolutionName": "LoanOnboardingDataModel"
+    },
+    {
+      "ProjectName": "FSIRetailBankingCoreDataModel",
+      "SolutionName": "RetailBankingCoreDataModel"
+    },
+    {
+      "ProjectName": "FSIRetailBankingDataModelAnchor",
+      "SolutionName": "RetailBankingDataModelAnchor"
+    },
+    {
+      "ProjectName": "FSISMBDataModel",
+      "SolutionName": "SMBDataModel"
     }
   ]
 }

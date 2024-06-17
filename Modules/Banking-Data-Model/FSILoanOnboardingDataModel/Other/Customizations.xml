@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <EntityAnalyticsConfigs>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>contact</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_applicationdocument</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_bank</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_customdocument</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_creditcheck</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_kyc</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplication</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationcontact</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_collateral</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_employment</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationasset</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationcollateral</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationcollateralvaluation</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationcontactasset</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationcontactliability</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationliability</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+      <isenabledfortimeseries>0</isenabledfortimeseries>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationexpense</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+    </EntityAnalyticsConfig>
+    <EntityAnalyticsConfig>
+      <parententitylogicalname>msfsi_loanapplicationincome</parententitylogicalname>
+      <isenabledforadls>1</isenabledforadls>
+    </EntityAnalyticsConfig>
+  </EntityAnalyticsConfigs>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

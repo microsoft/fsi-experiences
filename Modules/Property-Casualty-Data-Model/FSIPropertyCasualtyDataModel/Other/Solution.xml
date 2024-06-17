@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22071.176" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>PropertyCasualtyDataModel</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Property and Casualty Data Model" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.4.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>microsoft_fsi</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Microsoft_FSI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="2" />
+      <RootComponent type="1" schemaName="msfsi_affiliation" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_agency" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_agent" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_agentagency" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_agentinsurer" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_assetdetail" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_assetdetailcatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_authorizedjurisdiction" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_brokeragency" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_causeofloss" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_causeoflosscatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_causeoflosslob" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_claim" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_claimrevision" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_claimrevisionstatus" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_country" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_coverage" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_coveragecatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_coveragedetail" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_coveragedetailcatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_coveragelob" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_detailtype" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_document" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_documentpartycontract" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_exclusioninclusion" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_exclusioninclusioncatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_exclusioninclusionlob" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insuredassetclaim" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insuredassetlocation" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insuredassetlocationasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insuredautoasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insuredgenericasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insuredhomeasset" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insurer" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_insureragency" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_lob" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_lobassetdetailcatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_lobcatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_payment" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_paymentparty" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_policy" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_policyagency" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_policyagent" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_policyproduct" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_policyproductlob" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_policytransaction" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_professionallicense" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_relatedpartycontract" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_stateprovince" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_termdocumentcatalog" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_termdocumentpolicypart" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_agencytier" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_agenttype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_areausagetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_assetownershiptype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_assettype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_assetusagetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_authorizationallowedtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_channeltypes" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_claimresolvedstate" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_claimstatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_claimtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_coveragecategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_coveragedetailvaluetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_coveragetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_distanceunits" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documentcategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documentdeliverymethod" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documentpartyroletype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_documenttype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_excludeinclude" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_frequency" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insurancedetailcategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insurancelobtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insurancepaymentpartymethod" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insurancepaymentpartyroletype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insurancepolicytype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insuredassetcategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insuredassetlocationcategory" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_insurertype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_licensestatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_licensetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_paymentpartytype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_policycancellationtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_policylifecycletype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_policystatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_profiletier" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_propertyrating" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_registrationtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_relatedpartyroletype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_relatedpartytype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_reportingchannel" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_typeofproperty" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_valuerangetype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_vehiclecategory" behavior="0" />
+      <RootComponent type="430" schemaName="account" behavior="0" />
+      <RootComponent type="430" schemaName="contact" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_affiliation" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_agency" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_agent" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_agentagency" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_agentinsurer" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_assetdetail" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_assetdetailcatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_authorizedjurisdiction" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_brokeragency" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_causeofloss" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_causeoflosscatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_causeoflosslob" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_claim" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_claimrevision" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_country" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_coverage" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_coveragecatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_coveragedetail" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_coveragedetailcatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_coveragelob" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_detailtype" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_document" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_documentpartycontract" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_exclusioninclusion" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_exclusioninclusioncatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_exclusioninclusionlob" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insuredassetclaim" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insuredassetlocation" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insuredassetlocationasset" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insuredautoasset" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insuredgenericasset" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insuredhomeasset" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insurer" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_insureragency" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_lob" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_lobassetdetailcatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_lobcatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_payment" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_paymentparty" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_policy" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_policyagency" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_policyagent" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_policyproduct" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_policyproductlob" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_policytransaction" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_professionallicense" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_relatedpartycontract" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_stateprovince" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_termdocumentcatalog" behavior="0" />
+      <RootComponent type="430" schemaName="msfsi_termdocumentpolicypart" behavior="0" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>

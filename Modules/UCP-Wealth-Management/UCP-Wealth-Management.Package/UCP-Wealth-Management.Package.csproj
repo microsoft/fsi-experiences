@@ -34,6 +34,26 @@
       <Link>$(ModuleName)\FSIWealthManagementSecurityRoles_managed.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+        <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSIFinancialServicesCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSIRetailBankingCoreDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIRetailBankingCoreDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSICoreRetailBankingSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSICoreRetailBankingSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSICommonSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSICommonSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSIFinancialServicesConfiguration_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesConfiguration_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +62,11 @@
     <ProjectReference Include="..\FSIWealthManagement\FSIWealthManagement.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSIWealthManagementAnchor\FSIWealthManagementAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSIWealthManagementSecurityRoles\FSIWealthManagementSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSIFinancialServicesCommonDataModel\FSIFinancialServicesCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSIRetailBankingCoreDataModel\FSIRetailBankingCoreDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSICoreRetailBankingSecurityRoles\FSICoreRetailBankingSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSICommonSecurityRoles\FSICommonSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSIFinancialServicesConfiguration\FSIFinancialServicesConfiguration.csproj" Condition="'$(TF_BUILD)' == 'False'" />
   </ItemGroup>
 
   <ItemGroup>

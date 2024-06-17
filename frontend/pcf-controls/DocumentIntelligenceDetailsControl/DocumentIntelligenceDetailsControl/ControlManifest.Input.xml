@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <control namespace="MicrosoftPCF" constructor="DocumentIntelligenceDetailsControl" version="1.4.0" display-name-key="DocumentIntelligenceDetailsControl" description-key="DocumentIntelligenceDetailsControl description" control-type="virtual">
-    <external-service-usage enabled="false"> </external-service-usage>
+    <external-service-usage enabled="false">
+    </external-service-usage>
     <type-group name="Entity">
       <type>SingleLine.Text</type>
       <type>Lookup.Simple</type>

@@ -124,7 +124,7 @@
         <Dependent type="10" schemaName="msfsi_msfsi_loan_applicationcollateral_loanappl" displayName="msfsi_msfsi_loan_applicationcollateral_loanappl" parentSchemaName="msfsi_application" parentDisplayName="Application" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="CommonDataModel (1.4.0.0)" />
+        <Required type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" solution="OnboardingEssentialsDataModel (1.4.0.0)" />
         <Dependent type="9" schemaName="msfsi_businessscenario" displayName="Business scenario" />
       </MissingDependency>
       <MissingDependency>

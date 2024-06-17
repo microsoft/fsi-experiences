@@ -1,0 +1,35 @@
+<Project ToolsVersion="14.0" DefaultTargets="Build"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', $(MSBuildThisFileDirectory)))"
+        Condition="Exists($([MSBuild]::GetPathOfFileAbove('Directory.Build.props', $(MSBuildThisFileDirectory))))" />
+    <ItemGroup>
+        <ProjectToBuild Include="..\frontend\pcf-controls\ApplicantListControl\ApplicantListControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\CustomerSnapshotControl\CustomerSnapshotControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\CustomerSummaryControl\CustomerSummaryControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\DetailedFHControl\DetailedFHControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\DocumentIntelligenceControl\DocumentIntelligenceControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\DocumentIntelligenceDetailsControl\DocumentIntelligenceDetailsControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\EntitySnapshotControl\EntitySnapshotControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\FinancialHoldingInformationControl\FinancialHoldingInformationControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\FinancialHoldingSelectorControl\FinancialHoldingSelectorControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\GroupsControl\GroupsControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\InvestmentsPortfoliosControl\InvestmentsPortfoliosControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\OnboardingApplicationAssetsAndLiabilitiesControl\OnboardingApplicationAssetsAndLiabilitiesControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\OnboardingApplicationIncomeAndExpensesControl\OnboardingApplicationIncomeAndExpensesControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\OnboardingApplicationQueueControl\OnboardingApplicationQueueControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\OnboardingApplicationTaskProgressOverviewControl\OnboardingApplicationTaskProgressOverviewControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\OnboardingApplicationTasksControl\OnboardingApplicationTasksControl.pcfproj" />
+        <ProjectToBuild Include="..\frontend\pcf-controls\TaskVerificationControl\TaskVerificationControl.pcfproj" />
+    </ItemGroup>
+    <Target Name="Clean">
+        <MSBuild Projects="@(ProjectToBuild)" BuildInParallel="True" Targets="Clean" />
+    </Target>
+    <Target Name="Restore">
+        <MSBuild Projects="@(ProjectToBuild)" BuildInParallel="True" Targets="Restore" />
+    </Target>
+    <Target Name="Build">
+        <MSBuild Projects="@(ProjectToBuild)" BuildInParallel="True" />
+    </Target>
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.targets', $(MSBuildThisFileDirectory)))"
+        Condition="Exists($([MSBuild]::GetPathOfFileAbove('Directory.Build.targets', $(MSBuildThisFileDirectory))))" />
+</Project>

@@ -32,3 +32,15 @@ OnboardingEssentials.Plugins.dll
 OnboardingEssentials.Plugins.pdb
 OnboardingEssentialsBase.Plugins.dll
 OnboardingEssentialsBase.Plugins.pdb
+FSILoanOnboardingStarter.dll
+FSILoanOnboardingStarter.pdb
+FSILoanOnboardingStarterAnchor.dll
+FSILoanOnboardingStarterAnchor.pdb
+FSILoanOnboardingStarterDataModel.dll
+FSILoanOnboardingStarterDataModel.pdb
+FSILoanOnboardingStarterRibbon.dll
+FSILoanOnboardingStarterRibbon.pdb
+FSILoanOnboardingStarterSecurityRoles.dll
+FSILoanOnboardingStarterSecurityRoles.pdb
+Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins.dll
+Microsoft.CloudForFSI.LoanOnboardingStarterRibbon.Plugins.pdb

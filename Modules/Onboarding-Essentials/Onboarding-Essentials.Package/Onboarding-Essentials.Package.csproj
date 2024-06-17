@@ -14,6 +14,26 @@
     <Content Include="$(ModuleName)\**\*.*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\DocumentIntelligence\FSIDocumentCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIDocumentCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\DocumentIntelligence\FSIDocumentIntelligenceDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIDocumentIntelligenceDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSIFinancialServicesCommonDataModel_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesCommonDataModel_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSIFinancialServicesConfiguration_managed.zip">
+      <Link>$(ModuleName)\FSIFinancialServicesConfiguration_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\Banking-Data-Model\FSICommonSecurityRoles_managed.zip">
+      <Link>$(ModuleName)\FSICommonSecurityRoles_managed.zip</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="..\..\..\drop\$(Configuration)\$(Platform)\Solutions\$(ModuleName)\FSIOnboardingEssentialsAnchor_managed.zip">
       <Link>$(ModuleName)\FSIOnboardingEssentialsAnchor_managed.zip</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -44,6 +64,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DocumentIntelligence\FSIDocumentCommonDataModel\FSIDocumentCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\DocumentIntelligence\FSIDocumentIntelligenceDataModel\FSIDocumentIntelligenceDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'"/>
+    <ProjectReference Include="..\..\Banking-Data-Model\FSIFinancialServicesCommonDataModel\FSIFinancialServicesCommonDataModel.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSIFinancialServicesConfiguration\FSIFinancialServicesConfiguration.csproj" Condition="'$(TF_BUILD)' == 'False'" />
+    <ProjectReference Include="..\..\Banking-Data-Model\FSICommonSecurityRoles\FSICommonSecurityRoles.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSIOnboardingEssentialsAnchor\FSIOnboardingEssentialsAnchor.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSIOnboardingEssentialsBase\FSIOnboardingEssentialsBase.csproj" Condition="'$(TF_BUILD)' == 'False'" />
     <ProjectReference Include="..\FSIOnboardingEssentialsTasks\FSIOnboardingEssentialsTasks.csproj" Condition="'$(TF_BUILD)' == 'False'" />

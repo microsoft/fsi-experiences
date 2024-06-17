@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b6dfb4f9-3292-4487-b8b3-af81bb50a124}</savedqueryid>
+    <layoutxml>
+      <grid name="msfsi_exclusioninclusionlobs" jump="msfsi_name" select="1" icon="1" preview="1">
+        <row name="msfsi_exclusioninclusionlob" id="msfsi_exclusioninclusionlobid">
+          <cell name="msfsi_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_exclusioninclusionlob">
+          <attribute name="msfsi_exclusioninclusionlobid" />
+          <attribute name="msfsi_name" />
+          <attribute name="createdon" />
+          <order attribute="msfsi_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="LOB exclude/Include Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

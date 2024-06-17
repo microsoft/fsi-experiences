@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
   <control namespace="MicrosoftPCF" constructor="DocumentIntelligenceControl" version="1.4.0" display-name-key="DocumentIntelligenceControl" description-key="DocumentIntelligenceControl description" control-type="standard">
-    <external-service-usage enabled="false"> </external-service-usage>
+    <external-service-usage enabled="false">
+    </external-service-usage>
     <type-group name="Lookup">
       <type>Lookup.Customer</type>
       <type>Lookup.Simple</type>
@@ -16,7 +17,8 @@
       <type>OptionSet</type>
     </type-group>
     <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
-    <data-set name="documents" display-name-key="DOCUMENTS_CONTROL_DATASET_NAME" cds-data-set-options="displayCommandBar:false;displayQuickFind:false"> </data-set>
+    <data-set name="documents" display-name-key="DOCUMENTS_CONTROL_DATASET_NAME" cds-data-set-options="displayCommandBar:false;displayQuickFind:false">
+    </data-set>
     <data-set name="regardingList" display-name-key="REGARDING_DATASET_NAME">
       <property-set name="regardingName" display-name-key="REGARDING_NAME" description-key="REGARDING_NAME_DESC" of-type-group="TextOrLookup" usage="bound" required="true" />
       <property-set name="regardingContext" display-name-key="REGARDING_CONTEXT" description-key="REGARDING_CONTEXT_DESC" of-type-group="Lookup" usage="bound" required="false" />

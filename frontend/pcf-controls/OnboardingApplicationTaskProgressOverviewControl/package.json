@@ -24,5 +24,8 @@
       "pcf-scripts": "^1",
       "pcf-start": "^1",
       "typescript": "^4.1.5"
+  },
+  "resolutions": {
+      "fast-loop": "1.1.4"
   }
 }

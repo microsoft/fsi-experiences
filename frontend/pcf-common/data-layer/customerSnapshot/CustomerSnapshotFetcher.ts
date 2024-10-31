@@ -154,6 +154,7 @@ export class CustomerSnapshotFetcher extends FormFetcher implements ICustomerSna
     async fetchSnapshotMetadata(entityName: string, fields: string[]): Promise<ICustomerSnapshotMetadata> {
         try {
             const metadata: ICustomerSnapshotMetadata = {};
+            // @ts-ignore
             const { Attributes } = await this.ExecuteAndLog(
                 CustomerSnapshotFetcher.name,
                 `Fetch entity metadata. (entity: ${entityName})`,

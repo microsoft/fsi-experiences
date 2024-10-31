@@ -13,8 +13,7 @@ export class FormFetcher extends PCFBaseFetcher {
     async fetchXmlFormLayout(formId: string): Promise<{ type: number; entityName: string; xml: string }> {
         try {
             // @ts-ignore
-            const { formxml, objecttypecode : entityName, type
-            } = await this.ExecuteAndLog(
+            const { formxml, objecttypecode : entityName, type } = await this.ExecuteAndLog(
                 FormFetcher.name,
                 `Fetch form metadata. (formId: ${formId})`,
                 `Started fetching form metadata. (formId: ${formId})`,

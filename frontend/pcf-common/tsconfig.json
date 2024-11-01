@@ -6,7 +6,7 @@
         "moduleResolution": "node",
         "outDir": "./dist",
         "alwaysStrict": true,
-        "strict": true,
+        "strict": false,
         "declaration": true,
         "declarationMap": true,
         "esModuleInterop": true,

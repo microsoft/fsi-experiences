@@ -5,7 +5,7 @@
         "alwaysStrict": true,
         "module": "es2015",
         "moduleResolution": "node",
-        "strict": true,
+        "strict": false,
         "declaration": true,
         "declarationMap": true,
         "esModuleInterop": true,
